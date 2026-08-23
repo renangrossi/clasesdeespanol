@@ -1,0 +1,147 @@
+{
+  "id": "b1-voseo-argentino-y-variedades",
+  "level": "B1",
+  "unit": "1",
+  "order": 13,
+  "skill": "grammar",
+  "strand": "variacion",
+  "title": "El Voseo Argentino y Otras Variedades del Español",
+  "subtitle": "Vos hablás, vos tenés, vos sos: la segunda persona informal en gran parte de Sudamérica.",
+  "objectives": [
+    "Conjugar el presente de indicativo y el imperativo con vos",
+    "Reconocer en qué países el voseo es la forma habitual",
+    "Identificar otras diferencias léxicas frecuentes entre variedades del español"
+  ],
+  "content": {
+    "intro": "El español no es un idioma monolítico: en Argentina, Uruguay, Paraguay y partes de Centroamérica, el pronombre vos sustituye a tú como forma informal, con su propia conjugación.",
+    "explanation": "<p>El <strong>voseo</strong> usa el pronombre <strong>vos</strong> en lugar de <em>tú</em>, con una conjugación propia en presente: se toma el infinitivo, se quita la <strong>-r</strong> final, y se añade tilde en la última vocal (<em>hablar &rarr; vos hablás; comer &rarr; vos comés; vivir &rarr; vos vivís</em>). El verbo <strong>ser</strong> es irregular: <em>vos sos</em> (no vos eres). El imperativo afirmativo también es distinto: se quita la <strong>-r</strong> final del infinitivo y se mantiene la tilde (<em>hablá, comé, viví</em>).</p><p>Fuera de la gramática, el español varía mucho en vocabulario según la región: una misma cosa puede tener nombres distintos en España, México, Argentina o el Caribe. Reconocer estas variedades es tan importante como dominar la gramática estándar, porque te prepara para entender español real de cualquier país.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Tú frente a vos — presente e imperativo</caption><thead><tr><th>Verbo</th><th>tú (presente)</th><th>vos (presente)</th><th>vos (imperativo)</th></tr></thead><tbody><tr><td>hablar</td><td>hablas</td><td>hablás</td><td>hablá</td></tr><tr><td>comer</td><td>comes</td><td>comés</td><td>comé</td></tr><tr><td>vivir</td><td>vives</td><td>vivís</td><td>viví</td></tr><tr><td>ser</td><td>eres</td><td>sos</td><td>sé</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Formación del presente con vos",
+        "body": "<p>Infinitivo sin -r + tilde en la última vocal: <em>hablar &rarr; hablás, tener &rarr; tenés, venir &rarr; venís.</em></p>"
+      },
+      {
+        "heading": "b) Países donde el voseo es la norma",
+        "body": "<p>Argentina, Uruguay, Paraguay, y en distintos grados en Centroamérica (sobre todo Costa Rica y partes de Nicaragua, Guatemala, El Salvador, Honduras).</p>"
+      },
+      {
+        "heading": "c) Algunas diferencias léxicas frecuentes",
+        "body": "<ul><li><em>autobús</em> (España) / <em>camión</em> (México) / <em>colectivo</em> (Argentina) / <em>guagua</em> (Caribe)</li><li><em>ordenador</em> (España) / <em>computadora</em> (América Latina)</li><li><em>coger</em> (España, \"tomar/agarrar\") tiene una connotación vulgar en varios países de América Latina, donde se prefiere <em>tomar</em> o <em>agarrar</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Vos hablás muy bien español, ¿dónde lo aprendiste?",
+      "¿Vos querés venir con nosotros esta noche?",
+      "Che, vení un momento, necesito tu ayuda.",
+      "Vos sos de Buenos Aires, ¿no?",
+      "Tomá el colectivo en la esquina, pasa cada diez minutos.",
+      "En España se dice ordenador; en México, computadora.",
+      "En Argentina, el autobús urbano se llama colectivo.",
+      "Vos tenés razón, no lo había pensado así."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Vos hablas muy bien español.",
+        "right": "Vos hablás muy bien español.",
+        "why": "El voseo tiene su propia conjugación, con tilde en la última vocal (hablás), distinta de la forma de tú (hablas)."
+      },
+      {
+        "wrong": "Vos eres de Argentina.",
+        "right": "Vos sos de Argentina.",
+        "why": "Ser es irregular en el voseo: sos, no eres, que corresponde a la forma de tú."
+      },
+      {
+        "wrong": "pensar que el voseo es \"incorrecto\" o \"informal de mala calidad\"",
+        "right": "reconocer el voseo como una norma regional plenamente correcta y estándar en varios países",
+        "why": "El voseo es la forma habitual e incluso oficial en Argentina, Uruguay y Paraguay, no una desviación del español estándar."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1vo-fill",
+      "type": "fill-blank",
+      "title": "Conjuga con Vos",
+      "items": [
+        {
+          "id": "b1vo1",
+          "prompt": "Vos ___ (hablar) muy bien inglés.",
+          "answers": [
+            [
+              "hablás"
+            ]
+          ],
+          "options": [
+            "hablás",
+            "hablas",
+            "hablái"
+          ],
+          "explanation": "Vos + hablar = hablás, con tilde en la última vocal."
+        },
+        {
+          "id": "b1vo2",
+          "prompt": "¿Vos ___ (tener) tiempo para ayudarme hoy?",
+          "answers": [
+            [
+              "tenés"
+            ]
+          ],
+          "options": [
+            "tenés",
+            "tienes",
+            "tenís"
+          ],
+          "explanation": "Vos + tener = tenés, sin el cambio de raíz de la forma de tú."
+        }
+      ]
+    },
+    {
+      "id": "b1vo-mc",
+      "type": "multiple-choice",
+      "title": "Vocabulario Regional",
+      "items": [
+        {
+          "id": "b1vo3",
+          "prompt": "¿Cómo se dice \"computadora\" en España?",
+          "options": [
+            "ordenador",
+            "computador",
+            "máquina"
+          ],
+          "answerIndex": 0,
+          "explanation": "En España se usa ordenador; en América Latina, computadora."
+        },
+        {
+          "id": "b1vo4",
+          "prompt": "¿En qué países el voseo es la forma estándar de segunda persona informal?",
+          "options": [
+            "España y México",
+            "Argentina, Uruguay y Paraguay",
+            "Solo en Argentina"
+          ],
+          "answerIndex": 1,
+          "explanation": "El voseo es la norma estándar en Argentina, Uruguay y Paraguay, y frecuente también en partes de Centroamérica."
+        }
+      ]
+    },
+    {
+      "id": "b1vo-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "b1vo5",
+          "statement": "El voseo es una forma incorrecta o vulgar del español.",
+          "answer": false,
+          "explanation": "El voseo es una norma regional plenamente correcta, oficial y estándar en varios países hispanohablantes."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El voseo usa vos en lugar de tú, con conjugación propia en presente (hablás, comés, vivís) e imperativo (hablá, comé, viví).",
+    "Es la forma estándar en Argentina, Uruguay, Paraguay, y frecuente en partes de Centroamérica.",
+    "El vocabulario también varía mucho por región; reconocer estas diferencias es clave para entender español real de cualquier país."
+  ]
+}

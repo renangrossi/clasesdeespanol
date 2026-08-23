@@ -1,0 +1,156 @@
+{
+  "id": "b1-subjuntivo-deseo-duda-emocion",
+  "level": "B1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "El Presente de Subjuntivo — Deseo, Duda y Emoción",
+  "subtitle": "Cuándo el verbo principal exige subjuntivo en la frase que sigue.",
+  "objectives": [
+    "Identificar los verbos y expresiones que activan el subjuntivo en la subordinada",
+    "Distinguir el uso de creer/pensar en afirmativo (indicativo) y en negativo (subjuntivo)",
+    "Construir frases completas con deseo, duda y emoción usando el subjuntivo correctamente"
+  ],
+  "content": {
+    "intro": "Ya sabes formar el subjuntivo; ahora toca aprender cuándo aparece — y la clave está casi siempre en el verbo de la primera parte de la frase, no en el segundo verbo en sí.",
+    "explanation": "<p>El subjuntivo aparece en una oración subordinada (normalmente introducida por <strong>que</strong>) cuando el verbo principal expresa <strong>deseo</strong> (querer, esperar, desear), <strong>duda o negación de la realidad</strong> (dudar, no creer, no pensar), o <strong>emoción/valoración</strong> (alegrarse de, es una pena que, es importante que). La estructura exige que el sujeto de las dos partes sea distinto; si es el mismo, se usa un infinitivo en lugar de que + subjuntivo.</p><p>Un caso especialmente importante: <strong>creer</strong> y <strong>pensar</strong> en afirmativo expresan una certeza asumida y piden indicativo (<em>Creo que tiene razón</em>), pero al negarlos, la certeza desaparece y piden subjuntivo (<em>No creo que tenga razón</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Verbos de deseo",
+        "body": "<p><em>querer, esperar, desear, preferir, necesitar</em> + que + subjuntivo: <em>Quiero que vengas a la fiesta.</em></p>"
+      },
+      {
+        "heading": "b) Verbos y expresiones de duda o negación",
+        "body": "<p><em>dudar, no creer, no pensar, no estar seguro de, es posible que, puede que</em> + que + subjuntivo: <em>Dudo que llegue a tiempo.</em></p>"
+      },
+      {
+        "heading": "c) Verbos y expresiones de emoción/valoración",
+        "body": "<p><em>alegrarse de, sentir, es una pena que, es importante que, me sorprende que, ojalá</em> + que + subjuntivo: <em>Me alegro de que estés aquí.</em></p>"
+      },
+      {
+        "heading": "d) Mismo sujeto &rarr; infinitivo, no que + subjuntivo",
+        "body": "<p><em>Quiero ir al cine</em> (un solo sujeto: yo) frente a <em>Quiero que vayas al cine</em> (dos sujetos distintos: yo/tú).</p>"
+      }
+    ],
+    "examples": [
+      "Espero que tengas un buen fin de semana.",
+      "Dudo que ese restaurante esté abierto los lunes.",
+      "Me alegro de que hayas encontrado trabajo, aunque eso ya es otro tiempo verbal que verás pronto.",
+      "Es importante que todos lleguen puntuales a la reunión.",
+      "No creo que sea buena idea salir con esta lluvia.",
+      "Ojalá que el examen no sea tan difícil.",
+      "Prefiero que me llames por la tarde, no por la mañana.",
+      "Es una pena que no puedas venir al viaje con nosotros."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Espero que tú vienes mañana.",
+        "right": "Espero que tú vengas mañana.",
+        "why": "Esperar que expresa deseo y siempre exige subjuntivo en la subordinada."
+      },
+      {
+        "wrong": "Creo que él tenga razón.",
+        "right": "Creo que él tiene razón.",
+        "why": "Creer en afirmativo expresa una certeza asumida y pide indicativo, no subjuntivo."
+      },
+      {
+        "wrong": "Quiero que yo vaya al cine.",
+        "right": "Quiero ir al cine.",
+        "why": "Cuando el sujeto de las dos partes es el mismo, se usa un infinitivo, no que + subjuntivo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1sd-fill",
+      "type": "fill-blank",
+      "title": "Completa con Indicativo o Subjuntivo",
+      "items": [
+        {
+          "id": "b1sd1",
+          "prompt": "Espero que tú ___ (poder) venir a mi cumpleaños.",
+          "answers": [
+            [
+              "puedas"
+            ]
+          ],
+          "options": [
+            "puedas",
+            "puedes",
+            "podrás"
+          ],
+          "explanation": "Esperar que expresa deseo: siempre exige subjuntivo."
+        },
+        {
+          "id": "b1sd2",
+          "prompt": "Creo que ella ___ (tener) razón en esto.",
+          "answers": [
+            [
+              "tiene"
+            ]
+          ],
+          "options": [
+            "tiene",
+            "tenga",
+            "tendría"
+          ],
+          "explanation": "Creer en afirmativo expresa certeza: pide indicativo."
+        },
+        {
+          "id": "b1sd3",
+          "prompt": "No creo que ellos ___ (saber) la verdad completa.",
+          "answers": [
+            [
+              "sepan"
+            ]
+          ],
+          "options": [
+            "sepan",
+            "saben",
+            "sabrán"
+          ],
+          "explanation": "No creer niega la certeza y exige subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b1sd-mc",
+      "type": "multiple-choice",
+      "title": "¿Infinitivo o Subjuntivo?",
+      "items": [
+        {
+          "id": "b1sd4",
+          "prompt": "¿Cuál es la forma correcta cuando el sujeto es el mismo en ambas partes?",
+          "options": [
+            "Quiero que estudie más.",
+            "Quiero estudiar más.",
+            "Quiero que estudio más."
+          ],
+          "answerIndex": 1,
+          "explanation": "Con un solo sujeto (yo), se usa el infinitivo, no que + subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b1sd-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1sd5",
+          "incorrect": "Me alegro de que estás aquí con nosotros.",
+          "answer": [
+            "Me alegro de que estés aquí con nosotros."
+          ],
+          "explanation": "Alegrarse de expresa emoción y exige subjuntivo en la subordinada."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los verbos de deseo, duda/negación y emoción activan el subjuntivo en la subordinada introducida por que.",
+    "Creer y pensar piden indicativo en afirmativo, pero subjuntivo al negarlos, porque la certeza desaparece.",
+    "Con un solo sujeto en toda la frase, se usa un infinitivo en lugar de que + subjuntivo."
+  ]
+}

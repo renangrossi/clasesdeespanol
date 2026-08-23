@@ -1,0 +1,137 @@
+{
+  "id": "b1-pronombres-combinados",
+  "level": "B1",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "pronombres",
+  "title": "Pronombres Combinados",
+  "subtitle": "Se lo, me lo, te la: cuando el objeto directo y el indirecto aparecen juntos.",
+  "objectives": [
+    "Combinar correctamente un pronombre de objeto indirecto y uno directo en la misma frase",
+    "Aplicar la regla \"le/les se convierte en se\" ante lo, la, los, las",
+    "Colocar los pronombres combinados en la posición correcta según la forma verbal"
+  ],
+  "content": {
+    "intro": "Cuando una frase tiene tanto un objeto directo como uno indirecto y ambos se sustituyen por pronombres, el español los combina en un orden fijo — y con una transformación que sorprende a muchos estudiantes.",
+    "explanation": "<p>El orden fijo es siempre <strong>objeto indirecto + objeto directo</strong>: <em>Te lo digo</em> (te = indirecto, lo = directo). Pero cuando el pronombre de objeto indirecto sería <strong>le</strong> o <strong>les</strong> y va seguido de <strong>lo, la, los</strong> o <strong>las</strong>, <em>le/les se convierte en se</em> para evitar el choque de sonidos \"le lo\": <em>Se lo dije</em> (no \"le lo dije\"), donde <em>se</em> sustituye a le/les y <em>lo</em> es el objeto directo.</p><p>Este <em>se</em> combinado no tiene relación con el se reflexivo ni con la pasiva refleja — es simplemente la forma que toma le/les antes de un pronombre de objeto directo que empieza por l-.</p>",
+    "rules": [
+      {
+        "heading": "a) Orden fijo: indirecto + directo",
+        "body": "<p><em>Me lo dan. Te la explico. Nos los envían.</em></p>"
+      },
+      {
+        "heading": "b) Le/les &rarr; se ante lo/la/los/las",
+        "body": "<p><em>Le doy el libro a Juan</em> &rarr; <em>Se lo doy.</em> (no \"le lo doy\") <em>Les cuento la noticia a mis padres</em> &rarr; <em>Se la cuento.</em></p>"
+      },
+      {
+        "heading": "c) Posición: igual que un solo pronombre",
+        "body": "<p>Antes del verbo conjugado, o pegados juntos al final del infinitivo/gerundio/imperativo afirmativo: <em>Se lo voy a decir</em> / <em>Voy a decírselo</em> (con tilde añadida); <em>Dímelo.</em></p>"
+      }
+    ],
+    "examples": [
+      "¿Me lo puedes explicar otra vez, por favor?",
+      "Se lo conté todo a mi mejor amiga ayer.",
+      "Te la presto con mucho gusto, no hay problema.",
+      "Nos los enviaron por correo la semana pasada.",
+      "Ya se lo dijimos varias veces, pero no nos hace caso.",
+      "¿Podrías dármelo cuando termines de usarlo?",
+      "Se las regalé a mis sobrinas por su cumpleaños.",
+      "Explícaselo con calma, todavía no lo entiende bien."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Le lo di ayer por la tarde.",
+        "right": "Se lo di ayer por la tarde.",
+        "why": "Le se convierte en se antes de lo, para evitar el choque de sonidos entre los dos pronombres."
+      },
+      {
+        "wrong": "Lo te digo mañana.",
+        "right": "Te lo digo mañana.",
+        "why": "El orden fijo es siempre objeto indirecto primero, objeto directo después: te lo, no lo te."
+      },
+      {
+        "wrong": "Voy a decirlo se mañana.",
+        "right": "Voy a decírselo mañana. / Se lo voy a decir mañana.",
+        "why": "Los dos pronombres combinados se pegan juntos al infinitivo (con tilde añadida) o van juntos antes del verbo conjugado, nunca separados."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pc-fill",
+      "type": "fill-blank",
+      "title": "Combina los Pronombres",
+      "items": [
+        {
+          "id": "b1pc1",
+          "prompt": "Le presté el coche a mi hermano. &rarr; ___ presté.",
+          "answers": [
+            [
+              "Se lo"
+            ]
+          ],
+          "options": [
+            "Se lo",
+            "Le lo",
+            "Lo le"
+          ],
+          "explanation": "Le se convierte en se antes de lo: se lo presté."
+        },
+        {
+          "id": "b1pc2",
+          "prompt": "Te doy la información ahora mismo. &rarr; ___ doy ahora mismo.",
+          "answers": [
+            [
+              "Te la"
+            ]
+          ],
+          "options": [
+            "Te la",
+            "La te",
+            "Se la"
+          ],
+          "explanation": "Orden fijo: indirecto (te) + directo (la), sin necesidad de cambiar te por se."
+        }
+      ]
+    },
+    {
+      "id": "b1pc-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Combinación Correcta",
+      "items": [
+        {
+          "id": "b1pc3",
+          "prompt": "\"Les envié los documentos a mis colegas.\" &rarr; ¿Cómo se combina?",
+          "options": [
+            "Les los envié.",
+            "Se los envié.",
+            "Los les envié."
+          ],
+          "answerIndex": 1,
+          "explanation": "Les se convierte en se antes de los, y el orden es indirecto + directo: se los envié."
+        }
+      ]
+    },
+    {
+      "id": "b1pc-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1pc4",
+          "incorrect": "Le las regalé a mi madre por su cumpleaños.",
+          "answer": [
+            "Se las regalé a mi madre por su cumpleaños."
+          ],
+          "explanation": "Le se convierte en se antes de las, siguiendo la misma regla que con lo/la/los."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El orden fijo de los pronombres combinados es siempre objeto indirecto + objeto directo.",
+    "Le y les se convierten en se cuando van seguidos de lo, la, los o las, para evitar el choque de sonidos.",
+    "Los dos pronombres combinados se mueven siempre juntos: antes del verbo conjugado, o pegados al final del infinitivo, gerundio o imperativo afirmativo."
+  ]
+}

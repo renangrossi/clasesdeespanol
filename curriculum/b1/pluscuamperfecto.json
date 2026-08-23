@@ -1,0 +1,138 @@
+{
+  "id": "b1-pluscuamperfecto",
+  "level": "B1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "pasado",
+  "title": "El Pluscuamperfecto",
+  "subtitle": "Había + participio: lo que ya había pasado antes de otro momento del pasado.",
+  "objectives": [
+    "Conjugar el imperfecto de haber como auxiliar del pluscuamperfecto",
+    "Usar el pluscuamperfecto para expresar anterioridad dentro del pasado",
+    "Combinar el pluscuamperfecto con el indefinido o el imperfecto en una misma narración"
+  ],
+  "content": {
+    "intro": "Cuando cuentas una historia en pasado y necesitas retroceder a un momento todavía anterior, el español usa el pluscuamperfecto — el pasado del pasado.",
+    "explanation": "<p>Se forma con el <strong>imperfecto de haber</strong> (había, habías, había, habíamos, habíais, habían) más el <strong>participio</strong> del verbo principal, con los mismos participios irregulares ya vistos en el pretérito perfecto compuesto. Expresa un hecho que ya había ocurrido antes de otro punto de referencia en el pasado.</p><p>Por ejemplo: <em>Cuando llegué a la estación, el tren ya había salido</em> — primero salió el tren (pluscuamperfecto), y después llegué yo (indefinido); el pluscuamperfecto marca claramente cuál de los dos hechos pasó primero.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Pluscuamperfecto — había + participio</caption><thead><tr><th>Sujeto</th><th>haber</th><th>+ participio</th></tr></thead><tbody><tr><td>yo</td><td>había</td><td>hablado / comido / vivido</td></tr><tr><td>tú</td><td>habías</td><td>hablado / comido / vivido</td></tr><tr><td>él/ella/usted</td><td>había</td><td>hablado / comido / vivido</td></tr><tr><td>nosotros/as</td><td>habíamos</td><td>hablado / comido / vivido</td></tr><tr><td>vosotros/as</td><td>habíais</td><td>hablado / comido / vivido</td></tr><tr><td>ellos/as/ustedes</td><td>habían</td><td>hablado / comido / vivido</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Estructura",
+        "body": "<p>Imperfecto de haber + participio: <em>había hablado, habías comido, había vivido.</em></p>"
+      },
+      {
+        "heading": "b) Uso: anterioridad dentro del pasado",
+        "body": "<p>Marca qué hecho pasó primero cuando hay dos momentos distintos en el pasado: <em>Ya habíamos cenado cuando llamaste.</em></p>"
+      },
+      {
+        "heading": "c) Con nunca antes / ya",
+        "body": "<p>Es muy frecuente con expresiones como <em>nunca antes, ya, todavía no</em>: <em>Nunca antes había visto una tormenta así.</em></p>"
+      }
+    ],
+    "examples": [
+      "Cuando llegamos al cine, la película ya había empezado.",
+      "Ella nunca había viajado en avión antes de ese verano.",
+      "Ya habíamos terminado de cenar cuando sonó el teléfono.",
+      "No sabía que ya habías hablado con el director.",
+      "Antes de mudarnos aquí, habíamos vivido diez años en el campo.",
+      "Cuando por fin llegó el médico, el paciente ya se había recuperado un poco.",
+      "Todavía no habían decidido el destino de las vacaciones.",
+      "Me di cuenta de que había olvidado las llaves en casa."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Cuando llegué, la película ya empezó.",
+        "right": "Cuando llegué, la película ya había empezado.",
+        "why": "Para marcar que un hecho ocurrió antes que otro hecho pasado, se necesita el pluscuamperfecto, no el indefinido."
+      },
+      {
+        "wrong": "Ella nunca ha viajado antes de ese año.",
+        "right": "Ella nunca había viajado antes de ese año.",
+        "why": "El punto de referencia es un momento del pasado (ese año), así que se necesita el pluscuamperfecto, no el perfecto compuesto."
+      },
+      {
+        "wrong": "Habíamos escribido la carta antes de salir.",
+        "right": "Habíamos escrito la carta antes de salir.",
+        "why": "Escribir mantiene su participio irregular escrito también en el pluscuamperfecto."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pl-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Pluscuamperfecto",
+      "items": [
+        {
+          "id": "b1pl1",
+          "prompt": "Cuando llegamos, ellos ya ___ (salir).",
+          "answers": [
+            [
+              "habían salido"
+            ]
+          ],
+          "options": [
+            "habían salido",
+            "salieron",
+            "salían"
+          ],
+          "explanation": "Un hecho anterior a otro hecho pasado (llegamos) se expresa con pluscuamperfecto."
+        },
+        {
+          "id": "b1pl2",
+          "prompt": "Yo nunca ___ (ver) una playa tan bonita antes de ese viaje.",
+          "answers": [
+            [
+              "había visto"
+            ]
+          ],
+          "options": [
+            "había visto",
+            "he visto",
+            "vi"
+          ],
+          "explanation": "El punto de referencia (ese viaje) es pasado, así que se necesita el pluscuamperfecto."
+        }
+      ]
+    },
+    {
+      "id": "b1pl-mc",
+      "type": "multiple-choice",
+      "title": "¿Qué Hecho Ocurrió Primero?",
+      "items": [
+        {
+          "id": "b1pl3",
+          "prompt": "\"Cuando desperté, ya había amanecido.\" ¿Qué ocurrió primero?",
+          "options": [
+            "Despertar",
+            "Amanecer",
+            "Los dos al mismo tiempo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El pluscuamperfecto (había amanecido) marca el hecho anterior al otro hecho pasado (desperté)."
+        }
+      ]
+    },
+    {
+      "id": "b1pl-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1pl4",
+          "incorrect": "Antes de ese día, nunca comí paella.",
+          "answer": [
+            "Antes de ese día, nunca había comido paella."
+          ],
+          "explanation": "El punto de referencia es un momento pasado (ese día), así que corresponde el pluscuamperfecto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El pluscuamperfecto se forma con el imperfecto de haber más el participio del verbo principal.",
+    "Expresa un hecho que ya había ocurrido antes de otro punto de referencia en el pasado.",
+    "Aparece con frecuencia junto a expresiones como nunca antes, ya o todavía no."
+  ]
+}

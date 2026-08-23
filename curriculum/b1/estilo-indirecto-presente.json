@@ -1,0 +1,141 @@
+{
+  "id": "b1-estilo-indirecto-presente",
+  "level": "B1",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "estilo-indirecto",
+  "title": "Estilo Indirecto (Presente)",
+  "subtitle": "Cómo contar lo que otra persona dijo, sin citar sus palabras exactas.",
+  "objectives": [
+    "Transformar un estilo directo simple en estilo indirecto con decir que",
+    "Ajustar los pronombres y posesivos al cambiar de estilo directo a indirecto",
+    "Reconocer los cambios de tiempo verbal más comunes al reportar desde el presente"
+  ],
+  "content": {
+    "intro": "Cuando cuentas lo que alguien dijo sin repetir sus palabras exactas entre comillas, necesitas reorganizar la frase — cambiar los pronombres, y a veces también el tiempo verbal.",
+    "explanation": "<p>El estilo indirecto se introduce con un verbo de habla (<strong>decir, comentar, contar, explicar</strong>) seguido de <strong>que</strong>. Cuando el verbo introductor está en presente (<em>Dice que...</em>), los tiempos verbales normalmente no cambian, solo los pronombres y posesivos se ajustan al nuevo punto de vista.</p><p>Por ejemplo, si Marta dice \"Estoy cansada\", en estilo indirecto se convierte en <em>Marta dice que está cansada</em> — el pronombre implícito cambia de primera a tercera persona. Las preguntas también cambian de forma: se introducen con <strong>si</strong> (preguntas de sí/no) o se mantiene la palabra interrogativa (qué, dónde, cuándo), y se elimina el signo de interrogación.</p>",
+    "rules": [
+      {
+        "heading": "a) Afirmaciones: decir que + frase reorganizada",
+        "body": "<p>\"Estoy cansada\" &rarr; <em>Dice que está cansada.</em> \"Vivo en Madrid\" &rarr; <em>Dice que vive en Madrid.</em></p>"
+      },
+      {
+        "heading": "b) Preguntas de sí/no: preguntar si",
+        "body": "<p>\"¿Vienes a la fiesta?\" &rarr; <em>Me pregunta si voy a la fiesta.</em></p>"
+      },
+      {
+        "heading": "c) Preguntas con palabra interrogativa: se mantiene la palabra",
+        "body": "<p>\"¿Dónde vives?\" &rarr; <em>Me pregunta dónde vivo.</em> \"¿Qué hora es?\" &rarr; <em>Pregunta qué hora es.</em></p>"
+      },
+      {
+        "heading": "d) Ajuste de pronombres y posesivos",
+        "body": "<p>\"Mi hermano me llamó\" (dicho por Juan) &rarr; <em>Juan dice que su hermano lo llamó.</em></p>"
+      }
+    ],
+    "examples": [
+      "Ella dice que está muy contenta con su nuevo trabajo.",
+      "Mi madre comenta que hace mucho tiempo que no nos visita.",
+      "Él explica que necesita más tiempo para terminar el proyecto.",
+      "Me preguntan si quiero ir con ellos al cine.",
+      "Le pregunto dónde compró esos zapatos tan bonitos.",
+      "Cuentan que el nuevo restaurante es excelente.",
+      "Dice que su hermana vive cerca de la universidad.",
+      "Nos pregunta cuándo empezamos las clases este año."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ella dice que \"está cansada\".",
+        "right": "Ella dice que está cansada.",
+        "why": "En estilo indirecto no se usan comillas; la frase se integra directamente en la oración con que."
+      },
+      {
+        "wrong": "Me pregunta que si voy a la fiesta.",
+        "right": "Me pregunta si voy a la fiesta.",
+        "why": "Con preguntas de sí/no, se usa solo si, sin añadir además la palabra que antes."
+      },
+      {
+        "wrong": "Me pregunta que dónde vivo.",
+        "right": "Me pregunta dónde vivo.",
+        "why": "Con una palabra interrogativa (dónde, qué, cuándo), no se añade que; la palabra interrogativa ya cumple esa función."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1ei-fill",
+      "type": "fill-blank",
+      "title": "Transforma a Estilo Indirecto",
+      "items": [
+        {
+          "id": "b1ei1",
+          "prompt": "Ana dice: \"Estoy muy ocupada.\" &rarr; Ana dice que ___ muy ocupada.",
+          "answers": [
+            [
+              "está"
+            ]
+          ],
+          "options": [
+            "está",
+            "estoy",
+            "esté"
+          ],
+          "explanation": "El pronombre implícito cambia de yo a ella, así que el verbo pasa a tercera persona: está."
+        },
+        {
+          "id": "b1ei2",
+          "prompt": "Pregunta: \"¿Vienes mañana?\" &rarr; Me pregunta ___ voy mañana.",
+          "answers": [
+            [
+              "si"
+            ]
+          ],
+          "options": [
+            "si",
+            "que si",
+            "qué"
+          ],
+          "explanation": "Las preguntas de sí/no se introducen con si, sin añadir que antes."
+        }
+      ]
+    },
+    {
+      "id": "b1ei-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Transformación Correcta",
+      "items": [
+        {
+          "id": "b1ei3",
+          "prompt": "\"¿Dónde trabajas?\" en estilo indirecto es...",
+          "options": [
+            "Me pregunta que dónde trabajo.",
+            "Me pregunta dónde trabajo.",
+            "Me pregunta si dónde trabajo."
+          ],
+          "answerIndex": 1,
+          "explanation": "Con una palabra interrogativa como dónde, no se añade que ni si."
+        }
+      ]
+    },
+    {
+      "id": "b1ei-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1ei4",
+          "incorrect": "Él dice que \"tiene mucho trabajo esta semana\".",
+          "answer": [
+            "Él dice que tiene mucho trabajo esta semana."
+          ],
+          "explanation": "El estilo indirecto no usa comillas: la frase citada se integra sin ellas en la oración con que."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El estilo indirecto se introduce con un verbo de habla + que, sin comillas, reorganizando pronombres y posesivos.",
+    "Las preguntas de sí/no se introducen con si; las preguntas con palabra interrogativa mantienen esa palabra, sin añadir que.",
+    "Cuando el verbo introductor está en presente, los tiempos verbales normalmente no cambian."
+  ]
+}

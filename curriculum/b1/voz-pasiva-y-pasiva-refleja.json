@@ -1,0 +1,141 @@
+{
+  "id": "b1-voz-pasiva-y-pasiva-refleja",
+  "level": "B1",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "voz-pasiva",
+  "title": "Voz Pasiva con Ser y Pasiva Refleja con Se",
+  "subtitle": "Dos formas de expresar una acción sin poner el foco en quién la realiza.",
+  "objectives": [
+    "Formar la voz pasiva con ser + participio",
+    "Formar la pasiva refleja con se",
+    "Elegir entre las dos formas según el registro y la presencia o no de un agente explícito"
+  ],
+  "content": {
+    "intro": "A veces lo importante no es quién hace algo, sino qué se hace o a quién le pasa — el español tiene dos estructuras distintas para poner el foco en la acción o en quien la recibe, en vez de en quien la realiza.",
+    "explanation": "<p>La <strong>voz pasiva con ser</strong> (<em>ser + participio</em>) es poco frecuente en el habla cotidiana, pero aparece en noticias y textos formales: <em>El edificio fue construido en 1920.</em> El participio concuerda en género y número con el sujeto, y puede incluir el agente con <strong>por</strong>: <em>La novela fue escrita por un autor colombiano.</em></p><p>La <strong>pasiva refleja con se</strong> es mucho más natural y frecuente en español hablado y escrito, sobre todo cuando no importa o no se conoce quién realiza la acción: <em>Se venden pisos en esta zona. Aquí se habla español.</em> El verbo concuerda en número con lo que se vende/habla/hace, y nunca lleva un agente explícito con por.</p>",
+    "rules": [
+      {
+        "heading": "a) Voz pasiva con ser",
+        "body": "<p>ser (en el tiempo que corresponda) + participio (concordado) + por + agente (opcional): <em>La ciudad fue fundada por colonizadores españoles en el siglo XVI.</em></p>"
+      },
+      {
+        "heading": "b) Pasiva refleja con se",
+        "body": "<p>se + verbo en tercera persona (singular o plural según el sustantivo): <em>Se vende esta casa. Se venden estos pisos.</em> Es la forma preferida en carteles, instrucciones y el habla cotidiana.</p>"
+      },
+      {
+        "heading": "c) Se impersonal (sin sujeto claro)",
+        "body": "<p>Cuando no hay un sustantivo claro que reciba la acción, el verbo va siempre en singular: <em>Se trabaja mucho en esta empresa. Se vive bien en esta ciudad.</em></p>"
+      },
+      {
+        "heading": "d) Cuándo usar cada una",
+        "body": "<p>Ser + participio: textos formales, históricos o periodísticos, sobre todo con un agente conocido. Pasiva refleja: habla cotidiana, carteles, instrucciones, cuando el agente no importa.</p>"
+      }
+    ],
+    "examples": [
+      "El puente fue diseñado por un ingeniero muy famoso.",
+      "Se buscan camareros con experiencia para este restaurante.",
+      "Esta canción fue grabada en los años ochenta.",
+      "En España se cena bastante más tarde que en otros países.",
+      "El museo fue inaugurado el año pasado por el alcalde.",
+      "Se habla inglés y español en esta oficina de turismo.",
+      "Las entradas fueron vendidas en menos de una hora.",
+      "Se prohíbe fumar dentro del edificio."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "El libro fue escribido por un autor famoso.",
+        "right": "El libro fue escrito por un autor famoso.",
+        "why": "El participio de escribir es escrito, irregular, también en la voz pasiva con ser."
+      },
+      {
+        "wrong": "Se vende pisos en esta zona.",
+        "right": "Se venden pisos en esta zona.",
+        "why": "En la pasiva refleja, el verbo concuerda en número con el sustantivo: pisos es plural, así que el verbo debe ser venden."
+      },
+      {
+        "wrong": "Se habla español por los turistas aquí.",
+        "right": "Aquí se habla español. / El español es hablado por muchos turistas aquí.",
+        "why": "La pasiva refleja con se nunca lleva un agente explícito con por; si se necesita mencionar al agente, se usa la voz pasiva con ser."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1vp-fill",
+      "type": "fill-blank",
+      "title": "Completa con Pasiva Refleja",
+      "items": [
+        {
+          "id": "b1vp1",
+          "prompt": "___ (vender) casas nuevas en este barrio. (plural)",
+          "answers": [
+            [
+              "Se venden"
+            ]
+          ],
+          "options": [
+            "Se venden",
+            "Se vende",
+            "Son vendidas"
+          ],
+          "explanation": "El sustantivo casas es plural, así que el verbo debe concordar: se venden."
+        },
+        {
+          "id": "b1vp2",
+          "prompt": "En este país ___ (comer) mucho pescado. (impersonal, singular)",
+          "answers": [
+            [
+              "se come"
+            ]
+          ],
+          "options": [
+            "se come",
+            "se comen",
+            "son comidos"
+          ],
+          "explanation": "Se impersonal, sin sustantivo específico que reciba la acción, siempre va en singular."
+        }
+      ]
+    },
+    {
+      "id": "b1vp-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "b1vp3",
+          "prompt": "¿Cuál de estas frases es la voz pasiva con ser, correctamente formada?",
+          "options": [
+            "La carta fue escrita por Ana.",
+            "La carta se escribió por Ana.",
+            "La carta era escribida por Ana."
+          ],
+          "answerIndex": 0,
+          "explanation": "Ser + participio (escrita, concordado con carta) + por + agente es la voz pasiva correcta."
+        }
+      ]
+    },
+    {
+      "id": "b1vp-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1vp4",
+          "incorrect": "Se alquila apartamentos en el centro de la ciudad.",
+          "answer": [
+            "Se alquilan apartamentos en el centro de la ciudad."
+          ],
+          "explanation": "Apartamentos es plural, así que el verbo de la pasiva refleja debe concordar en plural: se alquilan."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La voz pasiva con ser (ser + participio, + por + agente opcional) es más frecuente en textos formales y periodísticos.",
+    "La pasiva refleja con se es más natural en el habla cotidiana y nunca lleva un agente explícito con por.",
+    "En la pasiva refleja, el verbo concuerda en número con el sustantivo; si no hay uno claro (se impersonal), va siempre en singular."
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "b1-por-y-para",
+  "level": "B1",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammar",
+  "strand": "preposiciones",
+  "title": "Por y Para",
+  "subtitle": "Dos preposiciones que se traducen igual en muchos idiomas, pero significan cosas muy distintas.",
+  "objectives": [
+    "Usar por para causa, medio, intercambio y movimiento a través de un lugar",
+    "Usar para para finalidad, destinatario, destino y plazo límite",
+    "Distinguir por y para en frases donde ambas parecen posibles a primera vista"
+  ],
+  "content": {
+    "intro": "Por y para es una de las distinciones más consultadas por cualquier estudiante de español, precisamente porque muchos idiomas usan una sola palabra donde el español distingue causa de finalidad.",
+    "explanation": "<p>Una forma útil de recordarlo: <strong>por</strong> mira hacia atrás — la causa, el origen, el motivo de algo (<em>por qué</em> pasó); <strong>para</strong> mira hacia adelante — el objetivo, el destino, el resultado que se busca (<em>para qué</em> sirve). Esta intuición cubre la mayoría de los casos, aunque hay usos fijos que conviene memorizar aparte.</p>",
+    "rules": [
+      {
+        "heading": "a) Usos de por",
+        "body": "<ul><li>Causa/motivo: <em>Llegué tarde por el tráfico.</em></li><li>Medio: <em>Te llamo por teléfono.</em></li><li>Intercambio/precio: <em>Compré el coche por diez mil euros.</em></li><li>Movimiento a través de un lugar: <em>Caminamos por el parque.</em></li><li>Periodo aproximado de tiempo: <em>Nos vemos por la tarde.</em></li><li>Agente de la voz pasiva: <em>Escrito por Cervantes.</em></li></ul>"
+      },
+      {
+        "heading": "b) Usos de para",
+        "body": "<ul><li>Finalidad/propósito: <em>Estudio para aprender, no solo para aprobar.</em></li><li>Destinatario: <em>Este regalo es para ti.</em></li><li>Destino/dirección: <em>Salgo para Buenos Aires mañana.</em></li><li>Plazo límite: <em>Necesito esto para el viernes.</em></li><li>Opinión personal: <em>Para mí, esta es la mejor opción.</em></li></ul>"
+      },
+      {
+        "heading": "c) Un mismo verbo, significado distinto",
+        "body": "<ul><li><em>Trabajo por mi familia.</em> (motivo: por ellos, para ayudarlos)</li><li><em>Trabajo para mi familia.</em> (destinatario/empleador: ellos son quienes me emplean)</li></ul>"
+      }
+    ],
+    "examples": [
+      "Caminamos por la playa durante casi dos horas.",
+      "Este libro es para mi hermana, le encanta leer.",
+      "Cambié mi coche viejo por uno más nuevo.",
+      "Necesito el informe listo para el lunes por la mañana.",
+      "Gracias por tu ayuda con la mudanza.",
+      "Salimos para el aeropuerto dentro de una hora.",
+      "Para aprender bien un idioma, hay que practicar todos los días.",
+      "Pasamos por tu casa antes de ir al cine."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Este regalo es por ti.",
+        "right": "Este regalo es para ti.",
+        "why": "El destinatario de algo siempre usa para, no por."
+      },
+      {
+        "wrong": "Gracias para tu ayuda.",
+        "right": "Gracias por tu ayuda.",
+        "why": "Dar las gracias por un motivo o causa siempre usa por, no para."
+      },
+      {
+        "wrong": "Necesito esto por el viernes.",
+        "right": "Necesito esto para el viernes.",
+        "why": "Un plazo límite en el futuro siempre usa para, no por."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pp-fill",
+      "type": "fill-blank",
+      "title": "Completa con Por o Para",
+      "items": [
+        {
+          "id": "b1pp1",
+          "prompt": "Este regalo es ___ mi madre.",
+          "answers": [
+            [
+              "para"
+            ]
+          ],
+          "options": [
+            "por",
+            "para"
+          ],
+          "explanation": "Destinatario de algo: siempre para."
+        },
+        {
+          "id": "b1pp2",
+          "prompt": "Llegamos tarde ___ el tráfico.",
+          "answers": [
+            [
+              "por"
+            ]
+          ],
+          "options": [
+            "por",
+            "para"
+          ],
+          "explanation": "Causa o motivo: siempre por."
+        },
+        {
+          "id": "b1pp3",
+          "prompt": "Necesito el proyecto terminado ___ el viernes.",
+          "answers": [
+            [
+              "para"
+            ]
+          ],
+          "options": [
+            "por",
+            "para"
+          ],
+          "explanation": "Plazo límite en el futuro: siempre para."
+        }
+      ]
+    },
+    {
+      "id": "b1pp-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Preposición Correcta",
+      "items": [
+        {
+          "id": "b1pp4",
+          "prompt": "\"Caminamos ___ el centro de la ciudad.\" (a través de)",
+          "options": [
+            "por",
+            "para"
+          ],
+          "answerIndex": 0,
+          "explanation": "Movimiento a través de un lugar siempre usa por."
+        },
+        {
+          "id": "b1pp5",
+          "prompt": "\"___ mí, esta es la mejor solución.\" (opinión personal)",
+          "options": [
+            "Por",
+            "Para"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dar una opinión personal siempre usa para."
+        }
+      ]
+    },
+    {
+      "id": "b1pp-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1pp6",
+          "incorrect": "Salimos por Buenos Aires mañana por la mañana.",
+          "answer": [
+            "Salimos para Buenos Aires mañana por la mañana."
+          ],
+          "explanation": "El destino de un viaje se expresa con para, no con por; por la mañana sí es correcto, ya que expresa un periodo de tiempo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Por mira hacia la causa, el motivo, el medio, el intercambio y el movimiento a través de un lugar.",
+    "Para mira hacia la finalidad, el destinatario, el destino, el plazo límite y la opinión personal.",
+    "Un mismo verbo puede cambiar de significado según se use por o para, así que conviene pensar siempre en la dirección: hacia atrás (por) o hacia adelante (para)."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "b1-imperativo-negativo-y-pronombres",
+  "level": "B1",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "imperativo",
+  "title": "Imperativo Negativo y Pronombres con el Imperativo",
+  "subtitle": "No hables, no comas, no lo hagas: cómo cambia la forma y la posición del pronombre.",
+  "objectives": [
+    "Formar el imperativo negativo de tú y usted",
+    "Explicar por qué el imperativo negativo usa las formas del subjuntivo",
+    "Colocar correctamente los pronombres antes del imperativo negativo"
+  ],
+  "content": {
+    "intro": "El imperativo negativo no es simplemente el afirmativo con no delante: usa una forma verbal distinta, y también cambia dónde se coloca el pronombre.",
+    "explanation": "<p>El imperativo negativo, tanto para <strong>tú</strong> como para <strong>usted</strong>, usa las mismas formas que el presente de subjuntivo (que se estudiará a fondo en la próxima lección): para tú, verbos en -ar cambian a -es y verbos en -er/-ir cambian a -as; para usted, se mantienen las mismas formas que en el imperativo afirmativo.</p><p>A diferencia del imperativo afirmativo, donde el pronombre va pegado al final, en el <strong>negativo</strong> el pronombre siempre va <strong>antes</strong> del verbo, entre <em>no</em> y el verbo: <em>No lo hagas. No me lo digas. No se preocupe.</em></p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Imperativo negativo — tú y usted</caption><thead><tr><th>Verbo</th><th>tú (negativo)</th><th>usted (negativo)</th></tr></thead><tbody><tr><td>hablar</td><td>no hables</td><td>no hable</td></tr><tr><td>comer</td><td>no comas</td><td>no coma</td></tr><tr><td>escribir</td><td>no escribas</td><td>no escriba</td></tr><tr><td>hacer</td><td>no hagas</td><td>no haga</td></tr><tr><td>ir</td><td>no vayas</td><td>no vaya</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Tú negativo: -ar &rarr; -es, -er/-ir &rarr; -as",
+        "body": "<p><em>No hables tan alto. No comas tan rápido. No escribas con lápiz.</em></p>"
+      },
+      {
+        "heading": "b) Usted negativo: misma forma que el afirmativo",
+        "body": "<p><em>No hable tan alto. No coma tan rápido. No escriba con lápiz.</em> (la forma verbal en sí no cambia entre afirmativo y negativo para usted, solo se añade no)</p>"
+      },
+      {
+        "heading": "c) Irregulares frecuentes en negativo (tú)",
+        "body": "<p><em>ir &rarr; no vayas, ser &rarr; no seas, estar &rarr; no estés, dar &rarr; no des, saber &rarr; no sepas</em> — nota que estos son distintos de los irregulares del afirmativo (ve, sé, está...).</p>"
+      },
+      {
+        "heading": "d) Los pronombres van antes, no pegados",
+        "body": "<p>Compara: <em>Hazlo</em> (afirmativo, pegado) frente a <em>No lo hagas</em> (negativo, separado y antes del verbo).</p>"
+      }
+    ],
+    "examples": [
+      "No hables tan rápido, por favor, no te entiendo bien.",
+      "No comas entre horas si quieres cenar con ganas.",
+      "No le digas nada todavía, prefiero contárselo yo mismo.",
+      "No se preocupe, todo va a salir bien.",
+      "No vayas sola por esa calle de noche.",
+      "No lo dejes para el último momento, empieza ya.",
+      "No os quedéis hasta muy tarde, mañana hay que madrugar.",
+      "No seas tan duro contigo mismo, todos cometemos errores."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "No hablas tan alto.",
+        "right": "No hables tan alto.",
+        "why": "El imperativo negativo de tú usa la forma del subjuntivo (hables), no el presente de indicativo (hablas)."
+      },
+      {
+        "wrong": "No hazlo ahora.",
+        "right": "No lo hagas ahora.",
+        "why": "En el imperativo negativo, el pronombre va antes del verbo, no pegado al final como en el afirmativo."
+      },
+      {
+        "wrong": "No ves solo por la noche.",
+        "right": "No vayas sola por la noche.",
+        "why": "El imperativo negativo de ir para tú es no vayas, una forma completamente distinta del afirmativo ve."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1in-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Imperativo Negativo",
+      "items": [
+        {
+          "id": "b1in1",
+          "prompt": "___ (Tú - no hablar) tan alto en la biblioteca.",
+          "answers": [
+            [
+              "No hables"
+            ]
+          ],
+          "options": [
+            "No hables",
+            "No hablas",
+            "No habla"
+          ],
+          "explanation": "Tú + no + verbo en -ar en negativo = terminación -es: no hables."
+        },
+        {
+          "id": "b1in2",
+          "prompt": "___ (Usted - no preocuparse) por el resultado.",
+          "answers": [
+            [
+              "No se preocupe"
+            ]
+          ],
+          "options": [
+            "No se preocupe",
+            "No se preocupa",
+            "No preocúpese"
+          ],
+          "explanation": "El pronombre reflexivo se va antes del verbo en el imperativo negativo."
+        }
+      ]
+    },
+    {
+      "id": "b1in-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1in3",
+          "incorrect": "No cómelo todo de una vez.",
+          "answer": [
+            "No lo comas todo de una vez."
+          ],
+          "explanation": "En el imperativo negativo, el pronombre va antes del verbo, y el verbo usa la forma del subjuntivo: comas, no cómelo."
+        },
+        {
+          "id": "b1in4",
+          "incorrect": "No vas tan rápido con el coche.",
+          "answer": [
+            "No vayas tan rápido con el coche."
+          ],
+          "explanation": "El imperativo negativo de ir para tú es no vayas, no la forma de presente vas."
+        }
+      ]
+    },
+    {
+      "id": "b1in-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "b1in5",
+          "prompt": "¿Cuál es la forma correcta de decirle a un amigo que no se lo diga a nadie?",
+          "options": [
+            "No se lo digas a nadie.",
+            "No dígaselo a nadie.",
+            "No lo digas a nadie se."
+          ],
+          "answerIndex": 0,
+          "explanation": "Los dos pronombres (se, lo) van juntos antes del verbo en el imperativo negativo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El imperativo negativo usa las formas del presente de subjuntivo, tanto para tú como para usted.",
+    "Varios verbos tienen formas irregulares distintas en negativo (no vayas, no seas, no estés, no des, no sepas).",
+    "A diferencia del afirmativo, en el imperativo negativo el pronombre siempre va antes del verbo, nunca pegado al final."
+  ]
+}

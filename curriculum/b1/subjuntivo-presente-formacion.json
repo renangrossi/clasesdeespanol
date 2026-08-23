@@ -1,0 +1,161 @@
+{
+  "id": "b1-subjuntivo-presente-formacion",
+  "level": "B1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "El Presente de Subjuntivo — Formación",
+  "subtitle": "Cómo se forma el modo verbal del deseo, la duda y la emoción en español.",
+  "objectives": [
+    "Formar el presente de subjuntivo de verbos regulares en -ar, -er e -ir",
+    "Reconocer los verbos con cambio de raíz e irregularidades propias del subjuntivo",
+    "Explicar la regla general de formación a partir de la forma de yo del presente de indicativo"
+  ],
+  "content": {
+    "intro": "Hasta ahora has usado el modo indicativo, que presenta los hechos como reales y objetivos. El subjuntivo es un modo distinto — no un tiempo más — que presenta la acción como deseada, dudosa, temida o valorada emocionalmente, nunca como un hecho seguro.",
+    "explanation": "<p>La regla de formación más útil: se toma la forma de <strong>yo</strong> del presente de indicativo, se le quita la <strong>-o</strong> final, y se añaden las terminaciones \"cruzadas\" — los verbos en -ar toman terminaciones con <strong>e</strong>, y los verbos en -er/-ir toman terminaciones con <strong>a</strong>. Esto significa que cualquier irregularidad de la forma de yo del indicativo (tengo &rarr; tenga, hago &rarr; haga, conozco &rarr; conozca) se conserva automáticamente en todo el subjuntivo.</p><p>Solo un puñado de verbos muy frecuentes no siguen esta regla porque su forma de yo en indicativo no termina en -o: <strong>ser, estar, ir, saber, haber, dar</strong> tienen formas de subjuntivo propias que hay que memorizar aparte.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Presente de subjuntivo — hablar, comer, vivir, tener</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th><th>tener</th></tr></thead><tbody><tr><td>yo</td><td>hable</td><td>coma</td><td>viva</td><td>tenga</td></tr><tr><td>tú</td><td>hables</td><td>comas</td><td>vivas</td><td>tengas</td></tr><tr><td>él/ella/usted</td><td>hable</td><td>coma</td><td>viva</td><td>tenga</td></tr><tr><td>nosotros/as</td><td>hablemos</td><td>comamos</td><td>vivamos</td><td>tengamos</td></tr><tr><td>vosotros/as</td><td>habléis</td><td>comáis</td><td>viváis</td><td>tengáis</td></tr><tr><td>ellos/as/ustedes</td><td>hablen</td><td>coman</td><td>vivan</td><td>tengan</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) La regla de la \"terminación cruzada\"",
+        "body": "<p>-ar &rarr; -e, -es, -e, -emos, -éis, -en; -er/-ir &rarr; -a, -as, -a, -amos, -áis, -an.</p>"
+      },
+      {
+        "heading": "b) La irregularidad de yo se hereda automáticamente",
+        "body": "<p>tener (tengo) &rarr; tenga; hacer (hago) &rarr; haga; conocer (conozco) &rarr; conozca; salir (salgo) &rarr; salga; decir (digo) &rarr; diga.</p>"
+      },
+      {
+        "heading": "c) Los seis verbos totalmente irregulares",
+        "body": "<p><em>ser &rarr; sea, estar &rarr; esté, ir &rarr; vaya, saber &rarr; sepa, haber &rarr; haya, dar &rarr; dé</em> (con todas sus personas correspondientes).</p>"
+      },
+      {
+        "heading": "d) Verbos con cambio de raíz en -ar/-er mantienen el cambio",
+        "body": "<p><em>pensar (pienso) &rarr; piense; poder (puedo) &rarr; pueda</em> — igual que en indicativo, nosotros y vosotros no cambian: pensemos, podamos.</p>"
+      }
+    ],
+    "examples": [
+      "Espero que hables con ella antes de decidir nada.",
+      "Quiero que comas algo antes de salir de casa.",
+      "Es importante que tengamos paciencia con este proceso.",
+      "Ojalá que ella esté bien después del viaje.",
+      "No creo que sea tan difícil como parece.",
+      "Dudo que ellos sepan la respuesta correcta.",
+      "Es necesario que vayas al médico esta semana.",
+      "Espero que tengáis un buen viaje mañana."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Espero que tienes razón.",
+        "right": "Espero que tengas razón.",
+        "why": "Después de esperar que, se necesita el subjuntivo (tengas), no el indicativo (tienes)."
+      },
+      {
+        "wrong": "Quiero que él es feliz.",
+        "right": "Quiero que él sea feliz.",
+        "why": "Ser es uno de los seis verbos totalmente irregulares en subjuntivo: sea, no es (que es indicativo)."
+      },
+      {
+        "wrong": "Ojalá que nosotros pensemos... ojalá que pensamos bien la decisión.",
+        "right": "Ojalá que pensemos bien la decisión.",
+        "why": "Ojalá siempre exige subjuntivo (pensemos), nunca indicativo (pensamos)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1sf-fill",
+      "type": "fill-blank",
+      "title": "Forma el Presente de Subjuntivo",
+      "items": [
+        {
+          "id": "b1sf1",
+          "prompt": "hablar &rarr; que yo ___",
+          "answers": [
+            [
+              "hable"
+            ]
+          ],
+          "options": [
+            "hable",
+            "hablo",
+            "hablé"
+          ],
+          "explanation": "Verbo en -ar: terminación cruzada con e."
+        },
+        {
+          "id": "b1sf2",
+          "prompt": "tener (yo tengo) &rarr; que tú ___",
+          "answers": [
+            [
+              "tengas"
+            ]
+          ],
+          "options": [
+            "tengas",
+            "tienes",
+            "tenes"
+          ],
+          "explanation": "La irregularidad de la forma de yo (tengo) se hereda en todo el subjuntivo: tengas."
+        },
+        {
+          "id": "b1sf3",
+          "prompt": "ser &rarr; que ellos ___",
+          "answers": [
+            [
+              "sean"
+            ]
+          ],
+          "options": [
+            "sean",
+            "seen",
+            "son"
+          ],
+          "explanation": "Ser es uno de los seis verbos totalmente irregulares: sea, seas, sea, seamos, seáis, sean."
+        }
+      ]
+    },
+    {
+      "id": "b1sf-mc",
+      "type": "multiple-choice",
+      "title": "Identifica la Forma Correcta",
+      "items": [
+        {
+          "id": "b1sf4",
+          "prompt": "¿Cuál es la forma de subjuntivo de \"ir\" para \"nosotros\"?",
+          "options": [
+            "vayamos",
+            "vamos",
+            "iamos"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ir es totalmente irregular en subjuntivo: vaya, vayas, vaya, vayamos, vayáis, vayan."
+        }
+      ]
+    },
+    {
+      "id": "b1sf-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "b1sf5",
+          "statement": "La irregularidad de la forma de yo del presente de indicativo se conserva en todo el subjuntivo.",
+          "answer": true,
+          "explanation": "Por eso tengo da tenga, hago da haga, conozco da conozca, etc."
+        },
+        {
+          "id": "b1sf6",
+          "statement": "Ser, estar, ir, saber, haber y dar siguen la regla general del subjuntivo.",
+          "answer": false,
+          "explanation": "Estos seis verbos son totalmente irregulares en subjuntivo y no siguen la regla de la forma de yo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El presente de subjuntivo se forma quitando la -o de la forma de yo del indicativo y añadiendo terminaciones cruzadas (e para -ar, a para -er/-ir).",
+    "Cualquier irregularidad de la forma de yo del indicativo se hereda automáticamente en todo el subjuntivo.",
+    "Ser, estar, ir, saber, haber y dar son totalmente irregulares y deben memorizarse aparte."
+  ]
+}

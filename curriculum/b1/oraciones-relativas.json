@@ -1,0 +1,156 @@
+{
+  "id": "b1-oraciones-relativas",
+  "level": "B1",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammar",
+  "strand": "relativas",
+  "title": "Oraciones Relativas: Que, Quien, Donde",
+  "subtitle": "Cómo unir dos frases en una sola usando un pronombre o adverbio relativo.",
+  "objectives": [
+    "Usar que como el relativo más general, para personas y cosas",
+    "Usar quien/quienes tras una preposición, y donde para lugares",
+    "Distinguir oraciones relativas especificativas de las explicativas (con o sin comas)"
+  ],
+  "content": {
+    "intro": "Las oraciones relativas evitan repetir el mismo sustantivo dos veces, uniendo dos ideas en una sola frase más fluida y natural.",
+    "explanation": "<p><strong>Que</strong> es, con diferencia, el relativo más usado en español: sirve tanto para personas como para cosas, y funciona como sujeto u objeto de la oración relativa. <strong>Quien/quienes</strong> se usa casi siempre después de una preposición cuando se refiere a personas (<em>la persona con quien hablé</em>), y <strong>donde</strong> sustituye a un lugar (<em>la ciudad donde nací</em>).</p><p>Una distinción importante: las oraciones relativas <strong>especificativas</strong> (sin comas) restringen de qué se habla exactamente (<em>los estudiantes que aprobaron el examen</em> — solo esos, no todos); las <strong>explicativas</strong> (entre comas) añaden información extra sobre algo ya identificado (<em>mi hermano, que vive en Chile, viene a visitarnos</em> — solo tengo un hermano, y la información es adicional).</p>",
+    "rules": [
+      {
+        "heading": "a) Que — el más general",
+        "body": "<p>Para personas y cosas, como sujeto u objeto: <em>El libro que compré es muy interesante. La chica que vive al lado es simpática.</em></p>"
+      },
+      {
+        "heading": "b) Quien/quienes — tras preposición, solo personas",
+        "body": "<p><em>La persona con quien trabajo es muy amable. Los amigos con quienes viajé son de Perú.</em> (concuerda en número con el antecedente)</p>"
+      },
+      {
+        "heading": "c) Donde — para lugares",
+        "body": "<p><em>Este es el pueblo donde nací. No sé el restaurante donde quedamos.</em></p>"
+      },
+      {
+        "heading": "d) Especificativa vs. explicativa",
+        "body": "<p>Sin comas (especificativa): <em>Los alumnos que estudiaron aprobaron.</em> (solo algunos) Con comas (explicativa): <em>Los alumnos, que estudiaron mucho, aprobaron.</em> (todos, información añadida)</p>"
+      }
+    ],
+    "examples": [
+      "El coche que compré el año pasado ya tiene un problema.",
+      "La mujer con quien hablé en la fiesta es escritora.",
+      "Este es el barrio donde crecí de pequeño.",
+      "Mi hermana, que vive en Argentina, viene a visitarnos en verano.",
+      "Los libros que más me gustan son de misterio.",
+      "El profesor con quien estudié español es excelente.",
+      "No recuerdo el nombre del hotel donde nos alojamos.",
+      "Los estudiantes que llegaron tarde no pudieron entrar al examen."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "La persona que trabajo es muy amable.",
+        "right": "La persona con quien trabajo es muy amable.",
+        "why": "Después de una preposición como con, se prefiere quien para referirse a personas, no que solo."
+      },
+      {
+        "wrong": "El pueblo que nací es muy pequeño.",
+        "right": "El pueblo donde nací es muy pequeño.",
+        "why": "Para lugares, se usa donde, no que, cuando el sentido es \"en el que\"."
+      },
+      {
+        "wrong": "Mi hermano que vive en Chile, viene a visitarnos.",
+        "right": "Mi hermano, que vive en Chile, viene a visitarnos.",
+        "why": "Como solo hay un hermano y la información es adicional, la oración es explicativa y necesita comas en ambos lados."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1or-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Relativo Correcto",
+      "items": [
+        {
+          "id": "b1or1",
+          "prompt": "Este es el restaurante ___ celebramos mi cumpleaños.",
+          "answers": [
+            [
+              "donde"
+            ]
+          ],
+          "options": [
+            "donde",
+            "que",
+            "quien"
+          ],
+          "explanation": "Restaurante es un lugar, así que corresponde donde."
+        },
+        {
+          "id": "b1or2",
+          "prompt": "La chica con ___ estudio español es de Brasil.",
+          "answers": [
+            [
+              "quien"
+            ]
+          ],
+          "options": [
+            "quien",
+            "que",
+            "donde"
+          ],
+          "explanation": "Después de la preposición con, y refiriéndose a una persona, corresponde quien."
+        },
+        {
+          "id": "b1or3",
+          "prompt": "El libro ___ me regalaste me encantó.",
+          "answers": [
+            [
+              "que"
+            ]
+          ],
+          "options": [
+            "que",
+            "quien",
+            "donde"
+          ],
+          "explanation": "Que es el relativo general, válido tanto para personas como para cosas."
+        }
+      ]
+    },
+    {
+      "id": "b1or-mc",
+      "type": "multiple-choice",
+      "title": "¿Especificativa o Explicativa?",
+      "items": [
+        {
+          "id": "b1or4",
+          "prompt": "\"Los estudiantes que estudiaron aprobaron el examen.\" (sin comas) significa que...",
+          "options": [
+            "todos los estudiantes aprobaron",
+            "solo los que estudiaron aprobaron",
+            "nadie aprobó"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sin comas, la oración relativa restringe de quiénes se habla: solo los que estudiaron."
+        }
+      ]
+    },
+    {
+      "id": "b1or-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1or5",
+          "incorrect": "El pueblo que nací tiene solo mil habitantes.",
+          "answer": [
+            "El pueblo donde nací tiene solo mil habitantes."
+          ],
+          "explanation": "Para un lugar con el sentido de \"en el que\", se usa donde, no que."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Que es el relativo más general, válido para personas y cosas como sujeto u objeto de la oración relativa.",
+    "Quien/quienes se usa tras preposición para personas; donde sustituye a un lugar.",
+    "Sin comas, la relativa especifica de quién o qué se habla exactamente; con comas, añade información extra sobre algo ya identificado."
+  ]
+}

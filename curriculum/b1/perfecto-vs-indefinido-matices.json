@@ -1,0 +1,130 @@
+{
+  "id": "b1-perfecto-vs-indefinido-matices",
+  "level": "B1",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "pasado",
+  "title": "Perfecto vs. Indefinido: los Matices",
+  "subtitle": "Por qué España y América Latina no siempre coinciden al elegir entre estos dos tiempos.",
+  "objectives": [
+    "Repasar y afinar la diferencia funcional entre el pretérito perfecto compuesto y el indefinido",
+    "Reconocer la variación regional en el uso de ambos tiempos",
+    "Elegir el tiempo adecuado según el marcador temporal y la variedad de español"
+  ],
+  "content": {
+    "intro": "En A2 aprendiste la regla general de estos dos tiempos; en B1 toca afinarla, porque el uso real varía según la región del mundo hispanohablante en la que te encuentres.",
+    "explanation": "<p>La regla de base sigue siendo válida: el <strong>perfecto compuesto</strong> conecta un hecho con un periodo de tiempo no terminado o con el presente, y el <strong>indefinido</strong> narra hechos cerrados en el pasado. Pero en España, sobre todo en el centro y el norte, el perfecto compuesto se extiende también a hechos de hoy con un final claro (<em>Esta mañana he desayunado tarde</em>), mientras que gran parte de América Latina prefiere el indefinido incluso para hechos de hoy mismo (<em>Esta mañana desayuné tarde</em>).</p><p>No hay una versión \"incorrecta\": son dos normas regionales distintas, y ambas se enseñan y se entienden en todo el mundo hispanohablante. Lo importante es ser consistente y reconocer ambos usos al leer o escuchar.</p>",
+    "rules": [
+      {
+        "heading": "a) La base que no cambia en ningún país",
+        "body": "<ul><li>Marcador de tiempo cerrado y terminado (<em>ayer, en 2020, el mes pasado</em>) &rarr; siempre indefinido.</li><li>Experiencia de vida sin momento concreto (<em>alguna vez, nunca, ya</em>) &rarr; siempre perfecto compuesto.</li></ul>"
+      },
+      {
+        "heading": "b) La zona de variación regional",
+        "body": "<ul><li>España (centro/norte): <em>Hoy he comido en un restaurante nuevo.</em> (hecho de hoy, aunque ya terminó)</li><li>Gran parte de América Latina: <em>Hoy comí en un restaurante nuevo.</em> (mismo hecho, con indefinido)</li></ul>"
+      },
+      {
+        "heading": "c) Cómo decidir en la práctica",
+        "body": "<p>Si no sabes qué variedad prefiere tu interlocutor, la regla de base (marcador cerrado &rarr; indefinido; experiencia sin momento &rarr; perfecto) siempre funciona y se entiende en cualquier país.</p>"
+      }
+    ],
+    "examples": [
+      "¿Has estado alguna vez en Argentina? (experiencia, cualquier país)",
+      "El año pasado viajé a Perú por primera vez. (marcador cerrado, cualquier país)",
+      "Esta mañana he tomado un café con mi vecina. (España, hoy)",
+      "Esta mañana tomé un café con mi vecina. (América Latina, hoy)",
+      "Todavía no he terminado el informe. (periodo no cerrado, cualquier país)",
+      "Nunca he comido insectos, la verdad. (experiencia, cualquier país)",
+      "En 2019 nos mudamos a esta ciudad. (marcador cerrado, cualquier país)",
+      "¿Ya comiste? / ¿Ya has comido? (ambas formas, según la región)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pensar que una de las dos normas regionales es incorrecta",
+        "right": "Reconocer que ambas son correctas dentro de su propia variedad",
+        "why": "La diferencia entre España y América Latina en este punto es de norma regional, no de corrección gramatical."
+      },
+      {
+        "wrong": "He viajado a Chile en 2015.",
+        "right": "Viajé a Chile en 2015.",
+        "why": "Un marcador de tiempo cerrado como \"en 2015\" siempre pide indefinido, sin importar la variedad regional."
+      },
+      {
+        "wrong": "Fui a España muchas veces en mi vida (sin marcador temporal).",
+        "right": "He ido a España muchas veces en mi vida.",
+        "why": "Una experiencia de vida sin momento concreto (\"en mi vida\") se expresa con el perfecto compuesto en cualquier variedad."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pi-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Tiempo Correcto",
+      "items": [
+        {
+          "id": "b1pi1",
+          "prompt": "\"___ a Colombia el año pasado.\" (marcador cerrado)",
+          "options": [
+            "He viajado",
+            "Viajé",
+            "Viajaba"
+          ],
+          "answerIndex": 1,
+          "explanation": "El año pasado es un marcador de tiempo cerrado: siempre pide indefinido."
+        },
+        {
+          "id": "b1pi2",
+          "prompt": "\"¿___ alguna vez sushi?\" (experiencia sin momento concreto)",
+          "options": [
+            "comiste",
+            "has comido",
+            "comías"
+          ],
+          "answerIndex": 1,
+          "explanation": "Alguna vez señala una experiencia de vida, que se expresa con el perfecto compuesto."
+        }
+      ]
+    },
+    {
+      "id": "b1pi-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "b1pi3",
+          "statement": "En gran parte de América Latina es habitual usar el indefinido incluso para hechos de hoy mismo.",
+          "answer": true,
+          "explanation": "Es una diferencia regional real, no un error: el indefinido se extiende más al presente en esas variedades."
+        },
+        {
+          "id": "b1pi4",
+          "statement": "Un marcador como \"ayer\" puede usarse con el perfecto compuesto en cualquier variedad del español.",
+          "answer": false,
+          "explanation": "Ayer marca un momento cerrado y terminado, así que exige el indefinido en todas las variedades."
+        }
+      ]
+    },
+    {
+      "id": "b1pi-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1pi5",
+          "incorrect": "He nacido en 1995 en Madrid.",
+          "answer": [
+            "Nací en 1995 en Madrid."
+          ],
+          "explanation": "Un año concreto como marcador de tiempo cerrado siempre pide el indefinido, no el perfecto compuesto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La regla de base se mantiene: marcador cerrado → indefinido; experiencia sin momento concreto → perfecto compuesto.",
+    "España tiende a extender el perfecto compuesto a hechos de hoy; gran parte de América Latina prefiere el indefinido incluso para hoy.",
+    "Ninguna de las dos normas es incorrecta: son variedades regionales igualmente válidas."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "b1-condicional-cortesia-e-hipotesis",
+  "level": "B1",
+  "unit": "1",
+  "order": 4,
+  "skill": "functional",
+  "strand": "condicional",
+  "title": "El Condicional para Cortesía e Hipótesis",
+  "subtitle": "Cómo suavizar peticiones, dar consejos y hablar de situaciones imaginarias.",
+  "objectives": [
+    "Usar el condicional para hacer peticiones y preguntas más corteses",
+    "Dar consejos con la estructura \"yo que tú\" / \"yo en tu lugar\"",
+    "Formar hipótesis simples con si + presente y si + imperfecto de subjuntivo (introducción)"
+  ],
+  "content": {
+    "intro": "El condicional no solo describe lo que pasaría bajo ciertas condiciones: en la conversación cotidiana, es sobre todo la forma más natural de pedir algo con educación o de dar un consejo sin sonar autoritario.",
+    "explanation": "<p>Frente a un imperativo directo (<em>Ciérrala</em>), el condicional suaviza la petición: <em>¿Podrías cerrarla?</em> Es la forma habitual para pedir favores, hacer sugerencias en una tienda o un restaurante, o dar una opinión sin imponerla.</p><p>La estructura <strong>yo que tú</strong> / <strong>yo en tu lugar</strong> + condicional es la manera más natural de dar un consejo en español hablado: <em>Yo que tú, hablaría con ella cuanto antes.</em> Además, verás una primera hipótesis con <strong>si + imperfecto de subjuntivo + condicional</strong> (<em>Si tuviera tiempo, viajaría más</em>) — el subjuntivo se estudiará a fondo más adelante, pero conviene reconocer ya esta estructura tan frecuente.</p>",
+    "rules": [
+      {
+        "heading": "a) Peticiones corteses",
+        "body": "<ul><li><em>¿Podrías ayudarme con esto?</em></li><li><em>¿Te importaría abrir la puerta?</em></li><li><em>Me gustaría reservar una mesa para dos.</em></li></ul>"
+      },
+      {
+        "heading": "b) Consejos con \"yo que tú\"",
+        "body": "<ul><li><em>Yo que tú, no diría nada.</em></li><li><em>Yo en tu lugar, hablaría con el jefe.</em></li><li><em>Deberías descansar más, en tu lugar yo lo haría.</em></li></ul>"
+      },
+      {
+        "heading": "c) Hipótesis con si + imperfecto de subjuntivo + condicional",
+        "body": "<p><em>Si tuviera más dinero, viajaría por todo el mundo.</em> (una condición poco probable o imaginaria en el presente, con su consecuencia en condicional)</p>"
+      }
+    ],
+    "examples": [
+      "¿Podría traerme la cuenta, por favor?",
+      "¿Te importaría bajar un poco el volumen de la música?",
+      "Yo que tú, aceptaría esa oferta de trabajo.",
+      "En tu lugar, yo hablaría directamente con ella.",
+      "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "Si viviera en la playa, nadaría todos los días.",
+      "Me encantaría probar esa comida algún día.",
+      "¿Sería posible cambiar la reserva para otra fecha?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "¿Puedes traerme la cuenta?",
+        "right": "¿Podrías traerme la cuenta?",
+        "why": "Aunque puedes no es incorrecto, podrías suena más cortés y es la forma preferida en situaciones formales como un restaurante."
+      },
+      {
+        "wrong": "Si tengo más dinero, viajaría más.",
+        "right": "Si tuviera más dinero, viajaría más.",
+        "why": "Una condición hipotética o poco probable en el presente necesita el imperfecto de subjuntivo (tuviera), no el presente de indicativo (tengo)."
+      },
+      {
+        "wrong": "Yo que tú hablo con ella.",
+        "right": "Yo que tú, hablaría con ella.",
+        "why": "El consejo con yo que tú se expresa en condicional, no en presente de indicativo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1cc-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Más Cortés",
+      "items": [
+        {
+          "id": "b1cc1",
+          "prompt": "¿Cuál de estas peticiones suena más cortés en un restaurante?",
+          "options": [
+            "Tráigame agua.",
+            "¿Podría traerme agua?",
+            "Traes agua."
+          ],
+          "answerIndex": 1,
+          "explanation": "El condicional suaviza la petición y suena mucho más cortés que un imperativo directo."
+        },
+        {
+          "id": "b1cc2",
+          "prompt": "\"Yo que tú, ___ esa oferta.\"",
+          "options": [
+            "acepto",
+            "aceptaría",
+            "aceptaba"
+          ],
+          "answerIndex": 1,
+          "explanation": "El consejo con yo que tú siempre se expresa en condicional."
+        }
+      ]
+    },
+    {
+      "id": "b1cc-fill",
+      "type": "fill-blank",
+      "title": "Completa la Hipótesis",
+      "items": [
+        {
+          "id": "b1cc3",
+          "prompt": "Si ___ (yo - tener) más tiempo, ___ (aprender) a cocinar mejor.",
+          "answers": [
+            [
+              "tuviera"
+            ],
+            [
+              "aprendería"
+            ]
+          ],
+          "options": [
+            "tuviera",
+            "aprendería"
+          ],
+          "explanation": "Si + imperfecto de subjuntivo (tuviera) + condicional (aprendería) forma una hipótesis sobre el presente."
+        }
+      ]
+    },
+    {
+      "id": "b1cc-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1cc4",
+          "incorrect": "¿Te importa si abro la ventana? (versión menos cortés que se pide corregir hacia el condicional)",
+          "answer": [
+            "¿Te importaría si abro la ventana?"
+          ],
+          "explanation": "El condicional (importaría) suaviza aún más la pregunta que el presente (importa), aunque ambas formas son posibles."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El condicional es la forma más natural de hacer peticiones y preguntas corteses en español.",
+    "Yo que tú / yo en tu lugar + condicional es la estructura habitual para dar un consejo.",
+    "Si + imperfecto de subjuntivo + condicional forma una hipótesis sobre una condición poco probable en el presente."
+  ]
+}
