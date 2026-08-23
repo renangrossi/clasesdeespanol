@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Build levels/{level}/test-yourself.html: every exercise block from every
-lesson in that level, grouped under its lesson's heading, on one page —
-"more questions, mixed together, with instant feedback," exactly what
-each lesson page's own "Test Yourself" call-to-action promises. Generated
-directly from curriculum/{level}/*.json (via lesson_nav_map.json for
-ordering) rather than hand-authored, so it can never drift out of sync
-with the lessons it reviews.
+Construye levels/{nivel}/test-yourself.html: todos los bloques de ejercicios
+de todas las lecciones de ese nivel, agrupados bajo el título de su lección,
+en una sola página — "más preguntas, mezcladas, con retroalimentación
+instantánea," exactamente lo que promete el llamado a la acción "Ponte a
+Prueba" de cada lección. Generado directamente desde curriculum/{nivel}/*.json
+(vía lesson_nav_map.json para el orden) en vez de escrito a mano, para que
+nunca se desincronice de las lecciones que repasa.
 
-Usage:
+Uso:
     python3 scripts/build_test_yourself.py
 """
 import json
@@ -20,7 +20,10 @@ import site_chrome  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REL = "../../"
-LEVELS = [("A1", "a1"), ("A2", "a2"), ("B1", "b1"), ("B2", "b2"), ("C1", "c1"), ("C2", "c2")]
+LEVELS = [
+    ("Pre-A1", "pre-a1"), ("A1", "a1"), ("A2", "a2"), ("B1", "b1"),
+    ("B2", "b2"), ("C1", "c1"), ("C2", "c2"),
+]
 
 
 def topic_section(lesson):
@@ -51,22 +54,22 @@ def build(level_code, level_slug):
         sections.append(topic_section(lesson))
         toc_links.append(f'<a href="#{entry["slug"]}">{lesson["title"]}</a>')
 
-    title = f"{level_code} Test Yourself — Mixed Review — Renan the Teacher"
-    description = f"Every {level_code} grammar topic in one mixed review, with instant feedback on every question."
+    title = f"Ponte a Prueba: {level_code} — Repaso Mixto — Renan el Profesor"
+    description = f"Todos los temas de gramática de {level_code} en un repaso mixto, con retroalimentación instantánea en cada pregunta."
     breadcrumb = (
-        f'<li><a href="{REL}index.html">Home</a></li>'
-        f'<li aria-current="page">Levels</li>'
+        f'<li><a href="{REL}index.html">Inicio</a></li>'
+        f'<li aria-current="page">Niveles</li>'
         f'<li><a href="../{level_slug}.html">{level_code}</a></li>'
-        f'<li aria-current="page">Test Yourself</li>'
+        f'<li aria-current="page">Ponte a Prueba</li>'
     )
 
     page_header = f"""<div class="page-header">
         {site_chrome.STARS_ROW}
         <div class="page-header__inner">
             <div class="page-header__text">
-                <p class="eyebrow hero__eyebrow">{level_code} &middot; Mixed Review</p>
-                <h1>Test Yourself: {level_code}</h1>
-                <p class="page-header__lede">Every exercise from every {level_code} lesson, gathered on one page. Work through as much as you like, in any order.</p>
+                <p class="eyebrow hero__eyebrow">{level_code} &middot; Repaso Mixto</p>
+                <h1>Ponte a Prueba: {level_code}</h1>
+                <p class="page-header__lede">Todos los ejercicios de todas las lecciones de {level_code}, reunidos en una sola página. Practica tanto como quieras, en el orden que prefieras.</p>
             </div>
         </div>
     </div>"""

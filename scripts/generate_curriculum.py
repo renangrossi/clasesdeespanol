@@ -19,7 +19,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent / "curriculum_source"))
 
-LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"]
+LEVELS = ["pre-a1", "a1", "a2", "b1", "b2", "c1", "c2"]
 
 
 def main():
@@ -40,7 +40,7 @@ def main():
 
         index["levels"][level_key] = {
             "overview": mod.OVERVIEW,
-            "units": [{"id": "1", "title": f"{level_key} Grammar", "lessons": lesson_entries}],
+            "units": [{"id": "1", "title": f"Gramática {level_key}", "lessons": lesson_entries}],
         }
         print(f"{level_slug}: wrote {len(lessons)} lesson JSON files")
 

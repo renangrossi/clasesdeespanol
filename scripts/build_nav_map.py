@@ -17,7 +17,7 @@ import json
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"]
+LEVELS = ["pre-a1", "a1", "a2", "b1", "b2", "c1", "c2"]
 
 
 def build_level(level_slug: str) -> list:

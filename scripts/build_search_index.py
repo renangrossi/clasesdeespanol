@@ -16,29 +16,30 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 LEVEL_ENTRIES = [
-    ("A1", "a1", "Beginner", "Essere, avere, articles and gender, present tense, everyday greetings."),
-    ("A2", "a2", "Elementary", "Irregular present-tense verbs, passato prossimo, reflexive verbs, direct pronouns."),
-    ("B1", "b1", "Intermediate", "Imperfetto, indirect and combined pronouns, futuro, condizionale, imperativo."),
-    ("B2", "b2", "Upper Intermediate", "Trapassato prossimo, congiuntivo, periodo ipotetico, passive voice, reported speech."),
-    ("C1", "c1", "Advanced", "Congiuntivo trapassato, gerundio, pronominal verbs, formal register."),
-    ("C2", "c2", "Proficient", "Complex syntax, literary register, lexical nuance, discourse cohesion."),
+    ("Pre-A1", "pre-a1", "Supervivencia", "El alfabeto y los sonidos, saludos, números, vocabulario esencial de supervivencia."),
+    ("A1", "a1", "Principiante", "Ser y estar, género y artículos, presente de indicativo, saludos cotidianos."),
+    ("A2", "a2", "Elemental", "Pretérito indefinido e imperfecto, verbos con cambio de raíz, pronombres de objeto directo."),
+    ("B1", "b1", "Intermedio", "Presente de subjuntivo, pronombres combinados, futuro, condicional, imperativo."),
+    ("B2", "b2", "Intermedio alto", "Imperfecto de subjuntivo, condicionales con si, voz pasiva, estilo indirecto."),
+    ("C1", "c1", "Avanzado", "Pluscuamperfecto de subjuntivo, condicionales complejas, matices del subjuntivo, registro formal."),
+    ("C2", "c2", "Maestría", "Sintaxis compleja, registro literario, matices léxicos, cohesión del discurso."),
 ]
 
 STATIC_ENTRIES = [
-    {"type": "extra", "level": "", "title": "Exercises", "desc": "Extra reading and vocabulary practice, independent of level.",
-     "url": "exercises.html", "keywords": ["reading", "practice", "vocabulary"]},
-    {"type": "mock", "level": "", "title": "Simulated Exams", "desc": "CILS/PLIDA-style mock exam sections with answer keys.",
-     "url": "simulated-exams.html", "keywords": ["cils", "plida", "celi", "exam", "test"]},
-    {"type": "extra", "level": "", "title": "Extras", "desc": "Italian culture, everyday expressions, and formal vs informal usage.",
-     "url": "extras.html", "keywords": ["culture", "expressions", "tu", "lei", "formal", "informal"]},
-    {"type": "grammar", "level": "", "title": "Dictionary & Reference", "desc": "Look up any Italian word across multiple dictionaries.",
-     "url": "dictionary.html", "keywords": ["wordreference", "reverso", "treccani"]},
-    {"type": "grammar", "level": "", "title": "Irregular Verbs", "desc": "Reference table of common Italian irregular verbs.",
-     "url": "irregular-verbs.html", "keywords": ["essere", "avere", "andare", "fare", "conjugation"]},
-    {"type": "extra", "level": "", "title": "Placement Test", "desc": "A short test to find out which CEFR level to start at.",
-     "url": "placement-test.html", "keywords": ["level test", "what's my level"]},
-    {"type": "extra", "level": "", "title": "Today's Review", "desc": "Spaced-repetition review of items you've gotten wrong before.",
-     "url": "today-review.html", "keywords": ["spaced repetition", "review", "mastery"]},
+    {"type": "extra", "level": "", "title": "Ejercicios", "desc": "Práctica extra de lectura y vocabulario, independiente del nivel.",
+     "url": "exercises.html", "keywords": ["lectura", "practica", "vocabulario"]},
+    {"type": "mock", "level": "", "title": "Exámenes Simulados", "desc": "Secciones de examen simulado al estilo DELE/SIELE, con hoja de respuestas.",
+     "url": "simulated-exams.html", "keywords": ["dele", "siele", "examen", "prueba"]},
+    {"type": "extra", "level": "", "title": "Extras", "desc": "Cultura hispanohablante, expresiones cotidianas, y uso formal frente a informal.",
+     "url": "extras.html", "keywords": ["cultura", "expresiones", "tu", "usted", "vos", "formal", "informal"]},
+    {"type": "grammar", "level": "", "title": "Diccionario y Referencia", "desc": "Busca cualquier palabra en español en varios diccionarios monolingües.",
+     "url": "dictionary.html", "keywords": ["rae", "dle", "wikcionario", "fundeu"]},
+    {"type": "grammar", "level": "", "title": "Verbos Irregulares", "desc": "Tabla de referencia de los verbos irregulares más comunes del español.",
+     "url": "irregular-verbs.html", "keywords": ["ser", "estar", "ir", "tener", "conjugacion"]},
+    {"type": "extra", "level": "", "title": "Prueba de Nivel", "desc": "Una prueba corta para descubrir en qué nivel del MCER empezar.",
+     "url": "placement-test.html", "keywords": ["prueba de nivel", "cual es mi nivel"]},
+    {"type": "extra", "level": "", "title": "Repaso de Hoy", "desc": "Repaso de repetición espaciada de los ítems que has fallado antes.",
+     "url": "today-review.html", "keywords": ["repeticion espaciada", "repaso", "dominio"]},
 ]
 
 
@@ -50,9 +51,9 @@ def main():
             "desc": desc, "url": f"levels/{slug}.html", "keywords": [name.lower()],
         })
         entries.append({
-            "type": "grammar", "level": code, "title": f"{code} Test Yourself",
-            "desc": f"Mixed review of every {code} grammar topic, with instant feedback.",
-            "url": f"levels/{slug}/test-yourself.html", "keywords": ["review", "quiz"],
+            "type": "grammar", "level": code, "title": f"Ponte a Prueba: {code}",
+            "desc": f"Repaso mixto de todos los temas de gramática de {code}, con retroalimentación instantánea.",
+            "url": f"levels/{slug}/test-yourself.html", "keywords": ["repaso", "prueba"],
         })
 
     files = sorted(glob.glob(str(REPO_ROOT / "curriculum" / "*" / "*.json")))

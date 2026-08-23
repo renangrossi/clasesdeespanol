@@ -1,34 +1,32 @@
 """
-Shared page chrome (head/header/nav/search-overlay/footer) for every page
-on the Italian course. This is the sister module to the English course's
-scripts/site_chrome.py, adapted in three structural ways beyond the
-obvious rebrand:
+Chrome compartido (head/header/nav/overlay de búsqueda/pie/panel del
+Profesor IA) para cada página del curso de español. Hermano de
+scripts/site_chrome.py del curso de inglés y del curso de italiano,
+combinando lo mejor de ambos:
 
-  1. No AI Teacher panel/button — omitted sitewide (needs a Cloudflare
-     Worker + API key the Italian project doesn't have yet).
-  2. No Pre-A1 level — this course ships six levels, A1 through C2.
-  3. EVERY page on this site (not just generated lesson pages) is built
-     through this module, including the homepage and every standalone
-     page (exercises, dictionary, extras, placement test, progress,
-     today's review, irregular verbs, simulated exams, level hubs). The
-     English site hand-duplicated the full header/footer markup into
-     nine separate hand-written HTML files, which is real duplication
-     risk (nine places to update if the brand or nav ever changes) —
-     here every page is generated, so there is exactly one copy of the
-     chrome markup, in this file.
+  1. Los 7 niveles del curso de inglés (incluye Pre-A1), no los 6 del
+     curso de italiano.
+  2. El panel del Profesor de IA del curso de inglés, adaptado a un
+     prompt en español (ver worker/worker.js) — el curso de italiano no
+     lo incluye todavía.
+  3. El patrón "toda página generada por este módulo" del curso de
+     italiano: TODA página del sitio (no solo las lecciones) pasa por
+     head()/header()/footer(), así que solo existe una copia del
+     marcado de cabecera/pie en todo el repositorio.
 
-REL is the relative path prefix from the generated file back to the repo
-root, e.g. "" for top-level pages, "levels/" for levels/{level}.html, and
-"../../" for levels/{level}/{lesson}.html.
+REL es el prefijo de ruta relativa desde el archivo generado hasta la
+raíz del repositorio: "" para páginas de nivel superior, "levels/" para
+levels/{nivel}.html, y "../../" para levels/{nivel}/{leccion}.html.
 """
 
 LEVELS = [
-    ("A1", "Beginner", "a1"),
-    ("A2", "Elementary", "a2"),
-    ("B1", "Intermediate", "b1"),
-    ("B2", "Upper Intermediate", "b2"),
-    ("C1", "Advanced", "c1"),
-    ("C2", "Proficient", "c2"),
+    ("Pre-A1", "Supervivencia", "pre-a1"),
+    ("A1", "Principiante", "a1"),
+    ("A2", "Elemental", "a2"),
+    ("B1", "Intermedio", "b1"),
+    ("B2", "Intermedio alto", "b2"),
+    ("C1", "Avanzado", "c1"),
+    ("C2", "Maestría", "c2"),
 ]
 
 BRAND_MARK_SVG = (
@@ -43,6 +41,10 @@ STARS_ROW = f'<div class="stars-row stars-row--onlight" aria-hidden="true">{STAR
 STARS_ROW_GOLD = f'<div class="stars-row stars-row--gold" aria-hidden="true">{STAR * 11}</div>'
 CHECK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>'
 ARROW_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>'
+
+# Endpoint del Worker del Profesor de IA. Placeholder hasta que despliegues
+# tu propio Worker (ver worker/README.md) — actualiza esta URL y reconstruye.
+AI_TEACHER_WORKER_URL = "https://ai-teacher.clasesdeespanol.workers.dev"
 
 
 def nav_levels_html(rel, active_level_code):
@@ -59,14 +61,14 @@ def nav_levels_html(rel, active_level_code):
 def head(rel, title, description, extra_css=None):
     extra = "".join(f'<link rel="stylesheet" href="{rel}assets/css/{c}.css">' for c in (extra_css or []))
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{description}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Renan the Teacher — Italian Academy">
+<meta property="og:site_name" content="Renan el Profesor — Academia de Español">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta name="twitter:card" content="summary">
@@ -81,6 +83,7 @@ def head(rel, title, description, extra_css=None):
 <link rel="stylesheet" href="{rel}assets/css/components.css">
 <link rel="stylesheet" href="{rel}assets/css/layout.css">
 <link rel="stylesheet" href="{rel}assets/css/dark-mode.css">
+<link rel="stylesheet" href="{rel}assets/css/ai-teacher.css">
 <link rel="stylesheet" href="{rel}assets/css/search.css">{extra}
 <script>
 (function(){{try{{var t=localStorage.getItem('theme');if(!t){{t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}}document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();
@@ -90,7 +93,7 @@ def head(rel, title, description, extra_css=None):
 
 def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
     breadcrumb = (
-        f"""<nav class="breadcrumbs" aria-label="Breadcrumb">
+        f"""<nav class="breadcrumbs" aria-label="Ruta de navegación">
         <ol>
         {breadcrumb_html}
         </ol>
@@ -104,57 +107,57 @@ def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
         return f'<li><a href="{rel}{href_suffix}"{current}>{label}</a></li>'
 
     return f"""<body class="" data-level-code="{active_level_code or ''}">
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" href="#main-content">Saltar al contenido</a>
     <header class="site-header">
         <div class="site-header__bar">
             <a class="brand" href="{rel}index.html">
                 {BRAND_MARK_SVG}
                 <span class="brand__text">
-                    <span class="brand__name">Renan the Teacher</span>
-                    <span class="brand__tagline">Italian Language Academy</span>
+                    <span class="brand__name">Renan el Profesor</span>
+                    <span class="brand__tagline">Academia de Español</span>
                 </span>
             </a>
-            <nav class="primary-nav" id="primary-nav" role="navigation" aria-label="Main navigation">
+            <nav class="primary-nav" id="primary-nav" role="navigation" aria-label="Navegación principal">
                 <ul class="primary-nav__list">
-                {top("Home", "index.html", "home")}
-                {top("Grammar", "index.html#grammar", "grammar")}
+                {top("Inicio", "index.html", "home")}
+                {top("Gramática", "index.html#gramatica", "grammar")}
                 <li class="nav-drop">
                     <button type="button" class="nav-drop__toggle" aria-haspopup="true" aria-expanded="false">
-                        Levels <span class="nav-drop__caret" aria-hidden="true"></span>
+                        Niveles <span class="nav-drop__caret" aria-hidden="true"></span>
                     </button>
                     <ul class="nav-drop__menu" role="menu">
                     {nav_levels_html(rel, active_level_code)}
                     </ul>
                 </li>
-                {top("Exercises", "exercises.html", "exercises")}
-                {top("Simulated Exams", "simulated-exams.html", "exams")}
+                {top("Ejercicios", "exercises.html", "exercises")}
+                {top("Exámenes Simulados", "simulated-exams.html", "exams")}
                 {top("Extras", "extras.html", "extras")}
-                {top("Dictionary", "dictionary.html", "dictionary")}
+                {top("Diccionario", "dictionary.html", "dictionary")}
                 </ul>
             </nav>
             <div class="nav-utility">
-                <button type="button" class="theme-toggle" data-search-toggle aria-label="Search the site" aria-haspopup="dialog">
+                <button type="button" class="theme-toggle" data-search-toggle aria-label="Buscar en el sitio" aria-haspopup="dialog">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
                 </button>
-                <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+                <button type="button" class="theme-toggle" data-theme-toggle aria-label="Cambiar a modo oscuro">
                     <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
                     <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
                 </button>
-                <button type="button" class="nav-toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+                <button type="button" class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-nav">
                     <span class="nav-toggle__icon"></span>
                 </button>
             </div>
         </div>
     </header>
     <div class="search-overlay" data-search-overlay hidden>
-        <div class="search-modal" role="dialog" aria-modal="true" aria-label="Site search" data-index-src="{rel}assets/data/search-index.json">
+        <div class="search-modal" role="dialog" aria-modal="true" aria-label="Búsqueda del sitio" data-index-src="{rel}assets/data/search-index.json">
             <div class="search-modal__bar">
                 <svg class="search-modal__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-                <input type="search" class="search-modal__input" data-search-input placeholder="Search lessons, grammar, vocabulary, exercises&hellip;" aria-label="Search">
-                <button type="button" class="search-modal__close" data-search-close aria-label="Close search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+                <input type="search" class="search-modal__input" data-search-input placeholder="Busca lecciones, gramática, vocabulario, ejercicios&hellip;" aria-label="Buscar">
+                <button type="button" class="search-modal__close" data-search-close aria-label="Cerrar búsqueda"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
             </div>
             <div class="search-modal__results" data-search-results>
-                <p class="search-modal__hint">Type at least 2 characters to search across every level, lesson, grammar topic and exercise.</p>
+                <p class="search-modal__hint">Escribe al menos 2 caracteres para buscar en todos los niveles, lecciones, temas de gramática y ejercicios.</p>
             </div>
         </div>
     </div>
@@ -164,16 +167,16 @@ def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
 
 def footer(rel, extra_scripts=None):
     extra = "".join(f'<script src="{rel}assets/js/{s}"></script>' for s in (extra_scripts or []))
-    return f"""<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Open quick dictionary" aria-expanded="false" aria-haspopup="dialog">
+    return f"""<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Abrir diccionario rápido" aria-expanded="false" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
     </button>
     <div class="dict-widget-panel" data-dict-widget-panel hidden>
         <div class="dict-widget__bar">
-            <input type="text" data-dict-widget-input placeholder="Look up an Italian word…" aria-label="Look up an Italian word">
-            <button type="button" class="dict-widget__close" data-dict-widget-close aria-label="Close dictionary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+            <input type="text" data-dict-widget-input placeholder="Busca una palabra en español…" aria-label="Buscar una palabra en español">
+            <button type="button" class="dict-widget__close" data-dict-widget-close aria-label="Cerrar diccionario"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
         </div>
         <div class="dict-widget__result" data-dict-widget-result>
-            <p class="dict-widget__hint">Type an Italian word to see its meaning without leaving this page.</p>
+            <p class="dict-widget__hint">Escribe una palabra para ver su significado sin salir de esta página.</p>
         </div>
         <div class="dict-widget__links" data-dict-widget-links></div>
     </div>
@@ -184,53 +187,82 @@ def footer(rel, extra_scripts=None):
                 <a class="brand" href="{rel}index.html">
                     {BRAND_MARK_SVG}
                     <span class="brand__text">
-                        <span class="brand__name">Renan the Teacher</span>
-                        <span class="brand__tagline">Italian Language Academy</span>
+                        <span class="brand__name">Renan el Profesor</span>
+                        <span class="brand__tagline">Academia de Español</span>
                     </span>
                 </a>
-                <p class="site-footer__blurb">A CEFR-aligned Italian course built one honest, carefully-checked lesson at a time &mdash; from your first &ldquo;ciao&rdquo; to real fluency.</p>
+                <p class="site-footer__blurb">Un curso de español alineado al MCER, construido lección por lección, honesta y cuidadosamente revisada &mdash; desde tu primer &laquo;hola&raquo; hasta la fluidez real.</p>
             </div>
             <div class="footer-col">
-                <h4>Levels</h4>
+                <h4>Niveles</h4>
                 <ul>
-                    <li><a href="{rel}levels/a1.html">A1 &mdash; Beginner</a></li>
-                    <li><a href="{rel}levels/a2.html">A2 &mdash; Elementary</a></li>
-                    <li><a href="{rel}levels/b1.html">B1 &mdash; Intermediate</a></li>
-                    <li><a href="{rel}levels/b2.html">B2 &mdash; Upper Intermediate</a></li>
-                    <li><a href="{rel}levels/c1.html">C1 &mdash; Advanced</a></li>
-                    <li><a href="{rel}levels/c2.html">C2 &mdash; Proficient</a></li>
+                    <li><a href="{rel}levels/pre-a1.html">Pre-A1 &mdash; Supervivencia</a></li>
+                    <li><a href="{rel}levels/a1.html">A1 &mdash; Principiante</a></li>
+                    <li><a href="{rel}levels/a2.html">A2 &mdash; Elemental</a></li>
+                    <li><a href="{rel}levels/b1.html">B1 &mdash; Intermedio</a></li>
+                    <li><a href="{rel}levels/b2.html">B2 &mdash; Intermedio alto</a></li>
+                    <li><a href="{rel}levels/c1.html">C1 &mdash; Avanzado</a></li>
+                    <li><a href="{rel}levels/c2.html">C2 &mdash; Maestría</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Practice</h4>
+                <h4>Práctica</h4>
                 <ul>
-                    <li><a href="{rel}index.html#grammar">Grammar Roadmap</a></li>
-                    <li><a href="{rel}exercises.html">Reading &amp; Exercises</a></li>
-                    <li><a href="{rel}simulated-exams.html">Simulated Exams</a></li>
-                    <li><a href="{rel}dictionary.html">Dictionary &amp; Reference</a></li>
-                    <li><a href="{rel}irregular-verbs.html">Irregular Verbs</a></li>
+                    <li><a href="{rel}index.html#gramatica">Hoja de Ruta de Gramática</a></li>
+                    <li><a href="{rel}exercises.html">Lectura y Ejercicios</a></li>
+                    <li><a href="{rel}simulated-exams.html">Exámenes Simulados</a></li>
+                    <li><a href="{rel}dictionary.html">Diccionario y Referencia</a></li>
+                    <li><a href="{rel}irregular-verbs.html">Verbos Irregulares</a></li>
                     <li><a href="{rel}extras.html">Extras</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Your Progress</h4>
+                <h4>Tu Progreso</h4>
                 <ul>
-                    <li><a href="{rel}placement-test.html">Placement Test</a></li>
-                    <li><a href="{rel}progress.html">My Progress</a></li>
-                    <li><a href="{rel}today-review.html">Today's Review</a></li>
-                    <li><a href="{rel}index.html#about-cefr">What is the CEFR?</a></li>
+                    <li><a href="{rel}placement-test.html">Prueba de Nivel</a></li>
+                    <li><a href="{rel}progress.html">Mi Progreso</a></li>
+                    <li><a href="{rel}today-review.html">Repaso de Hoy</a></li>
+                    <li><a href="{rel}index.html#sobre-mcer">¿Qué es el MCER?</a></li>
                 </ul>
             </div>
         </div>
         <div class="site-footer__bottom">
-            <p>&copy; 2026 Renan the Teacher &mdash; Italian Course. All rights reserved.</p>
+            <p>&copy; 2026 Renan el Profesor &mdash; Curso de Español. Todos los derechos reservados.</p>
         </div>
     </footer>
-    <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Back to top">
+    <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Volver arriba">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
+    <button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Preguntar al Profesor de IA" aria-expanded="false" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+        <span class="ai-teacher-toggle__label">Profesor IA</span>
+    </button>
+    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="Chat con el Profesor de IA de Español" aria-modal="false">
+        <div class="ai-teacher-panel__bar">
+            <div class="ai-teacher-panel__brand">
+                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                <div>
+                    <strong>Profesor de IA de Español</strong>
+                    <span>Pregunta sobre gramática, vocabulario o ejercicios</span>
+                </div>
+            </div>
+            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Cerrar Profesor IA"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+            <div class="ai-teacher-msg ai-teacher-msg--bot">
+                <p>¡Hola! Puedo ayudarte con el español. Pregúntame sobre gramática, palabras o ejercicios.<br>Ejemplo: <em>&laquo;Explícame el pretérito perfecto&raquo;</em> o <em>&laquo;Dame un ejercicio sobre el subjuntivo.&raquo;</em></p>
+            </div>
+        </div>
+        <form class="ai-teacher-panel__form" data-ai-teacher-form>
+            <label for="ai-teacher-input" class="visually-hidden">Tu pregunta</label>
+            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Escribe tu pregunta&hellip;" required></textarea>
+            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Enviar pregunta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </form>
+        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Las respuestas provienen de un modelo de IA y a veces pueden equivocarse &mdash; compara siempre con el material de tu lección. Nada de lo que escribas se guarda al cerrar esta ventana.</p>
+    </div>
     <script src="{rel}assets/js/main.js"></script>
     <script src="{rel}assets/js/search.js"></script>
+    <script src="{rel}assets/js/ai-teacher.js" data-ai-endpoint="{AI_TEACHER_WORKER_URL}"></script>
     <script src="{rel}assets/js/dict-widget.js"></script>
     <script src="{rel}assets/js/progress.js"></script>{extra}
 </body>
