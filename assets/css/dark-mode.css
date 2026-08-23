@@ -1,8 +1,9 @@
 /* =======================================================================
-   DARK MODE
-   Toggled via [data-theme="dark"] on <html>, set by main.js and
-   persisted to localStorage. Deep navy / forest / warm brown, never
-   pure black — kept within the same academic palette as the light theme.
+   MODO OSCURO
+   Se activa vía [data-theme="dark"] en <html>, controlado por main.js y
+   guardado en localStorage. Azul profundo / rojo de España / celeste de
+   Argentina, nunca negro puro — dentro de la misma paleta académica que
+   el tema claro.
    ======================================================================= */
 
 html[data-theme="dark"] {
@@ -21,12 +22,12 @@ html[data-theme="dark"] {
 
   --color-primary: #0c1526;
   --color-primary-strong: #08101e;
-  --color-accent: #e08249;
-  --color-accent-strong: #e79a68;
-  --color-secondary-accent: #92ac6c;
+  --color-accent: #e2555c;
+  --color-accent-strong: #ef8189;
+  --color-secondary-accent: #7ec2f0;
   --color-gold: var(--gold-500);
-  --color-red: #d9683a;
-  --color-red-dim: #b2542e;
+  --color-red: #d1454c;
+  --color-red-dim: #a6363c;
   --color-unavailable: #93a1bd;
 
   --color-success: #4fae7c;
