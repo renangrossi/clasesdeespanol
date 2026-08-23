@@ -8,7 +8,6 @@ simulated-exams.html.
 Uso:
     python3 scripts/build_static_pages.py
 """
-import html
 import json
 import sys
 from pathlib import Path
@@ -25,10 +24,6 @@ ARROW = site_chrome.ARROW_SVG
 CHECK = site_chrome.CHECK_SVG
 
 
-def esc(s):
-    return html.escape(s, quote=False)
-
-
 def ex_block(data):
     return f'<div class="exercise-block"><script type="application/json" class="exercise-data">{json.dumps(data, ensure_ascii=False)}</script></div>'
 
@@ -38,7 +33,7 @@ def page_header(eyebrow, h1, lede):
         {STARS_ROW}
         <div class="page-header__inner">
             <div class="page-header__text">
-                <p class="eyebrow hero__eyebrow">{esc(eyebrow)}</p>
+                <p class="eyebrow hero__eyebrow">{eyebrow}</p>
                 <h1>{h1}</h1>
                 <p class="page-header__lede">{lede}</p>
             </div>
@@ -126,8 +121,9 @@ def build_index():
         "C2": "Dominio preciso y matizado del espa&ntilde;ol en pr&aacute;cticamente cualquier contexto.",
     }
     for code, name, slug in site_chrome.LEVELS:
+        code_cls = "ladder__code ladder__code--compact" if len(code) > 2 else "ladder__code"
         ladder_items.append(f"""<li class="ladder__rung">
-            <span class="ladder__code" aria-hidden="true">{code}</span>
+            <span class="{code_cls}" aria-hidden="true">{code}</span>
             <div class="ladder__body">
                 <h3>{name}</h3>
                 <p>{ladder_desc[code]} <a class="ladder__link" href="levels/{slug}.html">Entra al nivel {ARROW}</a></p>
@@ -252,7 +248,7 @@ def build_exercises():
         sections.append(f"""<section class="section section--surface" aria-labelledby="ex-{ex['id']}-heading">
             <div class="section__inner">
                 <p class="eyebrow">{level}</p>
-                <h2 id="ex-{ex['id']}-heading">{esc(title)}</h2>
+                <h2 id="ex-{ex['id']}-heading">{title}</h2>
                 <div class="card"><div class="prose">{passage}</div></div>
                 <div style="margin-top:var(--space-md);">{ex_block(ex)}</div>
             </div>
@@ -283,7 +279,7 @@ def build_extras():
         ("&iexcl;Anda!", "&iexcl;Vaya! / &iexcl;No me digas!", "Sorpresa o incredulidad; tambi&eacute;n anima a alguien a hacer algo."),
         ("Estar en las nubes", "Estar distra&iacute;do, no prestar atenci&oacute;n.", "Expresi&oacute;n figurada muy com&uacute;n en toda situaci&oacute;n informal."),
     ]
-    exp_rows = "".join(f"<tr><td><strong>{esc(it)}</strong></td><td>{esc(sig)}</td><td>{esc(note)}</td></tr>" for it, sig, note in expressions)
+    exp_rows = "".join(f"<tr><td><strong>{it}</strong></td><td>{sig}</td><td>{note}</td></tr>" for it, sig, note in expressions)
 
     expressions_section = f"""<section id="expressions" class="section section--surface" aria-labelledby="expr-heading">
         <div class="section__inner">
@@ -403,8 +399,8 @@ def dict_card(name, desc, url_tmpl, sample_word, featured=True):
     btn_cls = "btn btn--accent btn--small dict-card__link" if featured else "btn btn--accent btn--small dict-card__link"
     sample_url = url_tmpl.replace("{word}", sample_word)
     return f"""<div class="{cls}" data-url-template="{url_tmpl}">
-        <h3>{esc(name)}</h3>
-        <p>{esc(desc)}</p>
+        <h3>{name}</h3>
+        <p>{desc}</p>
         <div class="card__foot">
             <a class="{btn_cls}" data-dict-link href="{sample_url}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>Buscar</a>
         </div>
@@ -514,7 +510,7 @@ def build_irregular_verbs():
                           "Los verbos irregulares m&aacute;s comunes, con su presente (yo), pret&eacute;rito (yo) y tipo de irregularidad &mdash; escribe para filtrar.")
 
     rows = "".join(
-        f"<tr><td><strong>{esc(inf)}</strong></td><td>{esc(meaning)}</td><td>{esc(pres)}</td><td>{esc(pret)}</td><td class=\"text-muted\">{esc(tipo)}</td></tr>"
+        f"<tr><td><strong>{inf}</strong></td><td>{meaning}</td><td>{pres}</td><td>{pret}</td><td class=\"text-muted\">{tipo}</td></tr>"
         for inf, meaning, pres, pret, tipo in IRREGULAR_VERBS
     )
 

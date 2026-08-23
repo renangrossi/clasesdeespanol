@@ -14,28 +14,28 @@
   ],
   "content": {
     "intro": "En B1 viste el estilo indirecto con el verbo introductor en presente, donde casi nada cambia de tiempo verbal; ahora toca el caso más complejo y más frecuente en la narración: cuando ese verbo introductor está en pasado.",
-    "explanation": "<p>Cuando el verbo introductor está en pasado (<em>dijo que...</em>), el tiempo verbal de la subordinada retrocede un paso según una tabla fija de correspondencias: el presente pasa a imperfecto, el pretérito perfecto/indefinido pasa a pluscuamperfecto, el futuro pasa a condicional, y el imperativo pasa a imperfecto de subjuntivo.</p><p>Además de los tiempos verbales, también cambian los marcadores de tiempo y lugar para reflejar la nueva perspectiva: <em>hoy &rarr; ese día, mañana &rarr; al día siguiente, ayer &rarr; el día anterior, aquí &rarr; allí, este &rarr; aquel.</em></p>",
+    "explanation": "<p>Cuando el verbo introductor está en pasado (<em>dijo que...</em>), el tiempo verbal de la subordinada retrocede un paso según una tabla fija de correspondencias: el presente pasa a imperfecto, el pretérito perfecto/indefinido pasa a pluscuamperfecto, el futuro pasa a condicional, y el imperativo pasa a imperfecto de subjuntivo.</p><p>Además de los tiempos verbales, también cambian los marcadores de tiempo y lugar para reflejar la nueva perspectiva: <em>hoy → ese día, mañana → al día siguiente, ayer → el día anterior, aquí → allí, este → aquel.</em></p>",
     "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Cambios de tiempo verbal (verbo introductor en pasado)</caption><thead><tr><th>Estilo directo</th><th>Estilo indirecto</th></tr></thead><tbody><tr><td>presente</td><td>imperfecto</td></tr><tr><td>pretérito perfecto/indefinido</td><td>pluscuamperfecto</td></tr><tr><td>futuro simple</td><td>condicional simple</td></tr><tr><td>imperativo</td><td>imperfecto de subjuntivo</td></tr></tbody></table></div>",
     "rules": [
       {
-        "heading": "a) Presente &rarr; imperfecto",
-        "body": "<p>\"Estoy cansada\" &rarr; <em>Dijo que estaba cansada.</em></p>"
+        "heading": "a) Presente → imperfecto",
+        "body": "<p>\"Estoy cansada\" → <em>Dijo que estaba cansada.</em></p>"
       },
       {
-        "heading": "b) Pretérito &rarr; pluscuamperfecto",
-        "body": "<p>\"Llegué tarde\" &rarr; <em>Me contó que había llegado tarde.</em></p>"
+        "heading": "b) Pretérito → pluscuamperfecto",
+        "body": "<p>\"Llegué tarde\" → <em>Me contó que había llegado tarde.</em></p>"
       },
       {
-        "heading": "c) Futuro &rarr; condicional",
-        "body": "<p>\"Vendré mañana\" &rarr; <em>Prometió que vendría al día siguiente.</em></p>"
+        "heading": "c) Futuro → condicional",
+        "body": "<p>\"Vendré mañana\" → <em>Prometió que vendría al día siguiente.</em></p>"
       },
       {
-        "heading": "d) Imperativo &rarr; imperfecto de subjuntivo",
-        "body": "<p>\"Cierra la puerta\" &rarr; <em>Me pidió que cerrara la puerta.</em></p>"
+        "heading": "d) Imperativo → imperfecto de subjuntivo",
+        "body": "<p>\"Cierra la puerta\" → <em>Me pidió que cerrara la puerta.</em></p>"
       },
       {
         "heading": "e) Marcadores de tiempo y lugar",
-        "body": "<p><em>hoy &rarr; ese día/aquel día, ayer &rarr; el día anterior, mañana &rarr; al día siguiente, aquí &rarr; allí, este &rarr; aquel.</em></p>"
+        "body": "<p><em>hoy → ese día/aquel día, ayer → el día anterior, mañana → al día siguiente, aquí → allí, este → aquel.</em></p>"
       }
     ],
     "examples": [
@@ -74,7 +74,7 @@
       "items": [
         {
           "id": "b2ei2a",
-          "prompt": "Ana dijo: \"Vivo en Sevilla.\" &rarr; Ana dijo que ___ en Sevilla.",
+          "prompt": "Ana dijo: \"Vivo en Sevilla.\" → Ana dijo que ___ en Sevilla.",
           "answers": [
             [
               "vivía"
@@ -89,7 +89,7 @@
         },
         {
           "id": "b2ei2b",
-          "prompt": "Juan prometió: \"Llamaré mañana.\" &rarr; Juan prometió que ___ al día siguiente.",
+          "prompt": "Juan prometió: \"Llamaré mañana.\" → Juan prometió que ___ al día siguiente.",
           "answers": [
             [
               "llamaría"
@@ -111,7 +111,7 @@
       "items": [
         {
           "id": "b2ei2c",
-          "prompt": "\"Cierra la puerta\", dijo el profesor. &rarr; en estilo indirecto...",
+          "prompt": "\"Cierra la puerta\", dijo el profesor. → en estilo indirecto...",
           "options": [
             "Dijo que cerrara la puerta.",
             "Dijo que cierre la puerta.",

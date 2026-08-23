@@ -26,7 +26,7 @@
       },
       {
         "heading": "c) Formación del plural",
-        "body": "<ul><li>Terminación en vocal &rarr; se añade <strong>-s</strong>: <em>libro &rarr; libros, casa &rarr; casas</em></li><li>Terminación en consonante &rarr; se añade <strong>-es</strong>: <em>ciudad &rarr; ciudades, flor &rarr; flores</em></li><li>Terminación en <strong>-z</strong> &rarr; cambia a <strong>-ces</strong>: <em>lápiz &rarr; lápices, vez &rarr; veces</em></li></ul>"
+        "body": "<ul><li>Terminación en vocal → se añade <strong>-s</strong>: <em>libro → libros, casa → casas</em></li><li>Terminación en consonante → se añade <strong>-es</strong>: <em>ciudad → ciudades, flor → flores</em></li><li>Terminación en <strong>-z</strong> → cambia a <strong>-ces</strong>: <em>lápiz → lápices, vez → veces</em></li></ul>"
       }
     ],
     "examples": [
@@ -112,7 +112,7 @@
       "items": [
         {
           "id": "a1gn5",
-          "prompt": "libro &rarr; ___",
+          "prompt": "libro → ___",
           "answers": [
             [
               "libros"
@@ -122,7 +122,7 @@
         },
         {
           "id": "a1gn6",
-          "prompt": "flor &rarr; ___",
+          "prompt": "flor → ___",
           "answers": [
             [
               "flores"
@@ -132,7 +132,7 @@
         },
         {
           "id": "a1gn7",
-          "prompt": "lápiz &rarr; ___",
+          "prompt": "lápiz → ___",
           "answers": [
             [
               "lápices"
@@ -142,7 +142,7 @@
         },
         {
           "id": "a1gn8",
-          "prompt": "ciudad &rarr; ___",
+          "prompt": "ciudad → ___",
           "answers": [
             [
               "ciudades"

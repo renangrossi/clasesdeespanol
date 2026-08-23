@@ -17,11 +17,11 @@
     "explanation": "<p>La prueba más fiable es preguntarse: <strong>¿el hablante presenta esto como un hecho cierto y real, o como algo deseado, dudoso, valorado o no confirmado?</strong> Si es un hecho cierto, va indicativo; si no, va subjuntivo. Las expresiones impersonales de certeza (<em>es verdad que, es evidente que, está claro que</em>) piden indicativo; las de valoración u opinión no factual (<em>es importante que, es una lástima que, es posible que</em>) piden subjuntivo.</p><p>Verbos como <strong>decir, contar, comentar</strong> alternan según su significado: cuando informan de un hecho, van con indicativo (<em>Me dijo que llegaba tarde</em>); cuando dan una orden o instrucción, van con subjuntivo (<em>Me dijo que llegara temprano</em>).</p>",
     "rules": [
       {
-        "heading": "a) Expresiones impersonales de certeza &rarr; indicativo",
+        "heading": "a) Expresiones impersonales de certeza → indicativo",
         "body": "<p><em>es verdad que, es evidente que, está claro que, es seguro que</em> + indicativo: <em>Es evidente que ella tiene razón.</em></p>"
       },
       {
-        "heading": "b) Expresiones impersonales de valoración/duda &rarr; subjuntivo",
+        "heading": "b) Expresiones impersonales de valoración/duda → subjuntivo",
         "body": "<p><em>es importante que, es una lástima que, es posible que, es raro que, más vale que</em> + subjuntivo: <em>Es una lástima que no puedas venir.</em></p>"
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         "heading": "d) Negar la certeza convierte el indicativo en subjuntivo",
-        "body": "<p><em>Es verdad que viene</em> (indicativo) &rarr; <em>No es verdad que venga</em> (subjuntivo, porque la negación elimina la certeza).</p>"
+        "body": "<p><em>Es verdad que viene</em> (indicativo) → <em>No es verdad que venga</em> (subjuntivo, porque la negación elimina la certeza).</p>"
       }
     ],
     "examples": [

@@ -36,7 +36,7 @@ LESSONS = [
             "explanation": "<p>Se forma con el presente de <strong>haber</strong> (he, has, ha, hemos, habéis, han) más el <strong>participio</strong> del verbo principal. Los participios regulares terminan en <strong>-ado</strong> (verbos en -ar) o <strong>-ido</strong> (verbos en -er/-ir), pero varios verbos muy frecuentes tienen un participio irregular que hay que memorizar aparte.</p><p>Se usa sobre todo para hablar de acciones ocurridas en un periodo de tiempo que todavía no ha terminado (<em>hoy, esta semana, este año</em>), para experiencias de vida sin momento concreto, y para hechos recientes cuyo resultado se nota ahora. En España es el tiempo más habitual para el pasado reciente; en gran parte de América Latina se prefiere el pretérito indefinido incluso para hechos de hoy mismo.</p>",
             "table": '<div class="table-scroll"><table class="ref-table"><caption>Haber + participio</caption><thead><tr><th>Sujeto</th><th>haber</th><th>hablar</th><th>comer</th><th>vivir</th></tr></thead><tbody><tr><td>yo</td><td>he</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>tú</td><td>has</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>él/ella/usted</td><td>ha</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>nosotros/as</td><td>hemos</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>vosotros/as</td><td>habéis</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>ellos/as/ustedes</td><td>han</td><td>hablado</td><td>comido</td><td>vivido</td></tr></tbody></table></div>',
             "rules": [
-                {"heading": "a) Participios irregulares frecuentes", "body": "<ul><li><em>hacer &rarr; hecho, decir &rarr; dicho, escribir &rarr; escrito, ver &rarr; visto</em></li><li><em>poner &rarr; puesto, volver &rarr; vuelto, abrir &rarr; abierto, romper &rarr; roto</em></li><li><em>morir &rarr; muerto, resolver &rarr; resuelto</em></li></ul>"},
+                {"heading": "a) Participios irregulares frecuentes", "body": "<ul><li><em>hacer → hecho, decir → dicho, escribir → escrito, ver → visto</em></li><li><em>poner → puesto, volver → vuelto, abrir → abierto, romper → roto</em></li><li><em>morir → muerto, resolver → resuelto</em></li></ul>"},
                 {"heading": "b) Cuándo se usa", "body": "<ul><li>Periodo de tiempo no terminado: <em>Hoy he trabajado mucho.</em></li><li>Experiencia sin momento concreto: <em>He viajado a Perú dos veces.</em></li><li>Resultado presente de un hecho reciente: <em>Se ha roto el vaso.</em></li></ul>"},
                 {"heading": "c) Nunca se separa haber del participio", "body": "<p>A diferencia de otros idiomas, en español no se puede meter ninguna palabra entre el auxiliar y el participio: <em>He siempre querido viajar</em> es incorrecto; la posición correcta es <em>Siempre he querido viajar.</em></p>"},
             ],
@@ -155,8 +155,8 @@ LESSONS = [
             "table": '<div class="table-scroll"><table class="ref-table"><caption>Pretérito indefinido — ser/ir, tener, hacer, estar</caption><thead><tr><th>Sujeto</th><th>ser / ir</th><th>tener</th><th>hacer</th><th>estar</th></tr></thead><tbody><tr><td>yo</td><td>fui</td><td>tuve</td><td>hice</td><td>estuve</td></tr><tr><td>tú</td><td>fuiste</td><td>tuviste</td><td>hiciste</td><td>estuviste</td></tr><tr><td>él/ella/usted</td><td>fue</td><td>tuvo</td><td>hizo</td><td>estuvo</td></tr><tr><td>nosotros/as</td><td>fuimos</td><td>tuvimos</td><td>hicimos</td><td>estuvimos</td></tr><tr><td>vosotros/as</td><td>fuisteis</td><td>tuvisteis</td><td>hicisteis</td><td>estuvisteis</td></tr><tr><td>ellos/as/ustedes</td><td>fueron</td><td>tuvieron</td><td>hicieron</td><td>estuvieron</td></tr></tbody></table></div>',
             "rules": [
                 {"heading": "a) Ser e ir: formas idénticas", "body": "<ul><li><em>Fui profesor durante diez años.</em> (ser)</li><li><em>Fui al mercado esta mañana.</em> (ir)</li><li>Solo el contexto — si hay un lugar/destino o una identidad — distingue los dos verbos.</li></ul>"},
-                {"heading": "b) El grupo con raíz irregular fuerte", "body": "<ul><li><em>tener &rarr; tuv-, estar &rarr; estuv-, poder &rarr; pud-, poner &rarr; pus-, saber &rarr; sup-, querer &rarr; quis-, venir &rarr; vin-</em></li><li>Todos usan las mismas terminaciones: <strong>-e, -iste, -o, -imos, -isteis, -ieron</strong> (sin tilde, a diferencia de los verbos regulares).</li></ul>"},
-                {"heading": "c) Hacer y decir: raíz con \"j\"", "body": "<ul><li><em>hacer &rarr; hic-/hiz- (hice, hizo)</em></li><li><em>decir &rarr; dij-</em> — y la tercera persona plural pierde la i: <em>dijeron</em>, no dijieron</li></ul>"},
+                {"heading": "b) El grupo con raíz irregular fuerte", "body": "<ul><li><em>tener → tuv-, estar → estuv-, poder → pud-, poner → pus-, saber → sup-, querer → quis-, venir → vin-</em></li><li>Todos usan las mismas terminaciones: <strong>-e, -iste, -o, -imos, -isteis, -ieron</strong> (sin tilde, a diferencia de los verbos regulares).</li></ul>"},
+                {"heading": "c) Hacer y decir: raíz con \"j\"", "body": "<ul><li><em>hacer → hic-/hiz- (hice, hizo)</em></li><li><em>decir → dij-</em> — y la tercera persona plural pierde la i: <em>dijeron</em>, no dijieron</li></ul>"},
             ],
             "examples": [
                 "Fui a la playa el fin de semana pasado.",
@@ -215,7 +215,7 @@ LESSONS = [
             "rules": [
                 {"heading": "a) Verbos en -ar", "body": "<p>Terminaciones: -aba, -abas, -aba, -ábamos, -abais, -aban (yo y él/ella/usted son idénticos)</p>"},
                 {"heading": "b) Verbos en -er/-ir", "body": "<p>Terminaciones: -ía, -ías, -ía, -íamos, -íais, -ían (yo y él/ella/usted también son idénticos)</p>"},
-                {"heading": "c) Los tres únicos irregulares", "body": "<ul><li><em>ser &rarr; era, eras, era, éramos, erais, eran</em></li><li><em>ir &rarr; iba, ibas, iba, íbamos, ibais, iban</em></li><li><em>ver &rarr; veía, veías, veía, veíamos, veíais, veían</em></li></ul>"},
+                {"heading": "c) Los tres únicos irregulares", "body": "<ul><li><em>ser → era, eras, era, éramos, erais, eran</em></li><li><em>ir → iba, ibas, iba, íbamos, ibais, iban</em></li><li><em>ver → veía, veías, veía, veíamos, veíais, veían</em></li></ul>"},
                 {"heading": "d) Usos principales", "body": "<ul><li>Descripción del pasado: <em>El pueblo era pequeño y tranquilo.</em></li><li>Hábitos y rutinas pasadas: <em>Todos los veranos íbamos a la playa.</em></li><li>Fondo de una historia: <em>Llovía mucho cuando salimos de casa.</em></li></ul>"},
             ],
             "examples": [
@@ -329,7 +329,7 @@ LESSONS = [
             "table": '<div class="table-scroll"><table class="ref-table"><caption>Futuro simple — hablar, comer, vivir</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th></tr></thead><tbody><tr><td>yo</td><td>hablaré</td><td>comeré</td><td>viviré</td></tr><tr><td>tú</td><td>hablarás</td><td>comerás</td><td>vivirás</td></tr><tr><td>él/ella/usted</td><td>hablará</td><td>comerá</td><td>vivirá</td></tr><tr><td>nosotros/as</td><td>hablaremos</td><td>comeremos</td><td>viviremos</td></tr><tr><td>vosotros/as</td><td>hablaréis</td><td>comeréis</td><td>viviréis</td></tr><tr><td>ellos/as/ustedes</td><td>hablarán</td><td>comerán</td><td>vivirán</td></tr></tbody></table></div>',
             "rules": [
                 {"heading": "a) Terminaciones del futuro simple (iguales para -ar/-er/-ir)", "body": "<p>-é, -ás, -á, -emos, -éis, -án — se añaden al infinitivo completo.</p>"},
-                {"heading": "b) Raíces irregulares frecuentes", "body": "<ul><li><em>tener &rarr; tendr-, poner &rarr; pondr-, salir &rarr; saldr-, venir &rarr; vendr-</em></li><li><em>poder &rarr; podr-, saber &rarr; sabr-, querer &rarr; querr-</em></li><li><em>decir &rarr; dir-, hacer &rarr; har-</em></li></ul>"},
+                {"heading": "b) Raíces irregulares frecuentes", "body": "<ul><li><em>tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-</em></li><li><em>poder → podr-, saber → sabr-, querer → querr-</em></li><li><em>decir → dir-, hacer → har-</em></li></ul>"},
                 {"heading": "c) Ir + a + infinitivo", "body": "<p>Presente de ir (voy, vas, va, vamos, vais, van) + a + infinitivo: <em>Voy a llamar a mi hermana esta tarde.</em> Se usa para planes ya decididos, sobre todo en el habla informal.</p>"},
                 {"heading": "d) El futuro simple para suposiciones sobre el presente", "body": "<p><em>¿Qué hora será?</em> (no lo sé con certeza, pero calculo); <em>Tendrá unos treinta años.</em> (supongo su edad).</p>"},
             ],
@@ -388,8 +388,8 @@ LESSONS = [
             "rules": [
                 {"heading": "a) Comparativo de superioridad e inferioridad", "body": "<ul><li><strong>más + adjetivo/adverbio/sustantivo + que</strong>: <em>Ana es más alta que Luis.</em></li><li><strong>menos + adjetivo/adverbio/sustantivo + que</strong>: <em>Este libro es menos interesante que el otro.</em></li></ul>"},
                 {"heading": "b) Comparativo de igualdad", "body": "<ul><li><strong>tan + adjetivo/adverbio + como</strong>: <em>Ella es tan simpática como su hermana.</em></li><li><strong>tanto/tanta/tantos/tantas + sustantivo + como</strong>: <em>Tengo tantos libros como tú.</em></li></ul>"},
-                {"heading": "c) Comparativos irregulares", "body": "<ul><li><em>bueno &rarr; mejor</em> (no más bueno), <em>malo &rarr; peor</em> (no más malo)</li><li><em>grande &rarr; mayor</em> (edad) o más grande (tamaño), <em>pequeño &rarr; menor</em> (edad) o más pequeño (tamaño)</li></ul>"},
-                {"heading": "d) Superlativos", "body": "<ul><li>Relativo: <strong>el/la/los/las (+ sustantivo) + más/menos + adjetivo + de</strong>: <em>Es la ciudad más grande del país.</em></li><li>Absoluto con -ísimo: <em>fácil &rarr; facilísimo, rápido &rarr; rapidísimo, feliz &rarr; felicísimo</em></li></ul>"},
+                {"heading": "c) Comparativos irregulares", "body": "<ul><li><em>bueno → mejor</em> (no más bueno), <em>malo → peor</em> (no más malo)</li><li><em>grande → mayor</em> (edad) o más grande (tamaño), <em>pequeño → menor</em> (edad) o más pequeño (tamaño)</li></ul>"},
+                {"heading": "d) Superlativos", "body": "<ul><li>Relativo: <strong>el/la/los/las (+ sustantivo) + más/menos + adjetivo + de</strong>: <em>Es la ciudad más grande del país.</em></li><li>Absoluto con -ísimo: <em>fácil → facilísimo, rápido → rapidísimo, feliz → felicísimo</em></li></ul>"},
             ],
             "examples": [
                 "Mi hermano es más alto que yo, pero yo soy más rápido.",
@@ -434,7 +434,7 @@ LESSONS = [
         "id": "a2-verbos-con-cambio-de-raiz",
         "level": "A2", "unit": "1", "order": 8, "skill": "grammar", "strand": "verbos",
         "title": "Verbos con Cambio de Raíz",
-        "subtitle": "E&rarr;ie, o&rarr;ue, e&rarr;i: la vocal de la raíz cambia cuando lleva la fuerza de la palabra.",
+        "subtitle": "E→ie, o→ue, e→i: la vocal de la raíz cambia cuando lleva la fuerza de la palabra.",
         "objectives": [
             "Reconocer los tres patrones de cambio de raíz (e>ie, o>ue, e>i) en presente",
             "Conjugar verbos frecuentes de cada patrón en presente de indicativo",
@@ -442,12 +442,12 @@ LESSONS = [
         ],
         "content": {
             "intro": "Muchos verbos muy comunes cambian una vocal de su raíz cuando esa sílaba lleva la fuerza de la palabra — no son irregulares al azar, siguen un patrón predecible una vez que lo conoces.",
-            "explanation": "<p>Estos verbos cambian la última vocal de la raíz solo quando esa sílaba recibe la fuerza de pronunciación, es decir, en todas las personas <strong>excepto nosotros y vosotros</strong> (donde la fuerza cae en la terminación, no en la raíz). Hay tres patrones principales: <strong>e&rarr;ie</strong> (querer &rarr; quiero), <strong>o&rarr;ue</strong> (poder &rarr; puedo) y <strong>e&rarr;i</strong>, este último solo en verbos terminados en -ir (pedir &rarr; pido).</p><p>Fuera de ese cambio de vocal, estos verbos usan las terminaciones normales de su conjugación (-ar, -er, -ir), así que una vez identificado el patrón, el resto de la conjugación es totalmente regular.</p>",
-            "table": '<div class="table-scroll"><table class="ref-table"><caption>Cambio de raíz — querer (e&rarr;ie), poder (o&rarr;ue), pedir (e&rarr;i)</caption><thead><tr><th>Sujeto</th><th>querer</th><th>poder</th><th>pedir</th></tr></thead><tbody><tr><td>yo</td><td>quiero</td><td>puedo</td><td>pido</td></tr><tr><td>tú</td><td>quieres</td><td>puedes</td><td>pides</td></tr><tr><td>él/ella/usted</td><td>quiere</td><td>puede</td><td>pide</td></tr><tr><td>nosotros/as</td><td>queremos</td><td>podemos</td><td>pedimos</td></tr><tr><td>vosotros/as</td><td>queréis</td><td>podéis</td><td>pedís</td></tr><tr><td>ellos/as/ustedes</td><td>quieren</td><td>pueden</td><td>piden</td></tr></tbody></table></div>',
+            "explanation": "<p>Estos verbos cambian la última vocal de la raíz solo cuando esa sílaba recibe la fuerza de pronunciación, es decir, en todas las personas <strong>excepto nosotros y vosotros</strong> (donde la fuerza cae en la terminación, no en la raíz). Hay tres patrones principales: <strong>e→ie</strong> (querer → quiero), <strong>o→ue</strong> (poder → puedo) y <strong>e→i</strong>, este último solo en verbos terminados en -ir (pedir → pido).</p><p>Fuera de ese cambio de vocal, estos verbos usan las terminaciones normales de su conjugación (-ar, -er, -ir), así que una vez identificado el patrón, el resto de la conjugación es totalmente regular.</p>",
+            "table": '<div class="table-scroll"><table class="ref-table"><caption>Cambio de raíz — querer (e→ie), poder (o→ue), pedir (e→i)</caption><thead><tr><th>Sujeto</th><th>querer</th><th>poder</th><th>pedir</th></tr></thead><tbody><tr><td>yo</td><td>quiero</td><td>puedo</td><td>pido</td></tr><tr><td>tú</td><td>quieres</td><td>puedes</td><td>pides</td></tr><tr><td>él/ella/usted</td><td>quiere</td><td>puede</td><td>pide</td></tr><tr><td>nosotros/as</td><td>queremos</td><td>podemos</td><td>pedimos</td></tr><tr><td>vosotros/as</td><td>queréis</td><td>podéis</td><td>pedís</td></tr><tr><td>ellos/as/ustedes</td><td>quieren</td><td>pueden</td><td>piden</td></tr></tbody></table></div>',
             "rules": [
-                {"heading": "a) E&rarr;IE", "body": "<p><em>querer, pensar, cerrar, empezar, entender, preferir, sentir</em> — <em>Pienso que tienes razón. Cierro la puerta con cuidado.</em></p>"},
-                {"heading": "b) O&rarr;UE", "body": "<p><em>poder, dormir, volver, contar, encontrar, jugar (u&rarr;ue)</em> — <em>Duermo ocho horas cada noche. Juego al tenis los sábados.</em></p>"},
-                {"heading": "c) E&rarr;I (solo verbos en -ir)", "body": "<p><em>pedir, servir, repetir, seguir, vestir</em> — <em>Pido un café todas las mañanas. Sigo estudiando después de clase.</em></p>"},
+                {"heading": "a) E→IE", "body": "<p><em>querer, pensar, cerrar, empezar, entender, preferir, sentir</em> — <em>Pienso que tienes razón. Cierro la puerta con cuidado.</em></p>"},
+                {"heading": "b) O→UE", "body": "<p><em>poder, dormir, volver, contar, encontrar, jugar (u→ue)</em> — <em>Duermo ocho horas cada noche. Juego al tenis los sábados.</em></p>"},
+                {"heading": "c) E→I (solo verbos en -ir)", "body": "<p><em>pedir, servir, repetir, seguir, vestir</em> — <em>Pido un café todas las mañanas. Sigo estudiando después de clase.</em></p>"},
                 {"heading": "d) Nosotros y vosotros no cambian", "body": "<p>En estas dos personas, la fuerza cae en la terminación, no en la raíz, así que la vocal se mantiene sin cambio: <em>queremos, podemos, pedimos</em> (no quieremos, puedemos, pidemos).</p>"},
             ],
             "examples": [
@@ -475,8 +475,8 @@ LESSONS = [
              ]},
             {"id": "a2cr-mc", "type": "multiple-choice", "title": "Identifica el Patrón",
              "items": [
-                {"id": "a2cr4", "prompt": "\"Duermo\" pertenece al patrón...", "options": ["e&rarr;ie", "o&rarr;ue", "e&rarr;i"], "answerIndex": 1, "explanation": "Dormir cambia la o de la raíz por ue: duermo."},
-                {"id": "a2cr5", "prompt": "\"Sirve\" pertenece al patrón...", "options": ["e&rarr;ie", "o&rarr;ue", "e&rarr;i"], "answerIndex": 2, "explanation": "Servir cambia la e de la raíz por i, patrón exclusivo de verbos en -ir."},
+                {"id": "a2cr4", "prompt": "\"Duermo\" pertenece al patrón...", "options": ["e→ie", "o→ue", "e→i"], "answerIndex": 1, "explanation": "Dormir cambia la o de la raíz por ue: duermo."},
+                {"id": "a2cr5", "prompt": "\"Sirve\" pertenece al patrón...", "options": ["e→ie", "o→ue", "e→i"], "answerIndex": 2, "explanation": "Servir cambia la e de la raíz por i, patrón exclusivo de verbos en -ir."},
              ]},
             {"id": "a2cr-correction", "type": "correction", "title": "Corrige los Errores",
              "items": [
@@ -621,7 +621,7 @@ LESSONS = [
             "table": '<div class="table-scroll"><table class="ref-table"><caption>Imperativo afirmativo — tú y usted</caption><thead><tr><th>Verbo</th><th>tú</th><th>usted</th></tr></thead><tbody><tr><td>hablar</td><td>habla</td><td>hable</td></tr><tr><td>comer</td><td>come</td><td>coma</td></tr><tr><td>escribir</td><td>escribe</td><td>escriba</td></tr><tr><td>decir</td><td>di</td><td>diga</td></tr><tr><td>hacer</td><td>haz</td><td>haga</td></tr><tr><td>poner</td><td>pon</td><td>ponga</td></tr><tr><td>ir</td><td>ve</td><td>vaya</td></tr></tbody></table></div>',
             "rules": [
                 {"heading": "a) Tú regular", "body": "<p>Coincide con la forma de él/ella del presente: <em>Habla más despacio, por favor. Come toda la verdura. Escribe tu nombre aquí.</em></p>"},
-                {"heading": "b) Los ocho irregulares de tú", "body": "<p><em>decir&rarr;di, hacer&rarr;haz, ir&rarr;ve, poner&rarr;pon, salir&rarr;sal, ser&rarr;sé, tener&rarr;ten, venir&rarr;ven</em></p>"},
+                {"heading": "b) Los ocho irregulares de tú", "body": "<p><em>decir→di, hacer→haz, ir→ve, poner→pon, salir→sal, ser→sé, tener→ten, venir→ven</em></p>"},
                 {"heading": "c) Usted", "body": "<p>Verbos en -ar cambian a -e; verbos en -er/-ir cambian a -a: <em>Hable más despacio, por favor. Coma toda la verdura. Escriba su nombre aquí.</em></p>"},
                 {"heading": "d) Pronombres pegados al final", "body": "<p>Con el imperativo afirmativo, los pronombres de objeto directo, indirecto y reflexivos siempre van pegados al final del verbo, formando una sola palabra: <em>Levántate. Cómelo. Escríbeme pronto.</em></p>"},
             ],

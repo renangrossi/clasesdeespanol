@@ -35,9 +35,9 @@ LESSONS = [
             "intro": "En A2 aprendiste la regla general de estos dos tiempos; en B1 toca afinarla, porque el uso real varía según la región del mundo hispanohablante en la que te encuentres.",
             "explanation": "<p>La regla de base sigue siendo válida: el <strong>perfecto compuesto</strong> conecta un hecho con un periodo de tiempo no terminado o con el presente, y el <strong>indefinido</strong> narra hechos cerrados en el pasado. Pero en España, sobre todo en el centro y el norte, el perfecto compuesto se extiende también a hechos de hoy con un final claro (<em>Esta mañana he desayunado tarde</em>), mientras que gran parte de América Latina prefiere el indefinido incluso para hechos de hoy mismo (<em>Esta mañana desayuné tarde</em>).</p><p>No hay una versión \"incorrecta\": son dos normas regionales distintas, y ambas se enseñan y se entienden en todo el mundo hispanohablante. Lo importante es ser consistente y reconocer ambos usos al leer o escuchar.</p>",
             "rules": [
-                {"heading": "a) La base que no cambia en ningún país", "body": "<ul><li>Marcador de tiempo cerrado y terminado (<em>ayer, en 2020, el mes pasado</em>) &rarr; siempre indefinido.</li><li>Experiencia de vida sin momento concreto (<em>alguna vez, nunca, ya</em>) &rarr; siempre perfecto compuesto.</li></ul>"},
+                {"heading": "a) La base que no cambia en ningún país", "body": "<ul><li>Marcador de tiempo cerrado y terminado (<em>ayer, en 2020, el mes pasado</em>) → siempre indefinido.</li><li>Experiencia de vida sin momento concreto (<em>alguna vez, nunca, ya</em>) → siempre perfecto compuesto.</li></ul>"},
                 {"heading": "b) La zona de variación regional", "body": "<ul><li>España (centro/norte): <em>Hoy he comido en un restaurante nuevo.</em> (hecho de hoy, aunque ya terminó)</li><li>Gran parte de América Latina: <em>Hoy comí en un restaurante nuevo.</em> (mismo hecho, con indefinido)</li></ul>"},
-                {"heading": "c) Cómo decidir en la práctica", "body": "<p>Si no sabes qué variedad prefiere tu interlocutor, la regla de base (marcador cerrado &rarr; indefinido; experiencia sin momento &rarr; perfecto) siempre funciona y se entiende en cualquier país.</p>"},
+                {"heading": "c) Cómo decidir en la práctica", "body": "<p>Si no sabes qué variedad prefiere tu interlocutor, la regla de base (marcador cerrado → indefinido; experiencia sin momento → perfecto) siempre funciona y se entiende en cualquier país.</p>"},
             ],
             "examples": [
                 "¿Has estado alguna vez en Argentina? (experiencia, cualquier país)",
@@ -260,9 +260,9 @@ LESSONS = [
             "explanation": "<p>El imperativo negativo, tanto para <strong>tú</strong> como para <strong>usted</strong>, usa las mismas formas que el presente de subjuntivo (que se estudiará a fondo en la próxima lección): para tú, verbos en -ar cambian a -es y verbos en -er/-ir cambian a -as; para usted, se mantienen las mismas formas que en el imperativo afirmativo.</p><p>A diferencia del imperativo afirmativo, donde el pronombre va pegado al final, en el <strong>negativo</strong> el pronombre siempre va <strong>antes</strong> del verbo, entre <em>no</em> y el verbo: <em>No lo hagas. No me lo digas. No se preocupe.</em></p>",
             "table": '<div class="table-scroll"><table class="ref-table"><caption>Imperativo negativo — tú y usted</caption><thead><tr><th>Verbo</th><th>tú (negativo)</th><th>usted (negativo)</th></tr></thead><tbody><tr><td>hablar</td><td>no hables</td><td>no hable</td></tr><tr><td>comer</td><td>no comas</td><td>no coma</td></tr><tr><td>escribir</td><td>no escribas</td><td>no escriba</td></tr><tr><td>hacer</td><td>no hagas</td><td>no haga</td></tr><tr><td>ir</td><td>no vayas</td><td>no vaya</td></tr></tbody></table></div>',
             "rules": [
-                {"heading": "a) Tú negativo: -ar &rarr; -es, -er/-ir &rarr; -as", "body": "<p><em>No hables tan alto. No comas tan rápido. No escribas con lápiz.</em></p>"},
+                {"heading": "a) Tú negativo: -ar → -es, -er/-ir → -as", "body": "<p><em>No hables tan alto. No comas tan rápido. No escribas con lápiz.</em></p>"},
                 {"heading": "b) Usted negativo: misma forma que el afirmativo", "body": "<p><em>No hable tan alto. No coma tan rápido. No escriba con lápiz.</em> (la forma verbal en sí no cambia entre afirmativo y negativo para usted, solo se añade no)</p>"},
-                {"heading": "c) Irregulares frecuentes en negativo (tú)", "body": "<p><em>ir &rarr; no vayas, ser &rarr; no seas, estar &rarr; no estés, dar &rarr; no des, saber &rarr; no sepas</em> — nota que estos son distintos de los irregulares del afirmativo (ve, sé, está...).</p>"},
+                {"heading": "c) Irregulares frecuentes en negativo (tú)", "body": "<p><em>ir → no vayas, ser → no seas, estar → no estés, dar → no des, saber → no sepas</em> — nota que estos son distintos de los irregulares del afirmativo (ve, sé, está...).</p>"},
                 {"heading": "d) Los pronombres van antes, no pegados", "body": "<p>Compara: <em>Hazlo</em> (afirmativo, pegado) frente a <em>No lo hagas</em> (negativo, separado y antes del verbo).</p>"},
             ],
             "examples": [
@@ -315,13 +315,13 @@ LESSONS = [
         ],
         "content": {
             "intro": "Hasta ahora has usado el modo indicativo, que presenta los hechos como reales y objetivos. El subjuntivo es un modo distinto — no un tiempo más — que presenta la acción como deseada, dudosa, temida o valorada emocionalmente, nunca como un hecho seguro.",
-            "explanation": "<p>La regla de formación más útil: se toma la forma de <strong>yo</strong> del presente de indicativo, se le quita la <strong>-o</strong> final, y se añaden las terminaciones \"cruzadas\" — los verbos en -ar toman terminaciones con <strong>e</strong>, y los verbos en -er/-ir toman terminaciones con <strong>a</strong>. Esto significa que cualquier irregularidad de la forma de yo del indicativo (tengo &rarr; tenga, hago &rarr; haga, conozco &rarr; conozca) se conserva automáticamente en todo el subjuntivo.</p><p>Solo un puñado de verbos muy frecuentes no siguen esta regla porque su forma de yo en indicativo no termina en -o: <strong>ser, estar, ir, saber, haber, dar</strong> tienen formas de subjuntivo propias que hay que memorizar aparte.</p>",
+            "explanation": "<p>La regla de formación más útil: se toma la forma de <strong>yo</strong> del presente de indicativo, se le quita la <strong>-o</strong> final, y se añaden las terminaciones \"cruzadas\" — los verbos en -ar toman terminaciones con <strong>e</strong>, y los verbos en -er/-ir toman terminaciones con <strong>a</strong>. Esto significa que cualquier irregularidad de la forma de yo del indicativo (tengo → tenga, hago → haga, conozco → conozca) se conserva automáticamente en todo el subjuntivo.</p><p>Solo un puñado de verbos muy frecuentes no siguen esta regla porque su forma de yo en indicativo no termina en -o: <strong>ser, estar, ir, saber, haber, dar</strong> tienen formas de subjuntivo propias que hay que memorizar aparte.</p>",
             "table": '<div class="table-scroll"><table class="ref-table"><caption>Presente de subjuntivo — hablar, comer, vivir, tener</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th><th>tener</th></tr></thead><tbody><tr><td>yo</td><td>hable</td><td>coma</td><td>viva</td><td>tenga</td></tr><tr><td>tú</td><td>hables</td><td>comas</td><td>vivas</td><td>tengas</td></tr><tr><td>él/ella/usted</td><td>hable</td><td>coma</td><td>viva</td><td>tenga</td></tr><tr><td>nosotros/as</td><td>hablemos</td><td>comamos</td><td>vivamos</td><td>tengamos</td></tr><tr><td>vosotros/as</td><td>habléis</td><td>comáis</td><td>viváis</td><td>tengáis</td></tr><tr><td>ellos/as/ustedes</td><td>hablen</td><td>coman</td><td>vivan</td><td>tengan</td></tr></tbody></table></div>',
             "rules": [
-                {"heading": "a) La regla de la \"terminación cruzada\"", "body": "<p>-ar &rarr; -e, -es, -e, -emos, -éis, -en; -er/-ir &rarr; -a, -as, -a, -amos, -áis, -an.</p>"},
-                {"heading": "b) La irregularidad de yo se hereda automáticamente", "body": "<p>tener (tengo) &rarr; tenga; hacer (hago) &rarr; haga; conocer (conozco) &rarr; conozca; salir (salgo) &rarr; salga; decir (digo) &rarr; diga.</p>"},
-                {"heading": "c) Los seis verbos totalmente irregulares", "body": "<p><em>ser &rarr; sea, estar &rarr; esté, ir &rarr; vaya, saber &rarr; sepa, haber &rarr; haya, dar &rarr; dé</em> (con todas sus personas correspondientes).</p>"},
-                {"heading": "d) Verbos con cambio de raíz en -ar/-er mantienen el cambio", "body": "<p><em>pensar (pienso) &rarr; piense; poder (puedo) &rarr; pueda</em> — igual que en indicativo, nosotros y vosotros no cambian: pensemos, podamos.</p>"},
+                {"heading": "a) La regla de la \"terminación cruzada\"", "body": "<p>-ar → -e, -es, -e, -emos, -éis, -en; -er/-ir → -a, -as, -a, -amos, -áis, -an.</p>"},
+                {"heading": "b) La irregularidad de yo se hereda automáticamente", "body": "<p>tener (tengo) → tenga; hacer (hago) → haga; conocer (conozco) → conozca; salir (salgo) → salga; decir (digo) → diga.</p>"},
+                {"heading": "c) Los seis verbos totalmente irregulares", "body": "<p><em>ser → sea, estar → esté, ir → vaya, saber → sepa, haber → haya, dar → dé</em> (con todas sus personas correspondientes).</p>"},
+                {"heading": "d) Verbos con cambio de raíz en -ar/-er mantienen el cambio", "body": "<p><em>pensar (pienso) → piense; poder (puedo) → pueda</em> — igual que en indicativo, nosotros y vosotros no cambian: pensemos, podamos.</p>"},
             ],
             "examples": [
                 "Espero que hables con ella antes de decidir nada.",
@@ -342,9 +342,9 @@ LESSONS = [
         "exercises": [
             {"id": "b1sf-fill", "type": "fill-blank", "title": "Forma el Presente de Subjuntivo",
              "items": [
-                {"id": "b1sf1", "prompt": "hablar &rarr; que yo ___", "answers": [["hable"]], "options": ["hable", "hablo", "hablé"], "explanation": "Verbo en -ar: terminación cruzada con e."},
-                {"id": "b1sf2", "prompt": "tener (yo tengo) &rarr; que tú ___", "answers": [["tengas"]], "options": ["tengas", "tienes", "tenes"], "explanation": "La irregularidad de la forma de yo (tengo) se hereda en todo el subjuntivo: tengas."},
-                {"id": "b1sf3", "prompt": "ser &rarr; que ellos ___", "answers": [["sean"]], "options": ["sean", "seen", "son"], "explanation": "Ser es uno de los seis verbos totalmente irregulares: sea, seas, sea, seamos, seáis, sean."},
+                {"id": "b1sf1", "prompt": "hablar → que yo ___", "answers": [["hable"]], "options": ["hable", "hablo", "hablé"], "explanation": "Verbo en -ar: terminación cruzada con e."},
+                {"id": "b1sf2", "prompt": "tener (yo tengo) → que tú ___", "answers": [["tengas"]], "options": ["tengas", "tienes", "tenes"], "explanation": "La irregularidad de la forma de yo (tengo) se hereda en todo el subjuntivo: tengas."},
+                {"id": "b1sf3", "prompt": "ser → que ellos ___", "answers": [["sean"]], "options": ["sean", "seen", "son"], "explanation": "Ser es uno de los seis verbos totalmente irregulares: sea, seas, sea, seamos, seáis, sean."},
              ]},
             {"id": "b1sf-mc", "type": "multiple-choice", "title": "Identifica la Forma Correcta",
              "items": [
@@ -379,7 +379,7 @@ LESSONS = [
                 {"heading": "a) Verbos de deseo", "body": "<p><em>querer, esperar, desear, preferir, necesitar</em> + que + subjuntivo: <em>Quiero que vengas a la fiesta.</em></p>"},
                 {"heading": "b) Verbos y expresiones de duda o negación", "body": "<p><em>dudar, no creer, no pensar, no estar seguro de, es posible que, puede que</em> + que + subjuntivo: <em>Dudo que llegue a tiempo.</em></p>"},
                 {"heading": "c) Verbos y expresiones de emoción/valoración", "body": "<p><em>alegrarse de, sentir, es una pena que, es importante que, me sorprende que, ojalá</em> + que + subjuntivo: <em>Me alegro de que estés aquí.</em></p>"},
-                {"heading": "d) Mismo sujeto &rarr; infinitivo, no que + subjuntivo", "body": "<p><em>Quiero ir al cine</em> (un solo sujeto: yo) frente a <em>Quiero que vayas al cine</em> (dos sujetos distintos: yo/tú).</p>"},
+                {"heading": "d) Mismo sujeto → infinitivo, no que + subjuntivo", "body": "<p><em>Quiero ir al cine</em> (un solo sujeto: yo) frente a <em>Quiero que vayas al cine</em> (dos sujetos distintos: yo/tú).</p>"},
             ],
             "examples": [
                 "Espero que tengas un buen fin de semana.",
@@ -489,10 +489,10 @@ LESSONS = [
             "intro": "Cuando cuentas lo que alguien dijo sin repetir sus palabras exactas entre comillas, necesitas reorganizar la frase — cambiar los pronombres, y a veces también el tiempo verbal.",
             "explanation": "<p>El estilo indirecto se introduce con un verbo de habla (<strong>decir, comentar, contar, explicar</strong>) seguido de <strong>que</strong>. Cuando el verbo introductor está en presente (<em>Dice que...</em>), los tiempos verbales normalmente no cambian, solo los pronombres y posesivos se ajustan al nuevo punto de vista.</p><p>Por ejemplo, si Marta dice \"Estoy cansada\", en estilo indirecto se convierte en <em>Marta dice que está cansada</em> — el pronombre implícito cambia de primera a tercera persona. Las preguntas también cambian de forma: se introducen con <strong>si</strong> (preguntas de sí/no) o se mantiene la palabra interrogativa (qué, dónde, cuándo), y se elimina el signo de interrogación.</p>",
             "rules": [
-                {"heading": "a) Afirmaciones: decir que + frase reorganizada", "body": "<p>\"Estoy cansada\" &rarr; <em>Dice que está cansada.</em> \"Vivo en Madrid\" &rarr; <em>Dice que vive en Madrid.</em></p>"},
-                {"heading": "b) Preguntas de sí/no: preguntar si", "body": "<p>\"¿Vienes a la fiesta?\" &rarr; <em>Me pregunta si voy a la fiesta.</em></p>"},
-                {"heading": "c) Preguntas con palabra interrogativa: se mantiene la palabra", "body": "<p>\"¿Dónde vives?\" &rarr; <em>Me pregunta dónde vivo.</em> \"¿Qué hora es?\" &rarr; <em>Pregunta qué hora es.</em></p>"},
-                {"heading": "d) Ajuste de pronombres y posesivos", "body": "<p>\"Mi hermano me llamó\" (dicho por Juan) &rarr; <em>Juan dice que su hermano lo llamó.</em></p>"},
+                {"heading": "a) Afirmaciones: decir que + frase reorganizada", "body": "<p>\"Estoy cansada\" → <em>Dice que está cansada.</em> \"Vivo en Madrid\" → <em>Dice que vive en Madrid.</em></p>"},
+                {"heading": "b) Preguntas de sí/no: preguntar si", "body": "<p>\"¿Vienes a la fiesta?\" → <em>Me pregunta si voy a la fiesta.</em></p>"},
+                {"heading": "c) Preguntas con palabra interrogativa: se mantiene la palabra", "body": "<p>\"¿Dónde vives?\" → <em>Me pregunta dónde vivo.</em> \"¿Qué hora es?\" → <em>Pregunta qué hora es.</em></p>"},
+                {"heading": "d) Ajuste de pronombres y posesivos", "body": "<p>\"Mi hermano me llamó\" (dicho por Juan) → <em>Juan dice que su hermano lo llamó.</em></p>"},
             ],
             "examples": [
                 "Ella dice que está muy contenta con su nuevo trabajo.",
@@ -513,8 +513,8 @@ LESSONS = [
         "exercises": [
             {"id": "b1ei-fill", "type": "fill-blank", "title": "Transforma a Estilo Indirecto",
              "items": [
-                {"id": "b1ei1", "prompt": "Ana dice: \"Estoy muy ocupada.\" &rarr; Ana dice que ___ muy ocupada.", "answers": [["está"]], "options": ["está", "estoy", "esté"], "explanation": "El pronombre implícito cambia de yo a ella, así que el verbo pasa a tercera persona: está."},
-                {"id": "b1ei2", "prompt": "Pregunta: \"¿Vienes mañana?\" &rarr; Me pregunta ___ voy mañana.", "answers": [["si"]], "options": ["si", "que si", "qué"], "explanation": "Las preguntas de sí/no se introducen con si, sin añadir que antes."},
+                {"id": "b1ei1", "prompt": "Ana dice: \"Estoy muy ocupada.\" → Ana dice que ___ muy ocupada.", "answers": [["está"]], "options": ["está", "estoy", "esté"], "explanation": "El pronombre implícito cambia de yo a ella, así que el verbo pasa a tercera persona: está."},
+                {"id": "b1ei2", "prompt": "Pregunta: \"¿Vienes mañana?\" → Me pregunta ___ voy mañana.", "answers": [["si"]], "options": ["si", "que si", "qué"], "explanation": "Las preguntas de sí/no se introducen con si, sin añadir que antes."},
              ]},
             {"id": "b1ei-mc", "type": "multiple-choice", "title": "Elige la Transformación Correcta",
              "items": [
@@ -546,7 +546,7 @@ LESSONS = [
             "explanation": "<p>El orden fijo es siempre <strong>objeto indirecto + objeto directo</strong>: <em>Te lo digo</em> (te = indirecto, lo = directo). Pero cuando el pronombre de objeto indirecto sería <strong>le</strong> o <strong>les</strong> y va seguido de <strong>lo, la, los</strong> o <strong>las</strong>, <em>le/les se convierte en se</em> para evitar el choque de sonidos \"le lo\": <em>Se lo dije</em> (no \"le lo dije\"), donde <em>se</em> sustituye a le/les y <em>lo</em> es el objeto directo.</p><p>Este <em>se</em> combinado no tiene relación con el se reflexivo ni con la pasiva refleja — es simplemente la forma que toma le/les antes de un pronombre de objeto directo que empieza por l-.</p>",
             "rules": [
                 {"heading": "a) Orden fijo: indirecto + directo", "body": "<p><em>Me lo dan. Te la explico. Nos los envían.</em></p>"},
-                {"heading": "b) Le/les &rarr; se ante lo/la/los/las", "body": "<p><em>Le doy el libro a Juan</em> &rarr; <em>Se lo doy.</em> (no \"le lo doy\") <em>Les cuento la noticia a mis padres</em> &rarr; <em>Se la cuento.</em></p>"},
+                {"heading": "b) Le/les → se ante lo/la/los/las", "body": "<p><em>Le doy el libro a Juan</em> → <em>Se lo doy.</em> (no \"le lo doy\") <em>Les cuento la noticia a mis padres</em> → <em>Se la cuento.</em></p>"},
                 {"heading": "c) Posición: igual que un solo pronombre", "body": "<p>Antes del verbo conjugado, o pegados juntos al final del infinitivo/gerundio/imperativo afirmativo: <em>Se lo voy a decir</em> / <em>Voy a decírselo</em> (con tilde añadida); <em>Dímelo.</em></p>"},
             ],
             "examples": [
@@ -568,12 +568,12 @@ LESSONS = [
         "exercises": [
             {"id": "b1pc-fill", "type": "fill-blank", "title": "Combina los Pronombres",
              "items": [
-                {"id": "b1pc1", "prompt": "Le presté el coche a mi hermano. &rarr; ___ presté.", "answers": [["Se lo"]], "options": ["Se lo", "Le lo", "Lo le"], "explanation": "Le se convierte en se antes de lo: se lo presté."},
-                {"id": "b1pc2", "prompt": "Te doy la información ahora mismo. &rarr; ___ doy ahora mismo.", "answers": [["Te la"]], "options": ["Te la", "La te", "Se la"], "explanation": "Orden fijo: indirecto (te) + directo (la), sin necesidad de cambiar te por se."},
+                {"id": "b1pc1", "prompt": "Le presté el coche a mi hermano. → ___ presté.", "answers": [["Se lo"]], "options": ["Se lo", "Le lo", "Lo le"], "explanation": "Le se convierte en se antes de lo: se lo presté."},
+                {"id": "b1pc2", "prompt": "Te doy la información ahora mismo. → ___ doy ahora mismo.", "answers": [["Te la"]], "options": ["Te la", "La te", "Se la"], "explanation": "Orden fijo: indirecto (te) + directo (la), sin necesidad de cambiar te por se."},
              ]},
             {"id": "b1pc-mc", "type": "multiple-choice", "title": "Elige la Combinación Correcta",
              "items": [
-                {"id": "b1pc3", "prompt": "\"Les envié los documentos a mis colegas.\" &rarr; ¿Cómo se combina?", "options": ["Les los envié.", "Se los envié.", "Los les envié."], "answerIndex": 1, "explanation": "Les se convierte en se antes de los, y el orden es indirecto + directo: se los envié."},
+                {"id": "b1pc3", "prompt": "\"Les envié los documentos a mis colegas.\" → ¿Cómo se combina?", "options": ["Les los envié.", "Se los envié.", "Los les envié."], "answerIndex": 1, "explanation": "Les se convierte en se antes de los, y el orden es indirecto + directo: se los envié."},
              ]},
             {"id": "b1pc-correction", "type": "correction", "title": "Corrige los Errores",
              "items": [
@@ -712,10 +712,10 @@ LESSONS = [
         ],
         "content": {
             "intro": "El español no es un idioma monolítico: en Argentina, Uruguay, Paraguay y partes de Centroamérica, el pronombre vos sustituye a tú como forma informal, con su propia conjugación.",
-            "explanation": "<p>El <strong>voseo</strong> usa el pronombre <strong>vos</strong> en lugar de <em>tú</em>, con una conjugación propia en presente: se toma el infinitivo, se quita la <strong>-r</strong> final, y se añade tilde en la última vocal (<em>hablar &rarr; vos hablás; comer &rarr; vos comés; vivir &rarr; vos vivís</em>). El verbo <strong>ser</strong> es irregular: <em>vos sos</em> (no vos eres). El imperativo afirmativo también es distinto: se quita la <strong>-r</strong> final del infinitivo y se mantiene la tilde (<em>hablá, comé, viví</em>).</p><p>Fuera de la gramática, el español varía mucho en vocabulario según la región: una misma cosa puede tener nombres distintos en España, México, Argentina o el Caribe. Reconocer estas variedades es tan importante como dominar la gramática estándar, porque te prepara para entender español real de cualquier país.</p>",
+            "explanation": "<p>El <strong>voseo</strong> usa el pronombre <strong>vos</strong> en lugar de <em>tú</em>, con una conjugación propia en presente: se toma el infinitivo, se quita la <strong>-r</strong> final, y se añade tilde en la última vocal (<em>hablar → vos hablás; comer → vos comés; vivir → vos vivís</em>). El verbo <strong>ser</strong> es irregular: <em>vos sos</em> (no vos eres). El imperativo afirmativo también es distinto: se quita la <strong>-r</strong> final del infinitivo y se mantiene la tilde (<em>hablá, comé, viví</em>).</p><p>Fuera de la gramática, el español varía mucho en vocabulario según la región: una misma cosa puede tener nombres distintos en España, México, Argentina o el Caribe. Reconocer estas variedades es tan importante como dominar la gramática estándar, porque te prepara para entender español real de cualquier país.</p>",
             "table": '<div class="table-scroll"><table class="ref-table"><caption>Tú frente a vos — presente e imperativo</caption><thead><tr><th>Verbo</th><th>tú (presente)</th><th>vos (presente)</th><th>vos (imperativo)</th></tr></thead><tbody><tr><td>hablar</td><td>hablas</td><td>hablás</td><td>hablá</td></tr><tr><td>comer</td><td>comes</td><td>comés</td><td>comé</td></tr><tr><td>vivir</td><td>vives</td><td>vivís</td><td>viví</td></tr><tr><td>ser</td><td>eres</td><td>sos</td><td>sé</td></tr></tbody></table></div>',
             "rules": [
-                {"heading": "a) Formación del presente con vos", "body": "<p>Infinitivo sin -r + tilde en la última vocal: <em>hablar &rarr; hablás, tener &rarr; tenés, venir &rarr; venís.</em></p>"},
+                {"heading": "a) Formación del presente con vos", "body": "<p>Infinitivo sin -r + tilde en la última vocal: <em>hablar → hablás, tener → tenés, venir → venís.</em></p>"},
                 {"heading": "b) Países donde el voseo es la norma", "body": "<p>Argentina, Uruguay, Paraguay, y en distintos grados en Centroamérica (sobre todo Costa Rica y partes de Nicaragua, Guatemala, El Salvador, Honduras).</p>"},
                 {"heading": "c) Algunas diferencias léxicas frecuentes", "body": "<ul><li><em>autobús</em> (España) / <em>camión</em> (México) / <em>colectivo</em> (Argentina) / <em>guagua</em> (Caribe)</li><li><em>ordenador</em> (España) / <em>computadora</em> (América Latina)</li><li><em>coger</em> (España, \"tomar/agarrar\") tiene una connotación vulgar en varios países de América Latina, donde se prefiere <em>tomar</em> o <em>agarrar</em></li></ul>"},
             ],

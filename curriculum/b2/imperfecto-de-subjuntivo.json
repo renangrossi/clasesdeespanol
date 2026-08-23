@@ -19,11 +19,11 @@
     "rules": [
       {
         "heading": "a) Formación a partir del indefinido",
-        "body": "<p>ellos hablaron &rarr; hablara-; ellos tuvieron &rarr; tuviera-; ellos fueron &rarr; fuera-; se añaden las terminaciones -a, -as, -a, -amos (con tilde), -ais, -an.</p>"
+        "body": "<p>ellos hablaron → hablara-; ellos tuvieron → tuviera-; ellos fueron → fuera-; se añaden las terminaciones -a, -as, -a, -amos (con tilde), -ais, -an.</p>"
       },
       {
-        "heading": "b) Concordancia de tiempos (pasado &rarr; imperfecto de subjuntivo)",
-        "body": "<p><em>Quería que vinieras conmigo.</em> (quería: imperfecto de indicativo &rarr; vinieras: imperfecto de subjuntivo) <em>Dudaba que fuera verdad.</em></p>"
+        "heading": "b) Concordancia de tiempos (pasado → imperfecto de subjuntivo)",
+        "body": "<p><em>Quería que vinieras conmigo.</em> (quería: imperfecto de indicativo → vinieras: imperfecto de subjuntivo) <em>Dudaba que fuera verdad.</em></p>"
       },
       {
         "heading": "c) -ra vs. -se",

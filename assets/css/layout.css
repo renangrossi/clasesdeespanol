@@ -66,16 +66,18 @@
   position: relative;
   z-index: 1;
   flex-shrink: 0;
-  width: 56px; height: 56px;
-  border-radius: 50%;
+  min-width: 56px; height: 56px;
+  padding: 0 0.5em;
+  border-radius: 999px;
   background: var(--color-surface-raised);
   border: 2px solid var(--color-border-strong);
   color: var(--color-accent);
   font-family: var(--font-display);
   font-size: var(--step-0);
+  white-space: nowrap;
   display: flex; align-items: center; justify-content: center;
 }
-.ladder__code--compact { font-size: var(--step--1); letter-spacing: -0.03em; }
+.ladder__code--compact { font-size: var(--step--2); letter-spacing: -0.03em; }
 .ladder__body h3 { font-size: var(--step-0); }
 .ladder__body p { color: var(--color-text-muted); font-size: var(--step--1); }
 .ladder__link { display: inline-flex; align-items: center; gap: 0.4em; margin-top: 0.5em; font-weight: 700; font-size: var(--step--1); color: var(--color-accent); }

@@ -17,11 +17,11 @@
     "explanation": "<p>En una oración relativa, si el antecedente (la persona o cosa de la que se habla) es <strong>conocido y específico</strong>, se usa indicativo; si es <strong>desconocido, indefinido o inexistente</strong>, se usa subjuntivo: <em>Busco un piso que tiene terraza</em> (existe, ya lo vi) frente a <em>Busco un piso que tenga terraza</em> (no sé si existe tal piso, es una búsqueda abierta).</p><p>Un grupo de conjunciones exige subjuntivo siempre, sin importar el contexto, porque introducen una finalidad, condición o hecho todavía no realizado: <strong>para que, sin que, a menos que, con tal de que, en caso de que, antes de que</strong>. La conjunción <strong>aunque</strong> es especial: con indicativo presenta el obstáculo como un hecho real (<em>Aunque llueve, salimos</em>); con subjuntivo, como una posibilidad o algo no confirmado (<em>Aunque llueva, saldremos</em>).</p>",
     "rules": [
       {
-        "heading": "a) Relativas con antecedente conocido &rarr; indicativo",
+        "heading": "a) Relativas con antecedente conocido → indicativo",
         "body": "<p><em>Tengo un amigo que habla cinco idiomas.</em> (existe, lo conozco)</p>"
       },
       {
-        "heading": "b) Relativas con antecedente desconocido/inexistente &rarr; subjuntivo",
+        "heading": "b) Relativas con antecedente desconocido/inexistente → subjuntivo",
         "body": "<p><em>Necesito un amigo que hable cinco idiomas.</em> (no sé si existe tal persona) <em>No hay nadie que sepa la respuesta.</em> (antecedente inexistente)</p>"
       },
       {

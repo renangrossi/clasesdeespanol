@@ -18,19 +18,19 @@
     "rules": [
       {
         "heading": "a) Afirmaciones: decir que + frase reorganizada",
-        "body": "<p>\"Estoy cansada\" &rarr; <em>Dice que está cansada.</em> \"Vivo en Madrid\" &rarr; <em>Dice que vive en Madrid.</em></p>"
+        "body": "<p>\"Estoy cansada\" → <em>Dice que está cansada.</em> \"Vivo en Madrid\" → <em>Dice que vive en Madrid.</em></p>"
       },
       {
         "heading": "b) Preguntas de sí/no: preguntar si",
-        "body": "<p>\"¿Vienes a la fiesta?\" &rarr; <em>Me pregunta si voy a la fiesta.</em></p>"
+        "body": "<p>\"¿Vienes a la fiesta?\" → <em>Me pregunta si voy a la fiesta.</em></p>"
       },
       {
         "heading": "c) Preguntas con palabra interrogativa: se mantiene la palabra",
-        "body": "<p>\"¿Dónde vives?\" &rarr; <em>Me pregunta dónde vivo.</em> \"¿Qué hora es?\" &rarr; <em>Pregunta qué hora es.</em></p>"
+        "body": "<p>\"¿Dónde vives?\" → <em>Me pregunta dónde vivo.</em> \"¿Qué hora es?\" → <em>Pregunta qué hora es.</em></p>"
       },
       {
         "heading": "d) Ajuste de pronombres y posesivos",
-        "body": "<p>\"Mi hermano me llamó\" (dicho por Juan) &rarr; <em>Juan dice que su hermano lo llamó.</em></p>"
+        "body": "<p>\"Mi hermano me llamó\" (dicho por Juan) → <em>Juan dice que su hermano lo llamó.</em></p>"
       }
     ],
     "examples": [
@@ -69,7 +69,7 @@
       "items": [
         {
           "id": "b1ei1",
-          "prompt": "Ana dice: \"Estoy muy ocupada.\" &rarr; Ana dice que ___ muy ocupada.",
+          "prompt": "Ana dice: \"Estoy muy ocupada.\" → Ana dice que ___ muy ocupada.",
           "answers": [
             [
               "está"
@@ -84,7 +84,7 @@
         },
         {
           "id": "b1ei2",
-          "prompt": "Pregunta: \"¿Vienes mañana?\" &rarr; Me pregunta ___ voy mañana.",
+          "prompt": "Pregunta: \"¿Vienes mañana?\" → Me pregunta ___ voy mañana.",
           "answers": [
             [
               "si"

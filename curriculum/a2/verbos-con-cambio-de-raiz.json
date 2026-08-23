@@ -6,7 +6,7 @@
   "skill": "grammar",
   "strand": "verbos",
   "title": "Verbos con Cambio de Raíz",
-  "subtitle": "E&rarr;ie, o&rarr;ue, e&rarr;i: la vocal de la raíz cambia cuando lleva la fuerza de la palabra.",
+  "subtitle": "E→ie, o→ue, e→i: la vocal de la raíz cambia cuando lleva la fuerza de la palabra.",
   "objectives": [
     "Reconocer los tres patrones de cambio de raíz (e>ie, o>ue, e>i) en presente",
     "Conjugar verbos frecuentes de cada patrón en presente de indicativo",
@@ -14,19 +14,19 @@
   ],
   "content": {
     "intro": "Muchos verbos muy comunes cambian una vocal de su raíz cuando esa sílaba lleva la fuerza de la palabra — no son irregulares al azar, siguen un patrón predecible una vez que lo conoces.",
-    "explanation": "<p>Estos verbos cambian la última vocal de la raíz solo quando esa sílaba recibe la fuerza de pronunciación, es decir, en todas las personas <strong>excepto nosotros y vosotros</strong> (donde la fuerza cae en la terminación, no en la raíz). Hay tres patrones principales: <strong>e&rarr;ie</strong> (querer &rarr; quiero), <strong>o&rarr;ue</strong> (poder &rarr; puedo) y <strong>e&rarr;i</strong>, este último solo en verbos terminados en -ir (pedir &rarr; pido).</p><p>Fuera de ese cambio de vocal, estos verbos usan las terminaciones normales de su conjugación (-ar, -er, -ir), así que una vez identificado el patrón, el resto de la conjugación es totalmente regular.</p>",
-    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Cambio de raíz — querer (e&rarr;ie), poder (o&rarr;ue), pedir (e&rarr;i)</caption><thead><tr><th>Sujeto</th><th>querer</th><th>poder</th><th>pedir</th></tr></thead><tbody><tr><td>yo</td><td>quiero</td><td>puedo</td><td>pido</td></tr><tr><td>tú</td><td>quieres</td><td>puedes</td><td>pides</td></tr><tr><td>él/ella/usted</td><td>quiere</td><td>puede</td><td>pide</td></tr><tr><td>nosotros/as</td><td>queremos</td><td>podemos</td><td>pedimos</td></tr><tr><td>vosotros/as</td><td>queréis</td><td>podéis</td><td>pedís</td></tr><tr><td>ellos/as/ustedes</td><td>quieren</td><td>pueden</td><td>piden</td></tr></tbody></table></div>",
+    "explanation": "<p>Estos verbos cambian la última vocal de la raíz solo cuando esa sílaba recibe la fuerza de pronunciación, es decir, en todas las personas <strong>excepto nosotros y vosotros</strong> (donde la fuerza cae en la terminación, no en la raíz). Hay tres patrones principales: <strong>e→ie</strong> (querer → quiero), <strong>o→ue</strong> (poder → puedo) y <strong>e→i</strong>, este último solo en verbos terminados en -ir (pedir → pido).</p><p>Fuera de ese cambio de vocal, estos verbos usan las terminaciones normales de su conjugación (-ar, -er, -ir), así que una vez identificado el patrón, el resto de la conjugación es totalmente regular.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Cambio de raíz — querer (e→ie), poder (o→ue), pedir (e→i)</caption><thead><tr><th>Sujeto</th><th>querer</th><th>poder</th><th>pedir</th></tr></thead><tbody><tr><td>yo</td><td>quiero</td><td>puedo</td><td>pido</td></tr><tr><td>tú</td><td>quieres</td><td>puedes</td><td>pides</td></tr><tr><td>él/ella/usted</td><td>quiere</td><td>puede</td><td>pide</td></tr><tr><td>nosotros/as</td><td>queremos</td><td>podemos</td><td>pedimos</td></tr><tr><td>vosotros/as</td><td>queréis</td><td>podéis</td><td>pedís</td></tr><tr><td>ellos/as/ustedes</td><td>quieren</td><td>pueden</td><td>piden</td></tr></tbody></table></div>",
     "rules": [
       {
-        "heading": "a) E&rarr;IE",
+        "heading": "a) E→IE",
         "body": "<p><em>querer, pensar, cerrar, empezar, entender, preferir, sentir</em> — <em>Pienso que tienes razón. Cierro la puerta con cuidado.</em></p>"
       },
       {
-        "heading": "b) O&rarr;UE",
-        "body": "<p><em>poder, dormir, volver, contar, encontrar, jugar (u&rarr;ue)</em> — <em>Duermo ocho horas cada noche. Juego al tenis los sábados.</em></p>"
+        "heading": "b) O→UE",
+        "body": "<p><em>poder, dormir, volver, contar, encontrar, jugar (u→ue)</em> — <em>Duermo ocho horas cada noche. Juego al tenis los sábados.</em></p>"
       },
       {
-        "heading": "c) E&rarr;I (solo verbos en -ir)",
+        "heading": "c) E→I (solo verbos en -ir)",
         "body": "<p><em>pedir, servir, repetir, seguir, vestir</em> — <em>Pido un café todas las mañanas. Sigo estudiando después de clase.</em></p>"
       },
       {
@@ -124,9 +124,9 @@
           "id": "a2cr4",
           "prompt": "\"Duermo\" pertenece al patrón...",
           "options": [
-            "e&rarr;ie",
-            "o&rarr;ue",
-            "e&rarr;i"
+            "e→ie",
+            "o→ue",
+            "e→i"
           ],
           "answerIndex": 1,
           "explanation": "Dormir cambia la o de la raíz por ue: duermo."
@@ -135,9 +135,9 @@
           "id": "a2cr5",
           "prompt": "\"Sirve\" pertenece al patrón...",
           "options": [
-            "e&rarr;ie",
-            "o&rarr;ue",
-            "e&rarr;i"
+            "e→ie",
+            "o→ue",
+            "e→i"
           ],
           "answerIndex": 2,
           "explanation": "Servir cambia la e de la raíz por i, patrón exclusivo de verbos en -ir."

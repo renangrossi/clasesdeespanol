@@ -18,7 +18,7 @@
     "rules": [
       {
         "heading": "a) La base que no cambia en ningún país",
-        "body": "<ul><li>Marcador de tiempo cerrado y terminado (<em>ayer, en 2020, el mes pasado</em>) &rarr; siempre indefinido.</li><li>Experiencia de vida sin momento concreto (<em>alguna vez, nunca, ya</em>) &rarr; siempre perfecto compuesto.</li></ul>"
+        "body": "<ul><li>Marcador de tiempo cerrado y terminado (<em>ayer, en 2020, el mes pasado</em>) → siempre indefinido.</li><li>Experiencia de vida sin momento concreto (<em>alguna vez, nunca, ya</em>) → siempre perfecto compuesto.</li></ul>"
       },
       {
         "heading": "b) La zona de variación regional",
@@ -26,7 +26,7 @@
       },
       {
         "heading": "c) Cómo decidir en la práctica",
-        "body": "<p>Si no sabes qué variedad prefiere tu interlocutor, la regla de base (marcador cerrado &rarr; indefinido; experiencia sin momento &rarr; perfecto) siempre funciona y se entiende en cualquier país.</p>"
+        "body": "<p>Si no sabes qué variedad prefiere tu interlocutor, la regla de base (marcador cerrado → indefinido; experiencia sin momento → perfecto) siempre funciona y se entiende en cualquier país.</p>"
       }
     ],
     "examples": [

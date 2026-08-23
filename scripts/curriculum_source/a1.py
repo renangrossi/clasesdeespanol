@@ -98,7 +98,7 @@ LESSONS = [
             "rules": [
                 {"heading": "a) Terminaciones típicas de género", "body": "<ul><li><strong>-o</strong> suele ser masculino — <em>el libro, el gato, el niño</em></li><li><strong>-a</strong> suele ser femenino — <em>la mesa, la casa, la niña</em></li><li><strong>-dad, -ción, -sión, -tud</strong> son casi siempre femeninos — <em>la ciudad, la canción, la actitud</em></li><li><strong>-ma</strong> de origen griego suele ser masculino, aunque termina en -a — <em>el problema, el sistema, el idioma</em></li></ul>"},
                 {"heading": "b) Excepciones comunes", "body": "<ul><li><em>la mano</em>, <em>la moto</em>, <em>la foto</em> — femeninas aunque terminan en -o</li><li><em>el día</em>, <em>el mapa</em>, <em>el planeta</em> — masculinos aunque terminan en -a</li><li>Algunos sustantivos cambian de significado según el género — <em>el capital</em> (dinero) frente a <em>la capital</em> (ciudad principal)</li></ul>"},
-                {"heading": "c) Formación del plural", "body": "<ul><li>Terminación en vocal &rarr; se añade <strong>-s</strong>: <em>libro &rarr; libros, casa &rarr; casas</em></li><li>Terminación en consonante &rarr; se añade <strong>-es</strong>: <em>ciudad &rarr; ciudades, flor &rarr; flores</em></li><li>Terminación en <strong>-z</strong> &rarr; cambia a <strong>-ces</strong>: <em>lápiz &rarr; lápices, vez &rarr; veces</em></li></ul>"},
+                {"heading": "c) Formación del plural", "body": "<ul><li>Terminación en vocal → se añade <strong>-s</strong>: <em>libro → libros, casa → casas</em></li><li>Terminación en consonante → se añade <strong>-es</strong>: <em>ciudad → ciudades, flor → flores</em></li><li>Terminación en <strong>-z</strong> → cambia a <strong>-ces</strong>: <em>lápiz → lápices, vez → veces</em></li></ul>"},
             ],
             "examples": [
                 "El libro está sobre la mesa.",
@@ -126,10 +126,10 @@ LESSONS = [
              ]},
             {"id": "a1gn-fill", "type": "fill-blank", "title": "Forma el Plural",
              "items": [
-                {"id": "a1gn5", "prompt": "libro &rarr; ___", "answers": [["libros"]], "explanation": "Terminación en vocal: se añade -s."},
-                {"id": "a1gn6", "prompt": "flor &rarr; ___", "answers": [["flores"]], "explanation": "Terminación en consonante: se añade -es."},
-                {"id": "a1gn7", "prompt": "lápiz &rarr; ___", "answers": [["lápices"]], "explanation": "Terminación en -z: la z cambia a c antes de -es."},
-                {"id": "a1gn8", "prompt": "ciudad &rarr; ___", "answers": [["ciudades"]], "explanation": "Terminación en consonante: se añade -es."},
+                {"id": "a1gn5", "prompt": "libro → ___", "answers": [["libros"]], "explanation": "Terminación en vocal: se añade -s."},
+                {"id": "a1gn6", "prompt": "flor → ___", "answers": [["flores"]], "explanation": "Terminación en consonante: se añade -es."},
+                {"id": "a1gn7", "prompt": "lápiz → ___", "answers": [["lápices"]], "explanation": "Terminación en -z: la z cambia a c antes de -es."},
+                {"id": "a1gn8", "prompt": "ciudad → ___", "answers": [["ciudades"]], "explanation": "Terminación en consonante: se añade -es."},
              ]},
             {"id": "a1gn-correction", "type": "correction", "title": "Corrige los Errores",
              "items": [
@@ -295,7 +295,7 @@ LESSONS = [
             ],
             "commonMistakes": [
                 {"wrong": "Yo soy yo cansado.", "right": "Estoy cansado.", "why": "El español nunca necesita un pronombre de sujeto explícito para que la frase sea gramatical; aquí es redundante, no obligatorio."},
-                {"wrong": "usar tú con un desconocido mayor en un contexto formal", "right": "usar usted con un desconocido mayor en un contexto formal", "why": "Usted es la opción segura y respetuosa quando no se conoce bien a la persona o hay una diferencia de edad o jerarquía."},
+                {"wrong": "usar tú con un desconocido mayor en un contexto formal", "right": "usar usted con un desconocido mayor en un contexto formal", "why": "Usted es la opción segura y respetuosa cuando no se conoce bien a la persona o hay una diferencia de edad o jerarquía."},
                 {"wrong": "Tú hablás español muy bien. (mezclando tú con la forma verbal de vos)", "right": "Tú hablas español muy bien. / Vos hablás español muy bien.", "why": "Tú y vos tienen formas verbales distintas; no se combinan el pronombre de uno con la conjugación del otro."},
             ],
         },
@@ -754,7 +754,7 @@ LESSONS = [
         ],
         "content": {
             "intro": "Las palabras interrogativas siempre llevan tilde en español, incluso dentro de una frase, y siempre van acompañadas por los dos signos de interrogación: uno al principio y otro al final.",
-            "explanation": "<p>El español usa un signo de interrogación de apertura (<strong>¿</strong>) al inicio de la pregunta y uno de cierre (<strong>?</strong>) al final — esto ayuda a saber, incluso antes de terminar de leer, que la frase es una pregunta. Las palabras interrogativas (<em>qué, quién, cuándo, dónde, cómo, por qué, cuánto</em>) siempre llevan tilde quando se usan para preguntar, aunque la misma palabra sin tilde pueda tener otro uso en la frase (como <em>que</em> sin tilde, que significa \"that/which\" en otros contextos).</p>",
+            "explanation": "<p>El español usa un signo de interrogación de apertura (<strong>¿</strong>) al inicio de la pregunta y uno de cierre (<strong>?</strong>) al final — esto ayuda a saber, incluso antes de terminar de leer, que la frase es una pregunta. Las palabras interrogativas (<em>qué, quién, cuándo, dónde, cómo, por qué, cuánto</em>) siempre llevan tilde cuando se usan para preguntar, aunque la misma palabra sin tilde pueda tener otro uso en la frase (como <em>que</em> sin tilde, que significa \"that/which\" en otros contextos).</p>",
             "rules": [
                 {"heading": "a) Los interrogativos principales", "body": "<ul><li><strong>qué</strong> — pide información sobre una cosa: <em>¿Qué haces?</em></li><li><strong>quién / quiénes</strong> — pide información sobre una persona: <em>¿Quién es ella?</em></li><li><strong>cuándo</strong> — tiempo: <em>¿Cuándo llegas?</em></li><li><strong>dónde</strong> — lugar: <em>¿Dónde vives?</em></li><li><strong>cómo</strong> — manera: <em>¿Cómo estás?</em></li><li><strong>por qué</strong> — causa (dos palabras, con tilde en qué): <em>¿Por qué estudias español?</em></li></ul>"},
                 {"heading": "b) Cuánto y sus formas", "body": "<ul><li><strong>cuánto</strong> — masculino singular: <em>¿Cuánto cuesta?</em></li><li><strong>cuánta</strong> — femenino singular: <em>¿Cuánta agua necesitas?</em></li><li><strong>cuántos</strong> — masculino plural: <em>¿Cuántos hermanos tienes?</em></li><li><strong>cuántas</strong> — femenino plural: <em>¿Cuántas personas vienen?</em></li></ul>"},

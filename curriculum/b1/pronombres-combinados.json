@@ -21,8 +21,8 @@
         "body": "<p><em>Me lo dan. Te la explico. Nos los envían.</em></p>"
       },
       {
-        "heading": "b) Le/les &rarr; se ante lo/la/los/las",
-        "body": "<p><em>Le doy el libro a Juan</em> &rarr; <em>Se lo doy.</em> (no \"le lo doy\") <em>Les cuento la noticia a mis padres</em> &rarr; <em>Se la cuento.</em></p>"
+        "heading": "b) Le/les → se ante lo/la/los/las",
+        "body": "<p><em>Le doy el libro a Juan</em> → <em>Se lo doy.</em> (no \"le lo doy\") <em>Les cuento la noticia a mis padres</em> → <em>Se la cuento.</em></p>"
       },
       {
         "heading": "c) Posición: igual que un solo pronombre",
@@ -65,7 +65,7 @@
       "items": [
         {
           "id": "b1pc1",
-          "prompt": "Le presté el coche a mi hermano. &rarr; ___ presté.",
+          "prompt": "Le presté el coche a mi hermano. → ___ presté.",
           "answers": [
             [
               "Se lo"
@@ -80,7 +80,7 @@
         },
         {
           "id": "b1pc2",
-          "prompt": "Te doy la información ahora mismo. &rarr; ___ doy ahora mismo.",
+          "prompt": "Te doy la información ahora mismo. → ___ doy ahora mismo.",
           "answers": [
             [
               "Te la"
@@ -102,7 +102,7 @@
       "items": [
         {
           "id": "b1pc3",
-          "prompt": "\"Les envié los documentos a mis colegas.\" &rarr; ¿Cómo se combina?",
+          "prompt": "\"Les envié los documentos a mis colegas.\" → ¿Cómo se combina?",
           "options": [
             "Les los envié.",
             "Se los envié.",

@@ -18,7 +18,7 @@
     "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Imperativo negativo — tú y usted</caption><thead><tr><th>Verbo</th><th>tú (negativo)</th><th>usted (negativo)</th></tr></thead><tbody><tr><td>hablar</td><td>no hables</td><td>no hable</td></tr><tr><td>comer</td><td>no comas</td><td>no coma</td></tr><tr><td>escribir</td><td>no escribas</td><td>no escriba</td></tr><tr><td>hacer</td><td>no hagas</td><td>no haga</td></tr><tr><td>ir</td><td>no vayas</td><td>no vaya</td></tr></tbody></table></div>",
     "rules": [
       {
-        "heading": "a) Tú negativo: -ar &rarr; -es, -er/-ir &rarr; -as",
+        "heading": "a) Tú negativo: -ar → -es, -er/-ir → -as",
         "body": "<p><em>No hables tan alto. No comas tan rápido. No escribas con lápiz.</em></p>"
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "heading": "c) Irregulares frecuentes en negativo (tú)",
-        "body": "<p><em>ir &rarr; no vayas, ser &rarr; no seas, estar &rarr; no estés, dar &rarr; no des, saber &rarr; no sepas</em> — nota que estos son distintos de los irregulares del afirmativo (ve, sé, está...).</p>"
+        "body": "<p><em>ir → no vayas, ser → no seas, estar → no estés, dar → no des, saber → no sepas</em> — nota que estos son distintos de los irregulares del afirmativo (ve, sé, está...).</p>"
       },
       {
         "heading": "d) Los pronombres van antes, no pegados",

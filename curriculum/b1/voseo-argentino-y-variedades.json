@@ -14,12 +14,12 @@
   ],
   "content": {
     "intro": "El español no es un idioma monolítico: en Argentina, Uruguay, Paraguay y partes de Centroamérica, el pronombre vos sustituye a tú como forma informal, con su propia conjugación.",
-    "explanation": "<p>El <strong>voseo</strong> usa el pronombre <strong>vos</strong> en lugar de <em>tú</em>, con una conjugación propia en presente: se toma el infinitivo, se quita la <strong>-r</strong> final, y se añade tilde en la última vocal (<em>hablar &rarr; vos hablás; comer &rarr; vos comés; vivir &rarr; vos vivís</em>). El verbo <strong>ser</strong> es irregular: <em>vos sos</em> (no vos eres). El imperativo afirmativo también es distinto: se quita la <strong>-r</strong> final del infinitivo y se mantiene la tilde (<em>hablá, comé, viví</em>).</p><p>Fuera de la gramática, el español varía mucho en vocabulario según la región: una misma cosa puede tener nombres distintos en España, México, Argentina o el Caribe. Reconocer estas variedades es tan importante como dominar la gramática estándar, porque te prepara para entender español real de cualquier país.</p>",
+    "explanation": "<p>El <strong>voseo</strong> usa el pronombre <strong>vos</strong> en lugar de <em>tú</em>, con una conjugación propia en presente: se toma el infinitivo, se quita la <strong>-r</strong> final, y se añade tilde en la última vocal (<em>hablar → vos hablás; comer → vos comés; vivir → vos vivís</em>). El verbo <strong>ser</strong> es irregular: <em>vos sos</em> (no vos eres). El imperativo afirmativo también es distinto: se quita la <strong>-r</strong> final del infinitivo y se mantiene la tilde (<em>hablá, comé, viví</em>).</p><p>Fuera de la gramática, el español varía mucho en vocabulario según la región: una misma cosa puede tener nombres distintos en España, México, Argentina o el Caribe. Reconocer estas variedades es tan importante como dominar la gramática estándar, porque te prepara para entender español real de cualquier país.</p>",
     "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Tú frente a vos — presente e imperativo</caption><thead><tr><th>Verbo</th><th>tú (presente)</th><th>vos (presente)</th><th>vos (imperativo)</th></tr></thead><tbody><tr><td>hablar</td><td>hablas</td><td>hablás</td><td>hablá</td></tr><tr><td>comer</td><td>comes</td><td>comés</td><td>comé</td></tr><tr><td>vivir</td><td>vives</td><td>vivís</td><td>viví</td></tr><tr><td>ser</td><td>eres</td><td>sos</td><td>sé</td></tr></tbody></table></div>",
     "rules": [
       {
         "heading": "a) Formación del presente con vos",
-        "body": "<p>Infinitivo sin -r + tilde en la última vocal: <em>hablar &rarr; hablás, tener &rarr; tenés, venir &rarr; venís.</em></p>"
+        "body": "<p>Infinitivo sin -r + tilde en la última vocal: <em>hablar → hablás, tener → tenés, venir → venís.</em></p>"
       },
       {
         "heading": "b) Países donde el voseo es la norma",

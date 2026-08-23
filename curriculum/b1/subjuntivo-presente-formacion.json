@@ -14,24 +14,24 @@
   ],
   "content": {
     "intro": "Hasta ahora has usado el modo indicativo, que presenta los hechos como reales y objetivos. El subjuntivo es un modo distinto — no un tiempo más — que presenta la acción como deseada, dudosa, temida o valorada emocionalmente, nunca como un hecho seguro.",
-    "explanation": "<p>La regla de formación más útil: se toma la forma de <strong>yo</strong> del presente de indicativo, se le quita la <strong>-o</strong> final, y se añaden las terminaciones \"cruzadas\" — los verbos en -ar toman terminaciones con <strong>e</strong>, y los verbos en -er/-ir toman terminaciones con <strong>a</strong>. Esto significa que cualquier irregularidad de la forma de yo del indicativo (tengo &rarr; tenga, hago &rarr; haga, conozco &rarr; conozca) se conserva automáticamente en todo el subjuntivo.</p><p>Solo un puñado de verbos muy frecuentes no siguen esta regla porque su forma de yo en indicativo no termina en -o: <strong>ser, estar, ir, saber, haber, dar</strong> tienen formas de subjuntivo propias que hay que memorizar aparte.</p>",
+    "explanation": "<p>La regla de formación más útil: se toma la forma de <strong>yo</strong> del presente de indicativo, se le quita la <strong>-o</strong> final, y se añaden las terminaciones \"cruzadas\" — los verbos en -ar toman terminaciones con <strong>e</strong>, y los verbos en -er/-ir toman terminaciones con <strong>a</strong>. Esto significa que cualquier irregularidad de la forma de yo del indicativo (tengo → tenga, hago → haga, conozco → conozca) se conserva automáticamente en todo el subjuntivo.</p><p>Solo un puñado de verbos muy frecuentes no siguen esta regla porque su forma de yo en indicativo no termina en -o: <strong>ser, estar, ir, saber, haber, dar</strong> tienen formas de subjuntivo propias que hay que memorizar aparte.</p>",
     "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Presente de subjuntivo — hablar, comer, vivir, tener</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th><th>tener</th></tr></thead><tbody><tr><td>yo</td><td>hable</td><td>coma</td><td>viva</td><td>tenga</td></tr><tr><td>tú</td><td>hables</td><td>comas</td><td>vivas</td><td>tengas</td></tr><tr><td>él/ella/usted</td><td>hable</td><td>coma</td><td>viva</td><td>tenga</td></tr><tr><td>nosotros/as</td><td>hablemos</td><td>comamos</td><td>vivamos</td><td>tengamos</td></tr><tr><td>vosotros/as</td><td>habléis</td><td>comáis</td><td>viváis</td><td>tengáis</td></tr><tr><td>ellos/as/ustedes</td><td>hablen</td><td>coman</td><td>vivan</td><td>tengan</td></tr></tbody></table></div>",
     "rules": [
       {
         "heading": "a) La regla de la \"terminación cruzada\"",
-        "body": "<p>-ar &rarr; -e, -es, -e, -emos, -éis, -en; -er/-ir &rarr; -a, -as, -a, -amos, -áis, -an.</p>"
+        "body": "<p>-ar → -e, -es, -e, -emos, -éis, -en; -er/-ir → -a, -as, -a, -amos, -áis, -an.</p>"
       },
       {
         "heading": "b) La irregularidad de yo se hereda automáticamente",
-        "body": "<p>tener (tengo) &rarr; tenga; hacer (hago) &rarr; haga; conocer (conozco) &rarr; conozca; salir (salgo) &rarr; salga; decir (digo) &rarr; diga.</p>"
+        "body": "<p>tener (tengo) → tenga; hacer (hago) → haga; conocer (conozco) → conozca; salir (salgo) → salga; decir (digo) → diga.</p>"
       },
       {
         "heading": "c) Los seis verbos totalmente irregulares",
-        "body": "<p><em>ser &rarr; sea, estar &rarr; esté, ir &rarr; vaya, saber &rarr; sepa, haber &rarr; haya, dar &rarr; dé</em> (con todas sus personas correspondientes).</p>"
+        "body": "<p><em>ser → sea, estar → esté, ir → vaya, saber → sepa, haber → haya, dar → dé</em> (con todas sus personas correspondientes).</p>"
       },
       {
         "heading": "d) Verbos con cambio de raíz en -ar/-er mantienen el cambio",
-        "body": "<p><em>pensar (pienso) &rarr; piense; poder (puedo) &rarr; pueda</em> — igual que en indicativo, nosotros y vosotros no cambian: pensemos, podamos.</p>"
+        "body": "<p><em>pensar (pienso) → piense; poder (puedo) → pueda</em> — igual que en indicativo, nosotros y vosotros no cambian: pensemos, podamos.</p>"
       }
     ],
     "examples": [
@@ -70,7 +70,7 @@
       "items": [
         {
           "id": "b1sf1",
-          "prompt": "hablar &rarr; que yo ___",
+          "prompt": "hablar → que yo ___",
           "answers": [
             [
               "hable"
@@ -85,7 +85,7 @@
         },
         {
           "id": "b1sf2",
-          "prompt": "tener (yo tengo) &rarr; que tú ___",
+          "prompt": "tener (yo tengo) → que tú ___",
           "answers": [
             [
               "tengas"
@@ -100,7 +100,7 @@
         },
         {
           "id": "b1sf3",
-          "prompt": "ser &rarr; que ellos ___",
+          "prompt": "ser → que ellos ___",
           "answers": [
             [
               "sean"

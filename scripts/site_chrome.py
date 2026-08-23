@@ -46,6 +46,13 @@ ARROW_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-w
 # tu propio Worker (ver worker/README.md) — actualiza esta URL y reconstruye.
 AI_TEACHER_WORKER_URL = "https://ai-teacher.clasesdeespanol.workers.dev"
 
+# El botón/panel del Profesor de IA solo se genera si esto es True. El
+# Worker todavía no está desplegado (AI_TEACHER_WORKER_URL es un
+# placeholder), así que mostrar el botón ahora mismo llevaría a un chat
+# que nunca responde — poner en True una vez que worker/ esté desplegado
+# con tu propia URL y reconstruir el sitio.
+AI_TEACHER_ENABLED = False
+
 
 def nav_levels_html(rel, active_level_code):
     items = []
@@ -167,6 +174,34 @@ def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
 
 def footer(rel, extra_scripts=None):
     extra = "".join(f'<script src="{rel}assets/js/{s}"></script>' for s in (extra_scripts or []))
+    ai_teacher_widget = f"""<button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Preguntar al Profesor de IA" aria-expanded="false" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+        <span class="ai-teacher-toggle__label">Profesor IA</span>
+    </button>
+    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="Chat con el Profesor de IA de Español" aria-modal="false">
+        <div class="ai-teacher-panel__bar">
+            <div class="ai-teacher-panel__brand">
+                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                <div>
+                    <strong>Profesor de IA de Español</strong>
+                    <span>Pregunta sobre gramática, vocabulario o ejercicios</span>
+                </div>
+            </div>
+            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Cerrar Profesor IA"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+            <div class="ai-teacher-msg ai-teacher-msg--bot">
+                <p>¡Hola! Puedo ayudarte con el español. Pregúntame sobre gramática, palabras o ejercicios.<br>Ejemplo: <em>&laquo;Explícame el pretérito perfecto&raquo;</em> o <em>&laquo;Dame un ejercicio sobre el subjuntivo.&raquo;</em></p>
+            </div>
+        </div>
+        <form class="ai-teacher-panel__form" data-ai-teacher-form>
+            <label for="ai-teacher-input" class="visually-hidden">Tu pregunta</label>
+            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Escribe tu pregunta&hellip;" required></textarea>
+            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Enviar pregunta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </form>
+        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Las respuestas provienen de un modelo de IA y a veces pueden equivocarse &mdash; compara siempre con el material de tu lección. Nada de lo que escribas se guarda al cerrar esta ventana.</p>
+    </div>
+    <script src="{rel}assets/js/ai-teacher.js" data-ai-endpoint="{AI_TEACHER_WORKER_URL}"></script>""" if AI_TEACHER_ENABLED else ""
     return f"""<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Abrir diccionario rápido" aria-expanded="false" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
     </button>
@@ -233,36 +268,9 @@ def footer(rel, extra_scripts=None):
     <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Volver arriba">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
-    <button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Preguntar al Profesor de IA" aria-expanded="false" aria-haspopup="dialog">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
-        <span class="ai-teacher-toggle__label">Profesor IA</span>
-    </button>
-    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="Chat con el Profesor de IA de Español" aria-modal="false">
-        <div class="ai-teacher-panel__bar">
-            <div class="ai-teacher-panel__brand">
-                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
-                <div>
-                    <strong>Profesor de IA de Español</strong>
-                    <span>Pregunta sobre gramática, vocabulario o ejercicios</span>
-                </div>
-            </div>
-            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Cerrar Profesor IA"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
-        </div>
-        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
-            <div class="ai-teacher-msg ai-teacher-msg--bot">
-                <p>¡Hola! Puedo ayudarte con el español. Pregúntame sobre gramática, palabras o ejercicios.<br>Ejemplo: <em>&laquo;Explícame el pretérito perfecto&raquo;</em> o <em>&laquo;Dame un ejercicio sobre el subjuntivo.&raquo;</em></p>
-            </div>
-        </div>
-        <form class="ai-teacher-panel__form" data-ai-teacher-form>
-            <label for="ai-teacher-input" class="visually-hidden">Tu pregunta</label>
-            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Escribe tu pregunta&hellip;" required></textarea>
-            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Enviar pregunta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
-        </form>
-        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Las respuestas provienen de un modelo de IA y a veces pueden equivocarse &mdash; compara siempre con el material de tu lección. Nada de lo que escribas se guarda al cerrar esta ventana.</p>
-    </div>
+    {ai_teacher_widget}
     <script src="{rel}assets/js/main.js"></script>
     <script src="{rel}assets/js/search.js"></script>
-    <script src="{rel}assets/js/ai-teacher.js" data-ai-endpoint="{AI_TEACHER_WORKER_URL}"></script>
     <script src="{rel}assets/js/dict-widget.js"></script>
     <script src="{rel}assets/js/progress.js"></script>{extra}
 </body>
