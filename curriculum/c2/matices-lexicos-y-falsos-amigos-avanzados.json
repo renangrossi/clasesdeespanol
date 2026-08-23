@@ -1,0 +1,133 @@
+{
+  "id": "c2-matices-lexicos-y-falsos-amigos-avanzados",
+  "level": "C2",
+  "unit": "1",
+  "order": 3,
+  "skill": "vocabulary",
+  "strand": "lexico",
+  "title": "Matices Léxicos y Falsos Amigos Avanzados",
+  "subtitle": "Palabras casi sinónimas con un matiz que las distingue, y falsos amigos que engañan incluso a niveles avanzados.",
+  "objectives": [
+    "Distinguir pares de palabras casi sinónimas por su matiz de intensidad, connotación o registro",
+    "Reconocer falsos amigos avanzados entre el español y otros idiomas comunes",
+    "Elegir la palabra más precisa según el matiz exacto que se quiere comunicar"
+  ],
+  "content": {
+    "intro": "A este nivel, el vocabulario ya no falla por desconocimiento de palabras básicas, sino por no captar el matiz exacto que distingue palabras casi sinónimas — la diferencia entre un texto correcto y un texto verdaderamente preciso está aquí.",
+    "explanation": "<p>Muchos pares de palabras parecen intercambiables en un diccionario bilingüe, pero llevan matices de <strong>intensidad</strong> (<em>miedo</em> frente a <em>pavor</em>, mucho más intenso), <strong>connotación</strong> (<em>flaco</em>, neutro o cercano a delgado en muchos países de América Latina, frente a <em>delgado</em>, más neutro en general, o <em>esquelético</em>, claramente negativo), o <strong>registro</strong> (<em>comenzar</em>, más formal, frente a <em>empezar</em>, neutro, frente a <em>arrancar</em>, coloquial en ciertos contextos).</p><p>Los <strong>falsos amigos avanzados</strong> son palabras que se parecen a otra lengua pero tienen un significado distinto y sutil: <em>actualmente</em> significa \"en este momento\", no \"en realidad\" (que se dice <em>en realidad</em> o <em>de hecho</em>); <em>sensible</em> significa \"que siente con facilidad\", no \"sensato\" (que se dice <em>sensato/a</em>); <em>embarazada</em> significa \"esperando un bebé\", nunca \"avergonzada\".</p>",
+    "rules": [
+      {
+        "heading": "a) Matices de intensidad",
+        "body": "<p><em>miedo &lt; temor &lt; pavor/terror</em>; <em>gustar &lt; encantar &lt; fascinar</em>; <em>triste &lt; afligido &lt; desolado</em>.</p>"
+      },
+      {
+        "heading": "b) Matices de registro",
+        "body": "<p><em>comenzar</em> (formal) / <em>empezar</em> (neutro) / <em>arrancar</em> (coloquial, con máquinas o de forma brusca); <em>fallecer</em> (formal) / <em>morir</em> (neutro) / <em>estirar la pata</em> (coloquial, incluso vulgar).</p>"
+      },
+      {
+        "heading": "c) Falsos amigos avanzados frecuentes",
+        "body": "<ul><li><em>actualmente</em> = \"ahora, en este momento\" (no \"en realidad\")</li><li><em>sensible</em> = \"que siente con facilidad\" (no \"sensato\")</li><li><em>embarazada</em> = \"esperando un bebé\" (no \"avergonzada\", que se dice <em>avergonzado/a</em>)</li><li><em>constipado</em> = \"resfriado\" (no \"estreñido\")</li><li><em>éxito</em> = \"resultado positivo\" (no \"salida\", que se dice <em>salida</em>)</li></ul>"
+      }
+    ],
+    "examples": [
+      "Sintió un pavor absoluto al ver la escena del accidente.",
+      "En realidad, no estoy tan seguro de que esta sea la mejor opción.",
+      "Actualmente vivo en Buenos Aires, aunque nací en Montevideo.",
+      "Es una persona muy sensible: cualquier comentario la afecta profundamente.",
+      "Mi tía está embarazada de su segundo hijo.",
+      "Me sentí muy avergonzado después de aquel comentario tan torpe.",
+      "El ministro fallecerá... el ministro falleció ayer tras una larga enfermedad. (registro formal para un anuncio oficial)",
+      "La salida de emergencia está al fondo del pasillo."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Actualmente, no creo que eso sea verdad. (con el sentido de \"en realidad\")",
+        "right": "En realidad, no creo que eso sea verdad.",
+        "why": "Actualmente significa \"en este momento\", un falso amigo frecuente con el sentido de \"en realidad\" o \"de hecho\" en otros idiomas."
+      },
+      {
+        "wrong": "Me sentí muy sensible después de decir esa tontería. (con el sentido de \"avergonzado\")",
+        "right": "Me sentí muy avergonzado después de decir esa tontería.",
+        "why": "Sensible en español significa \"que siente con facilidad\", no tiene relación con sentirse avergonzado."
+      },
+      {
+        "wrong": "Estoy embarazada de haber llegado tarde a la reunión. (con el sentido de \"avergonzada\")",
+        "right": "Estoy avergonzada de haber llegado tarde a la reunión.",
+        "why": "Embarazada significa exclusivamente \"esperando un bebé\"; el falso amigo con \"avergonzada\" es uno de los más conocidos del español."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2fa-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Significado Correcto",
+      "items": [
+        {
+          "id": "c2fa1",
+          "prompt": "\"Actualmente\" en español significa...",
+          "options": [
+            "en realidad",
+            "en este momento",
+            "de manera precisa"
+          ],
+          "answerIndex": 1,
+          "explanation": "Actualmente es un falso amigo frecuente: significa \"ahora, en este momento\", no \"en realidad\"."
+        },
+        {
+          "id": "c2fa2",
+          "prompt": "\"Sensible\" en español significa...",
+          "options": [
+            "sensato",
+            "que siente con facilidad",
+            "razonable"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sensible describe a alguien que siente las cosas con facilidad o intensidad, no a alguien sensato."
+        }
+      ]
+    },
+    {
+      "id": "c2fa-fill",
+      "type": "fill-blank",
+      "title": "Elige la Palabra de Registro Adecuado",
+      "items": [
+        {
+          "id": "c2fa3",
+          "prompt": "En un anuncio oficial: \"El presidente ___ ayer a los 85 años.\" (formal)",
+          "answers": [
+            [
+              "falleció"
+            ]
+          ],
+          "options": [
+            "falleció",
+            "murió",
+            "estiró la pata"
+          ],
+          "explanation": "Falleció es el término formal apropiado para un anuncio oficial."
+        }
+      ]
+    },
+    {
+      "id": "c2fa-correction",
+      "type": "correction",
+      "title": "Corrige el Falso Amigo",
+      "items": [
+        {
+          "id": "c2fa4",
+          "incorrect": "Estoy tan embarazada por lo que dije en la reunión.",
+          "answer": [
+            "Estoy tan avergonzada por lo que dije en la reunión."
+          ],
+          "explanation": "Embarazada significa \"esperando un bebé\", no \"avergonzada\": uno de los falsos amigos más conocidos del español."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Pares de palabras casi sinónimas se distinguen por matices de intensidad (miedo/pavor) o de registro (empezar/comenzar/arrancar).",
+    "Actualmente, sensible, embarazada y constipado son falsos amigos avanzados frecuentes con significados muy distintos a los que sugiere su parecido con otros idiomas.",
+    "Elegir la palabra con el matiz exacto, y no solo una traducción aproximadamente correcta, es la marca de un dominio verdaderamente avanzado del léxico."
+  ]
+}

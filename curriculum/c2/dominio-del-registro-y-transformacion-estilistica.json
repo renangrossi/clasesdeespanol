@@ -1,0 +1,120 @@
+{
+  "id": "c2-dominio-del-registro-y-transformacion-estilistica",
+  "level": "C2",
+  "unit": "1",
+  "order": 8,
+  "skill": "writing",
+  "strand": "registro",
+  "title": "Dominio del Registro y Transformación Estilística",
+  "subtitle": "La destreza final: reescribir un mismo contenido en cualquier registro, a voluntad.",
+  "objectives": [
+    "Transformar un mismo contenido entre registro coloquial, estándar, formal y literario",
+    "Justificar las decisiones léxicas y sintácticas detrás de cada transformación de registro",
+    "Evaluar la coherencia interna de registro en un texto propio o ajeno"
+  ],
+  "content": {
+    "intro": "Esta lección cierra el curso reuniendo todo lo trabajado en los niveles anteriores en una sola destreza: la capacidad de tomar una misma idea y expresarla en el registro exacto que la situación exige, a voluntad y sin esfuerzo aparente.",
+    "explanation": "<p>Dominar el registro no es memorizar una lista de fórmulas fijas, sino entender qué elige cada registro en cuatro planos a la vez: el <strong>léxico</strong> (coloquial, neutro, culto o técnico), la <strong>sintaxis</strong> (frases cortas y simples frente a periodos largos y subordinados), la <strong>morfología del trato</strong> (tú/vos/usted, y las fórmulas que cada uno exige), y los <strong>recursos retóricos</strong> (desde una metáfora coloquial hasta un hipérbaton literario).</p><p>La prueba real de este dominio es poder tomar una sola idea —por ejemplo, que un proyecto se retrasó— y producir, sin perder el contenido exacto, una versión coloquial (<em>Al final la cosa se atrasó, qué se le va a hacer</em>), una estándar (<em>El proyecto se retrasó por motivos ajenos al equipo</em>), una formal (<em>Lamentamos informarle de que el proyecto ha sufrido una demora</em>), y hasta una con matiz literario (<em>El destino, caprichoso como siempre, quiso posponer aquello que tanto habíamos anhelado</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Los cuatro planos del registro",
+        "body": "<ul><li>Léxico: coloquial &lt; neutro &lt; culto/técnico</li><li>Sintaxis: frases simples &lt; periodos complejos y subordinados</li><li>Trato: tú/vos &lt; usted &lt; fórmulas reverenciales</li><li>Recursos retóricos: ninguno &lt; metáfora/ironía leve &lt; recursos literarios elaborados</li></ul>"
+      },
+      {
+        "heading": "b) Coherencia interna de registro",
+        "body": "<p>Un texto bien escrito mantiene el mismo registro en todos sus planos a la vez; mezclar un léxico muy culto con un trato de tú informal, o una sintaxis muy simple con fórmulas reverenciales, produce un efecto extraño o involuntariamente cómico.</p>"
+      },
+      {
+        "heading": "c) El objetivo final: elegir, no improvisar",
+        "body": "<p>Un hablante de C2 no cae en un registro por defecto: elige conscientemente cuál usar según el destinatario, el propósito y el contexto, y sabe transformar deliberadamente entre uno y otro cuando la situación lo exige.</p>"
+      }
+    ],
+    "examples": [
+      "Coloquial: Che, al final se nos complicó todo con la mudanza, un lío total.",
+      "Estándar: Al final tuvimos varios problemas con la mudanza y se complicó bastante.",
+      "Formal: Lamentamos comunicarle que, debido a diversos inconvenientes, la mudanza se ha visto considerablemente complicada.",
+      "Literario: La mudanza, que tantas esperanzas había despertado, se convirtió en un cúmulo de contratiempos imprevistos.",
+      "Coloquial: Oye, ¿me puedes echar una mano con esto un segundo?",
+      "Formal: ¿Sería tan amable de prestarme su ayuda con este asunto?",
+      "Estándar: Este año las ventas bajaron bastante respecto al anterior.",
+      "Formal: Durante el presente ejercicio, se ha registrado un descenso notable en las cifras de ventas respecto al periodo anterior."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Estimado señor: oye, necesito que me ayudes con esto. (mezcla de fórmula formal con trato informal)",
+        "right": "Estimado señor: le escribo para solicitar su ayuda con este asunto.",
+        "why": "Mezclar una fórmula de apertura formal con un trato informal (oye, tú) rompe la coherencia interna del registro y suena incongruente."
+      },
+      {
+        "wrong": "usar siempre el mismo registro por defecto, sin adaptarlo al destinatario o al propósito",
+        "right": "elegir de forma consciente el registro más adecuado para cada situación concreta",
+        "why": "El dominio real de C2 se demuestra en la capacidad de transformar el registro a voluntad, no en dominar uno solo, por elaborado que sea."
+      },
+      {
+        "wrong": "pensar que un registro más culto o literario es siempre \"mejor\" que uno coloquial",
+        "right": "reconocer que cada registro es apropiado según el contexto, sin jerarquía de valor entre ellos",
+        "why": "Un mensaje coloquial entre amigos escrito en registro literario resultaría tan inadecuado como un informe técnico escrito en un tono demasiado coloquial."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2dr-mc",
+      "type": "multiple-choice",
+      "title": "Identifica el Registro",
+      "items": [
+        {
+          "id": "c2dr1",
+          "prompt": "\"Lamentamos comunicarle que su solicitud ha sido desestimada.\" pertenece a un registro...",
+          "options": [
+            "coloquial",
+            "formal",
+            "literario"
+          ],
+          "answerIndex": 1,
+          "explanation": "El vocabulario preciso (lamentamos, desestimada) y la fórmula de cortesía marcan un registro formal."
+        },
+        {
+          "id": "c2dr2",
+          "prompt": "\"Al final no nos dieron el trabajo, una pena.\" pertenece a un registro...",
+          "options": [
+            "coloquial",
+            "formal",
+            "arcaizante"
+          ],
+          "answerIndex": 0,
+          "explanation": "El vocabulario simple y directo, sin fórmulas de cortesía, marca un registro coloquial."
+        }
+      ]
+    },
+    {
+      "id": "c2dr-writing",
+      "type": "writing",
+      "title": "Transforma el Registro",
+      "items": [
+        {
+          "id": "c2dr3",
+          "prompt": "Toma esta idea en registro estándar — \"El vuelo se canceló por el mal tiempo y tuvimos que quedarnos una noche más en el aeropuerto\" — y reescríbela en registro coloquial y luego en registro formal, manteniendo exactamente el mismo contenido."
+        }
+      ]
+    },
+    {
+      "id": "c2dr-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2dr4",
+          "statement": "Un registro literario o culto es siempre objetivamente mejor que uno coloquial.",
+          "answer": false,
+          "explanation": "Cada registro es apropiado según el contexto; no existe una jerarquía de valor entre ellos, solo adecuación o inadecuación a la situación."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El registro se define en cuatro planos a la vez: léxico, sintaxis, trato (tú/usted) y recursos retóricos, y todos deben ser coherentes entre sí.",
+    "Un hablante de C2 puede transformar deliberadamente un mismo contenido entre registro coloquial, estándar, formal y literario, sin perder el sentido exacto.",
+    "Ningún registro es intrínsecamente mejor que otro: la destreza real está en elegir conscientemente el más adecuado para cada situación, no en dominar uno solo."
+  ]
+}

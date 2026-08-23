@@ -1,0 +1,109 @@
+{
+  "id": "c2-cohesion-textual-en-discurso-extenso",
+  "level": "C2",
+  "unit": "1",
+  "order": 5,
+  "skill": "writing",
+  "strand": "cohesion",
+  "title": "Cohesión Textual en Discurso Extenso",
+  "subtitle": "Cómo mantener un texto largo unido, coherente y sin repeticiones innecesarias.",
+  "objectives": [
+    "Usar mecanismos de referencia (pronombres, elipsis, sinónimos) para evitar repeticiones",
+    "Mantener el hilo temático de un texto extenso mediante progresión temática controlada",
+    "Revisar un texto propio para detectar rupturas de cohesión o ambigüedades referenciales"
+  ],
+  "content": {
+    "intro": "Un texto extenso y bien escrito no es solo una sucesión de frases correctas: necesita mecanismos que las mantengan unidas, para que el lector nunca pierda de vista de qué o de quién se está hablando.",
+    "explanation": "<p>La <strong>cohesión referencial</strong> evita repetir el mismo sustantivo constantemente usando pronombres, sinónimos, hiperónimos (una palabra más general: \"el animal\" en vez de repetir \"el perro\") o la <strong>elipsis</strong> (omitir un elemento ya mencionado cuando el contexto lo permite: <em>Juan llegó tarde y [Juan] se disculpó</em>).</p><p>La <strong>progresión temática</strong> organiza cómo avanza la información: cada frase nueva suele retomar algo ya mencionado (el tema) y añadir información nueva (el rema), que a menudo se convierte en el tema de la frase siguiente — así el texto avanza sin saltos bruscos. Un error frecuente incluso en escritores avanzados es la <strong>ambigüedad referencial</strong>: un pronombre que podría referirse a más de un antecedente, obligando al lector a releer para entender.</p>",
+    "rules": [
+      {
+        "heading": "a) Mecanismos de referencia",
+        "body": "<ul><li>Pronombres: <em>Ana llegó pronto. Ella siempre es puntual.</em></li><li>Sinónimos/hiperónimos: <em>el ensayo... el texto... esta obra...</em></li><li>Elipsis: <em>Marta cocinó y [Marta] limpió la cocina después.</em></li></ul>"
+      },
+      {
+        "heading": "b) Progresión temática",
+        "body": "<p>La información nueva de una frase (el rema) se convierte a menudo en el tema conocido de la frase siguiente, creando una cadena que avanza sin saltos: <em>El proyecto se aprobó en marzo. Ese mismo mes, el equipo empezó a trabajar.</em></p>"
+      },
+      {
+        "heading": "c) Evitar la ambigüedad referencial",
+        "body": "<p><em>Cuando Pedro habló con Luis, él le contó su plan.</em> (¿quién es él, Pedro o Luis?) — se resuelve nombrando explícitamente o reestructurando: <em>Cuando Pedro habló con Luis, este último le contó su plan.</em></p>"
+      }
+    ],
+    "examples": [
+      "El estudio analiza tres factores. El primero de ellos es el más determinante.",
+      "María presentó su proyecto y, acto seguido, respondió a las preguntas del jurado.",
+      "El autor plantea una hipótesis audaz; dicha hipótesis se sostiene a lo largo de todo el ensayo.",
+      "Juan llamó a su hermano y le contó la noticia enseguida.",
+      "La empresa lanzó el producto en enero. Ese mismo mes, las ventas se dispararon.",
+      "Cuando Ana y Marta se encontraron, esta última le mostró las fotos del viaje.",
+      "El informe recoge varios datos; estos confirman la tendencia observada el año anterior.",
+      "El profesor explicó la teoría con claridad y, después, propuso varios ejercicios prácticos."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "El perro corrió hacia el perro que estaba en el parque. (repetición innecesaria)",
+        "right": "El perro corrió hacia el otro perro que estaba en el parque. / ... hacia el animal que estaba en el parque.",
+        "why": "Repetir el mismo sustantivo sin necesidad rompe la fluidez del texto; conviene usar un pronombre, un sinónimo o un hiperónimo."
+      },
+      {
+        "wrong": "Cuando Marcos habló con Luis, él le explicó el problema. (ambiguo: ¿quién explicó, Marcos o Luis?)",
+        "right": "Cuando Marcos habló con Luis, este último le explicó el problema.",
+        "why": "El pronombre él es ambiguo entre los dos antecedentes posibles; conviene precisar con este/este último o repetir el nombre."
+      },
+      {
+        "wrong": "encadenar temas nuevos en cada frase sin retomar nada de la frase anterior",
+        "right": "hacer que la información nueva de una frase se convierta en el tema conocido de la siguiente",
+        "why": "Sin progresión temática, el texto se percibe como una lista de ideas sueltas, no como un discurso coherente y unido."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2ct-mc",
+      "type": "multiple-choice",
+      "title": "Identifica el Problema de Cohesión",
+      "items": [
+        {
+          "id": "c2ct1",
+          "prompt": "\"Cuando Ana habló con Marta, ella le contó todo.\" ¿Cuál es el problema?",
+          "options": [
+            "Falta de progresión temática",
+            "Ambigüedad referencial del pronombre ella",
+            "Repetición excesiva de sustantivos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ella podría referirse tanto a Ana como a Marta, generando ambigüedad."
+        }
+      ]
+    },
+    {
+      "id": "c2ct-writing",
+      "type": "writing",
+      "title": "Mejora la Cohesión",
+      "items": [
+        {
+          "id": "c2ct2",
+          "prompt": "Reescribe este fragmento para evitar la repetición y la ambigüedad: \"El estudio analiza el problema. El problema afecta a muchas personas. Cuando Laura leyó el estudio, ella se sorprendió mucho con el estudio.\""
+        }
+      ]
+    },
+    {
+      "id": "c2ct-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2ct3",
+          "statement": "La elipsis consiste en omitir un elemento ya mencionado cuando el contexto permite recuperarlo sin ambigüedad.",
+          "answer": true,
+          "explanation": "Es un mecanismo de cohesión que evita repeticiones innecesarias sin perder claridad."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los pronombres, sinónimos, hiperónimos y la elipsis evitan repeticiones innecesarias y dan cohesión a un texto extenso.",
+    "La progresión temática avanza el discurso cuando la información nueva de una frase se convierte en el tema conocido de la siguiente.",
+    "La ambigüedad referencial (un pronombre con más de un antecedente posible) es uno de los fallos de cohesión más frecuentes, incluso en escritores avanzados."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "c2-sintaxis-compleja-y-subordinacion-multiple",
+  "level": "C2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "sintaxis",
+  "title": "Sintaxis Compleja y Subordinación Múltiple",
+  "subtitle": "Cómo encadenar varias subordinadas sin perder claridad ni corrección.",
+  "objectives": [
+    "Construir frases con varios niveles de subordinación encadenada",
+    "Mantener la concordancia y la coherencia verbal a través de subordinadas anidadas",
+    "Reescribir una frase excesivamente compleja para ganar claridad sin perder matiz"
+  ],
+  "content": {
+    "intro": "A este nivel ya dominas cada tipo de subordinada por separado; el reto ahora es combinarlas con precisión, porque un texto culto y elaborado rara vez avanza con frases simples una detrás de otra.",
+    "explanation": "<p>Una frase compleja puede anidar una subordinada sustantiva dentro de una relativa, dentro a su vez de una condicional, sin perder la corrección gramatical si cada verbo respeta las reglas que ya conoces: modo (indicativo/subjuntivo) según la subordinada de la que dependa directamente, y concordancia de tiempos según el verbo del que depende, no según el verbo principal de toda la frase.</p><p>El riesgo real de la subordinación múltiple no es la incorrección, sino la <strong>pérdida de claridad</strong>: cuantos más niveles se anidan, más fácil es que el lector pierda el hilo de a qué se refiere cada pronombre o cada verbo. Un buen estilo culto sabe cuándo dividir una frase demasiado cargada en dos, sin sacrificar la precisión del contenido.</p>",
+    "rules": [
+      {
+        "heading": "a) Cada subordinada obedece a su propio verbo regente",
+        "body": "<p>En <em>Dudo que quienes lleguen tarde puedan entrar</em>, quienes lleguen depende de una relativa con antecedente indefinido (subjuntivo por eso), y puedan depende de dudar que (subjuntivo por eso) — dos razones distintas para el mismo modo, no una sola regla que se herede automáticamente.</p>"
+      },
+      {
+        "heading": "b) Concordancia de tiempos en cadena",
+        "body": "<p><em>Me confesó que temía que, si no llegábamos a tiempo, se cancelaría todo.</em> — cada verbo retrocede según el que lo rige directamente: confesó (pasado) rige temía (imperfecto); temía rige el condicional se cancelaría a través de la hipotética.</p>"
+      },
+      {
+        "heading": "c) Cuándo dividir una frase demasiado cargada",
+        "body": "<p>Si una frase acumula más de tres niveles de subordinación, suele ganar en claridad si se divide en dos oraciones independientes, aunque se pierda algo de la elegancia sintáctica de un único periodo.</p>"
+      }
+    ],
+    "examples": [
+      "Quienes deseen que su solicitud sea considerada deberán presentarla antes de que finalice el plazo.",
+      "Me temo que, si no hubiéramos insistido, jamás nos habrían dicho la verdad.",
+      "No hay nadie que crea que esta decisión, por difícil que parezca, no sea la más razonable.",
+      "El informe, que se había redactado con la esperanza de que convenciera al comité, resultó insuficiente.",
+      "Dudaba que quienes lo criticaban tan duramente hubieran leído realmente su obra completa.",
+      "Aunque sabía que, de haber actuado antes, todo habría sido distinto, prefirió no lamentarse.",
+      "Es poco probable que quien haya vivido eso pueda olvidarlo con facilidad.",
+      "Explicó que, si bien el proyecto avanzaba, aún quedaban decisiones que tomar antes de julio."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "asumir que un solo modo verbal se aplica a toda la cadena de subordinadas",
+        "right": "evaluar el modo de cada subordinada según el verbo del que depende directamente",
+        "why": "Cada subordinada obedece a su propio verbo regente, no a una regla global heredada del verbo principal de toda la frase."
+      },
+      {
+        "wrong": "acumular cinco o seis niveles de subordinación en una sola frase sin pausas",
+        "right": "dividir la idea en dos frases cuando la subordinación se vuelve excesiva",
+        "why": "Más allá de cierto punto, la subordinación múltiple perjudica la claridad, incluso si cada verbo está gramaticalmente bien formado."
+      },
+      {
+        "wrong": "Me confesó que temía que se cancela todo.",
+        "right": "Me confesó que temía que se cancelaría/cancelara todo.",
+        "why": "La concordancia de tiempos exige retroceder el verbo de la subordinada más profunda según el verbo pasado que la rige, no dejarlo en presente."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2sc-mc",
+      "type": "multiple-choice",
+      "title": "Identifica la Razón del Modo Verbal",
+      "items": [
+        {
+          "id": "c2sc1",
+          "prompt": "En \"Dudo que quienes lleguen tarde puedan entrar\", ¿por qué \"lleguen\" está en subjuntivo?",
+          "options": [
+            "Por depender de dudar que",
+            "Por tener un antecedente indefinido en la relativa",
+            "Por concordancia de tiempos con puedan"
+          ],
+          "answerIndex": 1,
+          "explanation": "Lleguen depende de la relativa con antecedente indefinido (quienes), una razón distinta e independiente de por qué puedan está en subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "c2sc-fill",
+      "type": "fill-blank",
+      "title": "Completa la Cadena de Subordinación",
+      "items": [
+        {
+          "id": "c2sc2",
+          "prompt": "Me confesó que temía que, si no llegábamos a tiempo, todo se ___ (cancelar).",
+          "answers": [
+            [
+              "cancelaría"
+            ],
+            [
+              "cancelara"
+            ],
+            [
+              "cancelase"
+            ]
+          ],
+          "options": [
+            "cancelaría",
+            "cancelara",
+            "cancela"
+          ],
+          "explanation": "El condicional (o el imperfecto de subjuntivo, en un registro más literario) es el que corresponde a la apódosis de una hipotética dentro de una cadena de pasado."
+        }
+      ]
+    },
+    {
+      "id": "c2sc-writing",
+      "type": "writing",
+      "title": "Reescribe para Ganar Claridad",
+      "items": [
+        {
+          "id": "c2sc3",
+          "prompt": "Reescribe esta frase, dividiéndola en dos oraciones más claras sin perder ningún matiz: \"El informe, que se había redactado con la esperanza de que convenciera al comité, que llevaba meses dudando de que el proyecto, tal como estaba planteado, pudiera tener éxito, resultó insuficiente.\""
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Cada subordinada dentro de una frase compleja obedece a su propio verbo regente, con su propia razón para el modo verbal.",
+    "La concordancia de tiempos avanza en cadena: cada verbo retrocede según el verbo del que depende directamente.",
+    "Más allá de tres o cuatro niveles de subordinación, suele ser mejor estilo dividir la frase en dos, sin perder precisión."
+  ]
+}

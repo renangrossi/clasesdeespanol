@@ -1,0 +1,124 @@
+{
+  "id": "c2-registro-literario-y-recursos-estilisticos",
+  "level": "C2",
+  "unit": "1",
+  "order": 2,
+  "skill": "reading",
+  "strand": "estilo",
+  "title": "Registro Literario y Recursos Estilísticos",
+  "subtitle": "Metáfora, hipérbole, anáfora y otros recursos que dan textura a un texto elaborado.",
+  "objectives": [
+    "Reconocer recursos estilísticos frecuentes en la prosa literaria y ensayística",
+    "Distinguir el uso del hipérbaton para dar énfasis o musicalidad a una frase",
+    "Analizar cómo el orden de palabras y el léxico elevado crean un efecto literario"
+  ],
+  "content": {
+    "intro": "Un dominio de C2 incluye reconocer y apreciar cómo un texto literario o ensayístico se construye deliberadamente distinto de la prosa neutra, con recursos que un hablante de niveles anteriores rara vez encuentra fuera de la literatura.",
+    "explanation": "<p>El <strong>hipérbaton</strong> altera el orden habitual de las palabras para dar énfasis o musicalidad: <em>Verde que te quiero verde</em> (Lorca) antepone el adjetivo al verbo de un modo que la prosa neutra jamás haría. La <strong>anáfora</strong> repite una palabra o estructura al inicio de frases sucesivas para crear ritmo e insistencia; la <strong>metáfora</strong> y la <strong>hipérbole</strong> (exageración deliberada) intensifican una idea más allá de su sentido literal.</p><p>El léxico elevado o poco frecuente (<em>ínclito, pergeñar, acendrado</em>) y las construcciones sintácticas menos habituales en el habla (el uso libre del pretérito anterior, el gerundio con valor de posterioridad) son marcas propias del registro literario más cuidado, y reconocerlas es clave para leer con verdadera profundidad autores clásicos y contemporáneos exigentes.</p>",
+    "rules": [
+      {
+        "heading": "a) Hipérbaton",
+        "body": "<p>Alteración del orden neutro sujeto-verbo-complemento para dar énfasis: <em>De los sus ojos tan fuertemente llorando</em> (Cantar de Mio Cid) en vez del orden neutro.</p>"
+      },
+      {
+        "heading": "b) Anáfora",
+        "body": "<p>Repetición al inicio de frases o versos sucesivos: <em>Nada teme, nada duda, nada espera.</em></p>"
+      },
+      {
+        "heading": "c) Metáfora e hipérbole",
+        "body": "<p>Metáfora: <em>sus palabras eran veneno.</em> Hipérbole: <em>te lo he dicho un millón de veces.</em></p>"
+      },
+      {
+        "heading": "d) Léxico elevado y construcciones poco frecuentes",
+        "body": "<p>Palabras de baja frecuencia (<em>ominoso, pergeñar, acendrado</em>) y estructuras arcaizantes (el pretérito anterior: <em>Apenas hubo terminado, se marchó</em>) marcan un registro literario o muy formal.</p>"
+      }
+    ],
+    "examples": [
+      "Del salón en el ángulo oscuro, de su dueño tal vez olvidada... (hipérbaton clásico)",
+      "Nada se pierde, nada se destruye, todo se transforma.",
+      "Sus ojos eran dos pozos sin fondo. (metáfora)",
+      "Te he llamado mil veces y nunca contestas. (hipérbole)",
+      "Apenas hubo salido el sol, se pusieron todos en marcha. (pretérito anterior, registro literario)",
+      "Con acendrada paciencia, esperó el desenlace de aquella historia.",
+      "En la casa, silencio; en la calle, silencio; en el pueblo entero, silencio. (anáfora)",
+      "Aquel hombre, huraño y taciturno, apenas dirigía la palabra a nadie."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "usar el hipérbaton o el léxico elevado en un correo de trabajo o una conversación cotidiana",
+        "right": "reservar estos recursos para el registro literario o ensayístico deliberado",
+        "why": "Estos recursos, fuera de un contexto literario o retórico, suenan afectados o forzados en el habla y la escritura cotidianas."
+      },
+      {
+        "wrong": "confundir la hipérbole con una simple exageración descuidada",
+        "right": "reconocer la hipérbole como un recurso deliberado y consciente para intensificar una idea",
+        "why": "La hipérbole es un recurso retórico con función expresiva concreta, no un error de precisión."
+      },
+      {
+        "wrong": "pensar que el pretérito anterior (hubo terminado) es intercambiable con el pluscuamperfecto en cualquier contexto",
+        "right": "reconocer que el pretérito anterior es casi exclusivo del registro literario y arcaizante",
+        "why": "En el español actual, el pluscuamperfecto (había terminado) sustituye al pretérito anterior en prácticamente todos los contextos fuera de la literatura."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2rl-mc",
+      "type": "multiple-choice",
+      "title": "Identifica el Recurso Estilístico",
+      "items": [
+        {
+          "id": "c2rl1",
+          "prompt": "\"Sus palabras eran veneno puro\" es un ejemplo de...",
+          "options": [
+            "hipérbaton",
+            "metáfora",
+            "anáfora"
+          ],
+          "answerIndex": 1,
+          "explanation": "Se identifica una cosa (palabras) con otra (veneno) sin usar como: metáfora."
+        },
+        {
+          "id": "c2rl2",
+          "prompt": "\"Nada teme, nada duda, nada espera\" es un ejemplo de...",
+          "options": [
+            "anáfora",
+            "hipérbole",
+            "hipérbaton"
+          ],
+          "answerIndex": 0,
+          "explanation": "La repetición de nada al inicio de cada frase es una anáfora."
+        }
+      ]
+    },
+    {
+      "id": "c2rl-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2rl3",
+          "statement": "El pretérito anterior (hubo terminado) es de uso frecuente en la conversación cotidiana actual.",
+          "answer": false,
+          "explanation": "Es casi exclusivo del registro literario y arcaizante; el habla cotidiana usa el pluscuamperfecto (había terminado)."
+        }
+      ]
+    },
+    {
+      "id": "c2rl-writing",
+      "type": "writing",
+      "title": "Practica el Recurso",
+      "items": [
+        {
+          "id": "c2rl4",
+          "prompt": "Escribe tres frases breves sobre el paso del tiempo usando un hipérbaton, una metáfora y una anáfora, uno por frase."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El hipérbaton altera el orden neutro de las palabras para dar énfasis o musicalidad, propio de la poesía y la prosa elaborada.",
+    "La anáfora repite una estructura al inicio de frases sucesivas para crear ritmo; la metáfora y la hipérbole intensifican una idea más allá de su sentido literal.",
+    "El léxico elevado y construcciones como el pretérito anterior marcan un registro literario que rara vez aparece fuera de la literatura o el ensayo cuidado."
+  ]
+}

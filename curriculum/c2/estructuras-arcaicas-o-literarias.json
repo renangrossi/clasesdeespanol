@@ -1,0 +1,132 @@
+{
+  "id": "c2-estructuras-arcaicas-o-literarias",
+  "level": "C2",
+  "unit": "1",
+  "order": 7,
+  "skill": "reading",
+  "strand": "estilo",
+  "title": "Estructuras Arcaicas o Literarias",
+  "subtitle": "Formas que sobreviven en textos clásicos, religiosos o muy formales, y que un lector culto debe reconocer.",
+  "objectives": [
+    "Reconocer pronombres y formas verbales arcaicas frecuentes en textos clásicos",
+    "Identificar el uso literario del futuro de subjuntivo, el vos reverencial y otras formas fosilizadas",
+    "Leer con comprensión un fragmento breve de español clásico (Siglo de Oro) sin traducirlo mentalmente al español moderno"
+  ],
+  "content": {
+    "intro": "Leer con soltura una obra clásica, un texto religioso o un documento histórico requiere reconocer formas que desaparecieron del español moderno hace siglos, pero que siguen definiendo buena parte de la tradición literaria en español.",
+    "explanation": "<p>El español clásico (Siglo de Oro) usa pronombres y formas hoy desaparecidos: <strong>vos</strong> como tratamiento reverencial hacia una sola persona de alto rango (distinto del voseo moderno rioplatense), <strong>vuestra merced</strong> (origen histórico de <em>usted</em>), y formas verbales como <strong>habedes, sois</strong> (por sois) o el uso libre de <strong>facer</strong> por <em>hacer</em> en textos medievales.</p><p>También sobreviven construcciones como el <strong>futuro de subjuntivo</strong> (ya visto en B2) en textos religiosos y jurídicos antiguos, el uso de <strong>ca</strong> (por \"porque\") en textos medievales, y una sintaxis con mayor libertad en el orden de palabras que la prosa moderna. Reconocer estas formas, sin necesidad de producirlas, es lo que permite disfrutar plenamente del Quijote, la poesía del Siglo de Oro o los textos fundacionales de la lengua sin la sensación de estar leyendo un idioma distinto.</p>",
+    "rules": [
+      {
+        "heading": "a) Vos reverencial (clásico, distinto del voseo moderno)",
+        "body": "<p>En el Siglo de Oro, vos se dirigía formalmente a una sola persona de rango: <em>Vos, señor, sabéis bien lo que os digo.</em> — no debe confundirse con el voseo informal moderno de Argentina.</p>"
+      },
+      {
+        "heading": "b) Vuestra merced y el origen de usted",
+        "body": "<p><em>Vuestra merced</em> se abrevió con el tiempo hasta convertirse en <em>usted</em>; en textos clásicos aparece todavía en su forma completa como tratamiento de respeto.</p>"
+      },
+      {
+        "heading": "c) Formas verbales y léxico medieval/clásico",
+        "body": "<p><em>facer</em> (hacer), <em>fablar</em> (hablar), <em>ca</em> (porque), <em>maguer</em> (aunque) — vocabulario y morfología que desapareció del español estándar pero persiste en ediciones de textos medievales.</p>"
+      },
+      {
+        "heading": "d) Leer sin traducir mentalmente",
+        "body": "<p>El objetivo en C2 no es producir estas formas, sino reconocerlas con fluidez suficiente para seguir el sentido de un texto clásico sin detenerse en cada palabra desconocida.</p>"
+      }
+    ],
+    "examples": [
+      "Vos, señor caballero, sabéis bien la razón que me asiste. (vos reverencial clásico)",
+      "Vuestra merced perdone mi atrevimiento al escribirle esta carta.",
+      "Ca no hay mayor locura que la de quien todo lo quiere saber. (ca = porque, en texto medieval)",
+      "Maguer fuese pobre, jamás perdió la dignidad. (maguer = aunque)",
+      "El que hubiere de heredar esta hacienda deberá cumplir con lo aquí dispuesto. (futuro de subjuntivo, texto jurídico clásico)",
+      "En un lugar de la Mancha, de cuyo nombre no quiero acordarme... (célebre apertura del Quijote)",
+      "Fabló el caballero con gran cortesía a la dama que allí esperaba.",
+      "Sois, sin duda, la persona más sabia que jamás he conocido. (sois con valor reverencial hacia una sola persona)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "confundir el vos reverencial clásico con el voseo informal moderno de Argentina",
+        "right": "distinguir ambos usos, siglos y funciones completamente distintas del mismo pronombre",
+        "why": "El vos clásico era formal y reverencial hacia una sola persona de alto rango; el voseo moderno rioplatense es informal y cotidiano — comparten la forma pero no la función."
+      },
+      {
+        "wrong": "intentar producir activamente facer, fablar o ca en una conversación o texto moderno",
+        "right": "reconocer estas formas de forma pasiva al leer textos clásicos o medievales",
+        "why": "Estas formas desaparecieron por completo del español actual; usarlas fuera de una cita o un texto deliberadamente arcaizante suena incomprensible o afectado."
+      },
+      {
+        "wrong": "detenerse a traducir mentalmente cada palabra arcaica al español moderno",
+        "right": "leer el texto clásico directamente, apoyándose en el contexto para las palabras menos frecuentes",
+        "why": "Un dominio de C2 permite seguir el sentido general de un texto clásico con fluidez, sin necesidad de una traducción palabra por palabra."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2ea-mc",
+      "type": "multiple-choice",
+      "title": "Reconoce la Forma Arcaica",
+      "items": [
+        {
+          "id": "c2ea1",
+          "prompt": "En el español clásico, \"vuestra merced\" es el origen histórico de...",
+          "options": [
+            "tú",
+            "usted",
+            "vos (voseo moderno)"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vuestra merced se abrevió con el tiempo hasta dar la forma moderna usted."
+        },
+        {
+          "id": "c2ea2",
+          "prompt": "\"Ca\" en un texto medieval significa...",
+          "options": [
+            "porque",
+            "aunque",
+            "cuando"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ca es una conjunción causal medieval, equivalente a porque."
+        }
+      ]
+    },
+    {
+      "id": "c2ea-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2ea3",
+          "statement": "El vos reverencial del español clásico es exactamente el mismo fenómeno que el voseo informal argentino moderno.",
+          "answer": false,
+          "explanation": "Comparten la forma del pronombre pero cumplen funciones históricas y sociales completamente distintas."
+        }
+      ]
+    },
+    {
+      "id": "c2ea-reading",
+      "type": "reading-comprehension",
+      "title": "Comprensión de un Fragmento Clásico",
+      "passage": "\"Vuestra merced, señor hidalgo, perdone mi atrevimiento, ca no hallé otro modo de haceros llegar esta nueva: sois, sin duda, la persona a quien más debo en esta vida, y maguer el tiempo y la distancia, jamás olvidé vuestra bondad.\"",
+      "items": [
+        {
+          "id": "c2ea4",
+          "prompt": "¿A quién se dirige el narrador con \"vuestra merced\" y \"sois\"?",
+          "options": [
+            "A varias personas a la vez",
+            "A una sola persona, con tratamiento reverencial",
+            "A sí mismo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tanto vuestra merced como sois (con valor reverencial) se dirigen formalmente a una sola persona de respeto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El vos reverencial clásico, distinto del voseo moderno, se dirigía formalmente a una sola persona de alto rango.",
+    "Vuestra merced es el origen histórico de usted; facer, fablar, ca y maguer son léxico y morfología medievales hoy desaparecidos del uso activo.",
+    "El objetivo en C2 es reconocer estas formas con fluidez al leer, no producirlas activamente en el español contemporáneo."
+  ]
+}

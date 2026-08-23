@@ -1,0 +1,126 @@
+{
+  "id": "c2-modalidad-y-atenuacion-en-discurso-formal",
+  "level": "C2",
+  "unit": "1",
+  "order": 6,
+  "skill": "functional",
+  "strand": "modalidad",
+  "title": "Modalidad y Atenuación en Discurso Formal",
+  "subtitle": "Cómo suavizar una afirmación, una crítica o un desacuerdo sin perder precisión.",
+  "objectives": [
+    "Usar verbos modales y expresiones de probabilidad para matizar el grado de certeza",
+    "Aplicar estrategias de atenuación para suavizar una crítica o un desacuerdo en un registro formal",
+    "Reconocer la diferencia entre atenuación genuina y ambigüedad evasiva no deseada"
+  ],
+  "content": {
+    "intro": "Un hablante culto rara vez afirma algo de forma tajante en un contexto formal o académico: sabe matizar el grado de certeza y suavizar el desacuerdo sin perder claridad ni firmeza real en el fondo.",
+    "explanation": "<p>La <strong>modalidad epistémica</strong> expresa el grado de certeza del hablante sobre lo que dice, mediante verbos modales (<em>podría, cabría, sería posible</em>), adverbios (<em>posiblemente, presumiblemente, en cierto modo</em>) o construcciones impersonales (<em>cabe pensar que, todo parece indicar que</em>). No es lo mismo afirmar <em>Esto es un error</em> que <em>Cabría pensar que esto podría ser un error</em> — la segunda deja espacio para el desacuerdo sin renunciar a expresar la idea.</p><p>La <strong>atenuación</strong> es una estrategia de cortesía especialmente valorada en el registro académico y profesional al criticar o discrepar: en vez de <em>Esto está mal</em>, se prefiere <em>Cabría reconsiderar este punto</em> o <em>Quizá convendría revisar este aspecto</em>. La clave es que la atenuación no oculta el mensaje real, solo lo presenta de forma menos confrontativa — distinta de una ambigüedad evasiva que de verdad esconde la opinión del hablante.</p>",
+    "rules": [
+      {
+        "heading": "a) Verbos y expresiones de modalidad epistémica",
+        "body": "<p><em>podría ser que, cabe la posibilidad de que, todo parece indicar que, se podría argumentar que, no cabe descartar que</em>.</p>"
+      },
+      {
+        "heading": "b) Adverbios de atenuación",
+        "body": "<p><em>posiblemente, presumiblemente, hasta cierto punto, en cierta medida, no del todo</em>: <em>El argumento es, hasta cierto punto, convincente.</em></p>"
+      },
+      {
+        "heading": "c) Estrategias para atenuar una crítica",
+        "body": "<ul><li>Verbo en condicional: <em>Convendría revisar esta parte.</em></li><li>Impersonalización: <em>Se podría objetar que falta un ejemplo más claro.</em></li><li>Reconocimiento previo: <em>Si bien el argumento tiene mérito, cabría matizar...</em></li></ul>"
+      },
+      {
+        "heading": "d) Atenuación genuina vs. ambigüedad evasiva",
+        "body": "<p>La atenuación matiza sin ocultar la opinión real; una ambigüedad evasiva deliberada, en cambio, impide saber qué piensa realmente el hablante — esto último no es un recurso de estilo válido en un texto argumentativo serio.</p>"
+      }
+    ],
+    "examples": [
+      "Cabría reconsiderar esta parte del argumento antes de publicarlo.",
+      "Todo parece indicar que la hipótesis inicial no era del todo correcta.",
+      "Se podría argumentar que el estudio adolece de una muestra demasiado pequeña.",
+      "El planteamiento es, hasta cierto punto, razonable, aunque presenta algunas lagunas.",
+      "No cabe descartar que existan otros factores no considerados en este análisis.",
+      "Convendría, quizá, matizar esta afirmación con datos más recientes.",
+      "Si bien el enfoque tiene mérito, cabría cuestionar algunas de sus premisas.",
+      "Presumiblemente, el retraso se debió a factores externos al equipo."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Este argumento está completamente equivocado. (en una revisión académica formal)",
+        "right": "Cabría reconsiderar algunos aspectos de este argumento.",
+        "why": "En un registro académico o profesional formal, una crítica tajante suele atenuarse para mantener un tono constructivo y cortés, sin perder la sustancia de la observación."
+      },
+      {
+        "wrong": "usar la atenuación para evitar por completo expresar una opinión clara",
+        "right": "usar la atenuación para suavizar el tono sin ocultar la opinión de fondo",
+        "why": "La atenuación matiza la forma, no debe convertirse en una excusa para no comunicar realmente lo que se piensa."
+      },
+      {
+        "wrong": "Puede ser que esto sea un error, o tal vez no, no lo sé realmente. (ambigüedad evasiva, no atenuación)",
+        "right": "Cabría considerar que esto podría ser un error, aunque el argumento central sigue siendo sólido.",
+        "why": "La atenuación genuina sigue comunicando una posición clara; una ambigüedad evasiva simplemente elude tomar postura."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2ma-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Más Atenuada",
+      "items": [
+        {
+          "id": "c2ma1",
+          "prompt": "¿Cuál de estas frases suaviza mejor una crítica en un contexto académico?",
+          "options": [
+            "Esto está mal.",
+            "Cabría reconsiderar este punto.",
+            "No tienes razón en absoluto."
+          ],
+          "answerIndex": 1,
+          "explanation": "Cabría reconsiderar suaviza la crítica sin perder su contenido real."
+        }
+      ]
+    },
+    {
+      "id": "c2ma-fill",
+      "type": "fill-blank",
+      "title": "Completa con Modalidad Epistémica",
+      "items": [
+        {
+          "id": "c2ma2",
+          "prompt": "___ que la hipótesis inicial no fuera del todo correcta. (expresar posibilidad, no certeza)",
+          "answers": [
+            [
+              "Cabe la posibilidad de"
+            ],
+            [
+              "Podría ser"
+            ]
+          ],
+          "options": [
+            "Cabe la posibilidad de",
+            "Es seguro"
+          ],
+          "explanation": "Cabe la posibilidad de expresa un grado de certeza matizado, no una afirmación absoluta."
+        }
+      ]
+    },
+    {
+      "id": "c2ma-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2ma3",
+          "statement": "La atenuación genuina oculta por completo la opinión real del hablante.",
+          "answer": false,
+          "explanation": "La atenuación matiza el tono, pero sigue comunicando una posición clara; ocultar la opinión sería una ambigüedad evasiva, no atenuación."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La modalidad epistémica (podría, cabría, todo parece indicar que) expresa el grado de certeza del hablante sobre lo que afirma.",
+    "La atenuación suaviza una crítica o un desacuerdo en el registro formal mediante el condicional, la impersonalización o el reconocimiento previo del argumento contrario.",
+    "La atenuación genuina sigue comunicando una posición clara; no debe confundirse con una ambigüedad evasiva que evita tomar postura."
+  ]
+}
