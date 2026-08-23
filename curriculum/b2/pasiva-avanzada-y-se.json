@@ -1,0 +1,152 @@
+{
+  "id": "b2-pasiva-avanzada-y-se",
+  "level": "B2",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "voz-pasiva",
+  "title": "Pasiva Avanzada y Construcciones con Se",
+  "subtitle": "Se + verbo con complemento indirecto: el se de los sucesos involuntarios.",
+  "objectives": [
+    "Formar construcciones con se para expresar sucesos involuntarios o accidentales",
+    "Distinguir el se accidental del se reflexivo y de la pasiva refleja",
+    "Reconocer los distintos valores de se en un texto (reflexivo, recíproco, pasivo, accidental)"
+  ],
+  "content": {
+    "intro": "El pronombre se en español tiene varios usos distintos, y uno de los más interesantes es el que describe algo que le pasa a alguien sin que esa persona lo haya causado a propósito.",
+    "explanation": "<p>La construcción <strong>se + pronombre de objeto indirecto + verbo</strong> presenta un hecho como accidental o involuntario, quitando la responsabilidad directa del sujeto: <em>Se me rompió el vaso</em> (en vez de \"rompí el vaso\", que sonaría como si lo hubiera hecho a propósito). El verbo concuerda con lo que se rompió/perdió/olvidó, no con la persona.</p><p>Es importante distinguir los distintos valores de <strong>se</strong> en español: <strong>reflexivo</strong> (<em>Ella se lava las manos</em> — a sí misma), <strong>recíproco</strong> (<em>Se abrazaron al despedirse</em> — el uno al otro), <strong>pasiva refleja</strong> (<em>Se venden pisos</em>) y <strong>accidental</strong> (<em>Se me olvidaron las llaves</em>) — cuatro construcciones distintas con la misma partícula.</p>",
+    "rules": [
+      {
+        "heading": "a) Estructura del se accidental",
+        "body": "<p>se + me/te/le/nos/os/les + verbo (concordado con lo que sucede) + sujeto real: <em>Se le cayeron los papeles.</em> (a él/ella, sin querer, se cayeron los papeles)</p>"
+      },
+      {
+        "heading": "b) Verbos frecuentes en esta construcción",
+        "body": "<p><em>caer, romper, perder, olvidar, quedar, acabar/terminar</em>: <em>Se nos acabó la leche. Se te olvidó el paraguas.</em></p>"
+      },
+      {
+        "heading": "c) Los cuatro valores de se",
+        "body": "<ul><li>Reflexivo: <em>Me visto rápido.</em></li><li>Recíproco: <em>Se escriben cartas todas las semanas.</em></li><li>Pasiva refleja: <em>Se necesita personal con experiencia.</em></li><li>Accidental: <em>Se me perdió el teléfono.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Se me rompió el teléfono sin querer esta mañana.",
+      "Se nos olvidaron las llaves dentro del coche.",
+      "A ella se le cayó el café encima del vestido.",
+      "Se les acabó el tiempo antes de terminar el examen.",
+      "Se me perdió la cartera en algún lugar del centro.",
+      "Se te quedó el libro en mi casa la semana pasada.",
+      "Se nos hizo tarde y perdimos el autobús.",
+      "Se le rompieron los pantalones nuevos el primer día."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Me rompí el vaso.",
+        "right": "Se me rompió el vaso.",
+        "why": "Para presentar un hecho como accidental, sin intención, se usa la construcción con se + pronombre de objeto indirecto, no un verbo reflexivo directo."
+      },
+      {
+        "wrong": "Se me rompieron el vaso.",
+        "right": "Se me rompió el vaso.",
+        "why": "El verbo debe concordar con lo que sucede (el vaso, singular), no con la persona afectada."
+      },
+      {
+        "wrong": "Se olvidó a mí las llaves.",
+        "right": "Se me olvidaron las llaves.",
+        "why": "La persona afectada se marca con el pronombre de objeto indirecto (me), no con a mí + verbo sin pronombre."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2pa-fill",
+      "type": "fill-blank",
+      "title": "Completa con Se + Pronombre",
+      "items": [
+        {
+          "id": "b2pa1",
+          "prompt": "___ (a mí) ___ (romper) los platos sin querer.",
+          "answers": [
+            [
+              "Se"
+            ],
+            [
+              "me rompieron"
+            ]
+          ],
+          "options": [
+            "Se",
+            "me rompieron"
+          ],
+          "explanation": "Se + me + verbo concordado en plural con los platos: se me rompieron."
+        },
+        {
+          "id": "b2pa2",
+          "prompt": "___ (a nosotros) ___ (acabar) la paciencia con este proyecto.",
+          "answers": [
+            [
+              "Se"
+            ],
+            [
+              "nos acabó"
+            ]
+          ],
+          "options": [
+            "Se",
+            "nos acabó"
+          ],
+          "explanation": "Se + nos + verbo concordado en singular con la paciencia: se nos acabó."
+        }
+      ]
+    },
+    {
+      "id": "b2pa-mc",
+      "type": "multiple-choice",
+      "title": "Identifica el Valor de Se",
+      "items": [
+        {
+          "id": "b2pa3",
+          "prompt": "\"Se abrazaron con mucha emoción al reencontrarse.\" es un se...",
+          "options": [
+            "reflexivo",
+            "recíproco",
+            "accidental"
+          ],
+          "answerIndex": 1,
+          "explanation": "El uno al otro: valor recíproco."
+        },
+        {
+          "id": "b2pa4",
+          "prompt": "\"Se me quedaron las gafas en el tren.\" es un se...",
+          "options": [
+            "reflexivo",
+            "pasiva refleja",
+            "accidental"
+          ],
+          "answerIndex": 2,
+          "explanation": "Un hecho presentado como accidental o involuntario: valor accidental."
+        }
+      ]
+    },
+    {
+      "id": "b2pa-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2pa5",
+          "incorrect": "Se me cayó los libros de las manos.",
+          "answer": [
+            "Se me cayeron los libros de las manos."
+          ],
+          "explanation": "El verbo debe concordar en plural con los libros, no quedarse en singular."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La construcción se + objeto indirecto + verbo presenta un hecho como accidental, quitando responsabilidad directa al sujeto.",
+    "El verbo concuerda con lo que sucede (el objeto real), nunca con la persona afectada.",
+    "Se tiene al menos cuatro valores distintos en español: reflexivo, recíproco, pasiva refleja y accidental."
+  ]
+}

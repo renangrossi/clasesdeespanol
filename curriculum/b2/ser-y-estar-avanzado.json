@@ -1,0 +1,140 @@
+{
+  "id": "b2-ser-y-estar-avanzado",
+  "level": "B2",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "verbos",
+  "title": "Ser y Estar — Usos Avanzados",
+  "subtitle": "Estar + adjetivo con valor de \"parecer/resultar\", ser para eventos, y otros matices más allá de lo básico.",
+  "objectives": [
+    "Usar estar con adjetivos para expresar una impresión subjetiva en el momento",
+    "Usar ser para localizar eventos y estar para localizar lugares y objetos",
+    "Explicar el cambio de significado de más adjetivos según se usen con ser o estar"
+  ],
+  "content": {
+    "intro": "Más allá de la distinción básica entre identidad/característica (ser) y ubicación/estado (estar), estos dos verbos tienen usos más sutiles que un hablante de nivel avanzado debe dominar.",
+    "explanation": "<p>Un uso muy frecuente de <strong>estar + adjetivo</strong> no describe un cambio real, sino una <strong>impresión subjetiva</strong> del hablante en el momento en que habla: <em>¡Qué guapa estás hoy!</em> no implica que normalmente no lo sea, sino que hoy causa esa impresión especial. Con <strong>eventos</strong> (una fiesta, una reunión, un examen), se usa <strong>ser</strong> para preguntar dónde tienen lugar, aunque para objetos y personas se use estar: <em>La boda es en la playa</em> frente a <em>La playa está cerca del pueblo.</em></p><p>Otros pares de adjetivos cambian de significado de forma más sutil que bueno/listo: <em>ser rico</em> (tener mucho dinero) frente a <em>estar rico</em> (saber delicioso, hablando de comida); <em>ser vivo</em> (astuto) frente a <em>estar vivo</em> (con vida, no muerto).</p>",
+    "rules": [
+      {
+        "heading": "a) Estar + adjetivo: impresión subjetiva",
+        "body": "<p><em>¡Qué joven estás en esta foto!</em> (impresión, no cambio real de edad) <em>La sopa está buenísima hoy.</em> (impresión sobre esta sopa en concreto)</p>"
+      },
+      {
+        "heading": "b) Ser para eventos, estar para lugares/objetos/personas",
+        "body": "<p><em>¿Dónde es la fiesta?</em> (evento) frente a <em>¿Dónde está la casa?</em> (lugar físico)</p>"
+      },
+      {
+        "heading": "c) Más pares de adjetivos con significado distinto",
+        "body": "<ul><li><em>ser rico</em> (dinero) / <em>estar rico</em> (sabor)</li><li><em>ser vivo</em> (astuto) / <em>estar vivo</em> (con vida)</li><li><em>ser malo</em> (mala persona/de mala calidad) / <em>estar malo</em> (enfermo, o en mal estado un alimento)</li><li><em>ser negro</em> (color) / <em>estar negro</em> (bronceado, o furioso, según el contexto)</li></ul>"
+      }
+    ],
+    "examples": [
+      "¡Qué elegante estás con ese traje nuevo!",
+      "La conferencia es en el auditorio principal de la universidad.",
+      "El hospital está a dos calles de aquí.",
+      "Este plato está buenísimo, ¿qué le pusiste?",
+      "Mi abuelo es muy vivo para su edad, nada se le escapa.",
+      "El perro sigue vivo a pesar de todo lo que pasó.",
+      "Estoy negro de tanto tomar el sol en la playa.",
+      "La reunión es a las diez en la sala de conferencias."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "¿Dónde está la fiesta de cumpleaños?",
+        "right": "¿Dónde es la fiesta de cumpleaños?",
+        "why": "Para localizar un evento (no un objeto o lugar físico en sí), se usa ser, no estar."
+      },
+      {
+        "wrong": "Esta comida es muy rica hoy, mejor que ayer.",
+        "right": "Esta comida está muy rica hoy, mejor que ayer.",
+        "why": "El sabor de una comida en un momento concreto se describe con estar, no con ser (que indicaría riqueza económica)."
+      },
+      {
+        "wrong": "Mi tío está muy vivo, siempre encuentra una solución.",
+        "right": "Mi tío es muy vivo, siempre encuentra una solución.",
+        "why": "Ser vivo describe astucia como característica; estar vivo se refiere solo a estar con vida."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2se-mc",
+      "type": "multiple-choice",
+      "title": "Elige Ser o Estar",
+      "items": [
+        {
+          "id": "b2se1",
+          "prompt": "¿Dónde ___ el concierto de esta noche?",
+          "options": [
+            "es",
+            "está"
+          ],
+          "answerIndex": 0,
+          "explanation": "Localizar un evento siempre usa ser."
+        },
+        {
+          "id": "b2se2",
+          "prompt": "Este postre ___ delicioso, ¿lo hiciste tú?",
+          "options": [
+            "es",
+            "está"
+          ],
+          "answerIndex": 1,
+          "explanation": "El sabor percibido en el momento se expresa con estar."
+        },
+        {
+          "id": "b2se3",
+          "prompt": "Mi jefa ___ muy viva, siempre anticipa los problemas.",
+          "options": [
+            "es",
+            "está"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ser vivo describe astucia como característica de la persona."
+        }
+      ]
+    },
+    {
+      "id": "b2se-fill",
+      "type": "fill-blank",
+      "title": "Completa con Ser o Estar",
+      "items": [
+        {
+          "id": "b2se4",
+          "prompt": "¡Qué guapo ___ (tú) con ese corte de pelo!",
+          "answers": [
+            [
+              "estás"
+            ]
+          ],
+          "options": [
+            "estás",
+            "eres"
+          ],
+          "explanation": "Impresión subjetiva del hablante en el momento: estar."
+        }
+      ]
+    },
+    {
+      "id": "b2se-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2se5",
+          "incorrect": "La reunión está en la sala tres esta tarde.",
+          "answer": [
+            "La reunión es en la sala tres esta tarde."
+          ],
+          "explanation": "Localizar un evento como una reunión siempre usa ser, no estar."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Estar + adjetivo puede expresar una impresión subjetiva del hablante en el momento, sin implicar un cambio real.",
+    "Ser localiza eventos (dónde es la fiesta); estar localiza lugares, objetos y personas (dónde está la casa).",
+    "Varios pares de adjetivos (rico, vivo, malo, negro) cambian de significado según se combinen con ser o con estar."
+  ]
+}

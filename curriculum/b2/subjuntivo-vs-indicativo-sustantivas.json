@@ -1,0 +1,141 @@
+{
+  "id": "b2-subjuntivo-vs-indicativo-sustantivas",
+  "level": "B2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "Subjuntivo vs. Indicativo en Oraciones Sustantivas",
+  "subtitle": "Cómo saber, sin dudar, si el verbo de la subordinada va en indicativo o en subjuntivo.",
+  "objectives": [
+    "Clasificar expresiones impersonales según exijan indicativo o subjuntivo",
+    "Reconocer los verbos de información/comunicación que alternan según su significado",
+    "Aplicar la prueba de la certeza para decidir entre indicativo y subjuntivo"
+  ],
+  "content": {
+    "intro": "Ya conoces los grandes grupos (deseo, duda, emoción) que activan el subjuntivo; en B2 toca afinar los casos más sutiles y las expresiones impersonales, que son extremadamente frecuentes en español.",
+    "explanation": "<p>La prueba más fiable es preguntarse: <strong>¿el hablante presenta esto como un hecho cierto y real, o como algo deseado, dudoso, valorado o no confirmado?</strong> Si es un hecho cierto, va indicativo; si no, va subjuntivo. Las expresiones impersonales de certeza (<em>es verdad que, es evidente que, está claro que</em>) piden indicativo; las de valoración u opinión no factual (<em>es importante que, es una lástima que, es posible que</em>) piden subjuntivo.</p><p>Verbos como <strong>decir, contar, comentar</strong> alternan según su significado: cuando informan de un hecho, van con indicativo (<em>Me dijo que llegaba tarde</em>); cuando dan una orden o instrucción, van con subjuntivo (<em>Me dijo que llegara temprano</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Expresiones impersonales de certeza &rarr; indicativo",
+        "body": "<p><em>es verdad que, es evidente que, está claro que, es seguro que</em> + indicativo: <em>Es evidente que ella tiene razón.</em></p>"
+      },
+      {
+        "heading": "b) Expresiones impersonales de valoración/duda &rarr; subjuntivo",
+        "body": "<p><em>es importante que, es una lástima que, es posible que, es raro que, más vale que</em> + subjuntivo: <em>Es una lástima que no puedas venir.</em></p>"
+      },
+      {
+        "heading": "c) Decir/comentar: informar vs. mandar",
+        "body": "<p>Informar (indicativo): <em>Me dijo que estaba cansada.</em> Mandar/pedir (subjuntivo): <em>Me dijo que descansara un poco.</em></p>"
+      },
+      {
+        "heading": "d) Negar la certeza convierte el indicativo en subjuntivo",
+        "body": "<p><em>Es verdad que viene</em> (indicativo) &rarr; <em>No es verdad que venga</em> (subjuntivo, porque la negación elimina la certeza).</p>"
+      }
+    ],
+    "examples": [
+      "Es evidente que este plan no va a funcionar así.",
+      "Es una lástima que no hayas podido venir a la boda.",
+      "Está claro que ella sabe más de lo que dice.",
+      "Es posible que lleguemos un poco tarde a la cena.",
+      "Me comentó que el proyecto salía bien, aunque con retraso.",
+      "El jefe pidió que termináramos el informe antes del viernes.",
+      "No es cierto que él haya dicho eso.",
+      "Más vale que llames antes de presentarte sin avisar."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Es evidente que ella tenga razón.",
+        "right": "Es evidente que ella tiene razón.",
+        "why": "Es evidente que presenta un hecho como cierto y exige indicativo, no subjuntivo."
+      },
+      {
+        "wrong": "Es importante que tú vienes a la reunión.",
+        "right": "Es importante que tú vengas a la reunión.",
+        "why": "Es importante que valora, no afirma un hecho como certeza objetiva: exige subjuntivo."
+      },
+      {
+        "wrong": "Me dijo que viniera a las ocho (informando de un hecho, no una orden).",
+        "right": "Me dijo que venía a las ocho.",
+        "why": "Si decir solo informa de un hecho (a qué hora venía), corresponde el indicativo; el subjuntivo se reserva para cuando decir da una orden o petición."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2sv-fill",
+      "type": "fill-blank",
+      "title": "Completa con Indicativo o Subjuntivo",
+      "items": [
+        {
+          "id": "b2sv1",
+          "prompt": "Es verdad que ella ___ (tener) mucha experiencia.",
+          "answers": [
+            [
+              "tiene"
+            ]
+          ],
+          "options": [
+            "tiene",
+            "tenga",
+            "tendría"
+          ],
+          "explanation": "Es verdad que presenta un hecho cierto: indicativo."
+        },
+        {
+          "id": "b2sv2",
+          "prompt": "Es una lástima que no ___ (poder, tú) quedarte más tiempo.",
+          "answers": [
+            [
+              "puedas"
+            ]
+          ],
+          "options": [
+            "puedas",
+            "puedes",
+            "podrás"
+          ],
+          "explanation": "Es una lástima que valora emocionalmente el hecho: subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b2sv-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "b2sv3",
+          "prompt": "\"No es cierto que él ___ toda la verdad.\"",
+          "options": [
+            "dice",
+            "diga",
+            "dirá"
+          ],
+          "answerIndex": 1,
+          "explanation": "La negación de no es cierto que elimina la certeza y exige subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b2sv-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2sv4",
+          "incorrect": "Está claro que ella tenga toda la razón en esto.",
+          "answer": [
+            "Está claro que ella tiene toda la razón en esto."
+          ],
+          "explanation": "Está claro que presenta un hecho como cierto: exige indicativo, no subjuntivo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Las expresiones impersonales de certeza (es verdad que, es evidente que) piden indicativo; las de valoración o duda (es importante que, es posible que) piden subjuntivo.",
+    "Decir y verbos similares alternan: informan con indicativo, mandan u ordenan con subjuntivo.",
+    "Negar una expresión de certeza elimina esa certeza y convierte el verbo de indicativo a subjuntivo."
+  ]
+}

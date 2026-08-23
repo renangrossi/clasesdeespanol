@@ -1,0 +1,139 @@
+{
+  "id": "b2-registro-formal-e-informal",
+  "level": "B2",
+  "unit": "1",
+  "order": 11,
+  "skill": "functional",
+  "strand": "registro",
+  "title": "Registro Formal e Informal",
+  "subtitle": "Cómo adaptar tu español según la situación: un correo de trabajo no suena igual que un mensaje a un amigo.",
+  "objectives": [
+    "Reconocer marcas léxicas y gramaticales del registro formal frente al informal",
+    "Escribir un correo formal con las fórmulas de apertura y cierre adecuadas",
+    "Adaptar el vocabulario y las estructuras según el contexto y el interlocutor"
+  ],
+  "content": {
+    "intro": "El mismo mensaje puede expresarse de maneras muy distintas según a quién te dirijas — un hablante avanzado no solo domina la gramática, sino que sabe elegir el registro adecuado para cada situación.",
+    "explanation": "<p>El registro <strong>formal</strong> usa <strong>usted/ustedes</strong>, evita contracciones informales y muletillas, prefiere un vocabulario más preciso y estructuras más completas, y sigue fórmulas fijas de cortesía en cartas y correos. El registro <strong>informal</strong> usa <strong>tú/vos</strong>, permite frases más cortas, muletillas (<em>pues, o sea, bueno</em>), y un vocabulario más coloquial, incluso con jerga regional.</p><p>En un correo formal, las fórmulas de apertura (<em>Estimado/a señor/a..., Le escribo para...</em>) y cierre (<em>Quedo a la espera de su respuesta. Atentamente,</em>) tienen un peso importante; en un mensaje informal a un amigo, esas mismas fórmulas sonarían distantes y hasta extrañas.</p>",
+    "rules": [
+      {
+        "heading": "a) Marcas del registro formal",
+        "body": "<ul><li>Usted/ustedes en vez de tú/vos</li><li>Vocabulario preciso: <em>solicitar</em> en vez de <em>pedir</em>, <em>informar</em> en vez de <em>contar</em></li><li>Estructuras completas, sin abreviar: <em>no obstante</em> en vez de <em>pero bueno</em></li></ul>"
+      },
+      {
+        "heading": "b) Marcas del registro informal",
+        "body": "<ul><li>Tú/vos, diminutivos afectivos (<em>un ratito, ahorita</em>)</li><li>Muletillas: <em>pues, o sea, bueno, la verdad es que</em></li><li>Vocabulario coloquial y expresiones regionales</li></ul>"
+      },
+      {
+        "heading": "c) Fórmulas fijas de un correo formal",
+        "body": "<p>Apertura: <em>Estimado/a Sr./Sra. [apellido]: / A quien corresponda:</em> Cierre: <em>Quedo a la espera de su respuesta. Atentamente, / Un cordial saludo,</em></p>"
+      },
+      {
+        "heading": "d) Fórmulas de un mensaje informal",
+        "body": "<p>Apertura: <em>¡Hola! / ¿Qué tal?</em> Cierre: <em>Un abrazo. / Nos vemos pronto. / ¡Cuídate!</em></p>"
+      }
+    ],
+    "examples": [
+      "Estimada señora Fernández: Le escribo para solicitar información sobre el curso.",
+      "¡Hola, Marcos! ¿Qué tal todo por allá? Cuéntame cómo te va con el nuevo trabajo.",
+      "Quedo a la espera de su respuesta. Atentamente, Laura Gómez.",
+      "Oye, ¿nos vemos mañana para tomar un café o qué?",
+      "Le agradecería que me confirmara la fecha de la reunión.",
+      "Bueno, la verdad es que no tengo ni idea de qué hacer todavía.",
+      "Por la presente, deseo comunicarle mi decisión de renunciar al puesto.",
+      "Nos vemos el sábado, ¡un abrazo enorme!"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Hola, quería pedirte información sobre el puesto de trabajo. (en un correo dirigido a un director de recursos humanos desconocido)",
+        "right": "Estimado/a señor/a: Le escribo para solicitar información sobre el puesto de trabajo.",
+        "why": "Un correo formal a un desconocido en un contexto profesional necesita una fórmula de apertura formal y el verbo solicitar en vez del más coloquial pedir."
+      },
+      {
+        "wrong": "Le escribo para contarle que necesito el informe antes del jueves.",
+        "right": "Le escribo para informarle de que necesito el informe antes del jueves.",
+        "why": "En un registro formal, informar de es más preciso que el más coloquial contar."
+      },
+      {
+        "wrong": "Un abrazo, Sr. Gómez. (cierre informal en un correo muy formal)",
+        "right": "Atentamente, [nombre]. / Un cordial saludo, [nombre].",
+        "why": "Un abrazo es un cierre informal; en un correo formal corresponde una fórmula como atentamente o un cordial saludo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2rf-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Registro Adecuado",
+      "items": [
+        {
+          "id": "b2rf1",
+          "prompt": "¿Cuál es la fórmula de apertura adecuada para un correo formal a un desconocido?",
+          "options": [
+            "¡Hola! ¿Qué tal?",
+            "Estimado/a señor/a:",
+            "Oye, ¿cómo estás?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Estimado/a señor/a: es la fórmula estándar para abrir un correo formal a alguien que no conoces."
+        },
+        {
+          "id": "b2rf2",
+          "prompt": "¿Cuál de estas frases pertenece a un registro informal?",
+          "options": [
+            "Le agradecería su pronta respuesta.",
+            "Bueno, la verdad es que no sé qué decirte.",
+            "Quedo a la espera de su confirmación."
+          ],
+          "answerIndex": 1,
+          "explanation": "Las muletillas como bueno y la verdad es que son típicas del registro informal."
+        }
+      ]
+    },
+    {
+      "id": "b2rf-fill",
+      "type": "fill-blank",
+      "title": "Transforma al Registro Formal",
+      "items": [
+        {
+          "id": "b2rf3",
+          "prompt": "\"Te cuento que llego un poco tarde.\" en registro formal: \"Le ___ que llegaré un poco tarde.\"",
+          "answers": [
+            [
+              "informo"
+            ],
+            [
+              "comunico"
+            ]
+          ],
+          "options": [
+            "informo",
+            "cuento"
+          ],
+          "explanation": "Informar/comunicar son más precisos y formales que el coloquial contar."
+        }
+      ]
+    },
+    {
+      "id": "b2rf-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2rf4",
+          "incorrect": "Estimado señor López: Oye, necesito el documento urgente.",
+          "answer": [
+            "Estimado señor López: Le escribo para solicitar el documento con urgencia."
+          ],
+          "explanation": "Oye es una muletilla informal que no combina con la fórmula de apertura formal; en un correo formal se mantiene el registro coherente en todo el texto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El registro formal usa usted, vocabulario preciso y estructuras completas; el informal usa tú/vos, muletillas y vocabulario coloquial.",
+    "Un correo formal sigue fórmulas fijas de apertura (estimado/a) y cierre (atentamente); un mensaje informal usa fórmulas mucho más libres.",
+    "Es importante mantener el mismo registro de forma coherente en todo un texto, sin mezclar fórmulas formales e informales."
+  ]
+}

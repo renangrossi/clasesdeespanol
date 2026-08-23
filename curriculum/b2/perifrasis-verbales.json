@@ -1,0 +1,148 @@
+{
+  "id": "b2-perifrasis-verbales",
+  "level": "B2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "perifrasis",
+  "title": "Perífrasis Verbales",
+  "subtitle": "Verbo conjugado + (preposición) + infinitivo/gerundio/participio: matices de aspecto que un solo verbo no puede dar.",
+  "objectives": [
+    "Reconocer la estructura de una perífrasis verbal (auxiliar + enlace opcional + forma no personal)",
+    "Usar perífrasis frecuentes de infinitivo, gerundio y participio con su matiz propio",
+    "Distinguir el significado de perífrasis parecidas entre sí (dejar de vs. acabar de, llevar + gerundio vs. seguir + gerundio)"
+  ],
+  "content": {
+    "intro": "Las perífrasis verbales combinan dos verbos para expresar matices de tiempo, aspecto o modalidad que un solo verbo conjugado no puede transmitir por sí solo — cuanto más las domines, más natural sonará tu español.",
+    "explanation": "<p>Una perífrasis tiene siempre un <strong>verbo auxiliar conjugado</strong> (que pierde su significado literal), a veces un <strong>enlace</strong> (una preposición o <em>que</em>), y una <strong>forma no personal</strong> del verbo principal (infinitivo, gerundio o participio) que aporta el significado real de la acción. Las de <strong>infinitivo</strong> suelen marcar el momento de la acción (empezar a, dejar de, acabar de, volver a); las de <strong>gerundio</strong> marcan que la acción está en desarrollo (estar, seguir, llevar + gerundio); las de <strong>participio</strong> marcan un resultado (tener + participio).</p>",
+    "rules": [
+      {
+        "heading": "a) Perífrasis de infinitivo",
+        "body": "<ul><li><em>empezar a + infinitivo</em>: <em>Empezó a llover de repente.</em></li><li><em>dejar de + infinitivo</em> (interrumpir un hábito): <em>Dejé de fumar hace un año.</em></li><li><em>acabar de + infinitivo</em> (pasado muy reciente): <em>Acabo de llegar a casa.</em></li><li><em>volver a + infinitivo</em> (repetir): <em>Volvió a llamar por tercera vez.</em></li><li><em>llevar + gerundio</em> (duración hasta ahora): <em>Llevo dos años estudiando español.</em></li></ul>"
+      },
+      {
+        "heading": "b) Perífrasis de gerundio",
+        "body": "<ul><li><em>estar + gerundio</em> (acción en curso): <em>Estoy escribiendo un correo.</em></li><li><em>seguir + gerundio</em> (continuar): <em>Sigue trabajando en el mismo lugar.</em></li><li><em>ir + gerundio</em> (progreso gradual): <em>Va mejorando poco a poco.</em></li></ul>"
+      },
+      {
+        "heading": "c) Perífrasis de participio",
+        "body": "<p><em>tener + participio</em> (resultado acumulado, concuerda con el objeto): <em>Tengo escritas ya diez páginas.</em></p>"
+      }
+    ],
+    "examples": [
+      "Acabo de terminar el informe hace cinco minutos.",
+      "Llevo tres horas esperando el autobús.",
+      "Dejó de trabajar allí el año pasado.",
+      "Volví a leer el mismo libro después de tantos años.",
+      "Sigo pensando que fue la mejor decisión posible.",
+      "Va aprendiendo cada vez más rápido con la práctica.",
+      "Tengo pensadas varias opciones para las vacaciones.",
+      "Empezó a estudiar árabe el mes pasado."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Acabo llegar a casa.",
+        "right": "Acabo de llegar a casa.",
+        "why": "Acabar de + infinitivo necesita el enlace de; sin él, el verbo pierde el sentido de perífrasis de pasado reciente."
+      },
+      {
+        "wrong": "Llevo estudiando español dos años.",
+        "right": "Llevo dos años estudiando español.",
+        "why": "En llevar + tiempo + gerundio, la expresión de tiempo va normalmente entre llevar y el gerundio, no después de este."
+      },
+      {
+        "wrong": "Tengo escrito ya diez páginas.",
+        "right": "Tengo escritas ya diez páginas.",
+        "why": "En tener + participio, el participio concuerda en género y número con el objeto directo: páginas (femenino plural) pide escritas."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2pv-fill",
+      "type": "fill-blank",
+      "title": "Completa con la Perífrasis Correcta",
+      "items": [
+        {
+          "id": "b2pv1",
+          "prompt": "___ (Yo - acabar) de hablar con mi hermana por teléfono.",
+          "answers": [
+            [
+              "Acabo"
+            ]
+          ],
+          "options": [
+            "Acabo",
+            "Dejo",
+            "Sigo"
+          ],
+          "explanation": "Acabar de + infinitivo expresa un pasado muy reciente."
+        },
+        {
+          "id": "b2pv2",
+          "prompt": "Ella ___ (llevar) cinco años viviendo en Madrid.",
+          "answers": [
+            [
+              "lleva"
+            ]
+          ],
+          "options": [
+            "lleva",
+            "sigue",
+            "va"
+          ],
+          "explanation": "Llevar + tiempo + gerundio expresa una duración que continúa hasta ahora."
+        }
+      ]
+    },
+    {
+      "id": "b2pv-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Perífrasis Correcta",
+      "items": [
+        {
+          "id": "b2pv3",
+          "prompt": "¿Cuál expresa que una acción se interrumpió y ya no continúa?",
+          "options": [
+            "seguir + gerundio",
+            "dejar de + infinitivo",
+            "volver a + infinitivo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dejar de + infinitivo expresa la interrupción de un hábito o acción."
+        },
+        {
+          "id": "b2pv4",
+          "prompt": "¿Cuál expresa que una acción se repite después de un tiempo?",
+          "options": [
+            "volver a + infinitivo",
+            "acabar de + infinitivo",
+            "estar + gerundio"
+          ],
+          "answerIndex": 0,
+          "explanation": "Volver a + infinitivo expresa la repetición de una acción."
+        }
+      ]
+    },
+    {
+      "id": "b2pv-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2pv5",
+          "incorrect": "Dejé fumar hace dos años.",
+          "answer": [
+            "Dejé de fumar hace dos años."
+          ],
+          "explanation": "Dejar de + infinitivo necesita siempre el enlace de."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Una perífrasis verbal combina un auxiliar conjugado, a veces un enlace, y una forma no personal que aporta el significado real.",
+    "Las de infinitivo marcan el momento de la acción (empezar a, dejar de, acabar de, volver a); las de gerundio, que está en desarrollo; las de participio, un resultado.",
+    "En tener + participio, el participio concuerda en género y número con el objeto, a diferencia del participio invariable de haber + participio."
+  ]
+}

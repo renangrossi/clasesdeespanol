@@ -1,0 +1,146 @@
+{
+  "id": "b2-condicionales-con-si-subjuntivo",
+  "level": "B2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "condicionales",
+  "title": "Condicionales con Si + Subjuntivo",
+  "subtitle": "Tres tipos de condicional: real, potencial e irreal de pasado.",
+  "objectives": [
+    "Distinguir la condicional real (si + presente) de la potencial (si + imperfecto de subjuntivo)",
+    "Formar la condicional irreal de pasado con si + pluscuamperfecto de subjuntivo",
+    "Elegir el tipo de condicional adecuado según la probabilidad real de la condición"
+  ],
+  "content": {
+    "intro": "El español organiza las condicionales según cuán probable o real consideres la condición — no es una simple traducción palabra por palabra desde otros idiomas, sino un sistema con su propia lógica interna.",
+    "explanation": "<p>La <strong>condicional real</strong> (si + presente de indicativo, + presente/futuro/imperativo) describe una condición posible y probable: <em>Si llueve, nos quedamos en casa.</em> La <strong>condicional potencial</strong> (si + imperfecto de subjuntivo, + condicional simple) describe una condición poco probable, contraria a la realidad actual, o puramente hipotética: <em>Si tuviera más dinero, viajaría más.</em></p><p>La <strong>condicional irreal de pasado</strong> (si + pluscuamperfecto de subjuntivo, + condicional compuesto) describe una condición que no se cumplió en el pasado y ya no tiene remedio: <em>Si hubiera estudiado más, habría aprobado el examen</em> (pero no estudió, y ya suspendió). Nunca se usa el condicional simple ni el presente de subjuntivo dentro de la parte introducida por si.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Los tres tipos de condicional con si</caption><thead><tr><th>Tipo</th><th>Prótasis (si...)</th><th>Apódosis (consecuencia)</th></tr></thead><tbody><tr><td>Real</td><td>si + presente de indicativo</td><td>presente / futuro / imperativo</td></tr><tr><td>Potencial</td><td>si + imperfecto de subjuntivo</td><td>condicional simple</td></tr><tr><td>Irreal de pasado</td><td>si + pluscuamperfecto de subjuntivo</td><td>condicional compuesto</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Real: condición probable",
+        "body": "<p><em>Si tengo tiempo, te llamo esta tarde.</em> / <em>Si tienes hambre, come algo.</em></p>"
+      },
+      {
+        "heading": "b) Potencial: condición poco probable o hipotética",
+        "body": "<p><em>Si fuera rico, no trabajaría nunca más.</em> / <em>Si vivieras aquí, nos veríamos más a menudo.</em></p>"
+      },
+      {
+        "heading": "c) Irreal de pasado: condición que no se cumplió",
+        "body": "<p><em>Si hubieras llegado antes, habrías visto a tu hermano.</em> (pero llegaste tarde, y ya no lo viste)</p>"
+      },
+      {
+        "heading": "d) Nunca condicional ni presente de subjuntivo tras si",
+        "body": "<p><em>Si tendría dinero</em> es incorrecto; la forma correcta siempre es <em>si tuviera dinero.</em></p>"
+      }
+    ],
+    "examples": [
+      "Si apruebo el examen, celebraremos con una cena.",
+      "Si fuera tú, no aceptaría esa oferta de trabajo.",
+      "Si hubiéramos salido antes, no habríamos perdido el vuelo.",
+      "Si tienes tiempo esta tarde, pásate por casa.",
+      "Si tuviera un jardín más grande, plantaría más árboles.",
+      "Si hubiera sabido la verdad, habría actuado diferente.",
+      "Si necesitas ayuda, avísame sin problema.",
+      "Si no hubieras llamado, me habría preocupado mucho."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Si tendría más tiempo, viajaría más.",
+        "right": "Si tuviera más tiempo, viajaría más.",
+        "why": "Nunca se usa el condicional simple dentro de la parte introducida por si; se necesita el imperfecto de subjuntivo."
+      },
+      {
+        "wrong": "Si hubiera estudiado más, aprobaría el examen.",
+        "right": "Si hubiera estudiado más, habría aprobado el examen.",
+        "why": "La condicional irreal de pasado necesita el condicional compuesto en la consecuencia, no el condicional simple."
+      },
+      {
+        "wrong": "Si llueve mañana, nos quedaríamos en casa.",
+        "right": "Si llueve mañana, nos quedamos en casa.",
+        "why": "La condicional real usa presente en ambas partes (o futuro), no condicional, que corresponde a la potencial."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2ci-fill",
+      "type": "fill-blank",
+      "title": "Completa la Condicional",
+      "items": [
+        {
+          "id": "b2ci1",
+          "prompt": "Si ___ (yo - tener) más vacaciones, ___ (viajar) por toda Sudamérica.",
+          "answers": [
+            [
+              "tuviera"
+            ],
+            [
+              "viajaría"
+            ]
+          ],
+          "options": [
+            "tuviera",
+            "viajaría"
+          ],
+          "explanation": "Condicional potencial: si + imperfecto de subjuntivo + condicional simple."
+        },
+        {
+          "id": "b2ci2",
+          "prompt": "Si ___ (nosotros - saber) la verdad antes, ___ (actuar) de otra manera.",
+          "answers": [
+            [
+              "hubiéramos sabido"
+            ],
+            [
+              "habríamos actuado"
+            ]
+          ],
+          "options": [
+            "hubiéramos sabido",
+            "habríamos actuado"
+          ],
+          "explanation": "Condicional irreal de pasado: si + pluscuamperfecto de subjuntivo + condicional compuesto."
+        }
+      ]
+    },
+    {
+      "id": "b2ci-mc",
+      "type": "multiple-choice",
+      "title": "Identifica el Tipo de Condicional",
+      "items": [
+        {
+          "id": "b2ci3",
+          "prompt": "\"Si estudias todos los días, aprenderás mucho más rápido.\" es una condicional...",
+          "options": [
+            "real",
+            "potencial",
+            "irreal de pasado"
+          ],
+          "answerIndex": 0,
+          "explanation": "Presente + futuro describe una condición real y probable."
+        }
+      ]
+    },
+    {
+      "id": "b2ci-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2ci4",
+          "incorrect": "Si fueras más paciente, habrías conseguido el trabajo.",
+          "answer": [
+            "Si hubieras sido más paciente, habrías conseguido el trabajo."
+          ],
+          "explanation": "La apódosis está en condicional compuesto, así que la prótasis debe ir en pluscuamperfecto de subjuntivo, no en imperfecto de subjuntivo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La condicional real usa si + presente, con presente/futuro/imperativo en la consecuencia, para condiciones probables.",
+    "La condicional potencial usa si + imperfecto de subjuntivo + condicional simple, para condiciones poco probables o hipotéticas.",
+    "La condicional irreal de pasado usa si + pluscuamperfecto de subjuntivo + condicional compuesto, para condiciones que ya no se cumplieron."
+  ]
+}

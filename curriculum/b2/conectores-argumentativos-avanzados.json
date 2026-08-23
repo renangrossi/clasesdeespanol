@@ -1,0 +1,142 @@
+{
+  "id": "b2-conectores-argumentativos-avanzados",
+  "level": "B2",
+  "unit": "1",
+  "order": 9,
+  "skill": "functional",
+  "strand": "conectores",
+  "title": "Conectores Argumentativos Avanzados",
+  "subtitle": "Ahora bien, de hecho, en cambio, dicho de otro modo: para argumentar con precisión y matiz.",
+  "objectives": [
+    "Usar conectores de matización y reformulación en un argumento",
+    "Distinguir en cambio (contraste) de por el contrario (contraste más fuerte)",
+    "Construir un párrafo argumentativo breve con varios conectores encadenados"
+  ],
+  "content": {
+    "intro": "Argumentar con matices — reconocer una objeción, reformular una idea, precisar un punto — requiere un repertorio de conectores más amplio del que usabas en B1, propio de un discurso más elaborado.",
+    "explanation": "<p><strong>Ahora bien</strong> introduce una matización o una objeción parcial a lo dicho antes, sin negarlo del todo: <em>El plan es bueno; ahora bien, necesita más presupuesto.</em> <strong>De hecho</strong> refuerza una idea con un dato o ejemplo concreto. <strong>En cambio</strong> contrasta dos elementos de forma neutra, mientras que <strong>por el contrario</strong> marca una oposición mucho más fuerte y directa.</p><p>Los conectores de reformulación (<strong>es decir, dicho de otro modo, en otras palabras</strong>) permiten explicar la misma idea con palabras distintas, muy útiles para aclarar un punto complejo sin repetir literalmente lo ya dicho.</p>",
+    "rules": [
+      {
+        "heading": "a) Matización/objeción parcial",
+        "body": "<p><em>ahora bien, si bien es cierto que...</em>: <em>El proyecto avanza bien; ahora bien, todavía faltan varios detalles por resolver.</em></p>"
+      },
+      {
+        "heading": "b) Refuerzo con un dato",
+        "body": "<p><em>de hecho, en efecto</em>: <em>El curso es exigente; de hecho, muchos estudiantes lo abandonan a mitad de camino.</em></p>"
+      },
+      {
+        "heading": "c) Contraste neutro vs. contraste fuerte",
+        "body": "<p><em>en cambio</em> (neutro): <em>A mí me gusta el café; a ella, en cambio, le gusta más el té.</em> <em>por el contrario</em> (fuerte): <em>No solo no mejoró la situación; por el contrario, empeoró notablemente.</em></p>"
+      },
+      {
+        "heading": "d) Reformulación",
+        "body": "<p><em>es decir, dicho de otro modo, en otras palabras</em>: <em>El proyecto se pospone; es decir, no se cancela, solo se retrasa.</em></p>"
+      }
+    ],
+    "examples": [
+      "La propuesta tiene mucho potencial; ahora bien, requiere más tiempo de análisis.",
+      "El curso es intensivo; de hecho, cubre en tres meses lo de un año normal.",
+      "A mí me encanta viajar solo; a mi hermano, en cambio, le gusta viajar en grupo.",
+      "No mejoró con el nuevo horario; por el contrario, empeoró bastante.",
+      "El proyecto se aplaza; es decir, seguirá adelante, pero más tarde de lo previsto.",
+      "Dicho de otro modo, no se trata de un problema técnico, sino de organización.",
+      "Si bien es cierto que el precio es alto, la calidad también lo justifica.",
+      "En efecto, los datos confirman exactamente lo que habíamos anticipado."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "El plan es bueno; por el contrario, necesita ajustes menores.",
+        "right": "El plan es bueno; ahora bien, necesita ajustes menores.",
+        "why": "Por el contrario marca una oposición fuerte; aquí solo hay una matización parcial, que corresponde a ahora bien."
+      },
+      {
+        "wrong": "A ella le gusta el té; por el contrario, a mí también me gusta el té.",
+        "right": "A ella le gusta el té; a mí, en cambio, me gusta más el café.",
+        "why": "Por el contrario y en cambio requieren una verdadera oposición entre las dos ideas, no una coincidencia."
+      },
+      {
+        "wrong": "El proyecto se retrasa, de hecho se cancela.",
+        "right": "El proyecto se retrasa; es decir, no se cancela, solo se pospone.",
+        "why": "De hecho refuerza con un dato en la misma dirección; para reformular o precisar el sentido, corresponde es decir."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2ca-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Conector Correcto",
+      "items": [
+        {
+          "id": "b2ca1",
+          "prompt": "\"El equipo trabajó muy bien; ___, terminaron el proyecto antes de lo previsto.\" (refuerzo con dato)",
+          "options": [
+            "de hecho",
+            "en cambio",
+            "ahora bien"
+          ],
+          "answerIndex": 0,
+          "explanation": "De hecho refuerza la idea anterior con un dato concreto."
+        },
+        {
+          "id": "b2ca2",
+          "prompt": "\"No solo no ayudó; ___, complicó todavía más la situación.\" (oposición fuerte)",
+          "options": [
+            "en cambio",
+            "por el contrario",
+            "es decir"
+          ],
+          "answerIndex": 1,
+          "explanation": "Por el contrario marca una oposición fuerte y directa."
+        }
+      ]
+    },
+    {
+      "id": "b2ca-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Conector de Reformulación",
+      "items": [
+        {
+          "id": "b2ca3",
+          "prompt": "El curso no se cancela; ___, se traslada a otra fecha.",
+          "answers": [
+            [
+              "es decir"
+            ],
+            [
+              "dicho de otro modo"
+            ],
+            [
+              "en otras palabras"
+            ]
+          ],
+          "options": [
+            "es decir",
+            "por el contrario"
+          ],
+          "explanation": "Es decir reformula o precisa una idea ya expresada."
+        }
+      ]
+    },
+    {
+      "id": "b2ca-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2ca4",
+          "incorrect": "El plan es sólido; sin embargo, es exactamente lo que necesitábamos.",
+          "answer": [
+            "El plan es sólido; de hecho, es exactamente lo que necesitábamos."
+          ],
+          "explanation": "Sin embargo introduce un contraste; aquí la segunda idea refuerza la primera, así que corresponde de hecho."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Ahora bien introduce una matización u objeción parcial; de hecho refuerza una idea con un dato concreto.",
+    "En cambio marca un contraste neutro; por el contrario marca una oposición mucho más fuerte y directa.",
+    "Es decir, dicho de otro modo y en otras palabras reformulan una idea ya expresada para aclararla, sin negarla."
+  ]
+}

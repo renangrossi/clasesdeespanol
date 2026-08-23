@@ -1,0 +1,144 @@
+{
+  "id": "b2-imperfecto-de-subjuntivo",
+  "level": "B2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "El Imperfecto de Subjuntivo",
+  "subtitle": "Cantara/cantase: el subjuntivo para el pasado, y para hipótesis en el presente.",
+  "objectives": [
+    "Formar el imperfecto de subjuntivo a partir de la tercera persona plural del pretérito indefinido",
+    "Reconocer las dos formas alternativas (-ra y -se) y su uso regional",
+    "Usar el imperfecto de subjuntivo en subordinadas cuando el verbo principal está en pasado"
+  ],
+  "content": {
+    "intro": "El subjuntivo no se queda solo en el presente: cuando el verbo principal de la frase está en un tiempo pasado, la subordinada necesita su propio subjuntivo de pasado.",
+    "explanation": "<p>La formación es muy regular una vez que conoces el truco: se toma la <strong>tercera persona plural del pretérito indefinido</strong> (ellos hablaron, ellos tuvieron, ellos fueron), se le quita <strong>-ron</strong>, y se añaden las terminaciones <strong>-ra, -ras, -ra, -ramos (con tilde), -rais, -ran</strong>. Como se parte del indefinido, cualquier irregularidad de ese tiempo (tuvieron, fueron, dijeron) se hereda automáticamente.</p><p>Existe una forma alternativa igual de correcta con <strong>-se</strong> (hablase, tuviese, fuese), más frecuente en España y en registros escritos o literarios, mientras que la forma en <strong>-ra</strong> es la más usada en el habla cotidiana de todo el mundo hispanohablante. Se usa siempre que el verbo principal esté en un tiempo pasado y la situación exija subjuntivo (deseo, duda, emoción) — la misma lógica del presente de subjuntivo, pero trasladada al pasado.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Imperfecto de subjuntivo — hablar, tener, ser</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>tener</th><th>ser</th></tr></thead><tbody><tr><td>yo</td><td>hablara / hablase</td><td>tuviera / tuviese</td><td>fuera / fuese</td></tr><tr><td>tú</td><td>hablaras</td><td>tuvieras</td><td>fueras</td></tr><tr><td>él/ella/usted</td><td>hablara</td><td>tuviera</td><td>fuera</td></tr><tr><td>nosotros/as</td><td>habláramos</td><td>tuviéramos</td><td>fuéramos</td></tr><tr><td>vosotros/as</td><td>hablarais</td><td>tuvierais</td><td>fuerais</td></tr><tr><td>ellos/as/ustedes</td><td>hablaran</td><td>tuvieran</td><td>fueran</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Formación a partir del indefinido",
+        "body": "<p>ellos hablaron &rarr; hablara-; ellos tuvieron &rarr; tuviera-; ellos fueron &rarr; fuera-; se añaden las terminaciones -a, -as, -a, -amos (con tilde), -ais, -an.</p>"
+      },
+      {
+        "heading": "b) Concordancia de tiempos (pasado &rarr; imperfecto de subjuntivo)",
+        "body": "<p><em>Quería que vinieras conmigo.</em> (quería: imperfecto de indicativo &rarr; vinieras: imperfecto de subjuntivo) <em>Dudaba que fuera verdad.</em></p>"
+      },
+      {
+        "heading": "c) -ra vs. -se",
+        "body": "<p>Ambas formas son intercambiables en la mayoría de los contextos; -ra es más frecuente en el habla de todo el mundo hispanohablante, -se aparece más en España y en la escritura formal.</p>"
+      }
+    ],
+    "examples": [
+      "Le pedí que me ayudara con la mudanza.",
+      "No creía que fuera tan tarde ya.",
+      "Esperábamos que hicierais buen viaje.",
+      "Me sorprendió que ella no supiera la noticia.",
+      "Ojalá tuviéramos más tiempo para terminar esto.",
+      "Mis padres querían que estudiase medicina.",
+      "Dudábamos que llegasen a tiempo al aeropuerto.",
+      "Nos alegramos de que vinieras a visitarnos."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Quería que tú vengas conmigo.",
+        "right": "Quería que tú vinieras conmigo.",
+        "why": "Si el verbo principal está en pasado (quería), la subordinada necesita el imperfecto de subjuntivo, no el presente."
+      },
+      {
+        "wrong": "Esperaba que ellos tenieran suerte.",
+        "right": "Esperaba que ellos tuvieran suerte.",
+        "why": "El imperfecto de subjuntivo hereda la raíz irregular del indefinido (tuvieron), no la raíz regular del infinitivo."
+      },
+      {
+        "wrong": "Nosotros hablaramos con calma.",
+        "right": "Nosotros habláramos con calma.",
+        "why": "La forma de nosotros siempre lleva tilde en la vocal antes de -mos: habláramos, tuviéramos, fuéramos."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2is-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Imperfecto de Subjuntivo",
+      "items": [
+        {
+          "id": "b2is1",
+          "prompt": "Quería que tú ___ (venir) a la fiesta.",
+          "answers": [
+            [
+              "vinieras"
+            ],
+            [
+              "vinieses"
+            ]
+          ],
+          "options": [
+            "vinieras",
+            "vienes",
+            "vendrías"
+          ],
+          "explanation": "Verbo principal en pasado (quería) + subordinada de deseo: imperfecto de subjuntivo."
+        },
+        {
+          "id": "b2is2",
+          "prompt": "No creía que ellos ___ (tener) razón.",
+          "answers": [
+            [
+              "tuvieran"
+            ],
+            [
+              "tuviesen"
+            ]
+          ],
+          "options": [
+            "tuvieran",
+            "tienen",
+            "tendrían"
+          ],
+          "explanation": "No creer en pasado exige imperfecto de subjuntivo en la subordinada."
+        }
+      ]
+    },
+    {
+      "id": "b2is-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "b2is3",
+          "prompt": "El imperfecto de subjuntivo de \"decir\" para \"yo\" es...",
+          "options": [
+            "dijera",
+            "decira",
+            "diciera"
+          ],
+          "answerIndex": 0,
+          "explanation": "Se parte de ellos dijeron, se quita -ron y se añade -a: dijera."
+        }
+      ]
+    },
+    {
+      "id": "b2is-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2is4",
+          "incorrect": "Esperaba que hiciera buen tiempo... esperaba que hace buen tiempo.",
+          "answer": [
+            "Esperaba que hiciera buen tiempo."
+          ],
+          "explanation": "Con el verbo principal en pasado, la subordinada de deseo necesita el imperfecto de subjuntivo, no el presente de indicativo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El imperfecto de subjuntivo se forma a partir de la tercera persona plural del indefinido, quitando -ron y añadiendo -ra/-se + terminaciones.",
+    "Se usa en la subordinada cuando el verbo principal está en un tiempo pasado y la frase exige subjuntivo.",
+    "Las formas en -ra y -se son intercambiables; -ra es más frecuente en el habla, -se en España y en la escritura formal."
+  ]
+}

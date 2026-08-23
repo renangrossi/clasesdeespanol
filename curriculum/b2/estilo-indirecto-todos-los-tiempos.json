@@ -1,0 +1,146 @@
+{
+  "id": "b2-estilo-indirecto-todos-los-tiempos",
+  "level": "B2",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "estilo-indirecto",
+  "title": "Estilo Indirecto en Todos los Tiempos",
+  "subtitle": "Cómo cambian los tiempos verbales cuando el verbo introductor está en pasado.",
+  "objectives": [
+    "Aplicar la concordancia de tiempos completa al reportar desde un verbo introductor en pasado",
+    "Transformar imperativos en estilo indirecto usando el imperfecto de subjuntivo",
+    "Ajustar marcadores de tiempo y lugar al cambiar de estilo directo a indirecto"
+  ],
+  "content": {
+    "intro": "En B1 viste el estilo indirecto con el verbo introductor en presente, donde casi nada cambia de tiempo verbal; ahora toca el caso más complejo y más frecuente en la narración: cuando ese verbo introductor está en pasado.",
+    "explanation": "<p>Cuando el verbo introductor está en pasado (<em>dijo que...</em>), el tiempo verbal de la subordinada retrocede un paso según una tabla fija de correspondencias: el presente pasa a imperfecto, el pretérito perfecto/indefinido pasa a pluscuamperfecto, el futuro pasa a condicional, y el imperativo pasa a imperfecto de subjuntivo.</p><p>Además de los tiempos verbales, también cambian los marcadores de tiempo y lugar para reflejar la nueva perspectiva: <em>hoy &rarr; ese día, mañana &rarr; al día siguiente, ayer &rarr; el día anterior, aquí &rarr; allí, este &rarr; aquel.</em></p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Cambios de tiempo verbal (verbo introductor en pasado)</caption><thead><tr><th>Estilo directo</th><th>Estilo indirecto</th></tr></thead><tbody><tr><td>presente</td><td>imperfecto</td></tr><tr><td>pretérito perfecto/indefinido</td><td>pluscuamperfecto</td></tr><tr><td>futuro simple</td><td>condicional simple</td></tr><tr><td>imperativo</td><td>imperfecto de subjuntivo</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Presente &rarr; imperfecto",
+        "body": "<p>\"Estoy cansada\" &rarr; <em>Dijo que estaba cansada.</em></p>"
+      },
+      {
+        "heading": "b) Pretérito &rarr; pluscuamperfecto",
+        "body": "<p>\"Llegué tarde\" &rarr; <em>Me contó que había llegado tarde.</em></p>"
+      },
+      {
+        "heading": "c) Futuro &rarr; condicional",
+        "body": "<p>\"Vendré mañana\" &rarr; <em>Prometió que vendría al día siguiente.</em></p>"
+      },
+      {
+        "heading": "d) Imperativo &rarr; imperfecto de subjuntivo",
+        "body": "<p>\"Cierra la puerta\" &rarr; <em>Me pidió que cerrara la puerta.</em></p>"
+      },
+      {
+        "heading": "e) Marcadores de tiempo y lugar",
+        "body": "<p><em>hoy &rarr; ese día/aquel día, ayer &rarr; el día anterior, mañana &rarr; al día siguiente, aquí &rarr; allí, este &rarr; aquel.</em></p>"
+      }
+    ],
+    "examples": [
+      "Me dijo que estaba muy ocupada esa semana.",
+      "Contó que había viajado a Chile el año anterior.",
+      "Prometió que me llamaría al día siguiente.",
+      "El profesor nos pidió que entregáramos la tarea a tiempo.",
+      "Explicó que no podía venir ese día por trabajo.",
+      "Nos avisó que llegaría un poco más tarde de lo normal.",
+      "Dijo que había estado allí varias veces antes.",
+      "Me pidió que la esperara un momento en la entrada."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Me dijo que está cansada.",
+        "right": "Me dijo que estaba cansada.",
+        "why": "Con el verbo introductor en pasado (dijo), el presente de la cita original retrocede a imperfecto."
+      },
+      {
+        "wrong": "Prometió que vendrá mañana.",
+        "right": "Prometió que vendría al día siguiente.",
+        "why": "El futuro retrocede a condicional, y mañana cambia a al día siguiente para reflejar el nuevo punto de vista temporal."
+      },
+      {
+        "wrong": "Me pidió que cierre la puerta.",
+        "right": "Me pidió que cerrara la puerta.",
+        "why": "Un imperativo en estilo indirecto con verbo introductor en pasado se convierte en imperfecto de subjuntivo, no en presente de subjuntivo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2ei2-fill",
+      "type": "fill-blank",
+      "title": "Transforma a Estilo Indirecto (Pasado)",
+      "items": [
+        {
+          "id": "b2ei2a",
+          "prompt": "Ana dijo: \"Vivo en Sevilla.\" &rarr; Ana dijo que ___ en Sevilla.",
+          "answers": [
+            [
+              "vivía"
+            ]
+          ],
+          "options": [
+            "vivía",
+            "vive",
+            "viviría"
+          ],
+          "explanation": "Presente en la cita original retrocede a imperfecto con el verbo introductor en pasado."
+        },
+        {
+          "id": "b2ei2b",
+          "prompt": "Juan prometió: \"Llamaré mañana.\" &rarr; Juan prometió que ___ al día siguiente.",
+          "answers": [
+            [
+              "llamaría"
+            ]
+          ],
+          "options": [
+            "llamaría",
+            "llama",
+            "llamará"
+          ],
+          "explanation": "Futuro en la cita original retrocede a condicional."
+        }
+      ]
+    },
+    {
+      "id": "b2ei2-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Transformación Correcta",
+      "items": [
+        {
+          "id": "b2ei2c",
+          "prompt": "\"Cierra la puerta\", dijo el profesor. &rarr; en estilo indirecto...",
+          "options": [
+            "Dijo que cerrara la puerta.",
+            "Dijo que cierre la puerta.",
+            "Dijo que cierra la puerta."
+          ],
+          "answerIndex": 0,
+          "explanation": "El imperativo se transforma en imperfecto de subjuntivo con el verbo introductor en pasado."
+        }
+      ]
+    },
+    {
+      "id": "b2ei2-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2ei2d",
+          "incorrect": "Me contó que ha viajado mucho de joven.",
+          "answer": [
+            "Me contó que había viajado mucho de joven."
+          ],
+          "explanation": "El pretérito perfecto de la cita original retrocede a pluscuamperfecto con el verbo introductor en pasado."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Con el verbo introductor en pasado, el presente retrocede a imperfecto, el pretérito a pluscuamperfecto, el futuro a condicional y el imperativo a imperfecto de subjuntivo.",
+    "Los marcadores de tiempo y lugar también cambian: hoy/ayer/mañana pasan a ese día/el día anterior/al día siguiente, aquí a allí.",
+    "Esta concordancia de tiempos completa es clave para narrar conversaciones pasadas con precisión."
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "b2-subjuntivo-relativas-y-adverbiales",
+  "level": "B2",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "El Subjuntivo en Relativas y Adverbiales",
+  "subtitle": "Cuando el antecedente es desconocido, y con conjunciones que siempre exigen subjuntivo.",
+  "objectives": [
+    "Usar el subjuntivo en oraciones relativas cuando el antecedente es desconocido o inexistente",
+    "Reconocer las conjunciones adverbiales que siempre exigen subjuntivo",
+    "Distinguir cuándo aunque va con indicativo y cuándo va con subjuntivo"
+  ],
+  "content": {
+    "intro": "El subjuntivo no solo aparece en subordinadas sustantivas: también gobierna oraciones relativas cuando no se está seguro de que algo exista, y una serie de conjunciones adverbiales que llevan subjuntivo de forma automática.",
+    "explanation": "<p>En una oración relativa, si el antecedente (la persona o cosa de la que se habla) es <strong>conocido y específico</strong>, se usa indicativo; si es <strong>desconocido, indefinido o inexistente</strong>, se usa subjuntivo: <em>Busco un piso que tiene terraza</em> (existe, ya lo vi) frente a <em>Busco un piso que tenga terraza</em> (no sé si existe tal piso, es una búsqueda abierta).</p><p>Un grupo de conjunciones exige subjuntivo siempre, sin importar el contexto, porque introducen una finalidad, condición o hecho todavía no realizado: <strong>para que, sin que, a menos que, con tal de que, en caso de que, antes de que</strong>. La conjunción <strong>aunque</strong> es especial: con indicativo presenta el obstáculo como un hecho real (<em>Aunque llueve, salimos</em>); con subjuntivo, como una posibilidad o algo no confirmado (<em>Aunque llueva, saldremos</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Relativas con antecedente conocido &rarr; indicativo",
+        "body": "<p><em>Tengo un amigo que habla cinco idiomas.</em> (existe, lo conozco)</p>"
+      },
+      {
+        "heading": "b) Relativas con antecedente desconocido/inexistente &rarr; subjuntivo",
+        "body": "<p><em>Necesito un amigo que hable cinco idiomas.</em> (no sé si existe tal persona) <em>No hay nadie que sepa la respuesta.</em> (antecedente inexistente)</p>"
+      },
+      {
+        "heading": "c) Conjunciones que siempre exigen subjuntivo",
+        "body": "<p><em>para que, sin que, a menos que, con tal de que, en caso de que, antes de que</em>: <em>Te lo explico para que lo entiendas bien.</em></p>"
+      },
+      {
+        "heading": "d) Aunque: depende de si el hablante da el hecho por real",
+        "body": "<p>Indicativo (hecho real, conocido): <em>Aunque hace frío, voy a salir a correr.</em> Subjuntivo (posibilidad, no confirmado): <em>Aunque haga frío mañana, voy a salir a correr.</em></p>"
+      }
+    ],
+    "examples": [
+      "Busco un trabajo que me permita viajar con frecuencia.",
+      "Conozco a alguien que puede arreglar tu computadora.",
+      "No hay ningún restaurante por aquí que esté abierto ahora.",
+      "Te doy la llave para que entres cuando quieras.",
+      "No voy a firmar nada sin que me lo expliques todo bien.",
+      "Aunque tenga poco tiempo, intentaré ayudarte con esto.",
+      "Aunque llovió toda la noche, el partido se jugó igual.",
+      "Avísame en caso de que necesites algo más."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Busco una casa que tiene jardín. (sin saber si existe)",
+        "right": "Busco una casa que tenga jardín.",
+        "why": "Como no se sabe si tal casa existe, el antecedente es indefinido y exige subjuntivo."
+      },
+      {
+        "wrong": "Te lo explico para que lo entiendes.",
+        "right": "Te lo explico para que lo entiendas.",
+        "why": "Para que siempre exige subjuntivo, sin excepción, en cualquier contexto."
+      },
+      {
+        "wrong": "Aunque hace mucho frío ahora mismo, quizá salga igual (dando el hecho por cierto pero usando subjuntivo por error).",
+        "right": "Aunque hace mucho frío ahora mismo, quizá salga igual.",
+        "why": "Si el frío es un hecho real y confirmado en este momento, aunque debe llevar indicativo (hace), no subjuntivo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2sr-fill",
+      "type": "fill-blank",
+      "title": "Completa con Indicativo o Subjuntivo",
+      "items": [
+        {
+          "id": "b2sr1",
+          "prompt": "Tengo un vecino que ___ (hablar) tres idiomas. (existe, lo conozco)",
+          "answers": [
+            [
+              "habla"
+            ]
+          ],
+          "options": [
+            "habla",
+            "hable",
+            "hablará"
+          ],
+          "explanation": "Antecedente conocido y específico: indicativo."
+        },
+        {
+          "id": "b2sr2",
+          "prompt": "Necesito un vecino que me ___ (poder) ayudar con la mudanza. (no sé si existe)",
+          "answers": [
+            [
+              "pueda"
+            ]
+          ],
+          "options": [
+            "pueda",
+            "puede",
+            "podrá"
+          ],
+          "explanation": "Antecedente desconocido o hipotético: subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b2sr-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "b2sr3",
+          "prompt": "\"Te ayudo con tal de que me ___ un favor a mí también.\"",
+          "options": [
+            "haces",
+            "hagas",
+            "harás"
+          ],
+          "answerIndex": 1,
+          "explanation": "Con tal de que siempre exige subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b2sr-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2sr4",
+          "incorrect": "No hay nadie aquí que sabe la respuesta.",
+          "answer": [
+            "No hay nadie aquí que sepa la respuesta."
+          ],
+          "explanation": "Un antecedente inexistente (nadie) siempre exige subjuntivo en la oración relativa."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El antecedente conocido y específico exige indicativo en la relativa; el desconocido, indefinido o inexistente exige subjuntivo.",
+    "Para que, sin que, a menos que, con tal de que, en caso de que y antes de que siempre exigen subjuntivo, en cualquier contexto.",
+    "Aunque lleva indicativo cuando el hablante da el hecho por real y confirmado, y subjuntivo cuando lo presenta como una posibilidad no confirmada."
+  ]
+}

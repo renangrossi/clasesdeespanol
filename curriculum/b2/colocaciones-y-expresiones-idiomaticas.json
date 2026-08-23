@@ -1,0 +1,148 @@
+{
+  "id": "b2-colocaciones-y-expresiones-idiomaticas",
+  "level": "B2",
+  "unit": "1",
+  "order": 10,
+  "skill": "vocabulary",
+  "strand": "colocaciones",
+  "title": "Colocaciones y Expresiones Idiomáticas",
+  "subtitle": "Combinaciones fijas de palabras que un hablante nativo usa sin pensar, y que hay que aprender como bloques enteros.",
+  "objectives": [
+    "Reconocer colocaciones frecuentes (verbo + sustantivo) que no se forman libremente",
+    "Usar expresiones idiomáticas comunes en su contexto adecuado",
+    "Evitar traducir palabra por palabra combinaciones que en español funcionan de otra manera"
+  ],
+  "content": {
+    "intro": "Una colocación es una combinación de palabras que los hablantes nativos usan casi siempre juntas, aunque otras combinaciones lógicamente parecidas suenen raras o incorrectas — dominarlas es lo que hace que un español suene natural en vez de \"traducido\".",
+    "explanation": "<p>Muchos verbos se combinan de forma fija con ciertos sustantivos: se dice <strong>tomar una decisión</strong>, no \"hacer una decisión\"; se dice <strong>prestar atención</strong>, no \"pagar atención\"; se dice <strong>dar un paseo</strong>, no \"hacer un paseo\". Estas combinaciones no siguen una lógica que se pueda deducir, así que se memorizan como bloques completos, igual que el vocabulario mismo.</p><p>Las expresiones idiomáticas van un paso más allá: su significado no se puede deducir de las palabras por separado. <em>Costar un ojo de la cara</em> significa ser muy caro; <em>meter la pata</em> significa cometer un error o decir algo inoportuno; <em>estar en las nubes</em> significa estar distraído.</p>",
+    "rules": [
+      {
+        "heading": "a) Colocaciones verbo + sustantivo frecuentes",
+        "body": "<ul><li><em>tomar una decisión, tomar en cuenta, tomar el pelo (engañar/burlarse)</em></li><li><em>prestar atención, dar las gracias, dar un paseo, dar la razón</em></li><li><em>hacer caso, hacer falta, hacer la compra</em></li><li><em>tener en cuenta, tener lugar, tener ganas de</em></li></ul>"
+      },
+      {
+        "heading": "b) Expresiones idiomáticas frecuentes",
+        "body": "<ul><li><em>costar un ojo de la cara</em> — ser muy caro</li><li><em>meter la pata</em> — cometer un error, decir algo inoportuno</li><li><em>estar en las nubes</em> — estar distraído</li><li><em>no tener pelos en la lengua</em> — hablar con total franqueza</li><li><em>tirar la toalla</em> — rendirse, abandonar algo</li></ul>"
+      },
+      {
+        "heading": "c) Colocaciones adjetivo + sustantivo",
+        "body": "<p><em>error garrafal</em> (error muy grave), <em>lluvia torrencial</em>, <em>éxito rotundo</em> — el adjetivo intensificador cambia según el sustantivo, y no todas las combinaciones suenan naturales aunque el significado parezca el mismo.</p>"
+      }
+    ],
+    "examples": [
+      "Tuvimos que tomar una decisión difícil sobre el proyecto.",
+      "Ese abrigo de diseñador debió de costarle un ojo de la cara.",
+      "Metí la pata al mencionar su exnovio delante de todos.",
+      "Últimamente estás en las nubes, ¿en qué piensas tanto?",
+      "Ella nunca tiene pelos en la lengua para decir lo que piensa.",
+      "Después de tantos intentos fallidos, decidió tirar la toalla.",
+      "Es importante tener en cuenta la opinión de todo el equipo.",
+      "El evento tendrá lugar en el salón principal del hotel."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Hicimos una decisión importante ayer.",
+        "right": "Tomamos una decisión importante ayer.",
+        "why": "En español, decisión se combina con tomar, no con hacer, aunque en otros idiomas se use un verbo equivalente a hacer."
+      },
+      {
+        "wrong": "Necesitas pagar más atención en clase.",
+        "right": "Necesitas prestar más atención en clase.",
+        "why": "Atención se combina con prestar, no con pagar, aunque en otros idiomas se use un verbo equivalente a pagar."
+      },
+      {
+        "wrong": "El nuevo restaurante cuesta un brazo de la cara.",
+        "right": "El nuevo restaurante cuesta un ojo de la cara.",
+        "why": "La expresión fija es costar un ojo de la cara; cambiar la palabra ojo rompe la expresión y suena extraño para un hablante nativo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2co-fill",
+      "type": "fill-blank",
+      "title": "Completa la Colocación",
+      "items": [
+        {
+          "id": "b2co1",
+          "prompt": "Necesitamos ___ una decisión antes del viernes.",
+          "answers": [
+            [
+              "tomar"
+            ]
+          ],
+          "options": [
+            "tomar",
+            "hacer",
+            "dar"
+          ],
+          "explanation": "La colocación fija es tomar una decisión."
+        },
+        {
+          "id": "b2co2",
+          "prompt": "Por favor, ___ atención a las instrucciones.",
+          "answers": [
+            [
+              "presta"
+            ]
+          ],
+          "options": [
+            "presta",
+            "paga",
+            "toma"
+          ],
+          "explanation": "La colocación fija es prestar atención."
+        }
+      ]
+    },
+    {
+      "id": "b2co-mc",
+      "type": "multiple-choice",
+      "title": "¿Qué Significa la Expresión?",
+      "items": [
+        {
+          "id": "b2co3",
+          "prompt": "\"Meter la pata\" significa...",
+          "options": [
+            "tener mucho éxito",
+            "cometer un error o decir algo inoportuno",
+            "trabajar muy rápido"
+          ],
+          "answerIndex": 1,
+          "explanation": "Meter la pata significa cometer un error, especialmente al hablar en un momento inoportuno."
+        },
+        {
+          "id": "b2co4",
+          "prompt": "\"Estar en las nubes\" significa...",
+          "options": [
+            "estar muy feliz",
+            "estar distraído",
+            "estar muy ocupado"
+          ],
+          "answerIndex": 1,
+          "explanation": "Estar en las nubes significa estar distraído, sin prestar atención a lo que ocurre alrededor."
+        }
+      ]
+    },
+    {
+      "id": "b2co-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2co5",
+          "incorrect": "Ese coche debe de costar un brazo entero.",
+          "answer": [
+            "Ese coche debe de costar un ojo de la cara."
+          ],
+          "explanation": "La expresión fija en español es costar un ojo de la cara, no un brazo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Las colocaciones son combinaciones fijas (tomar una decisión, prestar atención, dar un paseo) que se memorizan como bloques, no se deducen lógicamente.",
+    "Las expresiones idiomáticas (costar un ojo de la cara, meter la pata, estar en las nubes) tienen un significado que no se deduce de las palabras por separado.",
+    "Traducir estas combinaciones palabra por palabra desde otro idioma casi nunca funciona en español."
+  ]
+}

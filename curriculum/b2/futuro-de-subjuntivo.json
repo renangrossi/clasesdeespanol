@@ -1,0 +1,119 @@
+{
+  "id": "b2-futuro-de-subjuntivo",
+  "level": "B2",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "El Futuro de Subjuntivo (Introducción)",
+  "subtitle": "Hablare, hablares, hablare...: un tiempo casi extinto, pero vivo en el lenguaje jurídico y en refranes.",
+  "objectives": [
+    "Reconocer la forma del futuro de subjuntivo y su relación con el imperfecto de subjuntivo",
+    "Explicar en qué contextos sobrevive este tiempo hoy en día",
+    "Identificar el futuro de subjuntivo en refranes, textos legales y el registro arcaizante"
+  ],
+  "content": {
+    "intro": "El futuro de subjuntivo es una curiosidad histórica del español: prácticamente desapareció del habla y la escritura cotidiana, pero sigue vivo en el lenguaje jurídico, en refranes y en textos con un tono deliberadamente arcaico o solemne.",
+    "explanation": "<p>Se forma igual que el imperfecto de subjuntivo, pero sustituyendo las terminaciones <strong>-ra</strong> por <strong>-re</strong>: <em>hablare, hablares, hablare, habláremos, hablareis, hablaren</em>. En el español medieval y clásico se usaba para expresar una condición futura hipotética, con un matiz parecido al presente de subjuntivo pero proyectado hacia el futuro.</p><p>Hoy en día, su uso está prácticamente restringido a textos legales y constitucionales (<em>Quien incumpliere esta norma será sancionado</em>), a algunos refranes fosilizados (<em>Adonde fueres, haz lo que vieres</em>), y a un registro deliberadamente arcaizante o literario. No es necesario aprender a producirlo activamente, pero conviene reconocerlo si aparece en un texto legal, un refrán o una novela histórica.</p>",
+    "rules": [
+      {
+        "heading": "a) Formación (a partir del imperfecto de subjuntivo)",
+        "body": "<p>Se sustituye -ra por -re: hablara &rarr; hablare; tuviera &rarr; tuviere; fuera &rarr; fuere.</p>"
+      },
+      {
+        "heading": "b) Uso casi exclusivo en textos jurídicos",
+        "body": "<p><em>El que faltare a esta obligación incurrirá en responsabilidad. Quien resultare elegido asumirá el cargo de inmediato.</em></p>"
+      },
+      {
+        "heading": "c) Refranes que lo conservan",
+        "body": "<p><em>Adonde fueres, haz lo que vieres.</em> (adáptate a las costumbres del lugar donde estés)</p>"
+      },
+      {
+        "heading": "d) No es necesario usarlo activamente",
+        "body": "<p>En el español de hoy, tanto en el habla como en la escritura general, el presente de subjuntivo o el presente de indicativo sustituyen naturalmente al futuro de subjuntivo en cualquier contexto cotidiano.</p>"
+      }
+    ],
+    "examples": [
+      "El que incumpliere el contrato deberá pagar una indemnización.",
+      "Adonde fueres, haz lo que vieres.",
+      "Quien resultare ganador del concurso recibirá el premio.",
+      "Si alguien objetare esta decisión, deberá presentarlo por escrito.",
+      "El funcionario que faltare sin justificación será sancionado.",
+      "Cualquiera que necesitare más información puede consultar el reglamento.",
+      "Si no hubiere objeciones, se dará por aprobada la propuesta.",
+      "El que quisiere participar deberá inscribirse antes del plazo."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "usar el futuro de subjuntivo en una conversación cotidiana o un correo informal",
+        "right": "usar el presente de subjuntivo o de indicativo en su lugar",
+        "why": "El futuro de subjuntivo desapareció del habla cotidiana; usarlo fuera de un contexto legal o deliberadamente arcaico suena forzado o extraño."
+      },
+      {
+        "wrong": "confundir el futuro de subjuntivo (hablare) con el futuro simple de indicativo (hablaré)",
+        "right": "distinguir ambas formas por su terminación y su uso",
+        "why": "Se diferencian solo por una letra (hablare/hablaré) pero son tiempos completamente distintos, con usos y frecuencia muy diferentes."
+      },
+      {
+        "wrong": "pensar que el futuro de subjuntivo ya no existe en absoluto en español moderno",
+        "right": "reconocer que sobrevive en textos legales, refranes y registro arcaizante",
+        "why": "Aunque prácticamente desapareció del habla cotidiana, sigue siendo productivo en el lenguaje jurídico actual."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2fs2-mc",
+      "type": "multiple-choice",
+      "title": "¿Dónde Aparece el Futuro de Subjuntivo?",
+      "items": [
+        {
+          "id": "b2fs2a",
+          "prompt": "¿En qué tipo de texto es más probable encontrar el futuro de subjuntivo hoy en día?",
+          "options": [
+            "Un mensaje de texto entre amigos",
+            "Un documento legal o constitucional",
+            "Una receta de cocina"
+          ],
+          "answerIndex": 1,
+          "explanation": "El futuro de subjuntivo sobrevive casi exclusivamente en el lenguaje jurídico y en registros arcaizantes."
+        },
+        {
+          "id": "b2fs2b",
+          "prompt": "¿Cuál es la terminación característica del futuro de subjuntivo?",
+          "options": [
+            "-ra",
+            "-re",
+            "-se"
+          ],
+          "answerIndex": 1,
+          "explanation": "El futuro de subjuntivo sustituye la -ra del imperfecto de subjuntivo por -re."
+        }
+      ]
+    },
+    {
+      "id": "b2fs2-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "b2fs2c",
+          "statement": "Es necesario dominar el futuro de subjuntivo para hablar español con fluidez hoy en día.",
+          "answer": false,
+          "explanation": "Basta con reconocerlo pasivamente; en el habla cotidiana, el presente de subjuntivo o de indicativo lo sustituyen por completo."
+        },
+        {
+          "id": "b2fs2d",
+          "statement": "El refrán \"Adonde fueres, haz lo que vieres\" contiene ejemplos de futuro de subjuntivo.",
+          "answer": true,
+          "explanation": "Fueres y vieres son formas de futuro de subjuntivo, conservadas en este refrán tradicional."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El futuro de subjuntivo se forma como el imperfecto de subjuntivo, sustituyendo -ra por -re.",
+    "Hoy sobrevive casi exclusivamente en textos legales y constitucionales, en algunos refranes fosilizados y en registro arcaizante.",
+    "No es necesario producirlo activamente: el presente de subjuntivo o de indicativo lo sustituyen con normalidad en el español actual."
+  ]
+}
