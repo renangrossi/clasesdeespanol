@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-Build levels/{level}.html: the hub page for one CEFR level — overview,
-the ordered grid of lesson cards, a Test Yourself call-to-action, and a
-compact Vocabulary section (two themed word tables with exercises).
+Construye levels/{nivel}.html: la página hub de cada nivel del MCER —
+resumen, la cuadrícula ordenada de tarjetas de lección, una llamada a la
+acción hacia "Ponte a Prueba" y una sección compacta de Vocabulario (dos
+tablas de palabras por tema, cada una con ejercicios).
 
-Usage:
+Uso:
     python3 scripts/build_level_pages.py
 """
 import json
@@ -19,185 +20,212 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 REL = "../"
 
 LEVEL_META = {
-    "A1": ("Beginner", "Basic phrases and everyday expressions for immediate needs — greetings, gender, essere/avere, the present tense."),
-    "A2": ("Elementary", "Simple, direct exchanges on familiar topics — irregular verbs, the passato prossimo, reflexive verbs, comparatives."),
-    "B1": ("Intermediate", "Independent, everyday Italian — the imperfetto, indirect and combined pronouns, the future, conditional and imperative."),
-    "B2": ("Upper Intermediate", "Fluent, spontaneous interaction — the subjunctive, hypothetical sentences, reported speech, the passive voice."),
-    "C1": ("Advanced", "Flexible, effective language for professional and academic life — the full subjunctive system, gerund, register and connectors."),
-    "C2": ("Proficient", "Precise, nuanced command of Italian — complex syntax, literary register, lexical nuance, and Italy's real linguistic variety."),
+    "Pre-A1": ("Supervivencia", "Primer contacto con el español — el alfabeto, los sonidos, saludos y los primeros verbos para sobrevivir en clase."),
+    "A1": ("Principiante", "Frases básicas y expresiones cotidianas para necesidades inmediatas — saludos, género, ser/estar, el presente de indicativo."),
+    "A2": ("Elemental", "Intercambios sencillos y directos sobre temas familiares — verbos irregulares, el pretérito indefinido, verbos reflexivos, comparativos."),
+    "B1": ("Intermedio", "Español cotidiano e independiente — el imperfecto, pronombres indirectos y combinados, futuro, condicional e imperativo."),
+    "B2": ("Intermedio Alto", "Interacción fluida y espontánea — el subjuntivo, oraciones condicionales, estilo indirecto, la voz pasiva."),
+    "C1": ("Avanzado", "Lengua flexible y eficaz para la vida profesional y académica — el sistema completo del subjuntivo, registro y conectores."),
+    "C2": ("Maestría", "Dominio preciso y matizado del español — sintaxis compleja, registro literario, matices léxicos y la verdadera variedad del idioma."),
 }
 
-# Two compact vocabulary themes per level: (theme_title, [ (word, part_of_speech, meaning, italian_example, english_gloss), ... ])
+# Dos temas de vocabulario compactos por nivel: (título del tema, [ (palabra, categoría, significado, ejemplo), ... ])
 VOCAB = {
-    "A1": [
-        ("La Famiglia (Family)", [
-            ("la madre / la mamma", "noun", "mother / mom", "Mia madre lavora in ospedale.", "My mother works at a hospital."),
-            ("il padre / il papà", "noun", "father / dad", "Mio padre cucina molto bene.", "My father cooks very well."),
-            ("il fratello", "noun", "brother", "Ho un fratello più grande.", "I have an older brother."),
-            ("la sorella", "noun", "sister", "Mia sorella vive a Torino.", "My sister lives in Turin."),
-            ("i nonni", "noun", "grandparents", "I miei nonni abitano in campagna.", "My grandparents live in the countryside."),
-            ("il/la figlio/a", "noun", "son / daughter", "Hanno due figli.", "They have two children."),
-            ("marito / moglie", "noun", "husband / wife", "Mio marito è insegnante.", "My husband is a teacher."),
-            ("sposato/a", "adjective", "married", "Sei sposata?", "Are you married?"),
+    "Pre-A1": [
+        ("Saludos y Cortesía", [
+            ("hola / adiós", "expresión", "saludo de llegada / de despedida", "¡Hola! ¿Cómo estás?"),
+            ("buenos días", "expresión", "saludo hasta el mediodía", "Buenos días, profesor."),
+            ("por favor / gracias", "expresión", "pedir con cortesía / agradecer", "Un café, por favor. Gracias."),
+            ("de nada", "expresión", "respuesta a un agradecimiento", "—Gracias. —De nada."),
+            ("perdón / disculpe", "expresión", "pedir disculpas con cortesía", "Perdón, ¿dónde está el baño?"),
+            ("¿cómo te llamas?", "expresión", "preguntar el nombre", "¿Cómo te llamas? Me llamo Ana."),
+            ("mucho gusto", "expresión", "al conocer a alguien", "Mucho gusto, soy Carlos."),
+            ("sí / no", "adverbio", "afirmación / negación", "¿Hablas español? Sí, un poco."),
         ]),
-        ("Il Cibo di Tutti i Giorni (Everyday Food)", [
-            ("il pane", "noun", "bread", "Compro il pane ogni mattina.", "I buy bread every morning."),
-            ("l'acqua", "noun", "water", "Vorrei un bicchiere d'acqua.", "I'd like a glass of water."),
-            ("la frutta", "noun", "fruit", "Mangio frutta ogni giorno.", "I eat fruit every day."),
-            ("la verdura", "noun", "vegetables", "Non mi piace la verdura cotta.", "I don't like cooked vegetables."),
-            ("il formaggio", "noun", "cheese", "Il parmigiano è un formaggio famoso.", "Parmesan is a famous cheese."),
-            ("la carne", "noun", "meat", "Non mangio carne il venerdì.", "I don't eat meat on Fridays."),
-            ("dolce / salato", "adjective", "sweet / salty", "Preferisco il salato al dolce.", "I prefer savory to sweet."),
-            ("avere fame / sete", "expression", "to be hungry / thirsty", "Ho fame, mangiamo?", "I'm hungry, shall we eat?"),
+        ("Objetos de la Clase", [
+            ("el lápiz", "sustantivo", "instrumento para escribir con mina", "Necesito un lápiz para el examen."),
+            ("el cuaderno", "sustantivo", "libreta para escribir", "Escribo la tarea en mi cuaderno."),
+            ("la mochila", "sustantivo", "bolsa para llevar los libros", "Mi mochila es azul y muy grande."),
+            ("la pizarra", "sustantivo", "superficie para escribir en clase", "El profesor escribe en la pizarra."),
+            ("el libro", "sustantivo", "material de lectura o estudio", "Este libro de español es muy bueno."),
+            ("la silla / la mesa", "sustantivo", "mueble para sentarse / para trabajar", "Pon el libro sobre la mesa."),
+            ("la ventana / la puerta", "sustantivo", "abertura para luz / para entrar y salir", "Abre la ventana, por favor."),
+            ("el profesor / la profesora", "sustantivo", "persona que enseña", "La profesora explica muy bien."),
+        ]),
+    ],
+    "A1": [
+        ("La Familia", [
+            ("la madre / la mamá", "sustantivo", "madre", "Mi madre trabaja en un hospital."),
+            ("el padre / el papá", "sustantivo", "padre", "Mi padre cocina muy bien."),
+            ("el hermano / la hermana", "sustantivo", "hermano/a", "Tengo un hermano mayor."),
+            ("los abuelos", "sustantivo", "padres de los padres", "Mis abuelos viven en el campo."),
+            ("el hijo / la hija", "sustantivo", "hijo/a", "Tienen dos hijos pequeños."),
+            ("el esposo / la esposa", "sustantivo", "marido / mujer", "Mi esposo es profesor."),
+            ("casado/a", "adjetivo", "que tiene cónyuge", "¿Estás casada?"),
+            ("tener hambre / sed", "expresión", "necesitar comer / beber", "Tengo hambre, ¿comemos?"),
+        ]),
+        ("La Comida de Cada Día", [
+            ("el pan", "sustantivo", "alimento básico de harina", "Compro pan todas las mañanas."),
+            ("el agua", "sustantivo", "líquido esencial para vivir", "Quisiera un vaso de agua."),
+            ("la fruta", "sustantivo", "alimento vegetal dulce", "Como fruta todos los días."),
+            ("la verdura", "sustantivo", "vegetales comestibles", "No me gusta la verdura cocida."),
+            ("el queso", "sustantivo", "producto lácteo sólido", "El queso manchego es muy famoso."),
+            ("la carne", "sustantivo", "alimento de origen animal", "No como carne los viernes."),
+            ("dulce / salado", "adjetivo", "con sabor a azúcar / a sal", "Prefiero lo salado antes que lo dulce."),
+            ("el desayuno / la cena", "sustantivo", "primera comida / última comida del día", "El desayuno es la comida más importante."),
         ]),
     ],
     "A2": [
-        ("Viaggi (Travel)", [
-            ("l'aeroporto", "noun", "airport", "Siamo arrivati in aeroporto in anticipo.", "We arrived at the airport early."),
-            ("il biglietto", "noun", "ticket", "Ho comprato due biglietti per Roma.", "I bought two tickets to Rome."),
-            ("la valigia", "noun", "suitcase", "La mia valigia è troppo pesante.", "My suitcase is too heavy."),
-            ("il volo", "noun", "flight", "Il volo è stato cancellato.", "The flight was cancelled."),
-            ("prenotare", "verb", "to book", "Ho prenotato l'albergo online.", "I booked the hotel online."),
-            ("partire / arrivare", "verb", "to leave / to arrive", "Il treno parte alle nove.", "The train leaves at nine."),
-            ("il passaporto", "noun", "passport", "Non dimenticare il passaporto!", "Don't forget your passport!"),
-            ("la meta", "noun", "destination", "Napoli è la nostra prossima meta.", "Naples is our next destination."),
+        ("Los Viajes", [
+            ("el aeropuerto", "sustantivo", "lugar de despegue y aterrizaje", "Llegamos al aeropuerto con tiempo de sobra."),
+            ("el billete / el boleto", "sustantivo", "documento para viajar", "Compré dos boletos para Lima."),
+            ("la maleta", "sustantivo", "equipaje para viajar", "Mi maleta pesa demasiado."),
+            ("el vuelo", "sustantivo", "trayecto en avión", "El vuelo se canceló por el clima."),
+            ("reservar", "verbo", "asegurar un lugar con antelación", "Reservé el hotel por internet."),
+            ("salir / llegar", "verbo", "partir de un lugar / arribar a otro", "El tren sale a las nueve."),
+            ("el pasaporte", "sustantivo", "documento de identidad para viajar", "¡No olvides el pasaporte!"),
+            ("el destino", "sustantivo", "lugar al que se viaja", "Cartagena es nuestro próximo destino."),
         ]),
-        ("Al Ristorante (At the Restaurant)", [
-            ("il menù", "noun", "menu", "Posso vedere il menù, per favore?", "Can I see the menu, please?"),
-            ("il conto", "noun", "the bill", "Il conto, per favore.", "The bill, please."),
-            ("prenotare un tavolo", "expression", "to book a table", "Ho prenotato un tavolo per due.", "I booked a table for two."),
-            ("il cameriere / la cameriera", "noun", "waiter / waitress", "Il cameriere è molto gentile.", "The waiter is very kind."),
-            ("consigliare", "verb", "to recommend", "Cosa mi consiglia?", "What do you recommend?"),
-            ("il primo / il secondo", "noun", "first / second course", "Come primo prendo la pasta.", "For my first course I'll have pasta."),
-            ("il contorno", "noun", "side dish", "Come contorno vorrei insalata.", "As a side I'd like salad."),
-            ("il conto è sbagliato", "expression", "the bill is wrong", "Scusi, credo che il conto sia sbagliato.", "Excuse me, I think the bill is wrong."),
+        ("En el Restaurante", [
+            ("el menú / la carta", "sustantivo", "lista de platos disponibles", "¿Puedo ver la carta, por favor?"),
+            ("la cuenta", "sustantivo", "el total a pagar", "La cuenta, por favor."),
+            ("reservar una mesa", "expresión", "apartar una mesa con antelación", "Reservé una mesa para dos."),
+            ("el camarero / la camarera", "sustantivo", "persona que atiende las mesas", "El camarero es muy amable."),
+            ("recomendar", "verbo", "sugerir algo a alguien", "¿Qué me recomienda usted?"),
+            ("el primer plato / el segundo plato", "sustantivo", "entrada / plato principal", "De primero, quiero la sopa."),
+            ("la guarnición", "sustantivo", "acompañamiento de un plato", "Como guarnición, prefiero ensalada."),
+            ("la cuenta está mal", "expresión", "hay un error en el cobro", "Disculpe, creo que la cuenta está mal."),
         ]),
     ],
     "B1": [
-        ("Il Lavoro (Work)", [
-            ("il colloquio", "noun", "job interview", "Ho un colloquio domani mattina.", "I have a job interview tomorrow morning."),
-            ("assumere", "verb", "to hire", "L'azienda ha assunto tre persone.", "The company hired three people."),
-            ("licenziare / licenziarsi", "verb", "to fire / to quit", "Si è licenziato dopo dieci anni.", "He quit after ten years."),
-            ("lo stipendio", "noun", "salary", "Lo stipendio è aumentato quest'anno.", "My salary went up this year."),
-            ("la scadenza", "noun", "deadline", "La scadenza del progetto è venerdì.", "The project deadline is Friday."),
-            ("il collega", "noun", "colleague", "I miei colleghi sono molto simpatici.", "My colleagues are very nice."),
-            ("fare straordinari", "expression", "to work overtime", "Ho fatto straordinari tutta la settimana.", "I worked overtime all week."),
-            ("la carriera", "noun", "career", "Vuole fare carriera in questo settore.", "She wants to advance her career in this field."),
+        ("El Trabajo", [
+            ("la entrevista de trabajo", "sustantivo", "reunión para evaluar a un candidato", "Tengo una entrevista de trabajo mañana."),
+            ("contratar", "verbo", "dar empleo a alguien", "La empresa contrató a tres personas."),
+            ("despedir / renunciar", "verbo", "quitar el empleo / dejar el empleo", "Renunció después de diez años."),
+            ("el sueldo", "sustantivo", "pago mensual por un trabajo", "El sueldo subió este año."),
+            ("el plazo", "sustantivo", "fecha límite", "El plazo del proyecto es el viernes."),
+            ("el/la colega", "sustantivo", "compañero de trabajo", "Mis colegas son muy simpáticos."),
+            ("hacer horas extra", "expresión", "trabajar más del horario normal", "Hice horas extra toda la semana."),
+            ("la carrera profesional", "sustantivo", "trayectoria de trabajo", "Quiere avanzar en su carrera en este sector."),
         ]),
-        ("La Salute (Health)", [
-            ("il medico / il dottore", "noun", "doctor", "Devo andare dal medico oggi.", "I have to go to the doctor today."),
-            ("la febbre", "noun", "fever", "Ho la febbre da ieri sera.", "I've had a fever since last night."),
-            ("il mal di testa", "noun", "headache", "Ho un forte mal di testa.", "I have a bad headache."),
-            ("la ricetta", "noun", "prescription", "Il medico mi ha dato una ricetta.", "The doctor gave me a prescription."),
-            ("guarire", "verb", "to recover, heal", "Spero di guarire presto.", "I hope to recover soon."),
-            ("il pronto soccorso", "noun", "emergency room", "Siamo andati al pronto soccorso.", "We went to the emergency room."),
-            ("fare male", "expression", "to hurt", "Mi fa male la schiena.", "My back hurts."),
-            ("la farmacia", "noun", "pharmacy", "La farmacia è aperta fino a tardi.", "The pharmacy is open until late."),
+        ("La Salud", [
+            ("el médico / la médica", "sustantivo", "profesional de la salud", "Tengo que ir al médico hoy."),
+            ("la fiebre", "sustantivo", "temperatura corporal elevada", "Tengo fiebre desde anoche."),
+            ("el dolor de cabeza", "sustantivo", "malestar en la cabeza", "Tengo un fuerte dolor de cabeza."),
+            ("la receta médica", "sustantivo", "documento para comprar medicamentos", "El médico me dio una receta."),
+            ("recuperarse", "verbo", "sanar, mejorar de salud", "Espero recuperarme pronto."),
+            ("la sala de urgencias", "sustantivo", "área de atención médica inmediata", "Fuimos a la sala de urgencias."),
+            ("doler", "verbo", "causar dolor", "Me duele mucho la espalda."),
+            ("la farmacia", "sustantivo", "tienda de medicamentos", "La farmacia está abierta hasta tarde."),
         ]),
     ],
     "B2": [
-        ("I Media (Media)", [
-            ("la notizia", "noun", "news item", "Questa notizia mi ha sorpreso.", "This news surprised me."),
-            ("il quotidiano", "noun", "daily newspaper", "Leggo il quotidiano ogni mattina.", "I read the daily paper every morning."),
-            ("l'opinione pubblica", "noun", "public opinion", "L'opinione pubblica è divisa.", "Public opinion is divided."),
-            ("diffondere", "verb", "to spread, broadcast", "La notizia si è diffusa rapidamente.", "The news spread quickly."),
-            ("la fonte", "noun", "source", "Bisogna verificare la fonte.", "You need to verify the source."),
-            ("i social media", "noun", "social media", "I social media influenzano l'opinione pubblica.", "Social media influences public opinion."),
-            ("un articolo di approfondimento", "expression", "an in-depth article", "Ho letto un ottimo articolo di approfondimento.", "I read an excellent in-depth article."),
-            ("l'attendibilità", "noun", "reliability, credibility", "Bisogna valutare l'attendibilità della fonte.", "You have to assess the source's reliability."),
+        ("Los Medios de Comunicación", [
+            ("la noticia", "sustantivo", "información de actualidad", "Esta noticia me sorprendió mucho."),
+            ("el periódico", "sustantivo", "publicación diaria de noticias", "Leo el periódico todas las mañanas."),
+            ("la opinión pública", "sustantivo", "el sentir general de la sociedad", "La opinión pública está dividida."),
+            ("difundir", "verbo", "hacer llegar algo a muchas personas", "La noticia se difundió rápidamente."),
+            ("la fuente", "sustantivo", "origen de una información", "Hay que verificar la fuente."),
+            ("las redes sociales", "sustantivo", "plataformas de comunicación digital", "Las redes sociales influyen en la opinión pública."),
+            ("un artículo de fondo", "expresión", "texto periodístico analítico y extenso", "Leí un excelente artículo de fondo."),
+            ("la fiabilidad", "sustantivo", "grado de confianza que merece algo", "Hay que evaluar la fiabilidad de la fuente."),
         ]),
-        ("L'Ambiente (Environment)", [
-            ("il riscaldamento globale", "noun", "global warming", "Il riscaldamento globale preoccupa gli scienziati.", "Global warming worries scientists."),
-            ("sostenibile", "adjective", "sustainable", "Cerchiamo soluzioni più sostenibili.", "We're looking for more sustainable solutions."),
-            ("le energie rinnovabili", "noun", "renewable energy", "Investono nelle energie rinnovabili.", "They're investing in renewable energy."),
-            ("l'inquinamento", "noun", "pollution", "L'inquinamento dell'aria è un problema serio.", "Air pollution is a serious problem."),
-            ("ridurre", "verb", "to reduce", "Dobbiamo ridurre i rifiuti.", "We need to reduce waste."),
-            ("il riciclaggio", "noun", "recycling", "Il riciclaggio è obbligatorio qui.", "Recycling is mandatory here."),
-            ("l'impronta ecologica", "expression", "ecological footprint", "Vuole ridurre la sua impronta ecologica.", "She wants to reduce her ecological footprint."),
-            ("tutelare l'ambiente", "expression", "to protect the environment", "Le nuove leggi tutelano l'ambiente.", "The new laws protect the environment."),
+        ("El Medio Ambiente", [
+            ("el calentamiento global", "sustantivo", "aumento de la temperatura del planeta", "El calentamiento global preocupa a los científicos."),
+            ("sostenible", "adjetivo", "que se puede mantener en el tiempo", "Buscamos soluciones más sostenibles."),
+            ("las energías renovables", "sustantivo", "energía de fuentes naturales inagotables", "Invierten en energías renovables."),
+            ("la contaminación", "sustantivo", "presencia de sustancias dañinas", "La contaminación del aire es un problema serio."),
+            ("reducir", "verbo", "disminuir en cantidad", "Debemos reducir los residuos."),
+            ("el reciclaje", "sustantivo", "reutilización de materiales", "El reciclaje es obligatorio aquí."),
+            ("la huella ecológica", "expresión", "impacto ambiental de una persona", "Quiere reducir su huella ecológica."),
+            ("proteger el medio ambiente", "expresión", "cuidar la naturaleza", "Las nuevas leyes protegen el medio ambiente."),
         ]),
     ],
     "C1": [
-        ("Espressioni Idiomatiche (Idiomatic Expressions)", [
-            ("in bocca al lupo", "expression", "good luck (lit. \"in the wolf's mouth\")", "In bocca al lupo per l'esame!", "Good luck on the exam!"),
-            ("avere le mani in pasta", "expression", "to be involved/have connections", "Ha le mani in pasta in molti settori.", "He has fingers in many pies."),
-            ("prendere due piccioni con una fava", "expression", "to kill two birds with one stone", "Così prendiamo due piccioni con una fava.", "That way we kill two birds with one stone."),
-            ("essere al verde", "expression", "to be broke", "Non posso uscire, sono al verde.", "I can't go out, I'm broke."),
-            ("fare orecchie da mercante", "expression", "to turn a deaf ear", "Fa sempre orecchie da mercante.", "He always turns a deaf ear."),
-            ("rompere il ghiaccio", "expression", "to break the ice", "Una battuta può rompere il ghiaccio.", "A joke can break the ice."),
-            ("avere la testa fra le nuvole", "expression", "to have one's head in the clouds", "Oggi ha proprio la testa fra le nuvole.", "He really has his head in the clouds today."),
-            ("essere un pesce fuor d'acqua", "expression", "to be a fish out of water", "In quell'ambiente mi sentivo un pesce fuor d'acqua.", "I felt like a fish out of water in that environment."),
+        ("Expresiones Idiomáticas", [
+            ("costar un ojo de la cara", "expresión", "ser muy caro", "Ese coche debió de costarle un ojo de la cara."),
+            ("meter la pata", "expresión", "cometer un error inoportuno", "Metí la pata al mencionar ese tema."),
+            ("matar dos pájaros de un tiro", "expresión", "resolver dos cosas con una sola acción", "Así matamos dos pájaros de un tiro."),
+            ("estar sin blanca", "expresión", "no tener dinero", "No puedo salir, estoy sin blanca."),
+            ("hacerse el sueco", "expresión", "fingir no entender algo", "Siempre se hace el sueco cuando le conviene."),
+            ("romper el hielo", "expresión", "superar la incomodidad inicial", "Un chiste puede romper el hielo."),
+            ("estar en las nubes", "expresión", "estar distraído", "Hoy está completamente en las nubes."),
+            ("ser como el pez en el agua", "expresión", "sentirse cómodo en un entorno", "En ese ambiente se siente como el pez en el agua."),
         ]),
-        ("Registro Professionale (Professional Register)", [
-            ("il quadro normativo", "noun", "regulatory framework", "Il quadro normativo è cambiato di recente.", "The regulatory framework recently changed."),
-            ("in merito a", "expression", "regarding, concerning", "In merito alla Sua richiesta...", "Regarding your request..."),
-            ("prendere atto di", "expression", "to take note of", "Prendiamo atto delle Sue osservazioni.", "We take note of your observations."),
-            ("conformemente a", "expression", "in accordance with", "Conformemente alla normativa vigente...", "In accordance with current regulations..."),
-            ("l'interlocutore", "noun", "the other party (in a discussion)", "Il nostro interlocutore ha proposto un'alternativa.", "The other party proposed an alternative."),
-            ("il riscontro", "noun", "feedback, response", "Attendiamo un Suo riscontro.", "We await your response."),
-            ("in allegato", "expression", "attached, enclosed", "In allegato trova il documento richiesto.", "Please find the requested document attached."),
-            ("porgere distinti saluti", "expression", "to extend best regards (formal closing)", "Porgo distinti saluti.", "Best regards."),
+        ("Registro Profesional", [
+            ("el marco normativo", "sustantivo", "conjunto de leyes vigentes", "El marco normativo cambió recientemente."),
+            ("en relación con", "expresión", "con respecto a", "En relación con su solicitud..."),
+            ("tomar nota de", "expresión", "registrar algo mentalmente o por escrito", "Tomamos nota de sus observaciones."),
+            ("de conformidad con", "expresión", "según lo establecido por", "De conformidad con la normativa vigente..."),
+            ("el interlocutor", "sustantivo", "la otra parte en una conversación", "Nuestro interlocutor propuso una alternativa."),
+            ("la respuesta / el feedback", "sustantivo", "reacción o valoración recibida", "Esperamos su pronta respuesta."),
+            ("se adjunta", "expresión", "se incluye junto al mensaje", "Se adjunta el documento solicitado."),
+            ("reciba un cordial saludo", "expresión", "fórmula de cierre formal", "Reciba un cordial saludo."),
         ]),
     ],
     "C2": [
-        ("Sfumature Astratte (Abstract Nuance)", [
-            ("l'ambivalenza", "noun", "ambivalence", "Prova una certa ambivalenza verso la decisione.", "He feels a certain ambivalence toward the decision."),
-            ("il paradosso", "noun", "paradox", "È un vero paradosso della modernità.", "It's a real paradox of modernity."),
-            ("intrinseco", "adjective", "intrinsic", "Il valore intrinseco dell'opera è indiscutibile.", "The work's intrinsic value is undeniable."),
-            ("la sfumatura", "noun", "nuance, shade of meaning", "Ogni parola ha le sue sfumature.", "Every word has its nuances."),
-            ("l'incongruenza", "noun", "inconsistency", "C'è un'incongruenza nel suo ragionamento.", "There's an inconsistency in his reasoning."),
-            ("preminente", "adjective", "preeminent, foremost", "È una figura preminente nel suo campo.", "He's a preeminent figure in his field."),
-            ("il retaggio", "noun", "legacy, heritage", "Il retaggio culturale della città è immenso.", "The city's cultural legacy is immense."),
-            ("emblematico", "adjective", "emblematic", "È un caso emblematico del problema.", "It's an emblematic case of the problem."),
+        ("Matices Abstractos", [
+            ("la ambivalencia", "sustantivo", "coexistencia de sentimientos opuestos", "Siente cierta ambivalencia ante la decisión."),
+            ("la paradoja", "sustantivo", "contradicción aparente", "Es una verdadera paradoja de la modernidad."),
+            ("intrínseco", "adjetivo", "propio de algo por su naturaleza", "El valor intrínseco de la obra es indiscutible."),
+            ("el matiz", "sustantivo", "diferencia sutil de sentido", "Cada palabra tiene sus propios matices."),
+            ("la incongruencia", "sustantivo", "falta de coherencia", "Hay una incongruencia en su razonamiento."),
+            ("preeminente", "adjetivo", "que sobresale entre los demás", "Es una figura preeminente en su campo."),
+            ("el legado", "sustantivo", "herencia cultural o material", "El legado cultural de la ciudad es inmenso."),
+            ("emblemático", "adjetivo", "representativo de algo", "Es un caso emblemático del problema."),
         ]),
-        ("Il Linguaggio Letterario (Literary Language)", [
-            ("l'ordito", "noun", "the underlying structure/plot (lit. \"weft\")", "L'ordito narrativo è complesso.", "The narrative structure is complex."),
-            ("evocare", "verb", "to evoke", "Il testo evoca immagini vivide.", "The text evokes vivid images."),
-            ("la metafora", "noun", "metaphor", "Usa spesso metafore marine.", "He often uses sea metaphors."),
-            ("il registro", "noun", "register (of language)", "Il registro cambia da capitolo a capitolo.", "The register shifts from chapter to chapter."),
-            ("malinconico", "adjective", "melancholic", "Il finale ha un tono malinconico.", "The ending has a melancholic tone."),
-            ("la prosa", "noun", "prose", "La sua prosa è densa e precisa.", "Her prose is dense and precise."),
-            ("l'incipit", "noun", "the opening lines (of a text)", "L'incipit del romanzo è memorabile.", "The novel's opening lines are memorable."),
-            ("permeare", "verb", "to permeate", "Un senso di nostalgia permea tutto il libro.", "A sense of nostalgia permeates the whole book."),
+        ("El Lenguaje Literario", [
+            ("la trama", "sustantivo", "estructura argumental de una obra", "La trama narrativa es compleja."),
+            ("evocar", "verbo", "traer algo a la mente", "El texto evoca imágenes muy vívidas."),
+            ("la metáfora", "sustantivo", "figura retórica de identificación", "Usa con frecuencia metáforas marinas."),
+            ("el registro", "sustantivo", "nivel de formalidad del lenguaje", "El registro cambia de un capítulo a otro."),
+            ("melancólico", "adjetivo", "con tristeza serena y profunda", "El final tiene un tono melancólico."),
+            ("la prosa", "sustantivo", "forma de escritura sin verso", "Su prosa es densa y precisa."),
+            ("el íncipit", "sustantivo", "las primeras líneas de un texto", "El íncipit de la novela es memorable."),
+            ("impregnar", "verbo", "penetrar por completo algo", "Un sentimiento de nostalgia impregna todo el libro."),
         ]),
     ],
 }
 
-# Reading passage, listening script, writing prompt, speaking prompts per level.
+# Texto de lectura, guion de escucha, consigna de escritura y de conversación por nivel.
 READING = {
-    "A1": ("Una Giornata di Marco", "<p>Mi chiamo Marco e vivo a Bologna. Ogni mattina mi sveglio alle sette e faccio colazione con un caffè e un cornetto. Poi vado al lavoro in bicicletta, perché non è lontano da casa mia.</p><p>A mezzogiorno mangio con i miei colleghi in un piccolo bar vicino all'ufficio. La sera, dopo il lavoro, mi piace fare una passeggiata o guardare un film con mia moglie. Andiamo a letto verso le undici.</p>"),
-    "A2": ("Un Weekend a Firenze", "<p>Il weekend scorso sono andata a Firenze con due amiche. Siamo partite venerdì sera e siamo arrivate tardi, ma non importava: eravamo troppo emozionate! Sabato mattina abbiamo visitato il Duomo e poi abbiamo passeggiato lungo l'Arno.</p><p>Nel pomeriggio pioveva, quindi siamo entrate in un piccolo museo che non conoscevamo. La sera abbiamo mangiato una bistecca alla fiorentina in una trattoria consigliata da un'amica del posto. Domenica, prima di tornare a casa, abbiamo comprato un po' di souvenir al mercato.</p>"),
-    "B1": ("Cambiare Lavoro a Trent'anni", "<p>Quando avevo ventotto anni, lavoravo in banca. Era un lavoro sicuro, ben pagato, ma non mi rendeva felice. Ogni mattina mi svegliavo con un peso sullo stomaco. Un giorno, dopo una lunga riflessione, ho deciso di licenziarmi e di seguire la mia vera passione: la fotografia.</p><p>I miei genitori erano preoccupati, e all'inizio anche io avevo paura di aver fatto la scelta sbagliata. Tuttavia, dopo due anni di lavoro duro, sono riuscita a costruirmi una piccola clientela. Oggi non guadagno quanto guadagnavo in banca, ma mi sveglio felice.</p>"),
-    "B2": ("Il Dibattito sullo Smart Working", "<p>Da quando molte aziende italiane hanno adottato lo smart working in modo permanente, il dibattito pubblico si è concentrato su vantaggi e svantaggi di questa trasformazione. Da un lato, i sostenitori sottolineano la maggiore flessibilità, la riduzione dei tempi di spostamento e un migliore equilibrio tra vita privata e professionale.</p><p>Dall'altro, i critici fanno notare che il lavoro da remoto può indebolire i legami tra colleghi e rendere più difficile la formazione dei nuovi assunti. Inoltre, non tutte le professioni si prestano a questo modello: chi lavora nel settore manifatturiero o sanitario, ad esempio, non ha la stessa possibilità di scelta. Il vero equilibrio, secondo molti esperti, sta in un modello ibrido, capace di coniugare autonomia e collaborazione diretta.</p>"),
-    "C1": ("La Memoria e le Lingue", "<p>Chi impara una lingua straniera in età adulta sviluppa spesso una relazione singolare con la propria memoria linguistica. Alcuni ricercatori sostengono che ogni lingua che parliamo attivi, in un certo senso, una versione leggermente diversa di noi stessi: il tono, i riferimenti culturali, persino l'umorismo cambiano a seconda dell'idioma utilizzato.</p><p>Non sorprende, dunque, che molti bilingui riferiscano di sentirsi \"più diretti\" in una lingua e \"più cauti\" in un'altra, o che certe emozioni risultino più facili da esprimere in una lingua acquisita piuttosto che in quella materna — quasi che la distanza linguistica offrisse una sorta di protezione emotiva.</p>"),
-    "C2": ("Sul Tempo e sulla Lentezza", "<p>Vi è, nella cultura contemporanea, una silenziosa nostalgia per ciò che un tempo si chiamava semplicemente \"il tempo\" — non inteso come risorsa da ottimizzare, bensì come dimensione da abitare. La retorica della produttività, così pervasiva nel discorso pubblico odierno, sembra aver eroso la possibilità stessa di un'esperienza non finalizzata: leggere senza uno scopo dichiarato, camminare senza una destinazione precisa, conversare senza un ordine del giorno.</p><p>Non è un caso che movimenti come lo \"slow living\" abbiano trovato, negli ultimi anni, un'eco tanto ampia: essi non propongono, in fondo, nulla di rivoluzionario, ma il recupero di un ritmo che l'uomo ha conosciuto per la quasi totalità della propria storia, e che solo di recente ha iniziato a percepire come un lusso anziché come una normalità.</p>"),
+    "Pre-A1": ("Un Saludo en la Calle", "<p>—¡Hola! Buenos días.</p><p>—¡Hola! ¿Cómo estás?</p><p>—Muy bien, gracias. ¿Y tú?</p><p>—Bien también. Me llamo Sofía.</p><p>—Mucho gusto, Sofía. Yo soy David.</p><p>—Mucho gusto, David. ¡Hasta luego!</p><p>—¡Adiós!</p>"),
+    "A1": ("Un Día de Marco", "<p>Me llamo Marco y vivo en Sevilla. Todas las mañanas me despierto a las siete y desayuno un café con una tostada. Después voy al trabajo en bicicleta, porque no está lejos de mi casa.</p><p>Al mediodía como con mis compañeros en un bar pequeño cerca de la oficina. Por la noche, después del trabajo, me gusta dar un paseo o ver una película con mi esposa. Nos acostamos alrededor de las once.</p>"),
+    "A2": ("Un Fin de Semana en Sevilla", "<p>El fin de semana pasado fui a Sevilla con dos amigas. Salimos el viernes por la noche y llegamos tarde, pero no importaba: ¡estábamos demasiado emocionadas! El sábado por la mañana visitamos la Catedral y luego caminamos junto al río Guadalquivir.</p><p>Por la tarde llovía, así que entramos en un pequeño museo que no conocíamos. Por la noche comimos tapas en un bar recomendado por una amiga del lugar. El domingo, antes de volver a casa, compramos algunos recuerdos en el mercado.</p>"),
+    "B1": ("Cambiar de Trabajo a los Treinta Años", "<p>Cuando tenía veintiocho años, trabajaba en un banco. Era un trabajo seguro y bien pagado, pero no me hacía feliz. Cada mañana me despertaba con un peso en el estómago. Un día, después de una larga reflexión, decidí renunciar y seguir mi verdadera pasión: la fotografía.</p><p>Mis padres estaban preocupados, y al principio yo también tenía miedo de haber tomado la decisión equivocada. Sin embargo, después de dos años de trabajo duro, logré construir una pequeña clientela. Hoy no gano lo que ganaba en el banco, pero me despierto feliz.</p>"),
+    "B2": ("El Debate sobre el Teletrabajo", "<p>Desde que muchas empresas hispanohablantes adoptaron el teletrabajo de forma permanente, el debate público se ha centrado en las ventajas y desventajas de esta transformación. Por un lado, sus defensores destacan la mayor flexibilidad, la reducción de los desplazamientos y un mejor equilibrio entre la vida personal y la profesional.</p><p>Por otro lado, sus críticos señalan que el trabajo remoto puede debilitar los vínculos entre compañeros y dificultar la formación de los nuevos empleados. Además, no todas las profesiones se prestan a este modelo: quien trabaja en el sector industrial o sanitario, por ejemplo, no tiene la misma posibilidad de elegir. El verdadero equilibrio, según muchos expertos, está en un modelo híbrido, capaz de combinar autonomía y colaboración directa.</p>"),
+    "C1": ("La Memoria y los Idiomas", "<p>Quien aprende un idioma extranjero en la edad adulta desarrolla a menudo una relación singular con su propia memoria lingüística. Algunos investigadores sostienen que cada lengua que hablamos activa, en cierto sentido, una versión ligeramente distinta de nosotros mismos: el tono, las referencias culturales, incluso el humor cambian según el idioma utilizado.</p><p>No sorprende, entonces, que muchos bilingües afirmen sentirse \"más directos\" en una lengua y \"más cautelosos\" en otra, o que ciertas emociones resulten más fáciles de expresar en una lengua aprendida que en la materna — como si la distancia lingüística ofreciera una suerte de protección emocional.</p>"),
+    "C2": ("Sobre el Tiempo y la Lentitud", "<p>Existe, en la cultura contemporánea, una silenciosa nostalgia por lo que antes se llamaba simplemente \"el tiempo\" — no entendido como un recurso que optimizar, sino como una dimensión que habitar. La retórica de la productividad, tan omnipresente en el discurso público actual, parece haber erosionado la posibilidad misma de una experiencia sin finalidad declarada: leer sin un propósito concreto, caminar sin un destino preciso, conversar sin una agenda.</p><p>No es casualidad que movimientos como el \"slow living\" hayan encontrado, en los últimos años, un eco tan amplio: en el fondo, no proponen nada revolucionario, sino la recuperación de un ritmo que el ser humano conoció durante casi toda su historia, y que solo recientemente ha empezado a percibir como un lujo en vez de como una normalidad.</p>"),
 }
 
 LISTENING = {
-    "A1": ("Al Bar", "<p><strong>Barista:</strong> Buongiorno! Cosa prende?<br><strong>Cliente:</strong> Buongiorno. Vorrei un cappuccino e un cornetto, per favore.<br><strong>Barista:</strong> Subito. Vuole anche dell'acqua?<br><strong>Cliente:</strong> No, grazie, va bene così. Quant'è?<br><strong>Barista:</strong> Sono tre euro e cinquanta.<br><strong>Cliente:</strong> Ecco a Lei. Grazie, arrivederci!<br><strong>Barista:</strong> Grazie a Lei, buona giornata!</p>"),
-    "A2": ("Prenotare un Tavolo per Telefono", "<p><strong>Ristorante:</strong> Ristorante Da Luigi, buonasera.<br><strong>Cliente:</strong> Buonasera, vorrei prenotare un tavolo per stasera, se possibile.<br><strong>Ristorante:</strong> Certo, per quante persone?<br><strong>Cliente:</strong> Per quattro persone, verso le otto.<br><strong>Ristorante:</strong> Perfetto, abbiamo un tavolo libero. A che nome, scusi?<br><strong>Cliente:</strong> A nome Bianchi.<br><strong>Ristorante:</strong> Bene, signor Bianchi, l'aspettiamo alle otto.</p>"),
-    "B1": ("Un Colloquio di Lavoro", "<p><strong>Selezionatrice:</strong> Allora, mi parli un po' della sua esperienza precedente.<br><strong>Candidato:</strong> Ho lavorato tre anni come assistente marketing in un'azienda di Milano. Mi occupavo soprattutto dei social media e delle campagne pubblicitarie.<br><strong>Selezionatrice:</strong> Interessante. E perché ha deciso di lasciare quel lavoro?<br><strong>Candidato:</strong> Cercavo nuove sfide, e questa posizione mi sembra più in linea con i miei obiettivi a lungo termine.<br><strong>Selezionatrice:</strong> Capisco. Ha domande per me?<br><strong>Candidato:</strong> Sì, volevo chiedere come è strutturato il team.</p>"),
-    "B2": ("Un Podcast sul Traffico in Città", "<p><strong>Conduttore:</strong> Oggi parliamo di un tema che riguarda molti di noi: il traffico nelle grandi città. Con me c'è un'esperta di mobilità urbana.<br><strong>Esperta:</strong> Grazie per l'invito. Il punto centrale è che le città italiane, storicamente, non sono state progettate per il traffico automobilistico attuale.<br><strong>Conduttore:</strong> Quindi, secondo lei, qual è la soluzione?<br><strong>Esperta:</strong> Non credo esista un'unica soluzione. Bisognerebbe investire di più nei trasporti pubblici e, allo stesso tempo, incentivare l'uso della bicicletta, specialmente nei centri storici.<br><strong>Conduttore:</strong> E i cittadini sarebbero disposti a rinunciare alla macchina?<br><strong>Esperta:</strong> Con le giuste infrastrutture, credo proprio di sì.</p>"),
-    "C1": ("Un'Intervista su Un Nuovo Romanzo", "<p><strong>Giornalista:</strong> Il suo ultimo romanzo affronta temi piuttosto complessi: la memoria, l'identità, l'esilio. Da dove nasce questa scelta?<br><strong>Autrice:</strong> In realtà nasce da una domanda molto personale: cosa resta di noi quando lasciamo il luogo in cui siamo cresciuti? Non volevo scrivere un saggio, ma raccontare questa domanda attraverso una storia.<br><strong>Giornalista:</strong> C'è un elemento autobiografico?<br><strong>Autrice:</strong> Certamente, anche se ho preferito trasfigurarlo attraverso la finzione. Credo che la narrativa permetta di dire certe verità più liberamente della saggistica.</p>"),
-    "C2": ("Una Conferenza sull'Evoluzione della Lingua", "<p><strong>Relatore:</strong> Quello che spesso si tende a dimenticare, parlando di \"purezza\" linguistica, è che ogni lingua viva è, per definizione, in perenne trasformazione. L'italiano stesso, quale lo conosciamo oggi, è il risultato di secoli di contaminazioni, prestiti, riadattamenti.<br><strong>Moderatrice:</strong> Alcuni sostengono però che l'influenza dell'inglese, in particolare, rappresenti una minaccia specifica...<br><strong>Relatore:</strong> È una posizione comprensibile, ma storicamente poco fondata. Ogni epoca ha avuto la propria lingua \"minacciosa\" — il francese nell'Ottocento, ad esempio. La lingua, semmai, va osservata, non difesa come fosse un monumento immobile.</p>"),
+    "Pre-A1": ("En la Cafetería", "<p><strong>Camarero:</strong> ¡Buenos días! ¿Qué va a tomar?<br><strong>Cliente:</strong> Buenos días. Un café con leche, por favor.<br><strong>Camarero:</strong> Muy bien. ¿Algo más?<br><strong>Cliente:</strong> No, gracias, así está bien. ¿Cuánto es?<br><strong>Camarero:</strong> Son dos euros.<br><strong>Cliente:</strong> Aquí tiene. ¡Gracias, adiós!<br><strong>Camarero:</strong> Gracias a usted, ¡buen día!</p>"),
+    "A1": ("En el Café", "<p><strong>Camarero:</strong> ¡Buenos días! ¿Qué va a tomar?<br><strong>Cliente:</strong> Buenos días. Quisiera un cortado y una tostada, por favor.<br><strong>Camarero:</strong> Enseguida. ¿Algo de beber también?<br><strong>Cliente:</strong> No, gracias, así está bien. ¿Cuánto es?<br><strong>Camarero:</strong> Son tres euros con cincuenta.<br><strong>Cliente:</strong> Aquí tiene. ¡Gracias, adiós!<br><strong>Camarero:</strong> Gracias a usted, ¡buen día!</p>"),
+    "A2": ("Reservar una Mesa por Teléfono", "<p><strong>Restaurante:</strong> Restaurante Casa Luis, buenas tardes.<br><strong>Cliente:</strong> Buenas tardes, quisiera reservar una mesa para esta noche, si es posible.<br><strong>Restaurante:</strong> Claro, ¿para cuántas personas?<br><strong>Cliente:</strong> Para cuatro personas, alrededor de las ocho.<br><strong>Restaurante:</strong> Perfecto, tenemos una mesa libre. ¿A nombre de quién, disculpe?<br><strong>Cliente:</strong> A nombre de Blanco.<br><strong>Restaurante:</strong> Muy bien, señor Blanco, lo esperamos a las ocho.</p>"),
+    "B1": ("Una Entrevista de Trabajo", "<p><strong>Entrevistadora:</strong> Bueno, cuénteme un poco sobre su experiencia anterior.<br><strong>Candidato:</strong> Trabajé tres años como asistente de marketing en una empresa de Madrid. Me ocupaba sobre todo de las redes sociales y las campañas publicitarias.<br><strong>Entrevistadora:</strong> Interesante. ¿Y por qué decidió dejar ese trabajo?<br><strong>Candidato:</strong> Buscaba nuevos retos, y este puesto me parece más alineado con mis objetivos a largo plazo.<br><strong>Entrevistadora:</strong> Entiendo. ¿Tiene alguna pregunta para mí?<br><strong>Candidato:</strong> Sí, quería preguntar cómo está estructurado el equipo.</p>"),
+    "B2": ("Un Podcast sobre el Tráfico en la Ciudad", "<p><strong>Presentador:</strong> Hoy hablamos de un tema que nos afecta a muchos: el tráfico en las grandes ciudades. Conmigo está una experta en movilidad urbana.<br><strong>Experta:</strong> Gracias por la invitación. El punto central es que las ciudades hispanohablantes, históricamente, no fueron diseñadas para el tráfico automovilístico actual.<br><strong>Presentador:</strong> Entonces, según usted, ¿cuál es la solución?<br><strong>Experta:</strong> No creo que exista una única solución. Habría que invertir más en el transporte público y, al mismo tiempo, incentivar el uso de la bicicleta, especialmente en los centros históricos.<br><strong>Presentador:</strong> ¿Y los ciudadanos estarían dispuestos a prescindir del coche?<br><strong>Experta:</strong> Con la infraestructura adecuada, creo que sí.</p>"),
+    "C1": ("Una Entrevista sobre una Nueva Novela", "<p><strong>Periodista:</strong> Su última novela aborda temas bastante complejos: la memoria, la identidad, el exilio. ¿De dónde nace esta elección?<br><strong>Autora:</strong> En realidad nace de una pregunta muy personal: ¿qué queda de nosotros cuando dejamos el lugar donde crecimos? No quería escribir un ensayo, sino contar esta pregunta a través de una historia.<br><strong>Periodista:</strong> ¿Hay un elemento autobiográfico?<br><strong>Autora:</strong> Sin duda, aunque preferí transfigurarlo a través de la ficción. Creo que la narrativa permite decir ciertas verdades con más libertad que el ensayo.</p>"),
+    "C2": ("Una Conferencia sobre la Evolución de la Lengua", "<p><strong>Ponente:</strong> Lo que a menudo se olvida al hablar de \"pureza\" lingüística es que toda lengua viva está, por definición, en permanente transformación. El propio español, tal como lo conocemos hoy, es el resultado de siglos de contactos, préstamos y readaptaciones.<br><strong>Moderadora:</strong> Sin embargo, algunos sostienen que la influencia del inglés representa una amenaza particular...<br><strong>Ponente:</strong> Es una postura comprensible, pero poco fundamentada históricamente. Cada época ha tenido su propia lengua \"amenazante\" — el francés en el siglo XIX, por ejemplo. La lengua, en todo caso, debe observarse, no defenderse como si fuera un monumento inmóvil.</p>"),
 }
 
 WRITING = {
-    "A1": "Write 5-6 simple sentences introducing yourself: your name, where you're from, your age, your family, and one thing you like. Use essere, avere, and the present tense of at least two regular verbs.",
-    "A2": "Write a short paragraph (6-8 sentences) about your last vacation, using the passato prossimo. Mention where you went, what you did, and how you felt — try to use at least one essere verb and one avere verb.",
-    "B1": "Write a short narrative (8-10 sentences) about something unexpected that happened to you. Use both the passato prossimo and the imperfetto — remember, the imperfetto sets the scene, the passato prossimo moves the story forward.",
-    "B2": "Write a short opinion paragraph (10-12 sentences) about a topic you care about (technology, the environment, remote work...). Use at least two subjunctive triggers (penso che, è importante che, dubito che) and one hypothetical sentence.",
-    "C1": "Write a formal email (10-12 sentences) requesting information from a company or institution. Use appropriate formal register throughout, at least one advanced connector (tuttavia, dato che, di conseguenza), and a proper formal opening and closing.",
-    "C2": "Write a short argumentative paragraph (12-15 sentences) taking a position on a debated topic. Structure it with a clear thesis, a concession to the opposing view (è vero che...), and a rebuttal (tuttavia...). Aim for varied, cohesive sentence structure — avoid repeating the same noun phrase twice in a row.",
+    "Pre-A1": "Escribe 3-4 frases muy simples para presentarte: tu nombre, tu nacionalidad y un saludo de despedida. Usa ser y al menos un verbo más.",
+    "A1": "Escribe 5-6 frases sencillas presentándote: tu nombre, de dónde eres, tu edad, tu familia y algo que te gusta. Usa ser, tener y el presente de al menos dos verbos regulares.",
+    "A2": "Escribe un párrafo corto (6-8 frases) sobre tus últimas vacaciones, usando el pretérito indefinido. Menciona a dónde fuiste, qué hiciste y cómo te sentiste — intenta usar al menos un verbo con ser y otro con tener.",
+    "B1": "Escribe una narración corta (8-10 frases) sobre algo inesperado que te haya pasado. Usa tanto el pretérito indefinido como el imperfecto — recuerda: el imperfecto da el contexto, el indefinido hace avanzar la historia.",
+    "B2": "Escribe un párrafo de opinión corto (10-12 frases) sobre un tema que te importe (la tecnología, el medio ambiente, el teletrabajo...). Usa al menos dos disparadores de subjuntivo (pienso que, es importante que, dudo que) y una oración hipotética.",
+    "C1": "Escribe un correo formal (10-12 frases) solicitando información a una empresa o institución. Usa un registro formal apropiado en todo el texto, al menos un conector avanzado (sin embargo, dado que, por consiguiente), y una fórmula de apertura y cierre adecuadas.",
+    "C2": "Escribe un párrafo argumentativo corto (12-15 frases) defendiendo una postura sobre un tema debatido. Estructúralo con una tesis clara, una concesión al punto de vista contrario (es cierto que...) y una réplica (sin embargo...). Busca una sintaxis variada y cohesionada — evita repetir el mismo sustantivo dos veces seguidas.",
 }
 
 SPEAKING = {
-    "A1": ["Describe yourself in one minute: name, age, nationality, family, and what you do.", "Ask a partner three questions using question words (dove, quando, come, perché)."],
-    "A2": ["Tell a partner about your typical week using frequency adverbs (sempre, spesso, a volte).", "Describe your last vacation using the passato prossimo."],
-    "B1": ["Discuss what you would do if you won the lottery, using the condizionale.", "Give a partner directions and instructions using the imperative, both informal and formal."],
-    "B2": ["Debate a current issue with a partner, using subjunctive triggers to express opinion and doubt.", "Describe a hypothetical situation (\"If I could change one thing about my city...\") using the periodo ipotetico."],
-    "C1": ["Give a short persuasive talk (2 minutes) on a topic of your choice, using advanced connectors.", "Role-play a formal complaint and its polite, hedged response."],
-    "C2": ["Debate a nuanced topic, deliberately using hedging expressions (sembra che, non sono del tutto d'accordo) to soften your claims.", "Summarize a short article or news story aloud in under a minute, using your own words."],
+    "Pre-A1": ["Preséntate en treinta segundos: tu nombre y de dónde eres.", "Saluda a un compañero y pregúntale su nombre."],
+    "A1": ["Descríbete en un minuto: nombre, edad, nacionalidad, familia y qué haces.", "Hazle tres preguntas a un compañero usando palabras interrogativas (dónde, cuándo, cómo, por qué)."],
+    "A2": ["Cuéntale a un compañero tu semana típica usando adverbios de frecuencia (siempre, a menudo, a veces).", "Describe tus últimas vacaciones usando el pretérito indefinido."],
+    "B1": ["Discute qué harías si te ganaras la lotería, usando el condicional.", "Dale a un compañero indicaciones e instrucciones usando el imperativo, tanto informal como formal."],
+    "B2": ["Debate un tema de actualidad con un compañero, usando disparadores de subjuntivo para expresar opinión y duda.", "Describe una situación hipotética (\"Si pudiera cambiar una cosa de mi ciudad...\") usando el periodo hipotético."],
+    "C1": ["Da una breve charla persuasiva (2 minutos) sobre un tema de tu elección, usando conectores avanzados.", "Representa una queja formal y su respuesta cortés y atenuada."],
+    "C2": ["Debate un tema con matices, usando deliberadamente expresiones de atenuación (parece que, no estoy del todo de acuerdo) para suavizar tus afirmaciones.", "Resume en voz alta un artículo o una noticia breve en menos de un minuto, con tus propias palabras."],
 }
 
 
@@ -219,30 +247,31 @@ def lesson_cards(level_slug, nav_list):
     return "".join(cards)
 
 
-def vocab_section(level_code):
+def vocab_section(level_code, level_slug):
     themes = VOCAB.get(level_code, [])
     blocks = []
     for ti, (theme_title, words) in enumerate(themes):
         rows = "".join(
-            f"<tr><td><strong>{esc(w)}</strong></td><td class=\"text-muted\">{esc(pos)}</td><td>{esc(meaning)}</td><td><em>{esc(it_ex)} &mdash; {esc(en_ex)}</em></td></tr>"
-            for w, pos, meaning, it_ex, en_ex in words
+            f"<tr><td><strong>{esc(w)}</strong></td><td class=\"text-muted\">{esc(pos)}</td><td>{esc(meaning)}</td><td><em>{esc(ex_sentence)}</em></td></tr>"
+            for w, pos, meaning, ex_sentence in words
         )
         opts = [w for w, *_ in words][:6]
         items = []
-        for i, (w, pos, meaning, it_ex, en_ex) in enumerate(words[:4]):
+        for i, (w, pos, meaning, ex_sentence) in enumerate(words[:4]):
+            item_opts = opts if w in opts else opts + [w]
             items.append({
-                "id": f"{level_code.lower()}v{ti}i{i}",
-                "prompt": f"Which word means “{meaning}”?",
-                "options": opts if w in opts else opts + [w],
-                "answerIndex": (opts if w in opts else opts + [w]).index(w),
-                "explanation": f"{w} means {meaning}.",
+                "id": f"{level_slug}v{ti}i{i}",
+                "prompt": f"¿Qué palabra significa «{meaning}»?",
+                "options": item_opts,
+                "answerIndex": item_opts.index(w),
+                "explanation": f"{w} significa {meaning}.",
             })
-        ex_block = {"id": f"{level_code.lower()}-vocab-{ti}-mc", "type": "multiple-choice", "title": "Match the Meaning", "items": items}
+        ex_block = {"id": f"{level_slug}-vocab-{ti}-mc", "type": "multiple-choice", "title": "Relaciona el Significado", "items": items}
         blocks.append(f"""<div class="card" style="margin-bottom:var(--space-lg);">
             <h3>{esc(theme_title)}</h3>
             <div class="table-scroll">
                 <table class="ref-table">
-                    <thead><tr><th>Word</th><th>Type</th><th>Meaning</th><th>Example</th></tr></thead>
+                    <thead><tr><th>Palabra</th><th>Categoría</th><th>Significado</th><th>Ejemplo</th></tr></thead>
                     <tbody>{rows}</tbody>
                 </table>
             </div>
@@ -252,27 +281,27 @@ def vocab_section(level_code):
         <div class="section__inner">
             <div class="section__head">
                 <p class="eyebrow">{level_code}</p>
-                <h2 id="vocabulary-heading">Vocabulary</h2>
-                <p>Themed word groups for real situations, each with example sentences and a quick check.</p>
+                <h2 id="vocabulary-heading">Vocabulario</h2>
+                <p>Grupos de palabras por tema para situaciones reales, cada uno con frases de ejemplo y una comprobación rápida.</p>
             </div>
             {"".join(blocks)}
         </div>
     </section>"""
 
 
-def reading_section(level_code):
+def reading_section(level_code, level_slug):
     title, passage = READING[level_code]
     ex = {
-        "id": f"{level_code.lower()}-reading-mc", "type": "true-false", "title": "Comprehension Check",
-        "instructions": "Based on the passage above, mark each statement true or false.",
+        "id": f"{level_slug}-reading-mc", "type": "true-false", "title": "Comprueba tu Comprensión",
+        "instructions": "Según el texto de arriba, marca cada afirmación como verdadera o falsa.",
         "items": [
-            {"id": f"{level_code.lower()}rd1", "statement": "The passage is written in the first person.", "answer": True, "explanation": "The narrator speaks about their own experience using io-forms."},
+            {"id": f"{level_slug}rd1", "statement": "El texto está escrito en primera persona o como un diálogo directo entre personas.", "answer": True, "explanation": "El texto usa formas de yo/nosotros o un intercambio directo entre los hablantes."},
         ],
     }
     return f"""<section id="reading" class="section section--surface" aria-labelledby="reading-heading">
         <div class="section__inner">
             <div class="section__head">
-                <p class="eyebrow">{level_code} &middot; Reading</p>
+                <p class="eyebrow">{level_code} &middot; Lectura</p>
                 <h2 id="reading-heading">{esc(title)}</h2>
             </div>
             <div class="card"><div class="prose">{passage}</div></div>
@@ -286,9 +315,9 @@ def listening_section(level_code):
     return f"""<section id="listening" class="section section--tight" aria-labelledby="listening-heading">
         <div class="section__inner">
             <div class="section__head">
-                <p class="eyebrow">{level_code} &middot; Listening (script)</p>
+                <p class="eyebrow">{level_code} &middot; Escucha (guion)</p>
                 <h2 id="listening-heading">{esc(title)}</h2>
-                <p>No audio recording yet &mdash; read this exchange as a listening-style dialogue and imagine the pacing of real speech.</p>
+                <p>Todavía no hay grabación de audio &mdash; lee este intercambio como un diálogo de escucha e imagina el ritmo del habla real.</p>
             </div>
             <div class="card"><div class="prose">{script}</div></div>
         </div>
@@ -301,13 +330,13 @@ def writing_speaking_section(level_code):
     return f"""<section id="writing" class="section section--surface" aria-labelledby="writing-heading">
         <div class="section__inner split">
             <div>
-                <p class="eyebrow">{level_code} &middot; Writing</p>
-                <h2 id="writing-heading">Guided Writing Task</h2>
+                <p class="eyebrow">{level_code} &middot; Escritura</p>
+                <h2 id="writing-heading">Tarea de Escritura Guiada</h2>
                 <p style="max-width:56ch;">{esc(prompt)}</p>
             </div>
             <div class="card card--feature" id="speaking">
-                <p class="eyebrow">{level_code} &middot; Speaking</p>
-                <h3 style="font-size:var(--step-0);">Conversation Prompts</h3>
+                <p class="eyebrow">{level_code} &middot; Conversación</p>
+                <h3 style="font-size:var(--step-0);">Temas de Conversación</h3>
                 <ul class="summary-list">{speaking_items}</ul>
             </div>
         </div>
@@ -319,34 +348,34 @@ def build(level_code, level_slug):
     nav_map = json.loads((REPO_ROOT / "scripts" / "lesson_nav_map.json").read_text(encoding="utf-8"))
     nav_list = nav_map.get(level_slug, [])
     index = json.loads((REPO_ROOT / "curriculum" / "index.json").read_text(encoding="utf-8"))
-    overview = index["levels"][level_code]["overview"]
+    overview = index["levels"][level_code.upper()]["overview"]
 
-    title = f"{level_code} — {name} — Renan the Teacher Italian Course"
+    title = f"{level_code} — {name} — Renan el Profesor · Curso de Español"
     description = f"{level_code} {name}: {blurb}"[:300]
     breadcrumb = (
-        f'<li><a href="{REL}index.html">Home</a></li>'
-        f'<li aria-current="page">Levels</li>'
+        f'<li><a href="{REL}index.html">Inicio</a></li>'
+        f'<li aria-current="page">Niveles</li>'
         f'<li aria-current="page">{level_code} {name}</li>'
     )
     page_header = f"""<div class="page-header">
         {site_chrome.STARS_ROW}
         <div class="page-header__inner">
             <div class="page-header__text">
-                <p class="eyebrow hero__eyebrow">Let's learn</p>
+                <p class="eyebrow hero__eyebrow">Vamos a aprender</p>
                 <h1>{level_code} &mdash; {esc(name)}</h1>
                 <p class="page-header__lede">{esc(blurb)}</p>
             </div>
         </div>
     </div>"""
     toc = ('<div class="level-toc" data-scrollspy><div class="level-toc__inner">'
-           '<a href="#lessons">Lessons</a><a href="#test-yourself">Test Yourself</a>'
-           '<a href="#vocabulary">Vocabulary</a><a href="#reading">Reading</a>'
-           '<a href="#listening">Listening</a><a href="#writing">Writing</a>'
-           '<a href="#speaking">Speaking</a></div></div>')
+           '<a href="#lessons">Lecciones</a><a href="#test-yourself">Ponte a Prueba</a>'
+           '<a href="#vocabulary">Vocabulario</a><a href="#reading">Lectura</a>'
+           '<a href="#listening">Escucha</a><a href="#writing">Escritura</a>'
+           '<a href="#speaking">Conversación</a></div></div>')
 
     overview_section = f"""<section class="section section--tight" aria-labelledby="overview-heading">
         <div class="section__inner">
-            <h2 id="overview-heading" class="visually-hidden">Overview</h2>
+            <h2 id="overview-heading" class="visually-hidden">Resumen</h2>
             <p style="max-width:62ch;font-size:var(--step-0);color:var(--color-text-muted);">{esc(overview)}</p>
         </div>
     </section>"""
@@ -355,8 +384,8 @@ def build(level_code, level_slug):
         <div class="section__inner">
             <div class="section__head">
                 <p class="eyebrow">{level_code}</p>
-                <h2 id="grammar-heading">Lessons</h2>
-                <p>{len(nav_list)} lessons, in order &mdash; each one builds on the one before it.</p>
+                <h2 id="grammar-heading">Lecciones</h2>
+                <p>{len(nav_list)} lecciones, en orden &mdash; cada una se apoya en la anterior.</p>
             </div>
             <div class="grid">{lesson_cards(level_slug, nav_list)}</div>
         </div>
@@ -366,10 +395,10 @@ def build(level_code, level_slug):
         <div class="section__inner">
             <div class="section__head">
                 <p class="eyebrow">{level_code}</p>
-                <h2 id="ty-heading">Test Yourself</h2>
-                <p>A single, comprehensive review covering every {level_code} grammar topic &mdash; every exercise from every lesson, mixed together.</p>
+                <h2 id="ty-heading">Ponte a Prueba</h2>
+                <p>Un repaso único y completo de todos los temas de gramática de {level_code} &mdash; todos los ejercicios de todas las lecciones, mezclados.</p>
             </div>
-            <a class="btn btn--accent" href="{level_slug}/test-yourself.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="15" r="6"/><path d="m9 10-3-7"/><path d="m15 10 3-7"/><path d="M9.5 15.5 12 17l2.5-1.5"/></svg>Start the test</a>
+            <a class="btn btn--accent" href="{level_slug}/test-yourself.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="15" r="6"/><path d="m9 10-3-7"/><path d="m15 10 3-7"/><path d="M9.5 15.5 12 17l2.5-1.5"/></svg>Empezar el repaso</a>
         </div>
     </section>"""
 
@@ -381,8 +410,8 @@ def build(level_code, level_slug):
     out.append(overview_section)
     out.append(lessons_section)
     out.append(ty_section)
-    out.append(vocab_section(level_code))
-    out.append(reading_section(level_code))
+    out.append(vocab_section(level_code, level_slug))
+    out.append(reading_section(level_code, level_slug))
     out.append(listening_section(level_code))
     out.append(writing_speaking_section(level_code))
     out.append(site_chrome.footer(REL, extra_scripts=["exercises.js", "mastery.js"]))
@@ -393,5 +422,5 @@ def build(level_code, level_slug):
 
 
 if __name__ == "__main__":
-    for code, slug in [("A1", "a1"), ("A2", "a2"), ("B1", "b1"), ("B2", "b2"), ("C1", "c1"), ("C2", "c2")]:
+    for code, slug in [("Pre-A1", "pre-a1"), ("A1", "a1"), ("A2", "a2"), ("B1", "b1"), ("B2", "b2"), ("C1", "c1"), ("C2", "c2")]:
         build(code, slug)

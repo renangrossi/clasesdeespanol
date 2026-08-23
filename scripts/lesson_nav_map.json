@@ -1,0 +1,328 @@
+{
+  "pre-a1": [
+    {
+      "slug": "el-alfabeto-y-los-sonidos",
+      "title": "El Alfabeto y los Sonidos"
+    },
+    {
+      "slug": "saludos-y-presentaciones",
+      "title": "Saludos y Presentaciones"
+    },
+    {
+      "slug": "numeros-hora-y-fecha",
+      "title": "Números, Hora y Fecha"
+    },
+    {
+      "slug": "vocabulario-de-clase-y-estudio",
+      "title": "Vocabulario de Clase y Estudio"
+    },
+    {
+      "slug": "personas-y-objetos-cotidianos",
+      "title": "Personas y Objetos Cotidianos"
+    },
+    {
+      "slug": "verbos-basicos-ser-tener-querer-gustar",
+      "title": "Verbos Básicos: Ser, Tener, Querer, Gustar"
+    },
+    {
+      "slug": "pronombres-de-sujeto-y-ser-estar",
+      "title": "Pronombres de Sujeto y un Primer Acercamiento a Ser/Estar"
+    },
+    {
+      "slug": "lectura-y-escucha-de-supervivencia",
+      "title": "Lectura y Escucha de Supervivencia"
+    }
+  ],
+  "a1": [
+    {
+      "slug": "el-abecedario-y-la-pronunciacion",
+      "title": "El Abecedario y la Pronunciación"
+    },
+    {
+      "slug": "genero-y-numero-de-los-sustantivos",
+      "title": "Género y Número de los Sustantivos"
+    },
+    {
+      "slug": "articulos-definidos-e-indefinidos",
+      "title": "Artículos Definidos e Indefinidos"
+    },
+    {
+      "slug": "ser-y-estar-introduccion",
+      "title": "Ser y Estar (Introducción)"
+    },
+    {
+      "slug": "pronombres-personales-de-sujeto",
+      "title": "Pronombres Personales de Sujeto"
+    },
+    {
+      "slug": "presente-verbos-regulares",
+      "title": "Presente — Verbos Regulares"
+    },
+    {
+      "slug": "presente-verbos-irregulares-comunes",
+      "title": "Presente — Irregulares Comunes"
+    },
+    {
+      "slug": "adjetivos-y-concordancia",
+      "title": "Adjetivos y Concordancia"
+    },
+    {
+      "slug": "posesivos",
+      "title": "Posesivos"
+    },
+    {
+      "slug": "demostrativos",
+      "title": "Demostrativos"
+    },
+    {
+      "slug": "hay-y-estar",
+      "title": "Hay / Estar (Existencia y Ubicación)"
+    },
+    {
+      "slug": "preposiciones-simples",
+      "title": "Preposiciones Simples"
+    },
+    {
+      "slug": "interrogativos-y-preguntas",
+      "title": "Interrogativos y Preguntas"
+    },
+    {
+      "slug": "gustar-y-verbos-similares",
+      "title": "Gustar y Verbos Similares"
+    }
+  ],
+  "a2": [
+    {
+      "slug": "preterito-perfecto-compuesto",
+      "title": "Pretérito Perfecto Compuesto"
+    },
+    {
+      "slug": "preterito-indefinido-regulares",
+      "title": "Pretérito Indefinido — Verbos Regulares"
+    },
+    {
+      "slug": "preterito-indefinido-irregulares",
+      "title": "Pretérito Indefinido — Verbos Irregulares"
+    },
+    {
+      "slug": "preterito-imperfecto",
+      "title": "Pretérito Imperfecto"
+    },
+    {
+      "slug": "indefinido-vs-imperfecto",
+      "title": "Indefinido vs. Imperfecto"
+    },
+    {
+      "slug": "futuro-simple-e-ir-a-infinitivo",
+      "title": "Futuro Simple e Ir + a + Infinitivo"
+    },
+    {
+      "slug": "comparativos-y-superlativos",
+      "title": "Comparativos y Superlativos"
+    },
+    {
+      "slug": "verbos-con-cambio-de-raiz",
+      "title": "Verbos con Cambio de Raíz"
+    },
+    {
+      "slug": "pronombres-de-objeto-directo",
+      "title": "Pronombres de Objeto Directo"
+    },
+    {
+      "slug": "pronombres-de-objeto-indirecto",
+      "title": "Pronombres de Objeto Indirecto"
+    },
+    {
+      "slug": "imperativo-afirmativo",
+      "title": "Imperativo Afirmativo (Tú/Usted)"
+    },
+    {
+      "slug": "adverbios-de-frecuencia-y-conectores",
+      "title": "Adverbios de Frecuencia y Conectores Básicos"
+    }
+  ],
+  "b1": [
+    {
+      "slug": "perfecto-vs-indefinido-matices",
+      "title": "Perfecto vs. Indefinido: los Matices"
+    },
+    {
+      "slug": "pluscuamperfecto",
+      "title": "El Pluscuamperfecto"
+    },
+    {
+      "slug": "futuro-compuesto-y-condicional-simple",
+      "title": "Futuro Compuesto y Condicional Simple"
+    },
+    {
+      "slug": "condicional-cortesia-e-hipotesis",
+      "title": "El Condicional para Cortesía e Hipótesis"
+    },
+    {
+      "slug": "imperativo-negativo-y-pronombres",
+      "title": "Imperativo Negativo y Pronombres con el Imperativo"
+    },
+    {
+      "slug": "subjuntivo-presente-formacion",
+      "title": "El Presente de Subjuntivo — Formación"
+    },
+    {
+      "slug": "subjuntivo-deseo-duda-emocion",
+      "title": "El Presente de Subjuntivo — Deseo, Duda y Emoción"
+    },
+    {
+      "slug": "voz-pasiva-y-pasiva-refleja",
+      "title": "Voz Pasiva con Ser y Pasiva Refleja con Se"
+    },
+    {
+      "slug": "estilo-indirecto-presente",
+      "title": "Estilo Indirecto (Presente)"
+    },
+    {
+      "slug": "pronombres-combinados",
+      "title": "Pronombres Combinados"
+    },
+    {
+      "slug": "por-y-para",
+      "title": "Por y Para"
+    },
+    {
+      "slug": "oraciones-relativas",
+      "title": "Oraciones Relativas: Que, Quien, Donde"
+    },
+    {
+      "slug": "voseo-argentino-y-variedades",
+      "title": "El Voseo Argentino y Otras Variedades del Español"
+    },
+    {
+      "slug": "conectores-y-marcadores-del-discurso",
+      "title": "Conectores y Marcadores del Discurso"
+    }
+  ],
+  "b2": [
+    {
+      "slug": "imperfecto-de-subjuntivo",
+      "title": "El Imperfecto de Subjuntivo"
+    },
+    {
+      "slug": "condicionales-con-si-subjuntivo",
+      "title": "Condicionales con Si + Subjuntivo"
+    },
+    {
+      "slug": "subjuntivo-vs-indicativo-sustantivas",
+      "title": "Subjuntivo vs. Indicativo en Oraciones Sustantivas"
+    },
+    {
+      "slug": "subjuntivo-relativas-y-adverbiales",
+      "title": "El Subjuntivo en Relativas y Adverbiales"
+    },
+    {
+      "slug": "perifrasis-verbales",
+      "title": "Perífrasis Verbales"
+    },
+    {
+      "slug": "ser-y-estar-avanzado",
+      "title": "Ser y Estar — Usos Avanzados"
+    },
+    {
+      "slug": "pasiva-avanzada-y-se",
+      "title": "Pasiva Avanzada y Construcciones con Se"
+    },
+    {
+      "slug": "estilo-indirecto-todos-los-tiempos",
+      "title": "Estilo Indirecto en Todos los Tiempos"
+    },
+    {
+      "slug": "conectores-argumentativos-avanzados",
+      "title": "Conectores Argumentativos Avanzados"
+    },
+    {
+      "slug": "colocaciones-y-expresiones-idiomaticas",
+      "title": "Colocaciones y Expresiones Idiomáticas"
+    },
+    {
+      "slug": "registro-formal-e-informal",
+      "title": "Registro Formal e Informal"
+    },
+    {
+      "slug": "futuro-de-subjuntivo",
+      "title": "El Futuro de Subjuntivo (Introducción)"
+    }
+  ],
+  "c1": [
+    {
+      "slug": "pluscuamperfecto-de-subjuntivo",
+      "title": "El Pluscuamperfecto de Subjuntivo"
+    },
+    {
+      "slug": "condicionales-complejas",
+      "title": "Condicionales Complejas: los Cuatro Tipos"
+    },
+    {
+      "slug": "matices-del-subjuntivo",
+      "title": "Matices del Subjuntivo: Percepción, Negación y Grados de Certeza"
+    },
+    {
+      "slug": "construcciones-enfaticas",
+      "title": "Construcciones Enfáticas y de Relieve"
+    },
+    {
+      "slug": "nominalizacion-y-estilo-academico",
+      "title": "Nominalización y Estilo Académico"
+    },
+    {
+      "slug": "conectores-textuales-avanzados",
+      "title": "Conectores Textuales Avanzados"
+    },
+    {
+      "slug": "perifrasis-verbales-avanzadas",
+      "title": "Perífrasis Verbales Avanzadas"
+    },
+    {
+      "slug": "voseo-ustedeo-y-variacion-dialectal",
+      "title": "Voseo, Ustedeo y Variación Dialectal Hispanoamericana"
+    },
+    {
+      "slug": "ironia-atenuacion-y-cortesia",
+      "title": "Ironía, Atenuación y Cortesía Lingüística"
+    },
+    {
+      "slug": "espanol-academico-y-profesional",
+      "title": "Español para Fines Específicos: Registro Académico y Profesional"
+    }
+  ],
+  "c2": [
+    {
+      "slug": "sintaxis-compleja-y-subordinacion-multiple",
+      "title": "Sintaxis Compleja y Subordinación Múltiple"
+    },
+    {
+      "slug": "registro-literario-y-recursos-estilisticos",
+      "title": "Registro Literario y Recursos Estilísticos"
+    },
+    {
+      "slug": "matices-lexicos-y-falsos-amigos-avanzados",
+      "title": "Matices Léxicos y Falsos Amigos Avanzados"
+    },
+    {
+      "slug": "variacion-regional",
+      "title": "Variación Regional: España, México, Argentina, el Caribe"
+    },
+    {
+      "slug": "cohesion-textual-en-discurso-extenso",
+      "title": "Cohesión Textual en Discurso Extenso"
+    },
+    {
+      "slug": "modalidad-y-atenuacion-en-discurso-formal",
+      "title": "Modalidad y Atenuación en Discurso Formal"
+    },
+    {
+      "slug": "estructuras-arcaicas-o-literarias",
+      "title": "Estructuras Arcaicas o Literarias"
+    },
+    {
+      "slug": "dominio-del-registro-y-transformacion-estilistica",
+      "title": "Dominio del Registro y Transformación Estilística"
+    }
+  ]
+}

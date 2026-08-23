@@ -1,0 +1,393 @@
+{
+  "levels": {
+    "PRE-A1": {
+      "overview": "Pre-A1 es el punto de partida absoluto: el alfabeto y los sonidos del español, los saludos y las presentaciones, los números, la hora y la fecha, el vocabulario esencial para sobrevivir en una clase, las palabras más comunes de personas y objetos cotidianos, y los primeros verbos y pronombres para formar tus primeras frases. Al terminar este nivel podrás presentarte, pedir cosas simples y entender diálogos muy cortos de la vida diaria, sin necesitar ningún conocimiento previo de español.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Gramática PRE-A1",
+          "lessons": [
+            {
+              "id": "pre-a1-el-alfabeto-y-los-sonidos",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-saludos-y-presentaciones",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-numeros-hora-y-fecha",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-vocabulario-de-clase-y-estudio",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-personas-y-objetos-cotidianos",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-verbos-basicos-ser-tener-querer-gustar",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-pronombres-de-sujeto-y-ser-estar",
+              "status": "published"
+            },
+            {
+              "id": "pre-a1-lectura-y-escucha-de-supervivencia",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "A1": {
+      "overview": "El nivel A1 construye las bases reales del español desde el primer día: el abecedario y la pronunciación, el género y el número de los sustantivos, los artículos, los pronombres personales, y el gran contraste entre ser y estar. También conjugarás el presente de indicativo, tanto de los verbos regulares como de los irregulares más frecuentes, y aprenderás a describir personas y cosas con adjetivos, posesivos y demostrativos. Al final de este nivel podrás presentarte, describir tu entorno cercano, hacer preguntas simples y expresar tus gustos — la base sobre la que se construye todo lo demás en este curso.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Gramática A1",
+          "lessons": [
+            {
+              "id": "a1-el-abecedario-y-la-pronunciacion",
+              "status": "published"
+            },
+            {
+              "id": "a1-genero-y-numero-de-los-sustantivos",
+              "status": "published"
+            },
+            {
+              "id": "a1-articulos-definidos-e-indefinidos",
+              "status": "published"
+            },
+            {
+              "id": "a1-ser-y-estar-introduccion",
+              "status": "published"
+            },
+            {
+              "id": "a1-pronombres-personales-de-sujeto",
+              "status": "published"
+            },
+            {
+              "id": "a1-presente-verbos-regulares",
+              "status": "published"
+            },
+            {
+              "id": "a1-presente-verbos-irregulares-comunes",
+              "status": "published"
+            },
+            {
+              "id": "a1-adjetivos-y-concordancia",
+              "status": "published"
+            },
+            {
+              "id": "a1-posesivos",
+              "status": "published"
+            },
+            {
+              "id": "a1-demostrativos",
+              "status": "published"
+            },
+            {
+              "id": "a1-hay-y-estar",
+              "status": "published"
+            },
+            {
+              "id": "a1-preposiciones-simples",
+              "status": "published"
+            },
+            {
+              "id": "a1-interrogativos-y-preguntas",
+              "status": "published"
+            },
+            {
+              "id": "a1-gustar-y-verbos-similares",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "A2": {
+      "overview": "El nivel A2 te da las herramientas para hablar del pasado, del futuro y de comparaciones, además de sustituir sustantivos por pronombres para sonar más natural. Aprenderás los dos pasados básicos del español — el pretérito indefinido y el pretérito imperfecto — y, sobre todo, cuándo usar cada uno; también el futuro simple, los comparativos y superlativos, los verbos con cambio de raíz, los pronombres de objeto directo e indirecto, y el imperativo afirmativo para dar órdenes e instrucciones. Al terminar este nivel podrás contar lo que hiciste ayer, describir cómo era algo en el pasado, hacer planes y dar instrucciones sencillas.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Gramática A2",
+          "lessons": [
+            {
+              "id": "a2-preterito-perfecto-compuesto",
+              "status": "published"
+            },
+            {
+              "id": "a2-preterito-indefinido-regulares",
+              "status": "published"
+            },
+            {
+              "id": "a2-preterito-indefinido-irregulares",
+              "status": "published"
+            },
+            {
+              "id": "a2-preterito-imperfecto",
+              "status": "published"
+            },
+            {
+              "id": "a2-indefinido-vs-imperfecto",
+              "status": "published"
+            },
+            {
+              "id": "a2-futuro-simple-e-ir-a-infinitivo",
+              "status": "published"
+            },
+            {
+              "id": "a2-comparativos-y-superlativos",
+              "status": "published"
+            },
+            {
+              "id": "a2-verbos-con-cambio-de-raiz",
+              "status": "published"
+            },
+            {
+              "id": "a2-pronombres-de-objeto-directo",
+              "status": "published"
+            },
+            {
+              "id": "a2-pronombres-de-objeto-indirecto",
+              "status": "published"
+            },
+            {
+              "id": "a2-imperativo-afirmativo",
+              "status": "published"
+            },
+            {
+              "id": "a2-adverbios-de-frecuencia-y-conectores",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "overview": "El nivel B1 profundiza en los matices del pasado (perfecto frente a indefinido, y el pluscuamperfecto para lo anterior a lo anterior), añade el futuro compuesto y el condicional, y da el gran salto al modo subjuntivo — el modo del deseo, la duda y la emoción, que dominará gran parte de los niveles siguientes. También verás el imperativo negativo, los pronombres combinados, la diferencia entre por y para, las oraciones relativas, el voseo argentino y los principales conectores del discurso. Al terminar este nivel podrás usar el español de forma independiente para el trabajo, los estudios y los viajes, y empezarás a sonar mucho más natural y menos \"traducido\".",
+      "units": [
+        {
+          "id": "1",
+          "title": "Gramática B1",
+          "lessons": [
+            {
+              "id": "b1-perfecto-vs-indefinido-matices",
+              "status": "published"
+            },
+            {
+              "id": "b1-pluscuamperfecto",
+              "status": "published"
+            },
+            {
+              "id": "b1-futuro-compuesto-y-condicional-simple",
+              "status": "published"
+            },
+            {
+              "id": "b1-condicional-cortesia-e-hipotesis",
+              "status": "published"
+            },
+            {
+              "id": "b1-imperativo-negativo-y-pronombres",
+              "status": "published"
+            },
+            {
+              "id": "b1-subjuntivo-presente-formacion",
+              "status": "published"
+            },
+            {
+              "id": "b1-subjuntivo-deseo-duda-emocion",
+              "status": "published"
+            },
+            {
+              "id": "b1-voz-pasiva-y-pasiva-refleja",
+              "status": "published"
+            },
+            {
+              "id": "b1-estilo-indirecto-presente",
+              "status": "published"
+            },
+            {
+              "id": "b1-pronombres-combinados",
+              "status": "published"
+            },
+            {
+              "id": "b1-por-y-para",
+              "status": "published"
+            },
+            {
+              "id": "b1-oraciones-relativas",
+              "status": "published"
+            },
+            {
+              "id": "b1-voseo-argentino-y-variedades",
+              "status": "published"
+            },
+            {
+              "id": "b1-conectores-y-marcadores-del-discurso",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "B2": {
+      "overview": "El nivel B2 completa el sistema del subjuntivo con el imperfecto y las oraciones condicionales, y profundiza en cuándo el indicativo cede el paso al subjuntivo en oraciones sustantivas, relativas y adverbiales. También verás las perífrasis verbales, los usos más avanzados de ser y estar, la pasiva y las construcciones con se en más profundidad, el estilo indirecto en todos los tiempos, conectores argumentativos más sofisticados, colocaciones y expresiones idiomáticas, y la diferencia entre el registro formal e informal. Al terminar este nivel podrás interactuar con fluidez y espontaneidad, y argumentar tus ideas con claridad y matices.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Gramática B2",
+          "lessons": [
+            {
+              "id": "b2-imperfecto-de-subjuntivo",
+              "status": "published"
+            },
+            {
+              "id": "b2-condicionales-con-si-subjuntivo",
+              "status": "published"
+            },
+            {
+              "id": "b2-subjuntivo-vs-indicativo-sustantivas",
+              "status": "published"
+            },
+            {
+              "id": "b2-subjuntivo-relativas-y-adverbiales",
+              "status": "published"
+            },
+            {
+              "id": "b2-perifrasis-verbales",
+              "status": "published"
+            },
+            {
+              "id": "b2-ser-y-estar-avanzado",
+              "status": "published"
+            },
+            {
+              "id": "b2-pasiva-avanzada-y-se",
+              "status": "published"
+            },
+            {
+              "id": "b2-estilo-indirecto-todos-los-tiempos",
+              "status": "published"
+            },
+            {
+              "id": "b2-conectores-argumentativos-avanzados",
+              "status": "published"
+            },
+            {
+              "id": "b2-colocaciones-y-expresiones-idiomaticas",
+              "status": "published"
+            },
+            {
+              "id": "b2-registro-formal-e-informal",
+              "status": "published"
+            },
+            {
+              "id": "b2-futuro-de-subjuntivo",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "C1": {
+      "overview": "En el nivel C1, el estudiante ya domina el subjuntivo básico y las estructuras principales del español; ahora afina matices finos del modo subjuntivo, incorpora el pluscuamperfecto de subjuntivo y las condicionales complejas, aprende a construir un discurso cohesionado con conectores avanzados y nominalización propia del registro académico y profesional, y explora con respeto la riqueza dialectal del español — desde el voseo rioplatense hasta el ustedeo colombiano — junto con los recursos de atenuación, cortesía e ironía que distinguen a un hablante verdaderamente fluido.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Gramática C1",
+          "lessons": [
+            {
+              "id": "c1-pluscuamperfecto-de-subjuntivo",
+              "status": "published"
+            },
+            {
+              "id": "c1-condicionales-complejas",
+              "status": "published"
+            },
+            {
+              "id": "c1-matices-del-subjuntivo",
+              "status": "published"
+            },
+            {
+              "id": "c1-construcciones-enfaticas",
+              "status": "published"
+            },
+            {
+              "id": "c1-nominalizacion-y-estilo-academico",
+              "status": "published"
+            },
+            {
+              "id": "c1-conectores-textuales-avanzados",
+              "status": "published"
+            },
+            {
+              "id": "c1-perifrasis-verbales-avanzadas",
+              "status": "published"
+            },
+            {
+              "id": "c1-voseo-ustedeo-y-variacion-dialectal",
+              "status": "published"
+            },
+            {
+              "id": "c1-ironia-atenuacion-y-cortesia",
+              "status": "published"
+            },
+            {
+              "id": "c1-espanol-academico-y-profesional",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "C2": {
+      "overview": "El nivel C2 es la cumbre de este curso: ya no se trata de aprender gramática nueva, sino de refinar un dominio que ya es prácticamente completo. Trabajarás la sintaxis compleja y la subordinación múltiple, el registro literario y sus recursos estilísticos, los matices léxicos y los falsos amigos más sutiles, la riqueza de la variación regional del español, la cohesión de un discurso extenso, la modalidad y la atenuación en el registro formal, algunas estructuras arcaicas o literarias que todo lector culto reconoce, y la capacidad de transformar deliberadamente tu registro según la situación. Al terminar este nivel tendrás un dominio del español prácticamente indistinguible del de un hablante culto nativo, en casi cualquier contexto imaginable.",
+      "units": [
+        {
+          "id": "1",
+          "title": "Gramática C2",
+          "lessons": [
+            {
+              "id": "c2-sintaxis-compleja-y-subordinacion-multiple",
+              "status": "published"
+            },
+            {
+              "id": "c2-registro-literario-y-recursos-estilisticos",
+              "status": "published"
+            },
+            {
+              "id": "c2-matices-lexicos-y-falsos-amigos-avanzados",
+              "status": "published"
+            },
+            {
+              "id": "c2-variacion-regional",
+              "status": "published"
+            },
+            {
+              "id": "c2-cohesion-textual-en-discurso-extenso",
+              "status": "published"
+            },
+            {
+              "id": "c2-modalidad-y-atenuacion-en-discurso-formal",
+              "status": "published"
+            },
+            {
+              "id": "c2-estructuras-arcaicas-o-literarias",
+              "status": "published"
+            },
+            {
+              "id": "c2-dominio-del-registro-y-transformacion-estilistica",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
