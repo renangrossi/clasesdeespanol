@@ -1,0 +1,167 @@
+{
+  "id": "a2-pronombres-de-objeto-indirecto",
+  "level": "A2",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "pronombres",
+  "title": "Pronombres de Objeto Indirecto",
+  "subtitle": "Me, te, le, nos, os, les: a quién o para quién se dirige la acción.",
+  "objectives": [
+    "Identificar el objeto indirecto de una frase",
+    "Usar los pronombres me, te, le, nos, os, les correctamente",
+    "Reconocer verbos frecuentes que casi siempre llevan objeto indirecto (dar, decir, gustar, escribir)"
+  ],
+  "content": {
+    "intro": "El objeto indirecto indica a quién o para quién se hace algo — la persona que recibe el beneficio, el daño o la información de la acción, aunque no sea lo que se da o se dice directamente.",
+    "explanation": "<p>En <em>Le doy el libro a mi hermano</em>, <strong>el libro</strong> es el objeto directo (lo que se da) y <strong>a mi hermano</strong> es el objeto indirecto (a quién se le da). Los pronombres <strong>me, te, le, nos, os, les</strong> sustituyen a ese destinatario, y a diferencia de los pronombres de objeto directo, no cambian según el género — solo según la persona.</p><p>Una particularidad muy frecuente del español es repetir el pronombre incluso cuando el destinatario ya aparece nombrado con <em>a</em>: <em>Le doy el libro a mi hermano</em> es la forma natural, no una redundancia que deba evitarse. Verbos como <strong>gustar, encantar, parecer, doler</strong> funcionan siempre con objeto indirecto, no con sujeto en primera persona.</p>",
+    "rules": [
+      {
+        "heading": "a) Las seis formas",
+        "body": "<ul><li><strong>me</strong> — a mí</li><li><strong>te</strong> — a ti</li><li><strong>le</strong> — a él/ella/usted</li><li><strong>nos</strong> — a nosotros/as</li><li><strong>os</strong> — a vosotros/as</li><li><strong>les</strong> — a ellos/ellas/ustedes</li></ul>"
+      },
+      {
+        "heading": "b) Duplicación con \"a + persona\"",
+        "body": "<p>Es normal, casi obligatorio, mantener el pronombre aunque ya se mencione a quién: <em>Le escribí una carta a mi abuela.</em> No es un error de redundancia, es la estructura habitual del español.</p>"
+      },
+      {
+        "heading": "c) Verbos que siempre llevan objeto indirecto",
+        "body": "<ul><li><em>Me gusta el chocolate.</em> (no \"yo gusto\")</li><li><em>Le duele la cabeza.</em></li><li><em>Nos parece una buena idea.</em></li><li><em>Les encanta viajar.</em></li></ul>"
+      },
+      {
+        "heading": "d) Posición",
+        "body": "<p>Las mismas reglas que el objeto directo: antes del verbo conjugado, o pegado al infinitivo/gerundio/imperativo afirmativo — <em>Le voy a escribir</em> / <em>Voy a escribirle</em>; <em>Escríbele pronto.</em></p>"
+      }
+    ],
+    "examples": [
+      "Le mandé un mensaje a mi jefe esta mañana.",
+      "¿Me puedes explicar esta parte de la lección?",
+      "Les dimos las gracias por su ayuda.",
+      "Nos parece una idea excelente para el proyecto.",
+      "Te escribo pronto con más detalles del viaje.",
+      "A ella le encanta la música clásica.",
+      "¿Os gusta el plan que preparamos para el sábado?",
+      "Le duele mucho la espalda desde ayer."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Yo gusto el chocolate.",
+        "right": "Me gusta el chocolate.",
+        "why": "Gustar funciona al revés que en otros idiomas: la persona es el objeto indirecto (me), y el sujeto gramatical es lo que gusta (el chocolate)."
+      },
+      {
+        "wrong": "Escribí una carta a mi abuela.",
+        "right": "Le escribí una carta a mi abuela.",
+        "why": "El español mantiene el pronombre le aunque ya se mencione a quién con \"a mi abuela\"; es la estructura natural, no una redundancia."
+      },
+      {
+        "wrong": "Les gusta a ellos el fútbol.",
+        "right": "A ellos les gusta el fútbol. / Les gusta el fútbol.",
+        "why": "El pronombre les es obligatorio; \"a ellos\" es opcional y solo se añade para dar énfasis o claridad, sin sustituir al pronombre."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2oi-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Pronombre de Objeto Indirecto",
+      "items": [
+        {
+          "id": "a2oi1",
+          "prompt": "A mí ___ gusta mucho leer novelas.",
+          "answers": [
+            [
+              "me"
+            ]
+          ],
+          "options": [
+            "me",
+            "le",
+            "te"
+          ],
+          "explanation": "A mí corresponde el pronombre me."
+        },
+        {
+          "id": "a2oi2",
+          "prompt": "A ellos ___ encanta viajar por Sudamérica.",
+          "answers": [
+            [
+              "les"
+            ]
+          ],
+          "options": [
+            "les",
+            "le",
+            "nos"
+          ],
+          "explanation": "A ellos corresponde el pronombre les."
+        },
+        {
+          "id": "a2oi3",
+          "prompt": "___ escribí un correo a mi profesora ayer.",
+          "answers": [
+            [
+              "Le"
+            ]
+          ],
+          "options": [
+            "Le",
+            "La",
+            "Lo"
+          ],
+          "explanation": "Profesora es el destinatario (a quién), así que se usa el pronombre de objeto indirecto le, no la de objeto directo."
+        }
+      ]
+    },
+    {
+      "id": "a2oi-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Pronombre Correcto",
+      "items": [
+        {
+          "id": "a2oi4",
+          "prompt": "\"___ duele la cabeza a mi hermana.\"",
+          "options": [
+            "La",
+            "Le",
+            "Lo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Doler funciona como gustar: la persona afectada es el objeto indirecto, le."
+        },
+        {
+          "id": "a2oi5",
+          "prompt": "¿Cuál es la forma correcta para \"a nosotros\"?",
+          "options": [
+            "nos",
+            "os",
+            "les"
+          ],
+          "answerIndex": 0,
+          "explanation": "A nosotros corresponde el pronombre nos."
+        }
+      ]
+    },
+    {
+      "id": "a2oi-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2oi6",
+          "incorrect": "Yo gusto mucho el café por las mañanas.",
+          "answer": [
+            "Me gusta mucho el café por las mañanas."
+          ],
+          "explanation": "Gustar requiere el pronombre de objeto indirecto me; el sujeto gramatical es el café, no yo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los pronombres de objeto indirecto (me, te, le, nos, os, les) indican a quién o para quién se dirige la acción.",
+    "El español suele mantener el pronombre aunque el destinatario ya se mencione con a + persona.",
+    "Verbos como gustar, encantar, parecer y doler siempre usan objeto indirecto: la persona nunca es el sujeto gramatical."
+  ]
+}

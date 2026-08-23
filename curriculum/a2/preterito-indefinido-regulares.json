@@ -1,0 +1,178 @@
+{
+  "id": "a2-preterito-indefinido-regulares",
+  "level": "A2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "preterito-indefinido",
+  "title": "Pretérito Indefinido — Verbos Regulares",
+  "subtitle": "El tiempo para contar hechos pasados terminados y completos.",
+  "objectives": [
+    "Conjugar verbos regulares en -ar, -er e -ir en pretérito indefinido",
+    "Reconocer los marcadores de tiempo típicos de este tiempo verbal",
+    "Usar el pretérito indefinido para narrar una serie de hechos pasados"
+  ],
+  "content": {
+    "intro": "El pretérito indefinido es el tiempo de la narración: cuenta hechos que ocurrieron y terminaron en un momento concreto del pasado, uno detrás de otro.",
+    "explanation": "<p>Se forma añadiendo terminaciones propias a la raíz del verbo, distintas de las del presente. Los verbos en <strong>-er</strong> e <strong>-ir</strong> comparten exactamente las mismas terminaciones en este tiempo, a diferencia del presente, donde se diferencian un poco más.</p><p>Se usa con marcadores de tiempo cerrados y terminados: <em>ayer, anoche, la semana pasada, en 2020, hace tres años</em>. Es el tiempo típico de una narración: cuenta lo que pasó, paso a paso, como una serie de fotos fijas.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Pretérito indefinido — hablar, comer, vivir</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th></tr></thead><tbody><tr><td>yo</td><td>hablé</td><td>comí</td><td>viví</td></tr><tr><td>tú</td><td>hablaste</td><td>comiste</td><td>viviste</td></tr><tr><td>él/ella/usted</td><td>habló</td><td>comió</td><td>vivió</td></tr><tr><td>nosotros/as</td><td>hablamos</td><td>comimos</td><td>vivimos</td></tr><tr><td>vosotros/as</td><td>hablasteis</td><td>comisteis</td><td>vivisteis</td></tr><tr><td>ellos/as/ustedes</td><td>hablaron</td><td>comieron</td><td>vivieron</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Terminaciones -ar",
+        "body": "<p>-é, -aste, -ó, -amos, -asteis, -aron</p>"
+      },
+      {
+        "heading": "b) Terminaciones -er/-ir (idénticas)",
+        "body": "<p>-í, -iste, -ió, -imos, -isteis, -ieron</p>"
+      },
+      {
+        "heading": "c) Nosotros coincide con el presente en -ar e -ir",
+        "body": "<p>Hablamos y vivimos se escriben igual en presente y en pretérito indefinido; solo el contexto de la frase indica el tiempo.</p>"
+      },
+      {
+        "heading": "d) Marcadores de tiempo típicos",
+        "body": "<ul><li><em>ayer, anoche, anteayer</em></li><li><em>la semana/el mes/el año pasado</em></li><li><em>en + año (en 2019), hace + tiempo (hace dos días)</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Ayer hablé con mi hermano por teléfono.",
+      "Anoche comimos en un restaurante nuevo del centro.",
+      "El año pasado viví seis meses en Chile.",
+      "¿Estudiaste para el examen de la semana pasada?",
+      "Mis amigos viajaron a la costa el mes pasado.",
+      "Ella nació en 1998 en Bogotá.",
+      "Terminamos el proyecto hace dos días.",
+      "Ustedes compraron una casa nueva el año pasado."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Yo hablé con él ayer y como pizza.",
+        "right": "Yo hablé con él ayer y comí pizza.",
+        "why": "Al narrar una serie de hechos pasados, todos los verbos deben mantenerse en pretérito indefinido, no cambiar a presente."
+      },
+      {
+        "wrong": "Nosotros hablastemos con el profesor.",
+        "right": "Nosotros hablamos con el profesor.",
+        "why": "La forma de nosotros es hablamos, no existe la terminación -astemos."
+      },
+      {
+        "wrong": "Ellos viviaron en Madrid.",
+        "right": "Ellos vivieron en Madrid.",
+        "why": "Los verbos en -ir usan la terminación -ieron en la tercera persona plural, no -iaron."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pir-fill",
+      "type": "fill-blank",
+      "title": "Conjuga en Pretérito Indefinido",
+      "items": [
+        {
+          "id": "a2pir1",
+          "prompt": "Ayer yo ___ (trabajar) hasta muy tarde.",
+          "answers": [
+            [
+              "trabajé"
+            ]
+          ],
+          "options": [
+            "trabajé",
+            "trabajo",
+            "trabajaba"
+          ],
+          "explanation": "Yo + verbo en -ar en indefinido = terminación -é."
+        },
+        {
+          "id": "a2pir2",
+          "prompt": "Anoche nosotros ___ (comer) en casa de mis abuelos.",
+          "answers": [
+            [
+              "comimos"
+            ]
+          ],
+          "options": [
+            "comimos",
+            "comemos",
+            "comieron"
+          ],
+          "explanation": "Nosotros + verbo en -er en indefinido = terminación -imos."
+        },
+        {
+          "id": "a2pir3",
+          "prompt": "El año pasado ellos ___ (vivir) en Uruguay.",
+          "answers": [
+            [
+              "vivieron"
+            ]
+          ],
+          "options": [
+            "vivieron",
+            "vivían",
+            "viven"
+          ],
+          "explanation": "Ellos + verbo en -ir en indefinido = terminación -ieron."
+        }
+      ]
+    },
+    {
+      "id": "a2pir-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "a2pir4",
+          "prompt": "¿Cuál es la forma de \"tú\" del verbo \"estudiar\" en indefinido?",
+          "options": [
+            "estudiaste",
+            "estudiabas",
+            "estudias"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tú + verbo en -ar en indefinido = terminación -aste."
+        },
+        {
+          "id": "a2pir5",
+          "prompt": "¿Qué marcador de tiempo acompaña naturalmente al pretérito indefinido?",
+          "options": [
+            "siempre",
+            "la semana pasada",
+            "todos los días"
+          ],
+          "answerIndex": 1,
+          "explanation": "La semana pasada señala un periodo cerrado y terminado, típico del pretérito indefinido."
+        }
+      ]
+    },
+    {
+      "id": "a2pir-ordering",
+      "type": "ordering",
+      "title": "Ordena la Oración",
+      "items": [
+        {
+          "id": "a2pir6",
+          "prompt": "Ordena para narrar un hecho del pasado.",
+          "words": [
+            "El",
+            "mes",
+            "pasado",
+            "viajamos",
+            "a",
+            "la",
+            "playa",
+            "con",
+            "toda",
+            "la",
+            "familia"
+          ],
+          "explanation": "El mes pasado marca un momento cerrado del pasado, y viajamos es la forma de nosotros en pretérito indefinido."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El pretérito indefinido usa terminaciones propias: -é/-aste/-ó/-amos/-asteis/-aron para -ar, e -í/-iste/-ió/-imos/-isteis/-ieron para -er/-ir.",
+    "Se usa con marcadores de tiempo cerrados como ayer, la semana pasada o en + año.",
+    "Es el tiempo de la narración: cuenta hechos pasados, uno detrás de otro, como una serie de momentos completos."
+  ]
+}

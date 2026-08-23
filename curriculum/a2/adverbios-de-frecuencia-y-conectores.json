@@ -1,0 +1,166 @@
+{
+  "id": "a2-adverbios-de-frecuencia-y-conectores",
+  "level": "A2",
+  "unit": "1",
+  "order": 12,
+  "skill": "vocabulary",
+  "strand": "conectores",
+  "title": "Adverbios de Frecuencia y Conectores Básicos",
+  "subtitle": "Siempre, a veces, nunca; y, pero, porque, entonces: para hablar de rutinas y encadenar ideas.",
+  "objectives": [
+    "Usar adverbios de frecuencia para describir hábitos y rutinas",
+    "Ordenar adverbios de frecuencia de mayor a menor frecuencia",
+    "Encadenar ideas simples con conectores básicos (y, pero, porque, entonces, además)"
+  ],
+  "content": {
+    "intro": "Los adverbios de frecuencia dicen con qué regularidad ocurre algo, y los conectores básicos permiten unir frases sueltas en un discurso que fluye de manera natural.",
+    "explanation": "<p>Los adverbios de frecuencia se colocan normalmente antes del verbo principal (<em>siempre desayuno</em>) o al final de la frase (<em>desayuno siempre</em>), salvo <strong>nunca</strong>, que puede ir antes del verbo sin necesitar ninguna otra negación (<em>Nunca como carne</em>), o después del verbo, en cuyo caso sí se necesita <strong>no</strong> antes del verbo (<em>No como carne nunca</em>).</p><p>Los conectores básicos organizan la relación lógica entre dos ideas: <strong>y</strong> suma, <strong>pero</strong> contrasta, <strong>porque</strong> explica una causa, <strong>entonces</strong>/<strong>por eso</strong> indica una consecuencia, y <strong>además</strong> añade información nueva a favor de la misma idea.</p>",
+    "rules": [
+      {
+        "heading": "a) Escala de frecuencia (de más a menos)",
+        "body": "<p><em>siempre &gt; casi siempre &gt; normalmente/generalmente &gt; a veces &gt; casi nunca &gt; nunca</em></p>"
+      },
+      {
+        "heading": "b) Posición de los adverbios de frecuencia",
+        "body": "<ul><li>Antes del verbo: <em>Siempre llego temprano.</em></li><li>Al final de la frase: <em>Llego temprano siempre.</em></li><li>Nunca antes del verbo no necesita no: <em>Nunca llego tarde.</em> Después del verbo sí lo necesita: <em>No llego tarde nunca.</em></li></ul>"
+      },
+      {
+        "heading": "c) Conectores de suma y contraste",
+        "body": "<ul><li><strong>y</strong>: <em>Estudio español y trabajo por las tardes.</em></li><li><strong>pero</strong>: <em>Me gusta el café, pero prefiero el té por la noche.</em></li></ul>"
+      },
+      {
+        "heading": "d) Conectores de causa y consecuencia",
+        "body": "<ul><li><strong>porque</strong> (causa): <em>Llego tarde porque hay mucho tráfico.</em></li><li><strong>entonces / por eso</strong> (consecuencia): <em>Hay mucho tráfico, entonces llego tarde.</em></li><li><strong>además</strong> (información adicional): <em>El piso es grande y, además, está muy bien situado.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Siempre desayuno antes de salir de casa.",
+      "A veces voy al gimnasio después del trabajo.",
+      "Casi nunca como comida rápida entre semana.",
+      "Estudio mucho, pero todavía cometo muchos errores.",
+      "No hablo francés, porque nunca lo estudié en la escuela.",
+      "Llovió toda la noche, entonces cancelamos el partido.",
+      "El hotel es cómodo y, además, está muy bien situado.",
+      "Nunca llego tarde a mis clases de español."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "No siempre como carne.",
+        "right": "Nunca como carne. / No como carne nunca.",
+        "why": "\"No siempre\" significa \"a veces sí, a veces no\", un significado distinto del que se buscaba (nunca), que expresa frecuencia cero."
+      },
+      {
+        "wrong": "Estudio mucho pero yo aprendo rápido.",
+        "right": "Estudio mucho, pero aprendo rápido.",
+        "why": "En español, después de pero, no suele repetirse el pronombre de sujeto si ya está claro por el contexto."
+      },
+      {
+        "wrong": "Llego tarde entonces hay mucho tráfico.",
+        "right": "Llego tarde porque hay mucho tráfico.",
+        "why": "Porque introduce la causa; entonces introduce la consecuencia — el orden lógico aquí es al revés."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2af-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Conector Correcto",
+      "items": [
+        {
+          "id": "a2af1",
+          "prompt": "\"Estudio mucho, ___ todavía cometo errores.\"",
+          "options": [
+            "y",
+            "pero",
+            "porque"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pero introduce un contraste entre las dos ideas."
+        },
+        {
+          "id": "a2af2",
+          "prompt": "\"Llegué tarde ___ había mucho tráfico.\"",
+          "options": [
+            "porque",
+            "entonces",
+            "pero"
+          ],
+          "answerIndex": 0,
+          "explanation": "Porque introduce la causa del hecho anterior."
+        },
+        {
+          "id": "a2af3",
+          "prompt": "¿Cuál de estos adverbios indica mayor frecuencia?",
+          "options": [
+            "a veces",
+            "casi nunca",
+            "casi siempre"
+          ],
+          "answerIndex": 2,
+          "explanation": "Casi siempre está mucho más cerca del extremo de máxima frecuencia que las otras dos opciones."
+        }
+      ]
+    },
+    {
+      "id": "a2af-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Adverbio o Conector",
+      "items": [
+        {
+          "id": "a2af4",
+          "prompt": "Yo ___ (frecuencia máxima) desayuno café con pan.",
+          "answers": [
+            [
+              "siempre"
+            ]
+          ],
+          "options": [
+            "siempre",
+            "nunca",
+            "a veces"
+          ],
+          "explanation": "Siempre expresa la frecuencia máxima."
+        },
+        {
+          "id": "a2af5",
+          "prompt": "No tengo tiempo hoy, ___ no puedo ir contigo.",
+          "answers": [
+            [
+              "entonces"
+            ],
+            [
+              "por eso"
+            ]
+          ],
+          "options": [
+            "entonces",
+            "por eso",
+            "porque"
+          ],
+          "explanation": "Entonces/por eso introducen la consecuencia lógica de la falta de tiempo."
+        }
+      ]
+    },
+    {
+      "id": "a2af-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2af6",
+          "incorrect": "Como verduras porque, además, hago ejercicio todos los días.",
+          "answer": [
+            "Como verduras y, además, hago ejercicio todos los días."
+          ],
+          "explanation": "Además añade información adicional a favor de la misma idea, no introduce una causa; el conector correcto para sumar las dos ideas es y."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La escala de frecuencia va de siempre a nunca; nunca antes del verbo no necesita no, después del verbo sí lo necesita.",
+    "Y suma, pero contrasta, porque explica una causa, entonces/por eso indica una consecuencia y además añade información nueva.",
+    "El orden lógico entre causa y consecuencia importa: no se puede intercambiar porque por entonces sin cambiar el sentido."
+  ]
+}

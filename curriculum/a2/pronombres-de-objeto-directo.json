@@ -1,0 +1,167 @@
+{
+  "id": "a2-pronombres-de-objeto-directo",
+  "level": "A2",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "pronombres",
+  "title": "Pronombres de Objeto Directo",
+  "subtitle": "Lo, la, los, las: sustituyen a la cosa o persona directamente afectada por la acción.",
+  "objectives": [
+    "Identificar el objeto directo de una frase",
+    "Sustituir el objeto directo por el pronombre correspondiente (lo, la, los, las)",
+    "Colocar correctamente el pronombre antes del verbo conjugado o pegado al infinitivo/gerundio"
+  ],
+  "content": {
+    "intro": "Repetir el mismo sustantivo una y otra vez suena artificial en cualquier idioma — el pronombre de objeto directo permite sustituirlo una vez que ya quedó claro de qué se habla.",
+    "explanation": "<p>El objeto directo es la persona o cosa que recibe directamente la acción del verbo: en <em>Compré el libro</em>, <strong>el libro</strong> es el objeto directo. Los pronombres <strong>lo, la, los, las</strong> concuerdan en género y número con el sustantivo que sustituyen, no con quien habla.</p><p>La posición depende de la forma verbal: con un verbo conjugado, el pronombre va <strong>antes</strong> (<em>Lo compré</em>); con un infinitivo o un gerundio, puede ir antes del verbo conjugado o pegado al final del infinitivo/gerundio (<em>Lo voy a comprar</em> / <em>Voy a comprarlo</em>); con un imperativo afirmativo, siempre va pegado al final (<em>Cómpralo</em>).</p>",
+    "rules": [
+      {
+        "heading": "a) Las cuatro formas",
+        "body": "<ul><li><strong>lo</strong> — masculino singular: <em>¿El libro? Lo tengo aquí.</em></li><li><strong>la</strong> — femenino singular: <em>¿La tarea? La terminé anoche.</em></li><li><strong>los</strong> — masculino plural: <em>¿Los boletos? Los compré ayer.</em></li><li><strong>las</strong> — femenino plural: <em>¿Las llaves? Las dejé en la mesa.</em></li></ul>"
+      },
+      {
+        "heading": "b) Posición con verbo conjugado",
+        "body": "<p>El pronombre va inmediatamente antes del verbo: <em>Lo veo todos los días.</em></p>"
+      },
+      {
+        "heading": "c) Posición con infinitivo o gerundio",
+        "body": "<p>Dos posiciones posibles, ambas correctas: <em>Lo quiero ver</em> / <em>Quiero verlo</em>; <em>Lo estoy viendo</em> / <em>Estoy viéndolo</em> (nota la tilde añadida al pegar el pronombre al gerundio).</p>"
+      },
+      {
+        "heading": "d) Posición con imperativo afirmativo",
+        "body": "<p>Siempre pegado al final del verbo: <em>Cómpralo. Hazlo ahora. Ábrela con cuidado.</em></p>"
+      }
+    ],
+    "examples": [
+      "¿Tienes las llaves? Sí, las tengo en el bolsillo.",
+      "Compré el pan esta mañana y ya lo comí todo.",
+      "¿Has visto mi teléfono? No, no lo he visto.",
+      "Vamos a preparar la cena juntos, la vamos a preparar ahora.",
+      "Estoy leyendo un libro muy interesante, lo estoy disfrutando mucho.",
+      "Necesito los documentos; ¿puedes traérmelos, por favor?",
+      "La profesora explica la lección y todos la entendemos bien.",
+      "Termina la tarea antes de salir, termínala ya."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Veo lo todos los días.",
+        "right": "Lo veo todos los días.",
+        "why": "Con un verbo conjugado, el pronombre de objeto directo va antes del verbo, no después."
+      },
+      {
+        "wrong": "¿Las llaves? Los tengo aquí.",
+        "right": "¿Las llaves? Las tengo aquí.",
+        "why": "El pronombre debe concordar en género con llaves (femenino), así que es las, no los."
+      },
+      {
+        "wrong": "Cómpra lo mañana.",
+        "right": "Cómpralo mañana.",
+        "why": "Con el imperativo afirmativo, el pronombre se escribe pegado al verbo, sin espacio, formando una sola palabra."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2od-fill",
+      "type": "fill-blank",
+      "title": "Sustituye por el Pronombre Correcto",
+      "items": [
+        {
+          "id": "a2od1",
+          "prompt": "¿Tienes el pasaporte? Sí, ___ tengo en el bolso.",
+          "answers": [
+            [
+              "lo"
+            ]
+          ],
+          "options": [
+            "lo",
+            "la",
+            "los"
+          ],
+          "explanation": "Pasaporte es masculino singular: lo."
+        },
+        {
+          "id": "a2od2",
+          "prompt": "¿Compraste las entradas? Sí, ___ compré ayer.",
+          "answers": [
+            [
+              "las"
+            ]
+          ],
+          "options": [
+            "lo",
+            "la",
+            "las"
+          ],
+          "explanation": "Entradas es femenino plural: las."
+        },
+        {
+          "id": "a2od3",
+          "prompt": "Necesito el informe; voy a terminar___ esta noche.",
+          "answers": [
+            [
+              "lo"
+            ]
+          ],
+          "options": [
+            "lo",
+            "la",
+            "le"
+          ],
+          "explanation": "Informe es masculino singular; con el infinitivo, el pronombre puede ir pegado al final: terminarlo."
+        }
+      ]
+    },
+    {
+      "id": "a2od-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Posición Correcta",
+      "items": [
+        {
+          "id": "a2od4",
+          "prompt": "¿Cuál es la forma correcta con el imperativo?",
+          "options": [
+            "Lo hazlo ahora.",
+            "Hazlo ahora.",
+            "Haz lo ahora."
+          ],
+          "answerIndex": 1,
+          "explanation": "Con el imperativo afirmativo, el pronombre siempre va pegado al final del verbo."
+        },
+        {
+          "id": "a2od5",
+          "prompt": "¿Cuál de estas dos frases es también correcta junto a \"Lo voy a comprar\"?",
+          "options": [
+            "Voy a comprarlo.",
+            "Voy a lo comprar.",
+            "Voy comprarlo a."
+          ],
+          "answerIndex": 0,
+          "explanation": "Con infinitivo, el pronombre puede ir antes del verbo conjugado o pegado al infinitivo: ambas son correctas."
+        }
+      ]
+    },
+    {
+      "id": "a2od-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2od6",
+          "incorrect": "Necesito ayuda con la tarea, ¿puedes ayudar me con lo?",
+          "answer": [
+            "Necesito ayuda con la tarea, ¿puedes ayudarme con ella?"
+          ],
+          "explanation": "Tarea es femenina, así que el pronombre correcto es la/ella, no lo; además me se pega directamente al infinitivo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Lo, la, los, las sustituyen al objeto directo y concuerdan en género y número con el sustantivo que reemplazan.",
+    "Con un verbo conjugado, el pronombre va antes; con infinitivo o gerundio hay dos posiciones posibles; con el imperativo afirmativo, siempre va pegado al final.",
+    "El pronombre nunca concuerda con quien habla, sino con la cosa o persona sustituida."
+  ]
+}

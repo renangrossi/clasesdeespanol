@@ -1,0 +1,172 @@
+{
+  "id": "a2-preterito-perfecto-compuesto",
+  "level": "A2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "preterito-perfecto",
+  "title": "Pretérito Perfecto Compuesto",
+  "subtitle": "Haber + participio: acciones pasadas conectadas con el presente.",
+  "objectives": [
+    "Conjugar haber en presente como verbo auxiliar",
+    "Formar el participio de verbos regulares e irregulares frecuentes",
+    "Usar el pretérito perfecto compuesto para acciones recientes o con conexión al presente"
+  ],
+  "content": {
+    "intro": "El pretérito perfecto compuesto une un hecho pasado con el momento presente: es el tiempo que usas cuando lo que pasó todavía importa ahora, o pasó muy recientemente.",
+    "explanation": "<p>Se forma con el presente de <strong>haber</strong> (he, has, ha, hemos, habéis, han) más el <strong>participio</strong> del verbo principal. Los participios regulares terminan en <strong>-ado</strong> (verbos en -ar) o <strong>-ido</strong> (verbos en -er/-ir), pero varios verbos muy frecuentes tienen un participio irregular que hay que memorizar aparte.</p><p>Se usa sobre todo para hablar de acciones ocurridas en un periodo de tiempo que todavía no ha terminado (<em>hoy, esta semana, este año</em>), para experiencias de vida sin momento concreto, y para hechos recientes cuyo resultado se nota ahora. En España es el tiempo más habitual para el pasado reciente; en gran parte de América Latina se prefiere el pretérito indefinido incluso para hechos de hoy mismo.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Haber + participio</caption><thead><tr><th>Sujeto</th><th>haber</th><th>hablar</th><th>comer</th><th>vivir</th></tr></thead><tbody><tr><td>yo</td><td>he</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>tú</td><td>has</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>él/ella/usted</td><td>ha</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>nosotros/as</td><td>hemos</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>vosotros/as</td><td>habéis</td><td>hablado</td><td>comido</td><td>vivido</td></tr><tr><td>ellos/as/ustedes</td><td>han</td><td>hablado</td><td>comido</td><td>vivido</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Participios irregulares frecuentes",
+        "body": "<ul><li><em>hacer &rarr; hecho, decir &rarr; dicho, escribir &rarr; escrito, ver &rarr; visto</em></li><li><em>poner &rarr; puesto, volver &rarr; vuelto, abrir &rarr; abierto, romper &rarr; roto</em></li><li><em>morir &rarr; muerto, resolver &rarr; resuelto</em></li></ul>"
+      },
+      {
+        "heading": "b) Cuándo se usa",
+        "body": "<ul><li>Periodo de tiempo no terminado: <em>Hoy he trabajado mucho.</em></li><li>Experiencia sin momento concreto: <em>He viajado a Perú dos veces.</em></li><li>Resultado presente de un hecho reciente: <em>Se ha roto el vaso.</em></li></ul>"
+      },
+      {
+        "heading": "c) Nunca se separa haber del participio",
+        "body": "<p>A diferencia de otros idiomas, en español no se puede meter ninguna palabra entre el auxiliar y el participio: <em>He siempre querido viajar</em> es incorrecto; la posición correcta es <em>Siempre he querido viajar.</em></p>"
+      }
+    ],
+    "examples": [
+      "Esta semana he estudiado mucho para el examen.",
+      "¿Has visto la nueva película del director mexicano?",
+      "Todavía no hemos terminado el proyecto.",
+      "Mis padres han vivido en tres países distintos.",
+      "¿Alguna vez has comido comida picante de verdad?",
+      "Se ha roto la impresora otra vez esta mañana.",
+      "Nunca he estado en Argentina, pero quiero ir pronto.",
+      "Ellos ya han hecho toda la tarea del fin de semana."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He hablado con él ayer.",
+        "right": "Hablé con él ayer.",
+        "why": "Con un marcador de tiempo terminado como ayer, se prefiere el pretérito indefinido, no el perfecto compuesto."
+      },
+      {
+        "wrong": "Ha escribido una carta.",
+        "right": "Ha escrito una carta.",
+        "why": "Escribir tiene un participio irregular: escrito, no escribido."
+      },
+      {
+        "wrong": "He siempre querido aprender español.",
+        "right": "Siempre he querido aprender español.",
+        "why": "Ninguna palabra puede separar el auxiliar haber del participio; el adverbio va antes de haber o después del participio."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pp-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Pretérito Perfecto Compuesto",
+      "items": [
+        {
+          "id": "a2pp1",
+          "prompt": "Yo ___ (comer) ya.",
+          "answers": [
+            [
+              "he comido"
+            ]
+          ],
+          "options": [
+            "he comido",
+            "has comido",
+            "ha comido"
+          ],
+          "explanation": "Yo + haber (he) + participio de comer (comido)."
+        },
+        {
+          "id": "a2pp2",
+          "prompt": "¿___ (tú - ver) esta serie?",
+          "answers": [
+            [
+              "Has visto"
+            ]
+          ],
+          "options": [
+            "Has visto",
+            "Ha visto",
+            "He visto"
+          ],
+          "explanation": "Tú + haber (has) + participio irregular de ver (visto)."
+        },
+        {
+          "id": "a2pp3",
+          "prompt": "Nosotros no ___ (hacer) la compra todavía.",
+          "answers": [
+            [
+              "hemos hecho"
+            ]
+          ],
+          "options": [
+            "hemos hecho",
+            "habemos hecho",
+            "han hecho"
+          ],
+          "explanation": "Nosotros + haber (hemos) + participio irregular de hacer (hecho)."
+        }
+      ]
+    },
+    {
+      "id": "a2pp-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Participio Correcto",
+      "items": [
+        {
+          "id": "a2pp4",
+          "prompt": "El participio de \"escribir\" es...",
+          "options": [
+            "escribido",
+            "escrito",
+            "escribiendo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Escribir tiene participio irregular: escrito."
+        },
+        {
+          "id": "a2pp5",
+          "prompt": "El participio de \"poner\" es...",
+          "options": [
+            "ponido",
+            "puesto",
+            "poniendo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Poner tiene participio irregular: puesto."
+        }
+      ]
+    },
+    {
+      "id": "a2pp-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2pp6",
+          "incorrect": "Ellos han rompido la ventana.",
+          "answer": [
+            "Ellos han roto la ventana."
+          ],
+          "explanation": "Romper tiene participio irregular: roto, no rompido."
+        },
+        {
+          "id": "a2pp7",
+          "incorrect": "He nunca visitado España.",
+          "answer": [
+            "Nunca he visitado España."
+          ],
+          "explanation": "El adverbio nunca no puede separar haber del participio; debe ir antes de haber."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El pretérito perfecto compuesto se forma con haber en presente más el participio del verbo principal.",
+    "Varios verbos frecuentes tienen participio irregular: hecho, dicho, escrito, visto, puesto, vuelto, abierto, roto, muerto, resuelto.",
+    "Se usa para periodos de tiempo no terminados, experiencias sin momento concreto y hechos recientes con resultado presente; nada puede separar haber del participio."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "a2-comparativos-y-superlativos",
+  "level": "A2",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "comparativos",
+  "title": "Comparativos y Superlativos",
+  "subtitle": "Más...que, menos...que, tan...como, y el superlativo con el/la/los/las más.",
+  "objectives": [
+    "Formar comparativos de superioridad, inferioridad e igualdad",
+    "Usar las formas irregulares mejor, peor, mayor y menor",
+    "Formar el superlativo relativo y el superlativo absoluto con -ísimo"
+  ],
+  "content": {
+    "intro": "Comparar dos cosas o destacar una por encima de todas las demás son operaciones muy frecuentes en cualquier idioma, y el español tiene estructuras fijas y sencillas para hacerlo.",
+    "explanation": "<p>El comparativo de superioridad usa <strong>más...que</strong>, el de inferioridad <strong>menos...que</strong>, y el de igualdad <strong>tan...como</strong> (con adjetivos y adverbios) o <strong>tanto/a/os/as...como</strong> (con sustantivos). Cuatro adjetivos tienen una forma comparativa irregular que sustituye a más bueno/más malo/más grande/más pequeño.</p><p>El superlativo relativo destaca algo dentro de un grupo (<em>el más alto de la clase</em>), mientras que el superlativo absoluto con el sufijo <strong>-ísimo</strong> expresa un grado muy alto sin comparar con nada (<em>facilísimo</em>, en vez de decir muy fácil).</p>",
+    "rules": [
+      {
+        "heading": "a) Comparativo de superioridad e inferioridad",
+        "body": "<ul><li><strong>más + adjetivo/adverbio/sustantivo + que</strong>: <em>Ana es más alta que Luis.</em></li><li><strong>menos + adjetivo/adverbio/sustantivo + que</strong>: <em>Este libro es menos interesante que el otro.</em></li></ul>"
+      },
+      {
+        "heading": "b) Comparativo de igualdad",
+        "body": "<ul><li><strong>tan + adjetivo/adverbio + como</strong>: <em>Ella es tan simpática como su hermana.</em></li><li><strong>tanto/tanta/tantos/tantas + sustantivo + como</strong>: <em>Tengo tantos libros como tú.</em></li></ul>"
+      },
+      {
+        "heading": "c) Comparativos irregulares",
+        "body": "<ul><li><em>bueno &rarr; mejor</em> (no más bueno), <em>malo &rarr; peor</em> (no más malo)</li><li><em>grande &rarr; mayor</em> (edad) o más grande (tamaño), <em>pequeño &rarr; menor</em> (edad) o más pequeño (tamaño)</li></ul>"
+      },
+      {
+        "heading": "d) Superlativos",
+        "body": "<ul><li>Relativo: <strong>el/la/los/las (+ sustantivo) + más/menos + adjetivo + de</strong>: <em>Es la ciudad más grande del país.</em></li><li>Absoluto con -ísimo: <em>fácil &rarr; facilísimo, rápido &rarr; rapidísimo, feliz &rarr; felicísimo</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Mi hermano es más alto que yo, pero yo soy más rápido.",
+      "Este ejercicio es menos difícil que el anterior.",
+      "Ella habla tan bien inglés como francés.",
+      "Tengo tantos amigos aquí como en mi ciudad natal.",
+      "Este restaurante es mejor que el de la esquina.",
+      "Mi hermano mayor tiene treinta años.",
+      "Es la montaña más alta de toda la región.",
+      "La película estuvo buenísima, mucho mejor de lo que esperaba."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ella es más buena que su hermana.",
+        "right": "Ella es mejor que su hermana.",
+        "why": "Bueno tiene una forma comparativa irregular, mejor, que sustituye a más bueno."
+      },
+      {
+        "wrong": "Tengo tanto libros como tú.",
+        "right": "Tengo tantos libros como tú.",
+        "why": "Tanto debe concordar en género y número con el sustantivo que acompaña: tantos libros, no tanto libros."
+      },
+      {
+        "wrong": "Es el más alto estudiante de la clase.",
+        "right": "Es el estudiante más alto de la clase.",
+        "why": "En el superlativo relativo, el sustantivo va entre el artículo y más/menos, no antes del artículo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2cs-fill",
+      "type": "fill-blank",
+      "title": "Completa la Comparación",
+      "items": [
+        {
+          "id": "a2cs1",
+          "prompt": "Mi coche es ___ rápido ___ el tuyo. (superioridad)",
+          "answers": [
+            [
+              "más"
+            ],
+            [
+              "que"
+            ]
+          ],
+          "options": [
+            "más",
+            "que"
+          ],
+          "explanation": "Comparativo de superioridad: más + adjetivo + que."
+        },
+        {
+          "id": "a2cs2",
+          "prompt": "Esta ciudad es ___ tranquila ___ la capital. (igualdad)",
+          "answers": [
+            [
+              "tan"
+            ],
+            [
+              "como"
+            ]
+          ],
+          "options": [
+            "tan",
+            "como"
+          ],
+          "explanation": "Comparativo de igualdad con adjetivo: tan + adjetivo + como."
+        }
+      ]
+    },
+    {
+      "id": "a2cs-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "a2cs3",
+          "prompt": "¿Cuál es la forma comparativa irregular de \"malo\"?",
+          "options": [
+            "más malo",
+            "peor",
+            "menos malo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Malo tiene la forma comparativa irregular peor."
+        },
+        {
+          "id": "a2cs4",
+          "prompt": "\"Este examen fue ___.\" (muy difícil, superlativo absoluto)",
+          "options": [
+            "más difícil",
+            "dificilísimo",
+            "el más difícil"
+          ],
+          "answerIndex": 1,
+          "explanation": "El superlativo absoluto con -ísimo expresa un grado muy alto sin comparar con nada."
+        }
+      ]
+    },
+    {
+      "id": "a2cs-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2cs5",
+          "incorrect": "Mi hermana es más pequeña de edad que yo.",
+          "answer": [
+            "Mi hermana es menor que yo."
+          ],
+          "explanation": "Para la edad, se usa la forma irregular menor en vez de más pequeña."
+        },
+        {
+          "id": "a2cs6",
+          "incorrect": "Tengo tanta problemas como tú.",
+          "answer": [
+            "Tengo tantos problemas como tú."
+          ],
+          "explanation": "Problema es masculino, así que la concordancia correcta es tantos, no tanta."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Más...que, menos...que y tan...como/tanto...como cubren la superioridad, la inferioridad y la igualdad.",
+    "Bueno, malo, grande y pequeño tienen formas comparativas irregulares: mejor, peor, mayor y menor.",
+    "El superlativo relativo usa el/la/los/las + más/menos + adjetivo + de; el absoluto usa el sufijo -ísimo."
+  ]
+}

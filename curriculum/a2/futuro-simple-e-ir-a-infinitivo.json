@@ -1,0 +1,168 @@
+{
+  "id": "a2-futuro-simple-e-ir-a-infinitivo",
+  "level": "A2",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "futuro",
+  "title": "Futuro Simple e Ir + a + Infinitivo",
+  "subtitle": "Dos formas de hablar del futuro: la conjugación propia y la construcción con ir.",
+  "objectives": [
+    "Conjugar el futuro simple de verbos regulares e irregulares frecuentes",
+    "Formar la construcción ir + a + infinitivo",
+    "Distinguir cuándo se prefiere cada una de las dos formas"
+  ],
+  "content": {
+    "intro": "El español tiene dos maneras muy vivas de hablar del futuro: una conjugación propia para cada verbo, y una construcción con el verbo ir que suena más natural en la conversación cotidiana.",
+    "explanation": "<p>El <strong>futuro simple</strong> se forma añadiendo las mismas terminaciones al infinitivo completo del verbo (sin quitar -ar/-er/-ir), iguales para las tres conjugaciones. Algunos verbos frecuentes tienen una raíz irregular para el futuro, aunque las terminaciones siguen siendo las mismas.</p><p>La construcción <strong>ir + a + infinitivo</strong> (<em>voy a estudiar</em>) es mucho más frecuente en el habla cotidiana para planes cercanos o decisiones ya tomadas, mientras que el futuro simple suena algo más formal y se usa también para predicciones, promesas y suposiciones sobre el presente.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Futuro simple — hablar, comer, vivir</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th></tr></thead><tbody><tr><td>yo</td><td>hablaré</td><td>comeré</td><td>viviré</td></tr><tr><td>tú</td><td>hablarás</td><td>comerás</td><td>vivirás</td></tr><tr><td>él/ella/usted</td><td>hablará</td><td>comerá</td><td>vivirá</td></tr><tr><td>nosotros/as</td><td>hablaremos</td><td>comeremos</td><td>viviremos</td></tr><tr><td>vosotros/as</td><td>hablaréis</td><td>comeréis</td><td>viviréis</td></tr><tr><td>ellos/as/ustedes</td><td>hablarán</td><td>comerán</td><td>vivirán</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Terminaciones del futuro simple (iguales para -ar/-er/-ir)",
+        "body": "<p>-é, -ás, -á, -emos, -éis, -án — se añaden al infinitivo completo.</p>"
+      },
+      {
+        "heading": "b) Raíces irregulares frecuentes",
+        "body": "<ul><li><em>tener &rarr; tendr-, poner &rarr; pondr-, salir &rarr; saldr-, venir &rarr; vendr-</em></li><li><em>poder &rarr; podr-, saber &rarr; sabr-, querer &rarr; querr-</em></li><li><em>decir &rarr; dir-, hacer &rarr; har-</em></li></ul>"
+      },
+      {
+        "heading": "c) Ir + a + infinitivo",
+        "body": "<p>Presente de ir (voy, vas, va, vamos, vais, van) + a + infinitivo: <em>Voy a llamar a mi hermana esta tarde.</em> Se usa para planes ya decididos, sobre todo en el habla informal.</p>"
+      },
+      {
+        "heading": "d) El futuro simple para suposiciones sobre el presente",
+        "body": "<p><em>¿Qué hora será?</em> (no lo sé con certeza, pero calculo); <em>Tendrá unos treinta años.</em> (supongo su edad).</p>"
+      }
+    ],
+    "examples": [
+      "Mañana hablaré con el director de la escuela.",
+      "El próximo año viviremos en otra ciudad.",
+      "Ellos vendrán a la fiesta de cumpleaños seguro.",
+      "Voy a estudiar toda la tarde para el examen.",
+      "¿Vas a llamar a tus padres esta noche?",
+      "Dentro de dos semanas tendremos las vacaciones.",
+      "No sé qué haré este fin de semana todavía.",
+      "¿Qué hora será? Debe de ser casi medianoche."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Yo teneré una reunión mañana.",
+        "right": "Yo tendré una reunión mañana.",
+        "why": "Tener tiene raíz irregular en futuro: tendr-, no la raíz regular tener-."
+      },
+      {
+        "wrong": "Voy a hablo con mi jefe.",
+        "right": "Voy a hablar con mi jefe.",
+        "why": "Después de ir + a siempre va un infinitivo completo, nunca una forma conjugada."
+      },
+      {
+        "wrong": "Nosotros hablaremos... hablaremos con él ayer.",
+        "right": "Nosotros hablamos con él ayer.",
+        "why": "El futuro nunca se usa para hechos ya ocurridos; ayer necesita un tiempo de pasado como el indefinido."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2fs-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Futuro Simple",
+      "items": [
+        {
+          "id": "a2fs1",
+          "prompt": "El próximo mes yo ___ (viajar) a Colombia.",
+          "answers": [
+            [
+              "viajaré"
+            ]
+          ],
+          "options": [
+            "viajaré",
+            "viajo",
+            "viajaba"
+          ],
+          "explanation": "Futuro simple regular de un verbo en -ar."
+        },
+        {
+          "id": "a2fs2",
+          "prompt": "Nosotros ___ (tener) que estudiar mucho este semestre.",
+          "answers": [
+            [
+              "tendremos"
+            ]
+          ],
+          "options": [
+            "tendremos",
+            "teneremos",
+            "tenemos"
+          ],
+          "explanation": "Tener usa la raíz irregular tendr- en futuro."
+        },
+        {
+          "id": "a2fs3",
+          "prompt": "Ellos ___ (poder) venir a la reunión de mañana.",
+          "answers": [
+            [
+              "podrán"
+            ]
+          ],
+          "options": [
+            "podrán",
+            "poderán",
+            "pueden"
+          ],
+          "explanation": "Poder usa la raíz irregular podr- en futuro."
+        }
+      ]
+    },
+    {
+      "id": "a2fs-mc",
+      "type": "multiple-choice",
+      "title": "Ir + a + Infinitivo",
+      "items": [
+        {
+          "id": "a2fs4",
+          "prompt": "¿Cuál es la forma correcta para expresar un plan cercano?",
+          "options": [
+            "Voy a estudiar esta tarde.",
+            "Voy a estudio esta tarde.",
+            "Voy estudiar esta tarde."
+          ],
+          "answerIndex": 0,
+          "explanation": "Ir + a siempre va seguido de un infinitivo completo."
+        },
+        {
+          "id": "a2fs5",
+          "prompt": "¿Qué construcción suena más natural en una conversación informal sobre un plan ya decidido?",
+          "options": [
+            "El futuro simple",
+            "Ir + a + infinitivo",
+            "El presente de subjuntivo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ir + a + infinitivo es más frecuente en el habla cotidiana para planes ya decididos."
+        }
+      ]
+    },
+    {
+      "id": "a2fs-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2fs6",
+          "incorrect": "Ellos diranán la verdad mañana.",
+          "answer": [
+            "Ellos dirán la verdad mañana."
+          ],
+          "explanation": "Decir usa la raíz irregular dir- en futuro, con las terminaciones normales: dirán."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El futuro simple añade -é/-ás/-á/-emos/-éis/-án al infinitivo completo; varios verbos frecuentes cambian la raíz (tendr-, podr-, dir-, har-...).",
+    "Ir + a + infinitivo es la forma más natural en el habla cotidiana para planes cercanos ya decididos.",
+    "El futuro simple también sirve para predicciones, promesas y suposiciones sobre el presente (¿Qué hora será?)."
+  ]
+}

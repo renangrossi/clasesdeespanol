@@ -1,0 +1,158 @@
+{
+  "id": "a2-preterito-imperfecto",
+  "level": "A2",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "imperfecto",
+  "title": "Pretérito Imperfecto",
+  "subtitle": "El tiempo para describir el pasado: cómo era, qué pasaba, qué se hacía habitualmente.",
+  "objectives": [
+    "Conjugar verbos regulares e irregulares (ser, ir, ver) en pretérito imperfecto",
+    "Usar el imperfecto para describir el pasado y hablar de hábitos pasados",
+    "Distinguir el imperfecto de un tiempo que narra hechos concretos"
+  ],
+  "content": {
+    "intro": "El pretérito imperfecto no cuenta lo que pasó como un hecho puntual, sino cómo era el fondo de la escena: la descripción, el hábito, lo que se repetía o lo que ya estaba en marcha.",
+    "explanation": "<p>El imperfecto es uno de los tiempos más regulares del español: solo tres verbos son irregulares (<strong>ser, ir, ver</strong>); todos los demás siguen el mismo patrón según su terminación en -ar o en -er/-ir.</p><p>Se usa para describir personas, lugares y situaciones en el pasado (<em>La casa era grande y tenía un jardín</em>), para hábitos y rutinas pasadas (<em>De niño jugaba en la calle todos los días</em>), y para dar el contexto o el fondo de una historia sobre el que luego ocurre un hecho puntual, normalmente en pretérito indefinido.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Pretérito imperfecto — hablar, comer, vivir, ser, ir, ver</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th><th>ser</th><th>ir</th><th>ver</th></tr></thead><tbody><tr><td>yo</td><td>hablaba</td><td>comía</td><td>vivía</td><td>era</td><td>iba</td><td>veía</td></tr><tr><td>tú</td><td>hablabas</td><td>comías</td><td>vivías</td><td>eras</td><td>ibas</td><td>veías</td></tr><tr><td>él/ella/usted</td><td>hablaba</td><td>comía</td><td>vivía</td><td>era</td><td>iba</td><td>veía</td></tr><tr><td>nosotros/as</td><td>hablábamos</td><td>comíamos</td><td>vivíamos</td><td>éramos</td><td>íbamos</td><td>veíamos</td></tr><tr><td>vosotros/as</td><td>hablabais</td><td>comíais</td><td>vivíais</td><td>erais</td><td>ibais</td><td>veíais</td></tr><tr><td>ellos/as/ustedes</td><td>hablaban</td><td>comían</td><td>vivían</td><td>eran</td><td>iban</td><td>veían</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Verbos en -ar",
+        "body": "<p>Terminaciones: -aba, -abas, -aba, -ábamos, -abais, -aban (yo y él/ella/usted son idénticos)</p>"
+      },
+      {
+        "heading": "b) Verbos en -er/-ir",
+        "body": "<p>Terminaciones: -ía, -ías, -ía, -íamos, -íais, -ían (yo y él/ella/usted también son idénticos)</p>"
+      },
+      {
+        "heading": "c) Los tres únicos irregulares",
+        "body": "<ul><li><em>ser &rarr; era, eras, era, éramos, erais, eran</em></li><li><em>ir &rarr; iba, ibas, iba, íbamos, ibais, iban</em></li><li><em>ver &rarr; veía, veías, veía, veíamos, veíais, veían</em></li></ul>"
+      },
+      {
+        "heading": "d) Usos principales",
+        "body": "<ul><li>Descripción del pasado: <em>El pueblo era pequeño y tranquilo.</em></li><li>Hábitos y rutinas pasadas: <em>Todos los veranos íbamos a la playa.</em></li><li>Fondo de una historia: <em>Llovía mucho cuando salimos de casa.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Cuando era niño, vivía en un pueblo muy pequeño.",
+      "Mis abuelos siempre hablaban de sus viajes por Europa.",
+      "Todos los días caminábamos juntos hasta la escuela.",
+      "La casa tenía un jardín enorme y muchos árboles.",
+      "Ella era muy tímida cuando era joven.",
+      "Nosotros veíamos esa serie todos los sábados por la noche.",
+      "Hacía mucho frío esa mañana de invierno.",
+      "Ustedes siempre llegaban temprano a las reuniones."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Cuando fui niño, vivía en un pueblo.",
+        "right": "Cuando era niño, vivía en un pueblo.",
+        "why": "Describir una etapa o estado prolongado del pasado (ser niño) usa el imperfecto, no el indefinido."
+      },
+      {
+        "wrong": "Nosotros ibamos a la playa cada verano.",
+        "right": "Nosotros íbamos a la playa cada verano.",
+        "why": "La forma de nosotros de ir en imperfecto lleva tilde en la í: íbamos."
+      },
+      {
+        "wrong": "Yo veiía la televisión de niño.",
+        "right": "Yo veía la televisión de niño.",
+        "why": "Ver en imperfecto es veía, con una sola i, no veiía."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pim-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Pretérito Imperfecto",
+      "items": [
+        {
+          "id": "a2pim1",
+          "prompt": "De niña, yo ___ (jugar) en el parque todos los días.",
+          "answers": [
+            [
+              "jugaba"
+            ]
+          ],
+          "options": [
+            "jugaba",
+            "jugué",
+            "juego"
+          ],
+          "explanation": "Hábito repetido en el pasado: imperfecto de un verbo en -ar."
+        },
+        {
+          "id": "a2pim2",
+          "prompt": "Mis abuelos ___ (ser) muy trabajadores.",
+          "answers": [
+            [
+              "eran"
+            ]
+          ],
+          "options": [
+            "eran",
+            "fueron",
+            "son"
+          ],
+          "explanation": "Descripción de una característica en el pasado: imperfecto irregular de ser."
+        },
+        {
+          "id": "a2pim3",
+          "prompt": "Nosotros ___ (ir) a la playa cada verano.",
+          "answers": [
+            [
+              "íbamos"
+            ]
+          ],
+          "options": [
+            "íbamos",
+            "fuimos",
+            "vamos"
+          ],
+          "explanation": "Hábito repetido en el pasado: imperfecto irregular de ir."
+        }
+      ]
+    },
+    {
+      "id": "a2pim-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a2pim4",
+          "statement": "El imperfecto tiene solo tres verbos irregulares: ser, ir y ver.",
+          "answer": true,
+          "explanation": "Es uno de los tiempos más regulares del español; todos los demás verbos siguen el patrón regular."
+        },
+        {
+          "id": "a2pim5",
+          "statement": "El imperfecto se usa principalmente para narrar hechos puntuales y terminados.",
+          "answer": false,
+          "explanation": "Ese es el uso del pretérito indefinido; el imperfecto describe, da contexto o habla de hábitos."
+        }
+      ]
+    },
+    {
+      "id": "a2pim-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2pim6",
+          "incorrect": "Cuando yo fui joven, viví en Madrid.",
+          "answer": [
+            "Cuando yo era joven, vivía en Madrid."
+          ],
+          "explanation": "Ambas ideas describen un estado prolongado del pasado, así que se usa el imperfecto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El imperfecto de -ar termina en -aba/-abas/-aba/-ábamos/-abais/-aban; el de -er/-ir en -ía/-ías/-ía/-íamos/-íais/-ían.",
+    "Solo tres verbos son irregulares en imperfecto: ser (era...), ir (iba...) y ver (veía...).",
+    "Se usa para describir el pasado, hablar de hábitos repetidos y dar el fondo o contexto de una historia."
+  ]
+}

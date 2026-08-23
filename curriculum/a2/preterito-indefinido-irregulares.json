@@ -1,0 +1,172 @@
+{
+  "id": "a2-preterito-indefinido-irregulares",
+  "level": "A2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "preterito-indefinido",
+  "title": "Pretérito Indefinido — Verbos Irregulares",
+  "subtitle": "Ser, ir, tener, hacer, estar, poder y otros verbos con raíz irregular en el pasado.",
+  "objectives": [
+    "Conjugar ser/ir, tener, hacer y estar en pretérito indefinido",
+    "Reconocer el grupo de verbos con raíz irregular fuerte (tuve, hice, estuve...)",
+    "Distinguir ser de ir en pretérito indefinido a partir del contexto"
+  ],
+  "content": {
+    "intro": "Los verbos más usados del español suelen ser también los más irregulares en el pasado — vale la pena memorizarlos aparte, porque aparecen en casi cualquier conversación sobre el pasado.",
+    "explanation": "<p><strong>Ser</strong> e <strong>ir</strong> comparten exactamente las mismas formas en pretérito indefinido (<em>fui, fuiste, fue, fuimos, fuisteis, fueron</em>); solo el contexto de la frase indica cuál de los dos verbos es. Un gran grupo de verbos frecuentes (<em>tener, estar, poder, poner, saber, querer, venir, hacer, decir</em>) comparte un patrón distinto: cambian la raíz y usan terminaciones sin tilde (<em>tuve, no tové</em>).</p><p>Estos verbos irregulares no siguen ningún patrón regular de -ar/-er/-ir, así que se memorizan como bloque, pero una vez aprendidos aparecen constantemente en cualquier historia sobre el pasado.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Pretérito indefinido — ser/ir, tener, hacer, estar</caption><thead><tr><th>Sujeto</th><th>ser / ir</th><th>tener</th><th>hacer</th><th>estar</th></tr></thead><tbody><tr><td>yo</td><td>fui</td><td>tuve</td><td>hice</td><td>estuve</td></tr><tr><td>tú</td><td>fuiste</td><td>tuviste</td><td>hiciste</td><td>estuviste</td></tr><tr><td>él/ella/usted</td><td>fue</td><td>tuvo</td><td>hizo</td><td>estuvo</td></tr><tr><td>nosotros/as</td><td>fuimos</td><td>tuvimos</td><td>hicimos</td><td>estuvimos</td></tr><tr><td>vosotros/as</td><td>fuisteis</td><td>tuvisteis</td><td>hicisteis</td><td>estuvisteis</td></tr><tr><td>ellos/as/ustedes</td><td>fueron</td><td>tuvieron</td><td>hicieron</td><td>estuvieron</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Ser e ir: formas idénticas",
+        "body": "<ul><li><em>Fui profesor durante diez años.</em> (ser)</li><li><em>Fui al mercado esta mañana.</em> (ir)</li><li>Solo el contexto — si hay un lugar/destino o una identidad — distingue los dos verbos.</li></ul>"
+      },
+      {
+        "heading": "b) El grupo con raíz irregular fuerte",
+        "body": "<ul><li><em>tener &rarr; tuv-, estar &rarr; estuv-, poder &rarr; pud-, poner &rarr; pus-, saber &rarr; sup-, querer &rarr; quis-, venir &rarr; vin-</em></li><li>Todos usan las mismas terminaciones: <strong>-e, -iste, -o, -imos, -isteis, -ieron</strong> (sin tilde, a diferencia de los verbos regulares).</li></ul>"
+      },
+      {
+        "heading": "c) Hacer y decir: raíz con \"j\"",
+        "body": "<ul><li><em>hacer &rarr; hic-/hiz- (hice, hizo)</em></li><li><em>decir &rarr; dij-</em> — y la tercera persona plural pierde la i: <em>dijeron</em>, no dijieron</li></ul>"
+      }
+    ],
+    "examples": [
+      "Fui a la playa el fin de semana pasado.",
+      "Ella fue mi profesora de matemáticas hace cinco años.",
+      "Tuvimos una reunión muy larga ayer por la tarde.",
+      "¿Dónde estuviste todo el día de ayer?",
+      "Hicieron la tarea juntos antes de la cena.",
+      "No pude terminar el informe a tiempo.",
+      "Ellos dijeron la verdad al final.",
+      "Vine a verte tan pronto como pude."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Yo tuvé una reunión ayer.",
+        "right": "Yo tuve una reunión ayer.",
+        "why": "Los verbos irregulares fuertes usan la terminación -e sin tilde, no -é."
+      },
+      {
+        "wrong": "Ellos dijieron que no.",
+        "right": "Ellos dijieron... dijeron que no.",
+        "why": "Decir pierde la i de la terminación -ieron en la tercera persona plural: dijeron, no dijieron."
+      },
+      {
+        "wrong": "Ellos hacieron la comida.",
+        "right": "Ellos hicieron la comida.",
+        "why": "Hacer cambia la raíz a hic-/hiz-, no se conjuga sobre la raíz regular hac-."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pii-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Verbo Irregular",
+      "items": [
+        {
+          "id": "a2pii1",
+          "prompt": "Ayer yo ___ (tener) mucho trabajo.",
+          "answers": [
+            [
+              "tuve"
+            ]
+          ],
+          "options": [
+            "tuve",
+            "tení",
+            "tuvé"
+          ],
+          "explanation": "Tener tiene raíz irregular tuv- y terminación -e sin tilde."
+        },
+        {
+          "id": "a2pii2",
+          "prompt": "Nosotros ___ (estar) en la fiesta hasta muy tarde.",
+          "answers": [
+            [
+              "estuvimos"
+            ]
+          ],
+          "options": [
+            "estuvimos",
+            "estamos",
+            "estabamos"
+          ],
+          "explanation": "Estar tiene raíz irregular estuv- en el pretérito indefinido."
+        },
+        {
+          "id": "a2pii3",
+          "prompt": "Ella ___ (hacer) toda la tarea sola.",
+          "answers": [
+            [
+              "hizo"
+            ]
+          ],
+          "options": [
+            "hizo",
+            "hació",
+            "hace"
+          ],
+          "explanation": "Hacer cambia a hiz- en la tercera persona del singular, con terminación -o."
+        }
+      ]
+    },
+    {
+      "id": "a2pii-mc",
+      "type": "multiple-choice",
+      "title": "¿Ser o Ir?",
+      "items": [
+        {
+          "id": "a2pii4",
+          "prompt": "\"Fui médico durante quince años\" usa la forma fui de...",
+          "options": [
+            "ser",
+            "ir",
+            "ambos son posibles aquí"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aquí describe una identidad/profesión pasada, así que es una forma de ser."
+        },
+        {
+          "id": "a2pii5",
+          "prompt": "\"Fuimos al cine anoche\" usa la forma fuimos de...",
+          "options": [
+            "ser",
+            "ir",
+            "ninguno de los dos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Aquí describe un movimiento hacia un destino, así que es una forma de ir."
+        }
+      ]
+    },
+    {
+      "id": "a2pii-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2pii6",
+          "incorrect": "Ellos vinieron... ellos venieron tarde a la fiesta.",
+          "answer": [
+            "Ellos vinieron tarde a la fiesta."
+          ],
+          "explanation": "Venir tiene raíz irregular vin-, no la forma regular venieron."
+        },
+        {
+          "id": "a2pii7",
+          "incorrect": "Yo pudí terminar el trabajo.",
+          "answer": [
+            "Yo pude terminar el trabajo."
+          ],
+          "explanation": "Poder usa terminación -e sin tilde en primera persona: pude, no pudí."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Ser e ir comparten exactamente las mismas formas en pretérito indefinido: fui, fuiste, fue, fuimos, fuisteis, fueron.",
+    "Un grupo grande de verbos (tener, estar, poder, poner, saber, querer, venir) cambia la raíz y usa las terminaciones -e, -iste, -o, -imos, -isteis, -ieron, sin tilde.",
+    "Hacer y decir cambian la raíz con j; decir además pierde la i en dijeron."
+  ]
+}

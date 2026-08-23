@@ -1,0 +1,152 @@
+{
+  "id": "a2-indefinido-vs-imperfecto",
+  "level": "A2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "pasado",
+  "title": "Indefinido vs. Imperfecto",
+  "subtitle": "Cómo elegir entre los dos pasados básicos del español según la función de cada frase.",
+  "objectives": [
+    "Explicar la diferencia funcional entre el pretérito indefinido y el imperfecto",
+    "Combinar los dos tiempos en una misma historia con naturalidad",
+    "Reconocer los marcadores de tiempo que suelen acompañar a cada uno"
+  ],
+  "content": {
+    "intro": "Este es uno de los puntos más importantes de todo el curso: los dos pasados del español no compiten entre sí, cumplen funciones distintas y muchas veces aparecen juntos en la misma frase.",
+    "explanation": "<p>Piensa en una historia como una película: el <strong>imperfecto</strong> es el decorado, la escena de fondo — cómo era el lugar, qué tiempo hacía, qué estaba pasando. El <strong>indefinido</strong> es la acción que interrumpe esa escena — el hecho puntual que avanza la historia.</p><p>Una misma frase puede combinar ambos: <em>Yo dormía (imperfecto: la escena de fondo) cuando sonó el teléfono (indefinido: el hecho puntual que interrumpe)</em>. Elegir el tiempo equivocado cambia por completo el significado de la frase, así que esta distinción merece práctica constante.</p>",
+    "rules": [
+      {
+        "heading": "a) Usa el indefinido cuando...",
+        "body": "<ul><li>Cuentas una serie de hechos completos: <em>Me levanté, desayuné y salí.</em></li><li>Hay un marcador de tiempo cerrado: <em>ayer, el año pasado, en 2015</em></li><li>El hecho tiene un principio y un final claros dentro de la historia</li></ul>"
+      },
+      {
+        "heading": "b) Usa el imperfecto cuando...",
+        "body": "<ul><li>Describes personas, lugares o el clima: <em>Hacía sol y el cielo estaba despejado.</em></li><li>Hablas de hábitos o rutinas: <em>Todos los días desayunaba café con leche.</em></li><li>Describes una acción en curso que es interrumpida por otra: <em>Cocinaba cuando llegaron mis amigos.</em></li></ul>"
+      },
+      {
+        "heading": "c) Los dos juntos en la misma historia",
+        "body": "<p><em>Eran las diez de la noche (imperfecto: escena) y llovía mucho (imperfecto: escena) cuando alguien llamó a la puerta (indefinido: hecho puntual). Me levanté (indefinido) y abrí (indefinido) con cuidado.</em></p>"
+      }
+    ],
+    "examples": [
+      "Cuando llegué a casa, mis padres veían la televisión.",
+      "Hacía mucho calor el día que nos conocimos.",
+      "Estudiaba tranquilamente cuando se cortó la luz.",
+      "El accidente ocurrió mientras cruzaba la calle.",
+      "De pequeño, jugaba al fútbol todos los fines de semana, pero ayer no jugué.",
+      "Ella dormía profundamente cuando sonó la alarma.",
+      "Vivíamos en Sevilla cuando nació mi hermano menor.",
+      "Mientras cenábamos, alguien tocó el timbre dos veces."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Cuando yo era niño, viajé a Francia cinco veces.",
+        "right": "Cuando era niño, viajé a Francia cinco veces.",
+        "why": "\"Cuando yo era niño\" describe una etapa (imperfecto); \"viajé cinco veces\" cuenta un hecho puntual y contable, así que va en indefinido — la combinación es correcta tal como está, pero conviene notar que ambos verbos cumplen funciones distintas dentro de la misma frase."
+      },
+      {
+        "wrong": "Mientras cociné, sonó el teléfono.",
+        "right": "Mientras cocinaba, sonó el teléfono.",
+        "why": "La acción en curso interrumpida (cocinar) va en imperfecto; el hecho puntual que interrumpe (sonó) va en indefinido."
+      },
+      {
+        "wrong": "Ayer hacía mucho sol, así que fuimos a la playa.",
+        "right": "Ayer hacía mucho sol, así que fuimos a la playa. (correcta, pero cuidado con...)",
+        "why": "Aquí hacía describe el clima como escena de fondo y fuimos es el hecho puntual: la combinación es correcta, precisamente el patrón que hay que dominar."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2iv-fill",
+      "type": "fill-blank",
+      "title": "Elige el Tiempo Correcto",
+      "items": [
+        {
+          "id": "a2iv1",
+          "prompt": "___ (Yo - caminar) por el parque cuando ___ (empezar) a llover.",
+          "answers": [
+            [
+              "Caminaba"
+            ],
+            [
+              "empezó"
+            ]
+          ],
+          "options": [
+            "Caminaba",
+            "empezó"
+          ],
+          "explanation": "Acción en curso (caminaba, imperfecto) interrumpida por un hecho puntual (empezó, indefinido)."
+        },
+        {
+          "id": "a2iv2",
+          "prompt": "De joven, ella ___ (vivir) en Roma, pero el año pasado ___ (mudarse) a Barcelona.",
+          "answers": [
+            [
+              "vivía"
+            ],
+            [
+              "se mudó"
+            ]
+          ],
+          "options": [
+            "vivía",
+            "se mudó"
+          ],
+          "explanation": "Etapa prolongada del pasado (vivía, imperfecto) frente a un hecho puntual con marcador de tiempo cerrado (se mudó, indefinido)."
+        }
+      ]
+    },
+    {
+      "id": "a2iv-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Tiempo Correcto",
+      "items": [
+        {
+          "id": "a2iv3",
+          "prompt": "\"___ las tres de la tarde cuando llegamos al hotel.\"",
+          "options": [
+            "Eran",
+            "Fueron",
+            "Son"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dar la hora en el pasado, como escena de fondo, siempre usa el imperfecto: eran las tres."
+        },
+        {
+          "id": "a2iv4",
+          "prompt": "\"Todos los domingos, mi abuela ___ un pastel.\"",
+          "options": [
+            "hizo",
+            "hacía",
+            "hace"
+          ],
+          "answerIndex": 1,
+          "explanation": "Un hábito repetido en el pasado (todos los domingos) se expresa con el imperfecto."
+        }
+      ]
+    },
+    {
+      "id": "a2iv-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2iv5",
+          "incorrect": "Yo leía un libro cuando tú llamabas por teléfono.",
+          "answer": [
+            "Yo leía un libro cuando tú llamaste por teléfono."
+          ],
+          "explanation": "La acción que interrumpe (llamar) debe ir en indefinido, no en imperfecto, para marcar el hecho puntual."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El imperfecto describe el fondo de la escena — cómo era, qué pasaba, qué se hacía habitualmente.",
+    "El indefinido cuenta hechos puntuales y completos que avanzan la historia.",
+    "Es normal combinar los dos tiempos en la misma frase: imperfecto para la acción en curso, indefinido para la que la interrumpe."
+  ]
+}
