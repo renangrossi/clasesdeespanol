@@ -279,22 +279,42 @@ the model can only ever link to a real page):
    push GitHub repo, enable Pages~~ — **done, this commit.**
 2. ~~Recolor `tokens.css` + `dark-mode.css` to the Spain/Argentina
    palette~~ — **done.**
-3. Full Spanish rewrite of `site_chrome.py` (nav, footer, meta, search
-   overlay) and translation pass on JS user-facing strings.
-4. Write `curriculum/SCHEMA.md` (monolingual shape) and author
-   `scripts/curriculum_source/pre-a1.py` + `a1.py` in full depth as the
-   proof-of-concept, matching the sibling sites' per-lesson depth.
-   Run `build_all.py`, verify locally (`python3 -m http.server`).
-5. Build `dictionary.html` (monolingual sources), `placement-test.html`,
-   `progress.html`, `today-review.html`, homepage copy.
-6. Scaffold `worker/` (Spanish system prompt + catalog) — code only,
-   deployment left to you.
-7. Push. Confirm the live Pages site end-to-end for Pre-A1/A1.
-8. Author A2 → C2 (largest remaining effort — 56 lessons), level by
-   level, each level built + pushed as its own checkpoint rather than
-   one giant commit at the end.
-9. `check_no_english.py` lint pass + a final read-through for tone/CEFR
-   accuracy before calling it "launched."
+3. ~~Full Spanish rewrite of `site_chrome.py` (nav, footer, meta, search
+   overlay), `build_lesson.py`, `build_static_pages.py`, and a
+   translation pass on JS user-facing strings (`main.js`,
+   `search.js`)~~ — **done.**
+4. ~~Write `curriculum/SCHEMA.md` (monolingual shape) and author
+   `scripts/curriculum_source/pre-a1.py` + `a1.py` in full depth~~ —
+   **done**, and extended straight to full depth on every level (see
+   step 8) rather than stopping at a two-level proof-of-concept.
+5. ~~Build `dictionary.html` (monolingual sources: RAE, Wikcionario,
+   Fundéu BBVA, sinónimos, conjugador, Forvo), `placement-test.html`,
+   `progress.html`, `today-review.html`, `simulated-exams.html`,
+   homepage copy~~ — **done.**
+6. Scaffold `worker/` (Spanish system prompt + catalog) — `worker/`
+   currently only has `wrangler.toml` and a reference README copied
+   from the English course; the Spanish system prompt and
+   `course-catalog.json` still need to be written. Code only —
+   deployment is left to you (needs your own Groq API key and
+   Cloudflare account).
+7. Push. `main` is 7 commits ahead of `origin/main` as of this pass —
+   push and confirm the live Pages site end-to-end (not yet done in
+   this session; ask before pushing, since it publishes the live URL).
+8. ~~Author A2 → C2 (56 lessons)~~ — **done.** All 7 levels
+   (Pre-A1 → C2, 78 lessons total) are now hand-authored at full depth
+   and committed as separate per-level checkpoints. Along the way,
+   `scripts/build_level_pages.py` — the level hub page generator — was
+   found never to have been adapted from the Italian course at all (it
+   still produced English UI strings, Italian vocabulary/reading/
+   listening content, and silently dropped Pre-A1 from its hardcoded
+   6-level loop, so `levels/pre-a1.html` never built even though the
+   homepage linked to it). It's now fully rewritten in Spanish with
+   original vocabulary/reading/listening/writing/speaking content for
+   all 7 levels. `python3 scripts/build_all.py` now runs end-to-end
+   with no errors and no broken internal links.
+9. `check_no_english.py` lint pass (script itself still needs to be
+   written — see §5's original description) + a final read-through for
+   tone/CEFR accuracy before calling it "launched."
 
 ## 11. Risks and decisions needing your confirmation
 
