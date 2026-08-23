@@ -1,0 +1,192 @@
+{
+  "id": "a1-presente-verbos-irregulares-comunes",
+  "level": "A1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "verbos",
+  "title": "Presente — Irregulares Comunes",
+  "subtitle": "Ir, tener, hacer, venir y otros verbos irregulares de uso muy frecuente.",
+  "objectives": [
+    "Conjugar ir, tener, hacer y venir en presente de indicativo",
+    "Reconocer el patrón de cambio de raíz en la primera persona (yo)",
+    "Usar estos verbos irregulares en frases cotidianas simples"
+  ],
+  "content": {
+    "intro": "Algunos de los verbos más útiles del español son irregulares — se usan tanto que conviene memorizarlos temprano, aunque no sigan el patrón regular de -ar/-er/-ir.",
+    "explanation": "<p>Los verbos irregulares de uso más frecuente en español no siguen las terminaciones regulares en todas sus formas, pero muchos comparten un patrón útil: la forma de <strong>yo</strong> cambia de manera especial (<em>tengo, hago, vengo</em>), mientras que el resto de las formas suele parecerse más al patrón regular. <strong>Ir</strong> es completamente irregular y hay que memorizarlo entero.</p><p>Estos verbos aparecen en frases de todos los días — <em>tener</em> para posesión y edad, <em>hacer</em> para actividades y clima, <em>ir</em> para movimiento y planes, <em>venir</em> para indicar que alguien se acerca — así que vale la pena practicarlos con frecuencia.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Presente — ir, tener, hacer, venir</caption><thead><tr><th>Sujeto</th><th>ir</th><th>tener</th><th>hacer</th><th>venir</th></tr></thead><tbody><tr><td>yo</td><td>voy</td><td>tengo</td><td>hago</td><td>vengo</td></tr><tr><td>tú</td><td>vas</td><td>tienes</td><td>haces</td><td>vienes</td></tr><tr><td>él/ella/usted</td><td>va</td><td>tiene</td><td>hace</td><td>viene</td></tr><tr><td>nosotros/as</td><td>vamos</td><td>tenemos</td><td>hacemos</td><td>venimos</td></tr><tr><td>vosotros/as</td><td>vais</td><td>tenéis</td><td>hacéis</td><td>venís</td></tr><tr><td>ellos/as/ustedes</td><td>van</td><td>tienen</td><td>hacen</td><td>vienen</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Ir — completamente irregular",
+        "body": "<ul><li><em>Voy al mercado los sábados.</em></li><li><em>ir a</em> + infinitivo expresa un plan cercano: <em>Voy a estudiar esta tarde.</em></li></ul>"
+      },
+      {
+        "heading": "b) Tener — posesión, edad y expresiones fijas",
+        "body": "<ul><li>Posesión: <em>Tengo dos hermanos.</em></li><li>Edad (nunca con ser): <em>Tengo veinte años.</em></li><li>Expresiones fijas: <em>tener hambre, tener sed, tener frío, tener calor, tener sueño, tener prisa, tener razón</em></li></ul>"
+      },
+      {
+        "heading": "c) Hacer — actividades y clima",
+        "body": "<ul><li>Actividades: <em>Hago la tarea por las noches.</em></li><li>Clima: <em>Hace calor hoy. Hace frío en invierno.</em></li></ul>"
+      },
+      {
+        "heading": "d) Venir — acercarse o llegar",
+        "body": "<ul><li><em>Vengo de la universidad ahora mismo.</em></li><li><em>¿Vienes a la fiesta el viernes?</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Voy al gimnasio tres veces por semana.",
+      "Tengo mucha hambre después de trabajar.",
+      "Hace mucho calor en verano en esta ciudad.",
+      "Vengo de visitar a mis abuelos.",
+      "Ella tiene veinticinco años y trabaja como médica.",
+      "Vamos a viajar a Chile el próximo mes.",
+      "¿Tienes tiempo para ayudarme con esto?",
+      "Nosotros hacemos ejercicio todas las mañanas."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Soy veinte años.",
+        "right": "Tengo veinte años.",
+        "why": "La edad siempre usa tener en español, no ser."
+      },
+      {
+        "wrong": "Soy hambre.",
+        "right": "Tengo hambre.",
+        "why": "Las expresiones de estado físico como tener hambre, sed, frío o sueño siempre usan tener, no ser ni estar."
+      },
+      {
+        "wrong": "Yo va al cine.",
+        "right": "Yo voy al cine.",
+        "why": "Va es la forma de él/ella/usted; yo siempre usa voy con el verbo ir."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pi-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Verbo Correcto",
+      "instructions": "Conjuga ir, tener, hacer o venir en presente.",
+      "items": [
+        {
+          "id": "a1pi1",
+          "prompt": "Yo ___ (tener) tres hermanos.",
+          "answers": [
+            [
+              "tengo"
+            ]
+          ],
+          "explanation": "Yo + tener = tengo, cambio irregular de raíz.",
+          "options": [
+            "tengo",
+            "tienes",
+            "tiene"
+          ]
+        },
+        {
+          "id": "a1pi2",
+          "prompt": "Nosotros ___ (ir) al parque los domingos.",
+          "answers": [
+            [
+              "vamos"
+            ]
+          ],
+          "explanation": "Nosotros + ir = vamos.",
+          "options": [
+            "vamos",
+            "van",
+            "vais"
+          ]
+        },
+        {
+          "id": "a1pi3",
+          "prompt": "Ella ___ (hacer) la cena todos los días.",
+          "answers": [
+            [
+              "hace"
+            ]
+          ],
+          "explanation": "Él/ella + hacer = hace.",
+          "options": [
+            "hace",
+            "hago",
+            "haces"
+          ]
+        },
+        {
+          "id": "a1pi4",
+          "prompt": "¿Tú ___ (venir) a la reunión mañana?",
+          "answers": [
+            [
+              "vienes"
+            ]
+          ],
+          "explanation": "Tú + venir = vienes.",
+          "options": [
+            "vienes",
+            "viene",
+            "vengo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1pi-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "a1pi5",
+          "prompt": "¿Cómo se dice \"tengo veinte años\" de forma correcta?",
+          "options": [
+            "Soy veinte años.",
+            "Tengo veinte años.",
+            "Hago veinte años."
+          ],
+          "answerIndex": 1,
+          "explanation": "La edad siempre se expresa con tener en español."
+        },
+        {
+          "id": "a1pi6",
+          "prompt": "¿Qué expresión describe el clima caluroso?",
+          "options": [
+            "Tengo calor.",
+            "Hace calor.",
+            "Soy calor."
+          ],
+          "answerIndex": 1,
+          "explanation": "El clima se describe con hacer: hace calor, hace frío, hace sol."
+        }
+      ]
+    },
+    {
+      "id": "a1pi-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1pi7",
+          "incorrect": "Yo soy quince años.",
+          "answer": [
+            "Yo tengo quince años."
+          ],
+          "explanation": "La edad se expresa con tener, nunca con ser."
+        },
+        {
+          "id": "a1pi8",
+          "incorrect": "Ellos va a la escuela juntos.",
+          "answer": [
+            "Ellos van a la escuela juntos."
+          ],
+          "explanation": "Va es singular; el sujeto plural ellos necesita van."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Ir es completamente irregular: voy, vas, va, vamos, vais, van; ir a + infinitivo expresa planes cercanos.",
+    "Tener, hacer y venir cambian su forma de yo (tengo, hago, vengo) pero siguen un patrón más regular en el resto.",
+    "La edad y los estados físicos (hambre, sed, frío, sueño) siempre usan tener, nunca ser ni estar."
+  ]
+}

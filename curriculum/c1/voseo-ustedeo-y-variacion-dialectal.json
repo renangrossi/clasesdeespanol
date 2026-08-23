@@ -1,0 +1,189 @@
+{
+  "id": "c1-voseo-ustedeo-y-variacion-dialectal",
+  "level": "C1",
+  "unit": "1",
+  "order": 8,
+  "skill": "functional",
+  "strand": "variacion-dialectal",
+  "title": "Voseo, Ustedeo y Variación Dialectal Hispanoamericana",
+  "subtitle": "Cómo cambia el trato entre tú, vos y usted según el país, y por qué toda América usa \"ustedes\" donde España usa \"vosotros\".",
+  "objectives": [
+    "Reconocer las formas verbales propias del voseo rioplatense y centroamericano frente al tuteo.",
+    "Identificar en qué países y contextos predomina el voseo, el tuteo o el ustedeo generalizado.",
+    "Explicar por qué \"vosotros\" prácticamente no se usa en América Latina y qué forma ocupa su lugar."
+  ],
+  "content": {
+    "intro": "El español no tiene un único sistema de tratamiento: la elección entre tú, vos y usted varía de país en país, e incluso dentro de un mismo país según la región y el contexto social.",
+    "explanation": "<p>El <strong>voseo</strong> — el uso de \"vos\" en lugar de \"tú\" — es la norma en Argentina, Uruguay, Paraguay y buena parte de Centroamérica (Costa Rica, Nicaragua, y con distinta intensidad en otros países), y convive con el tuteo en varias regiones de Colombia, Venezuela, Chile y Bolivia, entre otras. El voseo rioplatense conjuga el presente con el acento desplazado a la última sílaba: <em>vos hablás, vos comés, vos vivís</em> (frente a tú hablas, tú comes, tú vives), y usa el imperativo <em>hablá, comé, viví</em>. Los pronombres de objeto y posesivo siguen siendo los de \"tú\" (te, tu, tuyo); solo cambian el pronombre sujeto y ciertas formas verbales.</p><p>El <strong>ustedeo</strong> — usar \"usted\" incluso en contextos familiares o informales — es habitual en buena parte de Colombia, Costa Rica y algunas zonas de Centroamérica, donde no siempre marca distancia, sino a veces cercanía o cariño, al contrario de lo que suele ocurrir en España. Un rasgo compartido por todo el español americano, frente a España, es que <strong>\"vosotros\" prácticamente no se usa</strong>: en toda América Latina, \"ustedes\" cubre tanto el plural formal como el informal de \"tú/vos\", con la conjugación de tercera persona del plural (<em>ustedes hablan, ustedes comen</em>) incluso al dirigirse a un grupo de amigos.</p>",
+    "rules": [
+      {
+        "heading": "a) Voseo rioplatense (Argentina, Uruguay, Paraguay)",
+        "body": "<p>vos + presente con acento en la última sílaba (vos hablás, vos tenés, vos podés) e imperativo (hablá, tené, pedí).</p>"
+      },
+      {
+        "heading": "b) Voseo centroamericano",
+        "body": "<p>Presente similar (vos hablás/comés), con variantes según el país; convive con el tuteo en el habla urbana de algunos países.</p>"
+      },
+      {
+        "heading": "c) Ustedeo",
+        "body": "<p>Uso de \"usted\" en contextos informales, especialmente en Colombia y Costa Rica, sin implicar necesariamente distancia o formalidad, a diferencia del uso peninsular.</p>"
+      },
+      {
+        "heading": "d) Ustedes universal en América",
+        "body": "<p>Sustituye por completo a \"vosotros\", tanto para el plural formal como informal, con conjugación de tercera persona (ustedes son, ustedes tienen).</p>"
+      }
+    ],
+    "examples": [
+      "Vos sabés que siempre podés contar conmigo.",
+      "¿Vos querés que te ayude con eso?",
+      "Tú sabes que siempre puedes contar conmigo.",
+      "¿Usted necesita algo más?",
+      "Chicos, ¿ustedes vienen a la fiesta?",
+      "Vosotros venís a la fiesta, ¿no?",
+      "En Argentina se dice \"vení acá\"; en España, \"ven aquí\".",
+      "Ninguna forma es más correcta que otra: son variedades igualmente válidas del español."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pensar que el voseo es una forma incorrecta o rural del tuteo.",
+        "right": "Reconocer el voseo como una norma culta y plenamente válida en varios países.",
+        "why": "El voseo rioplatense y centroamericano es la forma estándar y prestigiosa en sus países, no una desviación del tuteo."
+      },
+      {
+        "wrong": "Vosotros tenéis razón. (en un contexto hablado latinoamericano)",
+        "right": "Ustedes tienen razón.",
+        "why": "En el español de América, \"vosotros\" prácticamente no se usa en el habla cotidiana; su lugar lo ocupa siempre \"ustedes\", incluso en contextos informales."
+      },
+      {
+        "wrong": "Vos hablas muy bien español.",
+        "right": "Vos hablás muy bien español.",
+        "why": "El voseo rioplatense tiene su propia conjugación en presente e imperativo, distinta de la del tuteo; no consiste solo en cambiar el pronombre."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l8-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1l8i1",
+          "statement": "En Argentina, el voseo es la forma estándar y prestigiosa de tratamiento informal.",
+          "answer": true,
+          "explanation": "El voseo rioplatense es la norma culta en Argentina, Uruguay y Paraguay, no una desviación del tuteo."
+        },
+        {
+          "id": "c1l8i2",
+          "statement": "En toda América Latina se usa \"vosotros\" para el plural informal, igual que en España.",
+          "answer": false,
+          "explanation": "En América Latina, \"ustedes\" sustituye por completo a \"vosotros\", tanto en contextos formales como informales."
+        },
+        {
+          "id": "c1l8i3",
+          "statement": "En algunos países como Colombia, usar \"usted\" puede expresar cercanía o cariño, no solo distancia.",
+          "answer": true,
+          "explanation": "El ustedeo en ciertas regiones colombianas no implica necesariamente formalidad, a diferencia del uso peninsular."
+        },
+        {
+          "id": "c1l8i4",
+          "statement": "El voseo cambia únicamente el pronombre sujeto, sin afectar a la conjugación verbal.",
+          "answer": false,
+          "explanation": "El voseo rioplatense tiene su propia conjugación en presente e imperativo, con el acento desplazado a la última sílaba."
+        },
+        {
+          "id": "c1l8i5",
+          "statement": "El uso de \"vos\" en vez de \"tú\" está limitado a Argentina y no aparece en ningún otro país.",
+          "answer": false,
+          "explanation": "El voseo también es la norma en Uruguay y Paraguay, y convive con el tuteo en gran parte de Centroamérica."
+        }
+      ]
+    },
+    {
+      "id": "c1l8-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "c1l8i6",
+          "prompt": "¿Cuál es la conjugación de \"hablar\" en voseo rioplatense, presente, segunda persona?",
+          "options": [
+            "hablas",
+            "hablás",
+            "habláis"
+          ],
+          "answerIndex": 1,
+          "explanation": "El voseo rioplatense desplaza el acento a la última sílaba: vos hablás."
+        },
+        {
+          "id": "c1l8i7",
+          "prompt": "¿Qué forma sustituye a \"vosotros\" en todo el español de América?",
+          "options": [
+            "ustedes",
+            "vos",
+            "ellos"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Ustedes\" cubre el plural formal e informal en toda América Latina."
+        },
+        {
+          "id": "c1l8i8",
+          "prompt": "¿Cuál es el imperativo de \"comer\" en voseo rioplatense?",
+          "options": [
+            "come",
+            "comé",
+            "comed"
+          ],
+          "answerIndex": 1,
+          "explanation": "El imperativo del voseo rioplatense también desplaza el acento a la última sílaba."
+        },
+        {
+          "id": "c1l8i9",
+          "prompt": "El pronombre de objeto directo que corresponde a \"vos\" es...",
+          "options": [
+            "os",
+            "te",
+            "le"
+          ],
+          "answerIndex": 1,
+          "explanation": "El voseo conserva los pronombres de objeto y posesivo de \"tú\" (te, tu, tuyo); solo cambian el pronombre sujeto y ciertas formas verbales."
+        }
+      ]
+    },
+    {
+      "id": "c1l8-matching",
+      "type": "matching",
+      "title": "Relaciona el País con el Trato Predominante",
+      "items": [
+        {
+          "id": "c1l8i10",
+          "prompt": "Relaciona cada país o región con el trato que predomina en su habla cotidiana.",
+          "pairs": [
+            {
+              "left": "Argentina",
+              "right": "Voseo rioplatense (vos hablás)"
+            },
+            {
+              "left": "España",
+              "right": "Tuteo y vosotros en el plural informal"
+            },
+            {
+              "left": "México",
+              "right": "Tuteo, con ustedes como único plural"
+            },
+            {
+              "left": "Costa Rica",
+              "right": "Convivencia de voseo y ustedeo cercano"
+            }
+          ],
+          "explanation": "El trato varía según el país; ninguna variedad es más correcta que otra, todas son normas válidas del español."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El voseo (vos hablás, vos tenés) es la norma culta y prestigiosa en Argentina, Uruguay, Paraguay y buena parte de Centroamérica, no una forma incorrecta del tuteo.",
+    "El ustedeo, frecuente en Colombia y Costa Rica, puede expresar cercanía en vez de distancia formal.",
+    "En toda América Latina, \"ustedes\" sustituye por completo a \"vosotros\", que prácticamente no se usa fuera de España."
+  ]
+}

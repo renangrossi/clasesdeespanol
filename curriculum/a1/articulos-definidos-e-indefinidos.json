@@ -1,0 +1,187 @@
+{
+  "id": "a1-articulos-definidos-e-indefinidos",
+  "level": "A1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "articulos",
+  "title": "Artículos Definidos e Indefinidos",
+  "subtitle": "El, la, los, las frente a un, una, unos, unas: cómo elegir el artículo correcto.",
+  "objectives": [
+    "Elegir el artículo definido correcto (el, la, los, las) según género y número",
+    "Elegir el artículo indefinido correcto (un, una, unos, unas) según género y número",
+    "Distinguir cuándo se usa un artículo definido y cuándo uno indefinido"
+  ],
+  "content": {
+    "intro": "El artículo siempre acompaña al sustantivo y debe concordar con él en género y número — es una de las primeras concordancias que hay que automatizar en español.",
+    "explanation": "<p>Los artículos <strong>definidos</strong> (<em>el, la, los, las</em>) se usan para hablar de algo específico o ya conocido por el hablante y el oyente: <em>el libro que compré ayer</em>. Los artículos <strong>indefinidos</strong> (<em>un, una, unos, unas</em>) se usan para presentar algo por primera vez o no específico: <em>compré un libro</em>.</p><p>Hay un caso especial: los sustantivos femeninos singulares que empiezan con <strong>a</strong> o <strong>ha</strong> tónica (con fuerza) usan <em>el</em> y <em>un</em> en lugar de <em>la</em> y <em>una</em>, solo por razones de sonido — el sustantivo sigue siendo femenino, y el plural vuelve a usar <em>las</em>/<em>unas</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Artículos definidos",
+        "body": "<ul><li><strong>el</strong> — masculino singular: <em>el perro</em></li><li><strong>la</strong> — femenino singular: <em>la casa</em></li><li><strong>los</strong> — masculino plural: <em>los perros</em></li><li><strong>las</strong> — femenino plural: <em>las casas</em></li></ul>"
+      },
+      {
+        "heading": "b) Artículos indefinidos",
+        "body": "<ul><li><strong>un</strong> — masculino singular: <em>un perro</em></li><li><strong>una</strong> — femenino singular: <em>una casa</em></li><li><strong>unos</strong> — masculino plural: <em>unos perros</em></li><li><strong>unas</strong> — femenino plural: <em>unas casas</em></li></ul>"
+      },
+      {
+        "heading": "c) El caso especial de a/ha tónica",
+        "body": "<ul><li><em>el agua</em> (no <em>la agua</em>), pero <em>las aguas</em> en plural — agua sigue siendo femenina</li><li><em>un águila</em> (no <em>una águila</em>), pero <em>unas águilas</em> en plural</li><li>Solo ocurre cuando la a inicial lleva la fuerza de la palabra: <em>la amiga</em> es normal porque la fuerza no está en la primera sílaba</li></ul>"
+      },
+      {
+        "heading": "d) Definido o indefinido",
+        "body": "<ul><li>Definido: algo ya conocido o específico — <em>Cierra la puerta.</em> (la puerta de esta habitación)</li><li>Indefinido: algo nuevo o no específico — <em>Hay una puerta al fondo.</em> (una puerta cualquiera)</li></ul>"
+      }
+    ],
+    "examples": [
+      "El profesor llega temprano todos los días.",
+      "Necesito un lápiz para escribir la tarea.",
+      "Las ventanas de la casa están abiertas.",
+      "Compré unas manzanas en el mercado.",
+      "El agua de este río está muy fría.",
+      "Vi un águila volando sobre las montañas.",
+      "La amiga de mi hermana vive en otra ciudad.",
+      "Los estudiantes tienen unos libros nuevos."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "la agua",
+        "right": "el agua",
+        "why": "Agua es femenina, pero empieza con a tónica, así que en singular usa el por razones de sonido; el plural vuelve a ser las aguas."
+      },
+      {
+        "wrong": "una águila",
+        "right": "un águila",
+        "why": "Águila empieza con a tónica: en singular se usa un aunque la palabra sea femenina."
+      },
+      {
+        "wrong": "unos manzanas",
+        "right": "unas manzanas",
+        "why": "Manzanas es femenino plural, así que el artículo indefinido debe ser unas, no unos."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ad-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Artículo Definido",
+      "instructions": "Usa el, la, los o las.",
+      "items": [
+        {
+          "id": "a1ad1",
+          "prompt": "___ libro está sobre la mesa.",
+          "answers": [
+            [
+              "El"
+            ]
+          ],
+          "explanation": "Libro es masculino singular.",
+          "options": [
+            "El",
+            "La",
+            "Los"
+          ]
+        },
+        {
+          "id": "a1ad2",
+          "prompt": "___ casas del barrio son antiguas.",
+          "answers": [
+            [
+              "Las"
+            ]
+          ],
+          "explanation": "Casas es femenino plural.",
+          "options": [
+            "Los",
+            "Las",
+            "La"
+          ]
+        },
+        {
+          "id": "a1ad3",
+          "prompt": "___ agua está muy fría hoy.",
+          "answers": [
+            [
+              "El"
+            ]
+          ],
+          "explanation": "Agua es femenina, pero por empezar con a tónica usa el en singular.",
+          "options": [
+            "El",
+            "La",
+            "Los"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ad-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Artículo Indefinido",
+      "items": [
+        {
+          "id": "a1ad4",
+          "prompt": "Necesito ___ silla para la cocina.",
+          "options": [
+            "un",
+            "una",
+            "unos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Silla es femenino singular."
+        },
+        {
+          "id": "a1ad5",
+          "prompt": "Vi ___ águila enorme en el cielo.",
+          "options": [
+            "un",
+            "una",
+            "unas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Águila es femenina, pero empieza con a tónica, así que en singular se usa un."
+        },
+        {
+          "id": "a1ad6",
+          "prompt": "Tengo ___ amigos en esa ciudad.",
+          "options": [
+            "un",
+            "unos",
+            "unas"
+          ],
+          "answerIndex": 1,
+          "explanation": "Amigos es masculino plural."
+        }
+      ]
+    },
+    {
+      "id": "a1ad-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1ad7",
+          "incorrect": "La agua está fría.",
+          "answer": [
+            "El agua está fría."
+          ],
+          "explanation": "Agua empieza con a tónica, así que usa el en singular aunque sea femenina."
+        },
+        {
+          "id": "a1ad8",
+          "incorrect": "Compré unos naranjas.",
+          "answer": [
+            "Compré unas naranjas."
+          ],
+          "explanation": "Naranjas es femenino plural, así que el artículo debe ser unas."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El artículo definido (el, la, los, las) marca algo específico o conocido; el indefinido (un, una, unos, unas) presenta algo nuevo.",
+    "El artículo siempre concuerda en género y número con el sustantivo que acompaña.",
+    "Los sustantivos femeninos que empiezan con a o ha tónica usan el/un en singular por sonido, pero siguen siendo femeninos."
+  ]
+}

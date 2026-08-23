@@ -1,0 +1,183 @@
+{
+  "id": "a1-el-abecedario-y-la-pronunciacion",
+  "level": "A1",
+  "unit": "1",
+  "order": 1,
+  "skill": "pronunciation",
+  "strand": "fonetica",
+  "title": "El Abecedario y la Pronunciación",
+  "subtitle": "Los sonidos del español, la acentuación y la tilde: dónde va y por qué.",
+  "objectives": [
+    "Nombrar y pronunciar las letras del abecedario español, incluida la ñ",
+    "Distinguir los sonidos de letras que cambian según la vocal que sigue (c, g, r)",
+    "Explicar la regla de acentuación y decidir cuándo una palabra necesita tilde"
+  ],
+  "content": {
+    "intro": "El español se escribe casi como se pronuncia: una vez que conoces las reglas de sonido y de acentuación, puedes leer en voz alta cualquier palabra nueva con confianza.",
+    "explanation": "<p>El abecedario español tiene veintisiete letras, incluida la <strong>ñ</strong>, que no existe en muchos otros idiomas y representa un sonido único (como en <em>año</em> o <em>niño</em>). Cada vocal (a, e, i, o, u) suena siempre igual y con claridad: el español no tiene sonidos vocálicos reducidos ni silenciosos como ocurre en otros idiomas.</p><p>Lo más difícil para un principiante suele ser que la <strong>c</strong>, la <strong>g</strong> y la <strong>r</strong> cambian de sonido según su posición, y que existe una regla clara — pero con excepciones marcadas por la tilde — para saber qué sílaba de una palabra se pronuncia con más fuerza.</p>",
+    "rules": [
+      {
+        "heading": "a) La c y la g según la vocal siguiente",
+        "body": "<ul><li><strong>ca, co, cu</strong> = sonido fuerte de \"k\" — <em>casa, cosa, cuna</em></li><li><strong>ce, ci</strong> = sonido suave (como \"s\" en Latinoamérica, o \"z\" en España) — <em>cena, cielo</em></li><li><strong>ga, go, gu</strong> = sonido fuerte de \"g\" — <em>gato, gorra, gusto</em></li><li><strong>ge, gi</strong> = sonido gutural, parecido a una \"j\" fuerte — <em>gente, girasol</em></li><li>Para mantener el sonido fuerte antes de e/i se añade una <strong>u</strong> muda: <strong>gue, gui</strong> — <em>guerra, guitarra</em></li></ul>"
+      },
+      {
+        "heading": "b) La r simple y la r fuerte",
+        "body": "<ul><li>Una sola <strong>r</strong> entre vocales suena suave — <em>pero, cara</em></li><li><strong>rr</strong> siempre suena fuerte y vibrante — <em>perro, carro</em></li><li>Una sola <strong>r</strong> al inicio de palabra también suena fuerte — <em>rosa, ratón</em></li></ul>"
+      },
+      {
+        "heading": "c) Sílaba tónica: la regla general",
+        "body": "<ul><li>Si la palabra termina en <strong>vocal, n o s</strong>, la fuerza cae en la penúltima sílaba — <em>casa, joven, libros</em></li><li>Si la palabra termina en <strong>cualquier otra consonante</strong>, la fuerza cae en la última sílaba — <em>hotel, ciudad, reloj</em></li><li>Toda palabra que no siga esta regla necesita una <strong>tilde</strong> escrita sobre la vocal fuerte, para marcar la excepción</li></ul>"
+      },
+      {
+        "heading": "d) Cuándo escribir la tilde",
+        "body": "<ul><li><em>café, sofá</em> — terminan en vocal pero la fuerza cae en la última sílaba: necesitan tilde</li><li><em>árbol, fácil</em> — terminan en consonante distinta de n/s pero la fuerza cae antes de la última sílaba: necesitan tilde</li><li><em>rápido, música</em> — la fuerza cae dos sílabas antes de la última: siempre necesitan tilde</li><li>La tilde también distingue palabras que se escriben igual pero significan cosas distintas — <em>tú</em> (pronombre) frente a <em>tu</em> (posesivo), <em>él</em> frente a <em>el</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "El abecedario español tiene veintisiete letras.",
+      "La ñ es una letra propia del español, como en año o mañana.",
+      "En cena, la c suena suave; en casa, suena fuerte.",
+      "Perro se pronuncia con la r fuerte y vibrante.",
+      "Hotel lleva la fuerza en la última sílaba y no necesita tilde.",
+      "Café termina en vocal pero la fuerza cae al final, así que necesita tilde.",
+      "Música siempre lleva tilde porque la fuerza cae dos sílabas antes del final.",
+      "Tú vienes conmigo, pero tu hermano se queda en casa."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pronunciar \"gente\" con el sonido fuerte de la g",
+        "right": "\"gente\" con el sonido gutural suave de la g antes de e",
+        "why": "Ge/gi siempre tienen el sonido gutural en español, no el sonido fuerte que ocurre antes de a, o, u."
+      },
+      {
+        "wrong": "Escribir \"musica\" sin tilde",
+        "right": "música, con tilde en la u",
+        "why": "Cuando la fuerza cae dos sílabas antes del final (esdrújula), la palabra siempre lleva tilde, sin excepción."
+      },
+      {
+        "wrong": "Pronunciar la r de \"pero\" igual que la de \"perro\"",
+        "right": "pero con r suave, perro con r fuerte y vibrante",
+        "why": "Una sola r entre vocales es suave; solo rr (o r al inicio de palabra) es la r fuerte — y cambia el significado de la palabra."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ap-mc",
+      "type": "multiple-choice",
+      "title": "¿Qué sonido es?",
+      "items": [
+        {
+          "id": "a1ap1",
+          "prompt": "¿Cómo suena la c en la palabra \"cielo\"?",
+          "options": [
+            "Sonido fuerte, como en casa",
+            "Sonido suave",
+            "No se pronuncia"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ce/ci siempre tienen el sonido suave en español, nunca el sonido fuerte de ca/co/cu."
+        },
+        {
+          "id": "a1ap2",
+          "prompt": "¿Qué palabra tiene el sonido fuerte de la g?",
+          "options": [
+            "gente",
+            "gorra",
+            "girasol"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ga/go/gu tienen el sonido fuerte; ge/gi tienen el sonido gutural suave — gorra es ga/go/gu."
+        },
+        {
+          "id": "a1ap3",
+          "prompt": "¿Cuál de estas palabras necesita tilde por terminar en vocal con la fuerza en la última sílaba?",
+          "options": [
+            "casa",
+            "café",
+            "libro"
+          ],
+          "answerIndex": 1,
+          "explanation": "Café termina en vocal, pero la fuerza cae en la última sílaba — una excepción a la regla general, por eso lleva tilde."
+        },
+        {
+          "id": "a1ap4",
+          "prompt": "¿Qué palabra tiene la r fuerte y vibrante?",
+          "options": [
+            "pero",
+            "cara",
+            "carro"
+          ],
+          "answerIndex": 2,
+          "explanation": "Carro tiene rr, que siempre suena fuerte; pero y cara tienen una sola r entre vocales, sonido suave."
+        }
+      ]
+    },
+    {
+      "id": "a1ap-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1ap5",
+          "statement": "La ñ es una letra propia del abecedario español.",
+          "answer": true,
+          "explanation": "La ñ existe en español y representa un sonido único, distinto de la n simple."
+        },
+        {
+          "id": "a1ap6",
+          "statement": "Todas las palabras que terminan en consonante llevan tilde.",
+          "answer": false,
+          "explanation": "Solo llevan tilde las palabras que no siguen la regla general de acentuación, sin importar si terminan en vocal o consonante."
+        },
+        {
+          "id": "a1ap7",
+          "statement": "La palabra \"árbol\" necesita tilde porque termina en una consonante distinta de n o s pero la fuerza cae en la primera sílaba.",
+          "answer": true,
+          "explanation": "Árbol termina en l; según la regla general, la fuerza debería caer en la última sílaba, pero cae en la primera, así que necesita tilde."
+        }
+      ]
+    },
+    {
+      "id": "a1ap-fill",
+      "type": "fill-blank",
+      "title": "Completa con Tilde o Sin Tilde",
+      "instructions": "Elige la forma correcta de cada palabra.",
+      "items": [
+        {
+          "id": "a1ap8",
+          "prompt": "La palabra que significa \"lugar donde se duerme de viaje\" se escribe ___.",
+          "answers": [
+            [
+              "hotel"
+            ]
+          ],
+          "explanation": "Hotel termina en consonante distinta de n/s con la fuerza en la última sílaba: sigue la regla general, sin tilde.",
+          "options": [
+            "hotel",
+            "hótel"
+          ]
+        },
+        {
+          "id": "a1ap9",
+          "prompt": "La palabra que significa \"melodía\" se escribe ___.",
+          "answers": [
+            [
+              "música"
+            ]
+          ],
+          "explanation": "Música es esdrújula (la fuerza cae dos sílabas antes del final) y siempre lleva tilde.",
+          "options": [
+            "musica",
+            "música"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El abecedario español tiene veintisiete letras, incluida la ñ, y cada vocal suena siempre igual y con claridad.",
+    "C, g y r cambian de sonido según la letra siguiente: ce/ci son suaves, ge/gi son guturales, y solo rr (o r inicial) es fuerte.",
+    "La regla general de acentuación depende de la última letra de la palabra; toda excepción se marca con tilde escrita."
+  ]
+}

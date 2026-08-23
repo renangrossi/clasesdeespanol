@@ -1,0 +1,216 @@
+{
+  "id": "c1-matices-del-subjuntivo",
+  "level": "C1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "Matices del Subjuntivo: Percepción, Negación y Grados de Certeza",
+  "subtitle": "Por qué \"veo que llueve\" usa indicativo y \"no veo que llueva\" usa subjuntivo — el subjuntivo como marcador de certeza.",
+  "objectives": [
+    "Reconocer cómo la negación de un verbo de percepción o de opinión desencadena el subjuntivo en la subordinada.",
+    "Distinguir entre expresiones de certeza total, que piden indicativo, y expresiones de duda o certeza parcial, que piden subjuntivo.",
+    "Usar correctamente verbos como ver, creer, pensar y parecer en sus formas afirmativa y negativa."
+  ],
+  "content": {
+    "intro": "El uso del subjuntivo no depende solo de una lista fija de verbos que lo activan, sino del grado de certeza que el hablante realmente comunica en cada momento.",
+    "explanation": "<p>Verbos como <em>ver, creer, pensar, parecer, suponer</em> llevan indicativo en la subordinada cuando se usan en afirmativa, porque comunican una certeza asumida por el hablante: <em>Veo que estás cansado.</em> Cuando se niegan, la certeza desaparece y el verbo subordinado pasa a subjuntivo: <em>No veo que estés cansado.</em> Esta alternancia también afecta a estructuras con \"quizá(s)\", \"tal vez\" y \"posiblemente\", donde el subjuntivo marca mayor duda y el indicativo, mayor confianza del hablante en lo que dice.</p><p>Es un matiz, no una regla mecánica: dos hablantes pueden elegir indicativo o subjuntivo con la misma palabra según cuánta seguridad quieran transmitir, y ese margen de elección es precisamente lo que distingue el uso avanzado del uso mecánico del subjuntivo.</p>",
+    "rules": [
+      {
+        "heading": "a) Verbos de percepción/opinión en afirmativa",
+        "body": "<p>Piden indicativo: <em>Noto que has cambiado.</em> <em>Me parece que tiene razón.</em></p>"
+      },
+      {
+        "heading": "b) Los mismos verbos negados",
+        "body": "<p>Piden subjuntivo: <em>No noto que hayas cambiado.</em> <em>No me parece que tenga razón.</em></p>"
+      },
+      {
+        "heading": "c) Quizá(s), tal vez, posiblemente",
+        "body": "<p>Subjuntivo cuando expresan más duda; indicativo cuando expresan más confianza: <em>Quizá venga</em> (dudoso) frente a <em>Quizá viene</em> (más seguro).</p>"
+      },
+      {
+        "heading": "d) Preguntas con verbos de opinión",
+        "body": "<p>Pueden llevar subjuntivo si la pregunta busca genuinamente confirmar algo incierto: <em>¿Crees que sea buena idea?</em> frente a la pregunta más neutra <em>¿Crees que es buena idea?</em></p>"
+      }
+    ],
+    "examples": [
+      "Veo que has terminado el informe.",
+      "No veo que hayas terminado el informe todavía.",
+      "Me parece que el plan funciona.",
+      "No me parece que el plan funcione tan bien como dicen.",
+      "Quizá tengamos suerte esta vez.",
+      "Quizá tenemos razón, pero conviene comprobarlo.",
+      "No creo que sea tan complicado como parece.",
+      "¿Piensas que valga la pena intentarlo?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "No veo que has terminado.",
+        "right": "No veo que hayas terminado.",
+        "why": "Al negar un verbo de percepción, la subordinada pierde la certeza asumida y exige subjuntivo."
+      },
+      {
+        "wrong": "Creo que tenga razón.",
+        "right": "Creo que tiene razón.",
+        "why": "\"Creer\" en afirmativa expresa una certeza asumida por el hablante y pide indicativo; el subjuntivo solo aparece al negarlo: \"no creo que tenga razón\"."
+      },
+      {
+        "wrong": "Usar siempre indicativo con \"quizá\", sin ningún matiz de duda.",
+        "right": "Alternar \"quizá venga\" (duda) y \"quizá viene\" (confianza) según la intención real.",
+        "why": "La elección entre indicativo y subjuntivo con \"quizá\" comunica un matiz real de certeza; no es una elección libre de significado."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l3-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1l3i1",
+          "statement": "En la frase \"No veo que estés listo\", el verbo subordinado debe ir en subjuntivo.",
+          "answer": true,
+          "explanation": "La negación de un verbo de percepción elimina la certeza y exige subjuntivo en la subordinada."
+        },
+        {
+          "id": "c1l3i2",
+          "statement": "El verbo \"creer\" en afirmativa siempre exige subjuntivo en la subordinada.",
+          "answer": false,
+          "explanation": "En afirmativa, \"creer\" expresa una certeza asumida y pide indicativo; el subjuntivo aparece al negarlo."
+        },
+        {
+          "id": "c1l3i3",
+          "statement": "Con \"quizá\", el uso del subjuntivo o del indicativo puede cambiar el grado de certeza que se comunica.",
+          "answer": true,
+          "explanation": "El subjuntivo con \"quizá\" marca más duda; el indicativo, más confianza del hablante."
+        },
+        {
+          "id": "c1l3i4",
+          "statement": "La negación de un verbo de opinión nunca afecta al modo del verbo subordinado.",
+          "answer": false,
+          "explanation": "La negación es precisamente lo que dispara el cambio de indicativo a subjuntivo en estos verbos."
+        }
+      ]
+    },
+    {
+      "id": "c1l3-fill",
+      "type": "fill-blank",
+      "title": "Completa Según el Grado de Certeza",
+      "items": [
+        {
+          "id": "c1l3i5",
+          "prompt": "Veo que ___ (tú - estar) muy ocupado hoy.",
+          "answers": [
+            [
+              "estás"
+            ]
+          ],
+          "options": [
+            "estás",
+            "estés"
+          ],
+          "explanation": "Percepción afirmativa: indicativo."
+        },
+        {
+          "id": "c1l3i6",
+          "prompt": "No veo que ___ (tú - estar) tan ocupado como dices.",
+          "answers": [
+            [
+              "estés"
+            ]
+          ],
+          "options": [
+            "estás",
+            "estés"
+          ],
+          "explanation": "Percepción negada: subjuntivo."
+        },
+        {
+          "id": "c1l3i7",
+          "prompt": "No me parece que la propuesta ___ (ser) tan mala.",
+          "answers": [
+            [
+              "sea"
+            ]
+          ],
+          "options": [
+            "es",
+            "sea"
+          ],
+          "explanation": "Opinión negada: subjuntivo."
+        },
+        {
+          "id": "c1l3i8",
+          "prompt": "Me parece que la propuesta ___ (ser) razonable.",
+          "answers": [
+            [
+              "es"
+            ]
+          ],
+          "options": [
+            "es",
+            "sea"
+          ],
+          "explanation": "Opinión afirmativa: indicativo."
+        }
+      ]
+    },
+    {
+      "id": "c1l3-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "c1l3i9",
+          "prompt": "\"Quizá ___ razón, pero conviene comprobarlo.\" (el hablante está bastante seguro)",
+          "options": [
+            "tengamos",
+            "tenemos",
+            "tener"
+          ],
+          "answerIndex": 1,
+          "explanation": "El indicativo con quizá comunica más confianza del hablante."
+        },
+        {
+          "id": "c1l3i10",
+          "prompt": "\"No pienso que eso ___ verdad.\"",
+          "options": [
+            "es",
+            "sea",
+            "será"
+          ],
+          "answerIndex": 1,
+          "explanation": "La negación de un verbo de opinión dispara el subjuntivo."
+        },
+        {
+          "id": "c1l3i11",
+          "prompt": "\"Supongo que ya lo ___.\" (afirmación asumida como cierta)",
+          "options": [
+            "sepan",
+            "saben",
+            "sabrían"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Suponer\" en afirmativa pide indicativo por expresar una certeza asumida."
+        },
+        {
+          "id": "c1l3i12",
+          "prompt": "\"¿Crees que ___ buena idea?\" (pregunta que busca confirmar algo genuinamente incierto)",
+          "options": [
+            "es",
+            "sea",
+            "será"
+          ],
+          "answerIndex": 1,
+          "explanation": "En una pregunta que expresa duda genuina, es posible usar subjuntivo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los verbos de percepción y opinión en afirmativa piden indicativo porque comunican una certeza asumida.",
+    "Al negarlos, la certeza desaparece y la subordinada pasa a subjuntivo.",
+    "Con \"quizá\", \"tal vez\" y \"posiblemente\", la elección entre indicativo y subjuntivo comunica un matiz real de mayor o menor certeza."
+  ]
+}

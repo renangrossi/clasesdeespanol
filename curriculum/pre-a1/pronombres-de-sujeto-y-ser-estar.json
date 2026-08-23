@@ -1,0 +1,259 @@
+{
+  "id": "pre-a1-pronombres-de-sujeto-y-ser-estar",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "pronombres",
+  "title": "Pronombres de Sujeto y un Primer Acercamiento a Ser/Estar",
+  "subtitle": "Yo, tú, él/ella, nosotros, ellos/ellas; y la diferencia sencilla entre soy de... (origen) y estoy en... (lugar).",
+  "objectives": [
+    "Reconocer y usar los pronombres de sujeto yo, tú, él/ella, nosotros y ellos/ellas.",
+    "Usar soy de... para decir de dónde eres.",
+    "Usar estoy en... para decir dónde estás en este momento."
+  ],
+  "content": {
+    "intro": "Los pronombres de sujeto identifican quién hace la acción, y dos pequeñas frases — soy de... y estoy en... — te permiten hablar de tu origen y de tu ubicación desde el primer día.",
+    "explanation": "<p>Los pronombres de sujeto más usados son <strong>yo</strong>, <strong>tú</strong>, <strong>él</strong>/<strong>ella</strong>, <strong>nosotros</strong>/<strong>nosotras</strong> y <strong>ellos</strong>/<strong>ellas</strong>. En español, muchas veces no es necesario decir el pronombre, porque la forma del verbo ya indica quién habla — pero al principio es útil usarlo siempre para practicar.</p><p>El español tiene dos verbos que se traducen a veces de forma parecida: <strong>ser</strong> y <strong>estar</strong>. De forma muy simple, en este nivel: <em>ser</em> se usa para el origen (<em>Soy de México</em>) y <em>estar</em> se usa para el lugar en este momento (<em>Estoy en la escuela</em>). Más adelante aprenderás muchos más usos de cada uno.</p>",
+    "rules": [
+      {
+        "heading": "a) Los pronombres de sujeto",
+        "body": "<ul><li><strong>yo</strong> — la persona que habla.</li><li><strong>tú</strong> — la persona con quien hablas (informal).</li><li><strong>él / ella</strong> — otra persona (masculino/femenino).</li><li><strong>nosotros / nosotras</strong> — tú (quien habla) y otras personas.</li><li><strong>ellos / ellas</strong> — varias personas de las que hablas.</li></ul>"
+      },
+      {
+        "heading": "b) Soy de... para el origen",
+        "body": "<ul><li><em>Soy de Argentina.</em></li><li><em>¿De dónde eres tú?</em></li><li><em>Ella es de Japón.</em></li></ul>"
+      },
+      {
+        "heading": "c) Estoy en... para el lugar",
+        "body": "<ul><li><em>Estoy en casa.</em></li><li><em>¿Dónde estás tú ahora?</em></li><li><em>Ella está en el trabajo.</em></li></ul>"
+      },
+      {
+        "heading": "d) Un contraste simple",
+        "body": "<ul><li><strong>Soy de Chile</strong> — de dónde vengo (origen, con ser).</li><li><strong>Estoy en Chile</strong> — dónde me encuentro ahora (lugar, con estar).</li><li>Una persona puede ser de un país y estar en otro al mismo tiempo.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Yo soy de Brasil.",
+      "Tú estás en la universidad ahora.",
+      "Ella es de Portugal, pero está en Francia.",
+      "Nosotros somos de la misma ciudad.",
+      "Ellos están en el parque.",
+      "¿De dónde eres tú?",
+      "¿Dónde estás en este momento?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Yo estoy de España.",
+        "right": "Yo soy de España.",
+        "why": "El origen se expresa con ser (soy de...), no con estar."
+      },
+      {
+        "wrong": "Ella es en la escuela.",
+        "right": "Ella está en la escuela.",
+        "why": "El lugar donde alguien se encuentra se expresa con estar (está en...), no con ser."
+      },
+      {
+        "wrong": "Ellos es de Perú.",
+        "right": "Ellos son de Perú.",
+        "why": "Con el pronombre ellos, el verbo ser toma la forma son, no es."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa7-mc",
+      "type": "multiple-choice",
+      "title": "Pronombres, Ser y Estar",
+      "items": [
+        {
+          "id": "pa7mc1",
+          "prompt": "¿Qué pronombre usas para hablar de ti mismo?",
+          "options": [
+            "tú",
+            "yo",
+            "él"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yo es el pronombre de la primera persona, la que habla."
+        },
+        {
+          "id": "pa7mc2",
+          "prompt": "¿Cómo dices de dónde eres?",
+          "options": [
+            "Estoy de...",
+            "Soy de...",
+            "Tengo de..."
+          ],
+          "answerIndex": 1,
+          "explanation": "El origen se expresa con soy de..."
+        },
+        {
+          "id": "pa7mc3",
+          "prompt": "¿Cómo dices dónde te encuentras ahora?",
+          "options": [
+            "Soy en...",
+            "Estoy en...",
+            "Quiero en..."
+          ],
+          "answerIndex": 1,
+          "explanation": "El lugar actual se expresa con estoy en..."
+        },
+        {
+          "id": "pa7mc4",
+          "prompt": "¿Qué pronombre usas para hablar de un grupo que te incluye a ti?",
+          "options": [
+            "ellos",
+            "nosotros",
+            "tú"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nosotros incluye a la persona que habla junto con otras."
+        },
+        {
+          "id": "pa7mc5",
+          "prompt": "Ana y Luis están en la playa. ¿Qué pronombre los representa?",
+          "options": [
+            "nosotros",
+            "ellos",
+            "ella"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ellos se usa para hablar de varias personas, en este caso Ana y Luis."
+        }
+      ]
+    },
+    {
+      "id": "pa7-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "pa7tf1",
+          "statement": "Soy de... se usa para hablar del origen de una persona.",
+          "answer": true,
+          "explanation": "Exactamente — soy de indica de dónde viene alguien."
+        },
+        {
+          "id": "pa7tf2",
+          "statement": "Estoy en... se usa para hablar del origen de una persona.",
+          "answer": false,
+          "explanation": "Estoy en... indica el lugar donde alguien se encuentra ahora, no su origen."
+        },
+        {
+          "id": "pa7tf3",
+          "statement": "Una persona puede ser de un país y estar en otro al mismo tiempo.",
+          "answer": true,
+          "explanation": "Sí — el origen (ser) y el lugar actual (estar) son cosas distintas."
+        },
+        {
+          "id": "pa7tf4",
+          "statement": "Nosotros y ellos se refieren siempre a la misma persona.",
+          "answer": false,
+          "explanation": "Nosotros incluye a quien habla; ellos se refiere a otras personas, sin incluir a quien habla."
+        }
+      ]
+    },
+    {
+      "id": "pa7-match",
+      "type": "matching",
+      "title": "Empareja el Pronombre con la Situación",
+      "items": [
+        {
+          "id": "pa7match1",
+          "pairs": [
+            {
+              "left": "yo",
+              "right": "la persona que habla"
+            },
+            {
+              "left": "tú",
+              "right": "la persona con quien hablas"
+            },
+            {
+              "left": "nosotros",
+              "right": "tú (quien habla) y otras personas"
+            },
+            {
+              "left": "ellos",
+              "right": "varias personas de las que hablas"
+            }
+          ],
+          "explanation": "Cada pronombre de sujeto identifica claramente quién realiza la acción en la frase."
+        }
+      ]
+    },
+    {
+      "id": "pa7-fill",
+      "type": "fill-blank",
+      "title": "Completa con Soy o Estoy",
+      "items": [
+        {
+          "id": "pa7f1",
+          "prompt": "___ de Colombia.",
+          "answers": [
+            [
+              "soy"
+            ]
+          ],
+          "options": [
+            "soy",
+            "estoy",
+            "eres"
+          ],
+          "explanation": "El origen se expresa con soy de..."
+        },
+        {
+          "id": "pa7f2",
+          "prompt": "Ahora ___ en el trabajo.",
+          "answers": [
+            [
+              "estoy"
+            ]
+          ],
+          "options": [
+            "estoy",
+            "soy",
+            "eres"
+          ],
+          "explanation": "El lugar actual se expresa con estoy en..."
+        },
+        {
+          "id": "pa7f3",
+          "prompt": "¿De dónde ___ tú?",
+          "answers": [
+            [
+              "eres"
+            ]
+          ],
+          "options": [
+            "eres",
+            "estás",
+            "soy"
+          ],
+          "explanation": "Eres es la forma de tú del verbo ser, usada para preguntar el origen."
+        },
+        {
+          "id": "pa7f4",
+          "prompt": "¿Dónde ___ tú ahora?",
+          "answers": [
+            [
+              "estás"
+            ]
+          ],
+          "options": [
+            "estás",
+            "eres",
+            "soy"
+          ],
+          "explanation": "Estás es la forma de tú del verbo estar, usada para preguntar el lugar."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los pronombres de sujeto (yo, tú, él/ella, nosotros, ellos/ellas) identifican quién realiza la acción.",
+    "Soy de... expresa el origen de una persona; estoy en... expresa dónde se encuentra en este momento.",
+    "Una persona puede ser de un lugar y estar en otro distinto al mismo tiempo — origen y ubicación son cosas diferentes."
+  ]
+}

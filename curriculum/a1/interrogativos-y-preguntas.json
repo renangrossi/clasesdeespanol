@@ -1,0 +1,186 @@
+{
+  "id": "a1-interrogativos-y-preguntas",
+  "level": "A1",
+  "unit": "1",
+  "order": 13,
+  "skill": "grammar",
+  "strand": "preguntas",
+  "title": "Interrogativos y Preguntas",
+  "subtitle": "Qué, quién, cuándo, dónde, cómo, por qué, cuánto: cómo formar preguntas simples.",
+  "objectives": [
+    "Usar los interrogativos más comunes para formar preguntas",
+    "Colocar correctamente los signos de interrogación al inicio y al final",
+    "Distinguir cuánto/cuánta/cuántos/cuántas según género y número"
+  ],
+  "content": {
+    "intro": "Las palabras interrogativas siempre llevan tilde en español, incluso dentro de una frase, y siempre van acompañadas por los dos signos de interrogación: uno al principio y otro al final.",
+    "explanation": "<p>El español usa un signo de interrogación de apertura (<strong>¿</strong>) al inicio de la pregunta y uno de cierre (<strong>?</strong>) al final — esto ayuda a saber, incluso antes de terminar de leer, que la frase es una pregunta. Las palabras interrogativas (<em>qué, quién, cuándo, dónde, cómo, por qué, cuánto</em>) siempre llevan tilde quando se usan para preguntar, aunque la misma palabra sin tilde pueda tener otro uso en la frase (como <em>que</em> sin tilde, que significa \"that/which\" en otros contextos).</p>",
+    "rules": [
+      {
+        "heading": "a) Los interrogativos principales",
+        "body": "<ul><li><strong>qué</strong> — pide información sobre una cosa: <em>¿Qué haces?</em></li><li><strong>quién / quiénes</strong> — pide información sobre una persona: <em>¿Quién es ella?</em></li><li><strong>cuándo</strong> — tiempo: <em>¿Cuándo llegas?</em></li><li><strong>dónde</strong> — lugar: <em>¿Dónde vives?</em></li><li><strong>cómo</strong> — manera: <em>¿Cómo estás?</em></li><li><strong>por qué</strong> — causa (dos palabras, con tilde en qué): <em>¿Por qué estudias español?</em></li></ul>"
+      },
+      {
+        "heading": "b) Cuánto y sus formas",
+        "body": "<ul><li><strong>cuánto</strong> — masculino singular: <em>¿Cuánto cuesta?</em></li><li><strong>cuánta</strong> — femenino singular: <em>¿Cuánta agua necesitas?</em></li><li><strong>cuántos</strong> — masculino plural: <em>¿Cuántos hermanos tienes?</em></li><li><strong>cuántas</strong> — femenino plural: <em>¿Cuántas personas vienen?</em></li></ul>"
+      },
+      {
+        "heading": "c) Los signos de interrogación",
+        "body": "<ul><li>El español siempre usa ambos signos: <strong>¿</strong> al principio y <strong>?</strong> al final</li><li>El signo de apertura va justo antes de la parte que es pregunta, no siempre al inicio absoluto de la frase: <em>Oye, ¿vienes hoy?</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "¿Qué quieres comer esta noche?",
+      "¿Quién llamó por teléfono hace un momento?",
+      "¿Cuándo empieza la clase de español?",
+      "¿Dónde está la estación de tren más cercana?",
+      "¿Cómo se llama tu profesor de matemáticas?",
+      "¿Por qué llegas siempre tan tarde a clase?",
+      "¿Cuánto cuesta este libro de gramática?",
+      "¿Cuántas personas van a venir a la fiesta?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Que hora es?",
+        "right": "¿Qué hora es?",
+        "why": "Falta el signo de apertura ¿ y la tilde en qué, obligatoria cuando la palabra pregunta algo."
+      },
+      {
+        "wrong": "¿Cuanto cuesta esto?",
+        "right": "¿Cuánto cuesta esto?",
+        "why": "Cuánto siempre lleva tilde cuando se usa como interrogativo."
+      },
+      {
+        "wrong": "¿Cuántos agua necesitas?",
+        "right": "¿Cuánta agua necesitas?",
+        "why": "Agua es femenino (aunque use el artículo el por sonido), así que cuánto debe concordar como cuánta."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1iq-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Interrogativo Correcto",
+      "items": [
+        {
+          "id": "a1iq1",
+          "prompt": "¿___ te llamas?",
+          "answers": [
+            [
+              "Cómo"
+            ]
+          ],
+          "explanation": "Cómo pregunta por la manera, usado en la expresión fija cómo te llamas.",
+          "options": [
+            "Cómo",
+            "Qué",
+            "Cuándo"
+          ]
+        },
+        {
+          "id": "a1iq2",
+          "prompt": "¿___ vives, en qué ciudad?",
+          "answers": [
+            [
+              "Dónde"
+            ]
+          ],
+          "explanation": "Dónde pregunta por el lugar.",
+          "options": [
+            "Dónde",
+            "Cuándo",
+            "Quién"
+          ]
+        },
+        {
+          "id": "a1iq3",
+          "prompt": "¿___ hermanos tienes?",
+          "answers": [
+            [
+              "Cuántos"
+            ]
+          ],
+          "explanation": "Hermanos es masculino plural, así que se usa cuántos.",
+          "options": [
+            "Cuántos",
+            "Cuánta",
+            "Cuánto"
+          ]
+        },
+        {
+          "id": "a1iq4",
+          "prompt": "¿___ no vienes a la fiesta?",
+          "answers": [
+            [
+              "Por qué"
+            ]
+          ],
+          "explanation": "Por qué pregunta por la causa; se escribe en dos palabras con tilde en qué.",
+          "options": [
+            "Por qué",
+            "Porque",
+            "Cómo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1iq-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Pregunta Correcta",
+      "items": [
+        {
+          "id": "a1iq5",
+          "prompt": "Quieres saber el precio de algo. ¿Qué preguntas?",
+          "options": [
+            "¿Cuándo cuesta?",
+            "¿Cuánto cuesta?",
+            "¿Cómo cuesta?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cuánto se usa para preguntar por cantidad o precio."
+        },
+        {
+          "id": "a1iq6",
+          "prompt": "¿Cuál pregunta es correcta para saber quién hizo algo?",
+          "options": [
+            "¿Qué lo hizo?",
+            "¿Quién lo hizo?",
+            "¿Cómo lo hizo?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Quién pregunta por la persona responsable de la acción."
+        }
+      ]
+    },
+    {
+      "id": "a1iq-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1iq7",
+          "incorrect": "Donde esta el baño?",
+          "answer": [
+            "¿Dónde está el baño?"
+          ],
+          "explanation": "Faltan el signo de apertura ¿ y las tildes en dónde y está."
+        },
+        {
+          "id": "a1iq8",
+          "incorrect": "¿Cuanta libros tienes?",
+          "answer": [
+            "¿Cuántos libros tienes?"
+          ],
+          "explanation": "Libros es masculino plural, así que se necesita cuántos, con tilde."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los interrogativos más comunes son qué, quién(es), cuándo, dónde, cómo, por qué y cuánto, y siempre llevan tilde al preguntar.",
+    "Toda pregunta en español lleva dos signos de interrogación: ¿ al inicio de la parte interrogativa y ? al final.",
+    "Cuánto concuerda en género y número con el sustantivo: cuánto, cuánta, cuántos, cuántas."
+  ]
+}

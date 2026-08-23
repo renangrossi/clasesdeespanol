@@ -1,0 +1,264 @@
+{
+  "id": "pre-a1-numeros-hora-y-fecha",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 3,
+  "skill": "vocabulary",
+  "strand": "numeros-tiempo",
+  "title": "Números, Hora y Fecha",
+  "subtitle": "Los números del 0 al 100, cómo preguntar y decir la hora, los días de la semana y los meses.",
+  "objectives": [
+    "Contar y usar los números del 0 al 100 en situaciones cotidianas.",
+    "Preguntar y decir la hora en español.",
+    "Nombrar los días de la semana y los meses del año."
+  ],
+  "content": {
+    "intro": "Los números, la hora y la fecha aparecen todos los días — en una tienda, en una cita, en una conversación — así que son vocabulario de máxima prioridad.",
+    "explanation": "<p>Los números del 0 al 30 se escriben en su mayoría de una sola palabra (excepto los compuestos con <em>y</em>, como <em>veintiuno</em> hasta <em>veintinueve</em>). A partir del 31, se separan con la palabra <strong>y</strong>: <em>treinta y uno, cuarenta y dos, noventa y nueve</em>.</p><p>Para preguntar la hora se dice <strong>¿Qué hora es?</strong>, y para responder se usa el verbo <em>ser</em>: <em>Es la una</em> (solo para la una) pero <em>Son las dos, son las tres...</em> para el resto de las horas. La fecha se organiza con el día primero y el mes después: <em>el 15 de marzo</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Números del 0 al 30",
+        "body": "<ul><li>0 cero, 1 uno, 2 dos, 3 tres, 4 cuatro, 5 cinco</li><li>6 seis, 7 siete, 8 ocho, 9 nueve, 10 diez</li><li>11 once, 12 doce, 13 trece, 14 catorce, 15 quince</li><li>16 dieciséis... 19 diecinueve, 20 veinte</li><li>21 veintiuno... 29 veintinueve, 30 treinta</li></ul>"
+      },
+      {
+        "heading": "b) Números del 31 al 100",
+        "body": "<ul><li>A partir del 31 se usa la palabra y: <em>treinta y uno, treinta y dos...</em></li><li>40 cuarenta, 50 cincuenta, 60 sesenta, 70 setenta, 80 ochenta, 90 noventa</li><li>100 cien (pero <em>ciento uno, ciento dos...</em> a partir de 101)</li></ul>"
+      },
+      {
+        "heading": "c) Decir la hora",
+        "body": "<ul><li><strong>¿Qué hora es?</strong> — pregunta general para saber la hora.</li><li><em>Es la una</em> — solo para la 1:00.</li><li><em>Son las dos, son las tres, son las diez...</em> — para el resto de las horas.</li><li><em>Son las cuatro y media</em> (4:30); <em>son las cinco menos cuarto</em> (4:45).</li></ul>"
+      },
+      {
+        "heading": "d) Días y meses",
+        "body": "<ul><li>Días: lunes, martes, miércoles, jueves, viernes, sábado, domingo.</li><li>Meses: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.</li><li>Los días y los meses se escriben con minúscula en español.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Tengo veinticinco años.",
+      "Son las tres y media de la tarde.",
+      "Hoy es lunes, 3 de marzo.",
+      "Mi cumpleaños es el 20 de julio.",
+      "Es la una en punto.",
+      "Necesito noventa y nueve euros.",
+      "El domingo no trabajo.",
+      "Diciembre es el último mes del año."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Son la una de la tarde.",
+        "right": "Es la una de la tarde.",
+        "why": "Solo la una usa es (singular); todas las demás horas usan son (plural)."
+      },
+      {
+        "wrong": "Hoy es Lunes, 3 de Marzo.",
+        "right": "Hoy es lunes, 3 de marzo.",
+        "why": "En español, los días de la semana y los meses se escriben siempre con minúscula inicial."
+      },
+      {
+        "wrong": "diecisis",
+        "right": "dieciséis",
+        "why": "Dieciséis lleva tilde en la í; es un error común olvidarla al escribirlo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa3-mc",
+      "type": "multiple-choice",
+      "title": "Números, Hora y Fecha",
+      "items": [
+        {
+          "id": "pa3mc1",
+          "prompt": "¿Cómo se dice 45 en español?",
+          "options": [
+            "cuarenta y cinco",
+            "cuarenta y seis",
+            "cincuenta y cuatro"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cuarenta y cinco combina cuarenta con y cinco."
+        },
+        {
+          "id": "pa3mc2",
+          "prompt": "¿Qué se dice para la 1:00?",
+          "options": [
+            "Son la una",
+            "Es la una",
+            "Son las una"
+          ],
+          "answerIndex": 1,
+          "explanation": "Solo para la una se usa es; el resto de las horas usa son."
+        },
+        {
+          "id": "pa3mc3",
+          "prompt": "¿Cuál es el primer día de la semana en el calendario hispanohablante?",
+          "options": [
+            "domingo",
+            "lunes",
+            "sábado"
+          ],
+          "answerIndex": 1,
+          "explanation": "En la mayoría de los países hispanohablantes, la semana empieza el lunes."
+        },
+        {
+          "id": "pa3mc4",
+          "prompt": "¿Cuál es el mes después de junio?",
+          "options": [
+            "mayo",
+            "julio",
+            "agosto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El orden de los meses es ...mayo, junio, julio, agosto..."
+        },
+        {
+          "id": "pa3mc5",
+          "prompt": "¿Cómo se escribe 100?",
+          "options": [
+            "cien",
+            "ciento",
+            "cientos"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cien es la forma correcta antes de un sustantivo o sola; ciento se usa a partir de 101 (ciento uno)."
+        }
+      ]
+    },
+    {
+      "id": "pa3-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "pa3tf1",
+          "statement": "Los días de la semana se escriben con mayúscula en español.",
+          "answer": false,
+          "explanation": "Se escriben con minúscula: lunes, martes, miércoles..."
+        },
+        {
+          "id": "pa3tf2",
+          "statement": "Son las dos se usa para las 2:00.",
+          "answer": true,
+          "explanation": "A partir de las dos, siempre se usa son."
+        },
+        {
+          "id": "pa3tf3",
+          "statement": "El año tiene doce meses en español, igual que en otras lenguas.",
+          "answer": true,
+          "explanation": "Sí, el calendario tiene doce meses: de enero a diciembre."
+        },
+        {
+          "id": "pa3tf4",
+          "statement": "Treinta y uno se escribe todo junto, sin espacios: treintayuno.",
+          "answer": false,
+          "explanation": "Se escribe en tres palabras separadas: treinta y uno."
+        }
+      ]
+    },
+    {
+      "id": "pa3-match",
+      "type": "matching",
+      "title": "Empareja el Número con su Forma Escrita",
+      "items": [
+        {
+          "id": "pa3match1",
+          "pairs": [
+            {
+              "left": "15",
+              "right": "quince"
+            },
+            {
+              "left": "21",
+              "right": "veintiuno"
+            },
+            {
+              "left": "50",
+              "right": "cincuenta"
+            },
+            {
+              "left": "99",
+              "right": "noventa y nueve"
+            },
+            {
+              "left": "100",
+              "right": "cien"
+            }
+          ],
+          "explanation": "Del 16 al 29 los números se escriben en una sola palabra; a partir del 31 se separan con y."
+        }
+      ]
+    },
+    {
+      "id": "pa3-fill",
+      "type": "fill-blank",
+      "title": "Completa la Hora y la Fecha",
+      "items": [
+        {
+          "id": "pa3f1",
+          "prompt": "— ¿Qué hora es? — ___ las cinco.",
+          "answers": [
+            [
+              "son"
+            ]
+          ],
+          "options": [
+            "son",
+            "es",
+            "está"
+          ],
+          "explanation": "Para las cinco (plural) se usa son."
+        },
+        {
+          "id": "pa3f2",
+          "prompt": "El primer mes del año es ___.",
+          "answers": [
+            [
+              "enero"
+            ]
+          ],
+          "options": [
+            "enero",
+            "diciembre",
+            "marzo"
+          ],
+          "explanation": "Enero es el primer mes del calendario, seguido de febrero."
+        },
+        {
+          "id": "pa3f3",
+          "prompt": "El último día de la semana (en el calendario hispanohablante) es el ___.",
+          "answers": [
+            [
+              "domingo"
+            ]
+          ],
+          "options": [
+            "domingo",
+            "sábado",
+            "lunes"
+          ],
+          "explanation": "La semana termina el domingo."
+        },
+        {
+          "id": "pa3f4",
+          "prompt": "Tengo treinta y ___ años (35).",
+          "answers": [
+            [
+              "cinco"
+            ]
+          ],
+          "options": [
+            "cinco",
+            "seis",
+            "cuatro"
+          ],
+          "explanation": "Treinta y cinco es 35."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los números del 0 al 30 son en su mayoría una palabra; a partir del 31 se separan con y (treinta y uno, cuarenta y dos...).",
+    "Es la una es la única hora en singular; todas las demás usan son las... (son las dos, son las tres...).",
+    "Los días de la semana y los meses del año se escriben con minúscula y la semana empieza el lunes."
+  ]
+}

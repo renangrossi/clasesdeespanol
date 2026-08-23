@@ -1,0 +1,188 @@
+{
+  "id": "a1-ser-y-estar-introduccion",
+  "level": "A1",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "verbos",
+  "title": "Ser y Estar (Introducción)",
+  "subtitle": "Dos verbos que significan \"ser/estar\": identidad y características frente a ubicación y estado temporal.",
+  "objectives": [
+    "Conjugar ser y estar en presente de indicativo",
+    "Usar ser para identidad, origen y características permanentes",
+    "Usar estar para ubicación y estados temporales"
+  ],
+  "content": {
+    "intro": "Ser y estar son dos verbos distintos que en muchos otros idiomas se traducen con una sola palabra — aprender a distinguirlos es uno de los primeros grandes retos del español, y vale la pena dominarlo bien desde el principio.",
+    "explanation": "<p>Ambos verbos son irregulares y hay que memorizar sus formas. La diferencia central: <strong>ser</strong> describe lo que algo o alguien <em>es</em> de manera esencial — su identidad, origen, profesión o características que no cambian fácilmente. <strong>Estar</strong> describe <em>dónde</em> está algo o alguien, o en qué <em>estado o condición temporal</em> se encuentra en este momento.</p><p>Una forma sencilla de recordarlo: si la característica define a la persona o cosa de manera duradera, usa <em>ser</em>; si describe un lugar o una condición que puede cambiar, usa <em>estar</em>. Con el tiempo aprenderás casos más sutiles, pero esta distinción cubre la mayoría de las situaciones del día a día.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Ser y estar — presente de indicativo</caption><thead><tr><th>Sujeto</th><th>ser</th><th>estar</th></tr></thead><tbody><tr><td>yo</td><td>soy</td><td>estoy</td></tr><tr><td>tú</td><td>eres</td><td>estás</td></tr><tr><td>él / ella / usted</td><td>es</td><td>está</td></tr><tr><td>nosotros/as</td><td>somos</td><td>estamos</td></tr><tr><td>vosotros/as</td><td>sois</td><td>estáis</td></tr><tr><td>ellos/as / ustedes</td><td>son</td><td>están</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Usos de ser",
+        "body": "<ul><li>Identidad: <em>Soy Ana.</em></li><li>Origen y nacionalidad: <em>Somos de Colombia.</em></li><li>Profesión: <em>Es profesor.</em></li><li>Características permanentes: <em>La casa es grande.</em></li><li>Hora y fecha: <em>Son las tres. Hoy es lunes.</em></li></ul>"
+      },
+      {
+        "heading": "b) Usos de estar",
+        "body": "<ul><li>Ubicación: <em>El libro está en la mesa.</em></li><li>Estado emocional o físico temporal: <em>Estoy cansado.</em></li><li>Resultado de un cambio: <em>La puerta está abierta.</em></li><li>Acciones en progreso (con gerundio, se verá más adelante): <em>Estoy comiendo.</em></li></ul>"
+      },
+      {
+        "heading": "c) Un mismo adjetivo, dos significados",
+        "body": "<ul><li><em>Ella es aburrida.</em> — característica permanente (es una persona aburrida)</li><li><em>Ella está aburrida.</em> — estado temporal (en este momento se aburre)</li><li><em>Él es listo.</em> — es inteligente</li><li><em>Él está listo.</em> — está preparado en este momento</li></ul>"
+      }
+    ],
+    "examples": [
+      "Soy estudiante de español desde hace dos meses.",
+      "Mis padres son de Argentina.",
+      "El café está muy caliente todavía.",
+      "Nosotros estamos en la biblioteca esta tarde.",
+      "Mi hermana es muy inteligente y trabajadora.",
+      "La ventana está rota desde ayer.",
+      "Hoy es martes y son las nueve de la mañana.",
+      "Estoy un poco nervioso antes del examen."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Estoy profesor.",
+        "right": "Soy profesor.",
+        "why": "La profesión describe una identidad, no un estado temporal, así que se usa ser."
+      },
+      {
+        "wrong": "El libro es en la mesa.",
+        "right": "El libro está en la mesa.",
+        "why": "La ubicación siempre usa estar, nunca ser."
+      },
+      {
+        "wrong": "Ella es cansada.",
+        "right": "Ella está cansada.",
+        "why": "El cansancio es un estado temporal que cambia, así que necesita estar; ser cambiaría el significado a \"es una persona molesta o pesada\"."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1se-fill",
+      "type": "fill-blank",
+      "title": "Completa con Ser o Estar",
+      "instructions": "Conjuga el verbo entre paréntesis en presente.",
+      "items": [
+        {
+          "id": "a1se1",
+          "prompt": "Yo ___ (ser) de México.",
+          "answers": [
+            [
+              "soy"
+            ]
+          ],
+          "explanation": "Origen: se usa ser.",
+          "options": [
+            "soy",
+            "estoy",
+            "es"
+          ]
+        },
+        {
+          "id": "a1se2",
+          "prompt": "Tú ___ (estar) muy cansado hoy.",
+          "answers": [
+            [
+              "estás"
+            ]
+          ],
+          "explanation": "Estado temporal: se usa estar.",
+          "options": [
+            "estás",
+            "eres",
+            "está"
+          ]
+        },
+        {
+          "id": "a1se3",
+          "prompt": "Nosotros ___ (estar) en el parque.",
+          "answers": [
+            [
+              "estamos"
+            ]
+          ],
+          "explanation": "Ubicación: se usa estar.",
+          "options": [
+            "estamos",
+            "somos",
+            "están"
+          ]
+        },
+        {
+          "id": "a1se4",
+          "prompt": "Ella ___ (ser) muy simpática.",
+          "answers": [
+            [
+              "es"
+            ]
+          ],
+          "explanation": "Característica permanente: se usa ser.",
+          "options": [
+            "es",
+            "está",
+            "son"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1se-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Verbo Correcto",
+      "items": [
+        {
+          "id": "a1se5",
+          "prompt": "¿Cómo se dice \"la puerta está abierta\"?",
+          "options": [
+            "La puerta es abierta.",
+            "La puerta está abierta.",
+            "La puerta estás abierta."
+          ],
+          "answerIndex": 1,
+          "explanation": "El resultado de un cambio de estado usa estar."
+        },
+        {
+          "id": "a1se6",
+          "prompt": "¿Cómo se pregunta la hora?",
+          "options": [
+            "¿Qué hora estás?",
+            "¿Qué hora son?",
+            "¿Qué hora es?"
+          ],
+          "answerIndex": 2,
+          "explanation": "La hora siempre se expresa con ser: Es la una / Son las dos."
+        }
+      ]
+    },
+    {
+      "id": "a1se-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1se7",
+          "incorrect": "Yo estoy médico.",
+          "answer": [
+            "Yo soy médico."
+          ],
+          "explanation": "La profesión describe identidad, no un estado temporal, así que se usa ser."
+        },
+        {
+          "id": "a1se8",
+          "incorrect": "El restaurante son cerca de aquí.",
+          "answer": [
+            "El restaurante está cerca de aquí."
+          ],
+          "explanation": "La ubicación siempre usa estar, y además el sujeto es singular, así que el verbo debe ser está."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Ser expresa identidad, origen, profesión y características permanentes; estar expresa ubicación y estados temporales.",
+    "Ambos verbos son irregulares en presente: soy/eres/es/somos/sois/son y estoy/estás/está/estamos/estáis/están.",
+    "Algunos adjetivos cambian de significado según el verbo: ser aburrido (persona aburrida) frente a estar aburrido (sentirse aburrido ahora)."
+  ]
+}

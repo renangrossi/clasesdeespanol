@@ -1,0 +1,186 @@
+{
+  "id": "a1-hay-y-estar",
+  "level": "A1",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammar",
+  "strand": "existencia",
+  "title": "Hay / Estar (Existencia y Ubicación)",
+  "subtitle": "El contraste entre \"hay un libro\" (existencia) y \"el libro está aquí\" (ubicación).",
+  "objectives": [
+    "Usar hay para expresar la existencia de algo, sin importar el número",
+    "Usar estar para indicar la ubicación de algo ya identificado",
+    "Distinguir cuándo corresponde hay y cuándo corresponde estar"
+  ],
+  "content": {
+    "intro": "Hay y estar responden a preguntas distintas: hay dice si algo existe o cuánto hay, mientras que estar dice dónde se encuentra algo que ya conocemos.",
+    "explanation": "<p><strong>Hay</strong> es una forma especial del verbo <em>haber</em> que no cambia según el número: se dice <em>hay un libro</em> y también <em>hay tres libros</em>, siempre con la misma forma <em>hay</em>. Se usa para anunciar la existencia de algo, generalmente algo nuevo o no específico para el oyente.</p><p><strong>Estar</strong>, en cambio, se usa cuando el objeto ya es conocido o específico, y lo que interesa es dónde se encuentra — por eso concuerda en número con el sujeto, como cualquier otro verbo: <em>el libro está</em>, <em>los libros están</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Hay — existencia, forma invariable",
+        "body": "<ul><li><em>Hay un restaurante en esta calle.</em></li><li><em>Hay muchos estudiantes en la clase.</em></li><li>Hay nunca cambia de forma, aunque el sustantivo sea plural</li></ul>"
+      },
+      {
+        "heading": "b) Estar — ubicación de algo específico",
+        "body": "<ul><li><em>El restaurante está en esta calle.</em> (un restaurante concreto, ya mencionado)</li><li><em>Los estudiantes están en la biblioteca.</em></li><li>Estar concuerda en número: está / están</li></ul>"
+      },
+      {
+        "heading": "c) Cómo elegir entre los dos",
+        "body": "<ul><li>Si el sustantivo lleva un artículo indefinido (un, una, unos, unas) o ningún artículo, suele usarse <strong>hay</strong>: <em>Hay una farmacia cerca.</em></li><li>Si el sustantivo lleva un artículo definido (el, la, los, las) o es algo ya identificado, se usa <strong>estar</strong>: <em>La farmacia está cerca.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Hay un parque muy bonito cerca de mi casa.",
+      "El parque está a solo diez minutos caminando.",
+      "Hay dos cafeterías en esta plaza.",
+      "La cafetería que buscas está al lado del banco.",
+      "¿Hay algún médico disponible ahora mismo?",
+      "El médico está en su consultorio esta mañana.",
+      "Hay muchas personas esperando el autobús.",
+      "Mis amigos están esperando en la entrada."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Hay tres libros están en la mesa.",
+        "right": "Hay tres libros en la mesa. / Los libros están en la mesa.",
+        "why": "Hay y estar no se combinan en la misma frase para el mismo sustantivo: hay anuncia existencia, estar indica ubicación, pero no ambos a la vez."
+      },
+      {
+        "wrong": "El libro hay en la mesa.",
+        "right": "El libro está en la mesa.",
+        "why": "Un sustantivo ya identificado con artículo definido usa estar para su ubicación, no hay."
+      },
+      {
+        "wrong": "Han dos personas en la sala.",
+        "right": "Hay dos personas en la sala.",
+        "why": "La forma invariable de haber para expresar existencia es hay, no han, sin importar si el sustantivo es plural."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1he-fill",
+      "type": "fill-blank",
+      "title": "Completa con Hay o la Forma de Estar",
+      "items": [
+        {
+          "id": "a1he1",
+          "prompt": "___ un banco muy cerca de aquí.",
+          "answers": [
+            [
+              "Hay"
+            ]
+          ],
+          "explanation": "Se anuncia la existencia de algo no específico: hay.",
+          "options": [
+            "Hay",
+            "Está",
+            "Están"
+          ]
+        },
+        {
+          "id": "a1he2",
+          "prompt": "El banco ___ al lado de la farmacia.",
+          "answers": [
+            [
+              "está"
+            ]
+          ],
+          "explanation": "El sustantivo ya está identificado con artículo definido: se usa estar.",
+          "options": [
+            "hay",
+            "está",
+            "están"
+          ]
+        },
+        {
+          "id": "a1he3",
+          "prompt": "___ muchos libros interesantes en esta biblioteca.",
+          "answers": [
+            [
+              "Hay"
+            ]
+          ],
+          "explanation": "Se anuncia existencia de varios libros no específicos: hay, siempre invariable.",
+          "options": [
+            "Hay",
+            "Están",
+            "Estás"
+          ]
+        },
+        {
+          "id": "a1he4",
+          "prompt": "Mis llaves ___ sobre la mesa de la cocina.",
+          "answers": [
+            [
+              "están"
+            ]
+          ],
+          "explanation": "Llaves ya es un sustantivo específico (mis llaves) y plural: están.",
+          "options": [
+            "hay",
+            "está",
+            "están"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1he-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Opción Correcta",
+      "items": [
+        {
+          "id": "a1he5",
+          "prompt": "¿Cómo preguntas si existe una farmacia cerca?",
+          "options": [
+            "¿Está una farmacia cerca?",
+            "¿Hay una farmacia cerca?",
+            "¿Han una farmacia cerca?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Para preguntar por la existencia de algo no específico se usa hay."
+        },
+        {
+          "id": "a1he6",
+          "prompt": "\"Los estudiantes ___ en el aula.\" ¿Qué falta?",
+          "options": [
+            "hay",
+            "está",
+            "están"
+          ],
+          "answerIndex": 2,
+          "explanation": "Estudiantes es un sujeto plural ya identificado: se necesita están, no hay."
+        }
+      ]
+    },
+    {
+      "id": "a1he-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1he7",
+          "incorrect": "El restaurante hay en el centro.",
+          "answer": [
+            "El restaurante está en el centro."
+          ],
+          "explanation": "Restaurante ya está identificado con artículo definido, así que necesita estar, no hay."
+        },
+        {
+          "id": "a1he8",
+          "incorrect": "Han muchas personas en la fiesta.",
+          "answer": [
+            "Hay muchas personas en la fiesta."
+          ],
+          "explanation": "La forma correcta e invariable de haber para expresar existencia es hay, no han."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Hay expresa existencia y nunca cambia de forma, sin importar si el sustantivo es singular o plural.",
+    "Estar expresa la ubicación de algo específico o ya identificado, y concuerda en número: está/están.",
+    "Un sustantivo con artículo indefinido suele usar hay; uno con artículo definido suele usar estar."
+  ]
+}

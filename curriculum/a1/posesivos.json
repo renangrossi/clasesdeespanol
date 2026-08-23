@@ -1,0 +1,186 @@
+{
+  "id": "a1-posesivos",
+  "level": "A1",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "posesivos",
+  "title": "Posesivos",
+  "subtitle": "Mi, tu, su, nuestro y sus formas: cómo indicar de quién es algo.",
+  "objectives": [
+    "Usar los posesivos átonos (mi, tu, su, nuestro, vuestro) delante del sustantivo",
+    "Hacer concordar nuestro/a y vuestro/a en género y número",
+    "Distinguir el uso de su, que puede referirse a varias personas distintas"
+  ],
+  "content": {
+    "intro": "Los posesivos indican a quién pertenece algo, y en español concuerdan con el sustantivo que acompañan, no con la persona que posee el objeto.",
+    "explanation": "<p>La mayoría de los posesivos (<em>mi, tu, su</em>) solo cambian entre singular y plural, no entre masculino y femenino: <em>mi libro, mi casa, mis libros, mis casas</em>. Solo <strong>nuestro</strong> y <strong>vuestro</strong> tienen cuatro formas completas, como un adjetivo en -o/-a, porque concuerdan tanto en género como en número.</p><p>Un punto importante: el posesivo concuerda con la cosa poseída, no con el dueño — <em>su casa</em> puede significar \"la casa de él\", \"de ella\", \"de usted\", \"de ellos\", \"de ellas\" o \"de ustedes\"; el contexto aclara a quién se refiere.</p>",
+    "rules": [
+      {
+        "heading": "a) Mi, tu, su (solo cambian en número)",
+        "body": "<ul><li><strong>mi / mis</strong> — mi libro, mis libros</li><li><strong>tu / tus</strong> — tu casa, tus casas</li><li><strong>su / sus</strong> — su coche, sus coches (de él, de ella, de usted, de ellos, de ellas, de ustedes)</li></ul>"
+      },
+      {
+        "heading": "b) Nuestro/a y vuestro/a (cambian en género y número)",
+        "body": "<ul><li><strong>nuestro, nuestra, nuestros, nuestras</strong> — nuestro perro, nuestra casa, nuestros perros, nuestras casas</li><li><strong>vuestro, vuestra, vuestros, vuestras</strong> — vuestro perro, vuestra casa (usado en España)</li></ul>"
+      },
+      {
+        "heading": "c) El posesivo concuerda con lo poseído, no con el dueño",
+        "body": "<ul><li><em>Ella tiene sus libros.</em> — sus concuerda con libros (plural), no con ella</li><li>Para evitar ambigüedad con su, se puede aclarar: <em>la casa de ella, el coche de ustedes</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Mi hermano vive en otra ciudad.",
+      "Tus amigos son muy divertidos.",
+      "Su casa está cerca del parque central.",
+      "Nuestra familia se reúne todos los domingos.",
+      "Vuestros libros están sobre la mesa.",
+      "Ellos siempre traen sus propios regalos.",
+      "Nuestro profesor explica muy bien la gramática.",
+      "¿Es esta tu mochila o la de tu hermana?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "mis libro",
+        "right": "mi libro",
+        "why": "El posesivo debe concordar en número con el sustantivo: libro es singular, así que necesita mi, no mis."
+      },
+      {
+        "wrong": "nuestro casa",
+        "right": "nuestra casa",
+        "why": "Nuestro tiene forma femenina propia y debe concordar: casa es femenino, así que se usa nuestra."
+      },
+      {
+        "wrong": "sus casa de ellos",
+        "right": "su casa de ellos",
+        "why": "El posesivo concuerda con casa, que es singular, así que debe ser su, no sus, aunque los dueños sean varias personas."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1po-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Posesivo Correcto",
+      "items": [
+        {
+          "id": "a1po1",
+          "prompt": "___ hermana vive en Lima. (yo)",
+          "answers": [
+            [
+              "Mi"
+            ]
+          ],
+          "explanation": "Mi no cambia por género, solo por número: hermana es singular.",
+          "options": [
+            "Mi",
+            "Mis",
+            "Mío"
+          ]
+        },
+        {
+          "id": "a1po2",
+          "prompt": "___ amigos llegan mañana. (tú)",
+          "answers": [
+            [
+              "Tus"
+            ]
+          ],
+          "explanation": "Amigos es plural, así que el posesivo también debe ser plural: tus.",
+          "options": [
+            "Tu",
+            "Tus",
+            "Tuyo"
+          ]
+        },
+        {
+          "id": "a1po3",
+          "prompt": "___ casa es muy grande. (nosotros)",
+          "answers": [
+            [
+              "Nuestra"
+            ]
+          ],
+          "explanation": "Casa es femenino singular, así que nuestro debe concordar en femenino: nuestra.",
+          "options": [
+            "Nuestro",
+            "Nuestra",
+            "Nuestros"
+          ]
+        },
+        {
+          "id": "a1po4",
+          "prompt": "___ libros están en la mochila. (yo)",
+          "answers": [
+            [
+              "Mis"
+            ]
+          ],
+          "explanation": "Libros es plural, así que el posesivo también debe ser plural: mis.",
+          "options": [
+            "Mi",
+            "Mis",
+            "Mías"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1po-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Posesivo Correcto",
+      "items": [
+        {
+          "id": "a1po5",
+          "prompt": "\"La casa de ellos\" se puede decir de forma más corta como...",
+          "options": [
+            "sus casa",
+            "su casa",
+            "sus casas"
+          ],
+          "answerIndex": 1,
+          "explanation": "Casa es singular, así que el posesivo debe ser su, no sus, aunque el dueño sea plural."
+        },
+        {
+          "id": "a1po6",
+          "prompt": "¿Cuál es la forma femenina plural de \"vuestro\"?",
+          "options": [
+            "vuestras",
+            "vuestros",
+            "vuestra"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vuestro tiene cuatro formas completas: vuestro, vuestra, vuestros, vuestras."
+        }
+      ]
+    },
+    {
+      "id": "a1po-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1po7",
+          "incorrect": "Mis hermano vive lejos.",
+          "answer": [
+            "Mi hermano vive lejos."
+          ],
+          "explanation": "Hermano es singular, así que el posesivo debe ser mi, no mis."
+        },
+        {
+          "id": "a1po8",
+          "incorrect": "Nuestro amigas llegan hoy.",
+          "answer": [
+            "Nuestras amigas llegan hoy."
+          ],
+          "explanation": "Amigas es femenino plural, así que nuestro debe concordar como nuestras."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Mi, tu y su solo cambian entre singular y plural (mi/mis, tu/tus, su/sus), no entre masculino y femenino.",
+    "Nuestro y vuestro tienen cuatro formas completas, concordando en género y número con lo poseído.",
+    "El posesivo siempre concuerda con la cosa poseída, no con la persona que la posee."
+  ]
+}

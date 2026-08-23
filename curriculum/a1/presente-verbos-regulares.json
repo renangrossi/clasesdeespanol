@@ -1,0 +1,192 @@
+{
+  "id": "a1-presente-verbos-regulares",
+  "level": "A1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "verbos",
+  "title": "Presente — Verbos Regulares",
+  "subtitle": "La conjugación completa de los verbos terminados en -ar, -er e -ir.",
+  "objectives": [
+    "Conjugar verbos regulares terminados en -ar, -er e -ir en presente de indicativo",
+    "Identificar las terminaciones propias de cada una de las tres conjugaciones",
+    "Usar el presente para hablar de hábitos, hechos generales y planes cercanos"
+  ],
+  "content": {
+    "intro": "Todo verbo español pertenece a una de tres familias, según su terminación en infinitivo: -ar, -er, -ir. Aprende el patrón de un verbo regular en cada familia y podrás conjugar cientos de verbos más de la misma manera.",
+    "explanation": "<p>Para conjugar un verbo regular, se quita la terminación del infinitivo (-ar, -er, -ir) y se añade la terminación correspondiente a cada sujeto. Las tres conjugaciones comparten mucho, pero tienen diferencias claras, sobre todo en las formas de <em>vosotros</em> y en algunas vocales.</p><p>El presente de indicativo cubre en español lo que otras lenguas separan en dos tiempos distintos: <em>Hablo español</em> puede significar tanto \"hablo español (en general)\" como, en este momento, \"estoy hablando español\". También se usa con frecuencia para planes cercanos en el futuro: <em>Mañana viajo a Lima.</em></p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Presente de indicativo — hablar, comer, vivir</caption><thead><tr><th>Sujeto</th><th>hablar</th><th>comer</th><th>vivir</th></tr></thead><tbody><tr><td>yo</td><td>hablo</td><td>como</td><td>vivo</td></tr><tr><td>tú</td><td>hablas</td><td>comes</td><td>vives</td></tr><tr><td>él/ella/usted</td><td>habla</td><td>come</td><td>vive</td></tr><tr><td>nosotros/as</td><td>hablamos</td><td>comemos</td><td>vivimos</td></tr><tr><td>vosotros/as</td><td>habláis</td><td>coméis</td><td>vivís</td></tr><tr><td>ellos/as/ustedes</td><td>hablan</td><td>comen</td><td>viven</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Verbos en -ar (hablar, trabajar, estudiar)",
+        "body": "<p>Terminaciones: -o, -as, -a, -amos, -áis, -an</p>"
+      },
+      {
+        "heading": "b) Verbos en -er (comer, leer, aprender)",
+        "body": "<p>Terminaciones: -o, -es, -e, -emos, -éis, -en</p>"
+      },
+      {
+        "heading": "c) Verbos en -ir (vivir, escribir, abrir)",
+        "body": "<p>Terminaciones: -o, -es, -e, -imos, -ís, -en</p>"
+      },
+      {
+        "heading": "d) -er y -ir se parecen mucho",
+        "body": "<p>Las terminaciones de -er e -ir solo se diferencian en nosotros (-emos / -imos) y vosotros (-éis / -ís); el resto de las formas son idénticas.</p>"
+      }
+    ],
+    "examples": [
+      "Trabajo en una oficina cerca de mi casa.",
+      "Tú comes demasiado rápido siempre.",
+      "Ella vive en un apartamento pequeño.",
+      "Nosotros estudiamos español todos los martes.",
+      "Vosotros habláis muy bien italiano también.",
+      "Ellos escriben cartas a sus abuelos.",
+      "Mañana viajamos a la playa con toda la familia.",
+      "¿Aprendes rápido cuando practicas todos los días?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Nosotros habla mucho.",
+        "right": "Nosotros hablamos mucho.",
+        "why": "Nosotros siempre usa la terminación -amos/-emos/-imos, nunca la forma de él/ella."
+      },
+      {
+        "wrong": "Yo vivo en Madrid desde tres años.",
+        "right": "Yo vivo en Madrid desde hace tres años.",
+        "why": "Para expresar duración desde el pasado hasta ahora, el español usa desde hace, no solo desde."
+      },
+      {
+        "wrong": "Ellos comen y bebe agua.",
+        "right": "Ellos comen y beben agua.",
+        "why": "Los dos verbos deben concordar con el mismo sujeto plural: comen y beben, no beben con singular."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pv-fill",
+      "type": "fill-blank",
+      "title": "Conjuga el Verbo",
+      "instructions": "Completa cada frase con la forma correcta del verbo entre paréntesis.",
+      "items": [
+        {
+          "id": "a1pv1",
+          "prompt": "Yo ___ (trabajar) en un hospital.",
+          "answers": [
+            [
+              "trabajo"
+            ]
+          ],
+          "explanation": "Yo + verbo en -ar = terminación -o.",
+          "options": [
+            "trabajo",
+            "trabajas",
+            "trabaja"
+          ]
+        },
+        {
+          "id": "a1pv2",
+          "prompt": "Tú ___ (comer) muy poco por la mañana.",
+          "answers": [
+            [
+              "comes"
+            ]
+          ],
+          "explanation": "Tú + verbo en -er = terminación -es.",
+          "options": [
+            "comes",
+            "come",
+            "como"
+          ]
+        },
+        {
+          "id": "a1pv3",
+          "prompt": "Nosotros ___ (vivir) cerca del centro.",
+          "answers": [
+            [
+              "vivimos"
+            ]
+          ],
+          "explanation": "Nosotros + verbo en -ir = terminación -imos.",
+          "options": [
+            "vivimos",
+            "viven",
+            "vivís"
+          ]
+        },
+        {
+          "id": "a1pv4",
+          "prompt": "Ellos ___ (escribir) correos todos los días.",
+          "answers": [
+            [
+              "escriben"
+            ]
+          ],
+          "explanation": "Ellos + verbo en -ir = terminación -en.",
+          "options": [
+            "escriben",
+            "escribimos",
+            "escribe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1pv-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Conjugación Correcta",
+      "items": [
+        {
+          "id": "a1pv5",
+          "prompt": "¿Cuál es la forma correcta de \"leer\" para \"ella\"?",
+          "options": [
+            "lee",
+            "lees",
+            "leo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Él/ella/usted + verbo en -er = terminación -e."
+        },
+        {
+          "id": "a1pv6",
+          "prompt": "\"Vosotros ___ español.\" (hablar)",
+          "options": [
+            "hablan",
+            "habláis",
+            "hablamos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vosotros + verbo en -ar = terminación -áis."
+        }
+      ]
+    },
+    {
+      "id": "a1pv-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1pv7",
+          "incorrect": "Nosotros habla español.",
+          "answer": [
+            "Nosotros hablamos español."
+          ],
+          "explanation": "Nosotros siempre usa -amos con verbos en -ar, no la forma de él/ella."
+        },
+        {
+          "id": "a1pv8",
+          "incorrect": "Yo vives en Perú.",
+          "answer": [
+            "Yo vivo en Perú."
+          ],
+          "explanation": "Yo + verbo en -ir = terminación -o, no la forma de tú."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Tres conjugaciones regulares: -ar (-o,-as,-a,-amos,-áis,-an), -er (-o,-es,-e,-emos,-éis,-en), -ir (-o,-es,-e,-imos,-ís,-en).",
+    "Las terminaciones de -er e -ir solo difieren en nosotros y vosotros; el resto de formas coinciden.",
+    "El presente cubre hábitos, hechos generales, acciones en curso y planes cercanos en el futuro."
+  ]
+}

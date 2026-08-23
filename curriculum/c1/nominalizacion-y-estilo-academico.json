@@ -1,0 +1,227 @@
+{
+  "id": "c1-nominalizacion-y-estilo-academico",
+  "level": "C1",
+  "unit": "1",
+  "order": 5,
+  "skill": "writing",
+  "strand": "registro-academico",
+  "title": "Nominalización y Estilo Académico",
+  "subtitle": "Convertir verbos y adjetivos en sustantivos para lograr un registro más formal y objetivo.",
+  "objectives": [
+    "Transformar verbos y adjetivos en sustantivos abstractos mediante los sufijos más productivos del español.",
+    "Reescribir oraciones con verbos personales en construcciones nominalizadas propias del registro académico.",
+    "Reconocer cuándo la nominalización aporta precisión y cuándo simplemente complica innecesariamente una frase."
+  ],
+  "content": {
+    "intro": "La nominalización — convertir una acción o una cualidad en un sustantivo — es uno de los recursos más característicos del español académico y profesional escrito.",
+    "explanation": "<p>Convertir un verbo en sustantivo (<em>analizar → el análisis, decidir → la decisión, implementar → la implementación</em>) o un adjetivo en sustantivo (<em>eficaz → la eficacia, complejo → la complejidad</em>) permite condensar información y desplazar el foco de quién actúa hacia el proceso o el resultado en sí, algo típico de informes, artículos y textos expositivos. Los sufijos más productivos son -ción/-sión (comunicación, decisión), -miento (crecimiento, conocimiento), -dad/-idad (viabilidad, complejidad) y -eza (certeza, pobreza).</p><p>Este recurso no debe abusarse: en exceso, produce un estilo denso y poco natural, conocido informalmente como \"nominalitis\". Un buen texto académico alterna nominalizaciones con verbos personales para mantener la claridad.</p>",
+    "rules": [
+      {
+        "heading": "a) Sufijos verbo → sustantivo",
+        "body": "<p>-ción/-sión (organizar → organización, decidir → decisión), -miento (establecer → establecimiento), -ancia/-encia (tolerar → tolerancia), -aje (aprender → aprendizaje, forma irregular).</p>"
+      },
+      {
+        "heading": "b) Sufijos adjetivo → sustantivo",
+        "body": "<p>-dad/-idad (posible → posibilidad), -eza (pobre → pobreza), -ismo (real → realismo).</p>"
+      },
+      {
+        "heading": "c) Uso típico en registro académico",
+        "body": "<p>Sustituir \"Los investigadores decidieron cambiar el método\" por \"La decisión de cambiar el método...\" desplaza el foco de la acción al resultado, apto para resúmenes y conclusiones.</p>"
+      },
+      {
+        "heading": "d) Moderación",
+        "body": "<p>Alternar nominalizaciones con verbos conjugados evita un estilo excesivamente denso; conviene reservarlas para las ideas centrales del texto.</p>"
+      }
+    ],
+    "examples": [
+      "La implementación del nuevo sistema mejoró la eficiencia del equipo.",
+      "Su decisión de renunciar sorprendió a todos.",
+      "La complejidad del problema exige un análisis detallado.",
+      "El crecimiento económico se desaceleró el año pasado.",
+      "La viabilidad del proyecto depende de la financiación disponible.",
+      "El desconocimiento de las normas generó varios errores.",
+      "La resolución del conflicto tomó varias semanas.",
+      "Su insistencia en revisar los datos evitó un error grave."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "La analización de los datos tomó tres días.",
+        "right": "El análisis de los datos tomó tres días.",
+        "why": "El sustantivo correcto derivado de \"analizar\" es \"el análisis\", no la forma regularizada \"analización\"."
+      },
+      {
+        "wrong": "La realización de la implementación de la decisión de cambio tomó semanas.",
+        "right": "Implementar la decisión de cambio tomó semanas.",
+        "why": "Encadenar demasiadas nominalizaciones produce un estilo artificialmente denso y difícil de seguir, incluso en registro formal."
+      },
+      {
+        "wrong": "La aparición del problema fue debido a un fallo del servidor.",
+        "right": "La aparición del problema se debió a un fallo del servidor.",
+        "why": "El verbo que acompaña a una nominalización con sujeto de este tipo debe ser \"deberse a\", no \"ser debido a\", en el registro cuidado."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l5-typing",
+      "type": "typing",
+      "title": "Convierte el Verbo en Sustantivo",
+      "instructions": "Escribe el sustantivo derivado de cada verbo.",
+      "items": [
+        {
+          "id": "c1l5i1",
+          "prompt": "Escribe el sustantivo derivado del verbo \"decidir\".",
+          "answer": [
+            "decisión",
+            "la decisión"
+          ],
+          "explanation": "Decidir → la decisión."
+        },
+        {
+          "id": "c1l5i2",
+          "prompt": "Escribe el sustantivo derivado del verbo \"analizar\".",
+          "answer": [
+            "análisis",
+            "el análisis"
+          ],
+          "explanation": "Analizar → el análisis (forma irregular, invariable en número)."
+        },
+        {
+          "id": "c1l5i3",
+          "prompt": "Escribe el sustantivo derivado del verbo \"crecer\".",
+          "answer": [
+            "crecimiento",
+            "el crecimiento"
+          ],
+          "explanation": "Crecer → el crecimiento."
+        },
+        {
+          "id": "c1l5i4",
+          "prompt": "Escribe el sustantivo derivado del verbo \"resolver\".",
+          "answer": [
+            "resolución",
+            "la resolución"
+          ],
+          "explanation": "Resolver → la resolución."
+        },
+        {
+          "id": "c1l5i5",
+          "prompt": "Escribe el sustantivo derivado del verbo \"establecer\".",
+          "answer": [
+            "establecimiento",
+            "el establecimiento"
+          ],
+          "explanation": "Establecer → el establecimiento."
+        }
+      ]
+    },
+    {
+      "id": "c1l5-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Nominalización Correcta",
+      "items": [
+        {
+          "id": "c1l5i6",
+          "prompt": "\"La ___ del proyecto depende de la financiación disponible.\" (de viable)",
+          "options": [
+            "viabilidad",
+            "viableza",
+            "viabilización"
+          ],
+          "answerIndex": 0,
+          "explanation": "Viable → la viabilidad, con el sufijo -idad."
+        },
+        {
+          "id": "c1l5i7",
+          "prompt": "\"El ___ de las normas generó varios errores.\" (de desconocer)",
+          "options": [
+            "desconocido",
+            "desconocimiento",
+            "desconocencia"
+          ],
+          "answerIndex": 1,
+          "explanation": "Desconocer → el desconocimiento, con el sufijo -miento."
+        },
+        {
+          "id": "c1l5i8",
+          "prompt": "Elige la versión de registro más académico.",
+          "options": [
+            "Los investigadores decidieron cambiar el método porque los datos no cuadraban.",
+            "La decisión de cambiar el método respondió a inconsistencias en los datos.",
+            "Cambiaron el método porque los números no cuadraban."
+          ],
+          "answerIndex": 1,
+          "explanation": "La nominalización desplaza el foco de quién actúa hacia el proceso, propio del registro académico."
+        },
+        {
+          "id": "c1l5i9",
+          "prompt": "¿Cuál de estas frases abusa de la nominalización hasta volverse poco clara?",
+          "options": [
+            "El análisis reveló varios errores.",
+            "La realización de la implementación de la evaluación de resultados se retrasó.",
+            "La complejidad del caso exigió más tiempo."
+          ],
+          "answerIndex": 1,
+          "explanation": "Encadenar varias nominalizaciones seguidas produce un estilo artificialmente denso, conocido como \"nominalitis\"."
+        }
+      ]
+    },
+    {
+      "id": "c1l5-fill",
+      "type": "fill-blank",
+      "title": "Completa con la Nominalización",
+      "items": [
+        {
+          "id": "c1l5i10",
+          "prompt": "La ___ (crecer) económico se desaceleró el año pasado.",
+          "answers": [
+            [
+              "crecimiento"
+            ]
+          ],
+          "options": [
+            "crecimiento",
+            "creciente",
+            "crecencia"
+          ],
+          "explanation": "Crecer → el crecimiento."
+        },
+        {
+          "id": "c1l5i11",
+          "prompt": "La ___ (complejo) del problema exige un análisis detallado.",
+          "answers": [
+            [
+              "complejidad"
+            ]
+          ],
+          "options": [
+            "complejidad",
+            "complejeza",
+            "complejismo"
+          ],
+          "explanation": "Complejo → la complejidad."
+        },
+        {
+          "id": "c1l5i12",
+          "prompt": "Su ___ (insistir) en revisar los datos evitó un error grave.",
+          "answers": [
+            [
+              "insistencia"
+            ]
+          ],
+          "options": [
+            "insistencia",
+            "insistimiento",
+            "insistidad"
+          ],
+          "explanation": "Insistir → la insistencia."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La nominalización convierte verbos y adjetivos en sustantivos abstractos mediante sufijos como -ción, -miento, -dad y -eza.",
+    "Este recurso desplaza el foco de quién actúa hacia el proceso o el resultado, típico del registro académico y profesional.",
+    "Usado en exceso, produce un estilo artificialmente denso; conviene alternarlo con verbos personales."
+  ]
+}

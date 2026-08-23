@@ -1,0 +1,209 @@
+{
+  "id": "c1-ironia-atenuacion-y-cortesia",
+  "level": "C1",
+  "unit": "1",
+  "order": 9,
+  "skill": "functional",
+  "strand": "pragmatica",
+  "title": "Ironía, Atenuación y Cortesía Lingüística",
+  "subtitle": "Podría ser que..., no sé si..., más bien... — cómo suavizar una afirmación sin perder claridad.",
+  "objectives": [
+    "Usar recursos de atenuación (podría ser que, no sé si, más bien, en cierto modo) para suavizar una opinión o una crítica.",
+    "Reconocer marcas de ironía en el discurso oral y escrito y su función social.",
+    "Elegir el grado de cortesía adecuado al pedir, corregir o disentir de alguien en distintos contextos."
+  ],
+  "content": {
+    "intro": "Hablar con fluidez incluye saber cuándo y cómo suavizar lo que se dice: el español dispone de recursos específicos para atenuar una crítica, expresar duda con tacto o pedir algo sin sonar brusco.",
+    "explanation": "<p>La atenuación reduce el impacto de una afirmación, una petición o una crítica sin cambiar su contenido esencial: expresiones como <em>podría ser que, no sé si, quizá sería mejor, más bien, en cierto modo, hasta cierto punto</em> introducen un margen de duda o suavizan el tono. El condicional también cumple esta función cortés: <em>¿Podrías cerrar la ventana?</em> suena más suave que el imperativo directo \"Cierra la ventana\".</p><p>La ironía, por su parte, dice literalmente lo contrario de lo que se quiere comunicar, apoyándose en el tono, el contexto compartido y a veces en marcadores como \"menudo/vaya\" (<em>¡Menuda ayuda!</em>, dicho cuando alguien no ayudó en absoluto). Reconocerla exige atender al contexto, no solo a las palabras.</p>",
+    "rules": [
+      {
+        "heading": "a) Atenuadores de opinión",
+        "body": "<p>podría ser que, no sé si, hasta cierto punto, en cierto modo, más bien: <em>No sé si es la mejor opción, pero podría funcionar.</em></p>"
+      },
+      {
+        "heading": "b) Peticiones corteses con condicional",
+        "body": "<p>¿Podrías...?, ¿Te importaría...?, ¿Sería posible...? — mucho más suaves que el imperativo directo.</p>"
+      },
+      {
+        "heading": "c) Atenuar una crítica",
+        "body": "<p>\"Quizá convendría revisar esto\" en lugar de \"Esto está mal.\"</p>"
+      },
+      {
+        "heading": "d) Marcadores de ironía",
+        "body": "<p>\"vaya/menudo + sustantivo\" (¡Vaya suerte la mía!, dicho con mala suerte real), y afirmaciones exageradas cuyo contexto revela lo contrario.</p>"
+      }
+    ],
+    "examples": [
+      "No sé si esta es la mejor manera de plantearlo, pero lo intentaré.",
+      "Podría ser que me esté equivocando, aunque no lo creo.",
+      "¿Te importaría bajar un poco el volumen?",
+      "Quizá convendría revisar los números antes de enviarlos.",
+      "Más bien creo que el problema está en otra parte.",
+      "¡Menuda suerte la mía, otra vez lloviendo el día de la excursión!",
+      "¿Sería posible posponer la reunión unos minutos?",
+      "Hasta cierto punto tienes razón, aunque yo lo vería de otra forma."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Cierra la ventana. (a un desconocido, sin ningún atenuante)",
+        "right": "¿Podrías cerrar la ventana, por favor?",
+        "why": "El imperativo directo sin ningún recurso de cortesía puede sonar brusco fuera del ámbito de mucha confianza; el condicional o \"por favor\" suavizan la petición."
+      },
+      {
+        "wrong": "Interpretar \"¡Menuda ayuda!\" siempre de forma literal, como un elogio real.",
+        "right": "Reconocer, según el tono y el contexto, que a menudo es irónico y significa justo lo contrario.",
+        "why": "La ironía se identifica por el contexto y la entonación, no por el significado literal de las palabras."
+      },
+      {
+        "wrong": "No sé si tal vez podría ser que quizá funcionara.",
+        "right": "No sé si podría funcionar.",
+        "why": "Acumular demasiados atenuadores en la misma frase diluye el mensaje hasta volverlo ambiguo, lo contrario de la cortesía eficaz."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l9-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Opción Más Cortés",
+      "items": [
+        {
+          "id": "c1l9i1",
+          "prompt": "Quieres pedirle a un compañero que baje la voz. ¿Qué opción es más cortés?",
+          "options": [
+            "Baja la voz.",
+            "¿Te importaría bajar un poco la voz?",
+            "Silencio."
+          ],
+          "answerIndex": 1,
+          "explanation": "El condicional y la pregunta suavizan considerablemente la petición."
+        },
+        {
+          "id": "c1l9i2",
+          "prompt": "Quieres señalar un error sin sonar duro. Elige la opción más atenuada.",
+          "options": [
+            "Esto está mal.",
+            "Quizá convendría revisar esto.",
+            "Esto es un desastre."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Quizá convendría\" introduce la crítica con un margen de duda que la suaviza."
+        },
+        {
+          "id": "c1l9i3",
+          "prompt": "\"¡Vaya suerte la mía!\" dicho después de perder el autobús es un ejemplo de...",
+          "options": [
+            "cortesía",
+            "ironía",
+            "nominalización"
+          ],
+          "answerIndex": 1,
+          "explanation": "La expresión dice lo contrario de lo que se quiere comunicar; el contexto revela que en realidad tuvo mala suerte."
+        },
+        {
+          "id": "c1l9i4",
+          "prompt": "¿Cuál de estas peticiones es la más directa, sin ningún atenuante?",
+          "options": [
+            "¿Sería posible que me ayudaras?",
+            "¿Te importaría ayudarme?",
+            "Ayúdame."
+          ],
+          "answerIndex": 2,
+          "explanation": "El imperativo sin ningún recurso de cortesía es la forma más directa de las tres."
+        }
+      ]
+    },
+    {
+      "id": "c1l9-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Atenuador Adecuado",
+      "items": [
+        {
+          "id": "c1l9i5",
+          "prompt": "___ esta sea la mejor solución, pero al menos vale la pena intentarlo.",
+          "answers": [
+            [
+              "No sé si",
+              "Podría ser que"
+            ]
+          ],
+          "options": [
+            "No sé si",
+            "Sin duda",
+            "Claramente"
+          ],
+          "explanation": "Atenuador de opinión que introduce un margen de duda."
+        },
+        {
+          "id": "c1l9i6",
+          "prompt": "¿___ posible cambiar la reunión para mañana?",
+          "answers": [
+            [
+              "Sería"
+            ]
+          ],
+          "options": [
+            "Sería",
+            "Es",
+            "Fue"
+          ],
+          "explanation": "El condicional \"sería\" suaviza la petición."
+        },
+        {
+          "id": "c1l9i7",
+          "prompt": "___ cierto punto entiendo tu postura, aunque no la comparto del todo.",
+          "answers": [
+            [
+              "Hasta"
+            ]
+          ],
+          "options": [
+            "Hasta",
+            "Desde",
+            "Sobre"
+          ],
+          "explanation": "\"Hasta cierto punto\" atenúa una afirmación de acuerdo parcial."
+        }
+      ]
+    },
+    {
+      "id": "c1l9-correction",
+      "type": "correction",
+      "title": "Suaviza la Frase",
+      "items": [
+        {
+          "id": "c1l9i8",
+          "incorrect": "Estás equivocado.",
+          "answer": [
+            "Podría ser que estés equivocado.",
+            "No sé si tienes toda la razón en esto."
+          ],
+          "explanation": "Un atenuador reduce el impacto directo de una afirmación que podría sonar como una acusación."
+        },
+        {
+          "id": "c1l9i9",
+          "incorrect": "Dame el informe ahora mismo.",
+          "answer": [
+            "¿Podrías darme el informe, por favor?",
+            "¿Te importaría pasarme el informe cuando puedas?"
+          ],
+          "explanation": "El condicional y \"por favor\" transforman una orden directa en una petición cortés."
+        },
+        {
+          "id": "c1l9i10",
+          "incorrect": "Este plan es un desastre.",
+          "answer": [
+            "Quizá convendría revisar este plan.",
+            "Más bien creo que este plan tiene algunos problemas."
+          ],
+          "explanation": "Atenuar una crítica dura la hace más fácil de aceptar sin perder el mensaje central."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los atenuadores (podría ser que, no sé si, hasta cierto punto) suavizan una opinión o una crítica sin cambiar su contenido esencial.",
+    "El condicional en las peticiones (¿podrías...?, ¿te importaría...?) es mucho más cortés que el imperativo directo.",
+    "La ironía comunica lo contrario de lo dicho literalmente, y se reconoce por el tono y el contexto, no por las palabras en sí."
+  ]
+}

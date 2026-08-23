@@ -1,0 +1,175 @@
+{
+  "id": "a1-adjetivos-y-concordancia",
+  "level": "A1",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "adjetivos",
+  "title": "Adjetivos y Concordancia",
+  "subtitle": "El adjetivo debe concordar en género y número con el sustantivo que describe.",
+  "objectives": [
+    "Hacer concordar adjetivos terminados en -o/-a en género y número",
+    "Usar adjetivos terminados en -e o en consonante, que no cambian según el género",
+    "Colocar el adjetivo antes o después del sustantivo según el matiz que se busque"
+  ],
+  "content": {
+    "intro": "Un adjetivo en español no es una palabra fija: cambia su terminación para concordar con el sustantivo que describe, igual que hace el artículo.",
+    "explanation": "<p>La mayoría de los adjetivos terminan en <strong>-o</strong> en masculino singular y cambian a <strong>-a</strong>, <strong>-os</strong>, <strong>-as</strong> para concordar con el sustantivo. Un segundo grupo termina en <strong>-e</strong> o en consonante para ambos géneros, y solo cambia para formar el plural. La mayoría de los adjetivos descriptivos van después del sustantivo (<em>una casa grande</em>), aunque algunos adjetivos comunes también pueden ir antes, a veces con un matiz de significado distinto.</p>",
+    "rules": [
+      {
+        "heading": "a) Adjetivos en -o/-a (cuatro formas)",
+        "body": "<ul><li>masc. sing. <strong>-o</strong>: <em>alto</em></li><li>fem. sing. <strong>-a</strong>: <em>alta</em></li><li>masc. pl. <strong>-os</strong>: <em>altos</em></li><li>fem. pl. <strong>-as</strong>: <em>altas</em></li></ul>"
+      },
+      {
+        "heading": "b) Adjetivos en -e o en consonante (dos formas)",
+        "body": "<ul><li>sing. (masc. o fem.) <strong>-e</strong>: <em>un chico inteligente, una chica inteligente</em></li><li>pl. (masc. o fem.) <strong>-es</strong>: <em>chicos inteligentes, chicas inteligentes</em></li><li>Lo mismo ocurre con adjetivos terminados en consonante: <em>un examen fácil, unos exámenes fáciles</em></li></ul>"
+      },
+      {
+        "heading": "c) Posición del adjetivo",
+        "body": "<ul><li>La mayoría va después del sustantivo: <em>un libro interesante</em></li><li>Algunos adjetivos comunes (bueno, malo, grande, pequeño, viejo, nuevo) pueden ir antes, a veces con matiz distinto: <em>un gran hombre</em> (importante) frente a <em>un hombre grande</em> (de tamaño físico)</li><li><em>bueno</em> y <em>malo</em> pierden la <strong>-o</strong> final antes de un sustantivo masculino singular: <em>un buen amigo, un mal día</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Marco es alto y muy simpático.",
+      "Mis amigas son inteligentes y trabajadoras.",
+      "Es un coche muy rápido y moderno.",
+      "Tenemos una casa pequeña pero bonita.",
+      "Los estudiantes están cansados después del examen.",
+      "Es un buen amigo desde hace muchos años.",
+      "Ese examen fue muy fácil para todos.",
+      "Vivimos en un gran país lleno de historia."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "una chica alto",
+        "right": "una chica alta",
+        "why": "El adjetivo debe concordar con el sustantivo femenino chica, así que necesita la terminación -a."
+      },
+      {
+        "wrong": "los libros interesanta",
+        "right": "los libros interesantes",
+        "why": "Los adjetivos en -e forman el plural con -es, no con -a; interesante no es un adjetivo del tipo -o/-a."
+      },
+      {
+        "wrong": "un bueno amigo",
+        "right": "un buen amigo",
+        "why": "Bueno pierde la -o final antes de un sustantivo masculino singular: buen, no bueno."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ac-fill",
+      "type": "fill-blank",
+      "title": "Completa la Terminación Correcta",
+      "items": [
+        {
+          "id": "a1ac1",
+          "prompt": "María es muy simpátic___.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Simpática concuerda con el sujeto femenino María.",
+          "options": [
+            "a",
+            "o",
+            "e"
+          ]
+        },
+        {
+          "id": "a1ac2",
+          "prompt": "Los chicos son alt___.",
+          "answers": [
+            [
+              "os"
+            ]
+          ],
+          "explanation": "Masculino plural toma -os.",
+          "options": [
+            "os",
+            "as",
+            "o"
+          ]
+        },
+        {
+          "id": "a1ac3",
+          "prompt": "Una casa grand___.",
+          "answers": [
+            [
+              "e"
+            ]
+          ],
+          "explanation": "Grande es un adjetivo en -e: la misma forma para masculino y femenino singular.",
+          "options": [
+            "e",
+            "a",
+            "o"
+          ]
+        },
+        {
+          "id": "a1ac4",
+          "prompt": "Es un ___ (bueno) amigo.",
+          "answers": [
+            [
+              "buen"
+            ]
+          ],
+          "explanation": "Bueno pierde la -o final antes de un sustantivo masculino singular.",
+          "options": [
+            "buen",
+            "bueno",
+            "buena"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ac-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "a1ac5",
+          "prompt": "Mis hermanas son muy ___.",
+          "options": [
+            "inteligente",
+            "inteligentes",
+            "inteligento"
+          ],
+          "answerIndex": 1,
+          "explanation": "Femenino plural de un adjetivo en -e es -es, igual que en masculino plural."
+        }
+      ]
+    },
+    {
+      "id": "a1ac-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1ac6",
+          "incorrect": "una chica alto",
+          "answer": [
+            "una chica alta"
+          ],
+          "explanation": "El adjetivo debe concordar con el sustantivo femenino chica."
+        },
+        {
+          "id": "a1ac7",
+          "incorrect": "los estudiantes bueno",
+          "answer": [
+            "los estudiantes buenos"
+          ],
+          "explanation": "El sujeto plural masculino necesita la terminación -os en el adjetivo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los adjetivos en -o/-a tienen cuatro formas: -o, -a, -os, -as, según el género y número del sustantivo.",
+    "Los adjetivos en -e o en consonante solo tienen dos formas: singular y plural, iguales para ambos géneros.",
+    "La mayoría de los adjetivos van después del sustantivo; algunos comunes pueden ir antes, a veces cambiando el matiz."
+  ]
+}

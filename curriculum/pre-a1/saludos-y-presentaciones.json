@@ -1,0 +1,249 @@
+{
+  "id": "pre-a1-saludos-y-presentaciones",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 2,
+  "skill": "functional",
+  "strand": "saludos",
+  "title": "Saludos y Presentaciones",
+  "subtitle": "Cómo saludar, despedirte y presentarte en español — y cuándo usar tú o usted.",
+  "objectives": [
+    "Saludar y despedirte según el momento del día.",
+    "Preguntar y decir el nombre de una persona.",
+    "Elegir entre tú y usted en una primera conversación."
+  ],
+  "content": {
+    "intro": "Toda conversación en español empieza con un saludo, y ese saludo ya dice mucho sobre el nivel de confianza entre las dos personas.",
+    "explanation": "<p>En español hay saludos para cada momento del día: <strong>buenos días</strong> (por la mañana), <strong>buenas tardes</strong> (por la tarde) y <strong>buenas noches</strong> (por la noche, y también al despedirse antes de dormir). La palabra <strong>hola</strong> 👋 funciona a cualquier hora, en situaciones formales e informales.</p><p>El español también tiene dos formas de decir «tú»: <strong>tú</strong> (informal) y <strong>usted</strong> (formal). Se usa <em>tú</em> con amigos, familia y niños; se usa <em>usted</em> con personas desconocidas, personas mayores o en situaciones de trabajo, hasta que la otra persona proponga tutear.</p>",
+    "rules": [
+      {
+        "heading": "a) Saludos según el momento del día",
+        "body": "<ul><li><strong>Buenos días</strong> — por la mañana, hasta el mediodía.</li><li><strong>Buenas tardes</strong> — desde el mediodía hasta el anochecer.</li><li><strong>Buenas noches</strong> — por la noche, para saludar o para despedirse.</li><li><strong>Hola</strong> 👋 — funciona a cualquier hora del día.</li></ul>"
+      },
+      {
+        "heading": "b) Preguntar y decir el nombre",
+        "body": "<ul><li>Informal: <em>¿Cómo te llamas?</em> → <em>Me llamo Marta.</em></li><li>Formal: <em>¿Cómo se llama usted?</em> → <em>Me llamo Marta.</em> (la respuesta no cambia)</li><li><em>Mucho gusto</em> — se dice al conocer a alguien por primera vez.</li></ul>"
+      },
+      {
+        "heading": "c) Tú frente a usted",
+        "body": "<ul><li><strong>Tú</strong> — amigos, familia, niños, personas de tu edad. <em>¿Tú de dónde eres?</em></li><li><strong>Usted</strong> — desconocidos, personas mayores, contextos formales. <em>¿Usted de dónde es?</em></li><li>En caso de duda, empieza con <em>usted</em>: es la opción más segura.</li></ul>"
+      },
+      {
+        "heading": "d) Despedidas",
+        "body": "<ul><li><strong>Adiós</strong> — despedida general, para cualquier momento.</li><li><strong>Hasta luego</strong> — cuando vas a ver a la persona pronto.</li><li><strong>Hasta mañana</strong> — cuando la vas a ver al día siguiente.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Buenos días, ¿cómo está usted?",
+      "¡Hola! ¿Cómo estás?",
+      "Me llamo Carlos. ¿Y tú, cómo te llamas?",
+      "Mucho gusto en conocerla.",
+      "Buenas tardes, señor García.",
+      "Estoy muy bien, gracias. ¿Y usted?",
+      "Adiós, ¡hasta luego!",
+      "Buenas noches, que descanses."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Hola, ¿cómo está usted?",
+        "right": "Hola, ¿cómo estás? / Buenos días, ¿cómo está usted?",
+        "why": "Hola es informal, así que combina mejor con estás; si usas usted, es más natural empezar con un saludo formal."
+      },
+      {
+        "wrong": "Buenas noches (al llegar por la mañana)",
+        "right": "Buenos días (al llegar por la mañana)",
+        "why": "Buenas noches solo se usa por la noche, nunca como saludo de la mañana."
+      },
+      {
+        "wrong": "¿Cómo te llama?",
+        "right": "¿Cómo te llamas? / ¿Cómo se llama usted?",
+        "why": "Te llamas es la forma de tú; te llama mezcla tú con una forma de usted/él/ella."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa2-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Saludo Correcto",
+      "items": [
+        {
+          "id": "pa2mc1",
+          "prompt": "Son las nueve de la mañana. ¿Qué dices?",
+          "options": [
+            "Buenas noches",
+            "Buenos días",
+            "Buenas tardes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Buenos días se usa por la mañana, hasta el mediodía."
+        },
+        {
+          "id": "pa2mc2",
+          "prompt": "Conoces a un profesor por primera vez. ¿Qué pronombre usas?",
+          "options": [
+            "tú",
+            "usted",
+            "vosotros"
+          ],
+          "answerIndex": 1,
+          "explanation": "Con una persona desconocida, en un contexto formal, se usa usted."
+        },
+        {
+          "id": "pa2mc3",
+          "prompt": "Te despides de un amigo que vas a ver mañana. ¿Qué dices?",
+          "options": [
+            "Hasta mañana",
+            "Buenas noches",
+            "Mucho gusto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hasta mañana se usa cuando vas a ver a la persona al día siguiente."
+        },
+        {
+          "id": "pa2mc4",
+          "prompt": "¿Qué saludo funciona a cualquier hora del día?",
+          "options": [
+            "Buenas tardes",
+            "Hola",
+            "Buenas noches"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hola es un saludo general que funciona en cualquier momento."
+        }
+      ]
+    },
+    {
+      "id": "pa2-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "pa2tf1",
+          "statement": "Se usa tú con una persona desconocida en una entrevista de trabajo.",
+          "answer": false,
+          "explanation": "En una entrevista de trabajo, lo normal es usar usted."
+        },
+        {
+          "id": "pa2tf2",
+          "statement": "Mucho gusto se dice al conocer a alguien por primera vez.",
+          "answer": true,
+          "explanation": "Mucho gusto es la expresión típica al presentarse."
+        },
+        {
+          "id": "pa2tf3",
+          "statement": "La respuesta a ¿cómo te llamas? y a ¿cómo se llama usted? es diferente.",
+          "answer": false,
+          "explanation": "La respuesta siempre es me llamo...; cambia la pregunta, pero no la respuesta."
+        },
+        {
+          "id": "pa2tf4",
+          "statement": "Buenas noches solo se usa por la noche.",
+          "answer": true,
+          "explanation": "Buenas noches se reserva para la noche, tanto para saludar como para despedirse."
+        }
+      ]
+    },
+    {
+      "id": "pa2-match",
+      "type": "matching",
+      "title": "Empareja la Situación con el Saludo",
+      "items": [
+        {
+          "id": "pa2match1",
+          "pairs": [
+            {
+              "left": "Llegas a la oficina a las ocho de la mañana",
+              "right": "Buenos días"
+            },
+            {
+              "left": "Te despides antes de dormir",
+              "right": "Buenas noches"
+            },
+            {
+              "left": "Saludas a un amigo en la calle",
+              "right": "¡Hola!"
+            },
+            {
+              "left": "Conoces a alguien por primera vez",
+              "right": "Mucho gusto"
+            }
+          ],
+          "explanation": "Cada situación tiene un saludo natural en español; elegir el correcto muestra cortesía y contexto."
+        }
+      ]
+    },
+    {
+      "id": "pa2-fill",
+      "type": "fill-blank",
+      "title": "Completa el Diálogo",
+      "items": [
+        {
+          "id": "pa2f1",
+          "prompt": "— ¿Cómo ___ llamas? — Me llamo Laura.",
+          "answers": [
+            [
+              "te"
+            ]
+          ],
+          "options": [
+            "te",
+            "se",
+            "le"
+          ],
+          "explanation": "Te llamas es la forma informal de tú."
+        },
+        {
+          "id": "pa2f2",
+          "prompt": "— Buenas tardes, ¿cómo ___ usted? — Muy bien, gracias.",
+          "answers": [
+            [
+              "está"
+            ]
+          ],
+          "options": [
+            "está",
+            "estás",
+            "estoy"
+          ],
+          "explanation": "Con usted se usa la forma está, no estás."
+        },
+        {
+          "id": "pa2f3",
+          "prompt": "— Hola, ___ gusto. — Igualmente.",
+          "answers": [
+            [
+              "mucho"
+            ]
+          ],
+          "options": [
+            "mucho",
+            "muy",
+            "mucha"
+          ],
+          "explanation": "La expresión fija es mucho gusto."
+        },
+        {
+          "id": "pa2f4",
+          "prompt": "— Adiós, ___ luego. — ¡Adiós!",
+          "answers": [
+            [
+              "hasta"
+            ]
+          ],
+          "options": [
+            "hasta",
+            "desde",
+            "para"
+          ],
+          "explanation": "Hasta luego indica que te verás pronto con la persona."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Buenos días, buenas tardes y buenas noches cambian según el momento del día; hola funciona siempre.",
+    "¿Cómo te llamas? (informal) y ¿Cómo se llama usted? (formal) tienen la misma respuesta: me llamo...",
+    "Usa tú con personas cercanas y usted con desconocidos o en contextos formales; en caso de duda, usted es la opción segura."
+  ]
+}

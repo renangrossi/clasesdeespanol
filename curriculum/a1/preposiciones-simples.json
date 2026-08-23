@@ -1,0 +1,190 @@
+{
+  "id": "a1-preposiciones-simples",
+  "level": "A1",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammar",
+  "strand": "preposiciones",
+  "title": "Preposiciones Simples",
+  "subtitle": "En, a, de, con, para, por: una introducción básica a las preposiciones más usadas.",
+  "objectives": [
+    "Usar en, a y de para expresar lugar, dirección y origen",
+    "Distinguir el uso básico de para y por",
+    "Usar con como preposición de compañía o instrumento"
+  ],
+  "content": {
+    "intro": "Las preposiciones conectan las palabras de una frase y suelen tener un uso propio en español que conviene aprender como patrón fijo, más que traducir palabra por palabra.",
+    "explanation": "<p>En este nivel, las preposiciones más frecuentes son <strong>en, a, de, con, para, por</strong>. Cada una tiene usos centrales fáciles de reconocer: <em>en</em> para estar dentro de un lugar, <em>a</em> para dirección o destino, <em>de</em> para origen o posesión, <em>con</em> para compañía, y <em>para/por</em>, dos preposiciones que a veces confunden porque ambas pueden corresponder a una idea de \"para\" en otras lenguas, pero tienen usos distintos.</p>",
+    "rules": [
+      {
+        "heading": "a) En — ubicación dentro de un lugar",
+        "body": "<ul><li><em>Vivo en Madrid.</em></li><li><em>El libro está en la mesa.</em></li><li><em>Trabajo en una oficina.</em></li></ul>"
+      },
+      {
+        "heading": "b) A — dirección, destino, hora",
+        "body": "<ul><li>Dirección: <em>Voy a la escuela.</em></li><li>Hora: <em>Llego a las ocho.</em></li><li>Objeto indirecto de persona: <em>Escribo a mi madre.</em></li></ul>"
+      },
+      {
+        "heading": "c) De — origen, posesión, material",
+        "body": "<ul><li>Origen: <em>Soy de Perú.</em></li><li>Posesión: <em>el libro de Ana</em></li><li>Material: <em>una mesa de madera</em></li></ul>"
+      },
+      {
+        "heading": "d) Con, para y por (uso básico)",
+        "body": "<ul><li><strong>con</strong> — compañía o instrumento: <em>Voy con mis amigos. Escribo con un lápiz.</em></li><li><strong>para</strong> — destinatario, propósito o destino: <em>Este regalo es para ti. Estudio para aprender.</em></li><li><strong>por</strong> — causa, medio o lugar de paso: <em>Gracias por tu ayuda. Camino por el parque.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Vivo en una ciudad pequeña cerca de la costa.",
+      "Voy a la universidad todos los días en autobús.",
+      "Soy de Ecuador, pero vivo en España.",
+      "Este café es para mi jefe, no para mí.",
+      "Camino por el centro cada mañana antes de trabajar.",
+      "Estudio con mis compañeros los fines de semana.",
+      "Gracias por tu paciencia, la necesitaba mucho.",
+      "El coche de mi hermano es nuevo y muy rápido."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Vivo a Madrid.",
+        "right": "Vivo en Madrid.",
+        "why": "La ubicación dentro de una ciudad o lugar usa en, no a; a se reserva para dirección o destino de movimiento."
+      },
+      {
+        "wrong": "Este regalo es por ti.",
+        "right": "Este regalo es para ti.",
+        "why": "El destinatario de algo se expresa con para, no con por, que se usa para causa o motivo."
+      },
+      {
+        "wrong": "Soy a Colombia.",
+        "right": "Soy de Colombia.",
+        "why": "El origen se expresa con de, no con a ni con en."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ps-fill",
+      "type": "fill-blank",
+      "title": "Completa con la Preposición Correcta",
+      "items": [
+        {
+          "id": "a1ps1",
+          "prompt": "Vivo ___ Bogotá desde hace cinco años.",
+          "answers": [
+            [
+              "en"
+            ]
+          ],
+          "explanation": "En expresa ubicación dentro de una ciudad.",
+          "options": [
+            "en",
+            "a",
+            "de"
+          ]
+        },
+        {
+          "id": "a1ps2",
+          "prompt": "Voy ___ la escuela caminando cada mañana.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "A expresa dirección o destino de movimiento.",
+          "options": [
+            "a",
+            "en",
+            "por"
+          ]
+        },
+        {
+          "id": "a1ps3",
+          "prompt": "Este libro es ___ Marta, ella lo dejó aquí.",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "explanation": "De expresa posesión.",
+          "options": [
+            "de",
+            "a",
+            "para"
+          ]
+        },
+        {
+          "id": "a1ps4",
+          "prompt": "Este regalo es ___ ti, espero que te guste.",
+          "answers": [
+            [
+              "para"
+            ]
+          ],
+          "explanation": "Para expresa el destinatario de algo.",
+          "options": [
+            "para",
+            "por",
+            "con"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ps-mc",
+      "type": "multiple-choice",
+      "title": "¿En o A?",
+      "items": [
+        {
+          "id": "a1ps5",
+          "prompt": "Trabajo ___ un hospital muy grande.",
+          "options": [
+            "a",
+            "en",
+            "de"
+          ],
+          "answerIndex": 1,
+          "explanation": "Trabajar dentro de un lugar usa en."
+        },
+        {
+          "id": "a1ps6",
+          "prompt": "Llego ___ las nueve de la mañana.",
+          "options": [
+            "en",
+            "a",
+            "por"
+          ],
+          "answerIndex": 1,
+          "explanation": "La hora exacta se expresa con a."
+        }
+      ]
+    },
+    {
+      "id": "a1ps-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1ps7",
+          "incorrect": "Soy a México.",
+          "answer": [
+            "Soy de México."
+          ],
+          "explanation": "El origen se expresa con de, no con a."
+        },
+        {
+          "id": "a1ps8",
+          "incorrect": "Vivo a Buenos Aires.",
+          "answer": [
+            "Vivo en Buenos Aires."
+          ],
+          "explanation": "La ubicación dentro de una ciudad usa en, no a."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "En expresa ubicación dentro de un lugar; a expresa dirección, destino y hora exacta; de expresa origen y posesión.",
+    "Con expresa compañía o instrumento; para expresa destinatario o propósito; por expresa causa, medio o lugar de paso.",
+    "Estas preposiciones se aprenden mejor como patrones fijos en frases comunes, no traduciendo palabra por palabra."
+  ]
+}

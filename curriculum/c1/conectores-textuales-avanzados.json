@@ -1,0 +1,208 @@
+{
+  "id": "c1-conectores-textuales-avanzados",
+  "level": "C1",
+  "unit": "1",
+  "order": 6,
+  "skill": "writing",
+  "strand": "discurso",
+  "title": "Conectores Textuales Avanzados",
+  "subtitle": "Asimismo, cabe destacar, en última instancia, dicho esto — los engranajes del discurso formal escrito.",
+  "objectives": [
+    "Emplear conectores avanzados de adición, contraste, causa-consecuencia y cierre en textos formales.",
+    "Elegir el conector adecuado según la relación lógica exacta entre dos ideas.",
+    "Estructurar un párrafo argumentativo breve usando una secuencia coherente de conectores."
+  ],
+  "content": {
+    "intro": "Un texto de nivel C1 se distingue menos por el vocabulario aislado que por la precisión con la que enlaza sus ideas mediante conectores.",
+    "explanation": "<p>Más allá de \"y\", \"pero\" y \"porque\", el español académico y formal dispone de un repertorio amplio de conectores: de adición (<em>asimismo, además, por otra parte</em>), de contraste (<em>no obstante, sin embargo, con todo</em>), de causa-consecuencia (<em>dado que, por consiguiente, de ahí que</em> — este último exige subjuntivo) y de cierre o recapitulación (<em>en última instancia, en definitiva, dicho esto</em>). Cada uno marca una relación lógica precisa; usarlos correctamente evita repetir siempre las mismas palabras y hace el argumento más fácil de seguir.</p><p>\"Cabe destacar/señalar/mencionar\" introduce un dato que el autor considera relevante dentro del argumento, mientras que \"dicho esto\" marca una transición hacia una idea que matiza o contrasta con lo dicho justo antes.</p>",
+    "rules": [
+      {
+        "heading": "a) Adición",
+        "body": "<p>asimismo, además, por otra parte, cabe añadir: <em>El estudio confirma la hipótesis; asimismo, abre nuevas preguntas.</em></p>"
+      },
+      {
+        "heading": "b) Contraste",
+        "body": "<p>no obstante, sin embargo, con todo, aun así: <em>Los resultados son prometedores; no obstante, se necesita más investigación.</em></p>"
+      },
+      {
+        "heading": "c) Causa-consecuencia",
+        "body": "<p>dado que, puesto que (causa); por consiguiente, de ahí que + subjuntivo (consecuencia): <em>De ahí que sea necesario revisar el plan.</em></p>"
+      },
+      {
+        "heading": "d) Cierre y recapitulación",
+        "body": "<p>en última instancia, en definitiva, dicho esto, cabe concluir que: <em>Dicho esto, conviene matizar la conclusión anterior.</em></p>"
+      }
+    ],
+    "examples": [
+      "El proyecto cumplió los plazos; asimismo, se mantuvo dentro del presupuesto.",
+      "Los datos son claros; sin embargo, conviene interpretarlos con cautela.",
+      "Dado que los recursos son limitados, hay que priorizar.",
+      "El error fue evidente, de ahí que se revisara todo el protocolo.",
+      "Cabe destacar que ningún participante abandonó el estudio.",
+      "En última instancia, la decisión depende de la dirección.",
+      "Dicho esto, no conviene descartar otras alternativas.",
+      "En definitiva, los beneficios superan a los riesgos."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "De ahí que es necesario revisar el plan.",
+        "right": "De ahí que sea necesario revisar el plan.",
+        "why": "\"De ahí que\" es una de las pocas expresiones consecutivas que exige subjuntivo en la cláusula que introduce."
+      },
+      {
+        "wrong": "Usar \"sin embargo\" para añadir información en vez de contrastarla.",
+        "right": "Usar \"asimismo/además\" para añadir, y reservar \"sin embargo\" para el contraste real.",
+        "why": "Confundir conectores de adición y de contraste invierte la relación lógica que el lector espera entre las dos ideas."
+      },
+      {
+        "wrong": "Cabe destacar que, no obstante, el estudio tiene limitaciones.",
+        "right": "Cabe destacar que el estudio tiene limitaciones.",
+        "why": "Acumular varios conectores con funciones parecidas en la misma frase resulta redundante y confunde la relación lógica que se quiere marcar."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l6-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Conector Correcto",
+      "items": [
+        {
+          "id": "c1l6i1",
+          "prompt": "\"El estudio confirma la hipótesis; ___, abre nuevas líneas de investigación.\" (añadir información)",
+          "options": [
+            "sin embargo",
+            "asimismo",
+            "por consiguiente"
+          ],
+          "answerIndex": 1,
+          "explanation": "Asimismo introduce una idea adicional, no un contraste ni una consecuencia."
+        },
+        {
+          "id": "c1l6i2",
+          "prompt": "\"Los resultados son buenos; ___, el tamaño de la muestra es pequeño.\" (contrastar)",
+          "options": [
+            "además",
+            "sin embargo",
+            "de ahí que"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sin embargo marca un contraste con la idea anterior."
+        },
+        {
+          "id": "c1l6i3",
+          "prompt": "\"El sistema falló varias veces, ___ se decidiera reemplazarlo por completo.\" (consecuencia, con subjuntivo)",
+          "options": [
+            "por consiguiente",
+            "de ahí que",
+            "dado que"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"De ahí que\" introduce una consecuencia y exige subjuntivo en la cláusula siguiente."
+        },
+        {
+          "id": "c1l6i4",
+          "prompt": "\"___, conviene matizar lo dicho anteriormente.\" (transición hacia una idea que matiza lo previo)",
+          "options": [
+            "Dicho esto",
+            "Por otra parte",
+            "Dado que"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Dicho esto\" marca una transición hacia una idea que matiza o contrasta con lo anterior."
+        }
+      ]
+    },
+    {
+      "id": "c1l6-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Conector Adecuado",
+      "items": [
+        {
+          "id": "c1l6i5",
+          "prompt": "___ los recursos son limitados, hay que priorizar las tareas más urgentes.",
+          "answers": [
+            [
+              "Dado que",
+              "Puesto que"
+            ]
+          ],
+          "options": [
+            "Dado que",
+            "Sin embargo",
+            "En definitiva"
+          ],
+          "explanation": "Conector de causa."
+        },
+        {
+          "id": "c1l6i6",
+          "prompt": "Cabe ___ que ningún participante abandonó el estudio.",
+          "answers": [
+            [
+              "destacar",
+              "señalar",
+              "mencionar"
+            ]
+          ],
+          "options": [
+            "destacar",
+            "concluir",
+            "añadir"
+          ],
+          "explanation": "\"Cabe destacar/señalar/mencionar que\" introduce un dato relevante."
+        },
+        {
+          "id": "c1l6i7",
+          "prompt": "El costo aumentó; ___, se revisó todo el presupuesto.",
+          "answers": [
+            [
+              "por consiguiente",
+              "de ahí que"
+            ]
+          ],
+          "options": [
+            "por consiguiente",
+            "asimismo",
+            "no obstante"
+          ],
+          "explanation": "Conector de consecuencia."
+        }
+      ]
+    },
+    {
+      "id": "c1l6-matching",
+      "type": "matching",
+      "title": "Relaciona el Conector con su Función",
+      "items": [
+        {
+          "id": "c1l6i8",
+          "prompt": "Relaciona cada conector con la función que cumple en un texto formal.",
+          "pairs": [
+            {
+              "left": "asimismo",
+              "right": "Adición"
+            },
+            {
+              "left": "no obstante",
+              "right": "Contraste"
+            },
+            {
+              "left": "de ahí que",
+              "right": "Consecuencia (exige subjuntivo)"
+            },
+            {
+              "left": "en última instancia",
+              "right": "Cierre o recapitulación"
+            }
+          ],
+          "explanation": "Cada conector marca una relación lógica precisa entre dos ideas del texto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El repertorio de conectores formales incluye adición (asimismo), contraste (no obstante), causa-consecuencia (dado que, de ahí que) y cierre (en última instancia, dicho esto).",
+    "\"De ahí que\" es una de las pocas expresiones consecutivas que exige subjuntivo en la cláusula que introduce.",
+    "Elegir el conector según la relación lógica exacta, y no acumular varios con la misma función, hace el argumento más claro."
+  ]
+}

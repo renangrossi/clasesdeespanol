@@ -1,0 +1,200 @@
+{
+  "id": "pre-a1-lectura-y-escucha-de-supervivencia",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 8,
+  "skill": "reading",
+  "strand": "supervivencia",
+  "title": "Lectura y Escucha de Supervivencia",
+  "subtitle": "Lee y escucha diálogos cortos de situaciones básicas: presentarte y pedir algo en una tienda.",
+  "objectives": [
+    "Leer un diálogo corto de presentación y entender la información principal.",
+    "Leer un diálogo corto en una tienda y entender qué pide cada persona.",
+    "Reconocer palabras y frases de supervivencia dentro de un texto simple."
+  ],
+  "content": {
+    "intro": "Con el vocabulario y las frases de las lecciones anteriores, ya puedes leer y entender diálogos cortos de la vida real — el objetivo final de todo principiante.",
+    "explanation": "<p>Leer diálogos reales, aunque sean muy simples, es diferente de aprender palabras sueltas: tienes que reconocer el vocabulario que ya conoces dentro de una conversación completa, con preguntas, respuestas y algo de contexto.</p><p>Esta lección junta todo lo aprendido — saludos, nombres, números, objetos — en dos situaciones muy comunes para un principiante: <strong>presentarse</strong> ante otra persona y <strong>pedir algo en una tienda</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Estrategia de lectura",
+        "body": "<ul><li>No necesitas entender cada palabra — busca las palabras que ya conoces.</li><li>Usa el contexto (quién habla, dónde están) para adivinar palabras nuevas.</li><li>Lee el diálogo dos veces: la primera para tener una idea general, la segunda para los detalles.</li></ul>"
+      },
+      {
+        "heading": "b) Diálogo 1 — Presentarse",
+        "body": "<p><strong>Sara:</strong> Hola, ¿cómo te llamas?<br><strong>Diego:</strong> Me llamo Diego. ¿Y tú?<br><strong>Sara:</strong> Me llamo Sara. Mucho gusto.<br><strong>Diego:</strong> Mucho gusto, Sara. ¿De dónde eres?<br><strong>Sara:</strong> Soy de Colombia. ¿Y tú?<br><strong>Diego:</strong> Yo soy de México.</p>"
+      },
+      {
+        "heading": "c) Diálogo 2 — En una tienda",
+        "body": "<p><strong>Vendedora:</strong> Buenos días, ¿qué necesita?<br><strong>Cliente:</strong> Buenos días. Quiero un cuaderno y un lápiz, por favor.<br><strong>Vendedora:</strong> Aquí tiene. ¿Algo más?<br><strong>Cliente:</strong> No, gracias. ¿Cuánto es?<br><strong>Vendedora:</strong> Son cinco euros.<br><strong>Cliente:</strong> Aquí tiene. Gracias, adiós.</p>"
+      }
+    ],
+    "examples": [
+      "Hola, ¿cómo te llamas?",
+      "Me llamo Diego. Mucho gusto.",
+      "¿De dónde eres tú?",
+      "Buenos días, ¿qué necesita?",
+      "Quiero un cuaderno y un lápiz, por favor.",
+      "¿Cuánto es? — Son cinco euros."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Traducir cada palabra del diálogo antes de entenderlo.",
+        "right": "Buscar primero las palabras y frases que ya conoces.",
+        "why": "Buscar el sentido general con el vocabulario conocido es más rápido y más útil que traducir palabra por palabra."
+      },
+      {
+        "wrong": "Responder ¿Cuánto es? con Son cinco euros, por favor.",
+        "right": "¿Cuánto es? — Son cinco euros.",
+        "why": "La respuesta al precio no necesita por favor; por favor se usa al pedir algo, no al dar información."
+      },
+      {
+        "wrong": "No entender nada y abandonar la lectura.",
+        "right": "Leer el diálogo dos veces: primero para la idea general, después para los detalles.",
+        "why": "Una segunda lectura, con la idea general ya clara, ayuda a identificar más detalles y palabras nuevas."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa8-tf",
+      "type": "true-false",
+      "title": "Comprensión: ¿Verdadero o Falso?",
+      "items": [
+        {
+          "id": "pa8tf1",
+          "statement": "En el Diálogo 1, Sara es de Colombia.",
+          "answer": true,
+          "explanation": "Sara dice: Soy de Colombia."
+        },
+        {
+          "id": "pa8tf2",
+          "statement": "En el Diálogo 1, Diego es de Colombia.",
+          "answer": false,
+          "explanation": "Diego dice que es de México, no de Colombia."
+        },
+        {
+          "id": "pa8tf3",
+          "statement": "En el Diálogo 2, el cliente quiere un cuaderno y un lápiz.",
+          "answer": true,
+          "explanation": "El cliente dice: Quiero un cuaderno y un lápiz, por favor."
+        },
+        {
+          "id": "pa8tf4",
+          "statement": "En el Diálogo 2, el precio total es cinco euros.",
+          "answer": true,
+          "explanation": "La vendedora dice: Son cinco euros."
+        },
+        {
+          "id": "pa8tf5",
+          "statement": "En el Diálogo 2, el cliente pide también un libro.",
+          "answer": false,
+          "explanation": "El cliente solo pide un cuaderno y un lápiz; cuando le preguntan ¿algo más?, dice que no."
+        }
+      ]
+    },
+    {
+      "id": "pa8-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre los Diálogos",
+      "items": [
+        {
+          "id": "pa8mc1",
+          "prompt": "¿Quién habla primero en el Diálogo 1?",
+          "options": [
+            "Diego",
+            "Sara",
+            "La vendedora"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sara es quien saluda primero: Hola, ¿cómo te llamas?"
+        },
+        {
+          "id": "pa8mc2",
+          "prompt": "¿De dónde es Diego?",
+          "options": [
+            "Colombia",
+            "España",
+            "México"
+          ],
+          "answerIndex": 2,
+          "explanation": "Diego dice: Yo soy de México."
+        },
+        {
+          "id": "pa8mc3",
+          "prompt": "¿Qué pide el cliente en la tienda?",
+          "options": [
+            "Un cuaderno y un lápiz",
+            "Un libro y una goma",
+            "Un teléfono"
+          ],
+          "answerIndex": 0,
+          "explanation": "El cliente dice: Quiero un cuaderno y un lápiz, por favor."
+        },
+        {
+          "id": "pa8mc4",
+          "prompt": "¿Cuánto cuesta la compra del cliente?",
+          "options": [
+            "Cinco euros",
+            "Diez euros",
+            "Dos euros"
+          ],
+          "answerIndex": 0,
+          "explanation": "La vendedora responde: Son cinco euros."
+        }
+      ]
+    },
+    {
+      "id": "pa8-order",
+      "type": "ordering",
+      "title": "Ordena las Frases del Diálogo",
+      "instructions": "Coloca las líneas o palabras en el orden correcto.",
+      "items": [
+        {
+          "id": "pa8order1",
+          "prompt": "Ordena las líneas del Diálogo 1 en la secuencia correcta.",
+          "words": [
+            "Hola, ¿cómo te llamas?",
+            "Me llamo Diego. ¿Y tú?",
+            "Me llamo Sara. Mucho gusto.",
+            "Mucho gusto, Sara. ¿De dónde eres?",
+            "Soy de Colombia. ¿Y tú?",
+            "Yo soy de México."
+          ],
+          "explanation": "El diálogo sigue un orden lógico: primero el saludo y los nombres, después la pregunta sobre el origen y las respuestas."
+        },
+        {
+          "id": "pa8order2",
+          "prompt": "Ordena las líneas del Diálogo 2 en la secuencia correcta.",
+          "words": [
+            "Buenos días, ¿qué necesita?",
+            "Buenos días. Quiero un cuaderno y un lápiz, por favor.",
+            "Aquí tiene. ¿Algo más?",
+            "No, gracias. ¿Cuánto es?",
+            "Son cinco euros.",
+            "Aquí tiene. Gracias, adiós."
+          ],
+          "explanation": "La conversación en la tienda sigue el orden: saludo, petición, entrega, pregunta por el precio, pago y despedida."
+        },
+        {
+          "id": "pa8order3",
+          "prompt": "Ordena las palabras para formar una frase correcta.",
+          "words": [
+            "Quiero",
+            "un",
+            "cuaderno",
+            "y",
+            "un",
+            "lápiz"
+          ],
+          "explanation": "El orden correcto es quiero seguido del primer objeto, y, y el segundo objeto — quiero va siempre al principio para pedir algo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Leer un diálogo simple es más fácil si buscas primero las palabras que ya conoces, en vez de traducir todo.",
+    "El Diálogo 1 (presentarse) combina saludos, nombres y origen; el Diálogo 2 (en una tienda) combina saludos, objetos y números.",
+    "Con el vocabulario de las lecciones anteriores ya puedes seguir conversaciones cortas de la vida real en español."
+  ]
+}

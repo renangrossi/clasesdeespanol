@@ -1,0 +1,149 @@
+{
+  "id": "a1-pronombres-personales-de-sujeto",
+  "level": "A1",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "pronombres",
+  "title": "Pronombres Personales de Sujeto",
+  "subtitle": "Yo, tú, él/ella/usted, nosotros, vosotros/ustedes, ellos/ellas — y cuándo se omiten.",
+  "objectives": [
+    "Enumerar los pronombres personales de sujeto en español",
+    "Explicar por qué el español suele omitir el pronombre de sujeto",
+    "Distinguir el uso formal (usted) del informal (tú) y reconocer el voseo"
+  ],
+  "content": {
+    "intro": "Las terminaciones verbales del español ya indican quién hace la acción, así que los pronombres de sujeto suelen omitirse — lo contrario de lo que ocurre en otros idiomas, donde la frase siempre necesita un sujeto explícito.",
+    "explanation": "<p>Como cada terminación verbal corresponde a un sujeto concreto (<em>hablo</em> solo puede significar \"yo hablo\"), el español es una lengua que permite omitir el sujeto: <em>Hablo español</em> es una frase completa y natural, y añadir <em>yo</em> es gramaticalmente correcto pero normalmente innecesario. El pronombre reaparece sobre todo para dar énfasis, marcar un contraste, o evitar ambigüedad (por ejemplo, cuando la forma de él/ella/usted podría referirse a varias personas según el contexto).</p><p>En algunos países de América Latina, especialmente en Argentina y Uruguay, se usa <strong>vos</strong> en lugar de <em>tú</em> para la segunda persona informal, con formas verbales propias (<em>vos hablás</em> en vez de <em>tú hablas</em>). En este curso usamos principalmente <em>tú</em>, pero es útil reconocer <em>vos</em> cuando lo encuentres.</p>",
+    "rules": [
+      {
+        "heading": "a) Los pronombres personales de sujeto",
+        "body": "<ul><li><strong>yo</strong> — primera persona singular</li><li><strong>tú</strong> — segunda persona singular, informal (y <strong>vos</strong>, forma equivalente en algunos países)</li><li><strong>él / ella</strong> — tercera persona singular; <strong>usted</strong> — segunda persona singular, formal</li><li><strong>nosotros / nosotras</strong> — primera persona plural</li><li><strong>vosotros / vosotras</strong> — segunda persona plural, informal (usado en España)</li><li><strong>ellos / ellas</strong> — tercera persona plural; <strong>ustedes</strong> — segunda persona plural (formal en España, general en América Latina)</li></ul>"
+      },
+      {
+        "heading": "b) Cuándo mantener el pronombre",
+        "body": "<ul><li>Contraste: <em>Yo estudio, tú miras la televisión.</em></li><li>Énfasis: <em>¡Yo lo digo!</em></li><li>Claridad, cuando el contexto no basta: <em>Él vive en Madrid.</em> (para distinguir de ella)</li></ul>"
+      },
+      {
+        "heading": "c) Tú, usted y ustedes",
+        "body": "<ul><li><strong>Tú</strong>: amigos, familia, niños, compañeros — <em>¿Tú cómo estás?</em></li><li><strong>Usted</strong>: desconocidos, personas mayores, contextos formales — <em>¿Usted cómo está?</em></li><li>En América Latina, <strong>ustedes</strong> se usa para el plural tanto formal como informal; en España, <strong>vosotros</strong> se reserva para el plural informal y <strong>ustedes</strong> para el formal</li></ul>"
+      }
+    ],
+    "examples": [
+      "Hablo español e inglés todos los días.",
+      "Tú estudias mucho, yo trabajo por las tardes.",
+      "Ella vive en Bogotá desde hace un año.",
+      "¿Ustedes vienen a la fiesta el sábado?",
+      "Ellos no entienden bien esta lección todavía.",
+      "Nosotros preferimos quedarnos en casa hoy.",
+      "Vos hablás muy bien español, según me dicen.",
+      "Usted es muy amable, muchas gracias."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Yo soy yo cansado.",
+        "right": "Estoy cansado.",
+        "why": "El español nunca necesita un pronombre de sujeto explícito para que la frase sea gramatical; aquí es redundante, no obligatorio."
+      },
+      {
+        "wrong": "usar tú con un desconocido mayor en un contexto formal",
+        "right": "usar usted con un desconocido mayor en un contexto formal",
+        "why": "Usted es la opción segura y respetuosa quando no se conoce bien a la persona o hay una diferencia de edad o jerarquía."
+      },
+      {
+        "wrong": "Tú hablás español muy bien. (mezclando tú con la forma verbal de vos)",
+        "right": "Tú hablas español muy bien. / Vos hablás español muy bien.",
+        "why": "Tú y vos tienen formas verbales distintas; no se combinan el pronombre de uno con la conjugación del otro."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pp-mc",
+      "type": "multiple-choice",
+      "title": "¿Qué Pronombre Es?",
+      "items": [
+        {
+          "id": "a1pp1",
+          "prompt": "¿Qué pronombre significa \"ellos\" en femenino?",
+          "options": [
+            "ellos",
+            "ellas",
+            "ustedes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ellas es la tercera persona plural femenina."
+        },
+        {
+          "id": "a1pp2",
+          "prompt": "\"Hablo español\" no necesita ningún pronombre porque...",
+          "options": [
+            "la terminación -o ya indica que es yo",
+            "el verbo está mal conjugado",
+            "falta el artículo"
+          ],
+          "answerIndex": 0,
+          "explanation": "La terminación verbal -o corresponde únicamente a yo, así que el pronombre es opcional."
+        },
+        {
+          "id": "a1pp3",
+          "prompt": "Con un desconocido mayor en un contexto formal, ¿qué pronombre usas?",
+          "options": [
+            "tú",
+            "usted",
+            "vos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Usted es la opción formal y respetuosa con desconocidos y personas mayores."
+        }
+      ]
+    },
+    {
+      "id": "a1pp-fill",
+      "type": "fill-blank",
+      "title": "Añade el Pronombre Solo Cuando Haga Falta",
+      "instructions": "Completa cada frase con el pronombre necesario para dar contraste o claridad.",
+      "items": [
+        {
+          "id": "a1pp4",
+          "prompt": "___ estudio, tú miras la televisión. (contraste entre \"yo\" y \"tú\")",
+          "answers": [
+            [
+              "Yo"
+            ]
+          ],
+          "explanation": "Se mantiene para marcar el contraste entre dos sujetos distintos en la misma frase.",
+          "options": [
+            "Yo",
+            "Tú",
+            "(nada)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1pp-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1pp5",
+          "statement": "En España, vosotros es la forma informal del plural de tú.",
+          "answer": true,
+          "explanation": "En España, vosotros/vosotras se usa para el plural informal, mientras que ustedes se reserva para el formal."
+        },
+        {
+          "id": "a1pp6",
+          "statement": "En la mayoría de América Latina, ustedes se usa tanto en contextos formales como informales.",
+          "answer": true,
+          "explanation": "A diferencia de España, gran parte de América Latina no usa vosotros y emplea ustedes para todo el plural."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Los pronombres de sujeto son yo, tú/vos, él/ella/usted, nosotros/as, vosotros/as, ellos/ellas/ustedes.",
+    "Las terminaciones verbales ya identifican al sujeto, así que el pronombre suele omitirse en español.",
+    "Usa tú con confianza y usted en contextos formales; vosotros se usa en España y ustedes en el resto del mundo hispanohablante para el plural."
+  ]
+}

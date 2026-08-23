@@ -1,0 +1,256 @@
+{
+  "id": "pre-a1-vocabulario-de-clase-y-estudio",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 4,
+  "skill": "vocabulary",
+  "strand": "clase",
+  "title": "Vocabulario de Clase y Estudio",
+  "subtitle": "Las palabras y frases esenciales para sobrevivir — y aprender — dentro de una clase de español.",
+  "objectives": [
+    "Usar frases básicas para pedir ayuda o repetición en clase.",
+    "Nombrar los objetos más comunes de un estudiante.",
+    "Entender instrucciones simples que da un profesor de español."
+  ],
+  "content": {
+    "intro": "Antes de hablar del mundo, necesitas sobrevivir dentro del aula: pedir que repitan, decir que no entiendes, y nombrar lo que tienes sobre la mesa.",
+    "explanation": "<p>En una clase de español vas a escuchar y necesitar las mismas frases muchas veces: <strong>repite, por favor</strong> 🔁, <strong>no entiendo</strong>, <strong>¿cómo se dice...?</strong> Estas frases son tu herramienta más útil como principiante — te permiten seguir la clase sin frustración.</p><p>También necesitas los nombres de los objetos que usas cada día para estudiar: el <strong>cuaderno</strong> 📓, el <strong>lápiz</strong> ✏️, el <strong>libro</strong> 📖, el <strong>bolígrafo</strong>. Aprenderlos ahora te ayuda a entender instrucciones simples como <em>abre el libro</em> o <em>escribe en el cuaderno</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Frases para pedir ayuda",
+        "body": "<ul><li><strong>Repite, por favor</strong> — cuando no escuchaste bien.</li><li><strong>No entiendo</strong> — cuando no comprendes algo.</li><li><strong>¿Cómo se dice... en español?</strong> — para pedir una palabra nueva.</li><li><strong>¿Puede hablar más despacio, por favor?</strong> — cuando la persona habla muy rápido.</li></ul>"
+      },
+      {
+        "heading": "b) Objetos del estudiante",
+        "body": "<ul><li>el cuaderno 📓, el lápiz ✏️, el bolígrafo, la goma</li><li>el libro 📖, la mochila, la hoja de papel</li><li>la mesa, la silla, la pizarra</li></ul>"
+      },
+      {
+        "heading": "c) Instrucciones típicas del profesor",
+        "body": "<ul><li><strong>Abre el libro</strong> — abre tu libro.</li><li><strong>Escribe en el cuaderno</strong> — usa el cuaderno para escribir.</li><li><strong>Escucha con atención</strong> — presta atención al audio o a la voz.</li><li><strong>Trabaja con tu compañero/a</strong> — haz el ejercicio con otra persona.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Perdón, no entiendo. ¿Puede repetir, por favor?",
+      "¿Cómo se dice esta palabra otra vez, por favor?",
+      "Necesito un lápiz y una hoja de papel.",
+      "Abre el libro en la página diez.",
+      "Escribe tu nombre en el cuaderno.",
+      "¿Puede hablar más despacio, por favor?",
+      "Mi mochila tiene dos cuadernos y un bolígrafo.",
+      "Escucha con atención el diálogo."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Quedarse en silencio cuando no entiendes algo.",
+        "right": "No entiendo. ¿Puede repetir, por favor?",
+        "why": "Pedir ayuda con una frase simple es normal y esperado en una clase — es mejor que quedarse callado."
+      },
+      {
+        "wrong": "Entiendo no (para decir que no comprendes).",
+        "right": "No entiendo.",
+        "why": "La negación va antes del verbo: no entiendo, no una construcción diferente."
+      },
+      {
+        "wrong": "¿Cómo se dice en español esta palabra?",
+        "right": "¿Cómo se dice esta palabra en español?",
+        "why": "El orden natural pone la palabra en cuestión antes de en español."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa4-mc",
+      "type": "multiple-choice",
+      "title": "Frases y Objetos de Clase",
+      "items": [
+        {
+          "id": "pa4mc1",
+          "prompt": "No escuchaste bien lo que dijo el profesor. ¿Qué dices?",
+          "options": [
+            "No entiendo",
+            "Repite, por favor",
+            "Mucho gusto"
+          ],
+          "answerIndex": 1,
+          "explanation": "Repite, por favor se usa para pedir que digan algo otra vez."
+        },
+        {
+          "id": "pa4mc2",
+          "prompt": "No comprendes una palabra. ¿Qué dices?",
+          "options": [
+            "No entiendo",
+            "Buenos días",
+            "Adiós"
+          ],
+          "answerIndex": 0,
+          "explanation": "No entiendo expresa que no comprendes algo."
+        },
+        {
+          "id": "pa4mc3",
+          "prompt": "¿Qué objeto usas para escribir con tinta?",
+          "options": [
+            "el lápiz",
+            "el bolígrafo",
+            "la goma"
+          ],
+          "answerIndex": 1,
+          "explanation": "El bolígrafo escribe con tinta; el lápiz usa grafito y se puede borrar con la goma."
+        },
+        {
+          "id": "pa4mc4",
+          "prompt": "El profesor habla muy rápido. ¿Qué le pides?",
+          "options": [
+            "¿Puede hablar más despacio, por favor?",
+            "¿Cómo se llama?",
+            "Mucho gusto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Esta frase pide específicamente que hable más despacio."
+        },
+        {
+          "id": "pa4mc5",
+          "prompt": "¿Dónde guardas tus cuadernos y libros para ir a clase?",
+          "options": [
+            "en la pizarra",
+            "en la mochila",
+            "en la silla"
+          ],
+          "answerIndex": 1,
+          "explanation": "La mochila es donde llevas tus materiales de clase."
+        }
+      ]
+    },
+    {
+      "id": "pa4-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "pa4tf1",
+          "statement": "No entiendo es una frase útil cuando no comprendes algo en clase.",
+          "answer": true,
+          "explanation": "Es exactamente la frase correcta para expresar falta de comprensión."
+        },
+        {
+          "id": "pa4tf2",
+          "statement": "La goma sirve para escribir con tinta.",
+          "answer": false,
+          "explanation": "La goma sirve para borrar lo escrito con lápiz; el bolígrafo escribe con tinta."
+        },
+        {
+          "id": "pa4tf3",
+          "statement": "Repite, por favor se usa cuando quieres escuchar algo otra vez.",
+          "answer": true,
+          "explanation": "Exactamente — pides que la otra persona diga lo mismo de nuevo."
+        },
+        {
+          "id": "pa4tf4",
+          "statement": "La pizarra es un objeto que un estudiante lleva en la mochila.",
+          "answer": false,
+          "explanation": "La pizarra está fija en la clase; los estudiantes no la llevan en la mochila."
+        }
+      ]
+    },
+    {
+      "id": "pa4-match",
+      "type": "matching",
+      "title": "Empareja el Objeto con su Descripción",
+      "items": [
+        {
+          "id": "pa4match1",
+          "pairs": [
+            {
+              "left": "el cuaderno",
+              "right": "donde escribes tus notas de clase"
+            },
+            {
+              "left": "el lápiz",
+              "right": "se puede borrar con la goma"
+            },
+            {
+              "left": "la mochila",
+              "right": "donde llevas tus materiales"
+            },
+            {
+              "left": "la pizarra",
+              "right": "donde el profesor escribe para toda la clase"
+            }
+          ],
+          "explanation": "Reconocer estos objetos te ayuda a seguir instrucciones simples desde el primer día de clase."
+        }
+      ]
+    },
+    {
+      "id": "pa4-fill",
+      "type": "fill-blank",
+      "title": "Completa la Frase de Supervivencia",
+      "items": [
+        {
+          "id": "pa4f1",
+          "prompt": "Perdón, no ___. ¿Puede repetir?",
+          "answers": [
+            [
+              "entiendo"
+            ]
+          ],
+          "options": [
+            "entiendo",
+            "entiende",
+            "entiendes"
+          ],
+          "explanation": "Entiendo es la forma de yo, la persona que habla."
+        },
+        {
+          "id": "pa4f2",
+          "prompt": "¿Cómo se ___ esta palabra en español?",
+          "answers": [
+            [
+              "dice"
+            ]
+          ],
+          "options": [
+            "dice",
+            "dices",
+            "digo"
+          ],
+          "explanation": "Se dice es la forma impersonal usada para preguntar el nombre de algo."
+        },
+        {
+          "id": "pa4f3",
+          "prompt": "___ el libro en la página diez, por favor.",
+          "answers": [
+            [
+              "abre"
+            ]
+          ],
+          "options": [
+            "abre",
+            "abres",
+            "abro"
+          ],
+          "explanation": "Abre es la forma de instrucción (imperativo informal) que da el profesor."
+        },
+        {
+          "id": "pa4f4",
+          "prompt": "Necesito un ___ para escribir con tinta.",
+          "answers": [
+            [
+              "bolígrafo"
+            ]
+          ],
+          "options": [
+            "bolígrafo",
+            "lápiz",
+            "goma"
+          ],
+          "explanation": "El bolígrafo es el objeto que escribe con tinta."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Repite, por favor; no entiendo; y ¿cómo se dice...? son las tres frases más útiles para sobrevivir en una clase de español.",
+    "El cuaderno, el lápiz, el bolígrafo y el libro son los objetos básicos de cualquier estudiante.",
+    "Reconocer instrucciones simples como abre el libro o escucha con atención te permite seguir la clase sin depender de traducciones."
+  ]
+}

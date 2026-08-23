@@ -1,0 +1,184 @@
+{
+  "id": "a1-genero-y-numero-de-los-sustantivos",
+  "level": "A1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "sustantivos",
+  "title": "Género y Número de los Sustantivos",
+  "subtitle": "Todo sustantivo en español es masculino o femenino, y tiene forma singular y plural.",
+  "objectives": [
+    "Identificar el género de un sustantivo a partir de su terminación",
+    "Reconocer las excepciones más comunes al patrón general de género",
+    "Formar el plural de un sustantivo según su terminación"
+  ],
+  "content": {
+    "intro": "En español, cada sustantivo — incluso los que nombran objetos sin género natural, como una mesa o un libro — es gramaticalmente masculino o femenino, y esa característica afecta a todas las palabras que lo acompañan.",
+    "explanation": "<p>La mayoría de los sustantivos que terminan en <strong>-o</strong> son masculinos (<em>el libro</em>) y la mayoría de los que terminan en <strong>-a</strong> son femeninos (<em>la mesa</em>). Sin embargo, existen muchas excepciones frecuentes que hay que memorizar, como <em>la mano</em> (femenino, termina en -o) o <em>el día</em> (masculino, termina en -a). Los sustantivos que terminan en otras letras no siguen un patrón fijo y su género se aprende junto con la palabra.</p><p>El plural también sigue reglas según la terminación: se añade <strong>-s</strong> si el sustantivo termina en vocal, y <strong>-es</strong> si termina en consonante.</p>",
+    "rules": [
+      {
+        "heading": "a) Terminaciones típicas de género",
+        "body": "<ul><li><strong>-o</strong> suele ser masculino — <em>el libro, el gato, el niño</em></li><li><strong>-a</strong> suele ser femenino — <em>la mesa, la casa, la niña</em></li><li><strong>-dad, -ción, -sión, -tud</strong> son casi siempre femeninos — <em>la ciudad, la canción, la actitud</em></li><li><strong>-ma</strong> de origen griego suele ser masculino, aunque termina en -a — <em>el problema, el sistema, el idioma</em></li></ul>"
+      },
+      {
+        "heading": "b) Excepciones comunes",
+        "body": "<ul><li><em>la mano</em>, <em>la moto</em>, <em>la foto</em> — femeninas aunque terminan en -o</li><li><em>el día</em>, <em>el mapa</em>, <em>el planeta</em> — masculinos aunque terminan en -a</li><li>Algunos sustantivos cambian de significado según el género — <em>el capital</em> (dinero) frente a <em>la capital</em> (ciudad principal)</li></ul>"
+      },
+      {
+        "heading": "c) Formación del plural",
+        "body": "<ul><li>Terminación en vocal &rarr; se añade <strong>-s</strong>: <em>libro &rarr; libros, casa &rarr; casas</em></li><li>Terminación en consonante &rarr; se añade <strong>-es</strong>: <em>ciudad &rarr; ciudades, flor &rarr; flores</em></li><li>Terminación en <strong>-z</strong> &rarr; cambia a <strong>-ces</strong>: <em>lápiz &rarr; lápices, vez &rarr; veces</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "El libro está sobre la mesa.",
+      "La mano derecha me duele un poco.",
+      "El día de hoy es muy soleado.",
+      "Los estudiantes llevan sus libros a clase.",
+      "Las ciudades grandes tienen muchos problemas de tráfico.",
+      "El sistema no funciona bien esta mañana.",
+      "Compré dos lápices nuevos para la escuela.",
+      "Las flores del jardín huelen muy bien."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "la día",
+        "right": "el día",
+        "why": "Día es una excepción: termina en -a pero es masculino, uno de los casos que hay que memorizar aparte."
+      },
+      {
+        "wrong": "el mano",
+        "right": "la mano",
+        "why": "Mano termina en -o pero es femenino, la excepción más conocida de este patrón."
+      },
+      {
+        "wrong": "los lápizes",
+        "right": "los lápices",
+        "why": "Los sustantivos terminados en -z cambian la z por c antes de añadir -es en el plural."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1gn-mc",
+      "type": "multiple-choice",
+      "title": "¿Masculino o Femenino?",
+      "items": [
+        {
+          "id": "a1gn1",
+          "prompt": "¿Qué artículo corresponde a \"mano\"?",
+          "options": [
+            "el",
+            "la"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mano es femenina, aunque termina en -o: una excepción muy común."
+        },
+        {
+          "id": "a1gn2",
+          "prompt": "¿Qué artículo corresponde a \"día\"?",
+          "options": [
+            "el",
+            "la"
+          ],
+          "answerIndex": 0,
+          "explanation": "Día es masculino, aunque termina en -a: otra excepción frecuente."
+        },
+        {
+          "id": "a1gn3",
+          "prompt": "¿Qué artículo corresponde a \"ciudad\"?",
+          "options": [
+            "el",
+            "la"
+          ],
+          "answerIndex": 1,
+          "explanation": "Las palabras terminadas en -dad son casi siempre femeninas."
+        },
+        {
+          "id": "a1gn4",
+          "prompt": "¿Qué artículo corresponde a \"problema\"?",
+          "options": [
+            "el",
+            "la"
+          ],
+          "answerIndex": 0,
+          "explanation": "Problema termina en -a pero es masculino: viene del griego, como sistema e idioma."
+        }
+      ]
+    },
+    {
+      "id": "a1gn-fill",
+      "type": "fill-blank",
+      "title": "Forma el Plural",
+      "items": [
+        {
+          "id": "a1gn5",
+          "prompt": "libro &rarr; ___",
+          "answers": [
+            [
+              "libros"
+            ]
+          ],
+          "explanation": "Terminación en vocal: se añade -s."
+        },
+        {
+          "id": "a1gn6",
+          "prompt": "flor &rarr; ___",
+          "answers": [
+            [
+              "flores"
+            ]
+          ],
+          "explanation": "Terminación en consonante: se añade -es."
+        },
+        {
+          "id": "a1gn7",
+          "prompt": "lápiz &rarr; ___",
+          "answers": [
+            [
+              "lápices"
+            ]
+          ],
+          "explanation": "Terminación en -z: la z cambia a c antes de -es."
+        },
+        {
+          "id": "a1gn8",
+          "prompt": "ciudad &rarr; ___",
+          "answers": [
+            [
+              "ciudades"
+            ]
+          ],
+          "explanation": "Terminación en consonante: se añade -es."
+        }
+      ]
+    },
+    {
+      "id": "a1gn-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1gn9",
+          "incorrect": "El mano está sucia.",
+          "answer": [
+            "La mano está sucia."
+          ],
+          "explanation": "Mano es femenina aunque termine en -o."
+        },
+        {
+          "id": "a1gn10",
+          "incorrect": "La día es muy larga.",
+          "answer": [
+            "El día es muy largo."
+          ],
+          "explanation": "Día es masculino aunque termine en -a; el adjetivo también debe concordar en masculino."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "La mayoría de los sustantivos en -o son masculinos y en -a son femeninos, pero hay excepciones comunes que se memorizan aparte.",
+    "Las terminaciones -dad, -ción, -sión y -tud son casi siempre femeninas; -ma de origen griego suele ser masculino.",
+    "El plural se forma con -s tras vocal, -es tras consonante, y -z cambia a -ces."
+  ]
+}

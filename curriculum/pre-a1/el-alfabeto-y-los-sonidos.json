@@ -1,0 +1,249 @@
+{
+  "id": "pre-a1-el-alfabeto-y-los-sonidos",
+  "level": "Pre-A1",
+  "unit": "1",
+  "order": 1,
+  "skill": "pronunciation",
+  "strand": "alfabeto",
+  "title": "El Alfabeto y los Sonidos",
+  "subtitle": "Las letras del español, la ñ, la diferencia entre rr y r, y por qué las vocales siempre suenan igual.",
+  "objectives": [
+    "Reconocer las letras del alfabeto español, incluida la ñ.",
+    "Distinguir el sonido fuerte de la rr frente al sonido suave de una sola r.",
+    "Pronunciar las cinco vocales de forma clara, corta y siempre igual."
+  ],
+  "content": {
+    "intro": "El español se escribe casi tal como suena, así que aprender estos sonidos básicos es el primer paso para leer, escribir y hablar con confianza.",
+    "explanation": "<p>El alfabeto español tiene <strong>27 letras</strong>. Es muy parecido a otros alfabetos, pero tiene una letra propia: la <strong>ñ</strong> (como en <em>español</em> o <em>niño</em>). La ñ no es una variante de la n — es una letra independiente, con su propio sonido.</p><p>Las cinco vocales (<strong>a, e, i, o, u</strong>) tienen siempre un sonido corto y claro. No cambian nunca, en ninguna palabra. Otra diferencia importante está en la letra <strong>r</strong>: al principio de una palabra, o cuando aparece doble (<strong>rr</strong>), suena fuerte y vibrante; entre vocales, una sola r suena suave.</p>",
+    "rules": [
+      {
+        "heading": "a) Las cinco vocales",
+        "body": "<ul><li><strong>a</strong> — como en <em>casa</em></li><li><strong>e</strong> — como en <em>mesa</em></li><li><strong>i</strong> — como en <em>libro</em></li><li><strong>o</strong> — como en <em>hola</em></li><li><strong>u</strong> — como en <em>uno</em></li><li>El sonido nunca cambia, ni siquiera al final de la palabra.</li></ul>"
+      },
+      {
+        "heading": "b) La letra ñ",
+        "body": "<ul><li>Es una letra independiente, no una variante de la n.</li><li>Aparece en palabras muy comunes: <em>año, niño, español, mañana</em>.</li><li>En un diccionario, la ñ va después de la n.</li></ul>"
+      },
+      {
+        "heading": "c) La r simple y la rr fuerte",
+        "body": "<ul><li>Una sola <strong>r</strong> entre vocales suena suave — <em>pero, cara, para</em>.</li><li>La <strong>rr</strong> doble siempre suena fuerte y vibrante — <em>perro, carro, tierra</em>.</li><li>La <strong>r</strong> al principio de una palabra también suena fuerte — <em>Ramón, rosa</em>.</li></ul>"
+      },
+      {
+        "heading": "d) Otras letras especiales",
+        "body": "<ul><li>La <strong>h</strong> nunca suena — <em>hola, hospital, hotel</em>.</li><li>La <strong>ll</strong> tiene un sonido propio, parecido a una y — <em>llamo, calle, lluvia</em>.</li></ul>"
+      }
+    ],
+    "examples": [
+      "Hola, me llamo Ana.",
+      "La ñ está en la palabra español.",
+      "Mi perro es pequeño y bonito.",
+      "Pero yo prefiero el gato.",
+      "El año tiene doce meses.",
+      "Ramón vive en la calle Mayor.",
+      "Hoy hace mucho calor."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pronunciar la ñ como una n normal.",
+        "right": "Pronunciar la ñ como una letra distinta, con su propio sonido.",
+        "why": "La ñ es una letra independiente del alfabeto español, no una variante de la n."
+      },
+      {
+        "wrong": "Pronunciar la h en la palabra hola.",
+        "right": "Decir hola sin ningún sonido de h.",
+        "why": "La h es siempre muda en español; nunca se pronuncia."
+      },
+      {
+        "wrong": "Decir pero con el sonido fuerte de la rr.",
+        "right": "Usar el sonido suave de la r en pero, y guardar el sonido fuerte para perro.",
+        "why": "Una sola r entre vocales suena suave; cambiar el sonido puede cambiar el significado de la palabra."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "pa1-mc",
+      "type": "multiple-choice",
+      "title": "¿Qué Letra o Sonido Es?",
+      "items": [
+        {
+          "id": "pa1mc1",
+          "prompt": "¿Cuál es la letra especial del alfabeto español que no existe en el alfabeto inglés?",
+          "options": [
+            "ñ",
+            "w",
+            "k"
+          ],
+          "answerIndex": 0,
+          "explanation": "La ñ es una letra propia del español, con su sonido característico."
+        },
+        {
+          "id": "pa1mc2",
+          "prompt": "¿Cómo suena la h en la palabra hola?",
+          "options": [
+            "No suena, es muda",
+            "Suena fuerte, como una j",
+            "Suena suave, como una f"
+          ],
+          "answerIndex": 0,
+          "explanation": "La h nunca se pronuncia en español, en ninguna palabra."
+        },
+        {
+          "id": "pa1mc3",
+          "prompt": "¿Qué palabra tiene el sonido fuerte y vibrante de la rr?",
+          "options": [
+            "pero",
+            "perro",
+            "cara"
+          ],
+          "answerIndex": 1,
+          "explanation": "Perro tiene rr doble, con un sonido fuerte y vibrante."
+        },
+        {
+          "id": "pa1mc4",
+          "prompt": "¿Cómo se pronuncia la vocal o en español?",
+          "options": [
+            "Siempre igual, con un sonido claro",
+            "A veces como una a",
+            "Depende de la palabra"
+          ],
+          "answerIndex": 0,
+          "explanation": "Las vocales del español tienen un sonido fijo; nunca cambian."
+        }
+      ]
+    },
+    {
+      "id": "pa1-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "pa1tf1",
+          "statement": "La ñ es simplemente una n con un signo encima, no una letra distinta.",
+          "answer": false,
+          "explanation": "La ñ es una letra independiente del alfabeto, con su propio sonido y su propio lugar en el diccionario."
+        },
+        {
+          "id": "pa1tf2",
+          "statement": "Las vocales del español siempre suenan igual, en cualquier palabra.",
+          "answer": true,
+          "explanation": "A diferencia de otras lenguas, las vocales españolas mantienen siempre el mismo sonido claro."
+        },
+        {
+          "id": "pa1tf3",
+          "statement": "La rr doble siempre suena fuerte y vibrante.",
+          "answer": true,
+          "explanation": "La rr, sin excepción, tiene un sonido fuerte."
+        },
+        {
+          "id": "pa1tf4",
+          "statement": "La letra h se pronuncia con un sonido suave en español.",
+          "answer": false,
+          "explanation": "La h es siempre muda; no tiene ningún sonido."
+        }
+      ]
+    },
+    {
+      "id": "pa1-match",
+      "type": "matching",
+      "title": "Empareja la Letra con su Descripción",
+      "items": [
+        {
+          "id": "pa1match1",
+          "pairs": [
+            {
+              "left": "ñ",
+              "right": "letra independiente, con sonido propio"
+            },
+            {
+              "left": "h",
+              "right": "nunca se pronuncia"
+            },
+            {
+              "left": "rr",
+              "right": "siempre suena fuerte"
+            },
+            {
+              "left": "ll",
+              "right": "suena parecido a una y"
+            }
+          ],
+          "explanation": "Cada una de estas letras o combinaciones tiene un comportamiento propio en la pronunciación del español."
+        }
+      ]
+    },
+    {
+      "id": "pa1-fill",
+      "type": "fill-blank",
+      "title": "Completa con la Letra Correcta",
+      "instructions": "Elige la palabra bien escrita para cada espacio.",
+      "items": [
+        {
+          "id": "pa1f1",
+          "prompt": "— ___, ¿qué tal? — Muy bien, gracias.",
+          "answers": [
+            [
+              "hola"
+            ]
+          ],
+          "options": [
+            "hola",
+            "ola",
+            "jola"
+          ],
+          "explanation": "Hola empieza con h muda: no se pronuncia, pero sí se escribe."
+        },
+        {
+          "id": "pa1f2",
+          "prompt": "Mi ___ es pequeño y bonito.",
+          "answers": [
+            [
+              "perro"
+            ]
+          ],
+          "options": [
+            "perro",
+            "pero",
+            "pelo"
+          ],
+          "explanation": "Perro se escribe con rr doble, con sonido fuerte."
+        },
+        {
+          "id": "pa1f3",
+          "prompt": "El ___ tiene doce meses.",
+          "answers": [
+            [
+              "año"
+            ]
+          ],
+          "options": [
+            "año",
+            "ano",
+            "anio"
+          ],
+          "explanation": "Año se escribe con ñ; sin la ñ, la palabra cambia completamente de significado."
+        },
+        {
+          "id": "pa1f4",
+          "prompt": "Vivo en la ___ Mayor.",
+          "answers": [
+            [
+              "calle"
+            ]
+          ],
+          "options": [
+            "calle",
+            "caye",
+            "cale"
+          ],
+          "explanation": "Calle se escribe con ll, un sonido parecido al de la y."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El alfabeto español tiene 27 letras, incluida la ñ, que es una letra independiente.",
+    "Las cinco vocales suenan siempre igual, de forma clara y corta, sin excepciones.",
+    "La rr (o la r al inicio de palabra) suena fuerte; una sola r entre vocales suena suave, y la h nunca se pronuncia."
+  ]
+}

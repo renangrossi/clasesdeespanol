@@ -1,0 +1,224 @@
+{
+  "id": "c1-espanol-academico-y-profesional",
+  "level": "C1",
+  "unit": "1",
+  "order": 10,
+  "skill": "writing",
+  "strand": "profesional",
+  "title": "Español para Fines Específicos: Registro Académico y Profesional",
+  "subtitle": "Vocabulario y estructuras para informes, correos formales y presentaciones.",
+  "objectives": [
+    "Redactar un correo electrónico formal con las fórmulas de apertura, cuerpo y cierre adecuadas.",
+    "Usar el vocabulario y las estructuras propias de un informe en registro objetivo.",
+    "Emplear fórmulas típicas de una presentación oral formal para introducir, desarrollar y cerrar un tema."
+  ],
+  "content": {
+    "intro": "El español profesional exige un repertorio propio de fórmulas fijas y de estructuras textuales que van más allá de la gramática general del idioma.",
+    "explanation": "<p>Un correo formal sigue una estructura predecible: fórmula de apertura (<em>Estimado/a Sr./Sra. [Apellido]:, En relación con...</em>), cuerpo claro y directo, y cierre convencional (<em>Quedo a la espera de su respuesta. Atentamente,</em>). Un informe organiza la información en secciones reconocibles — introducción, desarrollo o análisis, y conclusión — con un lenguaje objetivo que evita la primera persona cuando es posible (<em>se concluye que...</em> en vez de <em>yo concluyo que...</em>).</p><p>Una presentación oral formal necesita fórmulas propias para guiar a la audiencia: para introducir el tema (<em>El objetivo de esta presentación es...</em>), para pasar de un punto a otro (<em>Pasando al siguiente punto..., Esto nos lleva a...</em>) y para cerrar (<em>A modo de conclusión..., Para resumir...</em>). Dominar estas fórmulas fijas es tan importante como la gramática para sonar profesional en español.</p>",
+    "rules": [
+      {
+        "heading": "a) Correo formal — apertura y cierre",
+        "body": "<p>Apertura: \"Estimado/a Sr./Sra. [Apellido]:\", \"En referencia a su mensaje anterior...\". Cierre: \"Quedo a su disposición para cualquier consulta.\", \"Atentamente / Un cordial saludo.\"</p>"
+      },
+      {
+        "heading": "b) Informe — estructura objetiva",
+        "body": "<p>\"El presente informe tiene como objetivo...\", \"A continuación se analizan los resultados...\", \"En conclusión, se recomienda...\"</p>"
+      },
+      {
+        "heading": "c) Presentación oral — transiciones",
+        "body": "<p>\"Antes de continuar, me gustaría destacar...\", \"Esto nos lleva al siguiente punto...\", \"Para finalizar, quisiera resaltar...\"</p>"
+      },
+      {
+        "heading": "d) Evitar coloquialismos",
+        "body": "<p>Sustituir \"un montón de\" por \"numerosos/as\"; \"vale\" por \"de acuerdo\"; \"o sea\" por \"es decir\", en estos tres contextos formales.</p>"
+      }
+    ],
+    "examples": [
+      "Estimada Sra. Gómez: Le escribo en relación con la propuesta enviada la semana pasada.",
+      "Quedo a la espera de sus comentarios. Atentamente, Renan.",
+      "El presente informe analiza los resultados obtenidos durante el primer trimestre.",
+      "A continuación se detallan las principales conclusiones del estudio.",
+      "El objetivo de esta presentación es exponer los avances del proyecto.",
+      "Pasando al siguiente punto, conviene revisar el calendario propuesto.",
+      "A modo de conclusión, los datos confirman la viabilidad del plan.",
+      "Le agradezco de antemano su atención y quedo pendiente de su respuesta."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Hola, quería preguntarte una cosa... (al inicio de un correo formal a un desconocido)",
+        "right": "Estimado/a [Nombre/Apellido]: Le escribo para...",
+        "why": "Un correo formal exige una fórmula de apertura convencional, no un saludo coloquial reservado para contextos de confianza."
+      },
+      {
+        "wrong": "Yo pienso que los resultados están bien. (en un informe)",
+        "right": "Los resultados obtenidos se consideran satisfactorios.",
+        "why": "El registro de un informe prefiere estructuras impersonales u objetivas en lugar de la primera persona, para transmitir mayor neutralidad."
+      },
+      {
+        "wrong": "Cerrar un correo formal con \"Besos\" o \"Chao\".",
+        "right": "Cerrar con \"Atentamente\" o \"Un cordial saludo\".",
+        "why": "Las fórmulas de cierre informales no son apropiadas en correspondencia profesional, incluso si el resto del mensaje es cordial."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l10-fill",
+      "type": "fill-blank",
+      "title": "Completa la Fórmula Formal",
+      "items": [
+        {
+          "id": "c1l10i1",
+          "prompt": "___ Sr. Martínez: Le escribo para solicitar información adicional.",
+          "answers": [
+            [
+              "Estimado"
+            ]
+          ],
+          "options": [
+            "Estimado",
+            "Hola",
+            "Querido"
+          ],
+          "explanation": "Fórmula de apertura convencional en un correo formal."
+        },
+        {
+          "id": "c1l10i2",
+          "prompt": "Quedo a la ___ de su respuesta.",
+          "answers": [
+            [
+              "espera"
+            ]
+          ],
+          "options": [
+            "espera",
+            "vista",
+            "orden"
+          ],
+          "explanation": "\"Quedar a la espera de\" es una fórmula fija de cierre formal."
+        },
+        {
+          "id": "c1l10i3",
+          "prompt": "El presente informe tiene como ___ evaluar los resultados del trimestre.",
+          "answers": [
+            [
+              "objetivo"
+            ]
+          ],
+          "options": [
+            "objetivo",
+            "sueño",
+            "gusto"
+          ],
+          "explanation": "Fórmula típica de introducción a un informe."
+        },
+        {
+          "id": "c1l10i4",
+          "prompt": "___ al siguiente punto, conviene revisar el presupuesto disponible.",
+          "answers": [
+            [
+              "Pasando"
+            ]
+          ],
+          "options": [
+            "Pasando",
+            "Saltando",
+            "Corriendo"
+          ],
+          "explanation": "Fórmula de transición típica de una presentación oral formal."
+        }
+      ]
+    },
+    {
+      "id": "c1l10-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Opción Más Formal",
+      "items": [
+        {
+          "id": "c1l10i5",
+          "prompt": "¿Cuál es el cierre más apropiado para un correo formal?",
+          "options": [
+            "Chao, nos vemos.",
+            "Atentamente,",
+            "Besos,"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Atentamente\" es la fórmula de cierre estándar en correspondencia profesional."
+        },
+        {
+          "id": "c1l10i6",
+          "prompt": "¿Cuál de estas frases es más apropiada para un informe?",
+          "options": [
+            "Yo creo que salió todo bien.",
+            "Se concluye que los objetivos se cumplieron satisfactoriamente.",
+            "Nos fue genial, la verdad."
+          ],
+          "answerIndex": 1,
+          "explanation": "El registro de un informe prefiere estructuras impersonales y objetivas."
+        },
+        {
+          "id": "c1l10i7",
+          "prompt": "¿Cuál es la forma más formal de decir \"un montón de gente\"?",
+          "options": [
+            "un montón de gente",
+            "numerosas personas",
+            "tela de gente"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Numerosas personas\" es la variante de registro formal."
+        },
+        {
+          "id": "c1l10i8",
+          "prompt": "¿Qué fórmula es apropiada para cerrar una presentación oral formal?",
+          "options": [
+            "Bueno, ya está, eso es todo.",
+            "A modo de conclusión, quisiera resaltar los puntos principales.",
+            "Ya, chau, gracias."
+          ],
+          "answerIndex": 1,
+          "explanation": "Las fórmulas de cierre de una presentación formal marcan claramente la transición hacia el final."
+        }
+      ]
+    },
+    {
+      "id": "c1l10-typing",
+      "type": "typing",
+      "title": "Reescribe en Registro Formal",
+      "instructions": "Reescribe cada frase coloquial en un registro formal apropiado para un correo o un informe.",
+      "items": [
+        {
+          "id": "c1l10i9",
+          "prompt": "Reescribe de forma formal: \"Hola, quería preguntarte una cosa sobre el proyecto.\"",
+          "answer": [
+            "Estimado/a: le escribo para consultarle sobre el proyecto.",
+            "Le escribo para realizar una consulta sobre el proyecto."
+          ],
+          "explanation": "Un correo formal sustituye el saludo coloquial por una fórmula de apertura convencional."
+        },
+        {
+          "id": "c1l10i10",
+          "prompt": "Reescribe de forma formal: \"Creo que hicimos un buen trabajo este trimestre.\"",
+          "answer": [
+            "Se considera que el trabajo realizado durante el trimestre fue satisfactorio.",
+            "Los resultados del trimestre se consideran satisfactorios."
+          ],
+          "explanation": "El registro de informe prefiere estructuras objetivas, evitando la primera persona cuando es posible."
+        },
+        {
+          "id": "c1l10i11",
+          "prompt": "Reescribe de forma formal: \"Nos vemos, cualquier cosa me avisas.\"",
+          "answer": [
+            "Quedo a su disposición para cualquier consulta. Atentamente.",
+            "Quedo a la espera de sus noticias. Un cordial saludo."
+          ],
+          "explanation": "Las despedidas informales se sustituyen por fórmulas de cierre convencionales en correspondencia profesional."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Un correo formal sigue una estructura fija: apertura convencional, cuerpo claro y una fórmula de cierre reconocible.",
+    "Un informe organiza la información en introducción, desarrollo y conclusión, con un lenguaje objetivo que evita la primera persona.",
+    "Una presentación oral formal se apoya en fórmulas fijas para introducir, enlazar y cerrar cada punto del discurso."
+  ]
+}

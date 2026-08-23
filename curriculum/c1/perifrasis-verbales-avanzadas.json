@@ -1,0 +1,221 @@
+{
+  "id": "c1-perifrasis-verbales-avanzadas",
+  "level": "C1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "perifrasis",
+  "title": "Perífrasis Verbales Avanzadas",
+  "subtitle": "Venir + gerundio, dejar de, echar a, ponerse a — matices de inicio, proceso y fin de una acción.",
+  "objectives": [
+    "Reconocer el matiz aspectual (inicio, desarrollo o fin de una acción) de distintas perífrasis verbales avanzadas.",
+    "Usar correctamente perífrasis incoativas (echar a, ponerse a, romper a) y terminativas (dejar de, acabar de, llegar a).",
+    "Distinguir venir + gerundio de llevar + gerundio y estar + gerundio."
+  ],
+  "content": {
+    "intro": "Más allá de estar + gerundio, el español dispone de un conjunto rico de perífrasis verbales que precisan si una acción está empezando, en curso, terminando o alcanzando un resultado.",
+    "explanation": "<p>Las perífrasis incoativas marcan el inicio de una acción, a menudo de forma súbita o inesperada: <em>ponerse a</em> (general), <em>echar a</em> (con verbos de movimiento: echar a correr, echar a reír), <em>romper a</em> (más brusco, con llorar/reír: romper a llorar). Las perífrasis terminativas marcan el final o el resultado: <em>dejar de + infinitivo</em> (interrupción: dejar de fumar), <em>acabar de + infinitivo</em> (pasado reciente: acabo de llegar), <em>llegar a + infinitivo</em> (alcanzar un grado o resultado: llegó a ser director).</p><p><em>Venir + gerundio</em> describe un proceso que se desarrolla de forma progresiva desde el pasado hasta el presente, a menudo con matiz de acumulación: <em>Vengo diciéndotelo desde hace meses.</em> Se diferencia de <em>llevar + gerundio</em>, que enfatiza la duración medida (<em>Llevo dos años estudiando español</em>), y de <em>estar + gerundio</em>, que describe una acción puntual en curso ahora mismo.</p>",
+    "rules": [
+      {
+        "heading": "a) Incoativas",
+        "body": "<p>ponerse a (neutra), echar a (movimiento: echar a andar/correr), romper a (brusca, con llorar/reír).</p>"
+      },
+      {
+        "heading": "b) Terminativas",
+        "body": "<p>dejar de (interrupción), acabar de (pasado inmediato), llegar a (resultado alcanzado, a veces inesperado).</p>"
+      },
+      {
+        "heading": "c) Venir + gerundio",
+        "body": "<p>Proceso acumulativo desde el pasado hasta ahora, con frecuencia repetido o insistente: <em>El precio viene subiendo desde enero.</em></p>"
+      },
+      {
+        "heading": "d) Venir/llevar/estar + gerundio",
+        "body": "<p>Llevar mide duración exacta; estar marca el presente puntual; venir enfatiza el desarrollo progresivo y a menudo insistente del proceso.</p>"
+      }
+    ],
+    "examples": [
+      "Al ver la sorpresa, se echó a reír sin poder controlarse.",
+      "Después del accidente, dejó de conducir de noche.",
+      "Acabamos de recibir la confirmación del vuelo.",
+      "Con los años, llegó a convertirse en un referente del sector.",
+      "Los precios vienen subiendo desde hace varios meses.",
+      "Se puso a llover justo cuando salimos de casa.",
+      "Llevo tres horas esperando una respuesta.",
+      "El niño rompió a llorar al ver que se había roto el juguete."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Se echó a llover de repente.",
+        "right": "Se puso a llover de repente.",
+        "why": "\"Echar a\" se combina sobre todo con verbos de movimiento (correr, andar, volar); con fenómenos como llover se prefiere \"ponerse a\"."
+      },
+      {
+        "wrong": "Vengo a decírtelo desde hace meses.",
+        "right": "Vengo diciéndotelo desde hace meses.",
+        "why": "El matiz de proceso acumulativo requiere el gerundio, no \"a + infinitivo\", que es una perífrasis distinta con otro significado."
+      },
+      {
+        "wrong": "Dejé fumar hace un año.",
+        "right": "Dejé de fumar hace un año.",
+        "why": "\"Dejar de + infinitivo\" requiere obligatoriamente la preposición \"de\"; omitirla es un error frecuente."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l7-fill",
+      "type": "fill-blank",
+      "title": "Completa con la Perífrasis Correcta",
+      "items": [
+        {
+          "id": "c1l7i1",
+          "prompt": "Al escuchar la broma, ___ (echar a) reír todos a la vez.",
+          "answers": [
+            [
+              "se echaron a"
+            ]
+          ],
+          "options": [
+            "se echaron a",
+            "se rompieron a",
+            "se pusieron"
+          ],
+          "explanation": "Echar a + infinitivo, con un verbo de movimiento/reacción súbita."
+        },
+        {
+          "id": "c1l7i2",
+          "prompt": "___ (acabar de) llegar cuando empezó a sonar el teléfono.",
+          "answers": [
+            [
+              "Acababa de",
+              "Acabábamos de"
+            ]
+          ],
+          "options": [
+            "Acababa de",
+            "Dejaba de",
+            "Venía de"
+          ],
+          "explanation": "Acabar de + infinitivo expresa pasado reciente."
+        },
+        {
+          "id": "c1l7i3",
+          "prompt": "El precio del alquiler ___ (venir) subiendo desde hace dos años.",
+          "answers": [
+            [
+              "viene"
+            ]
+          ],
+          "options": [
+            "viene",
+            "lleva",
+            "está"
+          ],
+          "explanation": "Venir + gerundio marca un proceso acumulativo y progresivo."
+        },
+        {
+          "id": "c1l7i4",
+          "prompt": "___ (dejar) fumar el año pasado y se siente mucho mejor.",
+          "answers": [
+            [
+              "Dejó de"
+            ]
+          ],
+          "options": [
+            "Dejó de",
+            "Dejó",
+            "Acabó"
+          ],
+          "explanation": "Dejar de + infinitivo exige la preposición \"de\"."
+        }
+      ]
+    },
+    {
+      "id": "c1l7-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Perífrasis Correcta",
+      "items": [
+        {
+          "id": "c1l7i5",
+          "prompt": "\"Después de años de esfuerzo, ___ ser directora de la empresa.\"",
+          "options": [
+            "llegó a",
+            "dejó de",
+            "acabó de"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Llegar a + infinitivo\" expresa alcanzar un resultado o un grado, a veces inesperado."
+        },
+        {
+          "id": "c1l7i6",
+          "prompt": "\"___ tres años trabajando en el mismo proyecto.\" (énfasis en la duración exacta)",
+          "options": [
+            "Vengo",
+            "Llevo",
+            "Estoy"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Llevar + gerundio\" enfatiza la duración medida de una acción."
+        },
+        {
+          "id": "c1l7i7",
+          "prompt": "\"Justo cuando salíamos, ___ llover con fuerza.\"",
+          "options": [
+            "se echó a",
+            "se puso a",
+            "acabó de"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Ponerse a\" es la perífrasis incoativa general, apta para fenómenos meteorológicos."
+        },
+        {
+          "id": "c1l7i8",
+          "prompt": "\"El niño ___ llorar al caerse de la bicicleta.\" (inicio brusco)",
+          "options": [
+            "rompió a",
+            "vino a",
+            "acabó de"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Romper a\" marca un inicio brusco, típico con llorar y reír."
+        }
+      ]
+    },
+    {
+      "id": "c1l7-correction",
+      "type": "correction",
+      "title": "Corrige la Perífrasis",
+      "items": [
+        {
+          "id": "c1l7i9",
+          "incorrect": "Dejé fumar hace dos años.",
+          "answer": [
+            "Dejé de fumar hace dos años."
+          ],
+          "explanation": "\"Dejar de + infinitivo\" requiere obligatoriamente la preposición \"de\"."
+        },
+        {
+          "id": "c1l7i10",
+          "incorrect": "Vengo a decírselo desde hace semanas, pero no me escucha.",
+          "answer": [
+            "Vengo diciéndoselo desde hace semanas, pero no me escucha."
+          ],
+          "explanation": "El proceso acumulativo requiere gerundio, no \"a + infinitivo\"."
+        },
+        {
+          "id": "c1l7i11",
+          "incorrect": "Se echó a llover apenas salimos de casa.",
+          "answer": [
+            "Se puso a llover apenas salimos de casa."
+          ],
+          "explanation": "\"Echar a\" se usa con verbos de movimiento; con fenómenos meteorológicos se prefiere \"ponerse a\"."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Las perífrasis incoativas (ponerse a, echar a, romper a) marcan el inicio de una acción, con distintos matices de brusquedad y contexto.",
+    "Las perífrasis terminativas (dejar de, acabar de, llegar a) marcan la interrupción, el pasado reciente o el resultado alcanzado.",
+    "Venir + gerundio enfatiza un proceso acumulativo desde el pasado, distinto de la duración medida de llevar + gerundio y del presente puntual de estar + gerundio."
+  ]
+}

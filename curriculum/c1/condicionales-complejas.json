@@ -1,0 +1,244 @@
+{
+  "id": "c1-condicionales-complejas",
+  "level": "C1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "condicionales",
+  "title": "Condicionales Complejas: los Cuatro Tipos",
+  "subtitle": "Real, potencial, irreal de pasado y condicionales mixtas: cómo elegir el tiempo verbal correcto en cada mitad de la oración.",
+  "objectives": [
+    "Distinguir los cuatro tipos de oraciones condicionales según el grado de realidad de la condición.",
+    "Elegir el tiempo verbal correcto en la prótasis y en la apódosis de cada tipo.",
+    "Construir condicionales mixtas que combinan una condición pasada con una consecuencia presente."
+  ],
+  "content": {
+    "intro": "El español distingue con precisión el grado de realidad de una condición mediante cuatro estructuras distintas, cada una con su propia combinación de tiempos verbales.",
+    "explanation": "<p>El tipo 1 (real o probable) expresa una condición posible o habitual: si + presente de indicativo, con presente, futuro o imperativo en la consecuencia: <em>Si llueve, no salimos.</em> El tipo 2 (potencial o irreal de presente) expresa una condición improbable o contraria a la realidad actual: si + imperfecto de subjuntivo, condicional simple: <em>Si tuviera dinero, viajaría más.</em></p><p>El tipo 3 (irreal de pasado) expresa una condición que no se cumplió: si + pluscuamperfecto de subjuntivo, condicional compuesto: <em>Si hubiera sabido, habría venido.</em> Las condicionales mixtas combinan una prótasis de un tiempo con una apódosis de otro cuando el momento de la condición y el de la consecuencia no coinciden, típicamente una condición pasada con una consecuencia presente: <em>Si hubiera aceptado ese trabajo, ahora viviría en otra ciudad.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Tipo 1 — real/probable",
+        "body": "<p>Si + presente de indicativo, presente/futuro/imperativo: <em>Si estudias, apruebas.</em> <em>Si tienes hambre, come algo.</em></p>"
+      },
+      {
+        "heading": "b) Tipo 2 — potencial/irreal de presente",
+        "body": "<p>Si + imperfecto de subjuntivo, condicional simple: <em>Si fuera rico, no trabajaría.</em></p>"
+      },
+      {
+        "heading": "c) Tipo 3 — irreal de pasado",
+        "body": "<p>Si + pluscuamperfecto de subjuntivo, condicional compuesto: <em>Si hubiera llovido, habríamos cancelado.</em></p>"
+      },
+      {
+        "heading": "d) Condicionales mixtas",
+        "body": "<p>Prótasis de un tiempo, apódosis de otro, cuando los momentos no coinciden: <em>Si hubiera nacido en otro país, hablaría otro idioma.</em> (condición pasada, consecuencia presente)</p>"
+      }
+    ],
+    "examples": [
+      "Si tienes hambre, hay fruta en la cocina.",
+      "Si me lo pidieras, lo haría sin dudarlo.",
+      "Si hubiéramos salido antes, no habríamos perdido el tren.",
+      "Si no hubiera tomado esa decisión, ahora no estaría aquí.",
+      "Si apruebas el examen, te invito a cenar.",
+      "Si tuviéramos más tiempo, visitaríamos el museo.",
+      "Si hubieras confiado en mí, todo habría sido más fácil.",
+      "Si fuera más ordenado, no perdería las llaves todos los días."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Si tendría dinero, viajaría más.",
+        "right": "Si tuviera dinero, viajaría más.",
+        "why": "La prótasis nunca lleva condicional; el tipo potencial exige imperfecto de subjuntivo en la parte con \"si\"."
+      },
+      {
+        "wrong": "Si hubiera sabido, vendría.",
+        "right": "Si hubiera sabido, habría venido.",
+        "why": "Cuando tanto la condición como la consecuencia pertenecen por completo al pasado, la apódosis debe ir en condicional compuesto, no en condicional simple."
+      },
+      {
+        "wrong": "Si llueva, no salimos.",
+        "right": "Si llueve, no salimos.",
+        "why": "La condicional de tipo real usa presente de indicativo después de \"si\", nunca presente de subjuntivo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l2-mc",
+      "type": "multiple-choice",
+      "title": "Identifica el Tipo Correcto",
+      "items": [
+        {
+          "id": "c1l2i1",
+          "prompt": "\"Si ___ tiempo, te ayudo con la mudanza.\" (condición real, presente)",
+          "options": [
+            "tengo",
+            "tuviera",
+            "hubiera tenido"
+          ],
+          "answerIndex": 0,
+          "explanation": "Condición real y probable: presente de indicativo."
+        },
+        {
+          "id": "c1l2i2",
+          "prompt": "\"Si ___ más paciente, no discutiríamos tanto.\" (condición contraria a la realidad actual)",
+          "options": [
+            "soy",
+            "fuera",
+            "hubiera sido"
+          ],
+          "answerIndex": 1,
+          "explanation": "Condición potencial/irreal de presente: imperfecto de subjuntivo."
+        },
+        {
+          "id": "c1l2i3",
+          "prompt": "\"Si me lo ___ antes, no habría llegado tarde.\" (condición que no se cumplió en el pasado)",
+          "options": [
+            "dices",
+            "dijeras",
+            "hubieras dicho"
+          ],
+          "answerIndex": 2,
+          "explanation": "Condición irreal de pasado: pluscuamperfecto de subjuntivo."
+        },
+        {
+          "id": "c1l2i4",
+          "prompt": "\"Si no hubiera aceptado ese trabajo, ahora ___ en otra ciudad.\" (consecuencia en el presente)",
+          "options": [
+            "viviría",
+            "habría vivido",
+            "viva"
+          ],
+          "answerIndex": 0,
+          "explanation": "Condicional mixta: prótasis pasada, apódosis presente, por lo que se usa el condicional simple."
+        }
+      ]
+    },
+    {
+      "id": "c1l2-fill",
+      "type": "fill-blank",
+      "title": "Completa la Condicional",
+      "items": [
+        {
+          "id": "c1l2i5",
+          "prompt": "Si ___ (yo - poder), iría contigo.",
+          "answers": [
+            [
+              "pudiera",
+              "pudiese"
+            ]
+          ],
+          "options": [
+            "pudiera",
+            "puedo",
+            "podría"
+          ],
+          "explanation": "Tipo potencial: imperfecto de subjuntivo en la prótasis."
+        },
+        {
+          "id": "c1l2i6",
+          "prompt": "Si no ___ (nosotros - perder) el vuelo, ya estaríamos en el hotel.",
+          "answers": [
+            [
+              "hubiéramos perdido",
+              "hubiésemos perdido"
+            ]
+          ],
+          "options": [
+            "hubiéramos perdido",
+            "perdimos",
+            "perderíamos"
+          ],
+          "explanation": "Condicional mixta: condición pasada con consecuencia presente."
+        },
+        {
+          "id": "c1l2i7",
+          "prompt": "Si ___ (tú - querer), podemos salir esta tarde.",
+          "answers": [
+            [
+              "quieres"
+            ]
+          ],
+          "options": [
+            "quieres",
+            "quisieras",
+            "quisiste"
+          ],
+          "explanation": "Condición real, referida al presente/futuro: presente de indicativo."
+        },
+        {
+          "id": "c1l2i8",
+          "prompt": "Si me ___ (avisar) a tiempo, habríamos cambiado los planes.",
+          "answers": [
+            [
+              "hubieras avisado",
+              "hubieses avisado"
+            ]
+          ],
+          "options": [
+            "hubieras avisado",
+            "avisabas",
+            "avisarías"
+          ],
+          "explanation": "Condición irreal de pasado: pluscuamperfecto de subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "c1l2-ordering",
+      "type": "ordering",
+      "title": "Ordena la Oración",
+      "instructions": "Ordena las palabras para formar una oración condicional correcta.",
+      "items": [
+        {
+          "id": "c1l2i9",
+          "prompt": "Forma una condicional de tipo real.",
+          "words": [
+            "Si",
+            "estudias",
+            "todos",
+            "los",
+            "días",
+            "aprenderás",
+            "más",
+            "rápido"
+          ],
+          "explanation": "Si + presente de indicativo, futuro simple en la consecuencia."
+        },
+        {
+          "id": "c1l2i10",
+          "prompt": "Forma una condicional potencial.",
+          "words": [
+            "Si",
+            "tuviera",
+            "más",
+            "vacaciones",
+            "viajaría",
+            "por",
+            "toda",
+            "Sudamérica"
+          ],
+          "explanation": "Si + imperfecto de subjuntivo, condicional simple."
+        },
+        {
+          "id": "c1l2i11",
+          "prompt": "Forma una condicional irreal de pasado.",
+          "words": [
+            "Si",
+            "hubiéramos",
+            "reservado",
+            "antes",
+            "habríamos",
+            "pagado",
+            "menos"
+          ],
+          "explanation": "Si + pluscuamperfecto de subjuntivo, condicional compuesto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El tipo real (si + presente, presente/futuro) expresa una condición posible o habitual.",
+    "El tipo potencial (si + imperfecto de subjuntivo, condicional simple) y el tipo irreal de pasado (si + pluscuamperfecto de subjuntivo, condicional compuesto) expresan condiciones contrarias a la realidad presente o pasada.",
+    "Las condicionales mixtas combinan tiempos de dos tipos distintos cuando el momento de la condición y el de la consecuencia no coinciden."
+  ]
+}

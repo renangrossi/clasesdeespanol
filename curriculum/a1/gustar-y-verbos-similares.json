@@ -1,0 +1,186 @@
+{
+  "id": "a1-gustar-y-verbos-similares",
+  "level": "A1",
+  "unit": "1",
+  "order": 14,
+  "skill": "grammar",
+  "strand": "verbos",
+  "title": "Gustar y Verbos Similares",
+  "subtitle": "Me gusta, te gusta, le gusta... y verbos como encantar e interesar, que funcionan igual.",
+  "objectives": [
+    "Conjugar gustar con los pronombres me, te, le, nos, os, les",
+    "Elegir entre gusta y gustan según lo que sigue al verbo",
+    "Usar verbos similares a gustar, como encantar e interesar"
+  ],
+  "content": {
+    "intro": "Gustar no funciona como un verbo normal: en vez de conjugarse según la persona que siente el gusto, se conjuga según la cosa que produce ese gusto — una estructura distinta a la de la mayoría de los verbos ya vistos.",
+    "explanation": "<p>Con <strong>gustar</strong>, la persona a quien le gusta algo se expresa con un pronombre (<em>me, te, le, nos, os, les</em>), y el verbo concuerda con lo que gusta, no con la persona: <em>Me gusta el café</em> (el café es singular, gusta) frente a <em>Me gustan los libros</em> (los libros es plural, gustan). Es como decir, literalmente, \"el café me resulta agradable\".</p><p>Otros verbos funcionan exactamente igual: <strong>encantar</strong> (gustar mucho), <strong>interesar</strong>, <strong>molestar</strong>, <strong>importar</strong>, <strong>doler</strong>. Todos siguen el mismo patrón de pronombre + verbo en tercera persona (singular o plural, según lo que sigue).</p>",
+    "rules": [
+      {
+        "heading": "a) Los pronombres de gustar",
+        "body": "<ul><li><strong>me</strong> gusta(n) — a mí</li><li><strong>te</strong> gusta(n) — a ti</li><li><strong>le</strong> gusta(n) — a él, a ella, a usted</li><li><strong>nos</strong> gusta(n) — a nosotros/as</li><li><strong>os</strong> gusta(n) — a vosotros/as</li><li><strong>les</strong> gusta(n) — a ellos, a ellas, a ustedes</li></ul>"
+      },
+      {
+        "heading": "b) Gusta o gustan",
+        "body": "<ul><li><strong>gusta</strong> — cuando lo que sigue es singular o un verbo en infinitivo: <em>Me gusta el chocolate. Me gusta bailar.</em></li><li><strong>gustan</strong> — cuando lo que sigue es plural: <em>Me gustan las películas de aventura.</em></li></ul>"
+      },
+      {
+        "heading": "c) Añadir claridad o énfasis con a + persona",
+        "body": "<ul><li><em>A mí me gusta el té, pero a mi hermano le gusta el café.</em></li><li>Necesario para aclarar a quién se refiere le/les: <em>A Marta le gusta viajar.</em></li></ul>"
+      },
+      {
+        "heading": "d) Otros verbos con la misma estructura",
+        "body": "<ul><li><strong>encantar</strong> — <em>Me encanta esta canción.</em></li><li><strong>interesar</strong> — <em>Nos interesa la historia.</em></li><li><strong>molestar</strong> — <em>Le molesta el ruido.</em></li><li><strong>doler</strong> — <em>Me duele la cabeza.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Me gusta mucho la música latina.",
+      "¿Te gustan las películas de terror?",
+      "A ella le gusta leer novelas históricas.",
+      "Nos encanta viajar durante las vacaciones.",
+      "Les interesa mucho la cultura española.",
+      "A mi padre le duele la espalda desde ayer.",
+      "¿Os gusta el plan para este fin de semana?",
+      "A mí me molesta el ruido de la calle por la noche."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Yo gusto el café.",
+        "right": "Me gusta el café.",
+        "why": "Gustar no se conjuga según la persona que siente el gusto; necesita el pronombre me y la tercera persona del verbo."
+      },
+      {
+        "wrong": "Me gusta los libros.",
+        "right": "Me gustan los libros.",
+        "why": "El verbo concuerda con lo que gusta, que aquí es plural (los libros), así que necesita gustan."
+      },
+      {
+        "wrong": "A yo me gusta el chocolate.",
+        "right": "A mí me gusta el chocolate.",
+        "why": "Después de la preposición a se usa el pronombre mí, no yo, para dar énfasis o claridad."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1gu-fill",
+      "type": "fill-blank",
+      "title": "Completa con Gusta o Gustan",
+      "items": [
+        {
+          "id": "a1gu1",
+          "prompt": "Me ___ el chocolate.",
+          "answers": [
+            [
+              "gusta"
+            ]
+          ],
+          "explanation": "Chocolate es singular: gusta.",
+          "options": [
+            "gusta",
+            "gustan"
+          ]
+        },
+        {
+          "id": "a1gu2",
+          "prompt": "Nos ___ las películas de acción.",
+          "answers": [
+            [
+              "gustan"
+            ]
+          ],
+          "explanation": "Películas es plural: gustan.",
+          "options": [
+            "gusta",
+            "gustan"
+          ]
+        },
+        {
+          "id": "a1gu3",
+          "prompt": "¿Te ___ viajar en avión?",
+          "answers": [
+            [
+              "gusta"
+            ]
+          ],
+          "explanation": "Delante de un infinitivo siempre se usa la forma singular gusta.",
+          "options": [
+            "gusta",
+            "gustan"
+          ]
+        },
+        {
+          "id": "a1gu4",
+          "prompt": "A ellos les ___ los deportes al aire libre.",
+          "answers": [
+            [
+              "gustan"
+            ]
+          ],
+          "explanation": "Deportes es plural: gustan.",
+          "options": [
+            "gusta",
+            "gustan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1gu-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Pronombre Correcto",
+      "items": [
+        {
+          "id": "a1gu5",
+          "prompt": "\"A mi hermana ___ gusta el café.\" ¿Qué pronombre falta?",
+          "options": [
+            "me",
+            "le",
+            "te"
+          ],
+          "answerIndex": 1,
+          "explanation": "A mi hermana corresponde a la tercera persona singular: le."
+        },
+        {
+          "id": "a1gu6",
+          "prompt": "¿Cómo dirías que a ti te gustan mucho los perros?",
+          "options": [
+            "Me encanta los perros.",
+            "Me encantan los perros.",
+            "Yo encanto los perros."
+          ],
+          "answerIndex": 1,
+          "explanation": "Encantar sigue la misma estructura que gustar: concuerda con perros, que es plural."
+        }
+      ]
+    },
+    {
+      "id": "a1gu-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1gu7",
+          "incorrect": "Yo gusto mucho la pizza.",
+          "answer": [
+            "Me gusta mucho la pizza."
+          ],
+          "explanation": "Gustar necesita el pronombre me y la tercera persona del verbo, no una conjugación con yo."
+        },
+        {
+          "id": "a1gu8",
+          "incorrect": "Me gusta las manzanas.",
+          "answer": [
+            "Me gustan las manzanas."
+          ],
+          "explanation": "Manzanas es plural, así que el verbo debe concordar como gustan."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Gustar se conjuga según la cosa que gusta (gusta/gustan), no según la persona, que se expresa con un pronombre (me, te, le, nos, os, les).",
+    "Se usa gusta con singular o infinitivo, y gustan con plural.",
+    "Encantar, interesar, molestar, importar y doler siguen exactamente la misma estructura que gustar."
+  ]
+}

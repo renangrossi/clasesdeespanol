@@ -1,0 +1,175 @@
+{
+  "id": "a1-demostrativos",
+  "level": "A1",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "demostrativos",
+  "title": "Demostrativos",
+  "subtitle": "Este, ese, aquel y sus formas: señalar la cercanía o lejanía de algo.",
+  "objectives": [
+    "Usar este, ese y aquel según la distancia respecto al hablante",
+    "Hacer concordar los demostrativos en género y número",
+    "Reconocer las formas neutras esto, eso y aquello"
+  ],
+  "content": {
+    "intro": "Los demostrativos señalan objetos según lo cerca o lejos que estén del hablante — el español tiene tres grados de distancia, no solo dos.",
+    "explanation": "<p>A diferencia de otras lenguas que distinguen solo entre \"cerca\" y \"lejos\", el español tiene tres niveles: <strong>este</strong> (cerca de quien habla), <strong>ese</strong> (cerca de quien escucha, o a media distancia) y <strong>aquel</strong> (lejos de ambos). Cada uno concuerda en género y número con el sustantivo que acompaña.</p><p>Además de las formas que acompañan a un sustantivo, existen las formas neutras <strong>esto, eso, aquello</strong>, que no concuerdan con ningún sustantivo específico porque se refieren a una idea, una situación o algo aún no identificado.</p>",
+    "rules": [
+      {
+        "heading": "a) Este (cerca del hablante)",
+        "body": "<ul><li><strong>este, esta, estos, estas</strong> — <em>este libro, esta silla, estos libros, estas sillas</em></li></ul>"
+      },
+      {
+        "heading": "b) Ese (cerca del oyente / distancia media)",
+        "body": "<ul><li><strong>ese, esa, esos, esas</strong> — <em>ese libro, esa silla, esos libros, esas sillas</em></li></ul>"
+      },
+      {
+        "heading": "c) Aquel (lejos de ambos)",
+        "body": "<ul><li><strong>aquel, aquella, aquellos, aquellas</strong> — <em>aquel edificio, aquella montaña, aquellos edificios, aquellas montañas</em></li></ul>"
+      },
+      {
+        "heading": "d) Formas neutras: esto, eso, aquello",
+        "body": "<ul><li>No concuerdan con ningún sustantivo — se usan para ideas o cosas sin identificar: <em>¿Qué es esto?</em>, <em>Eso no me gusta</em>, <em>Aquello fue hace mucho tiempo</em></li></ul>"
+      }
+    ],
+    "examples": [
+      "Este libro que tengo en la mano es muy interesante.",
+      "Esa mochila que llevas es nueva, ¿verdad?",
+      "Aquel edificio al fondo de la calle es el museo.",
+      "Estas flores huelen muy bien.",
+      "Esos zapatos que compraste son muy cómodos.",
+      "Aquellas montañas se ven todavía nevadas.",
+      "¿Qué es esto que encontré en el cajón?",
+      "Eso que dijiste ayer me hizo pensar mucho."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "esta libro",
+        "right": "este libro",
+        "why": "Libro es masculino, así que el demostrativo debe ser este, no esta."
+      },
+      {
+        "wrong": "¿Qué es esta? (señalando algo aún no identificado)",
+        "right": "¿Qué es esto?",
+        "why": "Cuando el objeto todavía no se identifica o no tiene género conocido, se usa la forma neutra esto, no esta."
+      },
+      {
+        "wrong": "aquel casa",
+        "right": "aquella casa",
+        "why": "Casa es femenino, así que el demostrativo debe concordar como aquella, no aquel."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1de-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Demostrativo Correcto",
+      "items": [
+        {
+          "id": "a1de1",
+          "prompt": "___ libro que tengo aquí es mío. (cerca de mí)",
+          "answers": [
+            [
+              "Este"
+            ]
+          ],
+          "explanation": "Libro es masculino y está cerca del hablante: este.",
+          "options": [
+            "Este",
+            "Ese",
+            "Aquel"
+          ]
+        },
+        {
+          "id": "a1de2",
+          "prompt": "___ montañas al fondo se ven hermosas. (lejos de ambos)",
+          "answers": [
+            [
+              "Aquellas"
+            ]
+          ],
+          "explanation": "Montañas es femenino plural y está lejos de ambos hablantes: aquellas.",
+          "options": [
+            "Estas",
+            "Esas",
+            "Aquellas"
+          ]
+        },
+        {
+          "id": "a1de3",
+          "prompt": "¿Qué es ___ que tienes en la mano? (algo sin identificar)",
+          "answers": [
+            [
+              "eso"
+            ]
+          ],
+          "explanation": "Forma neutra para algo aún no identificado, a media distancia: eso.",
+          "options": [
+            "eso",
+            "esa",
+            "esos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1de-mc",
+      "type": "multiple-choice",
+      "title": "Elige el Demostrativo Correcto",
+      "items": [
+        {
+          "id": "a1de4",
+          "prompt": "Señalas una silla que tienes justo al lado. ¿Qué dices?",
+          "options": [
+            "aquella silla",
+            "esta silla",
+            "esa silla"
+          ],
+          "answerIndex": 1,
+          "explanation": "Este/esta se usa para algo cerca del hablante."
+        },
+        {
+          "id": "a1de5",
+          "prompt": "¿Cuál es la forma correcta para \"zapatos\" (masculino plural) a media distancia?",
+          "options": [
+            "esos",
+            "esas",
+            "estos"
+          ],
+          "answerIndex": 0,
+          "explanation": "Zapatos es masculino plural y está a media distancia: esos."
+        }
+      ]
+    },
+    {
+      "id": "a1de-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1de6",
+          "incorrect": "esta libro es interesante",
+          "answer": [
+            "este libro es interesante"
+          ],
+          "explanation": "Libro es masculino, así que el demostrativo debe ser este."
+        },
+        {
+          "id": "a1de7",
+          "incorrect": "aquel casa está lejos",
+          "answer": [
+            "aquella casa está lejos"
+          ],
+          "explanation": "Casa es femenino, así que el demostrativo debe ser aquella."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Este señala cercanía al hablante, ese cercanía al oyente o distancia media, y aquel lejanía de ambos.",
+    "Cada demostrativo concuerda en género y número con el sustantivo que acompaña: este/esta/estos/estas, y así con ese y aquel.",
+    "Las formas neutras esto, eso y aquello no concuerdan con ningún sustantivo: se usan para ideas o cosas sin identificar."
+  ]
+}

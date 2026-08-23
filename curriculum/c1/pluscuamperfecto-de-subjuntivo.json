@@ -1,0 +1,228 @@
+{
+  "id": "c1-pluscuamperfecto-de-subjuntivo",
+  "level": "C1",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "subjuntivo",
+  "title": "El Pluscuamperfecto de Subjuntivo",
+  "subtitle": "Hubiera hablado / hubiese hablado — el tiempo compuesto que cierra el sistema del subjuntivo.",
+  "objectives": [
+    "Formar el pluscuamperfecto de subjuntivo con hubiera/hubiese más el participio pasado.",
+    "Usar este tiempo para expresar una acción anterior a otra acción pasada dentro de una oración subordinada.",
+    "Reconocer su uso en las condicionales irreales de pasado y en los deseos o arrepentimientos no cumplidos."
+  ],
+  "content": {
+    "intro": "El pluscuamperfecto de subjuntivo es el tiempo compuesto que permite hablar, dentro del modo subjuntivo, de algo que ya había ocurrido antes de otro momento del pasado.",
+    "explanation": "<p>Se forma con el imperfecto de subjuntivo de haber (<em>hubiera</em> o <em>hubiese</em>, ambas formas plenamente intercambiables en casi todos los contextos) más el participio pasado: <em>hubiera hablado, hubiese comido, hubieran vivido</em>. Aparece en subordinadas que dependen de un verbo principal en pasado que expresa duda, deseo o emoción, cuando la acción subordinada es anterior a esa referencia temporal: <em>Dudaba que hubieran llegado a tiempo.</em></p><p>Su uso más frecuente, sin embargo, está en las condicionales irreales de pasado, donde ocupa la prótasis (la parte con \"si\"): <em>Si hubiera sabido la verdad, habría actuado de otra manera.</em> También expresa deseos o arrepentimientos sobre algo que ya no se puede cambiar, especialmente con \"ojalá\": <em>Ojalá hubiera llegado antes.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Formación",
+        "body": "<p>hubiera/hubiese, hubieras/hubieses, hubiera/hubiese, hubiéramos/hubiésemos, hubierais/hubieseis, hubieran/hubiesen + participio. Participios irregulares frecuentes: hecho, dicho, puesto, escrito, visto, roto, vuelto, abierto, muerto.</p>"
+      },
+      {
+        "heading": "b) Uso en subordinadas",
+        "body": "<p>Tras un verbo principal en pasado que expresa duda, deseo o emoción, cuando la acción subordinada ocurrió antes: <em>No creía que hubieran terminado tan rápido.</em> <em>Me alegré de que hubieras venido.</em></p>"
+      },
+      {
+        "heading": "c) Condicionales irreales de pasado",
+        "body": "<p>Si + pluscuamperfecto de subjuntivo, condicional compuesto: <em>Si hubiera estudiado más, habría aprobado el examen.</em> En el habla cotidiana también se acepta la variante con pluscuamperfecto de subjuntivo en ambas partes: <em>Si hubiera estudiado más, hubiera aprobado el examen.</em></p>"
+      },
+      {
+        "heading": "d) Deseos y arrepentimientos con ojalá",
+        "body": "<p><em>Ojalá + pluscuamperfecto de subjuntivo</em> expresa un deseo sobre algo que ya no puede cambiarse: <em>Ojalá hubiera sabido la verdad antes.</em></p>"
+      }
+    ],
+    "examples": [
+      "Si hubiera sabido que venías, habría preparado algo especial.",
+      "No creía que hubieran terminado el proyecto tan rápido.",
+      "Ojalá hubiese llegado a tiempo a la reunión.",
+      "Me habría gustado que me hubieras avisado antes.",
+      "Era la mejor película que hubiera visto en años.",
+      "Si hubiéramos reservado con antelación, no habríamos pagado tanto.",
+      "Dudaba que hubiese dicho eso en serio.",
+      "Ojalá hubiéramos aprovechado mejor el tiempo."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Si había sabido, habría venido.",
+        "right": "Si hubiera sabido, habría venido.",
+        "why": "La condición irreal de pasado exige el pluscuamperfecto de subjuntivo en la prótasis, no el pluscuamperfecto de indicativo."
+      },
+      {
+        "wrong": "Ojalá haya sabido la verdad antes.",
+        "right": "Ojalá hubiera sabido la verdad antes.",
+        "why": "Un deseo sobre algo que ya no se puede cambiar en el pasado requiere el pluscuamperfecto de subjuntivo, no el pretérito perfecto de subjuntivo, que se reserva para el pasado reciente o el futuro."
+      },
+      {
+        "wrong": "Era la mejor película que hubiera vistado.",
+        "right": "Era la mejor película que hubiera visto.",
+        "why": "El verbo ver tiene un participio irregular, visto, no la forma regularizada vistado."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l1-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Pluscuamperfecto de Subjuntivo",
+      "instructions": "Elige la forma correcta para cada espacio.",
+      "items": [
+        {
+          "id": "c1l1i1",
+          "prompt": "Si ___ (saber) la verdad, te lo habría dicho.",
+          "answers": [
+            [
+              "hubiera sabido",
+              "hubiese sabido"
+            ]
+          ],
+          "options": [
+            "hubiera sabido",
+            "he sabido",
+            "sabía"
+          ],
+          "explanation": "Prótasis de una condicional irreal de pasado: pluscuamperfecto de subjuntivo."
+        },
+        {
+          "id": "c1l1i2",
+          "prompt": "No pensé que ellos ___ (llegar) tan temprano.",
+          "answers": [
+            [
+              "hubieran llegado",
+              "hubiesen llegado"
+            ]
+          ],
+          "options": [
+            "hubieran llegado",
+            "habían llegado",
+            "llegaron"
+          ],
+          "explanation": "Duda sobre un hecho anterior al verbo principal en pasado: pluscuamperfecto de subjuntivo."
+        },
+        {
+          "id": "c1l1i3",
+          "prompt": "Ojalá ___ (yo - estudiar) más para el examen de ayer.",
+          "answers": [
+            [
+              "hubiera estudiado",
+              "hubiese estudiado"
+            ]
+          ],
+          "options": [
+            "hubiera estudiado",
+            "estudié",
+            "estudiaría"
+          ],
+          "explanation": "Ojalá + pluscuamperfecto de subjuntivo expresa un arrepentimiento sobre el pasado."
+        },
+        {
+          "id": "c1l1i4",
+          "prompt": "Era el mejor concierto que ___ (ver) en mi vida.",
+          "answers": [
+            [
+              "hubiera visto",
+              "hubiese visto"
+            ]
+          ],
+          "options": [
+            "hubiera visto",
+            "he visto",
+            "había visto"
+          ],
+          "explanation": "Superlativo relativo en contexto pasado: pluscuamperfecto de subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "c1l1-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Forma Correcta",
+      "items": [
+        {
+          "id": "c1l1i5",
+          "prompt": "Si tú me lo ___, te habría ayudado sin dudarlo.",
+          "options": [
+            "hubieras pedido",
+            "pedías",
+            "pedirías"
+          ],
+          "answerIndex": 0,
+          "explanation": "La prótasis de una condicional irreal de pasado nunca lleva condicional ni imperfecto de indicativo."
+        },
+        {
+          "id": "c1l1i6",
+          "prompt": "Si ___ la puerta a tiempo, habríamos entrado antes de que empezara a llover.",
+          "options": [
+            "hubiéramos abrido",
+            "hubiéramos abierto",
+            "habíamos abierto"
+          ],
+          "answerIndex": 1,
+          "explanation": "Abrir tiene un participio irregular: abierto, no abrido."
+        },
+        {
+          "id": "c1l1i7",
+          "prompt": "Si hubiera llovido, ___ el partido.",
+          "options": [
+            "habrían cancelado",
+            "cancelan",
+            "cancelaban"
+          ],
+          "answerIndex": 0,
+          "explanation": "La apódosis de una condicional irreal de pasado va en condicional compuesto."
+        },
+        {
+          "id": "c1l1i8",
+          "prompt": "\"Ojalá hubiera llegado a tiempo\" expresa...",
+          "options": [
+            "un deseo sobre el futuro",
+            "un arrepentimiento sobre algo que ya no puede cambiarse",
+            "una orden cortés"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ojalá + pluscuamperfecto de subjuntivo se usa para lamentar algo del pasado que ya no tiene solución."
+        }
+      ]
+    },
+    {
+      "id": "c1l1-correction",
+      "type": "correction",
+      "title": "Corrige el Error",
+      "items": [
+        {
+          "id": "c1l1i9",
+          "incorrect": "Si había estudiado más, habría aprobado.",
+          "answer": [
+            "Si hubiera estudiado más, habría aprobado.",
+            "Si hubiese estudiado más, habría aprobado."
+          ],
+          "explanation": "La prótasis de una condicional irreal de pasado exige el pluscuamperfecto de subjuntivo, no el de indicativo."
+        },
+        {
+          "id": "c1l1i10",
+          "incorrect": "Ojalá haya sabido la verdad antes.",
+          "answer": [
+            "Ojalá hubiera sabido la verdad antes.",
+            "Ojalá hubiese sabido la verdad antes."
+          ],
+          "explanation": "Un deseo irrealizable sobre el pasado requiere el pluscuamperfecto de subjuntivo."
+        },
+        {
+          "id": "c1l1i11",
+          "incorrect": "Era la mejor película que había visto.",
+          "answer": [
+            "Era la mejor película que hubiera visto.",
+            "Era la mejor película que hubiese visto."
+          ],
+          "explanation": "El superlativo relativo en contexto pasado dispara el subjuntivo, aquí en su forma compuesta."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "El pluscuamperfecto de subjuntivo se forma con hubiera/hubiese más el participio pasado, dos formas intercambiables.",
+    "Expresa una acción anterior a otro punto del pasado dentro de una subordinada, y ocupa la prótasis de las condicionales irreales de pasado.",
+    "Con ojalá, comunica un deseo o un arrepentimiento sobre algo que ya no puede cambiarse."
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "c1-construcciones-enfaticas",
+  "level": "C1",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "relieve",
+  "title": "Construcciones Enfáticas y de Relieve",
+  "subtitle": "\"Lo que pasa es que...\", \"es que...\", \"fue entonces cuando...\" — cómo destacar la parte más importante de una idea.",
+  "objectives": [
+    "Usar estructuras de relieve para destacar un elemento concreto de la oración.",
+    "Distinguir el matiz explicativo de \"es que\" del valor enfático de \"lo que pasa es que\".",
+    "Construir oraciones escindidas con \"fue... cuando/donde/quien\" para poner el foco en un elemento temporal, espacial o personal."
+  ],
+  "content": {
+    "intro": "Las construcciones enfáticas reorganizan una oración normal para colocar en primer plano justo el elemento que el hablante quiere resaltar, algo que el español no logra solo con la entonación.",
+    "explanation": "<p>El español dispone de estructuras sintácticas dedicadas a destacar un elemento: las oraciones escindidas o hendidas (<em>fue entonces cuando..., fue él quien..., fue en Madrid donde...</em>) aíslan el elemento enfatizado en una cláusula con \"ser\" y lo relacionan con el resto mediante un relativo (que, quien, donde, cuando). Expresiones fijas como <em>lo que pasa es que...</em> y <em>es que...</em> cumplen una función distinta: introducen una explicación o justificación, a menudo con matiz aclaratorio, muy frecuentes en el registro oral.</p><p>La variante <em>lo que + verbo + es</em> realza como punto central del argumento toda una idea, no solo un elemento: <em>Lo que necesitamos es más tiempo.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Oraciones escindidas",
+        "body": "<p>Fue + elemento enfatizado + quien/que/donde/cuando + resto de la oración: <em>Fue mi hermana quien me lo contó.</em> <em>Fue en ese momento cuando entendí todo.</em></p>"
+      },
+      {
+        "heading": "b) \"Es que...\"",
+        "body": "<p>Introduce una justificación o excusa, normalmente en respuesta a algo: <em>¿Por qué no viniste? — Es que se me olvidó por completo.</em></p>"
+      },
+      {
+        "heading": "c) \"Lo que pasa es que...\"",
+        "body": "<p>Realza toda una explicación como el punto central del argumento: <em>Lo que pasa es que nadie nos avisó a tiempo.</em></p>"
+      },
+      {
+        "heading": "d) \"Lo que + verbo + es\"",
+        "body": "<p><em>Lo que necesitamos es más tiempo.</em> <em>Lo que me molesta es la falta de comunicación.</em></p>"
+      }
+    ],
+    "examples": [
+      "Fue mi profesora quien me animó a seguir estudiando.",
+      "Fue en ese viaje cuando decidí cambiar de carrera.",
+      "Es que no tuve tiempo de avisarte antes.",
+      "Lo que pasa es que el sistema lleva días fallando.",
+      "Lo que más me sorprendió fue su sinceridad.",
+      "Fue así como conseguimos convencerlo.",
+      "Lo que necesitamos ahora es un poco de calma.",
+      "Es que, sinceramente, no me convence el plan."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Fue mi hermana que me lo contó.",
+        "right": "Fue mi hermana quien me lo contó.",
+        "why": "Cuando el elemento enfatizado es una persona, el registro cuidado prefiere \"quien\" en la cláusula relativa, aunque \"que\" se oye en el habla informal."
+      },
+      {
+        "wrong": "Usar \"es que\" para abrir una conversación sin ningún contexto previo.",
+        "right": "Reservar \"es que\" para justificar o explicar algo ya mencionado.",
+        "why": "\"Es que\" presupone una pregunta o un reproche implícito; usarlo sin ese contexto suena descontextualizado."
+      },
+      {
+        "wrong": "Lo que pasa que nadie avisó.",
+        "right": "Lo que pasa es que nadie avisó.",
+        "why": "La construcción fija requiere el verbo \"es\" entre \"lo que pasa\" y la cláusula con \"que\"; no puede omitirse."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1l4-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Construcción Correcta",
+      "items": [
+        {
+          "id": "c1l4i1",
+          "prompt": "\"___ me convenció de estudiar español fue mi abuela.\"",
+          "options": [
+            "Lo que",
+            "Es que",
+            "Fue que"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Lo que + verbo + es/fue\" enfatiza toda una idea."
+        },
+        {
+          "id": "c1l4i2",
+          "prompt": "\"¿Por qué llegaste tarde? — ___ perdí el autobús.\"",
+          "options": [
+            "Fue que",
+            "Es que",
+            "Lo que pasa"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Es que\" introduce una justificación en respuesta a una pregunta."
+        },
+        {
+          "id": "c1l4i3",
+          "prompt": "\"___ en ese bar donde nos conocimos.\"",
+          "options": [
+            "Es",
+            "Fue",
+            "Era"
+          ],
+          "answerIndex": 1,
+          "explanation": "La oración escindida temporal/espacial usa \"fue\" seguido de \"donde\"."
+        },
+        {
+          "id": "c1l4i4",
+          "prompt": "\"Lo que pasa ___ que nadie revisó los datos antes de enviarlos.\"",
+          "options": [
+            "es",
+            "fue",
+            "sea"
+          ],
+          "answerIndex": 0,
+          "explanation": "La construcción fija exige el presente \"es\" en este contexto habitual, salvo que todo el relato esté en pasado."
+        }
+      ]
+    },
+    {
+      "id": "c1l4-correction",
+      "type": "correction",
+      "title": "Corrige la Construcción",
+      "items": [
+        {
+          "id": "c1l4i5",
+          "incorrect": "Lo que pasa que nadie avisó a tiempo.",
+          "answer": [
+            "Lo que pasa es que nadie avisó a tiempo."
+          ],
+          "explanation": "Falta el verbo \"es\" en la construcción fija \"lo que pasa es que\"."
+        },
+        {
+          "id": "c1l4i6",
+          "incorrect": "Fue el jefe que tomó la decisión final.",
+          "answer": [
+            "Fue el jefe quien tomó la decisión final."
+          ],
+          "explanation": "Con una persona como elemento enfatizado, el registro cuidado prefiere \"quien\"."
+        },
+        {
+          "id": "c1l4i7",
+          "incorrect": "Fue ayer que llegamos, en la tarde donde encontramos la casa vacía.",
+          "answer": [
+            "Fue ayer cuando llegamos, por la tarde, y encontramos la casa vacía."
+          ],
+          "explanation": "El elemento temporal enfatizado con \"fue\" se relaciona con \"cuando\", no con \"que\" ni con \"donde\"."
+        }
+      ]
+    },
+    {
+      "id": "c1l4-matching",
+      "type": "matching",
+      "title": "Relaciona la Función con el Ejemplo",
+      "items": [
+        {
+          "id": "c1l4i8",
+          "prompt": "Relaciona cada función con la oración que la ilustra.",
+          "pairs": [
+            {
+              "left": "Justificar una acción",
+              "right": "Es que se me hizo tarde por el tráfico."
+            },
+            {
+              "left": "Destacar a la persona responsable",
+              "right": "Fue mi tutor quien me recomendó este libro."
+            },
+            {
+              "left": "Destacar el momento exacto",
+              "right": "Fue entonces cuando comprendí mi error."
+            },
+            {
+              "left": "Presentar una explicación central",
+              "right": "Lo que pasa es que el servidor lleva horas caído."
+            }
+          ],
+          "explanation": "Cada estructura de relieve cumple una función discursiva distinta, aunque todas comparten el recurso de destacar un elemento."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Las oraciones escindidas (fue... quien/que/donde/cuando) aíslan y destacan un elemento concreto de la oración.",
+    "\"Es que\" introduce una justificación en respuesta a algo ya mencionado; \"lo que pasa es que\" presenta una explicación como punto central del argumento.",
+    "Estas construcciones son un recurso sintáctico, no solo tonal, para dar relieve a la parte más importante de una idea."
+  ]
+}
