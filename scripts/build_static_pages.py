@@ -319,6 +319,82 @@ def build_exercises():
             {"id": "exc2me2", "prompt": "¿Quiénes moldean esa memoria, según el texto?", "options": ["Solo los historiadores", "Quienes narran el pasado y quienes se resisten a esa narración", "Nadie en particular"], "answerIndex": 1, "explanation": "El texto menciona a «quienes detentan el poder de narrar» y a «quienes se resisten a esa narración oficial»."},
             {"id": "exc2me3", "prompt": "¿Qué hace cada generación, según el texto?", "options": ["Ignora el pasado por completo", "Reescribe su historia según el presente", "Repite exactamente la misma historia"], "answerIndex": 1, "explanation": "El texto termina: «Cada generación... reescribe su historia según las urgencias del presente»."},
          ]}),
+        ("Pre-A1", "Números de Teléfono", "<p>—¿Cuál es tu número de teléfono?<br>—Es el seis, dos, cuatro, ocho, uno, cinco, cero, tres.<br>—¿Puedes repetirlo, por favor?<br>—Claro: seis, dos, cuatro, ocho, uno, cinco, cero, tres.</p>",
+         {"id": "ex-pa1-telefono", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "expa1f1", "statement": "La persona repite el número dos veces.", "answer": True, "explanation": "El texto muestra el número dicho, y luego repetido tras la petición."},
+            {"id": "expa1f2", "statement": "El número empieza por siete.", "answer": False, "explanation": "El número empieza por seis."},
+         ]}),
+        ("Pre-A1", "En la Farmacia", "<p>—Buenos días, necesito algo para el dolor de cabeza.<br>—Tenemos estas pastillas. ¿Alguna alergia?<br>—No, ninguna.<br>—Perfecto, son cinco euros.</p>",
+         {"id": "ex-pa1-farmacia", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "expa1g1", "prompt": "¿Qué necesita la persona?", "options": ["Algo para dormir", "Algo para el dolor de cabeza", "Vitaminas"], "answerIndex": 1, "explanation": "El texto dice: «necesito algo para el dolor de cabeza»."},
+            {"id": "expa1g2", "prompt": "¿Tiene alguna alergia?", "options": ["Sí", "No"], "answerIndex": 1, "explanation": "El texto dice: «No, ninguna»."},
+         ]}),
+        ("A1", "Un Correo de Bienvenida", "<p>Bienvenido a nuestra academia de español. Las clases empiezan el lunes a las nueve de la mañana. Necesitas traer un cuaderno y un bolígrafo. Si tienes dudas, puedes escribirnos a info@academia.es o llamarnos por teléfono.</p>",
+         {"id": "ex-a1-bienvenida", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa1h1", "statement": "Las clases empiezan un lunes.", "answer": True, "explanation": "El texto dice: «Las clases empiezan el lunes»."},
+            {"id": "exa1h2", "statement": "Hay que traer una computadora.", "answer": False, "explanation": "El texto dice que hay que traer «un cuaderno y un bolígrafo»."},
+            {"id": "exa1h3", "statement": "Se puede escribir un correo si hay dudas.", "answer": True, "explanation": "El texto dice: «puedes escribirnos a info@academia.es»."},
+         ]}),
+        ("A1", "Mi Barrio", "<p>Vivo en un barrio tranquilo con muchas tiendas pequeñas. Hay una panadería, una farmacia y un parque muy bonito cerca de mi casa. Los vecinos son amables y siempre nos saludamos por la calle.</p>",
+         {"id": "ex-a1-barrio", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa1i1", "prompt": "¿Cómo es el barrio?", "options": ["Ruidoso", "Tranquilo", "Peligroso"], "answerIndex": 1, "explanation": "El texto dice: «Vivo en un barrio tranquilo»."},
+            {"id": "exa1i2", "prompt": "¿Qué hay cerca de la casa?", "options": ["Un hospital", "Un parque bonito", "Una escuela"], "answerIndex": 1, "explanation": "El texto dice: «un parque muy bonito cerca de mi casa»."},
+         ]}),
+        ("A2", "Una Receta Fácil", "<p>Para hacer esta ensalada, necesitas lechuga, tomate, cebolla y un poco de aceite de oliva. Primero, lava y corta todas las verduras. Después, mezcla todo en un bol grande. Por último, añade sal y un poco de vinagre al gusto.</p>",
+         {"id": "ex-a2-receta", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa2rc1", "statement": "La receta lleva carne.", "answer": False, "explanation": "La receta es una ensalada con lechuga, tomate, cebolla y aceite."},
+            {"id": "exa2rc2", "statement": "Primero se lavan y cortan las verduras.", "answer": True, "explanation": "El texto dice: «Primero, lava y corta todas las verduras»."},
+         ]}),
+        ("A2", "Un Fin de Semana Diferente", "<p>Normalmente paso los fines de semana en casa, pero este sábado decidí hacer algo diferente: fui a un concierto al aire libre con unos amigos. La música fue increíble y conocimos a mucha gente nueva. Fue una experiencia que no voy a olvidar fácilmente.</p>",
+         {"id": "ex-a2-concierto", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa2co1", "prompt": "¿Qué suele hacer la persona normalmente los fines de semana?", "options": ["Ir a conciertos", "Quedarse en casa", "Viajar"], "answerIndex": 1, "explanation": "El texto dice: «Normalmente paso los fines de semana en casa»."},
+            {"id": "exa2co2", "prompt": "¿Con quién fue al concierto?", "options": ["Sola", "Con unos amigos", "Con su familia"], "answerIndex": 1, "explanation": "El texto dice: «fui a un concierto al aire libre con unos amigos»."},
+         ]}),
+        ("A2", "Cambios en el Barrio", "<p>Cuando era pequeño, en mi calle solo había casas antiguas y un pequeño quiosco. Ahora hay varios edificios nuevos y un centro comercial grande. Aunque el barrio cambió mucho, todavía me gusta caminar por las mismas calles de mi infancia.</p>",
+         {"id": "ex-a2-cambios", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa2ca1", "statement": "Antes había un centro comercial grande.", "answer": False, "explanation": "El texto dice que antes «solo había casas antiguas y un pequeño quiosco»."},
+            {"id": "exa2ca2", "statement": "A la persona le sigue gustando caminar por el barrio.", "answer": True, "explanation": "El texto dice: «todavía me gusta caminar por las mismas calles»."},
+         ]}),
+        ("B1", "El Impacto del Ejercicio en la Salud Mental", "<p>Numerosos estudios confirman que el ejercicio regular no solo mejora la condición física, sino que también reduce significativamente los niveles de estrés y ansiedad. Los expertos recomiendan al menos treinta minutos de actividad moderada, como caminar o nadar, varias veces por semana.</p>",
+         {"id": "ex-b1-ejercicio", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb1ej1", "prompt": "¿Qué reduce el ejercicio regular, según el texto?", "options": ["El apetito", "El estrés y la ansiedad", "La memoria"], "answerIndex": 1, "explanation": "El texto dice: «reduce significativamente los niveles de estrés y ansiedad»."},
+            {"id": "exb1ej2", "prompt": "¿Cuánto tiempo recomiendan los expertos?", "options": ["Quince minutos", "Treinta minutos", "Una hora"], "answerIndex": 1, "explanation": "El texto dice: «al menos treinta minutos de actividad moderada»."},
+         ]}),
+        ("B1", "Un Correo sobre un Malentendido", "<p>Hola Marcos, quería aclarar el malentendido de ayer. Creo que no me expliqué bien en la reunión y por eso pensaste que yo estaba en desacuerdo con tu propuesta. En realidad, me pareció una idea excelente. Espero que podamos hablarlo con calma mañana.</p>",
+         {"id": "ex-b1-malentendido", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb1ma1", "statement": "La persona estaba en desacuerdo con la propuesta.", "answer": False, "explanation": "El texto dice: «me pareció una idea excelente»."},
+            {"id": "exb1ma2", "statement": "El malentendido ocurrió por una mala explicación.", "answer": True, "explanation": "El texto dice: «creo que no me expliqué bien en la reunión»."},
+         ]}),
+        ("B1", "La Importancia de Dormir Bien", "<p>Dormir menos de seis horas por noche de forma habitual puede afectar la concentración, el estado de ánimo y hasta el sistema inmunológico. Los especialistas sugieren mantener horarios regulares para dormir y evitar las pantallas al menos una hora antes de acostarse.</p>",
+         {"id": "ex-b1-dormir", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb1do1", "prompt": "¿Qué puede afectar dormir poco?", "options": ["Solo el estado de ánimo", "La concentración, el ánimo y el sistema inmunológico", "Nada importante"], "answerIndex": 1, "explanation": "El texto menciona los tres efectos."},
+            {"id": "exb1do2", "prompt": "¿Qué sugieren los especialistas antes de dormir?", "options": ["Hacer ejercicio", "Evitar las pantallas", "Comer algo"], "answerIndex": 1, "explanation": "El texto dice: «evitar las pantallas al menos una hora antes de acostarse»."},
+         ]}),
+        ("B2", "El Regreso de los Discos de Vinilo", "<p>En una era dominada por el streaming musical, resulta llamativo el resurgimiento de los discos de vinilo entre las nuevas generaciones. Más allá de la calidad de sonido, muchos jóvenes valoran la experiencia física de poseer un objeto tangible y el ritual de escuchar un álbum completo, sin las distracciones habituales de las plataformas digitales.</p>",
+         {"id": "ex-b2-vinilo", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb2vi1", "prompt": "¿Qué valoran muchos jóvenes en el vinilo, además del sonido?", "options": ["El precio bajo", "La experiencia física de un objeto tangible", "La portabilidad"], "answerIndex": 1, "explanation": "El texto dice: «valoran la experiencia física de poseer un objeto tangible»."},
+            {"id": "exb2vi2", "prompt": "¿Qué evita el ritual de escuchar un vinilo, según el texto?", "options": ["El silencio", "Las distracciones digitales", "El costo"], "answerIndex": 1, "explanation": "El texto dice «sin las distracciones habituales de las plataformas digitales»."},
+         ]}),
+        ("B2", "El Dilema del Crecimiento Urbano", "<p>Las grandes ciudades enfrentan un dilema constante entre el crecimiento económico y la calidad de vida de sus habitantes. Mientras la expansión urbana atrae inversión y empleo, también genera problemas como la congestión del tráfico, la contaminación y el encarecimiento de la vivienda, especialmente para las familias de menores ingresos.</p>",
+         {"id": "ex-b2-urbano", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb2ur1", "statement": "El crecimiento urbano no tiene ninguna desventaja.", "answer": False, "explanation": "El texto menciona congestión, contaminación y encarecimiento de la vivienda."},
+            {"id": "exb2ur2", "statement": "El encarecimiento de la vivienda afecta especialmente a las familias con menos ingresos.", "answer": True, "explanation": "El texto lo dice explícitamente al final."},
+         ]}),
+        ("C1", "La Paradoja de la Elección", "<p>Contrariamente a la intuición, disponer de un número excesivo de opciones no siempre facilita la toma de decisiones; con frecuencia, la abundancia de alternativas genera una parálisis decisoria que termina por generar insatisfacción, incluso cuando la elección final resulta objetivamente satisfactoria. Este fenómeno, documentado extensamente en psicología del consumidor, cuestiona la premisa de que más opciones equivalen siempre a mayor libertad.</p>",
+         {"id": "ex-c1-eleccion", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exc1el1", "prompt": "¿Qué puede generar un exceso de opciones?", "options": ["Mayor satisfacción siempre", "Parálisis decisoria", "Decisiones más rápidas"], "answerIndex": 1, "explanation": "El texto dice: «genera una parálisis decisoria»."},
+            {"id": "exc1el2", "prompt": "¿Qué premisa cuestiona este fenómeno?", "options": ["Que menos opciones son mejores", "Que más opciones equivalen siempre a mayor libertad", "Que las decisiones no importan"], "answerIndex": 1, "explanation": "El texto termina cuestionando exactamente esa premisa."},
+         ]}),
+        ("C1", "Sobre la Procrastinación", "<p>Lejos de ser un simple problema de gestión del tiempo, la procrastinación crónica suele estar vinculada a mecanismos de regulación emocional: postergar una tarea desagradable ofrece un alivio inmediato, aunque a costa de un malestar mayor a largo plazo. Comprender esta dimensión emocional resulta esencial para diseñar estrategias verdaderamente eficaces contra este hábito.</p>",
+         {"id": "ex-c1-procrastinacion", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exc1pr1", "statement": "El texto reduce la procrastinación a un problema de gestión del tiempo.", "answer": False, "explanation": "El texto dice que está «lejos de ser un simple problema de gestión del tiempo»."},
+            {"id": "exc1pr2", "statement": "Postergar una tarea ofrece un alivio inmediato.", "answer": True, "explanation": "El texto dice: «postergar una tarea desagradable ofrece un alivio inmediato»."},
+         ]}),
+        ("C2", "La Ilusión de la Objetividad Periodística", "<p>Pretender una objetividad absoluta en el ejercicio periodístico constituye, cuando menos, una aspiración ingenua: toda selección de qué hechos narrar, en qué orden y con qué términos, implica ya una toma de posición, por sutil que esta resulte. Reconocer esta condición no equivale a renunciar al rigor informativo, sino a asumir con honestidad intelectual los límites inherentes a cualquier narración de la realidad.</p>",
+         {"id": "ex-c2-objetividad", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exc2ob1", "prompt": "¿Cómo describe el texto la objetividad absoluta en periodismo?", "options": ["Un logro alcanzable fácilmente", "Una aspiración ingenua", "Algo irrelevante"], "answerIndex": 1, "explanation": "El texto dice: «constituye, cuando menos, una aspiración ingenua»."},
+            {"id": "exc2ob2", "prompt": "¿Qué implica toda selección de hechos, según el texto?", "options": ["Nada en particular", "Ya una toma de posición", "Una mentira deliberada"], "answerIndex": 1, "explanation": "El texto dice que «implica ya una toma de posición, por sutil que esta resulte»."},
+         ]}),
     ]
     sections = [header]
     for level, title, passage, ex in items:
