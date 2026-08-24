@@ -781,10 +781,52 @@ def build_simulated_exams():
         </div>
     </section>"""
 
+    pa1_reading = ("<p>Hola, me llamo Sara. Soy de España y tengo veinte años. Estudio en la universidad y vivo con dos compañeras. Por las mañanas voy a clase y por las tardes trabajo en una cafetería. Los fines de semana me gusta salir con mis amigas.</p>")
+    pa1_reading_ex = {"id": "sim-prea1-reading", "type": "true-false", "title": "Lectura al Estilo DELE/SIELE — Pre-A1", "items": [
+        {"id": "simpa1r1", "statement": "Sara vive sola.", "answer": False, "explanation": "El texto dice: «vivo con dos compañeras»."},
+        {"id": "simpa1r2", "statement": "Sara trabaja en una cafetería por las tardes.", "answer": True, "explanation": "El texto dice: «por las tardes trabajo en una cafetería»."},
+        {"id": "simpa1r3", "statement": "A Sara no le gusta salir con amigas.", "answer": False, "explanation": "El texto dice: «me gusta salir con mis amigas»."},
+    ]}
+    pa1_grammar_ex = {"id": "sim-prea1-grammar", "type": "multiple-choice", "title": "Gramática al Estilo DELE/SIELE — Pre-A1",
+                       "items": [
+                           {"id": "simpa1g1", "prompt": "Yo ___ estudiante.", "options": ["soy", "eres", "es"], "answerIndex": 0, "explanation": "Yo + ser = soy."},
+                           {"id": "simpa1g2", "prompt": "¿Cómo ___ tú?", "options": ["te llamas", "se llama", "me llamo"], "answerIndex": 0, "explanation": "Pregunta con tú: ¿Cómo te llamas?."},
+                           {"id": "simpa1g3", "prompt": "Nosotros ___ de México.", "options": ["soy", "somos", "son"], "answerIndex": 1, "explanation": "Nosotros + ser = somos."},
+                       ]}
+
+    a1_reading = ("<p>Mi rutina diaria es bastante simple. Me levanto a las siete, desayuno rápido y voy al trabajo en autobús. A mediodía como con mis compañeros. Por la tarde estudio inglés dos horas. Antes de dormir, siempre leo un poco.</p>")
+    a1_reading_ex = {"id": "sim-a1-reading", "type": "multiple-choice", "title": "Lectura al Estilo DELE/SIELE — A1", "items": [
+        {"id": "sima1r1", "prompt": "¿Cómo va al trabajo la persona?", "options": ["A pie", "En autobús", "En coche"], "answerIndex": 1, "explanation": "El texto dice: «voy al trabajo en autobús»."},
+        {"id": "sima1r2", "prompt": "¿Qué estudia por la tarde?", "options": ["Español", "Inglés", "Francés"], "answerIndex": 1, "explanation": "El texto dice: «estudio inglés dos horas»."},
+        {"id": "sima1r3", "prompt": "¿Qué hace antes de dormir?", "options": ["Ve la televisión", "Lee un poco", "Escucha música"], "answerIndex": 1, "explanation": "El texto dice: «siempre leo un poco»."},
+    ]}
+    a1_grammar_ex = {"id": "sim-a1-grammar", "type": "fill-blank", "title": "Gramática al Estilo DELE/SIELE — A1",
+                      "instructions": "Completa cada frase.",
+                      "items": [
+                          {"id": "sima1g1", "prompt": "Ella ___ (tener) veinticinco años.", "answers": [["tiene"]], "explanation": "Ella + tener (irregular en yo, regular aquí) = tiene."},
+                          {"id": "sima1g2", "prompt": "Nosotros ___ (vivir) en Madrid.", "answers": [["vivimos"]], "explanation": "Nosotros + verbo en -ir = vivimos."},
+                          {"id": "sima1g3", "prompt": "¿Cuántos hermanos ___ (tú - tener)?", "answers": [["tienes"]], "explanation": "Tú + tener = tienes."},
+                      ]}
+
+    a2_reading = ("<p>El verano pasado viajé a Portugal con mi familia. Visitamos Lisboa y Oporto, y comimos platos deliciosos en cada ciudad. El clima era muy agradable, ni muy caliente ni muy frío. Fue uno de los mejores viajes de mi vida, y ya estamos planeando volver el próximo año.</p>")
+    a2_reading_ex = {"id": "sim-a2-reading", "type": "true-false", "title": "Lectura al Estilo DELE/SIELE — A2", "items": [
+        {"id": "sima2r1", "statement": "El viaje fue a Portugal.", "answer": True, "explanation": "El texto dice: «viajé a Portugal con mi familia»."},
+        {"id": "sima2r2", "statement": "El clima era muy caliente.", "answer": False, "explanation": "El texto dice que el clima «era muy agradable, ni muy caliente ni muy frío»."},
+        {"id": "sima2r3", "statement": "La familia planea volver a Portugal.", "answer": True, "explanation": "El texto dice: «ya estamos planeando volver el próximo año»."},
+    ]}
+    a2_grammar_ex = {"id": "sim-a2-grammar", "type": "fill-blank", "title": "Gramática al Estilo DELE/SIELE — A2",
+                      "instructions": "Completa cada frase con el pretérito indefinido o el imperfecto según corresponda.",
+                      "items": [
+                          {"id": "sima2g1", "prompt": "Ayer ___ (yo - visitar) a mis abuelos.", "answers": [["visité"]], "explanation": "Marcador de tiempo cerrado (ayer) → pretérito indefinido."},
+                          {"id": "sima2g2", "prompt": "De niño, ___ (yo - vivir) en el campo.", "answers": [["vivía"]], "explanation": "Descripción de una etapa del pasado → imperfecto."},
+                          {"id": "sima2g3", "prompt": "El año pasado ellos ___ (comprar) una casa nueva.", "answers": [["compraron"]], "explanation": "Marcador de tiempo cerrado → pretérito indefinido."},
+                      ]}
+
     b1_reading = ("<p>En los últimos años, cada vez más personas en España y América Latina eligen trabajar desde casa al menos un par de días a la semana. Según una encuesta reciente, la mayoría de los trabajadores se declara más satisfecha que antes, sobre todo gracias al tiempo que ahorran en los desplazamientos. Sin embargo, algunos encuestados señalan dificultades para separar la vida personal del trabajo, y se quejan de jornadas laborales más largas de lo habitual.</p>")
     b1_reading_ex = {"id": "sim-b1-reading", "type": "true-false", "title": "Lectura al Estilo DELE/SIELE — B1", "items": [
         {"id": "simb1r1", "statement": "La mayoría de los trabajadores encuestados dice estar más satisfecha trabajando desde casa.", "answer": True, "explanation": "«La mayoría de los trabajadores se declara más satisfecha.»"},
         {"id": "simb1r2", "statement": "Nadie mencionó ninguna desventaja del teletrabajo.", "answer": False, "explanation": "Algunos mencionaron dificultades para separar el trabajo de la vida personal y jornadas más largas."},
+        {"id": "simb1r3", "statement": "El ahorro en desplazamientos es una razón de la satisfacción.", "answer": True, "explanation": "El texto dice: «sobre todo gracias al tiempo que ahorran en los desplazamientos»."},
     ]}
     b1_grammar_ex = {"id": "sim-b1-grammar", "type": "fill-blank", "title": "Gramática al Estilo DELE/SIELE — B1",
                       "instructions": "Completa cada frase.",
@@ -792,28 +834,88 @@ def build_simulated_exams():
                           {"id": "simb1g1", "prompt": "De pequeño, ___ (yo - jugar) siempre en la calle.", "answers": [["jugaba"]], "explanation": "Acción habitual en el pasado → imperfecto."},
                           {"id": "simb1g2", "prompt": "Mañana ___ (nosotros - salir) muy temprano.", "answers": [["saldremos"]], "explanation": "Plan futuro → futuro simple."},
                           {"id": "simb1g3", "prompt": "¿___ (Poder - usted) ayudarme, por favor? (formal)", "answers": [["Podría"]], "explanation": "Petición formal y cortés → condicional."},
+                          {"id": "simb1g4", "prompt": "Espero que ___ (tú - tener) un buen viaje.", "answers": [["tengas"]], "explanation": "Esperar que exige subjuntivo presente."},
                       ]}
+    b1_listening = ("<p><strong>Recepcionista:</strong> Hotel Miramar, buenas tardes.<br><strong>Cliente:</strong> Buenas tardes, quisiera reservar una habitación doble para el fin de semana.<br><strong>Recepcionista:</strong> Por supuesto, ¿para cuántas noches?<br><strong>Cliente:</strong> Dos noches, viernes y sábado.<br><strong>Recepcionista:</strong> Perfecto, tenemos disponibilidad. ¿A nombre de quién hago la reserva?<br><strong>Cliente:</strong> A nombre de Ana Ruiz.</p>")
+    b1_listening_ex = {"id": "sim-b1-listening", "type": "multiple-choice", "title": "Comprensión Auditiva al Estilo DELE/SIELE — B1",
+                        "instructions": "Lee este guion como si fuera un audio y responde.",
+                        "items": [
+                            {"id": "simb1l1", "prompt": "¿Qué tipo de habitación reserva el cliente?", "options": ["Individual", "Doble", "Familiar"], "answerIndex": 1, "explanation": "El texto dice: «una habitación doble»."},
+                            {"id": "simb1l2", "prompt": "¿Cuántas noches se queda?", "options": ["Una noche", "Dos noches", "Tres noches"], "answerIndex": 1, "explanation": "El texto dice: «Dos noches, viernes y sábado»."},
+                        ]}
 
     b2_reading = ("<p>El debate sobre la inteligencia artificial en el mundo laboral sigue dividiendo a los expertos y a la opinión pública. Si por un lado se subrayan las ventajas en términos de eficiencia, por otro crece la preocupación por la pérdida de empleos en algunos sectores. Los economistas coinciden, sin embargo, en que la formación continua será determinante para afrontar esta transición.</p>")
     b2_reading_ex = {"id": "sim-b2-reading", "type": "multiple-choice", "title": "Lectura al Estilo DELE/SIELE — B2", "items": [
         {"id": "simb2r1", "prompt": "¿En qué coinciden los economistas?", "options": ["En que la inteligencia artificial debería prohibirse", "En que la formación continua será clave", "En que la pérdida de empleos está exagerada"], "answerIndex": 1, "explanation": "«La formación continua será determinante.»"},
+        {"id": "simb2r2", "prompt": "¿Qué ventaja se subraya sobre la inteligencia artificial?", "options": ["La eficiencia", "El bajo costo", "La sencillez"], "answerIndex": 0, "explanation": "El texto dice: «se subrayan las ventajas en términos de eficiencia»."},
     ]}
     b2_grammar_ex = {"id": "sim-b2-grammar", "type": "fill-blank", "title": "Gramática al Estilo DELE/SIELE — B2",
                       "instructions": "Completa cada frase.",
                       "items": [
                           {"id": "simb2g1", "prompt": "Si ___ (yo - tener) más tiempo, estudiaría más.", "answers": [["tuviera"]], "explanation": "Condicional hipotético: si + imperfecto de subjuntivo."},
                           {"id": "simb2g2", "prompt": "Dudo que ellos ___ (llegar) a tiempo.", "answers": [["lleguen"]], "explanation": "Dudar que exige subjuntivo presente."},
+                          {"id": "simb2g3", "prompt": "Si hubiera sabido la verdad, ___ (yo - actuar) diferente.", "answers": [["habría actuado"]], "explanation": "Condicional irreal de pasado: consecuencia en condicional compuesto."},
+                      ]}
+
+    c1_reading = ("<p>La proliferación de asistentes virtuales basados en inteligencia artificial ha reavivado un viejo debate filosófico: ¿puede una máquina, por sofisticada que sea su capacidad de generar lenguaje, llegar a comprender realmente el significado de lo que produce? Mientras algunos investigadores sostienen que se trata de una cuestión meramente técnica, destinada a resolverse con el tiempo, otros insisten en que la comprensión genuina exige una experiencia corporal y contextual de la que estos sistemas, por definición, carecen.</p>")
+    c1_reading_ex = {"id": "sim-c1-reading", "type": "true-false", "title": "Lectura al Estilo DELE/SIELE — C1", "items": [
+        {"id": "simc1r1", "statement": "El texto plantea si una máquina puede comprender realmente el lenguaje que genera.", "answer": True, "explanation": "El texto dice: «¿puede una máquina... llegar a comprender realmente el significado de lo que produce?»."},
+        {"id": "simc1r2", "statement": "Todos los investigadores están de acuerdo en que es solo una cuestión técnica.", "answer": False, "explanation": "El texto dice que «otros insisten en que la comprensión genuina exige una experiencia corporal y contextual»."},
+        {"id": "simc1r3", "statement": "Según algunos, la comprensión genuina requiere experiencia corporal y contextual.", "answer": True, "explanation": "El texto dice exactamente eso en la última frase."},
+    ]}
+    c1_grammar_ex = {"id": "sim-c1-grammar", "type": "fill-blank", "title": "Gramática al Estilo DELE/SIELE — C1",
+                      "instructions": "Completa cada frase.",
+                      "items": [
+                          {"id": "simc1g1", "prompt": "Si hubiera llegado antes, ___ (ver) a mi hermano.", "answers": [["habría visto"], ["hubiera visto"]], "explanation": "Condicional irreal de pasado."},
+                          {"id": "simc1g2", "prompt": "No conozco a nadie que ___ (saber) tanto de este tema.", "answers": [["sepa"]], "explanation": "Antecedente indefinido/inexistente (nadie) → subjuntivo."},
+                          {"id": "simc1g3", "prompt": "Cabría ___ (reconsiderar) esta parte del proyecto.", "answers": [["reconsiderar"]], "explanation": "Cabría + infinitivo, forma atenuada de sugerencia."},
+                      ]}
+    c1_listening = ("<p><strong>Entrevistador:</strong> Su último libro aborda temas complejos como la memoria y el exilio. ¿De dónde nace esa elección?<br><strong>Autora:</strong> Nace de una pregunta personal: ¿qué queda de nosotros cuando dejamos el lugar donde crecimos? Quería explorarlo a través de una historia, no de un ensayo.<br><strong>Entrevistador:</strong> ¿Hay algo autobiográfico en la novela?<br><strong>Autora:</strong> Sin duda, aunque preferí transformarlo mediante la ficción.</p>")
+    c1_listening_ex = {"id": "sim-c1-listening", "type": "multiple-choice", "title": "Comprensión Auditiva al Estilo DELE/SIELE — C1",
+                        "instructions": "Lee este guion como si fuera un audio y responde.",
+                        "items": [
+                            {"id": "simc1l1", "prompt": "¿Qué temas aborda el último libro de la autora?", "options": ["El amor y la aventura", "La memoria y el exilio", "La ciencia ficción"], "answerIndex": 1, "explanation": "El entrevistador dice: «aborda temas complejos como la memoria y el exilio»."},
+                            {"id": "simc1l2", "prompt": "¿Cómo prefirió tratar el elemento autobiográfico?", "options": ["Como un ensayo directo", "Mediante la ficción", "No lo menciona"], "answerIndex": 1, "explanation": "La autora dice: «preferí transformarlo mediante la ficción»."},
+                        ]}
+
+    c2_reading = ("<p>Resulta cuando menos paradójico que, en una era definida por la sobreabundancia informativa, la capacidad de discernimiento crítico parezca haberse erosionado en proporción inversa a la cantidad de datos disponibles. Cabría argumentar que la mera acumulación de información, lejos de traducirse automáticamente en conocimiento, exige de por sí un aparato conceptual capaz de jerarquizarla, contextualizarla y, en última instancia, cuestionarla.</p>")
+    c2_reading_ex = {"id": "sim-c2-reading", "type": "true-false", "title": "Lectura al Estilo DELE/SIELE — C2", "items": [
+        {"id": "simc2r1", "statement": "El texto afirma que más información siempre produce más discernimiento crítico.", "answer": False, "explanation": "El texto dice que el discernimiento crítico «parece haberse erosionado» pese a la sobreabundancia informativa."},
+        {"id": "simc2r2", "statement": "Según el texto, la acumulación de información no se traduce automáticamente en conocimiento.", "answer": True, "explanation": "El texto dice: «la mera acumulación de información... no se traduce automáticamente en conocimiento»."},
+        {"id": "simc2r3", "statement": "El texto sugiere que se necesita un marco conceptual para procesar la información críticamente.", "answer": True, "explanation": "El texto dice que se exige «un aparato conceptual capaz de jerarquizarla, contextualizarla... cuestionarla»."},
+    ]}
+    c2_grammar_ex = {"id": "sim-c2-grammar", "type": "multiple-choice", "title": "Gramática al Estilo DELE/SIELE — C2",
+                      "items": [
+                          {"id": "simc2g1", "prompt": "\"Quienes ___ (llegar) tarde no podrán entrar.\"", "options": ["lleguen", "llegan", "llegarán"], "answerIndex": 0, "explanation": "Quienes con antecedente indefinido exige subjuntivo."},
+                          {"id": "simc2g2", "prompt": "\"Cabe la posibilidad de que esto ___ (cambiar) pronto.\"", "options": ["cambia", "cambie", "cambiará"], "answerIndex": 1, "explanation": "Cabe la posibilidad de que exige subjuntivo."},
+                          {"id": "simc2g3", "prompt": "\"El que ___ (incumplir) esta norma será sancionado.\" (registro jurídico)", "options": ["incumpliere", "incumple", "incumplirá"], "answerIndex": 0, "explanation": "Futuro de subjuntivo, propio del registro jurídico formal."},
                       ]}
 
     exam_sections = []
-    for level, reading, reading_ex, grammar_ex in [("B1", b1_reading, b1_reading_ex, b1_grammar_ex), ("B2", b2_reading, b2_reading_ex, b2_grammar_ex)]:
-        exam_sections.append(f"""<section class="section section--surface" aria-labelledby="sim-{level}-heading">
+    levels_data = [
+        ("Pre-A1", pa1_reading, pa1_reading_ex, pa1_grammar_ex, None, None),
+        ("A1", a1_reading, a1_reading_ex, a1_grammar_ex, None, None),
+        ("A2", a2_reading, a2_reading_ex, a2_grammar_ex, None, None),
+        ("B1", b1_reading, b1_reading_ex, b1_grammar_ex, b1_listening, b1_listening_ex),
+        ("B2", b2_reading, b2_reading_ex, b2_grammar_ex, None, None),
+        ("C1", c1_reading, c1_reading_ex, c1_grammar_ex, c1_listening, c1_listening_ex),
+        ("C2", c2_reading, c2_reading_ex, c2_grammar_ex, None, None),
+    ]
+    for level, reading, reading_ex, grammar_ex, listening, listening_ex in levels_data:
+        level_slug = level.lower()
+        listening_html = ""
+        if listening and listening_ex:
+            listening_html = f"""
+                <p class="eyebrow" style="margin-top:var(--space-lg);">{level} · Comprensión Auditiva</p>
+                <div class="card"><div class="prose">{listening}</div></div>
+                <div style="margin-top:var(--space-md);">{ex_block(listening_ex)}</div>"""
+        exam_sections.append(f"""<section class="section section--surface" aria-labelledby="sim-{level_slug}-heading">
             <div class="section__inner">
                 <p class="eyebrow">{level} · Comprensión de Lectura</p>
-                <h2 id="sim-{level}-heading">Examen Simulado {level}</h2>
+                <h2 id="sim-{level_slug}-heading">Examen Simulado {level}</h2>
                 <div class="card"><div class="prose">{reading}</div></div>
                 <div style="margin-top:var(--space-md);">{ex_block(reading_ex)}</div>
-                <div style="margin-top:var(--space-md);">{ex_block(grammar_ex)}</div>
+                <div style="margin-top:var(--space-md);">{ex_block(grammar_ex)}</div>{listening_html}
             </div>
         </section>""")
 
