@@ -265,6 +265,41 @@
           "explanation": "Sujeto + verbo en -ar (nosotros) + complemento de destino."
         }
       ]
+    },
+    {
+      "id": "a1y6-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y6c1",
+          "incorrect": "Nosotros habla mucho.",
+          "answer": [
+            "Nosotros hablamos mucho."
+          ],
+          "explanation": "Nosotros siempre usa -amos/-emos/-imos, no la forma de él/ella."
+        },
+        {
+          "id": "a1y6c2",
+          "incorrect": "Ellos comen y bebe agua.",
+          "answer": [
+            "Ellos comen y beben agua."
+          ],
+          "explanation": "Los dos verbos deben concordar con el mismo sujeto plural."
+        }
+      ]
+    },
+    {
+      "id": "a1y6-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y6t1",
+          "prompt": "Escribe una frase con un verbo en -ar sobre tu rutina diaria.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Trabajo en una oficina.»"
+        }
+      ]
     }
   ],
   "summary": [

@@ -261,6 +261,41 @@
           "explanation": "Artículo definido plural + sujeto + verbo + complemento de hora."
         }
       ]
+    },
+    {
+      "id": "a1y3-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y3c1",
+          "incorrect": "La agua está muy fría.",
+          "answer": [
+            "El agua está muy fría."
+          ],
+          "explanation": "Agua empieza con a tónica, así que usa el en singular aunque sea femenina."
+        },
+        {
+          "id": "a1y3c2",
+          "incorrect": "Compré unos naranjas en el mercado.",
+          "answer": [
+            "Compré unas naranjas en el mercado."
+          ],
+          "explanation": "Naranjas es femenino plural: unas, no unos."
+        }
+      ]
+    },
+    {
+      "id": "a1y3-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y3t1",
+          "prompt": "Escribe una frase usando \"el águila\".",
+          "explanation": "Guardado para tu propio repaso — recuerda: el águila (singular, por sonido) pero las águilas (plural)."
+        }
+      ]
     }
   ],
   "summary": [

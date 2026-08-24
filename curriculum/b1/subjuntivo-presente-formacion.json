@@ -235,6 +235,41 @@
           "explanation": "Ojalá + que + subjuntivo (salga) + adverbio."
         }
       ]
+    },
+    {
+      "id": "b1y6-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y6c1",
+          "incorrect": "Espero que tienes razón.",
+          "answer": [
+            "Espero que tengas razón."
+          ],
+          "explanation": "Esperar que necesita subjuntivo, no indicativo."
+        },
+        {
+          "id": "b1y6c2",
+          "incorrect": "Quiero que él es feliz.",
+          "answer": [
+            "Quiero que él sea feliz."
+          ],
+          "explanation": "Ser es totalmente irregular en subjuntivo: sea."
+        }
+      ]
+    },
+    {
+      "id": "b1y6-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y6t1",
+          "prompt": "Escribe un deseo usando \"espero que\" + subjuntivo.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Espero que tengas un buen día.»"
+        }
+      ]
     }
   ],
   "summary": [

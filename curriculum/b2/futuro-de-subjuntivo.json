@@ -192,6 +192,41 @@
           "explanation": "Refrán tradicional que conserva el futuro de subjuntivo (fueres, vieres)."
         }
       ]
+    },
+    {
+      "id": "b2y12-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y12c1",
+          "incorrect": "usar el futuro de subjuntivo en un mensaje informal",
+          "answer": [
+            "usar el presente de subjuntivo o de indicativo en su lugar"
+          ],
+          "explanation": "El futuro de subjuntivo desapareció del habla cotidiana."
+        },
+        {
+          "id": "b2y12c2",
+          "incorrect": "confundir hablare (futuro de subjuntivo) con hablaré (futuro simple)",
+          "answer": [
+            "distinguir ambas formas por su terminación y su uso"
+          ],
+          "explanation": "Son tiempos completamente distintos, aunque se diferencian por una sola letra."
+        }
+      ]
+    },
+    {
+      "id": "b2y12-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y12t1",
+          "prompt": "Escribe un ejemplo de dónde podrías encontrar el futuro de subjuntivo hoy en día.",
+          "explanation": "Guardado para tu propio repaso — piensa en textos legales, refranes o registro arcaizante."
+        }
+      ]
     }
   ],
   "summary": [

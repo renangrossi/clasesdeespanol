@@ -197,6 +197,33 @@
           "explanation": "Complemento con adjetivo elevado + verbo + objeto."
         }
       ]
+    },
+    {
+      "id": "c2y2-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y2c1",
+          "incorrect": "usar hipérbaton y léxico elevado en un correo de trabajo cotidiano",
+          "answer": [
+            "reservar estos recursos para el registro literario o ensayístico deliberado"
+          ],
+          "explanation": "Fuera de un contexto literario, estos recursos suenan afectados."
+        }
+      ]
+    },
+    {
+      "id": "c2y2-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y2t1",
+          "prompt": "Escribe una frase corta usando una metáfora.",
+          "explanation": "Guardado para tu propio repaso — recuerda que la metáfora identifica una cosa con otra sin usar «como»."
+        }
+      ]
     }
   ],
   "summary": [

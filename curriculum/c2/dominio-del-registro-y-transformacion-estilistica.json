@@ -193,6 +193,33 @@
           "explanation": "Registro coloquial: oye + petición directa con expresión idiomática."
         }
       ]
+    },
+    {
+      "id": "c2y8-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y8c1",
+          "incorrect": "Estimado señor: oye, necesito que me ayudes con esto.",
+          "answer": [
+            "Estimado señor: le escribo para solicitar su ayuda con este asunto."
+          ],
+          "explanation": "Mezclar una fórmula formal con trato informal rompe la coherencia del registro."
+        }
+      ]
+    },
+    {
+      "id": "c2y8-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y8t1",
+          "prompt": "Reescribe en registro formal: \"Al final no nos dieron el trabajo, una pena.\"",
+          "explanation": "Guardado para tu propio repaso — un registro formal evitaría muletillas y usaría vocabulario más preciso."
+        }
+      ]
     }
   ],
   "summary": [

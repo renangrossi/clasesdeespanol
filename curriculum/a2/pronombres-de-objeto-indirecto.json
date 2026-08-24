@@ -243,6 +243,41 @@
           "explanation": "A + pronombre tónico (énfasis) + pronombre átono + gustar + infinitivo."
         }
       ]
+    },
+    {
+      "id": "a2y10-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y10c1",
+          "incorrect": "Yo gusto mucho el café.",
+          "answer": [
+            "Me gusta mucho el café."
+          ],
+          "explanation": "Gustar requiere el pronombre de objeto indirecto me."
+        },
+        {
+          "id": "a2y10c2",
+          "incorrect": "Escribí una carta a mi abuela.",
+          "answer": [
+            "Le escribí una carta a mi abuela."
+          ],
+          "explanation": "El español mantiene el pronombre le aunque ya se mencione a quién."
+        }
+      ]
+    },
+    {
+      "id": "a2y10-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y10t1",
+          "prompt": "Escribe una frase con \"le\" o \"les\" sobre algo que le diste a alguien.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Le di un regalo a mi hermano.»"
+        }
+      ]
     }
   ],
   "summary": [

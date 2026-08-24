@@ -204,6 +204,38 @@
           "explanation": "Sois (valor reverencial hacia una sola persona) + expresión + adjetivo."
         }
       ]
+    },
+    {
+      "id": "c2y7-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y7c1",
+          "incorrect": "confundir el vos reverencial clásico con el voseo moderno argentino",
+          "answer": [
+            "distinguir ambos usos, de siglos y funciones completamente distintas"
+          ],
+          "explanation": "Comparten la forma pero no la función histórica ni social."
+        }
+      ]
+    },
+    {
+      "id": "c2y7-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y7t1",
+          "prompt": "Escribe qué significa el arcaísmo \"maguer\".",
+          "answer": [
+            [
+              "aunque"
+            ]
+          ],
+          "explanation": "Maguer es un arcaísmo que significa «aunque»."
+        }
+      ]
     }
   ],
   "summary": [

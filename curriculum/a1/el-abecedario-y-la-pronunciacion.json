@@ -258,6 +258,50 @@
           "explanation": "Sujeto + verbo reflexivo + complemento con preposición."
         }
       ]
+    },
+    {
+      "id": "a1y1-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y1c1",
+          "incorrect": "La palabra \"musica\" no lleva tilde.",
+          "answer": [
+            "La palabra \"música\" sí lleva tilde."
+          ],
+          "explanation": "Música es esdrújula (la fuerza cae dos sílabas antes del final) y siempre lleva tilde."
+        },
+        {
+          "id": "a1y1c2",
+          "incorrect": "\"Cielo\" se pronuncia con el sonido fuerte de la c.",
+          "answer": [
+            "\"Cielo\" se pronuncia con el sonido suave de la c."
+          ],
+          "explanation": "Ce/ci siempre tienen el sonido suave en español."
+        }
+      ]
+    },
+    {
+      "id": "a1y1-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y1t1",
+          "prompt": "Escribe una palabra esdrújula (con tilde en la antepenúltima sílaba).",
+          "answer": [
+            [
+              "música",
+              "teléfono",
+              "rápido",
+              "número",
+              "sábado"
+            ]
+          ],
+          "explanation": "Cualquier palabra esdrújula es correcta; música, teléfono y rápido son ejemplos comunes."
+        }
+      ]
     }
   ],
   "summary": [

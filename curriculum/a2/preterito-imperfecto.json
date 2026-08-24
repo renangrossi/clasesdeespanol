@@ -234,6 +234,41 @@
           "explanation": "Expresión de hábito repetido + jugar (imperfecto, nosotros) + complemento."
         }
       ]
+    },
+    {
+      "id": "a2y4-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y4c1",
+          "incorrect": "Nosotros ibamos a la playa cada verano.",
+          "answer": [
+            "Nosotros íbamos a la playa cada verano."
+          ],
+          "explanation": "La forma de nosotros de ir en imperfecto lleva tilde: íbamos."
+        },
+        {
+          "id": "a2y4c2",
+          "incorrect": "Yo veiía la televisión de niño.",
+          "answer": [
+            "Yo veía la televisión de niño."
+          ],
+          "explanation": "Ver en imperfecto es veía, con una sola i."
+        }
+      ]
+    },
+    {
+      "id": "a2y4-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y4t1",
+          "prompt": "Escribe una frase sobre algo que hacías de niño, en imperfecto.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «De niño jugaba en el parque.»"
+        }
+      ]
     }
   ],
   "summary": [

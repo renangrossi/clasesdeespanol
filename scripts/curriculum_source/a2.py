@@ -913,3 +913,145 @@ EXTRA_EXERCISES = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_2 — segunda ronda (corrección y producción escrita
+# corta) fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_2 = {
+    "a2-preterito-perfecto-compuesto": [
+        {"id": "a2y1-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y1c1", "incorrect": "Ha escribido una carta.", "answer": ["Ha escrito una carta."], "explanation": "Escribir tiene participio irregular: escrito, no escribido."},
+            {"id": "a2y1c2", "incorrect": "He siempre querido viajar.", "answer": ["Siempre he querido viajar."], "explanation": "Ninguna palabra puede separar haber del participio."},
+         ]},
+        {"id": "a2y1-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y1t1", "prompt": "Escribe una frase sobre algo que has hecho esta semana.", "explanation": "Guardado para tu propio repaso — usa haber + participio: he trabajado, he estudiado, etc."},
+         ]},
+    ],
+    "a2-preterito-indefinido-regulares": [
+        {"id": "a2y2-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y2c1", "incorrect": "Nosotros hablastemos con el profesor.", "answer": ["Nosotros hablamos con el profesor."], "explanation": "La forma de nosotros en indefinido es hablamos, no hablastemos."},
+            {"id": "a2y2c2", "incorrect": "Ellos viviaron en Madrid.", "answer": ["Ellos vivieron en Madrid."], "explanation": "Los verbos en -ir usan -ieron en la tercera persona plural, no -iaron."},
+         ]},
+        {"id": "a2y2-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y2t1", "prompt": "Escribe una frase con un verbo regular en pretérito indefinido sobre ayer.", "explanation": "Guardado para tu propio repaso — ejemplo: «Ayer trabajé hasta las seis.»"},
+         ]},
+    ],
+    "a2-preterito-indefinido-irregulares": [
+        {"id": "a2y3-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y3c1", "incorrect": "Yo tuvé una reunión ayer.", "answer": ["Yo tuve una reunión ayer."], "explanation": "Los verbos irregulares fuertes usan la terminación -e sin tilde."},
+            {"id": "a2y3c2", "incorrect": "Ellos hacieron la comida.", "answer": ["Ellos hicieron la comida."], "explanation": "Hacer cambia la raíz a hic-/hiz-, no se conjuga sobre hac-."},
+         ]},
+        {"id": "a2y3-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y3t1", "prompt": "Escribe una frase con el verbo \"tener\" en pretérito indefinido.", "answer": [["tuve", "tuvo", "tuvimos", "tuvieron"]], "explanation": "Tener en indefinido usa la raíz irregular tuv-."},
+         ]},
+    ],
+    "a2-preterito-imperfecto": [
+        {"id": "a2y4-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y4c1", "incorrect": "Nosotros ibamos a la playa cada verano.", "answer": ["Nosotros íbamos a la playa cada verano."], "explanation": "La forma de nosotros de ir en imperfecto lleva tilde: íbamos."},
+            {"id": "a2y4c2", "incorrect": "Yo veiía la televisión de niño.", "answer": ["Yo veía la televisión de niño."], "explanation": "Ver en imperfecto es veía, con una sola i."},
+         ]},
+        {"id": "a2y4-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y4t1", "prompt": "Escribe una frase sobre algo que hacías de niño, en imperfecto.", "explanation": "Guardado para tu propio repaso — ejemplo: «De niño jugaba en el parque.»"},
+         ]},
+    ],
+    "a2-indefinido-vs-imperfecto": [
+        {"id": "a2y5-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y5c1", "incorrect": "Yo leía un libro cuando tú llamabas por teléfono.", "answer": ["Yo leía un libro cuando tú llamaste por teléfono."], "explanation": "La acción que interrumpe debe ir en indefinido."},
+            {"id": "a2y5c2", "incorrect": "Cuando yo tuve diez años, vivía en Lima.", "answer": ["Cuando yo tenía diez años, vivía en Lima."], "explanation": "Describir la edad como una etapa del pasado usa el imperfecto, no el indefinido."},
+         ]},
+        {"id": "a2y5-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y5t1", "prompt": "Escribe una frase combinando el imperfecto (escena) y el indefinido (hecho puntual).", "explanation": "Guardado para tu propio repaso — ejemplo: «Llovía cuando salimos de casa.»"},
+         ]},
+    ],
+    "a2-futuro-simple-e-ir-a-infinitivo": [
+        {"id": "a2y6-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y6c1", "incorrect": "Yo teneré una reunión mañana.", "answer": ["Yo tendré una reunión mañana."], "explanation": "Tener tiene raíz irregular en futuro: tendr-."},
+            {"id": "a2y6c2", "incorrect": "Voy a hablo con mi jefe.", "answer": ["Voy a hablar con mi jefe."], "explanation": "Ir + a siempre va seguido de infinitivo, nunca de una forma conjugada."},
+         ]},
+        {"id": "a2y6-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y6t1", "prompt": "Escribe un plan para el próximo fin de semana usando \"voy a\".", "explanation": "Guardado para tu propio repaso — ir a + infinitivo expresa planes cercanos."},
+         ]},
+    ],
+    "a2-comparativos-y-superlativos": [
+        {"id": "a2y7-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y7c1", "incorrect": "Mi hermana es más pequeña de edad que yo.", "answer": ["Mi hermana es menor que yo."], "explanation": "Para la edad se usa la forma irregular menor."},
+            {"id": "a2y7c2", "incorrect": "Tengo tanta problemas como tú.", "answer": ["Tengo tantos problemas como tú."], "explanation": "Problema es masculino: tantos, no tanta."},
+         ]},
+        {"id": "a2y7-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y7t1", "prompt": "Compara dos ciudades o lugares que conozcas en una frase.", "explanation": "Guardado para tu propio repaso — usa más... que, menos... que o tan... como."},
+         ]},
+    ],
+    "a2-verbos-con-cambio-de-raiz": [
+        {"id": "a2y8-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y8c1", "incorrect": "Nosotros quieremos ir al cine.", "answer": ["Nosotros queremos ir al cine."], "explanation": "Nosotros no cambia la raíz: queremos, no quieremos."},
+            {"id": "a2y8c2", "incorrect": "Yo pedo un café, por favor.", "answer": ["Yo pido un café, por favor."], "explanation": "Pedir cambia e por i: pido, no pedo."},
+         ]},
+        {"id": "a2y8-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y8t1", "prompt": "Escribe una frase con el verbo \"dormir\" en presente.", "answer": [["duermo", "duermes", "duerme", "dormimos", "duermen"]], "explanation": "Dormir cambia o por ue, excepto en nosotros/vosotros."},
+         ]},
+    ],
+    "a2-pronombres-de-objeto-directo": [
+        {"id": "a2y9-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y9c1", "incorrect": "Veo lo todos los días.", "answer": ["Lo veo todos los días."], "explanation": "Con un verbo conjugado, el pronombre va antes del verbo."},
+            {"id": "a2y9c2", "incorrect": "Cómpra lo mañana.", "answer": ["Cómpralo mañana."], "explanation": "Con el imperativo afirmativo, el pronombre va pegado al verbo."},
+         ]},
+        {"id": "a2y9-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y9t1", "prompt": "Escribe una frase usando el pronombre \"lo\" o \"la\" para sustituir un objeto.", "explanation": "Guardado para tu propio repaso — ejemplo: «¿El libro? Lo tengo aquí.»"},
+         ]},
+    ],
+    "a2-pronombres-de-objeto-indirecto": [
+        {"id": "a2y10-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y10c1", "incorrect": "Yo gusto mucho el café.", "answer": ["Me gusta mucho el café."], "explanation": "Gustar requiere el pronombre de objeto indirecto me."},
+            {"id": "a2y10c2", "incorrect": "Escribí una carta a mi abuela.", "answer": ["Le escribí una carta a mi abuela."], "explanation": "El español mantiene el pronombre le aunque ya se mencione a quién."},
+         ]},
+        {"id": "a2y10-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y10t1", "prompt": "Escribe una frase con \"le\" o \"les\" sobre algo que le diste a alguien.", "explanation": "Guardado para tu propio repaso — ejemplo: «Le di un regalo a mi hermano.»"},
+         ]},
+    ],
+    "a2-imperativo-afirmativo": [
+        {"id": "a2y11-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y11c1", "incorrect": "Pone la mesa, por favor.", "answer": ["Pon la mesa, por favor."], "explanation": "Poner tiene imperativo de tú irregular: pon, no pone."},
+            {"id": "a2y11c2", "incorrect": "Hace la tarea ahora mismo.", "answer": ["Haz la tarea ahora mismo."], "explanation": "Hacer tiene imperativo de tú irregular: haz, no hace."},
+         ]},
+        {"id": "a2y11-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y11t1", "prompt": "Escribe una instrucción usando el imperativo afirmativo de tú.", "explanation": "Guardado para tu propio repaso — ejemplo: «Abre la ventana, por favor.»"},
+         ]},
+    ],
+    "a2-adverbios-de-frecuencia-y-conectores": [
+        {"id": "a2y12-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a2y12c1", "incorrect": "No siempre como carne.", "answer": ["Nunca como carne."], "explanation": "\"No siempre\" significa \"a veces sí, a veces no\", un significado distinto de nunca."},
+            {"id": "a2y12c2", "incorrect": "Llego tarde entonces hay mucho tráfico.", "answer": ["Llego tarde porque hay mucho tráfico."], "explanation": "Porque introduce la causa; entonces introduce la consecuencia."},
+         ]},
+        {"id": "a2y12-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a2y12t1", "prompt": "Escribe una frase sobre tu rutina usando un adverbio de frecuencia.", "explanation": "Guardado para tu propio repaso — ejemplo: «Siempre desayuno antes de salir.»"},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))

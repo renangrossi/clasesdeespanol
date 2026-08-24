@@ -243,6 +243,50 @@
           "explanation": "Sujeto + preferir (nosotros, sin cambio) + infinitivo reflexivo + complemento."
         }
       ]
+    },
+    {
+      "id": "a2y8-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y8c1",
+          "incorrect": "Nosotros quieremos ir al cine.",
+          "answer": [
+            "Nosotros queremos ir al cine."
+          ],
+          "explanation": "Nosotros no cambia la raíz: queremos, no quieremos."
+        },
+        {
+          "id": "a2y8c2",
+          "incorrect": "Yo pedo un café, por favor.",
+          "answer": [
+            "Yo pido un café, por favor."
+          ],
+          "explanation": "Pedir cambia e por i: pido, no pedo."
+        }
+      ]
+    },
+    {
+      "id": "a2y8-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y8t1",
+          "prompt": "Escribe una frase con el verbo \"dormir\" en presente.",
+          "answer": [
+            [
+              "duermo",
+              "duermes",
+              "duerme",
+              "dormimos",
+              "duermen"
+            ]
+          ],
+          "explanation": "Dormir cambia o por ue, excepto en nosotros/vosotros."
+        }
+      ]
     }
   ],
   "summary": [

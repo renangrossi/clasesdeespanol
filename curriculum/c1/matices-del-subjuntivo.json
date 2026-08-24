@@ -291,6 +291,33 @@
           "explanation": "Quizá con subjuntivo expresa más duda que certeza."
         }
       ]
+    },
+    {
+      "id": "c1y3-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y3c1",
+          "incorrect": "No veo que estás listo para esto.",
+          "answer": [
+            "No veo que estés listo para esto."
+          ],
+          "explanation": "La negación de un verbo de percepción exige subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "c1y3-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y3t1",
+          "prompt": "Escribe una frase con \"no creo que\" + subjuntivo.",
+          "explanation": "Guardado para tu propio repaso — negar creer elimina la certeza y exige subjuntivo."
+        }
+      ]
     }
   ],
   "summary": [

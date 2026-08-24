@@ -224,6 +224,41 @@
           "explanation": "Expresión idiomática fija: costar un ojo de la cara."
         }
       ]
+    },
+    {
+      "id": "b2y10-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y10c1",
+          "incorrect": "Hicimos una decisión importante ayer.",
+          "answer": [
+            "Tomamos una decisión importante ayer."
+          ],
+          "explanation": "Decisión se combina con tomar, no con hacer."
+        },
+        {
+          "id": "b2y10c2",
+          "incorrect": "Ese coche debe de costar un brazo entero.",
+          "answer": [
+            "Ese coche debe de costar un ojo de la cara."
+          ],
+          "explanation": "La expresión fija es costar un ojo de la cara."
+        }
+      ]
+    },
+    {
+      "id": "b2y10-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y10t1",
+          "prompt": "Escribe una frase usando la expresión \"meter la pata\".",
+          "explanation": "Guardado para tu propio repaso — meter la pata significa cometer un error inoportuno."
+        }
+      ]
     }
   ],
   "summary": [

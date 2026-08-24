@@ -281,6 +281,33 @@
           "explanation": "En cierto modo + indicativo, atenuación de un acuerdo parcial."
         }
       ]
+    },
+    {
+      "id": "c1y9-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y9c1",
+          "incorrect": "Cabría reconsiderar esta parte del plan. (mal etiquetado como afirmación tajante)",
+          "answer": [
+            "Cabría reconsiderar esta parte del plan. (correcto: forma atenuada de sugerencia)"
+          ],
+          "explanation": "Cabría + infinitivo es precisamente una forma atenuada, apropiada para sugerir sin imponer."
+        }
+      ]
+    },
+    {
+      "id": "c1y9-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y9t1",
+          "prompt": "Escribe un comentario irónico (donde el sentido literal se contradice con el contexto).",
+          "explanation": "Guardado para tu propio repaso — recuerda que la ironía depende del contexto, no solo de las palabras."
+        }
+      ]
     }
   ],
   "summary": [

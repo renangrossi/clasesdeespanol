@@ -240,6 +240,41 @@
           "explanation": "Ser + superlativo relativo con forma irregular (la mejor) + sustantivo + de."
         }
       ]
+    },
+    {
+      "id": "a2y7-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y7c1",
+          "incorrect": "Mi hermana es más pequeña de edad que yo.",
+          "answer": [
+            "Mi hermana es menor que yo."
+          ],
+          "explanation": "Para la edad se usa la forma irregular menor."
+        },
+        {
+          "id": "a2y7c2",
+          "incorrect": "Tengo tanta problemas como tú.",
+          "answer": [
+            "Tengo tantos problemas como tú."
+          ],
+          "explanation": "Problema es masculino: tantos, no tanta."
+        }
+      ]
+    },
+    {
+      "id": "a2y7-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y7t1",
+          "prompt": "Compara dos ciudades o lugares que conozcas en una frase.",
+          "explanation": "Guardado para tu propio repaso — usa más... que, menos... que o tan... como."
+        }
+      ]
     }
   ],
   "summary": [

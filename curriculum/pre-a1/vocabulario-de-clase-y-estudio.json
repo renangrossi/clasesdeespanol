@@ -331,6 +331,41 @@
           "explanation": "Sujeto + verbo + complemento de lugar."
         }
       ]
+    },
+    {
+      "id": "pa4y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa4yc1",
+          "incorrect": "Necesito un goma para borrar.",
+          "answer": [
+            "Necesito una goma para borrar."
+          ],
+          "explanation": "Goma es femenina: una goma, no un goma."
+        },
+        {
+          "id": "pa4yc2",
+          "incorrect": "La profesora escribe en el pizarra.",
+          "answer": [
+            "La profesora escribe en la pizarra."
+          ],
+          "explanation": "Pizarra es femenina: la pizarra, no el pizarra."
+        }
+      ]
+    },
+    {
+      "id": "pa4y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa4yt1",
+          "prompt": "Escribe tres objetos que tienes en tu mochila.",
+          "explanation": "Guardado para tu propio repaso — usa el vocabulario de esta lección: cuaderno, lápiz, libro, goma..."
+        }
+      ]
     }
   ],
   "summary": [

@@ -257,6 +257,46 @@
           "explanation": "Sujeto masculino (el problema) + verbo ser + atributo."
         }
       ]
+    },
+    {
+      "id": "a1y2-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y2c1",
+          "incorrect": "El mano derecha me duele.",
+          "answer": [
+            "La mano derecha me duele."
+          ],
+          "explanation": "Mano es femenina aunque termine en -o."
+        },
+        {
+          "id": "a1y2c2",
+          "incorrect": "Compré dos lápizes nuevos.",
+          "answer": [
+            "Compré dos lápices nuevos."
+          ],
+          "explanation": "Las palabras terminadas en -z cambian a -ces en plural."
+        }
+      ]
+    },
+    {
+      "id": "a1y2-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y2t1",
+          "prompt": "Escribe el plural de \"ciudad\".",
+          "answer": [
+            [
+              "ciudades"
+            ]
+          ],
+          "explanation": "Terminación en consonante: se añade -es."
+        }
+      ]
     }
   ],
   "summary": [

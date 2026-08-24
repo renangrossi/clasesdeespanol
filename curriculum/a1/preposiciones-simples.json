@@ -264,6 +264,41 @@
           "explanation": "Sujeto + estar + preposición de lugar + complemento."
         }
       ]
+    },
+    {
+      "id": "a1y12-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y12c1",
+          "incorrect": "Viajo en Madrid a Barcelona.",
+          "answer": [
+            "Viajo de Madrid a Barcelona."
+          ],
+          "explanation": "Para expresar origen y destino se usa de... a, no en... a."
+        },
+        {
+          "id": "a1y12c2",
+          "incorrect": "El libro está encima la mesa.",
+          "answer": [
+            "El libro está encima de la mesa."
+          ],
+          "explanation": "Encima siempre necesita la preposición de antes del sustantivo."
+        }
+      ]
+    },
+    {
+      "id": "a1y12-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y12t1",
+          "prompt": "Escribe una frase usando la preposición \"desde\" y \"hasta\".",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Trabajo desde las nueve hasta las cinco.»"
+        }
+      ]
     }
   ],
   "summary": [

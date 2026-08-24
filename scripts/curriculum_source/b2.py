@@ -884,3 +884,145 @@ EXTRA_EXERCISES = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_2 — segunda ronda (corrección y producción escrita
+# corta) fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_2 = {
+    "b2-imperfecto-de-subjuntivo": [
+        {"id": "b2y1-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y1c1", "incorrect": "Quería que tú vengas conmigo.", "answer": ["Quería que tú vinieras conmigo."], "explanation": "Con el verbo principal en pasado, la subordinada necesita imperfecto de subjuntivo."},
+            {"id": "b2y1c2", "incorrect": "Esperaba que ellos tenieran suerte.", "answer": ["Esperaba que ellos tuvieran suerte."], "explanation": "El imperfecto de subjuntivo hereda la raíz irregular del indefinido."},
+         ]},
+        {"id": "b2y1-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y1t1", "prompt": "Escribe una frase sobre algo que querías que alguien hiciera en el pasado.", "explanation": "Guardado para tu propio repaso — ejemplo: «Quería que vinieras a la fiesta.»"},
+         ]},
+    ],
+    "b2-condicionales-con-si-subjuntivo": [
+        {"id": "b2y2-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y2c1", "incorrect": "Si tendría más tiempo, viajaría más.", "answer": ["Si tuviera más tiempo, viajaría más."], "explanation": "Nunca se usa condicional dentro de la parte introducida por si."},
+            {"id": "b2y2c2", "incorrect": "Si hubiera estudiado más, aprobaría el examen.", "answer": ["Si hubiera estudiado más, habría aprobado el examen."], "explanation": "La condicional irreal de pasado necesita condicional compuesto en la consecuencia."},
+         ]},
+        {"id": "b2y2-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y2t1", "prompt": "Escribe una condicional potencial: si + imperfecto de subjuntivo + condicional.", "explanation": "Guardado para tu propio repaso — ejemplo: «Si fuera rico, viajaría por el mundo.»"},
+         ]},
+    ],
+    "b2-subjuntivo-vs-indicativo-sustantivas": [
+        {"id": "b2y3-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y3c1", "incorrect": "Es evidente que ella tenga razón.", "answer": ["Es evidente que ella tiene razón."], "explanation": "Es evidente que presenta un hecho cierto y exige indicativo."},
+            {"id": "b2y3c2", "incorrect": "Es importante que tú vienes a la reunión.", "answer": ["Es importante que tú vengas a la reunión."], "explanation": "Es importante que valora, no afirma un hecho: exige subjuntivo."},
+         ]},
+        {"id": "b2y3-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y3t1", "prompt": "Escribe una frase con \"es importante que\" + subjuntivo.", "explanation": "Guardado para tu propio repaso — ejemplo: «Es importante que todos participemos.»"},
+         ]},
+    ],
+    "b2-subjuntivo-relativas-y-adverbiales": [
+        {"id": "b2y4-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y4c1", "incorrect": "Busco una casa que tiene jardín. (sin saber si existe)", "answer": ["Busco una casa que tenga jardín."], "explanation": "Antecedente indefinido: exige subjuntivo."},
+            {"id": "b2y4c2", "incorrect": "Te lo explico para que lo entiendes.", "answer": ["Te lo explico para que lo entiendas."], "explanation": "Para que siempre exige subjuntivo."},
+         ]},
+        {"id": "b2y4-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y4t1", "prompt": "Escribe una frase con \"busco a alguien que\" + subjuntivo.", "explanation": "Guardado para tu propio repaso — antecedente indefinido exige subjuntivo."},
+         ]},
+    ],
+    "b2-perifrasis-verbales": [
+        {"id": "b2y5-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y5c1", "incorrect": "Acabo llegar a casa.", "answer": ["Acabo de llegar a casa."], "explanation": "Acabar de + infinitivo necesita siempre el enlace de."},
+            {"id": "b2y5c2", "incorrect": "Dejé fumar hace dos años.", "answer": ["Dejé de fumar hace dos años."], "explanation": "Dejar de + infinitivo necesita siempre el enlace de."},
+         ]},
+        {"id": "b2y5-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y5t1", "prompt": "Escribe una frase con \"llevo + tiempo + gerundio\".", "explanation": "Guardado para tu propio repaso — ejemplo: «Llevo tres años estudiando español.»"},
+         ]},
+    ],
+    "b2-ser-y-estar-avanzado": [
+        {"id": "b2y6-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y6c1", "incorrect": "¿Dónde está la fiesta de cumpleaños?", "answer": ["¿Dónde es la fiesta de cumpleaños?"], "explanation": "Para localizar un evento se usa ser, no estar."},
+            {"id": "b2y6c2", "incorrect": "Esta comida es muy rica hoy.", "answer": ["Esta comida está muy rica hoy."], "explanation": "El sabor en un momento concreto se describe con estar."},
+         ]},
+        {"id": "b2y6-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y6t1", "prompt": "Escribe una frase usando \"estar\" para dar una impresión subjetiva sobre alguien.", "explanation": "Guardado para tu propio repaso — ejemplo: «¡Qué guapo estás hoy!»"},
+         ]},
+    ],
+    "b2-pasiva-avanzada-y-se": [
+        {"id": "b2y7-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y7c1", "incorrect": "Me rompí el vaso.", "answer": ["Se me rompió el vaso."], "explanation": "Para presentar un hecho como accidental se usa se + pronombre indirecto."},
+            {"id": "b2y7c2", "incorrect": "Se me rompieron el vaso.", "answer": ["Se me rompió el vaso."], "explanation": "El verbo debe concordar con lo que sucede (el vaso, singular)."},
+         ]},
+        {"id": "b2y7-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y7t1", "prompt": "Escribe una frase con \"se me\" describiendo algo accidental.", "explanation": "Guardado para tu propio repaso — ejemplo: «Se me olvidaron las llaves.»"},
+         ]},
+    ],
+    "b2-estilo-indirecto-todos-los-tiempos": [
+        {"id": "b2y8-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y8c1", "incorrect": "Me dijo que está cansada.", "answer": ["Me dijo que estaba cansada."], "explanation": "Con el verbo introductor en pasado, el presente retrocede a imperfecto."},
+            {"id": "b2y8c2", "incorrect": "Me pidió que cierre la puerta.", "answer": ["Me pidió que cerrara la puerta."], "explanation": "Un imperativo en estilo indirecto pasado se convierte en imperfecto de subjuntivo."},
+         ]},
+        {"id": "b2y8-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y8t1", "prompt": "Convierte a estilo indirecto pasado: \"Vivo en Sevilla.\" (dicho por Ana)", "answer": [["dijo que vivía en sevilla", "ana dijo que vivía en sevilla"]], "explanation": "El presente en la cita retrocede a imperfecto."},
+         ]},
+    ],
+    "b2-conectores-argumentativos-avanzados": [
+        {"id": "b2y9-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y9c1", "incorrect": "El plan es bueno; por el contrario, necesita ajustes menores.", "answer": ["El plan es bueno; ahora bien, necesita ajustes menores."], "explanation": "Por el contrario marca oposición fuerte; aquí solo hay una matización."},
+            {"id": "b2y9c2", "incorrect": "El proyecto se retrasa, de hecho se cancela.", "answer": ["El proyecto se retrasa; es decir, no se cancela, solo se pospone."], "explanation": "Es decir reformula; de hecho refuerza en la misma dirección."},
+         ]},
+        {"id": "b2y9-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y9t1", "prompt": "Escribe dos frases conectadas con \"ahora bien\".", "explanation": "Guardado para tu propio repaso — ahora bien introduce una matización u objeción parcial."},
+         ]},
+    ],
+    "b2-colocaciones-y-expresiones-idiomaticas": [
+        {"id": "b2y10-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y10c1", "incorrect": "Hicimos una decisión importante ayer.", "answer": ["Tomamos una decisión importante ayer."], "explanation": "Decisión se combina con tomar, no con hacer."},
+            {"id": "b2y10c2", "incorrect": "Ese coche debe de costar un brazo entero.", "answer": ["Ese coche debe de costar un ojo de la cara."], "explanation": "La expresión fija es costar un ojo de la cara."},
+         ]},
+        {"id": "b2y10-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y10t1", "prompt": "Escribe una frase usando la expresión \"meter la pata\".", "explanation": "Guardado para tu propio repaso — meter la pata significa cometer un error inoportuno."},
+         ]},
+    ],
+    "b2-registro-formal-e-informal": [
+        {"id": "b2y11-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y11c1", "incorrect": "Estimado señor López: Oye, necesito el documento urgente.", "answer": ["Estimado señor López: Le escribo para solicitar el documento con urgencia."], "explanation": "No se mezclan fórmulas formales e informales en el mismo texto."},
+            {"id": "b2y11c2", "incorrect": "Le escribo para contarle que necesito el informe.", "answer": ["Le escribo para informarle de que necesito el informe."], "explanation": "Informar de es más preciso y formal que contar."},
+         ]},
+        {"id": "b2y11-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y11t1", "prompt": "Escribe la fórmula de apertura de un correo formal a un desconocido.", "answer": [["estimado señor", "estimada señora", "estimado señor/a", "a quien corresponda"]], "explanation": "Estimado/a señor/a: es la fórmula estándar para un correo formal."},
+         ]},
+    ],
+    "b2-futuro-de-subjuntivo": [
+        {"id": "b2y12-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b2y12c1", "incorrect": "usar el futuro de subjuntivo en un mensaje informal", "answer": ["usar el presente de subjuntivo o de indicativo en su lugar"], "explanation": "El futuro de subjuntivo desapareció del habla cotidiana."},
+            {"id": "b2y12c2", "incorrect": "confundir hablare (futuro de subjuntivo) con hablaré (futuro simple)", "answer": ["distinguir ambas formas por su terminación y su uso"], "explanation": "Son tiempos completamente distintos, aunque se diferencian por una sola letra."},
+         ]},
+        {"id": "b2y12-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b2y12t1", "prompt": "Escribe un ejemplo de dónde podrías encontrar el futuro de subjuntivo hoy en día.", "explanation": "Guardado para tu propio repaso — piensa en textos legales, refranes o registro arcaizante."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))

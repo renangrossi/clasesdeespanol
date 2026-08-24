@@ -198,6 +198,33 @@
           "explanation": "Dudar que + subjuntivo (sea)."
         }
       ]
+    },
+    {
+      "id": "c2y1-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y1c1",
+          "incorrect": "Me confesó que temía que se cancela todo.",
+          "answer": [
+            "Me confesó que temía que se cancelaría/cancelara todo."
+          ],
+          "explanation": "La concordancia de tiempos exige retroceder el verbo según el verbo pasado que lo rige."
+        }
+      ]
+    },
+    {
+      "id": "c2y1-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y1t1",
+          "prompt": "Escribe una frase con dos niveles de subordinación (por ejemplo, una relativa dentro de una sustantiva).",
+          "explanation": "Guardado para tu propio repaso — recuerda que cada subordinada obedece a su propio verbo regente."
+        }
+      ]
     }
   ],
   "summary": [

@@ -201,6 +201,33 @@
           "explanation": "Convendría + infinitivo, forma atenuada de sugerir una acción."
         }
       ]
+    },
+    {
+      "id": "c2y6-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y6c1",
+          "incorrect": "Este argumento está completamente equivocado. (en una revisión académica)",
+          "answer": [
+            "Cabría reconsiderar algunos aspectos de este argumento."
+          ],
+          "explanation": "En un registro académico formal, una crítica tajante suele atenuarse."
+        }
+      ]
+    },
+    {
+      "id": "c2y6-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y6t1",
+          "prompt": "Escribe una crítica atenuada usando \"cabría\" o \"convendría\".",
+          "explanation": "Guardado para tu propio repaso — la atenuación matiza el tono sin ocultar la opinión de fondo."
+        }
+      ]
     }
   ],
   "summary": [

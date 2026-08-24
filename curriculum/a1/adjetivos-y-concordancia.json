@@ -248,6 +248,41 @@
           "explanation": "Verbo + artículo + sustantivo masculino + adjetivo concordado en masculino."
         }
       ]
+    },
+    {
+      "id": "a1y8-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y8c1",
+          "incorrect": "Mis amigas son inteligente.",
+          "answer": [
+            "Mis amigas son inteligentes."
+          ],
+          "explanation": "El adjetivo debe concordar en plural con amigas: inteligentes."
+        },
+        {
+          "id": "a1y8c2",
+          "incorrect": "Tenemos una casa pequeño.",
+          "answer": [
+            "Tenemos una casa pequeña."
+          ],
+          "explanation": "El adjetivo debe concordar en femenino con casa: pequeña."
+        }
+      ]
+    },
+    {
+      "id": "a1y8-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y8t1",
+          "prompt": "Describe tu casa o tu habitación con dos adjetivos.",
+          "explanation": "Guardado para tu propio repaso — recuerda hacer concordar los adjetivos en género y número."
+        }
+      ]
     }
   ],
   "summary": [

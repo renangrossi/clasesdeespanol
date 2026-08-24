@@ -208,6 +208,41 @@
           "explanation": "Yo que tú + condicional simple para dar un consejo."
         }
       ]
+    },
+    {
+      "id": "b1y4-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y4c1",
+          "incorrect": "Si tengo más dinero, viajaría más.",
+          "answer": [
+            "Si tuviera más dinero, viajaría más."
+          ],
+          "explanation": "Una condición hipotética en presente necesita el imperfecto de subjuntivo."
+        },
+        {
+          "id": "b1y4c2",
+          "incorrect": "Yo que tú hablo con ella.",
+          "answer": [
+            "Yo que tú, hablaría con ella."
+          ],
+          "explanation": "El consejo con yo que tú se expresa en condicional."
+        }
+      ]
+    },
+    {
+      "id": "b1y4-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y4t1",
+          "prompt": "Escribe una frase con \"yo que tú\" dando un consejo.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Yo que tú, aceptaría esa oferta.»"
+        }
+      ]
     }
   ],
   "summary": [

@@ -225,6 +225,41 @@
           "explanation": "Sujeto + adverbio + verbo reflexivo + complemento de lugar."
         }
       ]
+    },
+    {
+      "id": "a1y5-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y5c1",
+          "incorrect": "Yo soy yo cansado.",
+          "answer": [
+            "Estoy cansado."
+          ],
+          "explanation": "El pronombre de sujeto es redundante aquí; el verbo ya indica quién habla."
+        },
+        {
+          "id": "a1y5c2",
+          "incorrect": "Tú hablás español muy bien. (con pronombre tú)",
+          "answer": [
+            "Tú hablas español muy bien. / Vos hablás español muy bien."
+          ],
+          "explanation": "Tú y vos tienen formas verbales distintas y no se combinan entre sí."
+        }
+      ]
+    },
+    {
+      "id": "a1y5-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y5t1",
+          "prompt": "Escribe una frase con un pronombre de sujeto usado para dar énfasis o contraste.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Yo estudio, tú miras la televisión.»"
+        }
+      ]
     }
   ],
   "summary": [

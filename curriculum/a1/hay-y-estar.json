@@ -261,6 +261,41 @@
           "explanation": "El museo (ubicación conocida) + estar + complemento de lugar con al lado de."
         }
       ]
+    },
+    {
+      "id": "a1y11-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y11c1",
+          "incorrect": "Hay el parque cerca de aquí.",
+          "answer": [
+            "El parque está cerca de aquí. / Hay un parque cerca de aquí."
+          ],
+          "explanation": "Hay se usa con sustantivos no específicos; para algo ya identificado (el parque) se usa estar."
+        },
+        {
+          "id": "a1y11c2",
+          "incorrect": "En mi ciudad está muchos museos.",
+          "answer": [
+            "En mi ciudad hay muchos museos."
+          ],
+          "explanation": "Para expresar existencia de algo no específico se usa hay, no está."
+        }
+      ]
+    },
+    {
+      "id": "a1y11-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y11t1",
+          "prompt": "Escribe una frase con \"hay\" describiendo tu ciudad.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «En mi ciudad hay muchos parques.»"
+        }
+      ]
     }
   ],
   "summary": [

@@ -336,6 +336,41 @@
           "explanation": "Quiero + infinitivo + complemento + intensificador."
         }
       ]
+    },
+    {
+      "id": "pa6y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa6yc1",
+          "incorrect": "Yo tiene veinte años.",
+          "answer": [
+            "Yo tengo veinte años."
+          ],
+          "explanation": "Yo + tener = tengo, no tiene (que es la forma de él/ella)."
+        },
+        {
+          "id": "pa6yc2",
+          "incorrect": "A mí gusta el café.",
+          "answer": [
+            "A mí me gusta el café."
+          ],
+          "explanation": "Gustar necesita el pronombre me después de a mí."
+        }
+      ]
+    },
+    {
+      "id": "pa6y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa6yt1",
+          "prompt": "Escribe una frase con \"me gusta\" sobre algo que te gusta.",
+          "explanation": "Guardado para tu propio repaso — recuerda la estructura: me gusta + sustantivo (singular) o me gustan + sustantivo (plural)."
+        }
+      ]
     }
   ],
   "summary": [

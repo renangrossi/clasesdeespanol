@@ -1034,3 +1034,167 @@ EXTRA_EXERCISES = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_2 — segunda ronda (corrección y producción escrita
+# corta) fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_2 = {
+    "b1-perfecto-vs-indefinido-matices": [
+        {"id": "b1y1-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y1c1", "incorrect": "He nacido en 1995 en Madrid.", "answer": ["Nací en 1995 en Madrid."], "explanation": "Un año concreto como marcador cerrado siempre pide indefinido."},
+            {"id": "b1y1c2", "incorrect": "He viajado a Chile en 2015.", "answer": ["Viajé a Chile en 2015."], "explanation": "Un marcador de tiempo cerrado exige indefinido, sin importar la variedad regional."},
+         ]},
+        {"id": "b1y1-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y1t1", "prompt": "Escribe una frase sobre una experiencia de tu vida usando el perfecto compuesto.", "explanation": "Guardado para tu propio repaso — ejemplo: «He viajado a tres países distintos.»"},
+         ]},
+    ],
+    "b1-pluscuamperfecto": [
+        {"id": "b1y2-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y2c1", "incorrect": "Cuando llegué, la película ya empezó.", "answer": ["Cuando llegué, la película ya había empezado."], "explanation": "Un hecho anterior a otro hecho pasado necesita el pluscuamperfecto."},
+            {"id": "b1y2c2", "incorrect": "Habíamos escribido la carta antes de salir.", "answer": ["Habíamos escrito la carta antes de salir."], "explanation": "Escribir mantiene su participio irregular escrito también en el pluscuamperfecto."},
+         ]},
+        {"id": "b1y2-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y2t1", "prompt": "Escribe una frase con \"nunca antes había...\"", "explanation": "Guardado para tu propio repaso — ejemplo: «Nunca antes había visto una tormenta así.»"},
+         ]},
+    ],
+    "b1-futuro-compuesto-y-condicional-simple": [
+        {"id": "b1y3-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y3c1", "incorrect": "¿Puedrías ayudarme?", "answer": ["¿Podrías ayudarme?"], "explanation": "Poder usa la raíz irregular podr- también en condicional."},
+            {"id": "b1y3c2", "incorrect": "Para mañana, ya habré terminaré el proyecto.", "answer": ["Para mañana, ya habré terminado el proyecto."], "explanation": "El futuro compuesto necesita el participio, no otra forma conjugada."},
+         ]},
+        {"id": "b1y3-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y3t1", "prompt": "Escribe una petición cortés usando el condicional.", "explanation": "Guardado para tu propio repaso — ejemplo: «¿Podrías cerrar la ventana, por favor?»"},
+         ]},
+    ],
+    "b1-condicional-cortesia-e-hipotesis": [
+        {"id": "b1y4-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y4c1", "incorrect": "Si tengo más dinero, viajaría más.", "answer": ["Si tuviera más dinero, viajaría más."], "explanation": "Una condición hipotética en presente necesita el imperfecto de subjuntivo."},
+            {"id": "b1y4c2", "incorrect": "Yo que tú hablo con ella.", "answer": ["Yo que tú, hablaría con ella."], "explanation": "El consejo con yo que tú se expresa en condicional."},
+         ]},
+        {"id": "b1y4-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y4t1", "prompt": "Escribe una frase con \"yo que tú\" dando un consejo.", "explanation": "Guardado para tu propio repaso — ejemplo: «Yo que tú, aceptaría esa oferta.»"},
+         ]},
+    ],
+    "b1-imperativo-negativo-y-pronombres": [
+        {"id": "b1y5-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y5c1", "incorrect": "No hablas tan alto.", "answer": ["No hables tan alto."], "explanation": "El imperativo negativo de tú usa la forma del subjuntivo."},
+            {"id": "b1y5c2", "incorrect": "No hazlo ahora.", "answer": ["No lo hagas ahora."], "explanation": "En el imperativo negativo, el pronombre va antes del verbo."},
+         ]},
+        {"id": "b1y5-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y5t1", "prompt": "Escribe una instrucción negativa con \"no\" + subjuntivo.", "explanation": "Guardado para tu propio repaso — ejemplo: «No hables tan rápido, por favor.»"},
+         ]},
+    ],
+    "b1-subjuntivo-presente-formacion": [
+        {"id": "b1y6-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y6c1", "incorrect": "Espero que tienes razón.", "answer": ["Espero que tengas razón."], "explanation": "Esperar que necesita subjuntivo, no indicativo."},
+            {"id": "b1y6c2", "incorrect": "Quiero que él es feliz.", "answer": ["Quiero que él sea feliz."], "explanation": "Ser es totalmente irregular en subjuntivo: sea."},
+         ]},
+        {"id": "b1y6-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y6t1", "prompt": "Escribe un deseo usando \"espero que\" + subjuntivo.", "explanation": "Guardado para tu propio repaso — ejemplo: «Espero que tengas un buen día.»"},
+         ]},
+    ],
+    "b1-subjuntivo-deseo-duda-emocion": [
+        {"id": "b1y7-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y7c1", "incorrect": "Creo que él tenga razón.", "answer": ["Creo que él tiene razón."], "explanation": "Creer en afirmativo expresa certeza y pide indicativo."},
+            {"id": "b1y7c2", "incorrect": "Quiero que yo vaya al cine.", "answer": ["Quiero ir al cine."], "explanation": "Con un solo sujeto se usa el infinitivo, no que + subjuntivo."},
+         ]},
+        {"id": "b1y7-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y7t1", "prompt": "Escribe una frase con \"dudo que\" o \"me alegro de que\".", "explanation": "Guardado para tu propio repaso — ambas expresiones activan el subjuntivo."},
+         ]},
+    ],
+    "b1-voz-pasiva-y-pasiva-refleja": [
+        {"id": "b1y8-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y8c1", "incorrect": "Se vende pisos en esta zona.", "answer": ["Se venden pisos en esta zona."], "explanation": "El verbo debe concordar en plural con pisos."},
+            {"id": "b1y8c2", "incorrect": "El libro fue escribido por un autor famoso.", "answer": ["El libro fue escrito por un autor famoso."], "explanation": "El participio de escribir es escrito, también en la voz pasiva."},
+         ]},
+        {"id": "b1y8-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y8t1", "prompt": "Escribe un cartel usando la pasiva refleja con \"se\".", "explanation": "Guardado para tu propio repaso — ejemplo: «Se buscan camareros con experiencia.»"},
+         ]},
+    ],
+    "b1-estilo-indirecto-presente": [
+        {"id": "b1y9-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y9c1", "incorrect": "Me pregunta que si voy a la fiesta.", "answer": ["Me pregunta si voy a la fiesta."], "explanation": "Con preguntas de sí/no se usa solo si, sin añadir que."},
+            {"id": "b1y9c2", "incorrect": "Ella dice que \"está cansada\".", "answer": ["Ella dice que está cansada."], "explanation": "El estilo indirecto no usa comillas."},
+         ]},
+        {"id": "b1y9-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y9t1", "prompt": "Convierte a estilo indirecto: \"Estoy muy ocupado.\" (dicho por un amigo)", "answer": [["dice que está muy ocupado", "mi amigo dice que está muy ocupado"]], "explanation": "El presente en la cita se mantiene con el verbo introductor en presente."},
+         ]},
+    ],
+    "b1-pronombres-combinados": [
+        {"id": "b1y10-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y10c1", "incorrect": "Le lo di ayer por la tarde.", "answer": ["Se lo di ayer por la tarde."], "explanation": "Le se convierte en se antes de lo."},
+            {"id": "b1y10c2", "incorrect": "Lo te digo mañana.", "answer": ["Te lo digo mañana."], "explanation": "El orden fijo es objeto indirecto primero, directo después."},
+         ]},
+        {"id": "b1y10-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y10t1", "prompt": "Escribe una frase con \"se lo\" o \"me lo\".", "explanation": "Guardado para tu propio repaso — ejemplo: «Se lo expliqué todo ayer.»"},
+         ]},
+    ],
+    "b1-por-y-para": [
+        {"id": "b1y11-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y11c1", "incorrect": "Este regalo es por ti.", "answer": ["Este regalo es para ti."], "explanation": "El destinatario de algo siempre usa para."},
+            {"id": "b1y11c2", "incorrect": "Gracias para tu ayuda.", "answer": ["Gracias por tu ayuda."], "explanation": "Dar las gracias por un motivo usa por."},
+         ]},
+        {"id": "b1y11-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y11t1", "prompt": "Escribe una frase usando \"por\" para expresar una causa.", "explanation": "Guardado para tu propio repaso — ejemplo: «Llegué tarde por el tráfico.»"},
+         ]},
+    ],
+    "b1-oraciones-relativas": [
+        {"id": "b1y12-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y12c1", "incorrect": "La persona que trabajo es muy amable.", "answer": ["La persona con quien trabajo es muy amable."], "explanation": "Después de una preposición se prefiere quien para personas."},
+            {"id": "b1y12c2", "incorrect": "El pueblo que nací es muy pequeño.", "answer": ["El pueblo donde nací es muy pequeño."], "explanation": "Para lugares se usa donde, no que."},
+         ]},
+        {"id": "b1y12-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y12t1", "prompt": "Escribe una frase con \"donde\" describiendo un lugar importante para ti.", "explanation": "Guardado para tu propio repaso — ejemplo: «Este es el pueblo donde nací.»"},
+         ]},
+    ],
+    "b1-voseo-argentino-y-variedades": [
+        {"id": "b1y13-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y13c1", "incorrect": "Vos hablas muy bien español.", "answer": ["Vos hablás muy bien español."], "explanation": "El voseo tiene su propia conjugación, con tilde en la última vocal."},
+            {"id": "b1y13c2", "incorrect": "Vos eres de Argentina.", "answer": ["Vos sos de Argentina."], "explanation": "Ser es irregular en el voseo: sos, no eres."},
+         ]},
+        {"id": "b1y13-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y13t1", "prompt": "Escribe una frase usando el voseo argentino.", "explanation": "Guardado para tu propio repaso — ejemplo: «Vos tenés razón.»"},
+         ]},
+    ],
+    "b1-conectores-y-marcadores-del-discurso": [
+        {"id": "b1y14-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "b1y14c1", "incorrect": "En primero lugar, quiero hablar del presupuesto.", "answer": ["En primer lugar, quiero hablar del presupuesto."], "explanation": "La expresión fija es en primer lugar, sin la o final."},
+            {"id": "b1y14c2", "incorrect": "Por lo tanto no estudió, suspendió el examen.", "answer": ["No estudió; por lo tanto, suspendió el examen."], "explanation": "Por lo tanto introduce la consecuencia, debe ir después de la causa."},
+         ]},
+        {"id": "b1y14-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "b1y14t1", "prompt": "Escribe dos frases conectadas con \"sin embargo\".", "explanation": "Guardado para tu propio repaso — sin embargo introduce un contraste entre dos ideas."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))

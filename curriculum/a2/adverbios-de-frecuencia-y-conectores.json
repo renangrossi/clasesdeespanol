@@ -241,6 +241,41 @@
           "explanation": "Negación + verbo + objeto + porque (causa) + hecho puntual."
         }
       ]
+    },
+    {
+      "id": "a2y12-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y12c1",
+          "incorrect": "No siempre como carne.",
+          "answer": [
+            "Nunca como carne."
+          ],
+          "explanation": "\"No siempre\" significa \"a veces sí, a veces no\", un significado distinto de nunca."
+        },
+        {
+          "id": "a2y12c2",
+          "incorrect": "Llego tarde entonces hay mucho tráfico.",
+          "answer": [
+            "Llego tarde porque hay mucho tráfico."
+          ],
+          "explanation": "Porque introduce la causa; entonces introduce la consecuencia."
+        }
+      ]
+    },
+    {
+      "id": "a2y12-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y12t1",
+          "prompt": "Escribe una frase sobre tu rutina usando un adverbio de frecuencia.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Siempre desayuno antes de salir.»"
+        }
+      ]
     }
   ],
   "summary": [

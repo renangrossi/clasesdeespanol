@@ -596,3 +596,93 @@ EXTRA_EXERCISES = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_2 — segunda ronda (corrección y producción escrita
+# corta) fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_2 = {
+    "c2-sintaxis-compleja-y-subordinacion-multiple": [
+        {"id": "c2y1-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y1c1", "incorrect": "Me confesó que temía que se cancela todo.", "answer": ["Me confesó que temía que se cancelaría/cancelara todo."], "explanation": "La concordancia de tiempos exige retroceder el verbo según el verbo pasado que lo rige."},
+         ]},
+        {"id": "c2y1-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y1t1", "prompt": "Escribe una frase con dos niveles de subordinación (por ejemplo, una relativa dentro de una sustantiva).", "explanation": "Guardado para tu propio repaso — recuerda que cada subordinada obedece a su propio verbo regente."},
+         ]},
+    ],
+    "c2-registro-literario-y-recursos-estilisticos": [
+        {"id": "c2y2-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y2c1", "incorrect": "usar hipérbaton y léxico elevado en un correo de trabajo cotidiano", "answer": ["reservar estos recursos para el registro literario o ensayístico deliberado"], "explanation": "Fuera de un contexto literario, estos recursos suenan afectados."},
+         ]},
+        {"id": "c2y2-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y2t1", "prompt": "Escribe una frase corta usando una metáfora.", "explanation": "Guardado para tu propio repaso — recuerda que la metáfora identifica una cosa con otra sin usar «como»."},
+         ]},
+    ],
+    "c2-matices-lexicos-y-falsos-amigos-avanzados": [
+        {"id": "c2y3-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y3c1", "incorrect": "Estoy tan embarazada por lo que dije en la reunión.", "answer": ["Estoy tan avergonzada por lo que dije en la reunión."], "explanation": "Embarazada significa «esperando un bebé», no «avergonzada»."},
+         ]},
+        {"id": "c2y3-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y3t1", "prompt": "Escribe una frase usando \"actualmente\" con su significado correcto (ahora mismo).", "explanation": "Guardado para tu propio repaso — actualmente significa «en este momento», no «en realidad»."},
+         ]},
+    ],
+    "c2-variacion-regional": [
+        {"id": "c2y4-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y4c1", "incorrect": "pensar que existe un único «español correcto» y las demás son desviaciones", "answer": ["reconocer que todas las variedades regionales son igualmente válidas"], "explanation": "El español no tiene un único centro de prestigio."},
+         ]},
+        {"id": "c2y4-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y4t1", "prompt": "Escribe el mismo objeto en dos variantes regionales (por ejemplo, coche/carro/auto).", "explanation": "Guardado para tu propio repaso — el vocabulario varía mucho por región, sin que ninguna sea más correcta."},
+         ]},
+    ],
+    "c2-cohesion-textual-en-discurso-extenso": [
+        {"id": "c2y5-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y5c1", "incorrect": "Cuando Marcos habló con Luis, él le explicó el problema. (ambiguo)", "answer": ["Cuando Marcos habló con Luis, este último le explicó el problema."], "explanation": "El pronombre él es ambiguo entre los dos antecedentes; conviene precisar."},
+         ]},
+        {"id": "c2y5-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y5t1", "prompt": "Escribe dos frases donde la segunda retome un elemento de la primera (progresión temática).", "explanation": "Guardado para tu propio repaso — la información nueva de una frase se convierte en el tema conocido de la siguiente."},
+         ]},
+    ],
+    "c2-modalidad-y-atenuacion-en-discurso-formal": [
+        {"id": "c2y6-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y6c1", "incorrect": "Este argumento está completamente equivocado. (en una revisión académica)", "answer": ["Cabría reconsiderar algunos aspectos de este argumento."], "explanation": "En un registro académico formal, una crítica tajante suele atenuarse."},
+         ]},
+        {"id": "c2y6-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y6t1", "prompt": "Escribe una crítica atenuada usando \"cabría\" o \"convendría\".", "explanation": "Guardado para tu propio repaso — la atenuación matiza el tono sin ocultar la opinión de fondo."},
+         ]},
+    ],
+    "c2-estructuras-arcaicas-o-literarias": [
+        {"id": "c2y7-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y7c1", "incorrect": "confundir el vos reverencial clásico con el voseo moderno argentino", "answer": ["distinguir ambos usos, de siglos y funciones completamente distintas"], "explanation": "Comparten la forma pero no la función histórica ni social."},
+         ]},
+        {"id": "c2y7-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y7t1", "prompt": "Escribe qué significa el arcaísmo \"maguer\".", "answer": [["aunque"]], "explanation": "Maguer es un arcaísmo que significa «aunque»."},
+         ]},
+    ],
+    "c2-dominio-del-registro-y-transformacion-estilistica": [
+        {"id": "c2y8-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c2y8c1", "incorrect": "Estimado señor: oye, necesito que me ayudes con esto.", "answer": ["Estimado señor: le escribo para solicitar su ayuda con este asunto."], "explanation": "Mezclar una fórmula formal con trato informal rompe la coherencia del registro."},
+         ]},
+        {"id": "c2y8-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c2y8t1", "prompt": "Reescribe en registro formal: \"Al final no nos dieron el trabajo, una pena.\"", "explanation": "Guardado para tu propio repaso — un registro formal evitaría muletillas y usaría vocabulario más preciso."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))

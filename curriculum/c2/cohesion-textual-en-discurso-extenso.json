@@ -187,6 +187,33 @@
           "explanation": "Dicha (mecanismo de cohesión) + sustantivo + verbo reflexivo + complemento."
         }
       ]
+    },
+    {
+      "id": "c2y5-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y5c1",
+          "incorrect": "Cuando Marcos habló con Luis, él le explicó el problema. (ambiguo)",
+          "answer": [
+            "Cuando Marcos habló con Luis, este último le explicó el problema."
+          ],
+          "explanation": "El pronombre él es ambiguo entre los dos antecedentes; conviene precisar."
+        }
+      ]
+    },
+    {
+      "id": "c2y5-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y5t1",
+          "prompt": "Escribe dos frases donde la segunda retome un elemento de la primera (progresión temática).",
+          "explanation": "Guardado para tu propio repaso — la información nueva de una frase se convierte en el tema conocido de la siguiente."
+        }
+      ]
     }
   ],
   "summary": [

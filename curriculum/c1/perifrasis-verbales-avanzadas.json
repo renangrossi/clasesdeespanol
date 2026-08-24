@@ -295,6 +295,33 @@
           "explanation": "Deber de + infinitivo, suposición sobre un estado presente."
         }
       ]
+    },
+    {
+      "id": "c1y7-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y7c1",
+          "incorrect": "Debo haber una razón detrás de esto.",
+          "answer": [
+            "Debe de haber una razón detrás de esto."
+          ],
+          "explanation": "Deber de + infinitivo expresa una suposición; el sujeto es impersonal (debe, no debo)."
+        }
+      ]
+    },
+    {
+      "id": "c1y7-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y7t1",
+          "prompt": "Escribe una suposición usando \"debe de + infinitivo\".",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Debe de estar muy cansado hoy.»"
+        }
+      ]
     }
   ],
   "summary": [

@@ -299,6 +299,40 @@
           "explanation": "Fórmula de cortesía formal fija, común al cierre de correos profesionales."
         }
       ]
+    },
+    {
+      "id": "c1y10-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y10c1",
+          "incorrect": "Hola, quería pedirte información sobre el puesto. (correo formal a un desconocido)",
+          "answer": [
+            "Estimado/a señor/a: Le escribo para solicitar información sobre el puesto."
+          ],
+          "explanation": "Un correo formal a un desconocido necesita fórmula de apertura formal y el verbo solicitar."
+        }
+      ]
+    },
+    {
+      "id": "c1y10-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y10t1",
+          "prompt": "Escribe la fórmula de cierre de un correo profesional formal.",
+          "answer": [
+            [
+              "quedo a su entera disposición",
+              "sin otro particular, les saluda atentamente",
+              "atentamente"
+            ]
+          ],
+          "explanation": "Estas fórmulas de cierre son propias del registro profesional formal."
+        }
+      ]
     }
   ],
   "summary": [

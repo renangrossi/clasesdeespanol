@@ -212,6 +212,41 @@
           "explanation": "Nunca antes + pluscuamperfecto para expresar una experiencia anterior a un punto pasado."
         }
       ]
+    },
+    {
+      "id": "b1y2-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y2c1",
+          "incorrect": "Cuando llegué, la película ya empezó.",
+          "answer": [
+            "Cuando llegué, la película ya había empezado."
+          ],
+          "explanation": "Un hecho anterior a otro hecho pasado necesita el pluscuamperfecto."
+        },
+        {
+          "id": "b1y2c2",
+          "incorrect": "Habíamos escribido la carta antes de salir.",
+          "answer": [
+            "Habíamos escrito la carta antes de salir."
+          ],
+          "explanation": "Escribir mantiene su participio irregular escrito también en el pluscuamperfecto."
+        }
+      ]
+    },
+    {
+      "id": "b1y2-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y2t1",
+          "prompt": "Escribe una frase con \"nunca antes había...\"",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Nunca antes había visto una tormenta así.»"
+        }
+      ]
     }
   ],
   "summary": [

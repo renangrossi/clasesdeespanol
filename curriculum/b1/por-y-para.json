@@ -233,6 +233,41 @@
           "explanation": "Verbo + por (a través de un lugar) + complemento + duración."
         }
       ]
+    },
+    {
+      "id": "b1y11-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y11c1",
+          "incorrect": "Este regalo es por ti.",
+          "answer": [
+            "Este regalo es para ti."
+          ],
+          "explanation": "El destinatario de algo siempre usa para."
+        },
+        {
+          "id": "b1y11c2",
+          "incorrect": "Gracias para tu ayuda.",
+          "answer": [
+            "Gracias por tu ayuda."
+          ],
+          "explanation": "Dar las gracias por un motivo usa por."
+        }
+      ]
+    },
+    {
+      "id": "b1y11-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y11t1",
+          "prompt": "Escribe una frase usando \"por\" para expresar una causa.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Llegué tarde por el tráfico.»"
+        }
+      ]
     }
   ],
   "summary": [

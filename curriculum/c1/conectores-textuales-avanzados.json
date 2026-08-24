@@ -284,6 +284,33 @@
           "explanation": "Expresión de certeza + de que + indicativo."
         }
       ]
+    },
+    {
+      "id": "c1y6-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y6c1",
+          "incorrect": "No cabe duda que ella tiene razón.",
+          "answer": [
+            "No cabe duda de que ella tiene razón."
+          ],
+          "explanation": "No cabe duda siempre necesita la preposición de antes de que."
+        }
+      ]
+    },
+    {
+      "id": "c1y6-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y6t1",
+          "prompt": "Escribe una frase usando \"en definitiva\" para cerrar una idea.",
+          "explanation": "Guardado para tu propio repaso — en definitiva resume o concluye un argumento."
+        }
+      ]
     }
   ],
   "summary": [

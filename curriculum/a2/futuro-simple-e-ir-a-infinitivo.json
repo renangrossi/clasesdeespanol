@@ -242,6 +242,41 @@
           "explanation": "Ir (presente) + a + infinitivo + complemento de lugar."
         }
       ]
+    },
+    {
+      "id": "a2y6-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y6c1",
+          "incorrect": "Yo teneré una reunión mañana.",
+          "answer": [
+            "Yo tendré una reunión mañana."
+          ],
+          "explanation": "Tener tiene raíz irregular en futuro: tendr-."
+        },
+        {
+          "id": "a2y6c2",
+          "incorrect": "Voy a hablo con mi jefe.",
+          "answer": [
+            "Voy a hablar con mi jefe."
+          ],
+          "explanation": "Ir + a siempre va seguido de infinitivo, nunca de una forma conjugada."
+        }
+      ]
+    },
+    {
+      "id": "a2y6-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y6t1",
+          "prompt": "Escribe un plan para el próximo fin de semana usando \"voy a\".",
+          "explanation": "Guardado para tu propio repaso — ir a + infinitivo expresa planes cercanos."
+        }
+      ]
     }
   ],
   "summary": [

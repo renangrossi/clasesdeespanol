@@ -208,6 +208,33 @@
           "explanation": "Sentirse + avergonzado (no embarazado) + causa."
         }
       ]
+    },
+    {
+      "id": "c2y3-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y3c1",
+          "incorrect": "Estoy tan embarazada por lo que dije en la reunión.",
+          "answer": [
+            "Estoy tan avergonzada por lo que dije en la reunión."
+          ],
+          "explanation": "Embarazada significa «esperando un bebé», no «avergonzada»."
+        }
+      ]
+    },
+    {
+      "id": "c2y3-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y3t1",
+          "prompt": "Escribe una frase usando \"actualmente\" con su significado correcto (ahora mismo).",
+          "explanation": "Guardado para tu propio repaso — actualmente significa «en este momento», no «en realidad»."
+        }
+      ]
     }
   ],
   "summary": [

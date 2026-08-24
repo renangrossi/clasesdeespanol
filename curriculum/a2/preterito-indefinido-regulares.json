@@ -252,6 +252,41 @@
           "explanation": "Sujeto + comprar (ellos, indefinido) + objeto + adverbio de lugar."
         }
       ]
+    },
+    {
+      "id": "a2y2-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y2c1",
+          "incorrect": "Nosotros hablastemos con el profesor.",
+          "answer": [
+            "Nosotros hablamos con el profesor."
+          ],
+          "explanation": "La forma de nosotros en indefinido es hablamos, no hablastemos."
+        },
+        {
+          "id": "a2y2c2",
+          "incorrect": "Ellos viviaron en Madrid.",
+          "answer": [
+            "Ellos vivieron en Madrid."
+          ],
+          "explanation": "Los verbos en -ir usan -ieron en la tercera persona plural, no -iaron."
+        }
+      ]
+    },
+    {
+      "id": "a2y2-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y2t1",
+          "prompt": "Escribe una frase con un verbo regular en pretérito indefinido sobre ayer.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Ayer trabajé hasta las seis.»"
+        }
+      ]
     }
   ],
   "summary": [

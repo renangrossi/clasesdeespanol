@@ -243,6 +243,41 @@
           "explanation": "Imperativo afirmativo + objetos + expresión de tiempo."
         }
       ]
+    },
+    {
+      "id": "a2y11-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y11c1",
+          "incorrect": "Pone la mesa, por favor.",
+          "answer": [
+            "Pon la mesa, por favor."
+          ],
+          "explanation": "Poner tiene imperativo de tú irregular: pon, no pone."
+        },
+        {
+          "id": "a2y11c2",
+          "incorrect": "Hace la tarea ahora mismo.",
+          "answer": [
+            "Haz la tarea ahora mismo."
+          ],
+          "explanation": "Hacer tiene imperativo de tú irregular: haz, no hace."
+        }
+      ]
+    },
+    {
+      "id": "a2y11-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y11t1",
+          "prompt": "Escribe una instrucción usando el imperativo afirmativo de tú.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Abre la ventana, por favor.»"
+        }
+      ]
     }
   ],
   "summary": [

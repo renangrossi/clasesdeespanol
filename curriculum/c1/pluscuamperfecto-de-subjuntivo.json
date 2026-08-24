@@ -301,6 +301,41 @@
           "explanation": "Ojalá + pluscuamperfecto de subjuntivo expresa un arrepentimiento sobre el pasado."
         }
       ]
+    },
+    {
+      "id": "c1y1-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y1c1",
+          "incorrect": "Si había estudiado más, habría aprobado.",
+          "answer": [
+            "Si hubiera estudiado más, habría aprobado."
+          ],
+          "explanation": "La prótasis exige pluscuamperfecto de subjuntivo, no de indicativo."
+        },
+        {
+          "id": "c1y1c2",
+          "incorrect": "Ojalá haya sabido la verdad antes.",
+          "answer": [
+            "Ojalá hubiera sabido la verdad antes."
+          ],
+          "explanation": "Un deseo irrealizable sobre el pasado requiere pluscuamperfecto de subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "c1y1-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y1t1",
+          "prompt": "Escribe una frase con \"ojalá hubiera...\" expresando un arrepentimiento.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Ojalá hubiera llegado a tiempo.»"
+        }
+      ]
     }
   ],
   "summary": [

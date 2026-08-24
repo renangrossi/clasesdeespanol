@@ -313,6 +313,41 @@
           "explanation": "Hay (existencia) + objeto + complemento de lugar."
         }
       ]
+    },
+    {
+      "id": "pa5y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa5yc1",
+          "incorrect": "Mi madre es alto.",
+          "answer": [
+            "Mi madre es alta."
+          ],
+          "explanation": "El adjetivo debe concordar en género con madre (femenino): alta, no alto."
+        },
+        {
+          "id": "pa5yc2",
+          "incorrect": "En la sala hay un mesa.",
+          "answer": [
+            "En la sala hay una mesa."
+          ],
+          "explanation": "Mesa es femenina: una mesa, no un mesa."
+        }
+      ]
+    },
+    {
+      "id": "pa5y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa5yt1",
+          "prompt": "Describe a una persona de tu familia en una frase corta.",
+          "explanation": "Guardado para tu propio repaso — recuerda hacer concordar el adjetivo con el género de la persona."
+        }
+      ]
     }
   ],
   "summary": [

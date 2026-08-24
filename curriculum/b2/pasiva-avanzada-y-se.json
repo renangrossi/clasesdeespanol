@@ -228,6 +228,41 @@
           "explanation": "Se + pronombre + verbo concordado con la leche (singular)."
         }
       ]
+    },
+    {
+      "id": "b2y7-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y7c1",
+          "incorrect": "Me rompí el vaso.",
+          "answer": [
+            "Se me rompió el vaso."
+          ],
+          "explanation": "Para presentar un hecho como accidental se usa se + pronombre indirecto."
+        },
+        {
+          "id": "b2y7c2",
+          "incorrect": "Se me rompieron el vaso.",
+          "answer": [
+            "Se me rompió el vaso."
+          ],
+          "explanation": "El verbo debe concordar con lo que sucede (el vaso, singular)."
+        }
+      ]
+    },
+    {
+      "id": "b2y7-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y7t1",
+          "prompt": "Escribe una frase con \"se me\" describiendo algo accidental.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Se me olvidaron las llaves.»"
+        }
+      ]
     }
   ],
   "summary": [

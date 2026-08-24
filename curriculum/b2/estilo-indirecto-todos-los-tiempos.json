@@ -221,6 +221,47 @@
           "explanation": "Imperativo en estilo indirecto pasado se convierte en imperfecto de subjuntivo."
         }
       ]
+    },
+    {
+      "id": "b2y8-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y8c1",
+          "incorrect": "Me dijo que está cansada.",
+          "answer": [
+            "Me dijo que estaba cansada."
+          ],
+          "explanation": "Con el verbo introductor en pasado, el presente retrocede a imperfecto."
+        },
+        {
+          "id": "b2y8c2",
+          "incorrect": "Me pidió que cierre la puerta.",
+          "answer": [
+            "Me pidió que cerrara la puerta."
+          ],
+          "explanation": "Un imperativo en estilo indirecto pasado se convierte en imperfecto de subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b2y8-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y8t1",
+          "prompt": "Convierte a estilo indirecto pasado: \"Vivo en Sevilla.\" (dicho por Ana)",
+          "answer": [
+            [
+              "dijo que vivía en sevilla",
+              "ana dijo que vivía en sevilla"
+            ]
+          ],
+          "explanation": "El presente en la cita retrocede a imperfecto."
+        }
+      ]
     }
   ],
   "summary": [

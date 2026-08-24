@@ -223,6 +223,41 @@
           "explanation": "No + pronombre reflexivo + subjuntivo + complemento."
         }
       ]
+    },
+    {
+      "id": "b1y5-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y5c1",
+          "incorrect": "No hablas tan alto.",
+          "answer": [
+            "No hables tan alto."
+          ],
+          "explanation": "El imperativo negativo de tú usa la forma del subjuntivo."
+        },
+        {
+          "id": "b1y5c2",
+          "incorrect": "No hazlo ahora.",
+          "answer": [
+            "No lo hagas ahora."
+          ],
+          "explanation": "En el imperativo negativo, el pronombre va antes del verbo."
+        }
+      ]
+    },
+    {
+      "id": "b1y5-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y5t1",
+          "prompt": "Escribe una instrucción negativa con \"no\" + subjuntivo.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «No hables tan rápido, por favor.»"
+        }
+      ]
     }
   ],
   "summary": [

@@ -208,6 +208,33 @@
           "explanation": "Sujeto + ser + adjetivo + complemento de lugar."
         }
       ]
+    },
+    {
+      "id": "c2y4-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c2y4c1",
+          "incorrect": "pensar que existe un único «español correcto» y las demás son desviaciones",
+          "answer": [
+            "reconocer que todas las variedades regionales son igualmente válidas"
+          ],
+          "explanation": "El español no tiene un único centro de prestigio."
+        }
+      ]
+    },
+    {
+      "id": "c2y4-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c2y4t1",
+          "prompt": "Escribe el mismo objeto en dos variantes regionales (por ejemplo, coche/carro/auto).",
+          "explanation": "Guardado para tu propio repaso — el vocabulario varía mucho por región, sin que ninguna sea más correcta."
+        }
+      ]
     }
   ],
   "summary": [

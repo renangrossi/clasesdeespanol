@@ -724,3 +724,101 @@ EXTRA_EXERCISES = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_2 — segunda ronda de bloques adicionales (corrección
+# y producción escrita/oral corta) fusionados en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_2 = {
+    "pre-a1-el-alfabeto-y-los-sonidos": [
+        {"id": "pa1y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa1yc1", "incorrect": "El sonido de la h en \"hola\" es fuerte.", "answer": ["El sonido de la h en \"hola\" no existe. / La h en \"hola\" es muda."], "explanation": "La h nunca se pronuncia en español, en ninguna palabra."},
+            {"id": "pa1yc2", "incorrect": "La palabra \"perro\" se pronuncia con una r suave.", "answer": ["La palabra \"perro\" se pronuncia con una r fuerte y vibrante."], "explanation": "La rr doble siempre tiene el sonido fuerte y vibrante."},
+         ]},
+        {"id": "pa1y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa1yt1", "prompt": "Escribe una palabra en español que tenga la letra ñ.", "answer": [["año", "niño", "español", "mañana", "señor", "muñeca"]], "explanation": "Cualquier palabra con ñ es correcta; año, niño y español son ejemplos muy comunes."},
+         ]},
+    ],
+    "pre-a1-saludos-y-presentaciones": [
+        {"id": "pa2y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa2yc1", "incorrect": "Yo llamo Marta.", "answer": ["Yo me llamo Marta."], "explanation": "Llamarse es un verbo reflexivo; siempre necesita el pronombre me/te/se."},
+            {"id": "pa2yc2", "incorrect": "Mucho gusto de conocerte tú.", "answer": ["Mucho gusto de conocerte."], "explanation": "El pronombre tú es innecesario después de conocerte, que ya incluye el pronombre te."},
+         ]},
+        {"id": "pa2y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa2yt1", "prompt": "Escribe cómo te presentas a alguien nuevo, usando \"me llamo\".", "explanation": "Guardado para tu propio repaso — compara tu frase con: «Hola, me llamo... Mucho gusto.»"},
+         ]},
+    ],
+    "pre-a1-numeros-hora-y-fecha": [
+        {"id": "pa3y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa3yc1", "incorrect": "Es las tres de la tarde.", "answer": ["Son las tres de la tarde."], "explanation": "Para dar la hora en plural se usa son, no es."},
+            {"id": "pa3yc2", "incorrect": "Hoy es en martes.", "answer": ["Hoy es martes."], "explanation": "Para decir el día de la semana no se usa la preposición en con el verbo ser."},
+         ]},
+        {"id": "pa3y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa3yt1", "prompt": "Escribe la fecha de hoy en español (día, mes).", "explanation": "Guardado para tu propio repaso — recuerda el formato: hoy es el [número] de [mes]."},
+         ]},
+    ],
+    "pre-a1-vocabulario-de-clase-y-estudio": [
+        {"id": "pa4y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa4yc1", "incorrect": "Necesito un goma para borrar.", "answer": ["Necesito una goma para borrar."], "explanation": "Goma es femenina: una goma, no un goma."},
+            {"id": "pa4yc2", "incorrect": "La profesora escribe en el pizarra.", "answer": ["La profesora escribe en la pizarra."], "explanation": "Pizarra es femenina: la pizarra, no el pizarra."},
+         ]},
+        {"id": "pa4y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa4yt1", "prompt": "Escribe tres objetos que tienes en tu mochila.", "explanation": "Guardado para tu propio repaso — usa el vocabulario de esta lección: cuaderno, lápiz, libro, goma..."},
+         ]},
+    ],
+    "pre-a1-personas-y-objetos-cotidianos": [
+        {"id": "pa5y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa5yc1", "incorrect": "Mi madre es alto.", "answer": ["Mi madre es alta."], "explanation": "El adjetivo debe concordar en género con madre (femenino): alta, no alto."},
+            {"id": "pa5yc2", "incorrect": "En la sala hay un mesa.", "answer": ["En la sala hay una mesa."], "explanation": "Mesa es femenina: una mesa, no un mesa."},
+         ]},
+        {"id": "pa5y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa5yt1", "prompt": "Describe a una persona de tu familia en una frase corta.", "explanation": "Guardado para tu propio repaso — recuerda hacer concordar el adjetivo con el género de la persona."},
+         ]},
+    ],
+    "pre-a1-verbos-basicos-ser-tener-querer-gustar": [
+        {"id": "pa6y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa6yc1", "incorrect": "Yo tiene veinte años.", "answer": ["Yo tengo veinte años."], "explanation": "Yo + tener = tengo, no tiene (que es la forma de él/ella)."},
+            {"id": "pa6yc2", "incorrect": "A mí gusta el café.", "answer": ["A mí me gusta el café."], "explanation": "Gustar necesita el pronombre me después de a mí."},
+         ]},
+        {"id": "pa6y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa6yt1", "prompt": "Escribe una frase con \"me gusta\" sobre algo que te gusta.", "explanation": "Guardado para tu propio repaso — recuerda la estructura: me gusta + sustantivo (singular) o me gustan + sustantivo (plural)."},
+         ]},
+    ],
+    "pre-a1-pronombres-de-sujeto-y-ser-estar": [
+        {"id": "pa7y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa7yc1", "incorrect": "Nosotros es estudiantes.", "answer": ["Nosotros somos estudiantes."], "explanation": "Nosotros + ser = somos, no es (que es la forma de él/ella)."},
+            {"id": "pa7yc2", "incorrect": "Ella está profesora.", "answer": ["Ella es profesora."], "explanation": "La profesión describe identidad, no un estado temporal: se usa ser, no estar."},
+         ]},
+        {"id": "pa7y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa7yt1", "prompt": "Escribe una frase con \"estoy\" sobre cómo te sientes hoy.", "explanation": "Guardado para tu propio repaso — estoy + adjetivo describe un estado temporal."},
+         ]},
+    ],
+    "pre-a1-lectura-y-escucha-de-supervivencia": [
+        {"id": "pa8y-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "pa8yc1", "incorrect": "¿Dónde es el baño?", "answer": ["¿Dónde está el baño?"], "explanation": "La ubicación de un lugar u objeto siempre usa estar, no ser."},
+            {"id": "pa8yc2", "incorrect": "Muchas gracias por tu ayuda tuyo.", "answer": ["Muchas gracias por tu ayuda."], "explanation": "El posesivo tuyo es innecesario después de tu, que ya expresa posesión."},
+         ]},
+        {"id": "pa8y-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "pa8yt1", "prompt": "Escribe cómo pedirías ayuda para encontrar el baño en la calle.", "explanation": "Guardado para tu propio repaso — compara con: «Disculpe, ¿dónde está el baño?»"},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))

@@ -259,6 +259,41 @@
           "explanation": "Pronombre + interesar (plural, concuerda con películas) + adverbio + sustantivo plural."
         }
       ]
+    },
+    {
+      "id": "a1y14-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y14c1",
+          "incorrect": "Me gusta los libros de misterio.",
+          "answer": [
+            "Me gustan los libros de misterio."
+          ],
+          "explanation": "Gustar concuerda con lo que gusta: libros es plural, así que gustan."
+        },
+        {
+          "id": "a1y14c2",
+          "incorrect": "Yo gusto el chocolate.",
+          "answer": [
+            "Me gusta el chocolate."
+          ],
+          "explanation": "Gustar requiere el pronombre de objeto indirecto me; el sujeto gramatical es el chocolate."
+        }
+      ]
+    },
+    {
+      "id": "a1y14-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y14t1",
+          "prompt": "Escribe una frase con \"me encanta\" o \"me encantan\".",
+          "explanation": "Guardado para tu propio repaso — encanta (singular) o encantan (plural), según lo que sigue."
+        }
+      ]
     }
   ],
   "summary": [

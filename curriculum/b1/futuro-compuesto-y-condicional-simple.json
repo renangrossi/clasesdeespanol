@@ -224,6 +224,41 @@
           "explanation": "Condicional simple para una petición cortés + infinitivo + complemento."
         }
       ]
+    },
+    {
+      "id": "b1y3-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y3c1",
+          "incorrect": "¿Puedrías ayudarme?",
+          "answer": [
+            "¿Podrías ayudarme?"
+          ],
+          "explanation": "Poder usa la raíz irregular podr- también en condicional."
+        },
+        {
+          "id": "b1y3c2",
+          "incorrect": "Para mañana, ya habré terminaré el proyecto.",
+          "answer": [
+            "Para mañana, ya habré terminado el proyecto."
+          ],
+          "explanation": "El futuro compuesto necesita el participio, no otra forma conjugada."
+        }
+      ]
+    },
+    {
+      "id": "b1y3-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y3t1",
+          "prompt": "Escribe una petición cortés usando el condicional.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «¿Podrías cerrar la ventana, por favor?»"
+        }
+      ]
     }
   ],
   "summary": [

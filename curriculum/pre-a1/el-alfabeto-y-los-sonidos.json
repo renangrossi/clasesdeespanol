@@ -324,6 +324,51 @@
           "explanation": "Estructura típica para nombrar a una mascota: sujeto + se llama + nombre."
         }
       ]
+    },
+    {
+      "id": "pa1y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa1yc1",
+          "incorrect": "El sonido de la h en \"hola\" es fuerte.",
+          "answer": [
+            "El sonido de la h en \"hola\" no existe. / La h en \"hola\" es muda."
+          ],
+          "explanation": "La h nunca se pronuncia en español, en ninguna palabra."
+        },
+        {
+          "id": "pa1yc2",
+          "incorrect": "La palabra \"perro\" se pronuncia con una r suave.",
+          "answer": [
+            "La palabra \"perro\" se pronuncia con una r fuerte y vibrante."
+          ],
+          "explanation": "La rr doble siempre tiene el sonido fuerte y vibrante."
+        }
+      ]
+    },
+    {
+      "id": "pa1y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa1yt1",
+          "prompt": "Escribe una palabra en español que tenga la letra ñ.",
+          "answer": [
+            [
+              "año",
+              "niño",
+              "español",
+              "mañana",
+              "señor",
+              "muñeca"
+            ]
+          ],
+          "explanation": "Cualquier palabra con ñ es correcta; año, niño y español son ejemplos muy comunes."
+        }
+      ]
     }
   ],
   "summary": [

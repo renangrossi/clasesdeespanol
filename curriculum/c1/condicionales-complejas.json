@@ -320,6 +320,33 @@
           "explanation": "Condicional mixta: prótasis pasada, consecuencia en presente con condicional simple."
         }
       ]
+    },
+    {
+      "id": "c1y2-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y2c1",
+          "incorrect": "Si fueras más paciente, habrías conseguido el trabajo.",
+          "answer": [
+            "Si hubieras sido más paciente, habrías conseguido el trabajo."
+          ],
+          "explanation": "La apódosis en condicional compuesto exige pluscuamperfecto de subjuntivo en la prótasis."
+        }
+      ]
+    },
+    {
+      "id": "c1y2-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y2t1",
+          "prompt": "Escribe una condicional mixta (prótasis pasada, consecuencia presente).",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Si no hubiera aceptado ese trabajo, ahora viviría en otra ciudad.»"
+        }
+      ]
     }
   ],
   "summary": [

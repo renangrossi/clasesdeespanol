@@ -816,3 +816,114 @@ EXTRA_EXERCISES = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_2 — segunda ronda (corrección y producción escrita
+# corta) fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_2 = {
+    "c1-pluscuamperfecto-de-subjuntivo": [
+        {"id": "c1y1-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y1c1", "incorrect": "Si había estudiado más, habría aprobado.", "answer": ["Si hubiera estudiado más, habría aprobado."], "explanation": "La prótasis exige pluscuamperfecto de subjuntivo, no de indicativo."},
+            {"id": "c1y1c2", "incorrect": "Ojalá haya sabido la verdad antes.", "answer": ["Ojalá hubiera sabido la verdad antes."], "explanation": "Un deseo irrealizable sobre el pasado requiere pluscuamperfecto de subjuntivo."},
+         ]},
+        {"id": "c1y1-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y1t1", "prompt": "Escribe una frase con \"ojalá hubiera...\" expresando un arrepentimiento.", "explanation": "Guardado para tu propio repaso — ejemplo: «Ojalá hubiera llegado a tiempo.»"},
+         ]},
+    ],
+    "c1-condicionales-complejas": [
+        {"id": "c1y2-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y2c1", "incorrect": "Si fueras más paciente, habrías conseguido el trabajo.", "answer": ["Si hubieras sido más paciente, habrías conseguido el trabajo."], "explanation": "La apódosis en condicional compuesto exige pluscuamperfecto de subjuntivo en la prótasis."},
+         ]},
+        {"id": "c1y2-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y2t1", "prompt": "Escribe una condicional mixta (prótasis pasada, consecuencia presente).", "explanation": "Guardado para tu propio repaso — ejemplo: «Si no hubiera aceptado ese trabajo, ahora viviría en otra ciudad.»"},
+         ]},
+    ],
+    "c1-matices-del-subjuntivo": [
+        {"id": "c1y3-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y3c1", "incorrect": "No veo que estás listo para esto.", "answer": ["No veo que estés listo para esto."], "explanation": "La negación de un verbo de percepción exige subjuntivo."},
+         ]},
+        {"id": "c1y3-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y3t1", "prompt": "Escribe una frase con \"no creo que\" + subjuntivo.", "explanation": "Guardado para tu propio repaso — negar creer elimina la certeza y exige subjuntivo."},
+         ]},
+    ],
+    "c1-construcciones-enfaticas": [
+        {"id": "c1y4-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y4c1", "incorrect": "Lo que necesito son más tiempo.", "answer": ["Lo que necesito es más tiempo."], "explanation": "El verbo ser concuerda con lo que sigue (más tiempo, singular): es, no son."},
+         ]},
+        {"id": "c1y4-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y4t1", "prompt": "Escribe una construcción enfática con \"lo que... es que...\".", "explanation": "Guardado para tu propio repaso — ejemplo: «Lo que realmente me molestó fue el tono.»"},
+         ]},
+    ],
+    "c1-nominalizacion-y-estilo-academico": [
+        {"id": "c1y5-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y5c1", "incorrect": "El gobierno decidió de reducir el presupuesto.", "answer": ["El gobierno decidió reducir el presupuesto."], "explanation": "Decidir + infinitivo no necesita la preposición de."},
+         ]},
+        {"id": "c1y5-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y5t1", "prompt": "Escribe una frase académica usando una nominalización (por ejemplo, \"la implementación\").", "explanation": "Guardado para tu propio repaso — ejemplo: «La implementación de esta política requiere una evaluación cuidadosa.»"},
+         ]},
+    ],
+    "c1-conectores-textuales-avanzados": [
+        {"id": "c1y6-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y6c1", "incorrect": "No cabe duda que ella tiene razón.", "answer": ["No cabe duda de que ella tiene razón."], "explanation": "No cabe duda siempre necesita la preposición de antes de que."},
+         ]},
+        {"id": "c1y6-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y6t1", "prompt": "Escribe una frase usando \"en definitiva\" para cerrar una idea.", "explanation": "Guardado para tu propio repaso — en definitiva resume o concluye un argumento."},
+         ]},
+    ],
+    "c1-perifrasis-verbales-avanzadas": [
+        {"id": "c1y7-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y7c1", "incorrect": "Debo haber una razón detrás de esto.", "answer": ["Debe de haber una razón detrás de esto."], "explanation": "Deber de + infinitivo expresa una suposición; el sujeto es impersonal (debe, no debo)."},
+         ]},
+        {"id": "c1y7-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y7t1", "prompt": "Escribe una suposición usando \"debe de + infinitivo\".", "explanation": "Guardado para tu propio repaso — ejemplo: «Debe de estar muy cansado hoy.»"},
+         ]},
+    ],
+    "c1-voseo-ustedeo-y-variacion-dialectal": [
+        {"id": "c1y8-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y8c1", "incorrect": "El ustedeo es exactamente lo mismo que el voseo.", "answer": ["El ustedeo y el voseo son fenómenos distintos de variación dialectal."], "explanation": "El ustedeo usa usted en contextos cercanos; el voseo usa vos en vez de tú."},
+         ]},
+        {"id": "c1y8-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y8t1", "prompt": "Escribe una frase que use el ustedeo (usted con alguien cercano).", "explanation": "Guardado para tu propio repaso — ejemplo: «Usted sabe mejor que nadie.»"},
+         ]},
+    ],
+    "c1-ironia-atenuacion-y-cortesia": [
+        {"id": "c1y9-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y9c1", "incorrect": "Cabría reconsiderar esta parte del plan. (mal etiquetado como afirmación tajante)", "answer": ["Cabría reconsiderar esta parte del plan. (correcto: forma atenuada de sugerencia)"], "explanation": "Cabría + infinitivo es precisamente una forma atenuada, apropiada para sugerir sin imponer."},
+         ]},
+        {"id": "c1y9-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y9t1", "prompt": "Escribe un comentario irónico (donde el sentido literal se contradice con el contexto).", "explanation": "Guardado para tu propio repaso — recuerda que la ironía depende del contexto, no solo de las palabras."},
+         ]},
+    ],
+    "c1-espanol-academico-y-profesional": [
+        {"id": "c1y10-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "c1y10c1", "incorrect": "Hola, quería pedirte información sobre el puesto. (correo formal a un desconocido)", "answer": ["Estimado/a señor/a: Le escribo para solicitar información sobre el puesto."], "explanation": "Un correo formal a un desconocido necesita fórmula de apertura formal y el verbo solicitar."},
+         ]},
+        {"id": "c1y10-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "c1y10t1", "prompt": "Escribe la fórmula de cierre de un correo profesional formal.", "answer": [["quedo a su entera disposición", "sin otro particular, les saluda atentamente", "atentamente"]], "explanation": "Estas fórmulas de cierre son propias del registro profesional formal."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))

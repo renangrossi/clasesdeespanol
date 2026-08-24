@@ -217,6 +217,47 @@
           "explanation": "Preguntar + si (pregunta de sí/no) + verbo en indicativo."
         }
       ]
+    },
+    {
+      "id": "b1y9-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y9c1",
+          "incorrect": "Me pregunta que si voy a la fiesta.",
+          "answer": [
+            "Me pregunta si voy a la fiesta."
+          ],
+          "explanation": "Con preguntas de sí/no se usa solo si, sin añadir que."
+        },
+        {
+          "id": "b1y9c2",
+          "incorrect": "Ella dice que \"está cansada\".",
+          "answer": [
+            "Ella dice que está cansada."
+          ],
+          "explanation": "El estilo indirecto no usa comillas."
+        }
+      ]
+    },
+    {
+      "id": "b1y9-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y9t1",
+          "prompt": "Convierte a estilo indirecto: \"Estoy muy ocupado.\" (dicho por un amigo)",
+          "answer": [
+            [
+              "dice que está muy ocupado",
+              "mi amigo dice que está muy ocupado"
+            ]
+          ],
+          "explanation": "El presente en la cita se mantiene con el verbo introductor en presente."
+        }
+      ]
     }
   ],
   "summary": [

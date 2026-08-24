@@ -211,6 +211,41 @@
           "explanation": "Pronombres combinados antes del verbo conjugado + infinitivo."
         }
       ]
+    },
+    {
+      "id": "b1y10-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y10c1",
+          "incorrect": "Le lo di ayer por la tarde.",
+          "answer": [
+            "Se lo di ayer por la tarde."
+          ],
+          "explanation": "Le se convierte en se antes de lo."
+        },
+        {
+          "id": "b1y10c2",
+          "incorrect": "Lo te digo mañana.",
+          "answer": [
+            "Te lo digo mañana."
+          ],
+          "explanation": "El orden fijo es objeto indirecto primero, directo después."
+        }
+      ]
+    },
+    {
+      "id": "b1y10-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y10t1",
+          "prompt": "Escribe una frase con \"se lo\" o \"me lo\".",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Se lo expliqué todo ayer.»"
+        }
+      ]
     }
   ],
   "summary": [

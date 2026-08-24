@@ -214,6 +214,41 @@
           "explanation": "Causa + por lo tanto (consecuencia) + resultado."
         }
       ]
+    },
+    {
+      "id": "b1y14-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y14c1",
+          "incorrect": "En primero lugar, quiero hablar del presupuesto.",
+          "answer": [
+            "En primer lugar, quiero hablar del presupuesto."
+          ],
+          "explanation": "La expresión fija es en primer lugar, sin la o final."
+        },
+        {
+          "id": "b1y14c2",
+          "incorrect": "Por lo tanto no estudió, suspendió el examen.",
+          "answer": [
+            "No estudió; por lo tanto, suspendió el examen."
+          ],
+          "explanation": "Por lo tanto introduce la consecuencia, debe ir después de la causa."
+        }
+      ]
+    },
+    {
+      "id": "b1y14-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y14t1",
+          "prompt": "Escribe dos frases conectadas con \"sin embargo\".",
+          "explanation": "Guardado para tu propio repaso — sin embargo introduce un contraste entre dos ideas."
+        }
+      ]
     }
   ],
   "summary": [

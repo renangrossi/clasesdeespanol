@@ -245,6 +245,41 @@
           "explanation": "Haber (tú) + participio + adverbio + complemento con preposición."
         }
       ]
+    },
+    {
+      "id": "a2y1-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y1c1",
+          "incorrect": "Ha escribido una carta.",
+          "answer": [
+            "Ha escrito una carta."
+          ],
+          "explanation": "Escribir tiene participio irregular: escrito, no escribido."
+        },
+        {
+          "id": "a2y1c2",
+          "incorrect": "He siempre querido viajar.",
+          "answer": [
+            "Siempre he querido viajar."
+          ],
+          "explanation": "Ninguna palabra puede separar haber del participio."
+        }
+      ]
+    },
+    {
+      "id": "a2y1-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y1t1",
+          "prompt": "Escribe una frase sobre algo que has hecho esta semana.",
+          "explanation": "Guardado para tu propio repaso — usa haber + participio: he trabajado, he estudiado, etc."
+        }
+      ]
     }
   ],
   "summary": [

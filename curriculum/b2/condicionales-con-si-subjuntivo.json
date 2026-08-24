@@ -221,6 +221,41 @@
           "explanation": "Si + pluscuamperfecto de subjuntivo + condicional compuesto (irreal de pasado)."
         }
       ]
+    },
+    {
+      "id": "b2y2-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y2c1",
+          "incorrect": "Si tendría más tiempo, viajaría más.",
+          "answer": [
+            "Si tuviera más tiempo, viajaría más."
+          ],
+          "explanation": "Nunca se usa condicional dentro de la parte introducida por si."
+        },
+        {
+          "id": "b2y2c2",
+          "incorrect": "Si hubiera estudiado más, aprobaría el examen.",
+          "answer": [
+            "Si hubiera estudiado más, habría aprobado el examen."
+          ],
+          "explanation": "La condicional irreal de pasado necesita condicional compuesto en la consecuencia."
+        }
+      ]
+    },
+    {
+      "id": "b2y2-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y2t1",
+          "prompt": "Escribe una condicional potencial: si + imperfecto de subjuntivo + condicional.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Si fuera rico, viajaría por el mundo.»"
+        }
+      ]
     }
   ],
   "summary": [

@@ -203,6 +203,41 @@
           "explanation": "Marcador de tiempo cerrado (el año pasado) + verbo en indefinido."
         }
       ]
+    },
+    {
+      "id": "b1y1-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y1c1",
+          "incorrect": "He nacido en 1995 en Madrid.",
+          "answer": [
+            "Nací en 1995 en Madrid."
+          ],
+          "explanation": "Un año concreto como marcador cerrado siempre pide indefinido."
+        },
+        {
+          "id": "b1y1c2",
+          "incorrect": "He viajado a Chile en 2015.",
+          "answer": [
+            "Viajé a Chile en 2015."
+          ],
+          "explanation": "Un marcador de tiempo cerrado exige indefinido, sin importar la variedad regional."
+        }
+      ]
+    },
+    {
+      "id": "b1y1-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y1t1",
+          "prompt": "Escribe una frase sobre una experiencia de tu vida usando el perfecto compuesto.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «He viajado a tres países distintos.»"
+        }
+      ]
     }
   ],
   "summary": [

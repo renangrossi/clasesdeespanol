@@ -223,6 +223,41 @@
           "explanation": "Volver a + infinitivo, expresa repetición de una acción."
         }
       ]
+    },
+    {
+      "id": "b2y5-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y5c1",
+          "incorrect": "Acabo llegar a casa.",
+          "answer": [
+            "Acabo de llegar a casa."
+          ],
+          "explanation": "Acabar de + infinitivo necesita siempre el enlace de."
+        },
+        {
+          "id": "b2y5c2",
+          "incorrect": "Dejé fumar hace dos años.",
+          "answer": [
+            "Dejé de fumar hace dos años."
+          ],
+          "explanation": "Dejar de + infinitivo necesita siempre el enlace de."
+        }
+      ]
+    },
+    {
+      "id": "b2y5-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y5t1",
+          "prompt": "Escribe una frase con \"llevo + tiempo + gerundio\".",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Llevo tres años estudiando español.»"
+        }
+      ]
     }
   ],
   "summary": [

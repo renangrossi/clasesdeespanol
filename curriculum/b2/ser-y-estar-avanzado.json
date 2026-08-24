@@ -214,6 +214,41 @@
           "explanation": "Estar + adjetivo para el sabor percibido en el momento."
         }
       ]
+    },
+    {
+      "id": "b2y6-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y6c1",
+          "incorrect": "¿Dónde está la fiesta de cumpleaños?",
+          "answer": [
+            "¿Dónde es la fiesta de cumpleaños?"
+          ],
+          "explanation": "Para localizar un evento se usa ser, no estar."
+        },
+        {
+          "id": "b2y6c2",
+          "incorrect": "Esta comida es muy rica hoy.",
+          "answer": [
+            "Esta comida está muy rica hoy."
+          ],
+          "explanation": "El sabor en un momento concreto se describe con estar."
+        }
+      ]
+    },
+    {
+      "id": "b2y6-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y6t1",
+          "prompt": "Escribe una frase usando \"estar\" para dar una impresión subjetiva sobre alguien.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «¡Qué guapo estás hoy!»"
+        }
+      ]
     }
   ],
   "summary": [

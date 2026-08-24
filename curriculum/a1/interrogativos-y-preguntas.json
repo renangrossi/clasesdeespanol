@@ -258,6 +258,41 @@
           "explanation": "Interrogativo + sustantivo + llevar + gerundio + complemento."
         }
       ]
+    },
+    {
+      "id": "a1y13-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y13c1",
+          "incorrect": "Donde vives tú?",
+          "answer": [
+            "¿Dónde vives tú?"
+          ],
+          "explanation": "Las preguntas interrogativas llevan tilde en dónde y necesitan el signo de apertura ¿."
+        },
+        {
+          "id": "a1y13c2",
+          "incorrect": "¿Cuando es tu cumpleaños?",
+          "answer": [
+            "¿Cuándo es tu cumpleaños?"
+          ],
+          "explanation": "Cuándo, como palabra interrogativa, siempre lleva tilde."
+        }
+      ]
+    },
+    {
+      "id": "a1y13-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y13t1",
+          "prompt": "Escribe una pregunta usando \"por qué\".",
+          "explanation": "Guardado para tu propio repaso — recuerda escribir por qué en dos palabras y con tilde en la pregunta."
+        }
+      ]
     }
   ],
   "summary": [

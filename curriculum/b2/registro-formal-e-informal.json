@@ -213,6 +213,49 @@
           "explanation": "Registro informal con muletilla (oye) al inicio."
         }
       ]
+    },
+    {
+      "id": "b2y11-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y11c1",
+          "incorrect": "Estimado señor López: Oye, necesito el documento urgente.",
+          "answer": [
+            "Estimado señor López: Le escribo para solicitar el documento con urgencia."
+          ],
+          "explanation": "No se mezclan fórmulas formales e informales en el mismo texto."
+        },
+        {
+          "id": "b2y11c2",
+          "incorrect": "Le escribo para contarle que necesito el informe.",
+          "answer": [
+            "Le escribo para informarle de que necesito el informe."
+          ],
+          "explanation": "Informar de es más preciso y formal que contar."
+        }
+      ]
+    },
+    {
+      "id": "b2y11-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y11t1",
+          "prompt": "Escribe la fórmula de apertura de un correo formal a un desconocido.",
+          "answer": [
+            [
+              "estimado señor",
+              "estimada señora",
+              "estimado señor/a",
+              "a quien corresponda"
+            ]
+          ],
+          "explanation": "Estimado/a señor/a: es la fórmula estándar para un correo formal."
+        }
+      ]
     }
   ],
   "summary": [

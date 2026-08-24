@@ -1083,3 +1083,167 @@ EXTRA_EXERCISES = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_2 — segunda ronda (corrección y producción escrita
+# corta) fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_2 = {
+    "a1-el-abecedario-y-la-pronunciacion": [
+        {"id": "a1y1-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y1c1", "incorrect": "La palabra \"musica\" no lleva tilde.", "answer": ["La palabra \"música\" sí lleva tilde."], "explanation": "Música es esdrújula (la fuerza cae dos sílabas antes del final) y siempre lleva tilde."},
+            {"id": "a1y1c2", "incorrect": "\"Cielo\" se pronuncia con el sonido fuerte de la c.", "answer": ["\"Cielo\" se pronuncia con el sonido suave de la c."], "explanation": "Ce/ci siempre tienen el sonido suave en español."},
+         ]},
+        {"id": "a1y1-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y1t1", "prompt": "Escribe una palabra esdrújula (con tilde en la antepenúltima sílaba).", "answer": [["música", "teléfono", "rápido", "número", "sábado"]], "explanation": "Cualquier palabra esdrújula es correcta; música, teléfono y rápido son ejemplos comunes."},
+         ]},
+    ],
+    "a1-genero-y-numero-de-los-sustantivos": [
+        {"id": "a1y2-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y2c1", "incorrect": "El mano derecha me duele.", "answer": ["La mano derecha me duele."], "explanation": "Mano es femenina aunque termine en -o."},
+            {"id": "a1y2c2", "incorrect": "Compré dos lápizes nuevos.", "answer": ["Compré dos lápices nuevos."], "explanation": "Las palabras terminadas en -z cambian a -ces en plural."},
+         ]},
+        {"id": "a1y2-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y2t1", "prompt": "Escribe el plural de \"ciudad\".", "answer": [["ciudades"]], "explanation": "Terminación en consonante: se añade -es."},
+         ]},
+    ],
+    "a1-articulos-definidos-e-indefinidos": [
+        {"id": "a1y3-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y3c1", "incorrect": "La agua está muy fría.", "answer": ["El agua está muy fría."], "explanation": "Agua empieza con a tónica, así que usa el en singular aunque sea femenina."},
+            {"id": "a1y3c2", "incorrect": "Compré unos naranjas en el mercado.", "answer": ["Compré unas naranjas en el mercado."], "explanation": "Naranjas es femenino plural: unas, no unos."},
+         ]},
+        {"id": "a1y3-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y3t1", "prompt": "Escribe una frase usando \"el águila\".", "explanation": "Guardado para tu propio repaso — recuerda: el águila (singular, por sonido) pero las águilas (plural)."},
+         ]},
+    ],
+    "a1-ser-y-estar-introduccion": [
+        {"id": "a1y4-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y4c1", "incorrect": "El libro es en la mesa.", "answer": ["El libro está en la mesa."], "explanation": "La ubicación siempre usa estar, nunca ser."},
+            {"id": "a1y4c2", "incorrect": "Ella es cansada hoy.", "answer": ["Ella está cansada hoy."], "explanation": "El cansancio es un estado temporal: se usa estar, no ser."},
+         ]},
+        {"id": "a1y4-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y4t1", "prompt": "Escribe una frase con \"soy\" describiendo tu profesión o tu origen.", "explanation": "Guardado para tu propio repaso — ser + profesión/origen describe una identidad."},
+         ]},
+    ],
+    "a1-pronombres-personales-de-sujeto": [
+        {"id": "a1y5-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y5c1", "incorrect": "Yo soy yo cansado.", "answer": ["Estoy cansado."], "explanation": "El pronombre de sujeto es redundante aquí; el verbo ya indica quién habla."},
+            {"id": "a1y5c2", "incorrect": "Tú hablás español muy bien. (con pronombre tú)", "answer": ["Tú hablas español muy bien. / Vos hablás español muy bien."], "explanation": "Tú y vos tienen formas verbales distintas y no se combinan entre sí."},
+         ]},
+        {"id": "a1y5-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y5t1", "prompt": "Escribe una frase con un pronombre de sujeto usado para dar énfasis o contraste.", "explanation": "Guardado para tu propio repaso — ejemplo: «Yo estudio, tú miras la televisión.»"},
+         ]},
+    ],
+    "a1-presente-verbos-regulares": [
+        {"id": "a1y6-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y6c1", "incorrect": "Nosotros habla mucho.", "answer": ["Nosotros hablamos mucho."], "explanation": "Nosotros siempre usa -amos/-emos/-imos, no la forma de él/ella."},
+            {"id": "a1y6c2", "incorrect": "Ellos comen y bebe agua.", "answer": ["Ellos comen y beben agua."], "explanation": "Los dos verbos deben concordar con el mismo sujeto plural."},
+         ]},
+        {"id": "a1y6-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y6t1", "prompt": "Escribe una frase con un verbo en -ar sobre tu rutina diaria.", "explanation": "Guardado para tu propio repaso — ejemplo: «Trabajo en una oficina.»"},
+         ]},
+    ],
+    "a1-presente-verbos-irregulares-comunes": [
+        {"id": "a1y7-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y7c1", "incorrect": "Soy veinte años.", "answer": ["Tengo veinte años."], "explanation": "La edad siempre usa tener, no ser."},
+            {"id": "a1y7c2", "incorrect": "Yo va al cine.", "answer": ["Yo voy al cine."], "explanation": "Va es la forma de él/ella; yo siempre usa voy."},
+         ]},
+        {"id": "a1y7-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y7t1", "prompt": "Escribe tu edad usando el verbo tener.", "answer": [["tengo"]], "explanation": "La estructura correcta es: Tengo + número + años."},
+         ]},
+    ],
+    "a1-adjetivos-y-concordancia": [
+        {"id": "a1y8-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y8c1", "incorrect": "Mis amigas son inteligente.", "answer": ["Mis amigas son inteligentes."], "explanation": "El adjetivo debe concordar en plural con amigas: inteligentes."},
+            {"id": "a1y8c2", "incorrect": "Tenemos una casa pequeño.", "answer": ["Tenemos una casa pequeña."], "explanation": "El adjetivo debe concordar en femenino con casa: pequeña."},
+         ]},
+        {"id": "a1y8-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y8t1", "prompt": "Describe tu casa o tu habitación con dos adjetivos.", "explanation": "Guardado para tu propio repaso — recuerda hacer concordar los adjetivos en género y número."},
+         ]},
+    ],
+    "a1-posesivos": [
+        {"id": "a1y9-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y9c1", "incorrect": "Mi hermanos viven en Chile.", "answer": ["Mis hermanos viven en Chile."], "explanation": "El posesivo debe concordar en plural con hermanos: mis, no mi."},
+            {"id": "a1y9c2", "incorrect": "Este es su coche de ellos.", "answer": ["Este es su coche. / Este es el coche de ellos."], "explanation": "No se combinan su y de ellos para el mismo poseedor; se elige una de las dos formas."},
+         ]},
+        {"id": "a1y9-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y9t1", "prompt": "Escribe una frase con \"nuestro\" o \"nuestra\".", "explanation": "Guardado para tu propio repaso — recuerda concordar nuestro/a con el sustantivo."},
+         ]},
+    ],
+    "a1-demostrativos": [
+        {"id": "a1y10-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y10c1", "incorrect": "Me gusta esta vestido.", "answer": ["Me gusta este vestido."], "explanation": "Vestido es masculino: este, no esta."},
+            {"id": "a1y10c2", "incorrect": "Aquel camisa es bonita.", "answer": ["Aquella camisa es bonita."], "explanation": "Camisa es femenina: aquella, no aquel."},
+         ]},
+        {"id": "a1y10-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y10t1", "prompt": "Escribe una frase usando \"aquel\" o \"aquella\" para algo lejos de ti.", "explanation": "Guardado para tu propio repaso — aquel/aquella se usa para algo lejos de ambos interlocutores."},
+         ]},
+    ],
+    "a1-hay-y-estar": [
+        {"id": "a1y11-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y11c1", "incorrect": "Hay el parque cerca de aquí.", "answer": ["El parque está cerca de aquí. / Hay un parque cerca de aquí."], "explanation": "Hay se usa con sustantivos no específicos; para algo ya identificado (el parque) se usa estar."},
+            {"id": "a1y11c2", "incorrect": "En mi ciudad está muchos museos.", "answer": ["En mi ciudad hay muchos museos."], "explanation": "Para expresar existencia de algo no específico se usa hay, no está."},
+         ]},
+        {"id": "a1y11-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y11t1", "prompt": "Escribe una frase con \"hay\" describiendo tu ciudad.", "explanation": "Guardado para tu propio repaso — ejemplo: «En mi ciudad hay muchos parques.»"},
+         ]},
+    ],
+    "a1-preposiciones-simples": [
+        {"id": "a1y12-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y12c1", "incorrect": "Viajo en Madrid a Barcelona.", "answer": ["Viajo de Madrid a Barcelona."], "explanation": "Para expresar origen y destino se usa de... a, no en... a."},
+            {"id": "a1y12c2", "incorrect": "El libro está encima la mesa.", "answer": ["El libro está encima de la mesa."], "explanation": "Encima siempre necesita la preposición de antes del sustantivo."},
+         ]},
+        {"id": "a1y12-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y12t1", "prompt": "Escribe una frase usando la preposición \"desde\" y \"hasta\".", "explanation": "Guardado para tu propio repaso — ejemplo: «Trabajo desde las nueve hasta las cinco.»"},
+         ]},
+    ],
+    "a1-interrogativos-y-preguntas": [
+        {"id": "a1y13-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y13c1", "incorrect": "Donde vives tú?", "answer": ["¿Dónde vives tú?"], "explanation": "Las preguntas interrogativas llevan tilde en dónde y necesitan el signo de apertura ¿."},
+            {"id": "a1y13c2", "incorrect": "¿Cuando es tu cumpleaños?", "answer": ["¿Cuándo es tu cumpleaños?"], "explanation": "Cuándo, como palabra interrogativa, siempre lleva tilde."},
+         ]},
+        {"id": "a1y13-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y13t1", "prompt": "Escribe una pregunta usando \"por qué\".", "explanation": "Guardado para tu propio repaso — recuerda escribir por qué en dos palabras y con tilde en la pregunta."},
+         ]},
+    ],
+    "a1-gustar-y-verbos-similares": [
+        {"id": "a1y14-correction", "type": "correction", "title": "Corrige los Errores",
+         "items": [
+            {"id": "a1y14c1", "incorrect": "Me gusta los libros de misterio.", "answer": ["Me gustan los libros de misterio."], "explanation": "Gustar concuerda con lo que gusta: libros es plural, así que gustan."},
+            {"id": "a1y14c2", "incorrect": "Yo gusto el chocolate.", "answer": ["Me gusta el chocolate."], "explanation": "Gustar requiere el pronombre de objeto indirecto me; el sujeto gramatical es el chocolate."},
+         ]},
+        {"id": "a1y14-typing", "type": "typing", "title": "Practica",
+         "items": [
+            {"id": "a1y14t1", "prompt": "Escribe una frase con \"me encanta\" o \"me encantan\".", "explanation": "Guardado para tu propio repaso — encanta (singular) o encantan (plural), según lo que sigue."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))

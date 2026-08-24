@@ -301,6 +301,33 @@
           "explanation": "Se recomienda + nominalización (revisión) como objeto."
         }
       ]
+    },
+    {
+      "id": "c1y5-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y5c1",
+          "incorrect": "El gobierno decidió de reducir el presupuesto.",
+          "answer": [
+            "El gobierno decidió reducir el presupuesto."
+          ],
+          "explanation": "Decidir + infinitivo no necesita la preposición de."
+        }
+      ]
+    },
+    {
+      "id": "c1y5-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y5t1",
+          "prompt": "Escribe una frase académica usando una nominalización (por ejemplo, \"la implementación\").",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «La implementación de esta política requiere una evaluación cuidadosa.»"
+        }
+      ]
     }
   ],
   "summary": [

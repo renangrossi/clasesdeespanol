@@ -339,6 +339,41 @@
           "explanation": "Para la fecha: hoy es el + número + de + mes."
         }
       ]
+    },
+    {
+      "id": "pa3y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa3yc1",
+          "incorrect": "Es las tres de la tarde.",
+          "answer": [
+            "Son las tres de la tarde."
+          ],
+          "explanation": "Para dar la hora en plural se usa son, no es."
+        },
+        {
+          "id": "pa3yc2",
+          "incorrect": "Hoy es en martes.",
+          "answer": [
+            "Hoy es martes."
+          ],
+          "explanation": "Para decir el día de la semana no se usa la preposición en con el verbo ser."
+        }
+      ]
+    },
+    {
+      "id": "pa3y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa3yt1",
+          "prompt": "Escribe la fecha de hoy en español (día, mes).",
+          "explanation": "Guardado para tu propio repaso — recuerda el formato: hoy es el [número] de [mes]."
+        }
+      ]
     }
   ],
   "summary": [

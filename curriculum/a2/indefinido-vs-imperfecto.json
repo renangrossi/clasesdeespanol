@@ -228,6 +228,41 @@
           "explanation": "La hora (siempre imperfecto) + cuando + hecho puntual (indefinido)."
         }
       ]
+    },
+    {
+      "id": "a2y5-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y5c1",
+          "incorrect": "Yo leía un libro cuando tú llamabas por teléfono.",
+          "answer": [
+            "Yo leía un libro cuando tú llamaste por teléfono."
+          ],
+          "explanation": "La acción que interrumpe debe ir en indefinido."
+        },
+        {
+          "id": "a2y5c2",
+          "incorrect": "Cuando yo tuve diez años, vivía en Lima.",
+          "answer": [
+            "Cuando yo tenía diez años, vivía en Lima."
+          ],
+          "explanation": "Describir la edad como una etapa del pasado usa el imperfecto, no el indefinido."
+        }
+      ]
+    },
+    {
+      "id": "a2y5-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y5t1",
+          "prompt": "Escribe una frase combinando el imperfecto (escena) y el indefinido (hecho puntual).",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Llovía cuando salimos de casa.»"
+        }
+      ]
     }
   ],
   "summary": [

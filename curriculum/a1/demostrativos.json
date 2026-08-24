@@ -248,6 +248,41 @@
           "explanation": "Verbo + demostrativo lejano femenino + sustantivo + complemento."
         }
       ]
+    },
+    {
+      "id": "a1y10-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y10c1",
+          "incorrect": "Me gusta esta vestido.",
+          "answer": [
+            "Me gusta este vestido."
+          ],
+          "explanation": "Vestido es masculino: este, no esta."
+        },
+        {
+          "id": "a1y10c2",
+          "incorrect": "Aquel camisa es bonita.",
+          "answer": [
+            "Aquella camisa es bonita."
+          ],
+          "explanation": "Camisa es femenina: aquella, no aquel."
+        }
+      ]
+    },
+    {
+      "id": "a1y10-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y10t1",
+          "prompt": "Escribe una frase usando \"aquel\" o \"aquella\" para algo lejos de ti.",
+          "explanation": "Guardado para tu propio repaso — aquel/aquella se usa para algo lejos de ambos interlocutores."
+        }
+      ]
     }
   ],
   "summary": [

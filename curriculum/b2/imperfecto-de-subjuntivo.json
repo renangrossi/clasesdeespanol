@@ -219,6 +219,41 @@
           "explanation": "Dudar en pasado + que + imperfecto de subjuntivo (supieran)."
         }
       ]
+    },
+    {
+      "id": "b2y1-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y1c1",
+          "incorrect": "Quería que tú vengas conmigo.",
+          "answer": [
+            "Quería que tú vinieras conmigo."
+          ],
+          "explanation": "Con el verbo principal en pasado, la subordinada necesita imperfecto de subjuntivo."
+        },
+        {
+          "id": "b2y1c2",
+          "incorrect": "Esperaba que ellos tenieran suerte.",
+          "answer": [
+            "Esperaba que ellos tuvieran suerte."
+          ],
+          "explanation": "El imperfecto de subjuntivo hereda la raíz irregular del indefinido."
+        }
+      ]
+    },
+    {
+      "id": "b2y1-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y1t1",
+          "prompt": "Escribe una frase sobre algo que querías que alguien hiciera en el pasado.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Quería que vinieras a la fiesta.»"
+        }
+      ]
     }
   ],
   "summary": [

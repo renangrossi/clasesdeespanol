@@ -262,6 +262,33 @@
           "explanation": "Ustedeo: usted con verbo en tercera persona, incluso en contexto cercano."
         }
       ]
+    },
+    {
+      "id": "c1y8-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y8c1",
+          "incorrect": "El ustedeo es exactamente lo mismo que el voseo.",
+          "answer": [
+            "El ustedeo y el voseo son fenómenos distintos de variación dialectal."
+          ],
+          "explanation": "El ustedeo usa usted en contextos cercanos; el voseo usa vos en vez de tú."
+        }
+      ]
+    },
+    {
+      "id": "c1y8-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y8t1",
+          "prompt": "Escribe una frase que use el ustedeo (usted con alguien cercano).",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Usted sabe mejor que nadie.»"
+        }
+      ]
     }
   ],
   "summary": [

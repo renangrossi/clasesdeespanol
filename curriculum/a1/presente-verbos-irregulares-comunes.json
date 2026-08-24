@@ -267,6 +267,46 @@
           "explanation": "Tener + expresión fija (mucha hambre) + adverbio de tiempo."
         }
       ]
+    },
+    {
+      "id": "a1y7-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y7c1",
+          "incorrect": "Soy veinte años.",
+          "answer": [
+            "Tengo veinte años."
+          ],
+          "explanation": "La edad siempre usa tener, no ser."
+        },
+        {
+          "id": "a1y7c2",
+          "incorrect": "Yo va al cine.",
+          "answer": [
+            "Yo voy al cine."
+          ],
+          "explanation": "Va es la forma de él/ella; yo siempre usa voy."
+        }
+      ]
+    },
+    {
+      "id": "a1y7-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y7t1",
+          "prompt": "Escribe tu edad usando el verbo tener.",
+          "answer": [
+            [
+              "tengo"
+            ]
+          ],
+          "explanation": "La estructura correcta es: Tengo + número + años."
+        }
+      ]
     }
   ],
   "summary": [

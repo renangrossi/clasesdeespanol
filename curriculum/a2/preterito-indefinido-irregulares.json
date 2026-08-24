@@ -246,6 +246,49 @@
           "explanation": "Negación + poder (indefinido) + infinitivo + objeto + marcador de tiempo."
         }
       ]
+    },
+    {
+      "id": "a2y3-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y3c1",
+          "incorrect": "Yo tuvé una reunión ayer.",
+          "answer": [
+            "Yo tuve una reunión ayer."
+          ],
+          "explanation": "Los verbos irregulares fuertes usan la terminación -e sin tilde."
+        },
+        {
+          "id": "a2y3c2",
+          "incorrect": "Ellos hacieron la comida.",
+          "answer": [
+            "Ellos hicieron la comida."
+          ],
+          "explanation": "Hacer cambia la raíz a hic-/hiz-, no se conjuga sobre hac-."
+        }
+      ]
+    },
+    {
+      "id": "a2y3-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y3t1",
+          "prompt": "Escribe una frase con el verbo \"tener\" en pretérito indefinido.",
+          "answer": [
+            [
+              "tuve",
+              "tuvo",
+              "tuvimos",
+              "tuvieron"
+            ]
+          ],
+          "explanation": "Tener en indefinido usa la raíz irregular tuv-."
+        }
+      ]
     }
   ],
   "summary": [

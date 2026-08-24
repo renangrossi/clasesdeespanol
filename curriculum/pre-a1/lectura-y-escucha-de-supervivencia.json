@@ -273,6 +273,41 @@
           "explanation": "Estar (ubicación) + distancia + referencia."
         }
       ]
+    },
+    {
+      "id": "pa8y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa8yc1",
+          "incorrect": "¿Dónde es el baño?",
+          "answer": [
+            "¿Dónde está el baño?"
+          ],
+          "explanation": "La ubicación de un lugar u objeto siempre usa estar, no ser."
+        },
+        {
+          "id": "pa8yc2",
+          "incorrect": "Muchas gracias por tu ayuda tuyo.",
+          "answer": [
+            "Muchas gracias por tu ayuda."
+          ],
+          "explanation": "El posesivo tuyo es innecesario después de tu, que ya expresa posesión."
+        }
+      ]
+    },
+    {
+      "id": "pa8y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa8yt1",
+          "prompt": "Escribe cómo pedirías ayuda para encontrar el baño en la calle.",
+          "explanation": "Guardado para tu propio repaso — compara con: «Disculpe, ¿dónde está el baño?»"
+        }
+      ]
     }
   ],
   "summary": [

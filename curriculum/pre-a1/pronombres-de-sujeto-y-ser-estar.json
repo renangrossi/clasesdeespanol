@@ -332,6 +332,41 @@
           "explanation": "Pronombre + estar (ellos) + complemento de lugar."
         }
       ]
+    },
+    {
+      "id": "pa7y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa7yc1",
+          "incorrect": "Nosotros es estudiantes.",
+          "answer": [
+            "Nosotros somos estudiantes."
+          ],
+          "explanation": "Nosotros + ser = somos, no es (que es la forma de él/ella)."
+        },
+        {
+          "id": "pa7yc2",
+          "incorrect": "Ella está profesora.",
+          "answer": [
+            "Ella es profesora."
+          ],
+          "explanation": "La profesión describe identidad, no un estado temporal: se usa ser, no estar."
+        }
+      ]
+    },
+    {
+      "id": "pa7y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa7yt1",
+          "prompt": "Escribe una frase con \"estoy\" sobre cómo te sientes hoy.",
+          "explanation": "Guardado para tu propio repaso — estoy + adjetivo describe un estado temporal."
+        }
+      ]
     }
   ],
   "summary": [

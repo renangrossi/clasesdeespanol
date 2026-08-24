@@ -231,6 +231,41 @@
           "explanation": "Demostrativo + ser + sustantivo (lugar) + donde + verbo."
         }
       ]
+    },
+    {
+      "id": "b1y12-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y12c1",
+          "incorrect": "La persona que trabajo es muy amable.",
+          "answer": [
+            "La persona con quien trabajo es muy amable."
+          ],
+          "explanation": "Después de una preposición se prefiere quien para personas."
+        },
+        {
+          "id": "b1y12c2",
+          "incorrect": "El pueblo que nací es muy pequeño.",
+          "answer": [
+            "El pueblo donde nací es muy pequeño."
+          ],
+          "explanation": "Para lugares se usa donde, no que."
+        }
+      ]
+    },
+    {
+      "id": "b1y12-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y12t1",
+          "prompt": "Escribe una frase con \"donde\" describiendo un lugar importante para ti.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Este es el pueblo donde nací.»"
+        }
+      ]
     }
   ],
   "summary": [

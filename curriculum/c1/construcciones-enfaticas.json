@@ -257,6 +257,33 @@
           "explanation": "Es que + explicación, fórmula típica para justificar algo."
         }
       ]
+    },
+    {
+      "id": "c1y4-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "c1y4c1",
+          "incorrect": "Lo que necesito son más tiempo.",
+          "answer": [
+            "Lo que necesito es más tiempo."
+          ],
+          "explanation": "El verbo ser concuerda con lo que sigue (más tiempo, singular): es, no son."
+        }
+      ]
+    },
+    {
+      "id": "c1y4-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "c1y4t1",
+          "prompt": "Escribe una construcción enfática con \"lo que... es que...\".",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Lo que realmente me molestó fue el tono.»"
+        }
+      ]
     }
   ],
   "summary": [

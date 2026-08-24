@@ -216,6 +216,41 @@
           "explanation": "Voz pasiva con ser + participio + por + agente."
         }
       ]
+    },
+    {
+      "id": "b1y8-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y8c1",
+          "incorrect": "Se vende pisos en esta zona.",
+          "answer": [
+            "Se venden pisos en esta zona."
+          ],
+          "explanation": "El verbo debe concordar en plural con pisos."
+        },
+        {
+          "id": "b1y8c2",
+          "incorrect": "El libro fue escribido por un autor famoso.",
+          "answer": [
+            "El libro fue escrito por un autor famoso."
+          ],
+          "explanation": "El participio de escribir es escrito, también en la voz pasiva."
+        }
+      ]
+    },
+    {
+      "id": "b1y8-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y8t1",
+          "prompt": "Escribe un cartel usando la pasiva refleja con \"se\".",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Se buscan camareros con experiencia.»"
+        }
+      ]
     }
   ],
   "summary": [

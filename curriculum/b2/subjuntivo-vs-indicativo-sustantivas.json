@@ -215,6 +215,41 @@
           "explanation": "Expresión de valoración + que + subjuntivo (vengas)."
         }
       ]
+    },
+    {
+      "id": "b2y3-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y3c1",
+          "incorrect": "Es evidente que ella tenga razón.",
+          "answer": [
+            "Es evidente que ella tiene razón."
+          ],
+          "explanation": "Es evidente que presenta un hecho cierto y exige indicativo."
+        },
+        {
+          "id": "b2y3c2",
+          "incorrect": "Es importante que tú vienes a la reunión.",
+          "answer": [
+            "Es importante que tú vengas a la reunión."
+          ],
+          "explanation": "Es importante que valora, no afirma un hecho: exige subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b2y3-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y3t1",
+          "prompt": "Escribe una frase con \"es importante que\" + subjuntivo.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Es importante que todos participemos.»"
+        }
+      ]
     }
   ],
   "summary": [

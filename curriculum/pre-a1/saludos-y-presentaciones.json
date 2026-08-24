@@ -319,6 +319,41 @@
           "explanation": "Expresión fija de cortesía al conocer a alguien."
         }
       ]
+    },
+    {
+      "id": "pa2y-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "pa2yc1",
+          "incorrect": "Yo llamo Marta.",
+          "answer": [
+            "Yo me llamo Marta."
+          ],
+          "explanation": "Llamarse es un verbo reflexivo; siempre necesita el pronombre me/te/se."
+        },
+        {
+          "id": "pa2yc2",
+          "incorrect": "Mucho gusto de conocerte tú.",
+          "answer": [
+            "Mucho gusto de conocerte."
+          ],
+          "explanation": "El pronombre tú es innecesario después de conocerte, que ya incluye el pronombre te."
+        }
+      ]
+    },
+    {
+      "id": "pa2y-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "pa2yt1",
+          "prompt": "Escribe cómo te presentas a alguien nuevo, usando \"me llamo\".",
+          "explanation": "Guardado para tu propio repaso — compara tu frase con: «Hola, me llamo... Mucho gusto.»"
+        }
+      ]
     }
   ],
   "summary": [

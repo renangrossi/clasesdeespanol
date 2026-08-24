@@ -216,6 +216,41 @@
           "explanation": "Con tal de que + subjuntivo, siempre exige subjuntivo."
         }
       ]
+    },
+    {
+      "id": "b2y4-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y4c1",
+          "incorrect": "Busco una casa que tiene jardín. (sin saber si existe)",
+          "answer": [
+            "Busco una casa que tenga jardín."
+          ],
+          "explanation": "Antecedente indefinido: exige subjuntivo."
+        },
+        {
+          "id": "b2y4c2",
+          "incorrect": "Te lo explico para que lo entiendes.",
+          "answer": [
+            "Te lo explico para que lo entiendas."
+          ],
+          "explanation": "Para que siempre exige subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b2y4-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y4t1",
+          "prompt": "Escribe una frase con \"busco a alguien que\" + subjuntivo.",
+          "explanation": "Guardado para tu propio repaso — antecedente indefinido exige subjuntivo."
+        }
+      ]
     }
   ],
   "summary": [

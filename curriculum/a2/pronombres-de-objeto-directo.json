@@ -242,6 +242,41 @@
           "explanation": "Ir a + infinitivo con el pronombre pegado al final + complemento de tiempo."
         }
       ]
+    },
+    {
+      "id": "a2y9-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a2y9c1",
+          "incorrect": "Veo lo todos los días.",
+          "answer": [
+            "Lo veo todos los días."
+          ],
+          "explanation": "Con un verbo conjugado, el pronombre va antes del verbo."
+        },
+        {
+          "id": "a2y9c2",
+          "incorrect": "Cómpra lo mañana.",
+          "answer": [
+            "Cómpralo mañana."
+          ],
+          "explanation": "Con el imperativo afirmativo, el pronombre va pegado al verbo."
+        }
+      ]
+    },
+    {
+      "id": "a2y9-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a2y9t1",
+          "prompt": "Escribe una frase usando el pronombre \"lo\" o \"la\" para sustituir un objeto.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «¿El libro? Lo tengo aquí.»"
+        }
+      ]
     }
   ],
   "summary": [

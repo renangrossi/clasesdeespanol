@@ -219,6 +219,41 @@
           "explanation": "Idea negativa + por el contrario (oposición fuerte) + consecuencia."
         }
       ]
+    },
+    {
+      "id": "b2y9-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b2y9c1",
+          "incorrect": "El plan es bueno; por el contrario, necesita ajustes menores.",
+          "answer": [
+            "El plan es bueno; ahora bien, necesita ajustes menores."
+          ],
+          "explanation": "Por el contrario marca oposición fuerte; aquí solo hay una matización."
+        },
+        {
+          "id": "b2y9c2",
+          "incorrect": "El proyecto se retrasa, de hecho se cancela.",
+          "answer": [
+            "El proyecto se retrasa; es decir, no se cancela, solo se pospone."
+          ],
+          "explanation": "Es decir reformula; de hecho refuerza en la misma dirección."
+        }
+      ]
+    },
+    {
+      "id": "b2y9-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b2y9t1",
+          "prompt": "Escribe dos frases conectadas con \"ahora bien\".",
+          "explanation": "Guardado para tu propio repaso — ahora bien introduce una matización u objeción parcial."
+        }
+      ]
     }
   ],
   "summary": [

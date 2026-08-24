@@ -262,6 +262,41 @@
           "explanation": "Estar + adjetivo describe un estado temporal."
         }
       ]
+    },
+    {
+      "id": "a1y4-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y4c1",
+          "incorrect": "El libro es en la mesa.",
+          "answer": [
+            "El libro está en la mesa."
+          ],
+          "explanation": "La ubicación siempre usa estar, nunca ser."
+        },
+        {
+          "id": "a1y4c2",
+          "incorrect": "Ella es cansada hoy.",
+          "answer": [
+            "Ella está cansada hoy."
+          ],
+          "explanation": "El cansancio es un estado temporal: se usa estar, no ser."
+        }
+      ]
+    },
+    {
+      "id": "a1y4-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y4t1",
+          "prompt": "Escribe una frase con \"soy\" describiendo tu profesión o tu origen.",
+          "explanation": "Guardado para tu propio repaso — ser + profesión/origen describe una identidad."
+        }
+      ]
     }
   ],
   "summary": [

@@ -229,6 +229,41 @@
           "explanation": "Alegrarse de que + subjuntivo (vengas)."
         }
       ]
+    },
+    {
+      "id": "b1y7-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y7c1",
+          "incorrect": "Creo que él tenga razón.",
+          "answer": [
+            "Creo que él tiene razón."
+          ],
+          "explanation": "Creer en afirmativo expresa certeza y pide indicativo."
+        },
+        {
+          "id": "b1y7c2",
+          "incorrect": "Quiero que yo vaya al cine.",
+          "answer": [
+            "Quiero ir al cine."
+          ],
+          "explanation": "Con un solo sujeto se usa el infinitivo, no que + subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "b1y7-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y7t1",
+          "prompt": "Escribe una frase con \"dudo que\" o \"me alegro de que\".",
+          "explanation": "Guardado para tu propio repaso — ambas expresiones activan el subjuntivo."
+        }
+      ]
     }
   ],
   "summary": [

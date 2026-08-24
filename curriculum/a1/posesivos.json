@@ -260,6 +260,41 @@
           "explanation": "Posesivo + sustantivo + estar + complemento de lugar."
         }
       ]
+    },
+    {
+      "id": "a1y9-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "a1y9c1",
+          "incorrect": "Mi hermanos viven en Chile.",
+          "answer": [
+            "Mis hermanos viven en Chile."
+          ],
+          "explanation": "El posesivo debe concordar en plural con hermanos: mis, no mi."
+        },
+        {
+          "id": "a1y9c2",
+          "incorrect": "Este es su coche de ellos.",
+          "answer": [
+            "Este es su coche. / Este es el coche de ellos."
+          ],
+          "explanation": "No se combinan su y de ellos para el mismo poseedor; se elige una de las dos formas."
+        }
+      ]
+    },
+    {
+      "id": "a1y9-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "a1y9t1",
+          "prompt": "Escribe una frase con \"nuestro\" o \"nuestra\".",
+          "explanation": "Guardado para tu propio repaso — recuerda concordar nuestro/a con el sustantivo."
+        }
+      ]
     }
   ],
   "summary": [

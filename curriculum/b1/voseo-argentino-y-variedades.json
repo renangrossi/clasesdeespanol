@@ -219,6 +219,41 @@
           "explanation": "Vos + tener en voseo (tenés) + objeto + adverbio."
         }
       ]
+    },
+    {
+      "id": "b1y13-correction",
+      "type": "correction",
+      "title": "Corrige los Errores",
+      "items": [
+        {
+          "id": "b1y13c1",
+          "incorrect": "Vos hablas muy bien español.",
+          "answer": [
+            "Vos hablás muy bien español."
+          ],
+          "explanation": "El voseo tiene su propia conjugación, con tilde en la última vocal."
+        },
+        {
+          "id": "b1y13c2",
+          "incorrect": "Vos eres de Argentina.",
+          "answer": [
+            "Vos sos de Argentina."
+          ],
+          "explanation": "Ser es irregular en el voseo: sos, no eres."
+        }
+      ]
+    },
+    {
+      "id": "b1y13-typing",
+      "type": "typing",
+      "title": "Practica",
+      "items": [
+        {
+          "id": "b1y13t1",
+          "prompt": "Escribe una frase usando el voseo argentino.",
+          "explanation": "Guardado para tu propio repaso — ejemplo: «Vos tenés razón.»"
+        }
+      ]
     }
   ],
   "summary": [
