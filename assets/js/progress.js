@@ -57,8 +57,8 @@
 
   var LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
   var LEVEL_NAMES = {
-    A1: "Beginner", A2: "Elementary", B1: "Intermediate",
-    B2: "Upper Intermediate", C1: "Advanced", C2: "Proficient",
+    A1: "Principiante", A2: "Elemental", B1: "Intermedio",
+    B2: "Intermedio Alto", C1: "Avanzado", C2: "Maestría",
   };
 
   // How many exercise blocks actually exist per level (every lesson
@@ -126,85 +126,85 @@
    * ------------------------------------------------------------- */
   var BADGES = [
     {
-      id: "first_steps", icon: "🌱", name: "First Steps",
-      desc: "Complete your first exercise.",
+      id: "first_steps", icon: "🌱", name: "Primeros Pasos",
+      desc: "Completa tu primer ejercicio.",
       check: function (s) { return countExercisesDone(s) >= 1; },
     },
     {
-      id: "perfectionist", icon: "🎯", name: "Perfectionist",
-      desc: "Score 100% on an exercise.",
+      id: "perfectionist", icon: "🎯", name: "Perfeccionista",
+      desc: "Obtén el 100% en un ejercicio.",
       check: function (s) { return countPerfect(s) >= 1; },
     },
     {
-      id: "streak_3", icon: "🔥", name: "3-Day Streak",
-      desc: "Practice on 3 days in a row.",
+      id: "streak_3", icon: "🔥", name: "Racha de 3 Días",
+      desc: "Practica 3 días seguidos.",
       check: function (s) { return s.streak.count >= 3; },
     },
     {
-      id: "streak_7", icon: "🔥", name: "7-Day Streak",
-      desc: "Practice on 7 days in a row.",
+      id: "streak_7", icon: "🔥", name: "Racha de 7 Días",
+      desc: "Practica 7 días seguidos.",
       check: function (s) { return s.streak.count >= 7; },
     },
     {
-      id: "placement_done", icon: "🧭", name: "Know Your Level",
-      desc: "Complete the Placement Test.",
+      id: "placement_done", icon: "🧭", name: "Conoce tu Nivel",
+      desc: "Completa la Prueba de Nivel.",
       check: function (s) { return !!s.pagesCompleted.placement; },
     },
     {
-      id: "streak_14", icon: "🔥", name: "14-Day Streak",
-      desc: "Practice on 14 days in a row.",
+      id: "streak_14", icon: "🔥", name: "Racha de 14 Días",
+      desc: "Practica 14 días seguidos.",
       check: function (s) { return s.streak.count >= 14; },
     },
     {
-      id: "streak_30", icon: "🔥", name: "30-Day Streak",
-      desc: "Practice on 30 days in a row.",
+      id: "streak_30", icon: "🔥", name: "Racha de 30 Días",
+      desc: "Practica 30 días seguidos.",
       check: function (s) { return s.streak.count >= 30; },
     },
     {
-      id: "comeback", icon: "🔄", name: "Comeback",
-      desc: "Return after breaking a streak and complete another exercise.",
+      id: "comeback", icon: "🔄", name: "El Regreso",
+      desc: "Vuelve después de romper una racha y completa otro ejercicio.",
       check: function (s) { return !!(s.streak && s.streak.brokenOnce); },
     },
     {
-      id: "first_test_yourself", icon: "📝", name: "Test Yourself, Tested",
-      desc: "Fully complete a Test Yourself page for the first time.",
+      id: "first_test_yourself", icon: "📝", name: "Ponte a Prueba, Probado",
+      desc: "Completa por primera vez una página de Ponte a Prueba.",
       check: function (s) {
         return Object.keys(s.pagesCompleted).some(function (k) { return k.indexOf("test-yourself:") === 0; });
       },
     },
     {
       id: "xp_100", icon: "⭐", name: "100 XP",
-      desc: "Earn 100 total XP.",
+      desc: "Consigue 100 XP en total.",
       check: function (s) { return s.xp >= 100; },
     },
     {
       id: "xp_250", icon: "🌟", name: "250 XP",
-      desc: "Earn 250 total XP.",
+      desc: "Consigue 250 XP en total.",
       check: function (s) { return s.xp >= 250; },
     },
     {
       id: "xp_500", icon: "💫", name: "500 XP",
-      desc: "Earn 500 total XP.",
+      desc: "Consigue 500 XP en total.",
       check: function (s) { return s.xp >= 500; },
     },
     {
       id: "xp_1000", icon: "👑", name: "1000 XP",
-      desc: "Earn 1000 total XP.",
+      desc: "Consigue 1000 XP en total.",
       check: function (s) { return s.xp >= 1000; },
     },
     {
-      id: "no_hints_needed", icon: "💎", name: "No Hints Needed",
-      desc: "Score 100% on 5 different exercises.",
+      id: "no_hints_needed", icon: "💎", name: "Sin Pistas",
+      desc: "Obtén el 100% en 5 ejercicios distintos.",
       check: function (s) { return countPerfect(s) >= 5; },
     },
     {
       id: "sherlock", icon: "🕵️", name: "Sherlock",
-      desc: "Look up your first word in the dictionary.",
+      desc: "Busca tu primera palabra en el diccionario.",
       check: function (s) { return (s.dictionaryUses || 0) >= 1; },
     },
     {
-      id: "dictionary_power_user", icon: "📚", name: "Dictionary Power User",
-      desc: "Look up 10 words in the dictionary.",
+      id: "dictionary_power_user", icon: "📚", name: "Experto en el Diccionario",
+      desc: "Busca 10 palabras en el diccionario.",
       check: function (s) { return (s.dictionaryUses || 0) >= 10; },
     },
     {
@@ -218,18 +218,18 @@
       // has been submitted" branch, a completely separate code path
       // from recordDictionaryUse(). If you're editing this, keep that
       // separation — see docs/gamification.md's Polyglot Path row.
-      id: "polyglot", icon: "🌍", name: "Polyglot Path",
-      desc: "Complete at least one exercise at 3 different levels.",
+      id: "polyglot", icon: "🌍", name: "Camino Políglota",
+      desc: "Completa al menos un ejercicio en 3 niveles distintos.",
       check: function (s) { return countLevelsWithActivity(s) >= 3; },
     },
     {
-      id: "night_owl", icon: "🦉", name: "Night Owl",
-      desc: "Complete an exercise between midnight and 5am (your device's clock).",
+      id: "night_owl", icon: "🦉", name: "Búho Nocturno",
+      desc: "Completa un ejercicio entre la medianoche y las 5 a. m. (según el reloj de tu dispositivo).",
       check: function (s) { return !!(s.timeFlags && s.timeFlags.nightOwl); },
     },
     {
-      id: "early_bird", icon: "🐦", name: "Early Bird",
-      desc: "Complete an exercise between 5am and 7am (your device's clock).",
+      id: "early_bird", icon: "🐦", name: "Madrugador",
+      desc: "Completa un ejercicio entre las 5 y las 7 a. m. (según el reloj de tu dispositivo).",
       check: function (s) { return !!(s.timeFlags && s.timeFlags.earlyBird); },
     },
   ].concat(LEVELS.map(function (level) {
@@ -237,8 +237,8 @@
     return {
       id: level.toLowerCase() + "_explorer",
       icon: "🏅",
-      name: level + " Explorer",
-      desc: "Complete " + threshold + " exercises at " + level + " (" + LEVEL_NAMES[level] + ").",
+      name: level + " Explorador",
+      desc: "Completa " + threshold + " ejercicios en " + level + " (" + LEVEL_NAMES[level] + ").",
       level: level,
       threshold: threshold,
       check: function (s) {
@@ -424,7 +424,7 @@
       var xpAwarded = grantBadgeXp(state, b);
       pendingToasts.push({
         kind: "badge",
-        text: b.name + " unlocked" + (xpAwarded > 0 ? " · +" + xpAwarded + " XP" : ""),
+        text: b.name + " desbloqueada" + (xpAwarded > 0 ? " · +" + xpAwarded + " XP" : ""),
         icon: b.icon,
       });
     });
@@ -515,7 +515,7 @@
     }
     pendingToasts.push({
       kind: "badge",
-      text: "Topic complete: " + name + (xpAwarded > 0 ? " · +" + xpAwarded + " XP" : ""),
+      text: "Tema completado: " + name + (xpAwarded > 0 ? " · +" + xpAwarded + " XP" : ""),
       icon: "📘",
     });
   }
@@ -527,9 +527,9 @@
     if (state.pagesCompleted[key]) return; // already awarded, never twice
     state.pagesCompleted[key] = true;
     if (type === "placement") {
-      awardXp(state, XP.placement, null, "Placement Test complete");
+      awardXp(state, XP.placement, null, "Prueba de Nivel completada");
     } else {
-      awardXp(state, XP.testYourself, level, (level || "") + " Test Yourself complete");
+      awardXp(state, XP.testYourself, level, (level || "") + " Ponte a Prueba completado");
     }
     evaluateBadges(state);
   }
@@ -553,8 +553,8 @@
     if (!existing) {
       // First time this exact exercise block has ever been submitted
       // (in this browser) — award XP once, then remember it forever.
-      awardXp(state, XP.exercise, level, "Exercise complete");
-      if (perfect) awardXp(state, XP.perfectBonus, level, "Perfect score");
+      awardXp(state, XP.exercise, level, "Ejercicio completado");
+      if (perfect) awardXp(state, XP.perfectBonus, level, "Puntuación perfecta");
       state.exercises[exerciseId] = { bestCorrect: correct, total: total, xpAwarded: true, perfect: perfect };
       if (level && state.levelStats[level]) state.levelStats[level].exercisesDone += 1;
     } else {
@@ -601,8 +601,8 @@
     var wasCount = state.streak.count;
     var res = touchStreak(state);
     if (res.isNewDay) {
-      pendingToasts.push({ kind: "streak", text: "Day " + state.streak.count + " streak!" });
-      if (XP.dailyBonus > 0 && wasCount > 0) awardXp(state, XP.dailyBonus, null, "Daily bonus");
+      pendingToasts.push({ kind: "streak", text: "¡Racha de " + state.streak.count + " días!" });
+      if (XP.dailyBonus > 0 && wasCount > 0) awardXp(state, XP.dailyBonus, null, "Bono diario");
     }
   }
 
@@ -695,7 +695,7 @@
       class: "progress-toggle progress-toggle--pill",
       "aria-haspopup": "dialog",
       "aria-expanded": "false",
-      "aria-label": "Your progress: XP, streak and badges",
+      "aria-label": "Tu progreso: XP, racha e insignias",
     });
     var xpEl = el("span", { class: "progress-toggle__xp", text: "0 XP" });
     toggle.appendChild(flameIcon("progress-toggle__flame"));
@@ -721,7 +721,7 @@
         "aria-haspopup": "dialog",
         "aria-expanded": "false",
       });
-      menuToggle.appendChild(el("span", { class: "progress-menu-toggle__label", text: "Progress" }));
+      menuToggle.appendChild(el("span", { class: "progress-menu-toggle__label", text: "Progreso" }));
       var stat = el("span", { class: "progress-menu-toggle__stat" });
       stat.appendChild(flameIcon("progress-menu-toggle__flame"));
       menuStreakEl = el("span", { class: "progress-menu-toggle__streak", text: "0" });
@@ -735,7 +735,7 @@
       dictItem.insertAdjacentElement("afterend", menuItem);
     }
 
-    var panel = el("div", { class: "progress-panel", role: "dialog", "aria-label": "Your progress" });
+    var panel = el("div", { class: "progress-panel", role: "dialog", "aria-label": "Tu progreso" });
     panel.hidden = true;
 
     if (navUtility) {
@@ -848,13 +848,13 @@
   function topicSummaryHtml(state) {
     var n = topicNames(state).length;
     if (!n) return "";
-    return '<p class="progress-panel__hint">📘 ' + n + " topic" + (n === 1 ? "" : "s") + " completed.</p>";
+    return '<p class="progress-panel__hint">📘 ' + n + (n === 1 ? " tema completado." : " temas completados.") + "</p>";
   }
 
   // Full list, used on progress.html's dedicated "Topics" section.
   function topicListHtml(state) {
     var names = topicNames(state);
-    if (!names.length) return '<p class="progress-panel__hint">No topics completed yet — finish every exercise on a lesson page to earn one.</p>';
+    if (!names.length) return '<p class="progress-panel__hint">Todavía no has completado ningún tema — termina todos los ejercicios de una lección para conseguir uno.</p>';
     return '<ul class="topic-list">' + names.map(function (n) { return "<li>" + escapeHtml(n) + "</li>"; }).join("") + "</ul>";
   }
 
@@ -867,7 +867,7 @@
       var pct = Math.min(100, Math.round((ls.exercisesDone / threshold) * 100));
       return (
         '<div class="progress-panel__level-row">' +
-        '<div class="progress-label"><span>' + l + "</span><span>" + ls.exercisesDone + " done · " + ls.xp + " XP</span></div>" +
+        '<div class="progress-label"><span>' + l + "</span><span>" + ls.exercisesDone + " hechos · " + ls.xp + " XP</span></div>" +
         '<div class="progress-track"><div class="progress-track__fill" style="width:' + pct + '%"></div></div>' +
         "</div>"
       );
@@ -875,16 +875,16 @@
 
     els.panel.innerHTML =
       '<div class="progress-panel__head">' +
-      '<div><strong>' + state.xp + ' XP</strong><span class="progress-panel__streak-label">🔥 ' + state.streak.count + '-day streak</span></div>' +
-      '<button type="button" class="progress-panel__close" aria-label="Close">' +
+      '<div><strong>' + state.xp + ' XP</strong><span class="progress-panel__streak-label">🔥 Racha de ' + state.streak.count + ' días</span></div>' +
+      '<button type="button" class="progress-panel__close" aria-label="Cerrar">' +
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>' +
       "</div>" +
-      '<p class="progress-panel__hint">Progress saves to this browser only — refresh-safe, no account needed.</p>' +
+      '<p class="progress-panel__hint">El progreso se guarda solo en este navegador — seguro al recargar, sin necesidad de cuenta.</p>' +
       '<div class="progress-panel__levels">' + levelRows + "</div>" +
       topicSummaryHtml(state) +
-      '<p class="progress-panel__badges-label">Badges — ' + earnedCount + " of " + BADGES.length + " earned</p>" +
+      '<p class="progress-panel__badges-label">Insignias — ' + earnedCount + " de " + BADGES.length + " obtenidas</p>" +
       '<ul class="badge-grid">' + badgeGridHtml(state) + "</ul>" +
-      '<a class="btn btn--ghost btn--small progress-panel__link" href="' + progressPageHref() + '">View full progress</a>';
+      '<a class="btn btn--ghost btn--small progress-panel__link" href="' + progressPageHref() + '">Ver progreso completo</a>';
 
     var closeBtn = els.panel.querySelector(".progress-panel__close");
     if (closeBtn) closeBtn.addEventListener("click", function () {
@@ -924,7 +924,7 @@
       els.menuToggle.classList.toggle("has-streak", state.streak.count > 0);
       els.menuToggle.setAttribute(
         "aria-label",
-        "Your progress: " + state.xp + " XP, " + state.streak.count + "-day streak"
+        "Tu progreso: " + state.xp + " XP, racha de " + state.streak.count + " días"
       );
     }
     if (!active && !els.panel.hidden) els.close();
@@ -1044,10 +1044,10 @@
       var state = loadState();
       if (summaryEl) {
         summaryEl.innerHTML =
-          '<div class="progress-stat"><strong>' + state.xp + '</strong><span>Total XP</span></div>' +
-          '<div class="progress-stat"><strong>' + state.streak.count + '</strong><span>Day streak</span></div>' +
-          '<div class="progress-stat"><strong>' + state.badges.length + " / " + BADGES.length + '</strong><span>Badges earned</span></div>' +
-          '<div class="progress-stat"><strong>' + countExercisesDone(state) + '</strong><span>Exercises completed</span></div>';
+          '<div class="progress-stat"><strong>' + state.xp + '</strong><span>XP Total</span></div>' +
+          '<div class="progress-stat"><strong>' + state.streak.count + '</strong><span>Días de racha</span></div>' +
+          '<div class="progress-stat"><strong>' + state.badges.length + " / " + BADGES.length + '</strong><span>Insignias obtenidas</span></div>' +
+          '<div class="progress-stat"><strong>' + countExercisesDone(state) + '</strong><span>Ejercicios completados</span></div>';
       }
       if (levelsEl) {
         levelsEl.innerHTML = LEVELS.map(function (l) {
@@ -1056,7 +1056,7 @@
           var pct = Math.min(100, Math.round((ls.exercisesDone / threshold) * 100));
           return (
             '<div class="progress-panel__level-row">' +
-            '<div class="progress-label"><span>' + l + " — " + LEVEL_NAMES[l] + "</span><span>" + ls.exercisesDone + " done · " + ls.xp + " XP</span></div>" +
+            '<div class="progress-label"><span>' + l + " — " + LEVEL_NAMES[l] + "</span><span>" + ls.exercisesDone + " hechos · " + ls.xp + " XP</span></div>" +
             '<div class="progress-track"><div class="progress-track__fill" style="width:' + pct + '%"></div></div>' +
             "</div>"
           );
@@ -1075,7 +1075,7 @@
     var resetBtn = document.getElementById("progress-reset-btn");
     if (resetBtn) {
       resetBtn.addEventListener("click", function () {
-        if (window.confirm("Reset all XP, streak and badges on this device? This can't be undone.")) {
+        if (window.confirm("¿Reiniciar todo el XP, la racha y las insignias en este dispositivo? Esta acción no se puede deshacer.")) {
           resetProgress();
           render();
         }

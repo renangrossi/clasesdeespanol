@@ -34,8 +34,8 @@
       countNotice.hidden = shown === 0;
       var label = countNotice.querySelector("span") || countNotice;
       var text = q
-        ? "Showing " + shown + " of " + total + " verbs matching “" + input.value.trim() + "”."
-        : "Showing all " + total + " verbs. Search by infinitive, meaning, or any conjugated form.";
+        ? "Mostrando " + shown + " de " + total + " verbos que coinciden con “" + input.value.trim() + "”."
+        : "Mostrando los " + total + " verbos. Busca por infinitivo, significado o cualquier forma conjugada.";
       // First child text node holds the message; the leading icon <svg> stays.
       var textNode = Array.prototype.find.call(countNotice.childNodes, function (n) { return n.nodeType === 3; });
       if (textNode) textNode.textContent = text;

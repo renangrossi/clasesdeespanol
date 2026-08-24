@@ -20,12 +20,12 @@
 
   var MAX_ITEMS_PER_SESSION = 20;
   var TYPE_LABELS = {
-    "fill-blank": "Fill in the Blanks",
-    "multiple-choice": "Multiple Choice",
-    "correction": "Error Correction",
-    "typing": "Rewrite / Short Answer",
-    "matching": "Matching",
-    "ordering": "Word Order",
+    "fill-blank": "Completar los Espacios",
+    "multiple-choice": "Opción Múltiple",
+    "correction": "Corrección de Errores",
+    "typing": "Reescribir / Respuesta Corta",
+    "matching": "Relacionar",
+    "ordering": "Ordenar Palabras",
   };
 
   function el(tag, attrs, html) {
@@ -43,7 +43,7 @@
     box.innerHTML = "";
     if (dueCount === 0) {
       box.className = "notice";
-      box.appendChild(el("p", {}, "<strong>You're all caught up!</strong> Nothing is due for review right now. Keep working through your lessons, and items will show up here exactly when it's time to revisit them."));
+      box.appendChild(el("p", {}, "<strong>¡Estás al día!</strong> No hay nada pendiente de repaso ahora mismo. Sigue avanzando con tus lecciones, y los ítems aparecerán aquí justo cuando llegue el momento de repasarlos."));
       return;
     }
     var levelSummary = Object.keys(byLevel)
@@ -51,9 +51,9 @@
       .map(function (lvl) { return lvl + " (" + byLevel[lvl] + ")"; })
       .join(", ");
     var overflowNote = dueCount > shownCount
-      ? " " + (dueCount - shownCount) + " more item" + (dueCount - shownCount === 1 ? "" : "s") + " will show up on your next visit -- today's session is capped to keep review light."
+      ? " " + (dueCount - shownCount) + (dueCount - shownCount === 1 ? " ítem más aparecerá" : " ítems más aparecerán") + " en tu próxima visita — la sesión de hoy tiene un límite para que el repaso sea ligero."
       : "";
-    box.appendChild(el("p", {}, "<strong>" + shownCount + " item" + (shownCount === 1 ? "" : "s") + " to review today</strong> (" + levelSummary + ")." + overflowNote));
+    box.appendChild(el("p", {}, "<strong>" + shownCount + (shownCount === 1 ? " ítem para repasar hoy" : " ítems para repasar hoy") + "</strong> (" + levelSummary + ")." + overflowNote));
   }
 
   function groupKey(level, type) { return level + "::" + type; }
@@ -62,8 +62,8 @@
     return {
       id: groupId,
       type: type,
-      title: (TYPE_LABELS[type] || type) + " — " + level + " Review",
-      instructions: "Mixed review, pulled from several " + level + " lessons you've already studied.",
+      title: (TYPE_LABELS[type] || type) + " — Repaso de " + level,
+      instructions: "Repaso mixto, tomado de varias lecciones de " + level + " que ya estudiaste.",
       items: items,
     };
   }

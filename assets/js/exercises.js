@@ -160,25 +160,25 @@
    *      exercise's own type/title — never a generic "answers.pdf".
    * ------------------------------------------------------------- */
   var SECTION_LABELS = {
-    exercises: "Exercises",
-    vocabulary: "Vocabulary",
-    reading: "Reading",
-    listening: "Listening",
-    writing: "Writing",
-    speaking: "Speaking",
-    revision: "Revision",
-    "mock-tests": "Mock Tests",
+    exercises: "Ejercicios",
+    vocabulary: "Vocabulario",
+    reading: "Lectura",
+    listening: "Escucha",
+    writing: "Escritura",
+    speaking: "Conversación",
+    revision: "Repaso",
+    "mock-tests": "Exámenes Simulados",
   };
   var TYPE_LABELS = {
-    "fill-blank": "fill in the blanks",
-    "multiple-choice": "multiple choice",
-    vocabulary: "vocabulary",
-    "true-false": "true or false",
-    matching: "matching",
-    ordering: "ordering",
-    correction: "correction",
-    typing: "typing",
-    "reading-comprehension": "reading comprehension",
+    "fill-blank": "completar espacios",
+    "multiple-choice": "opción múltiple",
+    vocabulary: "vocabulario",
+    "true-false": "verdadero o falso",
+    matching: "relacionar",
+    ordering: "ordenar",
+    correction: "corrección",
+    typing: "respuesta corta",
+    "reading-comprehension": "comprensión de lectura",
   };
   // Same labels as TYPE_LABELS, title-cased, for the printed/PDF
   // document header (buildExercisePrintHeaderText below) — kept as a
@@ -187,16 +187,16 @@
   // document heading would write them ("Fill in the Blanks", not
   // "Fill In The Blanks").
   var TYPE_LABELS_TITLE = {
-    "fill-blank": "Fill in the Blanks",
-    "multiple-choice": "Multiple Choice",
-    vocabulary: "Vocabulary",
-    "true-false": "True or False",
-    matching: "Matching",
-    ordering: "Ordering",
-    correction: "Correction",
-    typing: "Typing",
-    "reading-comprehension": "Reading Comprehension",
-    writing: "Writing",
+    "fill-blank": "Completar los Espacios",
+    "multiple-choice": "Opción Múltiple",
+    vocabulary: "Vocabulario",
+    "true-false": "Verdadero o Falso",
+    matching: "Relacionar",
+    ordering: "Ordenar",
+    correction: "Corrección",
+    typing: "Respuesta Corta",
+    "reading-comprehension": "Comprensión de Lectura",
+    writing: "Escritura",
   };
 
   function sanitizeFilename(name) {
@@ -226,7 +226,7 @@
         // heading text under the overarching "Test Yourself" label.
         var heading = sectionEl.querySelector("h2, h3");
         var topicTitle = heading ? heading.textContent.trim() : "";
-        parts.push("Test Yourself");
+        parts.push("Ponte a Prueba");
         if (topicTitle) parts.push(topicTitle);
       }
     }
@@ -269,8 +269,8 @@
     var topicTitle = heading ? heading.textContent.trim() : (topicSection.id || "Topic");
     var parts = [];
     if (levelCode) parts.push(levelCode);
-    parts.push("Test Yourself");
-    parts.push(topicTitle + " Topic");
+    parts.push("Ponte a Prueba");
+    parts.push(topicTitle + " — Tema");
     return parts.join(" - ");
   }
 
@@ -278,7 +278,7 @@
     var levelCode = (document.body.getAttribute("data-level-code") || "").trim();
     var parts = [];
     if (levelCode) parts.push(levelCode);
-    parts.push("Test Yourself Full");
+    parts.push("Ponte a Prueba Completo");
     return parts.join(" - ");
   }
 
@@ -394,11 +394,11 @@
     fbRef.node.classList.toggle("is-incorrect", !correct);
     iconWrap.innerHTML = "";
     iconWrap.appendChild(iconSpan(correct ? "check" : "cross"));
-    fbRef.strongEl.textContent = correct ? "Correct." : "Not quite.";
+    fbRef.strongEl.textContent = correct ? "¡Correcto!" : "No es correcto.";
     if (!correct && correctAnswerText) {
       var existing = fbRef.body.querySelector(".correct-answer");
       if (!existing) {
-        var correctAnswerEl = el("div", { class: "correct-answer", html: "<em>Correct answer:</em> " + correctAnswerText });
+        var correctAnswerEl = el("div", { class: "correct-answer", html: "<em>Respuesta correcta:</em> " + correctAnswerText });
         // The correct form must come before the explanation of why, not
         // after it — insert ahead of the (already-appended) explanation
         // span rather than appending, which used to put it last.
@@ -412,7 +412,7 @@
   function renderChoice(item, index) {
     var wrap = itemShell(index, item.prompt);
     var fieldset = el("fieldset");
-    fieldset.appendChild(el("legend", { class: "visually-hidden", text: "Choose one answer" }));
+    fieldset.appendChild(el("legend", { class: "visually-hidden", text: "Elige una respuesta" }));
     var list = el("div", { class: "option-list" });
     var name = "q_" + item.id;
     var optionEls = [];
@@ -458,10 +458,10 @@
           o.input.disabled = true;
           if (i === item.answerIndex) {
             o.label.classList.add("is-correct");
-            o.label.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correct" }));
+            o.label.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correcta" }));
           } else if (i === chosen) {
             o.label.classList.add("is-incorrect");
-            o.label.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2717 your answer" }));
+            o.label.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2717 tu respuesta" }));
           }
         });
         wrap.classList.add("is-locked");
@@ -478,14 +478,14 @@
   function renderTrueFalse(item, index) {
     var wrap = itemShell(index, item.statement);
     var fieldset = el("fieldset");
-    fieldset.appendChild(el("legend", { class: "visually-hidden", text: "True or false" }));
+    fieldset.appendChild(el("legend", { class: "visually-hidden", text: "Verdadero o falso" }));
     var list = el("div", { class: "option-list tf-options" });
     var name = "q_" + item.id;
     var trueId = name + "_t", falseId = name + "_f";
     var trueInput = el("input", { type: "radio", name: name, id: trueId, value: "true" });
     var falseInput = el("input", { type: "radio", name: name, id: falseId, value: "false" });
-    var trueLabel = el("label", { class: "option", for: trueId }, [trueInput, el("span", { class: "option__label", text: "True" })]);
-    var falseLabel = el("label", { class: "option", for: falseId }, [falseInput, el("span", { class: "option__label", text: "False" })]);
+    var trueLabel = el("label", { class: "option", for: trueId }, [trueInput, el("span", { class: "option__label", text: "Verdadero" })]);
+    var falseLabel = el("label", { class: "option", for: falseId }, [falseInput, el("span", { class: "option__label", text: "Falso" })]);
     list.appendChild(trueLabel);
     list.appendChild(falseLabel);
     fieldset.appendChild(list);
@@ -514,11 +514,11 @@
         trueInput.disabled = true; falseInput.disabled = true;
         var correctLabel = item.answer ? trueLabel : falseLabel;
         correctLabel.classList.add("is-correct");
-        correctLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correct" }));
+        correctLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2713 correcta" }));
         if (chosen !== null && chosen !== item.answer) {
           var wrongLabel = chosen ? trueLabel : falseLabel;
           wrongLabel.classList.add("is-incorrect");
-          wrongLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2717 your answer" }));
+          wrongLabel.appendChild(el("span", { class: "option__tag", "aria-hidden": "true", text: "\u2717 tu respuesta" }));
         }
         wrap.classList.add("is-locked");
         setFeedback(fb, correct, null, iconWrap);
@@ -567,9 +567,9 @@
         if (blankOptions && blankOptions.length) {
           control = el("select", {
             class: "blank-input",
-            "aria-label": "Blank " + (i + 1) + " of " + numBlanks,
+            "aria-label": "Espacio " + (i + 1) + " de " + numBlanks,
           });
-          control.appendChild(el("option", { value: "", text: "Choose…" }));
+          control.appendChild(el("option", { value: "", text: "Elige…" }));
           shuffled(blankOptions).forEach(function (opt) {
             control.appendChild(el("option", { value: opt, text: opt }));
           });
@@ -577,7 +577,7 @@
           control = el("input", {
             type: "text",
             class: "blank-input",
-            "aria-label": "Blank " + (i + 1) + " of " + numBlanks,
+            "aria-label": "Espacio " + (i + 1) + " de " + numBlanks,
             autocomplete: "off",
             autocapitalize: "off",
             spellcheck: "false",
@@ -633,7 +633,7 @@
     wrap.appendChild(el("p", { class: "exercise-item__source", html: "&ldquo;" + item.incorrect + "&rdquo;" }));
     var label = el("label", { class: "exercise-item__prompt", for: "q_" + item.id });
     label.appendChild(el("span", { class: "exercise-item__number", "aria-hidden": "true", text: String(index + 1) }));
-    label.appendChild(document.createTextNode("Write the correct sentence:"));
+    label.appendChild(document.createTextNode("Escribe la frase correcta:"));
     wrap.appendChild(label);
     var input = el("input", { type: "text", id: "q_" + item.id, class: "answer-input", autocomplete: "off", spellcheck: "false" });
     wrap.appendChild(input);
@@ -669,7 +669,7 @@
   // ---- typing (short-answer; graded if item.answer given, else self-check) ----
   function renderTyping(item, index) {
     var wrap = itemShell(index, item.prompt);
-    var input = el("input", { type: "text", class: "answer-input", autocomplete: "off", spellcheck: "false", "aria-label": item.prompt || "Your answer" });
+    var input = el("input", { type: "text", class: "answer-input", autocomplete: "off", spellcheck: "false", "aria-label": item.prompt || "Tu respuesta" });
     wrap.appendChild(input);
 
     var selfCheck = !item.answer;
@@ -695,7 +695,7 @@
         wrap.classList.add("is-locked");
         if (selfCheck) {
           fb.node.classList.add("is-visible");
-          fb.strongEl.textContent = item.modelAnswer ? "Model answer:" : "Saved for your own review.";
+          fb.strongEl.textContent = item.modelAnswer ? "Respuesta modelo:" : "Guardado para tu propio repaso.";
           if (item.modelAnswer && !fb.body.querySelector(".model-answer")) {
             fb.body.appendChild(el("div", { class: "model-answer", text: item.modelAnswer }));
           }
@@ -727,8 +727,8 @@
         el("span", { text: pair.left }),
       ]));
       row.appendChild(el("span", { class: "match-row__arrow", "aria-hidden": "true", text: "\u2192" }));
-      var select = el("select", { class: "answer-input", "aria-label": "Match for " + pair.left });
-      select.appendChild(el("option", { value: "", text: "Choose\u2026" }));
+      var select = el("select", { class: "answer-input", "aria-label": "Relacionar con " + pair.left });
+      select.appendChild(el("option", { value: "", text: "Elige\u2026" }));
       rightOptions.forEach(function (opt) {
         select.appendChild(el("option", { value: opt, text: opt }));
       });
@@ -786,9 +786,9 @@
 
   // ---- ordering (sentence ordering via word chips) ----
   function renderOrdering(item, index) {
-    var wrap = itemShell(index, item.prompt || "Put the words in the correct order.");
-    var buildArea = el("div", { class: "order-build", role: "list", "aria-label": "Your sentence" });
-    var pool = el("div", { class: "order-pool", role: "list", "aria-label": "Available words" });
+    var wrap = itemShell(index, item.prompt || "Ordena las palabras en el orden correcto.");
+    var buildArea = el("div", { class: "order-build", role: "list", "aria-label": "Tu frase" });
+    var pool = el("div", { class: "order-pool", role: "list", "aria-label": "Palabras disponibles" });
     var words = item.words;
     var chips = shuffled(words.map(function (w, i) { return { word: w, key: i, placed: false }; }));
     var built = [];
@@ -810,7 +810,7 @@
     function renderBuild() {
       buildArea.innerHTML = "";
       built.forEach(function (c) {
-        var chip = el("button", { type: "button", class: "word-chip", text: c.word, "aria-label": "Remove " + c.word });
+        var chip = el("button", { type: "button", class: "word-chip", text: c.word, "aria-label": "Quitar " + c.word });
         chip.addEventListener("click", function () {
           c.placed = false;
           built = built.filter(function (b) { return b !== c; });
@@ -823,7 +823,7 @@
     renderPool();
     renderBuild();
 
-    var resetBtn = el("button", { type: "button", class: "btn btn--ghost btn--small order-reset", text: "Clear" });
+    var resetBtn = el("button", { type: "button", class: "btn btn--ghost btn--small order-reset", text: "Borrar" });
     resetBtn.addEventListener("click", function () {
       built.forEach(function (c) { c.placed = false; });
       built = [];
@@ -883,8 +883,8 @@
 
   function buildBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
-    head.appendChild(el("span", { class: "exercise-block__type", text: data.type.replace(/-/g, " ") }));
-    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Exercise" }));
+    head.appendChild(el("span", { class: "exercise-block__type", text: TYPE_LABELS_TITLE[data.type] || data.type.replace(/-/g, " ") }));
+    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Ejercicio" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
     container.appendChild(head);
 
@@ -900,7 +900,7 @@
 
     var renderFn = renderers[data.type];
     if (!renderFn) {
-      itemsWrap.appendChild(el("p", { text: "Unsupported exercise type: " + data.type }));
+      itemsWrap.appendChild(el("p", { text: "Tipo de ejercicio no compatible: " + data.type }));
       return;
     }
 
@@ -915,10 +915,10 @@
     var scorePanels = [scoreTop, scoreBottom];
 
     var actions = el("div", { class: "exercise-actions" });
-    var submitBtn = el("button", { type: "button", class: "btn btn--accent", text: "Submit" });
-    var retryBtn = el("button", { type: "button", class: "btn btn--ghost", text: "Retry incorrect only" });
-    var retryAllBtn = el("button", { type: "button", class: "btn btn--ghost", text: "Retry all" });
-    var printBtn = el("button", { type: "button", class: "btn btn--ghost print-hidden", text: "Save my answers" });
+    var submitBtn = el("button", { type: "button", class: "btn btn--accent", text: "Comprobar" });
+    var retryBtn = el("button", { type: "button", class: "btn btn--ghost", text: "Reintentar solo las incorrectas" });
+    var retryAllBtn = el("button", { type: "button", class: "btn btn--ghost", text: "Reintentar todo" });
+    var printBtn = el("button", { type: "button", class: "btn btn--ghost print-hidden", text: "Guardar mis respuestas" });
     retryBtn.style.display = "none";
     retryAllBtn.style.display = "none";
     printBtn.style.display = "none";
@@ -937,8 +937,8 @@
       var total = results.length;
       var pct = total ? Math.round((correctCount / total) * 100) : 0;
       var ringClass = pct < 50 ? "is-low" : pct < 80 ? "is-mid" : "";
-      var headingText = pct === 100 ? "Excellent — perfect score!" : pct >= 80 ? "Well done." : pct >= 50 ? "Good progress." : "Keep practicing.";
-      var subText = correctCount + " of " + total + " correct (" + pct + "%).";
+      var headingText = pct === 100 ? "¡Excelente, puntuación perfecta!" : pct >= 80 ? "¡Muy bien!" : pct >= 50 ? "Buen progreso." : "Sigue practicando.";
+      var subText = correctCount + " de " + total + " correctas (" + pct + "%).";
       scorePanels.forEach(function (sp) {
         sp.ring.textContent = correctCount + "/" + total;
         sp.ring.classList.remove("is-low", "is-mid");
@@ -1032,8 +1032,8 @@
      --------------------------------------------------------------- */
   function buildWritingBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
-    head.appendChild(el("span", { class: "exercise-block__type", text: "writing" }));
-    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Writing" }));
+    head.appendChild(el("span", { class: "exercise-block__type", text: "escritura" }));
+    head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Escritura" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
     container.appendChild(head);
 
@@ -1049,8 +1049,8 @@
       var textarea = el("textarea", {
         class: "writing-item__textarea",
         rows: "6",
-        placeholder: "Write your answer here\u2026",
-        "aria-label": item.prompt || "Your answer",
+        placeholder: "Escribe tu respuesta aquí\u2026",
+        "aria-label": item.prompt || "Tu respuesta",
       });
       textarea.dataset.prompt = item.prompt || "";
       textareas.push(textarea);
@@ -1059,7 +1059,7 @@
     });
 
     var actions = el("div", { class: "exercise-actions" });
-    var saveBtn = el("button", { type: "button", class: "btn btn--ghost print-hidden", text: "Save my answers" });
+    var saveBtn = el("button", { type: "button", class: "btn btn--ghost print-hidden", text: "Guardar mis respuestas" });
     actions.appendChild(saveBtn);
     container.appendChild(actions);
     maybeAddTopicSaveButton(saveBtn, container);
@@ -1067,12 +1067,12 @@
     saveBtn.addEventListener("click", function () {
       performSaveAnswers(container, data, function () {
         var printWrap = el("div", { class: "exercise-block" });
-        printWrap.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Writing" }));
+        printWrap.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Escritura" }));
         textareas.forEach(function (ta, i) {
           var block = el("div", { class: "writing-item" });
           block.appendChild(el("p", { class: "writing-item__prompt", text: "" + (i + 1) + ". " + (ta.dataset.prompt || "") }));
           var answerP = el("p", { class: "writing-item__saved-answer" });
-          answerP.textContent = ta.value.trim() || "(No answer written yet.)";
+          answerP.textContent = ta.value.trim() || "(Todavía no has escrito una respuesta.)";
           block.appendChild(answerP);
           printWrap.appendChild(block);
         });
@@ -1285,11 +1285,11 @@
   }
 
   var RESULT_LABELS = {
-    correct: "Correct",
-    incorrect: "Not quite",
-    unanswered: "Not answered",
-    "self-check": "Written",
-    unsupported: "Not available",
+    correct: "Correcta",
+    incorrect: "Incorrecta",
+    unanswered: "Sin responder",
+    "self-check": "Escrita",
+    unsupported: "No disponible",
   };
 
   function buildResultItemNode(entry) {
@@ -1299,12 +1299,12 @@
     if (entry.question) wrap.appendChild(el("p", { class: "saved-summary-item__q", text: entry.question }));
     wrap.appendChild(el("p", {
       class: "saved-summary-item__a",
-      html: "<strong>Your answer:</strong> " + (entry.userAnswer ? escapeHtml(entry.userAnswer) : "<em>(No answer given)</em>"),
+      html: "<strong>Tu respuesta:</strong> " + (entry.userAnswer ? escapeHtml(entry.userAnswer) : "<em>(No diste una respuesta)</em>"),
     }));
     if (entry.correctAnswer) {
       wrap.appendChild(el("p", {
         class: "saved-summary-item__correct",
-        html: "<strong>" + (entry.result === "self-check" ? "Model answer:" : "Correct answer:") + "</strong> " + escapeHtml(entry.correctAnswer),
+        html: "<strong>" + (entry.result === "self-check" ? "Respuesta modelo:" : "Respuesta correcta:") + "</strong> " + escapeHtml(entry.correctAnswer),
       }));
     }
     if (entry.explanation) {
@@ -1333,7 +1333,7 @@
 
   function performTopicSave(topicSection) {
     var topic = collectTopicAnswers(topicSection);
-    var fakeData = { type: null, title: "All Topic Exercises — Saved Answers" };
+    var fakeData = { type: null, title: "Todos los Ejercicios del Tema — Respuestas Guardadas" };
     performSaveAnswers(topicSection, fakeData, function () {
       return wrapWithPrintHeader(buildTopicPrintHeaderText(topicSection), buildTopicSummaryNode(topic));
     });
@@ -1341,7 +1341,7 @@
 
   function performTestSave() {
     var testData = collectTestYourselfAnswers();
-    var fakeData = { type: null, title: "Test Yourself — All Topics — Saved Answers" };
+    var fakeData = { type: null, title: "Ponte a Prueba — Todos los Temas — Respuestas Guardadas" };
     performSaveAnswers(document.body, fakeData, function () {
       var wrap = el("div", { class: "exercise-block saved-summary-root" });
       testData.topics.forEach(function (topic) { wrap.appendChild(buildTopicSummaryNode(topic)); });
@@ -1359,12 +1359,12 @@
     var topicSection = container.closest(".ty-topic[id]");
     if (!topicSection) return null;
     var heading = topicSection.querySelector(".section__head h2, h2, h3");
-    var topicTitle = heading ? heading.textContent.trim() : "this topic";
+    var topicTitle = heading ? heading.textContent.trim() : "este tema";
     var btn = el("button", {
       type: "button",
       class: "btn btn--ghost print-hidden",
-      text: "Save Topic Answers",
-      "aria-label": "Save all answers for the topic: " + topicTitle,
+      text: "Guardar Respuestas del Tema",
+      "aria-label": "Guardar todas las respuestas del tema: " + topicTitle,
     });
     primaryBtn.parentNode.insertBefore(btn, primaryBtn.nextSibling);
     btn.addEventListener("click", function () {
@@ -1385,7 +1385,7 @@
           buildBlock(container, data);
         }
       } catch (e) {
-        container.innerHTML = "<p>This exercise could not be loaded.</p>";
+        container.innerHTML = "<p>No se pudo cargar este ejercicio.</p>";
         if (window.console) console.error("Exercise parse error", e);
       }
     });
@@ -1408,8 +1408,8 @@
       type: "button",
       id: "ty-save-all-btn",
       class: "btn btn--accent print-hidden",
-      text: "Save All Test Yourself Answers",
-      "aria-label": "Save all answers from every " + (levelCode ? levelCode + " " : "") + "Test Yourself topic",
+      text: "Guardar Todas las Respuestas de Ponte a Prueba",
+      "aria-label": "Guardar todas las respuestas de cada tema de Ponte a Prueba" + (levelCode ? " de " + levelCode : ""),
     });
     btn.addEventListener("click", function () {
       performTestSave();

@@ -12,7 +12,7 @@
 
   function update() {
     var raw = input.value.trim();
-    var word = raw || "ciao";
+    var word = raw || "hola";
     var encoded = encodeURIComponent(word.toLowerCase());
     cards.forEach(function (card) {
       var tmpl = card.getAttribute("data-url-template");
@@ -22,7 +22,7 @@
       link.textContent = "";
       var icon = link.querySelector("svg");
       if (icon) link.appendChild(icon);
-      link.appendChild(document.createTextNode(raw ? "Look up “" + raw + "”" : "Look up"));
+      link.appendChild(document.createTextNode(raw ? "Buscar “" + raw + "”" : "Buscar"));
     });
   }
 
