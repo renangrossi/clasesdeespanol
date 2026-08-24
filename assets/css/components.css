@@ -20,12 +20,12 @@
   justify-content: center;
   gap: clamp(0.6em, 2vw, 1.3em);
   padding: 1.9em 1.75em 1.1em;
-  color: #ffffff;
+  color: var(--color-text-on-dark);
   flex-wrap: wrap;
 }
 .stars-row__star { width: 13px; height: 13px; flex-shrink: 0; opacity: 0.95; }
-.stars-row--gold { color: #ffffff; }
-.stars-row--onlight { color: #ffffff; }
+.stars-row--gold { color: var(--color-text-on-dark); }
+.stars-row--onlight { color: var(--color-text-on-dark); }
 
 
 .site-header {
@@ -778,7 +778,7 @@ body:not(:has(.level-toc)) .section {
 .cta-band {
   text-align: center;
   padding: var(--space-2xl) var(--space-md);
-  background: linear-gradient(160deg, var(--color-primary-strong), var(--navy-700));
+  background: linear-gradient(160deg, var(--color-primary-strong), var(--burgundy-500));
   color: var(--color-text-on-dark);
   border-top: 4px solid var(--color-red);
   border-bottom: 4px solid var(--color-red);
