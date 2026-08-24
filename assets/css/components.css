@@ -387,7 +387,11 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
    --------------------------------------------------------------------- */
 .hero {
   position: relative;
-  background: radial-gradient(1200px 600px at 15% -10%, rgba(196, 154, 63, 0.16), transparent 60%), var(--color-primary-strong);
+  /* Blue specifically for the hero, by request — every other primary
+     surface (header, footer, CTA band, primary buttons) stays on
+     --color-primary-strong (red); only this section uses --navy-900
+     directly instead of the role token. */
+  background: radial-gradient(1200px 600px at 15% -10%, rgba(196, 154, 63, 0.16), transparent 60%), var(--navy-900);
   color: var(--color-text-on-dark);
   overflow: hidden;
   border-bottom: 4px solid var(--color-red);
