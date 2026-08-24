@@ -138,6 +138,91 @@
           "explanation": "Dejar de + infinitivo necesita siempre el enlace de."
         }
       ]
+    },
+    {
+      "id": "b2x5-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Cambios en la Rutina",
+      "passage": "<p>Llevo tres años estudiando español y sigo aprendiendo cosas nuevas cada día. Acabo de terminar un curso avanzado, así que voy a empezar otro más especializado pronto. Dejé de estudiar francés porque no tenía tiempo para los dos idiomas a la vez.</p>",
+      "items": [
+        {
+          "id": "b2x5r1",
+          "prompt": "¿Cuánto tiempo lleva estudiando español la persona?",
+          "options": [
+            "Un año",
+            "Tres años",
+            "Cinco años"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Llevo tres años estudiando español»."
+        },
+        {
+          "id": "b2x5r2",
+          "prompt": "¿Qué acaba de terminar?",
+          "options": [
+            "Un examen",
+            "Un curso avanzado",
+            "Una carrera"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Acabo de terminar un curso avanzado»."
+        },
+        {
+          "id": "b2x5r3",
+          "prompt": "¿Por qué dejó de estudiar francés?",
+          "options": [
+            "Porque no le gustaba",
+            "Porque no tenía tiempo para los dos idiomas",
+            "Porque era muy difícil"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «no tenía tiempo para los dos idiomas a la vez»."
+        },
+        {
+          "id": "b2x5r4",
+          "prompt": "¿Qué va a hacer pronto?",
+          "options": [
+            "Dejar de estudiar",
+            "Empezar otro curso más especializado",
+            "Viajar a España"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «voy a empezar otro más especializado pronto»."
+        }
+      ]
+    },
+    {
+      "id": "b2x5-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x5o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Llevo",
+            "dos",
+            "horas",
+            "esperando",
+            "el",
+            "autobús"
+          ],
+          "explanation": "Llevar + tiempo + gerundio, expresa duración hasta ahora."
+        },
+        {
+          "id": "b2x5o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Volvió",
+            "a",
+            "llamar",
+            "por",
+            "tercera",
+            "vez"
+          ],
+          "explanation": "Volver a + infinitivo, expresa repetición de una acción."
+        }
+      ]
     }
   ],
   "summary": [

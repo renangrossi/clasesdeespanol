@@ -151,6 +151,90 @@
           "explanation": "Estos seis verbos son totalmente irregulares en subjuntivo y no siguen la regla de la forma de yo."
         }
       ]
+    },
+    {
+      "id": "b1x6-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Deseos para el Nuevo Año",
+      "passage": "<p>Espero que este año sea mejor que el anterior. Quiero que mi familia tenga buena salud y que todos podamos vernos más a menudo. Ojalá que consiga el trabajo que tanto deseo. Es importante que sigamos adelante, pase lo que pase.</p>",
+      "items": [
+        {
+          "id": "b1x6r1",
+          "prompt": "¿Qué espera la persona sobre este año?",
+          "options": [
+            "Que sea igual que el anterior",
+            "Que sea mejor",
+            "Que sea muy corto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Espero que este año sea mejor que el anterior»."
+        },
+        {
+          "id": "b1x6r2",
+          "prompt": "¿Qué desea para su familia?",
+          "options": [
+            "Más dinero",
+            "Buena salud",
+            "Un viaje juntos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Quiero que mi familia tenga buena salud»."
+        },
+        {
+          "id": "b1x6r3",
+          "prompt": "¿Qué espera conseguir la persona?",
+          "options": [
+            "Una casa nueva",
+            "El trabajo que desea",
+            "Un coche"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Ojalá que consiga el trabajo que tanto deseo»."
+        },
+        {
+          "id": "b1x6r4",
+          "prompt": "¿Qué considera importante la persona al final?",
+          "options": [
+            "Descansar mucho",
+            "Seguir adelante pase lo que pase",
+            "No cambiar nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Es importante que sigamos adelante, pase lo que pase»."
+        }
+      ]
+    },
+    {
+      "id": "b1x6-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x6o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Espero",
+            "que",
+            "tengas",
+            "un",
+            "buen",
+            "día"
+          ],
+          "explanation": "Verbo de deseo + que + subjuntivo (tengas) + objeto."
+        },
+        {
+          "id": "b1x6o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ojalá",
+            "que",
+            "todo",
+            "salga",
+            "bien"
+          ],
+          "explanation": "Ojalá + que + subjuntivo (salga) + adverbio."
+        }
+      ]
     }
   ],
   "summary": [

@@ -136,6 +136,91 @@
           "explanation": "El pretérito perfecto de la cita original retrocede a pluscuamperfecto con el verbo introductor en pasado."
         }
       ]
+    },
+    {
+      "id": "b2x8-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Recordando una Conversación",
+      "passage": "<p>Me dijo que estaba muy ocupada esa semana. Me contó que había viajado a Chile el año anterior con su familia. Prometió que me llamaría al día siguiente para darme más detalles. También me pidió que la esperara un momento en la entrada.</p>",
+      "items": [
+        {
+          "id": "b2x8r1",
+          "prompt": "¿Cómo dijo que estaba esa semana?",
+          "options": [
+            "Tranquila",
+            "Muy ocupada",
+            "De vacaciones"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Me dijo que estaba muy ocupada esa semana»."
+        },
+        {
+          "id": "b2x8r2",
+          "prompt": "¿Adónde había viajado el año anterior?",
+          "options": [
+            "A Perú",
+            "A Chile",
+            "A Argentina"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «había viajado a Chile el año anterior»."
+        },
+        {
+          "id": "b2x8r3",
+          "prompt": "¿Qué prometió hacer?",
+          "options": [
+            "Escribir un correo",
+            "Llamar al día siguiente",
+            "Visitarla pronto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Prometió que me llamaría al día siguiente»."
+        },
+        {
+          "id": "b2x8r4",
+          "prompt": "¿Qué le pidió al final?",
+          "options": [
+            "Que la llamara",
+            "Que la esperara en la entrada",
+            "Que se fuera"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «me pidió que la esperara un momento en la entrada»."
+        }
+      ]
+    },
+    {
+      "id": "b2x8-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x8o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Dijo",
+            "que",
+            "vendría",
+            "al",
+            "día",
+            "siguiente"
+          ],
+          "explanation": "Futuro en la cita original retrocede a condicional en estilo indirecto pasado."
+        },
+        {
+          "id": "b2x8o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Me",
+            "pidió",
+            "que",
+            "cerrara",
+            "la",
+            "puerta"
+          ],
+          "explanation": "Imperativo en estilo indirecto pasado se convierte en imperfecto de subjuntivo."
+        }
+      ]
     }
   ],
   "summary": [

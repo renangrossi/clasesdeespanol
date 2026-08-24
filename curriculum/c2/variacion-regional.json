@@ -122,6 +122,92 @@
           "explanation": "El español no tiene un único centro de prestigio: cada país o región hispanohablante tiene su propia norma culta legítima."
         }
       ]
+    },
+    {
+      "id": "c2x4-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Recorrido por el Español del Mundo",
+      "passage": "<p>En España, el distingo separa la pronunciación de c/z de la s; en América Latina predomina el seseo. En el Caribe es común aspirar la s final, mientras que en el Río de la Plata el yeísmo suena como «sh». Cada variedad es igual de válida y refleja la riqueza del idioma.</p>",
+      "items": [
+        {
+          "id": "c2x4r1",
+          "prompt": "¿Qué es el distingo, según el texto?",
+          "options": [
+            "Pronunciar c/z igual que s",
+            "Separar la pronunciación de c/z de la s",
+            "No pronunciar la s final"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «el distingo separa la pronunciación de c/z de la s»."
+        },
+        {
+          "id": "c2x4r2",
+          "prompt": "¿Qué predomina en América Latina?",
+          "options": [
+            "El distingo",
+            "El seseo",
+            "El yeísmo con sh"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «en América Latina predomina el seseo»."
+        },
+        {
+          "id": "c2x4r3",
+          "prompt": "¿Qué es común en el Caribe?",
+          "options": [
+            "Aspirar la s final",
+            "El distingo",
+            "El yeísmo con sh"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «En el Caribe es común aspirar la s final»."
+        },
+        {
+          "id": "c2x4r4",
+          "prompt": "¿El texto considera una variedad más correcta que otra?",
+          "options": [
+            "Sí, el distingo es superior",
+            "No, todas son igual de válidas"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Cada variedad es igual de válida y refleja la riqueza del idioma»."
+        }
+      ]
+    },
+    {
+      "id": "c2x4-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c2x4o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "En",
+            "Argentina",
+            "el",
+            "yeísmo",
+            "suena",
+            "distinto"
+          ],
+          "explanation": "Complemento de lugar + sujeto + verbo + adjetivo."
+        },
+        {
+          "id": "c2x4o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "seseo",
+            "es",
+            "mayoritario",
+            "en",
+            "el",
+            "mundo",
+            "hispanohablante"
+          ],
+          "explanation": "Sujeto + ser + adjetivo + complemento de lugar."
+        }
+      ]
     }
   ],
   "summary": [

@@ -120,6 +120,89 @@
           "explanation": "Un año concreto como marcador de tiempo cerrado siempre pide el indefinido, no el perfecto compuesto."
         }
       ]
+    },
+    {
+      "id": "b1x1-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Dos Formas de Hablar del Pasado",
+      "passage": "<p>Esta mañana he desayunado tarde porque me he dormido. Ayer, en cambio, desayuné a las siete en punto porque tenía una reunión temprano. Mi amiga mexicana me dijo: «Yo también desayuné tarde hoy», usando el indefinido para el mismo tipo de situación.</p>",
+      "items": [
+        {
+          "id": "b1x1r1",
+          "prompt": "¿Por qué la persona desayunó tarde esta mañana?",
+          "options": [
+            "Porque tenía una reunión",
+            "Porque se durmió",
+            "Porque no tenía hambre"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «porque me he dormido»."
+        },
+        {
+          "id": "b1x1r2",
+          "prompt": "¿A qué hora desayunó ayer?",
+          "options": [
+            "A las siete",
+            "A las ocho",
+            "A las nueve"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «desayuné a las siete en punto»."
+        },
+        {
+          "id": "b1x1r3",
+          "prompt": "¿Qué tiempo verbal usó la amiga mexicana para hablar de hoy?",
+          "options": [
+            "El perfecto compuesto",
+            "El indefinido",
+            "El imperfecto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice que la amiga usó «desayuné», el indefinido, para hablar de hoy mismo."
+        },
+        {
+          "id": "b1x1r4",
+          "prompt": "¿El texto muestra una diferencia regional en el uso del pasado?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 0,
+          "explanation": "El contraste entre \"he desayunado\" y \"desayuné\" para hechos de hoy ilustra la variación regional explicada en la lección."
+        }
+      ]
+    },
+    {
+      "id": "b1x1-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x1o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Esta",
+            "semana",
+            "he",
+            "trabajado",
+            "mucho"
+          ],
+          "explanation": "Periodo de tiempo no cerrado (esta semana) + haber + participio."
+        },
+        {
+          "id": "b1x1o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "año",
+            "pasado",
+            "viví",
+            "en",
+            "Chile"
+          ],
+          "explanation": "Marcador de tiempo cerrado (el año pasado) + verbo en indefinido."
+        }
+      ]
     }
   ],
   "summary": [

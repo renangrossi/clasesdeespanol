@@ -142,6 +142,92 @@
           "explanation": "El verbo debe concordar en plural con los libros, no quedarse en singular."
         }
       ]
+    },
+    {
+      "id": "b2x7-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Día de Torpezas",
+      "passage": "<p>Se me rompió el teléfono esta mañana sin querer. Se nos olvidaron las llaves dentro del coche otra vez. A mi hermano se le cayó el café encima de la camisa nueva. Se nos hizo tarde y por eso perdimos el autobús de las ocho.</p>",
+      "items": [
+        {
+          "id": "b2x7r1",
+          "prompt": "¿Qué se le rompió a la persona esta mañana?",
+          "options": [
+            "El teléfono",
+            "Las llaves",
+            "La camisa"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Se me rompió el teléfono esta mañana»."
+        },
+        {
+          "id": "b2x7r2",
+          "prompt": "¿Qué se les olvidó dentro del coche?",
+          "options": [
+            "El teléfono",
+            "Las llaves",
+            "El café"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Se nos olvidaron las llaves dentro del coche»."
+        },
+        {
+          "id": "b2x7r3",
+          "prompt": "¿A quién se le cayó el café?",
+          "options": [
+            "A la persona que habla",
+            "A su hermano",
+            "A un desconocido"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «A mi hermano se le cayó el café»."
+        },
+        {
+          "id": "b2x7r4",
+          "prompt": "¿Por qué perdieron el autobús?",
+          "options": [
+            "Porque llegaron temprano",
+            "Porque se les hizo tarde",
+            "Porque no tenían dinero"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Se nos hizo tarde y por eso perdimos el autobús»."
+        }
+      ]
+    },
+    {
+      "id": "b2x7-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x7o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Se",
+            "me",
+            "olvidó",
+            "el",
+            "paraguas",
+            "en",
+            "casa"
+          ],
+          "explanation": "Se + pronombre indirecto + verbo (concuerda con el paraguas, singular)."
+        },
+        {
+          "id": "b2x7o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Se",
+            "nos",
+            "acabó",
+            "la",
+            "leche",
+            "hoy"
+          ],
+          "explanation": "Se + pronombre + verbo concordado con la leche (singular)."
+        }
+      ]
     }
   ],
   "summary": [

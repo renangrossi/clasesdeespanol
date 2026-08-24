@@ -148,6 +148,92 @@
           "explanation": "Ambas ideas describen un estado prolongado del pasado, así que se usa el imperfecto."
         }
       ]
+    },
+    {
+      "id": "a2x4-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Cuando Era Niño",
+      "passage": "<p>Cuando era niño, vivía en un pueblo pequeño cerca de las montañas. Todos los veranos jugaba en el río con mis amigos. Mi abuela cocinaba pan casero todas las mañanas, y su casa siempre olía muy bien. Éramos muy felices en esa época sencilla.</p>",
+      "items": [
+        {
+          "id": "a2x4r1",
+          "prompt": "¿Dónde vivía la persona de niño?",
+          "options": [
+            "En una ciudad grande",
+            "En un pueblo pequeño",
+            "En la playa"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «vivía en un pueblo pequeño cerca de las montañas»."
+        },
+        {
+          "id": "a2x4r2",
+          "prompt": "¿Dónde jugaba en verano?",
+          "options": [
+            "En el parque",
+            "En el río",
+            "En la escuela"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «jugaba en el río con mis amigos»."
+        },
+        {
+          "id": "a2x4r3",
+          "prompt": "¿Qué cocinaba la abuela?",
+          "options": [
+            "Pasteles",
+            "Pan casero",
+            "Sopa"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mi abuela cocinaba pan casero todas las mañanas»."
+        },
+        {
+          "id": "a2x4r4",
+          "prompt": "¿Cómo describe la persona esa época de su vida?",
+          "options": [
+            "Muy difícil",
+            "Muy feliz",
+            "Muy aburrida"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Éramos muy felices en esa época sencilla»."
+        }
+      ]
+    },
+    {
+      "id": "a2x4-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x4o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "De",
+            "niño",
+            "vivía",
+            "en",
+            "un",
+            "pueblo"
+          ],
+          "explanation": "Expresión temporal + vivir (imperfecto, yo) + complemento de lugar."
+        },
+        {
+          "id": "a2x4o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Todos",
+            "los",
+            "veranos",
+            "jugábamos",
+            "en",
+            "el",
+            "río"
+          ],
+          "explanation": "Expresión de hábito repetido + jugar (imperfecto, nosotros) + complemento."
+        }
+      ]
     }
   ],
   "summary": [

@@ -198,6 +198,92 @@
           "explanation": "Cada conector marca una relación lógica precisa entre dos ideas del texto."
         }
       ]
+    },
+    {
+      "id": "c1x6-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Argumento Estructurado",
+      "passage": "<p>En primer lugar, cabe destacar el impacto positivo de esta medida en la economía local. Asimismo, no cabe duda de que ha generado empleo en la región. No obstante, algunos expertos señalan riesgos a largo plazo. En definitiva, se trata de una decisión con luces y sombras.</p>",
+      "items": [
+        {
+          "id": "c1x6r1",
+          "prompt": "¿Qué se destaca en primer lugar?",
+          "options": [
+            "El impacto negativo",
+            "El impacto positivo en la economía",
+            "Los riesgos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «cabe destacar el impacto positivo de esta medida en la economía local»."
+        },
+        {
+          "id": "c1x6r2",
+          "prompt": "¿Qué ha generado la medida, según el texto?",
+          "options": [
+            "Desempleo",
+            "Empleo en la región",
+            "Inflación"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ha generado empleo en la región»."
+        },
+        {
+          "id": "c1x6r3",
+          "prompt": "¿Qué señalan algunos expertos?",
+          "options": [
+            "Que todo es perfecto",
+            "Riesgos a largo plazo",
+            "Que no hay ningún riesgo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «algunos expertos señalan riesgos a largo plazo»."
+        },
+        {
+          "id": "c1x6r4",
+          "prompt": "¿Cómo se describe la decisión al final?",
+          "options": [
+            "Completamente positiva",
+            "Con luces y sombras",
+            "Un fracaso total"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «se trata de una decisión con luces y sombras»."
+        }
+      ]
+    },
+    {
+      "id": "c1x6-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x6o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "En",
+            "primer",
+            "lugar",
+            "quiero",
+            "agradecer",
+            "a",
+            "todos"
+          ],
+          "explanation": "Conector de orden + verbo + objeto."
+        },
+        {
+          "id": "c1x6o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "cabe",
+            "duda",
+            "de",
+            "que",
+            "funciona"
+          ],
+          "explanation": "Expresión de certeza + de que + indicativo."
+        }
+      ]
     }
   ],
   "summary": [

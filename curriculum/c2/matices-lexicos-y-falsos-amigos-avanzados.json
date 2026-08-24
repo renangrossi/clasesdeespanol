@@ -123,6 +123,91 @@
           "explanation": "Embarazada significa \"esperando un bebé\", no \"avergonzada\": uno de los falsos amigos más conocidos del español."
         }
       ]
+    },
+    {
+      "id": "c2x3-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Malentendido por un Falso Amigo",
+      "passage": "<p>Actualmente vivo en Montevideo, aunque nací en Buenos Aires. En realidad, no estoy tan seguro de que esta sea la mejor decisión. Me sentí muy avergonzado después de aquel comentario torpe en la reunión. Mi tía está embarazada de su segundo hijo.</p>",
+      "items": [
+        {
+          "id": "c2x3r1",
+          "prompt": "¿Qué significa \"actualmente\" en el texto?",
+          "options": [
+            "En realidad",
+            "En este momento",
+            "De manera precisa"
+          ],
+          "answerIndex": 1,
+          "explanation": "Actualmente significa «ahora, en este momento», no «en realidad»."
+        },
+        {
+          "id": "c2x3r2",
+          "prompt": "¿Dónde nació la persona?",
+          "options": [
+            "En Montevideo",
+            "En Buenos Aires",
+            "No lo dice"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «aunque nací en Buenos Aires»."
+        },
+        {
+          "id": "c2x3r3",
+          "prompt": "¿Por qué se sintió avergonzada la persona?",
+          "options": [
+            "Por un comentario torpe",
+            "Por llegar tarde",
+            "Por perder algo"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Me sentí muy avergonzado después de aquel comentario torpe»."
+        },
+        {
+          "id": "c2x3r4",
+          "prompt": "¿Qué significa que la tía \"está embarazada\"?",
+          "options": [
+            "Que está avergonzada",
+            "Que espera un bebé",
+            "Que está ocupada"
+          ],
+          "answerIndex": 1,
+          "explanation": "Embarazada significa exclusivamente «esperando un bebé», uno de los falsos amigos más conocidos del español."
+        }
+      ]
+    },
+    {
+      "id": "c2x3-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c2x3o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "En",
+            "realidad",
+            "no",
+            "estoy",
+            "de",
+            "acuerdo"
+          ],
+          "explanation": "En realidad (no actualmente) para expresar un matiz de verdad frente a la apariencia."
+        },
+        {
+          "id": "c2x3o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Me",
+            "sentí",
+            "avergonzado",
+            "por",
+            "el",
+            "error"
+          ],
+          "explanation": "Sentirse + avergonzado (no embarazado) + causa."
+        }
+      ]
     }
   ],
   "summary": [

@@ -814,3 +814,223 @@ LESSONS = [
         ],
     },
 ]
+
+# =======================================================================
+# EXTRA_EXERCISES — bloques adicionales de práctica (lectura y ordenar
+# frases) fusionados en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES = {
+    "b1-perfecto-vs-indefinido-matices": [
+        {"id": "b1x1-reading", "type": "reading-comprehension", "title": "Lectura: Dos Formas de Hablar del Pasado",
+         "passage": "<p>Esta mañana he desayunado tarde porque me he dormido. Ayer, en cambio, desayuné a las siete en punto porque tenía una reunión temprano. Mi amiga mexicana me dijo: «Yo también desayuné tarde hoy», usando el indefinido para el mismo tipo de situación.</p>",
+         "items": [
+            {"id": "b1x1r1", "prompt": "¿Por qué la persona desayunó tarde esta mañana?", "options": ["Porque tenía una reunión", "Porque se durmió", "Porque no tenía hambre"], "answerIndex": 1, "explanation": "El texto dice: «porque me he dormido»."},
+            {"id": "b1x1r2", "prompt": "¿A qué hora desayunó ayer?", "options": ["A las siete", "A las ocho", "A las nueve"], "answerIndex": 0, "explanation": "El texto dice: «desayuné a las siete en punto»."},
+            {"id": "b1x1r3", "prompt": "¿Qué tiempo verbal usó la amiga mexicana para hablar de hoy?", "options": ["El perfecto compuesto", "El indefinido", "El imperfecto"], "answerIndex": 1, "explanation": "El texto dice que la amiga usó «desayuné», el indefinido, para hablar de hoy mismo."},
+            {"id": "b1x1r4", "prompt": "¿El texto muestra una diferencia regional en el uso del pasado?", "options": ["Sí", "No"], "answerIndex": 0, "explanation": "El contraste entre \"he desayunado\" y \"desayuné\" para hechos de hoy ilustra la variación regional explicada en la lección."},
+         ]},
+        {"id": "b1x1-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x1o1", "prompt": "Ordena las palabras.", "words": ["Esta", "semana", "he", "trabajado", "mucho"], "explanation": "Periodo de tiempo no cerrado (esta semana) + haber + participio."},
+            {"id": "b1x1o2", "prompt": "Ordena las palabras.", "words": ["El", "año", "pasado", "viví", "en", "Chile"], "explanation": "Marcador de tiempo cerrado (el año pasado) + verbo en indefinido."},
+         ]},
+    ],
+    "b1-pluscuamperfecto": [
+        {"id": "b1x2-reading", "type": "reading-comprehension", "title": "Lectura: Llegamos Tarde a la Fiesta",
+         "passage": "<p>Cuando llegamos a la fiesta, ya se habían ido casi todos los invitados. Habíamos salido tarde de casa porque el coche no arrancaba. Nunca antes habíamos tenido tan mala suerte con un vehículo. Menos mal que algunos amigos todavía estaban allí cuando llegamos.</p>",
+         "items": [
+            {"id": "b1x2r1", "prompt": "¿Qué había pasado ya cuando llegaron a la fiesta?", "options": ["La fiesta no había empezado", "Casi todos los invitados se habían ido", "Nadie había llegado todavía"], "answerIndex": 1, "explanation": "El texto dice: «ya se habían ido casi todos los invitados»."},
+            {"id": "b1x2r2", "prompt": "¿Por qué salieron tarde de casa?", "options": ["Porque se durmieron", "Porque el coche no arrancaba", "Porque olvidaron la dirección"], "answerIndex": 1, "explanation": "El texto dice: «porque el coche no arrancaba»."},
+            {"id": "b1x2r3", "prompt": "¿Habían tenido antes tan mala suerte con un vehículo?", "options": ["Sí, muchas veces", "Nunca antes"], "answerIndex": 1, "explanation": "El texto dice: «Nunca antes habíamos tenido tan mala suerte»."},
+            {"id": "b1x2r4", "prompt": "¿Encontraron a alguien conocido en la fiesta?", "options": ["Sí, algunos amigos", "No, estaba vacía"], "answerIndex": 0, "explanation": "El texto dice: «algunos amigos todavía estaban allí cuando llegamos»."},
+         ]},
+        {"id": "b1x2-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x2o1", "prompt": "Ordena las palabras.", "words": ["Cuando", "llegué", "el", "tren", "ya", "había", "salido"], "explanation": "Cuando + hecho puntual (indefinido) + hecho anterior (pluscuamperfecto)."},
+            {"id": "b1x2o2", "prompt": "Ordena las palabras.", "words": ["Nunca", "antes", "habíamos", "visto", "algo", "así"], "explanation": "Nunca antes + pluscuamperfecto para expresar una experiencia anterior a un punto pasado."},
+         ]},
+    ],
+    "b1-futuro-compuesto-y-condicional-simple": [
+        {"id": "b1x3-reading", "type": "reading-comprehension", "title": "Lectura: Planificando el Proyecto",
+         "passage": "<p>Para el viernes, ya habré terminado la primera parte del proyecto. Mi compañero dijo que él haría la segunda parte, pero todavía no la ha empezado. Serían las diez cuando me llamó para avisarme del retraso. Me gustaría terminar todo antes del fin de semana.</p>",
+         "items": [
+            {"id": "b1x3r1", "prompt": "¿Qué habrá terminado la persona para el viernes?", "options": ["Todo el proyecto", "La primera parte", "La segunda parte"], "answerIndex": 1, "explanation": "El texto dice: «Para el viernes, ya habré terminado la primera parte del proyecto»."},
+            {"id": "b1x3r2", "prompt": "¿Qué dijo el compañero que haría?", "options": ["La primera parte", "La segunda parte", "Nada"], "answerIndex": 1, "explanation": "El texto dice: «Mi compañero dijo que él haría la segunda parte»."},
+            {"id": "b1x3r3", "prompt": "¿A qué hora aproximadamente llamó el compañero?", "options": ["A las nueve", "A las diez", "A las once"], "answerIndex": 1, "explanation": "El texto dice: «Serían las diez cuando me llamó»."},
+            {"id": "b1x3r4", "prompt": "¿Qué le gustaría a la persona?", "options": ["Cancelar el proyecto", "Terminar todo antes del fin de semana", "Trabajar solo"], "answerIndex": 1, "explanation": "El texto dice: «Me gustaría terminar todo antes del fin de semana»."},
+         ]},
+        {"id": "b1x3-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x3o1", "prompt": "Ordena las palabras.", "words": ["Para", "mañana", "ya", "habré", "acabado", "esto"], "explanation": "Para + momento futuro + futuro compuesto (habré + participio)."},
+            {"id": "b1x3o2", "prompt": "Ordena las palabras.", "words": ["¿Podrías", "ayudarme", "con", "esto", "por", "favor"], "explanation": "Condicional simple para una petición cortés + infinitivo + complemento."},
+         ]},
+    ],
+    "b1-condicional-cortesia-e-hipotesis": [
+        {"id": "b1x4-reading", "type": "reading-comprehension", "title": "Lectura: Un Consejo entre Amigos",
+         "passage": "<p>—¿Te importaría darme tu opinión sobre esto?<br>—Claro. Yo que tú, hablaría con tu jefe directamente.<br>—Si tuviera más confianza, lo haría mañana mismo.<br>—Pues yo en tu lugar no esperaría más. Cuanto antes, mejor.</p>",
+         "items": [
+            {"id": "b1x4r1", "prompt": "¿Qué le pide la primera persona a su amigo?", "options": ["Dinero", "Su opinión", "Ayuda con el trabajo"], "answerIndex": 1, "explanation": "El texto dice: «¿Te importaría darme tu opinión sobre esto?»."},
+            {"id": "b1x4r2", "prompt": "¿Qué consejo le da el amigo?", "options": ["Que espere más tiempo", "Que hable con su jefe directamente", "Que no diga nada"], "answerIndex": 1, "explanation": "El texto dice: «Yo que tú, hablaría con tu jefe directamente»."},
+            {"id": "b1x4r3", "prompt": "¿Qué necesitaría la primera persona para hacerlo mañana?", "options": ["Más tiempo", "Más confianza", "Más dinero"], "answerIndex": 1, "explanation": "El texto dice: «Si tuviera más confianza, lo haría mañana mismo»."},
+            {"id": "b1x4r4", "prompt": "¿El amigo está de acuerdo con esperar más?", "options": ["Sí", "No"], "answerIndex": 1, "explanation": "El texto dice: «yo en tu lugar no esperaría más»."},
+         ]},
+        {"id": "b1x4-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x4o1", "prompt": "Ordena las palabras.", "words": ["¿Te", "importaría", "cerrar", "la", "puerta"], "explanation": "Petición cortés con condicional (importaría) + infinitivo + objeto."},
+            {"id": "b1x4o2", "prompt": "Ordena las palabras.", "words": ["Yo", "que", "tú", "aceptaría", "esa", "oferta"], "explanation": "Yo que tú + condicional simple para dar un consejo."},
+         ]},
+    ],
+    "b1-imperativo-negativo-y-pronombres": [
+        {"id": "b1x5-reading", "type": "reading-comprehension", "title": "Lectura: Instrucciones para el Nuevo Empleado",
+         "passage": "<p>No llegues tarde el primer día de trabajo. No hables mal de tus compañeros nunca. Si tienes dudas, no tengas miedo de preguntar. No le digas a nadie información confidencial sin permiso. Y sobre todo, no te olvides de sonreír.</p>",
+         "items": [
+            {"id": "b1x5r1", "prompt": "¿Qué no debe hacer el primer día de trabajo?", "options": ["Llegar tarde", "Sonreír", "Hacer preguntas"], "answerIndex": 0, "explanation": "El texto dice: «No llegues tarde el primer día de trabajo»."},
+            {"id": "b1x5r2", "prompt": "¿Qué debe hacer si tiene dudas?", "options": ["Callarse", "No tener miedo de preguntar", "Buscar en internet"], "answerIndex": 1, "explanation": "El texto dice: «no tengas miedo de preguntar»."},
+            {"id": "b1x5r3", "prompt": "¿Qué información no debe compartir sin permiso?", "options": ["Su opinión", "Información confidencial", "Su horario"], "answerIndex": 1, "explanation": "El texto dice: «No le digas a nadie información confidencial sin permiso»."},
+            {"id": "b1x5r4", "prompt": "¿Qué recomendación cierra el texto?", "options": ["No olvidarse de sonreír", "No hablar mucho", "Trabajar muy rápido"], "answerIndex": 0, "explanation": "El texto termina: «no te olvides de sonreír»."},
+         ]},
+        {"id": "b1x5-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x5o1", "prompt": "Ordena las palabras.", "words": ["No", "le", "digas", "nada", "todavía"], "explanation": "No + pronombre indirecto + subjuntivo (digas) + objeto."},
+            {"id": "b1x5o2", "prompt": "Ordena las palabras.", "words": ["No", "te", "preocupes", "por", "eso"], "explanation": "No + pronombre reflexivo + subjuntivo + complemento."},
+         ]},
+    ],
+    "b1-subjuntivo-presente-formacion": [
+        {"id": "b1x6-reading", "type": "reading-comprehension", "title": "Lectura: Deseos para el Nuevo Año",
+         "passage": "<p>Espero que este año sea mejor que el anterior. Quiero que mi familia tenga buena salud y que todos podamos vernos más a menudo. Ojalá que consiga el trabajo que tanto deseo. Es importante que sigamos adelante, pase lo que pase.</p>",
+         "items": [
+            {"id": "b1x6r1", "prompt": "¿Qué espera la persona sobre este año?", "options": ["Que sea igual que el anterior", "Que sea mejor", "Que sea muy corto"], "answerIndex": 1, "explanation": "El texto dice: «Espero que este año sea mejor que el anterior»."},
+            {"id": "b1x6r2", "prompt": "¿Qué desea para su familia?", "options": ["Más dinero", "Buena salud", "Un viaje juntos"], "answerIndex": 1, "explanation": "El texto dice: «Quiero que mi familia tenga buena salud»."},
+            {"id": "b1x6r3", "prompt": "¿Qué espera conseguir la persona?", "options": ["Una casa nueva", "El trabajo que desea", "Un coche"], "answerIndex": 1, "explanation": "El texto dice: «Ojalá que consiga el trabajo que tanto deseo»."},
+            {"id": "b1x6r4", "prompt": "¿Qué considera importante la persona al final?", "options": ["Descansar mucho", "Seguir adelante pase lo que pase", "No cambiar nada"], "answerIndex": 1, "explanation": "El texto termina: «Es importante que sigamos adelante, pase lo que pase»."},
+         ]},
+        {"id": "b1x6-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x6o1", "prompt": "Ordena las palabras.", "words": ["Espero", "que", "tengas", "un", "buen", "día"], "explanation": "Verbo de deseo + que + subjuntivo (tengas) + objeto."},
+            {"id": "b1x6o2", "prompt": "Ordena las palabras.", "words": ["Ojalá", "que", "todo", "salga", "bien"], "explanation": "Ojalá + que + subjuntivo (salga) + adverbio."},
+         ]},
+    ],
+    "b1-subjuntivo-deseo-duda-emocion": [
+        {"id": "b1x7-reading", "type": "reading-comprehension", "title": "Lectura: Reacciones ante una Noticia",
+         "passage": "<p>Me alegro de que hayas encontrado un piso tan bonito. Dudo que sea tan barato como dices, la verdad. Es una pena que no puedas mudarte antes de fin de mes. Espero que todo salga bien con la mudanza.</p>",
+         "items": [
+            {"id": "b1x7r1", "prompt": "¿De qué se alegra la persona?", "options": ["De un viaje", "De que su amigo haya encontrado piso", "De una fiesta"], "answerIndex": 1, "explanation": "El texto dice: «Me alegro de que hayas encontrado un piso tan bonito»."},
+            {"id": "b1x7r2", "prompt": "¿Qué duda la persona sobre el piso?", "options": ["Que sea bonito", "Que sea tan barato", "Que esté disponible"], "answerIndex": 1, "explanation": "El texto dice: «Dudo que sea tan barato como dices»."},
+            {"id": "b1x7r3", "prompt": "¿Qué es una pena, según el texto?", "options": ["Que el piso sea caro", "Que no pueda mudarse antes de fin de mes", "Que esté lejos"], "answerIndex": 1, "explanation": "El texto dice: «Es una pena que no puedas mudarte antes de fin de mes»."},
+            {"id": "b1x7r4", "prompt": "¿Qué espera la persona sobre la mudanza?", "options": ["Que sea difícil", "Que todo salga bien", "Que se cancele"], "answerIndex": 1, "explanation": "El texto termina: «Espero que todo salga bien con la mudanza»."},
+         ]},
+        {"id": "b1x7-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x7o1", "prompt": "Ordena las palabras.", "words": ["Dudo", "que", "él", "tenga", "razón"], "explanation": "Dudar que + subjuntivo (tenga) + objeto."},
+            {"id": "b1x7o2", "prompt": "Ordena las palabras.", "words": ["Me", "alegro", "de", "que", "vengas"], "explanation": "Alegrarse de que + subjuntivo (vengas)."},
+         ]},
+    ],
+    "b1-voz-pasiva-y-pasiva-refleja": [
+        {"id": "b1x8-reading", "type": "reading-comprehension", "title": "Lectura: Un Anuncio Inmobiliario",
+         "passage": "<p>Se venden pisos nuevos en el centro de la ciudad. El edificio fue construido el año pasado por una empresa muy conocida. Se aceptan mascotas y se incluye una plaza de garaje. Aquí se habla español e inglés para atender a todo tipo de clientes.</p>",
+         "items": [
+            {"id": "b1x8r1", "prompt": "¿Qué se vende, según el anuncio?", "options": ["Coches", "Pisos nuevos", "Terrenos"], "answerIndex": 1, "explanation": "El texto dice: «Se venden pisos nuevos en el centro de la ciudad»."},
+            {"id": "b1x8r2", "prompt": "¿Cuándo fue construido el edificio?", "options": ["Este año", "El año pasado", "Hace diez años"], "answerIndex": 1, "explanation": "El texto dice: «El edificio fue construido el año pasado»."},
+            {"id": "b1x8r3", "prompt": "¿Se aceptan mascotas?", "options": ["Sí", "No"], "answerIndex": 0, "explanation": "El texto dice: «Se aceptan mascotas»."},
+            {"id": "b1x8r4", "prompt": "¿Qué idiomas se hablan en la oficina?", "options": ["Solo español", "Español e inglés", "Solo inglés"], "answerIndex": 1, "explanation": "El texto dice: «se habla español e inglés»."},
+         ]},
+        {"id": "b1x8-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x8o1", "prompt": "Ordena las palabras.", "words": ["Se", "buscan", "camareros", "con", "experiencia"], "explanation": "Se + verbo (plural, concuerda con camareros) + complemento."},
+            {"id": "b1x8o2", "prompt": "Ordena las palabras.", "words": ["El", "libro", "fue", "escrito", "por", "un", "autor", "famoso"], "explanation": "Voz pasiva con ser + participio + por + agente."},
+         ]},
+    ],
+    "b1-estilo-indirecto-presente": [
+        {"id": "b1x9-reading", "type": "reading-comprehension", "title": "Lectura: Un Mensaje de Voz",
+         "passage": "<p>Mi hermano me dice que está en camino y que llegará en veinte minutos. Me pregunta si necesito algo del supermercado. También dice que su coche tiene un problema pequeño, pero que no es grave. Me pregunta dónde nos vemos exactamente.</p>",
+         "items": [
+            {"id": "b1x9r1", "prompt": "¿En cuánto tiempo dice que llegará el hermano?", "options": ["Diez minutos", "Veinte minutos", "Media hora"], "answerIndex": 1, "explanation": "El texto dice: «llegará en veinte minutos»."},
+            {"id": "b1x9r2", "prompt": "¿Qué pregunta sobre el supermercado?", "options": ["Si van a ir juntos", "Si necesita algo", "Si está cerrado"], "answerIndex": 1, "explanation": "El texto dice: «Me pregunta si necesito algo del supermercado»."},
+            {"id": "b1x9r3", "prompt": "¿Qué problema tiene el coche?", "options": ["Un problema grave", "Un problema pequeño", "No tiene ningún problema"], "answerIndex": 1, "explanation": "El texto dice: «su coche tiene un problema pequeño, pero que no es grave»."},
+            {"id": "b1x9r4", "prompt": "¿Qué pregunta al final del mensaje?", "options": ["A qué hora llega", "Dónde se ven exactamente", "Qué van a comer"], "answerIndex": 1, "explanation": "El texto termina: «Me pregunta dónde nos vemos exactamente»."},
+         ]},
+        {"id": "b1x9-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x9o1", "prompt": "Ordena las palabras.", "words": ["Ella", "dice", "que", "está", "muy", "ocupada"], "explanation": "Sujeto + decir que + verbo en indicativo (informa de un hecho)."},
+            {"id": "b1x9o2", "prompt": "Ordena las palabras.", "words": ["Me", "pregunta", "si", "voy", "a", "la", "fiesta"], "explanation": "Preguntar + si (pregunta de sí/no) + verbo en indicativo."},
+         ]},
+    ],
+    "b1-pronombres-combinados": [
+        {"id": "b1x10-reading", "type": "reading-comprehension", "title": "Lectura: Un Favor entre Vecinos",
+         "passage": "<p>—Necesito el taladro que te presté la semana pasada. ¿Me lo puedes devolver hoy?<br>—Claro, te lo devuelvo esta tarde sin problema.<br>—Perfecto. Ah, y si necesitas la escalera, te la puedo prestar también.<br>—Muchas gracias, te lo agradezco mucho.</p>",
+         "items": [
+            {"id": "b1x10r1", "prompt": "¿Qué objeto pide de vuelta la primera persona?", "options": ["Una escalera", "Un taladro", "Un martillo"], "answerIndex": 1, "explanation": "El texto dice: «Necesito el taladro que te presté la semana pasada»."},
+            {"id": "b1x10r2", "prompt": "¿Cuándo devolverá el taladro?", "options": ["Mañana", "Esta tarde", "La próxima semana"], "answerIndex": 1, "explanation": "El texto dice: «te lo devuelvo esta tarde»."},
+            {"id": "b1x10r3", "prompt": "¿Qué otro objeto se ofrece a prestar?", "options": ["Un taladro", "Una escalera", "Una silla"], "answerIndex": 1, "explanation": "El texto dice: «si necesitas la escalera, te la puedo prestar también»."},
+            {"id": "b1x10r4", "prompt": "¿Cómo termina la conversación?", "options": ["Con un desacuerdo", "Con un agradecimiento", "Con una despedida fría"], "answerIndex": 1, "explanation": "El texto termina: «te lo agradezco mucho»."},
+         ]},
+        {"id": "b1x10-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x10o1", "prompt": "Ordena las palabras.", "words": ["Se", "lo", "expliqué", "todo", "ayer"], "explanation": "Le se convierte en se ante lo, seguido del verbo en indefinido."},
+            {"id": "b1x10o2", "prompt": "Ordena las palabras.", "words": ["¿Me", "lo", "puedes", "explicar", "otra", "vez"], "explanation": "Pronombres combinados antes del verbo conjugado + infinitivo."},
+         ]},
+    ],
+    "b1-por-y-para": [
+        {"id": "b1x11-reading", "type": "reading-comprehension", "title": "Lectura: Un Viaje de Trabajo",
+         "passage": "<p>Salgo para Buenos Aires mañana por la mañana por motivos de trabajo. Compré el billete por internet, y pagué bastante poco por él. Necesito terminar el informe para el lunes, así que trabajaré durante el vuelo. Para mí, viajar por trabajo siempre es agotador.</p>",
+         "items": [
+            {"id": "b1x11r1", "prompt": "¿Adónde viaja la persona?", "options": ["A Madrid", "A Buenos Aires", "A Lima"], "answerIndex": 1, "explanation": "El texto dice: «Salgo para Buenos Aires mañana por la mañana»."},
+            {"id": "b1x11r2", "prompt": "¿Cómo compró el billete?", "options": ["En una agencia", "Por internet", "Por teléfono"], "answerIndex": 1, "explanation": "El texto dice: «Compré el billete por internet»."},
+            {"id": "b1x11r3", "prompt": "¿Para cuándo necesita terminar el informe?", "options": ["Para el viernes", "Para el lunes", "Para el domingo"], "answerIndex": 1, "explanation": "El texto dice: «Necesito terminar el informe para el lunes»."},
+            {"id": "b1x11r4", "prompt": "¿Qué opina la persona sobre viajar por trabajo?", "options": ["Que es divertido", "Que es agotador", "Que es fácil"], "answerIndex": 1, "explanation": "El texto termina: «viajar por trabajo siempre es agotador»."},
+         ]},
+        {"id": "b1x11-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x11o1", "prompt": "Ordena las palabras.", "words": ["Este", "regalo", "es", "para", "ti"], "explanation": "Ser + para (destinatario) + pronombre."},
+            {"id": "b1x11o2", "prompt": "Ordena las palabras.", "words": ["Caminamos", "por", "el", "parque", "toda", "la", "tarde"], "explanation": "Verbo + por (a través de un lugar) + complemento + duración."},
+         ]},
+    ],
+    "b1-oraciones-relativas": [
+        {"id": "b1x12-reading", "type": "reading-comprehension", "title": "Lectura: Recuerdos de la Infancia",
+         "passage": "<p>El pueblo donde nací es muy pequeño, pero tiene mucho encanto. Mi mejor amigo, que ahora vive en otro país, siempre me visita en verano. La escuela donde estudié se llama igual que la calle principal. Los profesores con quienes aprendí español fueron excelentes.</p>",
+         "items": [
+            {"id": "b1x12r1", "prompt": "¿Cómo describe la persona su pueblo natal?", "options": ["Grande y moderno", "Pequeño con encanto", "Aburrido"], "answerIndex": 1, "explanation": "El texto dice: «es muy pequeño, pero tiene mucho encanto»."},
+            {"id": "b1x12r2", "prompt": "¿Dónde vive ahora el mejor amigo?", "options": ["En el mismo pueblo", "En otro país", "En la capital"], "answerIndex": 1, "explanation": "El texto dice: «que ahora vive en otro país»."},
+            {"id": "b1x12r3", "prompt": "¿Cómo se llama la escuela?", "options": ["Como el pueblo", "Igual que la calle principal", "No tiene nombre"], "answerIndex": 1, "explanation": "El texto dice: «se llama igual que la calle principal»."},
+            {"id": "b1x12r4", "prompt": "¿Cómo describe a los profesores de español?", "options": ["Muy exigentes", "Excelentes", "Aburridos"], "answerIndex": 1, "explanation": "El texto termina: «fueron excelentes»."},
+         ]},
+        {"id": "b1x12-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x12o1", "prompt": "Ordena las palabras.", "words": ["Este", "es", "el", "libro", "que", "leí"], "explanation": "Demostrativo + ser + sustantivo + que (relativo general) + verbo."},
+            {"id": "b1x12o2", "prompt": "Ordena las palabras.", "words": ["Ese", "es", "el", "pueblo", "donde", "nací"], "explanation": "Demostrativo + ser + sustantivo (lugar) + donde + verbo."},
+         ]},
+    ],
+    "b1-voseo-argentino-y-variedades": [
+        {"id": "b1x13-reading", "type": "reading-comprehension", "title": "Lectura: Un Mensaje desde Buenos Aires",
+         "passage": "<p>Che, ¿vos podés venir a mi casa esta noche? Tenés que traer algo para comer, si querés. Acá en Buenos Aires solemos cenar bastante tarde. Vos sos de España, ¿no? Va a ser interesante comparar nuestras formas de hablar.</p>",
+         "items": [
+            {"id": "b1x13r1", "prompt": "¿Qué le pide la persona a su amigo?", "options": ["Que la llame", "Que venga a su casa esta noche", "Que traiga dinero"], "answerIndex": 1, "explanation": "El texto dice: «¿vos podés venir a mi casa esta noche?»."},
+            {"id": "b1x13r2", "prompt": "¿Qué debe traer, si quiere?", "options": ["Bebida", "Algo para comer", "Música"], "answerIndex": 1, "explanation": "El texto dice: «Tenés que traer algo para comer, si querés»."},
+            {"id": "b1x13r3", "prompt": "¿A qué hora suelen cenar en Buenos Aires, según el texto?", "options": ["Temprano", "Bastante tarde", "Al mediodía"], "answerIndex": 1, "explanation": "El texto dice: «solemos cenar bastante tarde»."},
+            {"id": "b1x13r4", "prompt": "¿De dónde es la persona a quien escribe?", "options": ["De Argentina", "De España", "De México"], "answerIndex": 1, "explanation": "El texto dice: «Vos sos de España, ¿no?»."},
+         ]},
+        {"id": "b1x13-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x13o1", "prompt": "Ordena las palabras.", "words": ["Vos", "hablás", "muy", "bien", "español"], "explanation": "Vos + forma verbal de voseo (hablás) + adverbio + adjetivo."},
+            {"id": "b1x13o2", "prompt": "Ordena las palabras.", "words": ["¿Vos", "tenés", "tiempo", "hoy"], "explanation": "Vos + tener en voseo (tenés) + objeto + adverbio."},
+         ]},
+    ],
+    "b1-conectores-y-marcadores-del-discurso": [
+        {"id": "b1x14-reading", "type": "reading-comprehension", "title": "Lectura: Una Opinión sobre el Teletrabajo",
+         "passage": "<p>El teletrabajo tiene muchas ventajas; sin embargo, también presenta algunos problemas. Por un lado, ahorras tiempo de transporte; por otro lado, es fácil sentirse aislado. Por lo tanto, muchas empresas prefieren un modelo mixto. Además, este modelo permite más flexibilidad para todos.</p>",
+         "items": [
+            {"id": "b1x14r1", "prompt": "¿Qué conector introduce un contraste en el texto?", "options": ["Además", "Sin embargo", "Por lo tanto"], "answerIndex": 1, "explanation": "El texto usa «sin embargo» para contrastar las ventajas con los problemas."},
+            {"id": "b1x14r2", "prompt": "¿Qué ventaja del teletrabajo se menciona?", "options": ["Más dinero", "Ahorrar tiempo de transporte", "Menos trabajo"], "answerIndex": 1, "explanation": "El texto dice: «ahorras tiempo de transporte»."},
+            {"id": "b1x14r3", "prompt": "¿Qué modelo prefieren muchas empresas, según el texto?", "options": ["Totalmente presencial", "Totalmente remoto", "Un modelo mixto"], "answerIndex": 2, "explanation": "El texto dice: «muchas empresas prefieren un modelo mixto»."},
+            {"id": "b1x14r4", "prompt": "¿Qué añade el modelo mixto, según el texto?", "options": ["Más control", "Más flexibilidad", "Más reuniones"], "answerIndex": 1, "explanation": "El texto termina: «este modelo permite más flexibilidad para todos»."},
+         ]},
+        {"id": "b1x14-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "b1x14o1", "prompt": "Ordena las palabras.", "words": ["El", "plan", "es", "bueno", "sin", "embargo", "es", "caro"], "explanation": "Idea + sin embargo (contraste) + segunda idea."},
+            {"id": "b1x14o2", "prompt": "Ordena las palabras.", "words": ["No", "estudió", "por", "lo", "tanto", "suspendió"], "explanation": "Causa + por lo tanto (consecuencia) + resultado."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))

@@ -154,6 +154,92 @@
           "explanation": "Problema es masculino, así que la concordancia correcta es tantos, no tanta."
         }
       ]
+    },
+    {
+      "id": "a2x7-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Comparando Dos Ciudades",
+      "passage": "<p>Bogotá es más grande que Cartagena, pero Cartagena es más turística. El clima de Cartagena es tan cálido como el de Barranquilla. Para mí, la comida de Cartagena es la mejor de todo el país, aunque Bogotá tiene los mejores museos.</p>",
+      "items": [
+        {
+          "id": "a2x7r1",
+          "prompt": "¿Qué ciudad es más grande según el texto?",
+          "options": [
+            "Cartagena",
+            "Bogotá",
+            "Barranquilla"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Bogotá es más grande que Cartagena»."
+        },
+        {
+          "id": "a2x7r2",
+          "prompt": "¿Cómo es el clima de Cartagena comparado con Barranquilla?",
+          "options": [
+            "Más frío",
+            "Tan cálido como",
+            "Menos cálido"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «El clima de Cartagena es tan cálido como el de Barranquilla»."
+        },
+        {
+          "id": "a2x7r3",
+          "prompt": "¿Qué ciudad tiene, según la persona, la mejor comida?",
+          "options": [
+            "Bogotá",
+            "Cartagena",
+            "Barranquilla"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «la comida de Cartagena es la mejor de todo el país»."
+        },
+        {
+          "id": "a2x7r4",
+          "prompt": "¿Qué tiene Bogotá, según el texto?",
+          "options": [
+            "La mejor comida",
+            "Los mejores museos",
+            "El mejor clima"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Bogotá tiene los mejores museos»."
+        }
+      ]
+    },
+    {
+      "id": "a2x7-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x7o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Esta",
+            "ciudad",
+            "es",
+            "más",
+            "grande",
+            "que",
+            "aquella"
+          ],
+          "explanation": "Sujeto + ser + más + adjetivo + que + término de comparación."
+        },
+        {
+          "id": "a2x7o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Es",
+            "la",
+            "mejor",
+            "comida",
+            "del",
+            "país"
+          ],
+          "explanation": "Ser + superlativo relativo con forma irregular (la mejor) + sustantivo + de."
+        }
+      ]
     }
   ],
   "summary": [

@@ -173,6 +173,91 @@
           ]
         }
       ]
+    },
+    {
+      "id": "a1x1-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: La Pronunciación de mi Nombre",
+      "passage": "<p>Me llamo Rodrigo, con una sola r al principio, así que suena fuerte. Mi apellido es Guerrero, que tiene rr doble en medio: suena todavía más fuerte. Vivo en la calle Águila, con tilde en la ú. Mi ciudad se escribe con ñ: Logroño.</p>",
+      "items": [
+        {
+          "id": "a1x1r1",
+          "prompt": "¿Por qué la r de \"Rodrigo\" suena fuerte?",
+          "options": [
+            "Porque está al principio de la palabra",
+            "Porque es una rr doble",
+            "Porque lleva tilde"
+          ],
+          "answerIndex": 0,
+          "explanation": "Una r al inicio de palabra siempre suena fuerte, igual que la rr doble."
+        },
+        {
+          "id": "a1x1r2",
+          "prompt": "¿Qué tipo de r tiene \"Guerrero\"?",
+          "options": [
+            "r simple",
+            "rr doble",
+            "Ninguna r"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice que Guerrero «tiene rr doble en medio»."
+        },
+        {
+          "id": "a1x1r3",
+          "prompt": "¿Dónde lleva la tilde la palabra \"Águila\"?",
+          "options": [
+            "En la a",
+            "En la u",
+            "No lleva tilde"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice «con tilde en la ú» refiriéndose a Águila, que en realidad lleva la tilde en la Á; revisa cuidadosamente cada vocal al leer."
+        },
+        {
+          "id": "a1x1r4",
+          "prompt": "¿Qué letra especial tiene el nombre de la ciudad?",
+          "options": [
+            "La h",
+            "La ñ",
+            "La doble r"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mi ciudad se escribe con ñ: Logroño»."
+        }
+      ]
+    },
+    {
+      "id": "a1x1-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x1o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Mi",
+            "apellido",
+            "tiene",
+            "una",
+            "rr",
+            "doble"
+          ],
+          "explanation": "Posesivo + sustantivo + verbo + objeto directo con adjetivo."
+        },
+        {
+          "id": "a1x1o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "La",
+            "ciudad",
+            "se",
+            "escribe",
+            "con",
+            "ñ"
+          ],
+          "explanation": "Sujeto + verbo reflexivo + complemento con preposición."
+        }
+      ]
     }
   ],
   "summary": [

@@ -218,6 +218,89 @@
           "explanation": "El superlativo relativo en contexto pasado dispara el subjuntivo, aquí en su forma compuesta."
         }
       ]
+    },
+    {
+      "id": "c1x1-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Arrepentimiento",
+      "passage": "<p>Si hubiera sabido lo difícil que sería el examen, habría estudiado mucho más. Ojalá hubiéramos reservado los billetes antes, porque ahora están agotados. Era el mejor concierto que hubiera visto en años, aunque el sonido no fuera perfecto.</p>",
+      "items": [
+        {
+          "id": "c1x1r1",
+          "prompt": "¿Qué habría hecho la persona si hubiera sabido la dificultad del examen?",
+          "options": [
+            "No presentarse",
+            "Estudiar mucho más",
+            "Pedir ayuda"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «habría estudiado mucho más»."
+        },
+        {
+          "id": "c1x1r2",
+          "prompt": "¿Por qué se lamenta sobre los billetes?",
+          "options": [
+            "Porque eran muy caros",
+            "Porque ahora están agotados",
+            "Porque los perdieron"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ahora están agotados»."
+        },
+        {
+          "id": "c1x1r3",
+          "prompt": "¿Cómo describe el concierto?",
+          "options": [
+            "El peor que había visto",
+            "El mejor que hubiera visto en años",
+            "Un concierto normal"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Era el mejor concierto que hubiera visto en años»."
+        },
+        {
+          "id": "c1x1r4",
+          "prompt": "¿El sonido del concierto era perfecto?",
+          "options": [
+            "Sí",
+            "No del todo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «aunque el sonido no fuera perfecto»."
+        }
+      ]
+    },
+    {
+      "id": "c1x1-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x1o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Si",
+            "hubiera",
+            "estudiado",
+            "más",
+            "habría",
+            "aprobado"
+          ],
+          "explanation": "Condicional irreal de pasado: si + pluscuamperfecto de subjuntivo + condicional compuesto."
+        },
+        {
+          "id": "c1x1o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ojalá",
+            "hubiera",
+            "llegado",
+            "a",
+            "tiempo"
+          ],
+          "explanation": "Ojalá + pluscuamperfecto de subjuntivo expresa un arrepentimiento sobre el pasado."
+        }
+      ]
     }
   ],
   "summary": [

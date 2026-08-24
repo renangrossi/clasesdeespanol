@@ -199,6 +199,88 @@
           "explanation": "Atenuar una crítica dura la hace más fácil de aceptar sin perder el mensaje central."
         }
       ]
+    },
+    {
+      "id": "c1x9-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Comentario con Doble Sentido",
+      "passage": "<p>«¡Qué puntual llegas!», le dijo con una sonrisa, aunque había llegado con una hora de retraso. Cabría considerar otras opciones antes de decidir. Quizás no sea el momento más adecuado para esta conversación. En cierto modo, entiendo tu punto de vista, aunque no lo comparta del todo.</p>",
+      "items": [
+        {
+          "id": "c1x9r1",
+          "prompt": "¿Qué tono tiene el comentario \"¡Qué puntual llegas!\"?",
+          "options": [
+            "Sincero",
+            "Irónico",
+            "Neutro"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dado que la persona llegó con retraso, el comentario es irónico, no literal."
+        },
+        {
+          "id": "c1x9r2",
+          "prompt": "¿Qué recomienda la frase \"cabría considerar otras opciones\"?",
+          "options": [
+            "Decidir inmediatamente",
+            "Pensar en otras posibilidades primero",
+            "No hacer nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cabría considerar es una forma atenuada de sugerir que se piense en alternativas."
+        },
+        {
+          "id": "c1x9r3",
+          "prompt": "¿La persona está segura de que es el momento adecuado?",
+          "options": [
+            "Sí, totalmente",
+            "No, lo duda"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Quizás no sea el momento más adecuado»."
+        },
+        {
+          "id": "c1x9r4",
+          "prompt": "¿Comparte del todo el punto de vista del otro?",
+          "options": [
+            "Sí, completamente",
+            "No del todo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «aunque no lo comparta del todo»."
+        }
+      ]
+    },
+    {
+      "id": "c1x9-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x9o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Cabría",
+            "reconsiderar",
+            "esta",
+            "parte",
+            "del",
+            "plan"
+          ],
+          "explanation": "Cabría + infinitivo, forma atenuada de sugerir una revisión."
+        },
+        {
+          "id": "c1x9o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "En",
+            "cierto",
+            "modo",
+            "tienes",
+            "razón"
+          ],
+          "explanation": "En cierto modo + indicativo, atenuación de un acuerdo parcial."
+        }
+      ]
     }
   ],
   "summary": [

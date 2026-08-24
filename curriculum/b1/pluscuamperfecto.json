@@ -128,6 +128,90 @@
           "explanation": "El punto de referencia es un momento pasado (ese día), así que corresponde el pluscuamperfecto."
         }
       ]
+    },
+    {
+      "id": "b1x2-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Llegamos Tarde a la Fiesta",
+      "passage": "<p>Cuando llegamos a la fiesta, ya se habían ido casi todos los invitados. Habíamos salido tarde de casa porque el coche no arrancaba. Nunca antes habíamos tenido tan mala suerte con un vehículo. Menos mal que algunos amigos todavía estaban allí cuando llegamos.</p>",
+      "items": [
+        {
+          "id": "b1x2r1",
+          "prompt": "¿Qué había pasado ya cuando llegaron a la fiesta?",
+          "options": [
+            "La fiesta no había empezado",
+            "Casi todos los invitados se habían ido",
+            "Nadie había llegado todavía"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ya se habían ido casi todos los invitados»."
+        },
+        {
+          "id": "b1x2r2",
+          "prompt": "¿Por qué salieron tarde de casa?",
+          "options": [
+            "Porque se durmieron",
+            "Porque el coche no arrancaba",
+            "Porque olvidaron la dirección"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «porque el coche no arrancaba»."
+        },
+        {
+          "id": "b1x2r3",
+          "prompt": "¿Habían tenido antes tan mala suerte con un vehículo?",
+          "options": [
+            "Sí, muchas veces",
+            "Nunca antes"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Nunca antes habíamos tenido tan mala suerte»."
+        },
+        {
+          "id": "b1x2r4",
+          "prompt": "¿Encontraron a alguien conocido en la fiesta?",
+          "options": [
+            "Sí, algunos amigos",
+            "No, estaba vacía"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «algunos amigos todavía estaban allí cuando llegamos»."
+        }
+      ]
+    },
+    {
+      "id": "b1x2-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x2o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Cuando",
+            "llegué",
+            "el",
+            "tren",
+            "ya",
+            "había",
+            "salido"
+          ],
+          "explanation": "Cuando + hecho puntual (indefinido) + hecho anterior (pluscuamperfecto)."
+        },
+        {
+          "id": "b1x2o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Nunca",
+            "antes",
+            "habíamos",
+            "visto",
+            "algo",
+            "así"
+          ],
+          "explanation": "Nunca antes + pluscuamperfecto para expresar una experiencia anterior a un punto pasado."
+        }
+      ]
     }
   ],
   "summary": [

@@ -146,6 +146,91 @@
           "explanation": "Para un lugar con el sentido de \"en el que\", se usa donde, no que."
         }
       ]
+    },
+    {
+      "id": "b1x12-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Recuerdos de la Infancia",
+      "passage": "<p>El pueblo donde nací es muy pequeño, pero tiene mucho encanto. Mi mejor amigo, que ahora vive en otro país, siempre me visita en verano. La escuela donde estudié se llama igual que la calle principal. Los profesores con quienes aprendí español fueron excelentes.</p>",
+      "items": [
+        {
+          "id": "b1x12r1",
+          "prompt": "¿Cómo describe la persona su pueblo natal?",
+          "options": [
+            "Grande y moderno",
+            "Pequeño con encanto",
+            "Aburrido"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «es muy pequeño, pero tiene mucho encanto»."
+        },
+        {
+          "id": "b1x12r2",
+          "prompt": "¿Dónde vive ahora el mejor amigo?",
+          "options": [
+            "En el mismo pueblo",
+            "En otro país",
+            "En la capital"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «que ahora vive en otro país»."
+        },
+        {
+          "id": "b1x12r3",
+          "prompt": "¿Cómo se llama la escuela?",
+          "options": [
+            "Como el pueblo",
+            "Igual que la calle principal",
+            "No tiene nombre"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «se llama igual que la calle principal»."
+        },
+        {
+          "id": "b1x12r4",
+          "prompt": "¿Cómo describe a los profesores de español?",
+          "options": [
+            "Muy exigentes",
+            "Excelentes",
+            "Aburridos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «fueron excelentes»."
+        }
+      ]
+    },
+    {
+      "id": "b1x12-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x12o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Este",
+            "es",
+            "el",
+            "libro",
+            "que",
+            "leí"
+          ],
+          "explanation": "Demostrativo + ser + sustantivo + que (relativo general) + verbo."
+        },
+        {
+          "id": "b1x12o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ese",
+            "es",
+            "el",
+            "pueblo",
+            "donde",
+            "nací"
+          ],
+          "explanation": "Demostrativo + ser + sustantivo (lugar) + donde + verbo."
+        }
+      ]
     }
   ],
   "summary": [

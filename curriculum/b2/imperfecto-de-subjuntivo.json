@@ -134,6 +134,91 @@
           "explanation": "Con el verbo principal en pasado, la subordinada de deseo necesita el imperfecto de subjuntivo, no el presente de indicativo."
         }
       ]
+    },
+    {
+      "id": "b2x1-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Si Yo Fuera Tú",
+      "passage": "<p>Mi madre siempre quería que estudiara medicina, pero yo prefería el arte. Ella dudaba que pudiera vivir de la pintura. Con el tiempo, esperaba que encontrara mi propio camino, aunque al principio le costara aceptarlo. Ahora está orgullosa de que haya seguido mi pasión.</p>",
+      "items": [
+        {
+          "id": "b2x1r1",
+          "prompt": "¿Qué quería la madre que estudiara la persona?",
+          "options": [
+            "Arte",
+            "Medicina",
+            "Derecho"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mi madre siempre quería que estudiara medicina»."
+        },
+        {
+          "id": "b2x1r2",
+          "prompt": "¿Qué dudaba la madre?",
+          "options": [
+            "Que fuera feliz",
+            "Que pudiera vivir de la pintura",
+            "Que terminara los estudios"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Ella dudaba que pudiera vivir de la pintura»."
+        },
+        {
+          "id": "b2x1r3",
+          "prompt": "¿Qué esperaba la madre con el tiempo?",
+          "options": [
+            "Que cambiara de opinión",
+            "Que encontrara su propio camino",
+            "Que se hiciera médica"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «esperaba que encontrara mi propio camino»."
+        },
+        {
+          "id": "b2x1r4",
+          "prompt": "¿Cómo se siente la madre ahora?",
+          "options": [
+            "Decepcionada",
+            "Orgullosa",
+            "Indiferente"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Ahora está orgullosa de que haya seguido mi pasión»."
+        }
+      ]
+    },
+    {
+      "id": "b2x1-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x1o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Quería",
+            "que",
+            "vinieras",
+            "conmigo",
+            "al",
+            "cine"
+          ],
+          "explanation": "Verbo principal en pasado + que + imperfecto de subjuntivo (vinieras)."
+        },
+        {
+          "id": "b2x1o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Dudaba",
+            "que",
+            "ellos",
+            "supieran",
+            "la",
+            "verdad"
+          ],
+          "explanation": "Dudar en pasado + que + imperfecto de subjuntivo (supieran)."
+        }
+      ]
     }
   ],
   "summary": [

@@ -182,6 +182,89 @@
           "explanation": "Yo + verbo en -ir = terminación -o, no la forma de tú."
         }
       ]
+    },
+    {
+      "id": "a1x6-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Mi Rutina de Trabajo",
+      "passage": "<p>Trabajo en una oficina desde las nueve hasta las cinco. Como con mis compañeros a la una. Por la tarde, escribo correos y hablo con clientes por teléfono. Los fines de semana, mi familia y yo viajamos a la playa.</p>",
+      "items": [
+        {
+          "id": "a1x6r1",
+          "prompt": "¿A qué hora empieza a trabajar la persona?",
+          "options": [
+            "A las ocho",
+            "A las nueve",
+            "A las diez"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Trabajo en una oficina desde las nueve»."
+        },
+        {
+          "id": "a1x6r2",
+          "prompt": "¿Con quién come a la una?",
+          "options": [
+            "Con su familia",
+            "Con sus compañeros",
+            "Sola"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Como con mis compañeros a la una»."
+        },
+        {
+          "id": "a1x6r3",
+          "prompt": "¿Qué hace por la tarde en el trabajo?",
+          "options": [
+            "Duerme",
+            "Escribe correos y habla con clientes",
+            "Viaja"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «escribo correos y hablo con clientes por teléfono»."
+        },
+        {
+          "id": "a1x6r4",
+          "prompt": "¿Adónde viaja la familia los fines de semana?",
+          "options": [
+            "A la montaña",
+            "A la playa",
+            "Al extranjero"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «viajamos a la playa» los fines de semana."
+        }
+      ]
+    },
+    {
+      "id": "a1x6-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x6o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Trabajo",
+            "en",
+            "una",
+            "oficina",
+            "grande"
+          ],
+          "explanation": "Verbo en -ar (yo) + complemento de lugar con adjetivo."
+        },
+        {
+          "id": "a1x6o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Nosotros",
+            "viajamos",
+            "a",
+            "la",
+            "playa"
+          ],
+          "explanation": "Sujeto + verbo en -ar (nosotros) + complemento de destino."
+        }
+      ]
     }
   ],
   "summary": [

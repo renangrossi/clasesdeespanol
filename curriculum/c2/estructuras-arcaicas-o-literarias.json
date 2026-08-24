@@ -122,6 +122,88 @@
           "explanation": "Tanto vuestra merced como sois (con valor reverencial) se dirigen formalmente a una sola persona de respeto."
         }
       ]
+    },
+    {
+      "id": "c2x7-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Fragmento Clásico",
+      "passage": "<p>Vuestra merced, señor hidalgo, perdone mi atrevimiento, ca no hallé otro modo de haceros llegar esta nueva: sois, sin duda, la persona a quien más debo en esta vida, y maguer el tiempo y la distancia, jamás olvidé vuestra bondad.</p>",
+      "items": [
+        {
+          "id": "c2x7r1",
+          "prompt": "¿A quién se dirige el narrador con \"vuestra merced\"?",
+          "options": [
+            "A varias personas",
+            "A una sola persona con tratamiento reverencial",
+            "A sí mismo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vuestra merced es un tratamiento formal dirigido a una sola persona de respeto."
+        },
+        {
+          "id": "c2x7r2",
+          "prompt": "¿Qué significa \"ca\" en este texto medieval?",
+          "options": [
+            "Porque",
+            "Cuando",
+            "Como"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ca es una conjunción causal medieval, equivalente a «porque»."
+        },
+        {
+          "id": "c2x7r3",
+          "prompt": "¿Qué significa \"maguer\"?",
+          "options": [
+            "Porque",
+            "Aunque",
+            "Nunca"
+          ],
+          "answerIndex": 1,
+          "explanation": "Maguer es un arcaísmo que significa «aunque»."
+        },
+        {
+          "id": "c2x7r4",
+          "prompt": "¿El narrador olvidó la bondad de esa persona?",
+          "options": [
+            "Sí",
+            "No, nunca la olvidó"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «jamás olvidé vuestra bondad»."
+        }
+      ]
+    },
+    {
+      "id": "c2x7-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c2x7o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Vuestra",
+            "merced",
+            "perdone",
+            "mi",
+            "atrevimiento"
+          ],
+          "explanation": "Tratamiento reverencial clásico + verbo + objeto."
+        },
+        {
+          "id": "c2x7o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Sois",
+            "sin",
+            "duda",
+            "muy",
+            "sabio"
+          ],
+          "explanation": "Sois (valor reverencial hacia una sola persona) + expresión + adjetivo."
+        }
+      ]
     }
   ],
   "summary": [

@@ -217,6 +217,90 @@
           "explanation": "Insistir → la insistencia."
         }
       ]
+    },
+    {
+      "id": "c1x5-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Resumen Académico",
+      "passage": "<p>La implementación de esta política requiere una evaluación cuidadosa de sus consecuencias. El análisis de los datos revela una tendencia clara hacia la digitalización. La reducción del presupuesto podría afectar la calidad de la investigación. Se recomienda la revisión periódica de estos indicadores.</p>",
+      "items": [
+        {
+          "id": "c1x5r1",
+          "prompt": "¿Qué requiere la implementación de la política?",
+          "options": [
+            "Aprobación inmediata",
+            "Una evaluación cuidadosa",
+            "Más financiamiento"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «requiere una evaluación cuidadosa de sus consecuencias»."
+        },
+        {
+          "id": "c1x5r2",
+          "prompt": "¿Qué tendencia revela el análisis de los datos?",
+          "options": [
+            "Hacia la digitalización",
+            "Hacia la reducción de personal",
+            "Hacia la expansión"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «revela una tendencia clara hacia la digitalización»."
+        },
+        {
+          "id": "c1x5r3",
+          "prompt": "¿Qué podría afectar la calidad de la investigación?",
+          "options": [
+            "El exceso de personal",
+            "La reducción del presupuesto",
+            "La falta de tiempo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «La reducción del presupuesto podría afectar la calidad»."
+        },
+        {
+          "id": "c1x5r4",
+          "prompt": "¿Qué se recomienda al final?",
+          "options": [
+            "Eliminar los indicadores",
+            "La revisión periódica de los indicadores",
+            "Ignorar los datos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Se recomienda la revisión periódica de estos indicadores»."
+        }
+      ]
+    },
+    {
+      "id": "c1x5-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x5o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "La",
+            "implementación",
+            "requiere",
+            "más",
+            "recursos"
+          ],
+          "explanation": "Nominalización (implementación) como sujeto + verbo + objeto."
+        },
+        {
+          "id": "c1x5o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Se",
+            "recomienda",
+            "la",
+            "revisión",
+            "del",
+            "informe"
+          ],
+          "explanation": "Se recomienda + nominalización (revisión) como objeto."
+        }
+      ]
     }
   ],
   "summary": [

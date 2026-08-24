@@ -239,6 +239,91 @@
           "explanation": "Calle se escribe con ll, un sonido parecido al de la y."
         }
       ]
+    },
+    {
+      "id": "pa1x-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Mensaje de Ana",
+      "passage": "<p>¡Hola! Me llamo Ana. Mi nombre tiene una ñ: A-N-A no, espera, ¡no tiene ñ! Pero mi apellido sí: Muñoz. La ñ es una letra especial del español. Mi perro se llama Ñoño y también tiene ñ. Vivo en una calle con doble r: Carretera Nueva.</p>",
+      "items": [
+        {
+          "id": "pa1xr1",
+          "prompt": "¿Qué letra especial tiene el apellido de Ana?",
+          "options": [
+            "la ñ",
+            "la h",
+            "la doble r"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Mi apellido sí (tiene ñ): Muñoz»."
+        },
+        {
+          "id": "pa1xr2",
+          "prompt": "¿Cómo se llama el perro de Ana?",
+          "options": [
+            "Ana",
+            "Ñoño",
+            "Muñoz"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mi perro se llama Ñoño»."
+        },
+        {
+          "id": "pa1xr3",
+          "prompt": "¿Qué combinación de letras aparece en el nombre de la calle?",
+          "options": [
+            "ñ",
+            "h muda",
+            "doble r"
+          ],
+          "answerIndex": 2,
+          "explanation": "«Carretera» tiene doble r, mencionada explícitamente en el texto."
+        },
+        {
+          "id": "pa1xr4",
+          "prompt": "¿El nombre \"Ana\" tiene la letra ñ?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto aclara que \"Ana\" no tiene ñ, aunque parezca similar a otras palabras con ñ."
+        }
+      ]
+    },
+    {
+      "id": "pa1x-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "pa1xo1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "La",
+            "ñ",
+            "es",
+            "una",
+            "letra",
+            "especial",
+            "del",
+            "español"
+          ],
+          "explanation": "Sujeto (La ñ), verbo (es), y el resto describe qué es."
+        },
+        {
+          "id": "pa1xo2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "perro",
+            "se",
+            "llama",
+            "Ñoño"
+          ],
+          "explanation": "Estructura típica para nombrar a una mascota: sujeto + se llama + nombre."
+        }
+      ]
     }
   ],
   "summary": [

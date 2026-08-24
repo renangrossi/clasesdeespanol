@@ -131,6 +131,91 @@
           "explanation": "Un antecedente inexistente (nadie) siempre exige subjuntivo en la oración relativa."
         }
       ]
+    },
+    {
+      "id": "b2x4-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: En Busca de un Trabajo Ideal",
+      "passage": "<p>Busco un trabajo que me permita viajar con frecuencia. No conozco a nadie que tenga la experiencia que necesito para este proyecto. Te lo explico para que entiendas bien la situación. Aunque llueva mañana, saldremos igual a hacer las entrevistas.</p>",
+      "items": [
+        {
+          "id": "b2x4r1",
+          "prompt": "¿Qué tipo de trabajo busca la persona?",
+          "options": [
+            "Uno bien pagado",
+            "Uno que permita viajar",
+            "Uno cerca de casa"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Busco un trabajo que me permita viajar con frecuencia»."
+        },
+        {
+          "id": "b2x4r2",
+          "prompt": "¿Conoce a alguien con la experiencia necesaria?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «No conozco a nadie que tenga la experiencia que necesito»."
+        },
+        {
+          "id": "b2x4r3",
+          "prompt": "¿Para qué le explica la situación?",
+          "options": [
+            "Para que se preocupe",
+            "Para que entienda bien",
+            "Para que se vaya"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Te lo explico para que entiendas bien la situación»."
+        },
+        {
+          "id": "b2x4r4",
+          "prompt": "¿Qué pasará aunque llueva mañana?",
+          "options": [
+            "Cancelarán las entrevistas",
+            "Saldrán igual a hacerlas",
+            "Las pospondrán"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Aunque llueva mañana, saldremos igual a hacer las entrevistas»."
+        }
+      ]
+    },
+    {
+      "id": "b2x4-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x4o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Necesito",
+            "un",
+            "amigo",
+            "que",
+            "hable",
+            "francés"
+          ],
+          "explanation": "Antecedente indefinido (un amigo) + relativa en subjuntivo (hable)."
+        },
+        {
+          "id": "b2x4o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Te",
+            "ayudo",
+            "con",
+            "tal",
+            "de",
+            "que",
+            "estudies"
+          ],
+          "explanation": "Con tal de que + subjuntivo, siempre exige subjuntivo."
+        }
+      ]
     }
   ],
   "summary": [

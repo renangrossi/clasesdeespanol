@@ -142,6 +142,92 @@
           "explanation": "La acción que interrumpe (llamar) debe ir en indefinido, no en imperfecto, para marcar el hecho puntual."
         }
       ]
+    },
+    {
+      "id": "a2x5-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Una Interrupción Inesperada",
+      "passage": "<p>Eran las once de la noche y llovía mucho cuando de repente se cortó la luz. Yo estaba leyendo tranquilamente en el sofá. Busqué una vela en la cocina y la encendí. Mientras esperaba a que volviera la luz, escuché un ruido extraño afuera.</p>",
+      "items": [
+        {
+          "id": "a2x5r1",
+          "prompt": "¿Qué pasó de repente?",
+          "options": [
+            "Empezó a llover",
+            "Se cortó la luz",
+            "Llegó alguien"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «de repente se cortó la luz»."
+        },
+        {
+          "id": "a2x5r2",
+          "prompt": "¿Qué hacía la persona cuando se cortó la luz?",
+          "options": [
+            "Dormía",
+            "Estaba leyendo",
+            "Cocinaba"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Yo estaba leyendo tranquilamente en el sofá»."
+        },
+        {
+          "id": "a2x5r3",
+          "prompt": "¿Dónde encontró la vela?",
+          "options": [
+            "En el sofá",
+            "En la cocina",
+            "En su habitación"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Busqué una vela en la cocina»."
+        },
+        {
+          "id": "a2x5r4",
+          "prompt": "¿Qué escuchó mientras esperaba?",
+          "options": [
+            "Música",
+            "Un ruido extraño",
+            "Voces"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «escuché un ruido extraño afuera»."
+        }
+      ]
+    },
+    {
+      "id": "a2x5-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x5o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Llovía",
+            "mucho",
+            "cuando",
+            "salimos",
+            "de",
+            "casa"
+          ],
+          "explanation": "Escena de fondo (imperfecto) + cuando + hecho puntual (indefinido)."
+        },
+        {
+          "id": "a2x5o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Eran",
+            "las",
+            "diez",
+            "cuando",
+            "llegó",
+            "el",
+            "tren"
+          ],
+          "explanation": "La hora (siempre imperfecto) + cuando + hecho puntual (indefinido)."
+        }
+      ]
     }
   ],
   "summary": [

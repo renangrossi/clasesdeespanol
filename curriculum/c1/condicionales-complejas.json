@@ -234,6 +234,92 @@
           "explanation": "Si + pluscuamperfecto de subjuntivo, condicional compuesto."
         }
       ]
+    },
+    {
+      "id": "c1x2-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Cuatro Escenarios",
+      "passage": "<p>Si tengo tiempo esta tarde, te ayudo con la mudanza sin problema. Si fuera más paciente, discutiríamos mucho menos. Si me lo hubieras dicho antes, no habría llegado tarde. Si no hubiera aceptado ese trabajo, ahora viviría en otra ciudad.</p>",
+      "items": [
+        {
+          "id": "c1x2r1",
+          "prompt": "¿Qué tipo de condición es \"Si tengo tiempo esta tarde\"?",
+          "options": [
+            "Real",
+            "Potencial",
+            "Irreal de pasado"
+          ],
+          "answerIndex": 0,
+          "explanation": "Presente de indicativo en la prótasis indica una condición real y probable."
+        },
+        {
+          "id": "c1x2r2",
+          "prompt": "¿Qué pasaría si la persona fuera más paciente?",
+          "options": [
+            "Discutirían más",
+            "Discutirían menos",
+            "No cambiaría nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «discutiríamos mucho menos»."
+        },
+        {
+          "id": "c1x2r3",
+          "prompt": "¿Por qué llegó tarde la persona?",
+          "options": [
+            "Porque no se lo dijeron a tiempo",
+            "Porque se durmió",
+            "Porque el tráfico era denso"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto implica que si se lo hubieran dicho antes, no habría llegado tarde — es decir, no se lo dijeron a tiempo."
+        },
+        {
+          "id": "c1x2r4",
+          "prompt": "¿Qué tipo de condicional es la última frase, con prótasis pasada y consecuencia presente?",
+          "options": [
+            "Real",
+            "Potencial pura",
+            "Mixta"
+          ],
+          "answerIndex": 2,
+          "explanation": "Prótasis con pluscuamperfecto de subjuntivo y consecuencia con condicional simple: condicional mixta."
+        }
+      ]
+    },
+    {
+      "id": "c1x2-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x2o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Si",
+            "estudias",
+            "todos",
+            "los",
+            "días",
+            "aprenderás",
+            "rápido"
+          ],
+          "explanation": "Condicional real: si + presente, futuro en la consecuencia."
+        },
+        {
+          "id": "c1x2o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Si",
+            "no",
+            "hubiera",
+            "aceptado",
+            "viviría",
+            "aquí"
+          ],
+          "explanation": "Condicional mixta: prótasis pasada, consecuencia en presente con condicional simple."
+        }
+      ]
     }
   ],
   "summary": [

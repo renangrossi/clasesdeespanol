@@ -158,6 +158,90 @@
           "explanation": "Decir usa la raíz irregular dir- en futuro, con las terminaciones normales: dirán."
         }
       ]
+    },
+    {
+      "id": "a2x6-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Planes para el Futuro",
+      "passage": "<p>El próximo año terminaré mis estudios y buscaré trabajo en una empresa internacional. Voy a viajar a varios países antes de empezar a trabajar. Mis padres dicen que siempre tendré su apoyo, sea cual sea la decisión que tome.</p>",
+      "items": [
+        {
+          "id": "a2x6r1",
+          "prompt": "¿Qué hará la persona el próximo año?",
+          "options": [
+            "Empezará a trabajar",
+            "Terminará sus estudios",
+            "Se casará"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «El próximo año terminaré mis estudios»."
+        },
+        {
+          "id": "a2x6r2",
+          "prompt": "¿Qué va a hacer antes de trabajar?",
+          "options": [
+            "Descansar en casa",
+            "Viajar a varios países",
+            "Estudiar más"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Voy a viajar a varios países antes de empezar a trabajar»."
+        },
+        {
+          "id": "a2x6r3",
+          "prompt": "¿Qué dicen los padres sobre su apoyo?",
+          "options": [
+            "Que lo tendrá siempre",
+            "Que depende de la decisión",
+            "Que no la apoyarán"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «siempre tendré su apoyo, sea cual sea la decisión»."
+        },
+        {
+          "id": "a2x6r4",
+          "prompt": "¿Dónde buscará trabajo la persona?",
+          "options": [
+            "En una empresa local",
+            "En una empresa internacional",
+            "En su propio negocio"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «buscaré trabajo en una empresa internacional»."
+        }
+      ]
+    },
+    {
+      "id": "a2x6-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x6o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "próximo",
+            "año",
+            "terminaré",
+            "mis",
+            "estudios"
+          ],
+          "explanation": "Marcador de futuro + futuro simple (yo) + objeto."
+        },
+        {
+          "id": "a2x6o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Voy",
+            "a",
+            "viajar",
+            "por",
+            "Sudamérica"
+          ],
+          "explanation": "Ir (presente) + a + infinitivo + complemento de lugar."
+        }
+      ]
     }
   ],
   "summary": [

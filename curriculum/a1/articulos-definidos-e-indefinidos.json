@@ -177,6 +177,90 @@
           "explanation": "Naranjas es femenino plural, así que el artículo debe ser unas."
         }
       ]
+    },
+    {
+      "id": "a1x3-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Día en el Mercado",
+      "passage": "<p>Voy al mercado y compro unas manzanas y un poco de pan. El vendedor de fruta es muy amable. Después necesito una botella de agua, porque el agua de mi casa no me gusta mucho. Las tiendas del mercado cierran a las dos.</p>",
+      "items": [
+        {
+          "id": "a1x3r1",
+          "prompt": "¿Qué compra la persona además de pan?",
+          "options": [
+            "Manzanas",
+            "Naranjas",
+            "Leche"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «compro unas manzanas y un poco de pan»."
+        },
+        {
+          "id": "a1x3r2",
+          "prompt": "¿Cómo es el vendedor de fruta?",
+          "options": [
+            "Antipático",
+            "Muy amable",
+            "Muy serio"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «El vendedor de fruta es muy amable»."
+        },
+        {
+          "id": "a1x3r3",
+          "prompt": "¿Qué artículo usa el texto para \"agua\" en singular?",
+          "options": [
+            "la",
+            "el",
+            "un"
+          ],
+          "answerIndex": 1,
+          "explanation": "Agua es femenina pero empieza con a tónica, así que en singular usa el: el agua."
+        },
+        {
+          "id": "a1x3r4",
+          "prompt": "¿A qué hora cierran las tiendas del mercado?",
+          "options": [
+            "A la una",
+            "A las dos",
+            "A las tres"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Las tiendas del mercado cierran a las dos»."
+        }
+      ]
+    },
+    {
+      "id": "a1x3-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x3o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Necesito",
+            "una",
+            "botella",
+            "de",
+            "agua"
+          ],
+          "explanation": "Verbo + artículo indefinido femenino + sustantivo + complemento."
+        },
+        {
+          "id": "a1x3o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Las",
+            "tiendas",
+            "cierran",
+            "a",
+            "las",
+            "dos"
+          ],
+          "explanation": "Artículo definido plural + sujeto + verbo + complemento de hora."
+        }
+      ]
     }
   ],
   "summary": [

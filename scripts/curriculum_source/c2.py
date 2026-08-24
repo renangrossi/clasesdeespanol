@@ -466,3 +466,133 @@ LESSONS = [
         ],
     },
 ]
+
+# =======================================================================
+# EXTRA_EXERCISES — bloques adicionales de práctica (lectura y ordenar
+# frases) fusionados en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES = {
+    "c2-sintaxis-compleja-y-subordinacion-multiple": [
+        {"id": "c2x1-reading", "type": "reading-comprehension", "title": "Lectura: Un Párrafo Complejo",
+         "passage": "<p>Quienes deseen que su solicitud sea considerada deberán presentarla antes de que finalice el plazo, algo que, por difícil que parezca, muchos candidatos no logran cumplir. Dudo que quienes lo critican tan duramente hayan leído realmente su propuesta completa.</p>",
+         "items": [
+            {"id": "c2x1r1", "prompt": "¿Qué deben hacer quienes deseen que su solicitud sea considerada?", "options": ["Esperar una respuesta", "Presentarla antes de que finalice el plazo", "Llamar por teléfono"], "answerIndex": 1, "explanation": "El texto dice: «deberán presentarla antes de que finalice el plazo»."},
+            {"id": "c2x1r2", "prompt": "¿Muchos candidatos logran cumplir ese requisito?", "options": ["Sí, casi todos", "No, muchos no lo logran"], "answerIndex": 1, "explanation": "El texto dice: «muchos candidatos no logran cumplir» ese requisito."},
+            {"id": "c2x1r3", "prompt": "¿Qué duda expresa la persona sobre los críticos?", "options": ["Que hayan leído la propuesta completa", "Que existan realmente", "Que tengan razón siempre"], "answerIndex": 0, "explanation": "El texto dice: «Dudo que quienes lo critican... hayan leído realmente su propuesta completa»."},
+            {"id": "c2x1r4", "prompt": "¿Por qué \"lleguen\" o \"deseen\" van en subjuntivo en este tipo de frases?", "options": ["Porque el antecedente es indefinido/general", "Porque siempre se usa subjuntivo con quienes", "Por error gramatical"], "answerIndex": 0, "explanation": "Quienes con un antecedente indefinido o general activa el subjuntivo en la relativa."},
+         ]},
+        {"id": "c2x1-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x1o1", "prompt": "Ordena las palabras.", "words": ["Quienes", "lleguen", "tarde", "no", "podrán", "entrar"], "explanation": "Quienes con antecedente indefinido + subjuntivo (lleguen) + consecuencia."},
+            {"id": "c2x1o2", "prompt": "Ordena las palabras.", "words": ["Dudo", "que", "esto", "sea", "una", "coincidencia"], "explanation": "Dudar que + subjuntivo (sea)."},
+         ]},
+    ],
+    "c2-registro-literario-y-recursos-estilisticos": [
+        {"id": "c2x2-reading", "type": "reading-comprehension", "title": "Lectura: Un Fragmento Poético",
+         "passage": "<p>Nada teme, nada duda, nada espera aquel que ha encontrado la paz interior. Sus palabras eran veneno puro, capaces de herir sin dejar marca visible. Con acendrada paciencia, esperó el desenlace de aquella historia que tantas vidas había marcado.</p>",
+         "items": [
+            {"id": "c2x2r1", "prompt": "¿Qué recurso estilístico es la repetición de \"nada\"?", "options": ["Metáfora", "Anáfora", "Hipérbole"], "answerIndex": 1, "explanation": "La repetición de una palabra al inicio de frases sucesivas es una anáfora."},
+            {"id": "c2x2r2", "prompt": "¿Qué figura retórica es \"sus palabras eran veneno puro\"?", "options": ["Metáfora", "Hipérbaton", "Anáfora"], "answerIndex": 0, "explanation": "Se identifica una cosa (palabras) con otra (veneno) sin usar \"como\": es una metáfora."},
+            {"id": "c2x2r3", "prompt": "¿Qué esperaba la persona con acendrada paciencia?", "options": ["El desenlace de una historia", "Una respuesta", "Un viaje"], "answerIndex": 0, "explanation": "El texto dice: «esperó el desenlace de aquella historia»."},
+            {"id": "c2x2r4", "prompt": "¿El registro de este texto es literario o coloquial?", "options": ["Literario", "Coloquial"], "answerIndex": 0, "explanation": "El vocabulario elevado (acendrada, desenlace) y los recursos retóricos marcan un registro claramente literario."},
+         ]},
+        {"id": "c2x2-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x2o1", "prompt": "Ordena las palabras.", "words": ["Nada", "teme", "quien", "nada", "posee"], "explanation": "Estructura con anáfora (nada... nada) propia del registro literario."},
+            {"id": "c2x2o2", "prompt": "Ordena las palabras.", "words": ["Con", "acendrada", "paciencia", "esperó", "el", "final"], "explanation": "Complemento con adjetivo elevado + verbo + objeto."},
+         ]},
+    ],
+    "c2-matices-lexicos-y-falsos-amigos-avanzados": [
+        {"id": "c2x3-reading", "type": "reading-comprehension", "title": "Lectura: Un Malentendido por un Falso Amigo",
+         "passage": "<p>Actualmente vivo en Montevideo, aunque nací en Buenos Aires. En realidad, no estoy tan seguro de que esta sea la mejor decisión. Me sentí muy avergonzado después de aquel comentario torpe en la reunión. Mi tía está embarazada de su segundo hijo.</p>",
+         "items": [
+            {"id": "c2x3r1", "prompt": "¿Qué significa \"actualmente\" en el texto?", "options": ["En realidad", "En este momento", "De manera precisa"], "answerIndex": 1, "explanation": "Actualmente significa «ahora, en este momento», no «en realidad»."},
+            {"id": "c2x3r2", "prompt": "¿Dónde nació la persona?", "options": ["En Montevideo", "En Buenos Aires", "No lo dice"], "answerIndex": 1, "explanation": "El texto dice: «aunque nací en Buenos Aires»."},
+            {"id": "c2x3r3", "prompt": "¿Por qué se sintió avergonzada la persona?", "options": ["Por un comentario torpe", "Por llegar tarde", "Por perder algo"], "answerIndex": 0, "explanation": "El texto dice: «Me sentí muy avergonzado después de aquel comentario torpe»."},
+            {"id": "c2x3r4", "prompt": "¿Qué significa que la tía \"está embarazada\"?", "options": ["Que está avergonzada", "Que espera un bebé", "Que está ocupada"], "answerIndex": 1, "explanation": "Embarazada significa exclusivamente «esperando un bebé», uno de los falsos amigos más conocidos del español."},
+         ]},
+        {"id": "c2x3-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x3o1", "prompt": "Ordena las palabras.", "words": ["En", "realidad", "no", "estoy", "de", "acuerdo"], "explanation": "En realidad (no actualmente) para expresar un matiz de verdad frente a la apariencia."},
+            {"id": "c2x3o2", "prompt": "Ordena las palabras.", "words": ["Me", "sentí", "avergonzado", "por", "el", "error"], "explanation": "Sentirse + avergonzado (no embarazado) + causa."},
+         ]},
+    ],
+    "c2-variacion-regional": [
+        {"id": "c2x4-reading", "type": "reading-comprehension", "title": "Lectura: Un Recorrido por el Español del Mundo",
+         "passage": "<p>En España, el distingo separa la pronunciación de c/z de la s; en América Latina predomina el seseo. En el Caribe es común aspirar la s final, mientras que en el Río de la Plata el yeísmo suena como «sh». Cada variedad es igual de válida y refleja la riqueza del idioma.</p>",
+         "items": [
+            {"id": "c2x4r1", "prompt": "¿Qué es el distingo, según el texto?", "options": ["Pronunciar c/z igual que s", "Separar la pronunciación de c/z de la s", "No pronunciar la s final"], "answerIndex": 1, "explanation": "El texto dice: «el distingo separa la pronunciación de c/z de la s»."},
+            {"id": "c2x4r2", "prompt": "¿Qué predomina en América Latina?", "options": ["El distingo", "El seseo", "El yeísmo con sh"], "answerIndex": 1, "explanation": "El texto dice: «en América Latina predomina el seseo»."},
+            {"id": "c2x4r3", "prompt": "¿Qué es común en el Caribe?", "options": ["Aspirar la s final", "El distingo", "El yeísmo con sh"], "answerIndex": 0, "explanation": "El texto dice: «En el Caribe es común aspirar la s final»."},
+            {"id": "c2x4r4", "prompt": "¿El texto considera una variedad más correcta que otra?", "options": ["Sí, el distingo es superior", "No, todas son igual de válidas"], "answerIndex": 1, "explanation": "El texto termina: «Cada variedad es igual de válida y refleja la riqueza del idioma»."},
+         ]},
+        {"id": "c2x4-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x4o1", "prompt": "Ordena las palabras.", "words": ["En", "Argentina", "el", "yeísmo", "suena", "distinto"], "explanation": "Complemento de lugar + sujeto + verbo + adjetivo."},
+            {"id": "c2x4o2", "prompt": "Ordena las palabras.", "words": ["El", "seseo", "es", "mayoritario", "en", "el", "mundo", "hispanohablante"], "explanation": "Sujeto + ser + adjetivo + complemento de lugar."},
+         ]},
+    ],
+    "c2-cohesion-textual-en-discurso-extenso": [
+        {"id": "c2x5-reading", "type": "reading-comprehension", "title": "Lectura: Un Texto Bien Cohesionado",
+         "passage": "<p>El estudio analiza tres factores determinantes en el fenómeno observado. El primero de ellos se relaciona con las condiciones económicas locales. Estas, a su vez, influyen directamente en las decisiones que toman las familias. Dicha influencia explica gran parte de los resultados obtenidos.</p>",
+         "items": [
+            {"id": "c2x5r1", "prompt": "¿Cuántos factores analiza el estudio?", "options": ["Dos", "Tres", "Cuatro"], "answerIndex": 1, "explanation": "El texto dice: «analiza tres factores determinantes»."},
+            {"id": "c2x5r2", "prompt": "¿Con qué se relaciona el primer factor?", "options": ["Con la educación", "Con las condiciones económicas locales", "Con la política"], "answerIndex": 1, "explanation": "El texto dice: «El primero de ellos se relaciona con las condiciones económicas locales»."},
+            {"id": "c2x5r3", "prompt": "¿A qué influyen esas condiciones, según el texto?", "options": ["A las decisiones de las familias", "Al clima", "A los precios"], "answerIndex": 0, "explanation": "El texto dice: «influyen directamente en las decisiones que toman las familias»."},
+            {"id": "c2x5r4", "prompt": "¿Qué palabra retoma la idea anterior para dar cohesión al texto?", "options": ["Estas", "Un nuevo tema", "Nada, cada frase es independiente"], "answerIndex": 0, "explanation": "«Estas» retoma «las condiciones económicas locales» mencionadas antes, dando cohesión al texto."},
+         ]},
+        {"id": "c2x5-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x5o1", "prompt": "Ordena las palabras.", "words": ["El", "informe", "recoge", "varios", "datos", "relevantes"], "explanation": "Sujeto + verbo + objeto con adjetivo."},
+            {"id": "c2x5o2", "prompt": "Ordena las palabras.", "words": ["Dicha", "hipótesis", "se", "sostiene", "a", "lo", "largo", "del", "texto"], "explanation": "Dicha (mecanismo de cohesión) + sustantivo + verbo reflexivo + complemento."},
+         ]},
+    ],
+    "c2-modalidad-y-atenuacion-en-discurso-formal": [
+        {"id": "c2x6-reading", "type": "reading-comprehension", "title": "Lectura: Una Revisión Cortés",
+         "passage": "<p>Cabría reconsiderar esta parte del argumento antes de publicarlo. Todo parece indicar que la hipótesis inicial no era del todo correcta. Se podría argumentar que el estudio adolece de una muestra demasiado pequeña. Convendría, quizá, matizar esta afirmación con datos más recientes.</p>",
+         "items": [
+            {"id": "c2x6r1", "prompt": "¿Qué sugiere la primera frase?", "options": ["Publicar el argumento tal cual", "Reconsiderar esa parte del argumento", "Eliminar el argumento completamente"], "answerIndex": 1, "explanation": "El texto dice: «Cabría reconsiderar esta parte del argumento antes de publicarlo»."},
+            {"id": "c2x6r2", "prompt": "¿Qué parece indicar la evidencia?", "options": ["Que la hipótesis era correcta", "Que la hipótesis no era del todo correcta", "Que no hay ninguna hipótesis"], "answerIndex": 1, "explanation": "El texto dice: «Todo parece indicar que la hipótesis inicial no era del todo correcta»."},
+            {"id": "c2x6r3", "prompt": "¿Qué problema podría tener el estudio?", "options": ["Una muestra demasiado pequeña", "Falta de financiamiento", "Demasiados datos"], "answerIndex": 0, "explanation": "El texto dice: «el estudio adolece de una muestra demasiado pequeña»."},
+            {"id": "c2x6r4", "prompt": "¿El texto afirma sus críticas de forma tajante o atenuada?", "options": ["De forma tajante", "De forma atenuada"], "answerIndex": 1, "explanation": "Expresiones como cabría, parece indicar y se podría argumentar suavizan el tono de la crítica."},
+         ]},
+        {"id": "c2x6-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x6o1", "prompt": "Ordena las palabras.", "words": ["Cabe", "la", "posibilidad", "de", "que", "esto", "cambie"], "explanation": "Cabe la posibilidad de que + subjuntivo, expresión de modalidad epistémica."},
+            {"id": "c2x6o2", "prompt": "Ordena las palabras.", "words": ["Convendría", "revisar", "este", "punto", "con", "calma"], "explanation": "Convendría + infinitivo, forma atenuada de sugerir una acción."},
+         ]},
+    ],
+    "c2-estructuras-arcaicas-o-literarias": [
+        {"id": "c2x7-reading", "type": "reading-comprehension", "title": "Lectura: Un Fragmento Clásico",
+         "passage": "<p>Vuestra merced, señor hidalgo, perdone mi atrevimiento, ca no hallé otro modo de haceros llegar esta nueva: sois, sin duda, la persona a quien más debo en esta vida, y maguer el tiempo y la distancia, jamás olvidé vuestra bondad.</p>",
+         "items": [
+            {"id": "c2x7r1", "prompt": "¿A quién se dirige el narrador con \"vuestra merced\"?", "options": ["A varias personas", "A una sola persona con tratamiento reverencial", "A sí mismo"], "answerIndex": 1, "explanation": "Vuestra merced es un tratamiento formal dirigido a una sola persona de respeto."},
+            {"id": "c2x7r2", "prompt": "¿Qué significa \"ca\" en este texto medieval?", "options": ["Porque", "Cuando", "Como"], "answerIndex": 0, "explanation": "Ca es una conjunción causal medieval, equivalente a «porque»."},
+            {"id": "c2x7r3", "prompt": "¿Qué significa \"maguer\"?", "options": ["Porque", "Aunque", "Nunca"], "answerIndex": 1, "explanation": "Maguer es un arcaísmo que significa «aunque»."},
+            {"id": "c2x7r4", "prompt": "¿El narrador olvidó la bondad de esa persona?", "options": ["Sí", "No, nunca la olvidó"], "answerIndex": 1, "explanation": "El texto dice: «jamás olvidé vuestra bondad»."},
+         ]},
+        {"id": "c2x7-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x7o1", "prompt": "Ordena las palabras.", "words": ["Vuestra", "merced", "perdone", "mi", "atrevimiento"], "explanation": "Tratamiento reverencial clásico + verbo + objeto."},
+            {"id": "c2x7o2", "prompt": "Ordena las palabras.", "words": ["Sois", "sin", "duda", "muy", "sabio"], "explanation": "Sois (valor reverencial hacia una sola persona) + expresión + adjetivo."},
+         ]},
+    ],
+    "c2-dominio-del-registro-y-transformacion-estilistica": [
+        {"id": "c2x8-reading", "type": "reading-comprehension", "title": "Lectura: La Misma Idea, Tres Registros",
+         "passage": "<p>Coloquial: Che, al final se nos complicó todo con la mudanza, un lío total.<br>Estándar: Al final tuvimos varios problemas con la mudanza y se complicó bastante.<br>Formal: Lamentamos comunicarle que, debido a diversos inconvenientes, la mudanza se ha visto considerablemente complicada.</p>",
+         "items": [
+            {"id": "c2x8r1", "prompt": "¿Cuál de las tres versiones es la más coloquial?", "options": ["La primera", "La segunda", "La tercera"], "answerIndex": 0, "explanation": "La primera versión usa che y un lío total, marcas de registro coloquial."},
+            {"id": "c2x8r2", "prompt": "¿Qué versión usa la fórmula \"Lamentamos comunicarle\"?", "options": ["La coloquial", "La estándar", "La formal"], "answerIndex": 2, "explanation": "Esa fórmula es propia del registro formal, usada en la tercera versión."},
+            {"id": "c2x8r3", "prompt": "¿Las tres versiones comunican la misma idea de fondo?", "options": ["Sí", "No, son ideas distintas"], "answerIndex": 0, "explanation": "Las tres versiones describen el mismo hecho (problemas con la mudanza) en distinto registro."},
+            {"id": "c2x8r4", "prompt": "¿Qué distingue principalmente a las tres versiones entre sí?", "options": ["El contenido", "El registro (vocabulario, tono, formalidad)", "El idioma"], "answerIndex": 1, "explanation": "Las tres versiones cambian de registro, no de contenido ni de idioma."},
+         ]},
+        {"id": "c2x8-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c2x8o1", "prompt": "Ordena las palabras.", "words": ["¿Sería", "tan", "amable", "de", "ayudarme"], "explanation": "Fórmula de cortesía muy formal con condicional (sería) + infinitivo."},
+            {"id": "c2x8o2", "prompt": "Ordena las palabras.", "words": ["Oye", "¿me", "puedes", "echar", "una", "mano"], "explanation": "Registro coloquial: oye + petición directa con expresión idiomática."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))

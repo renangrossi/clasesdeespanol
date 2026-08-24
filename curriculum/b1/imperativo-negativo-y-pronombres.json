@@ -140,6 +140,89 @@
           "explanation": "Los dos pronombres (se, lo) van juntos antes del verbo en el imperativo negativo."
         }
       ]
+    },
+    {
+      "id": "b1x5-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Instrucciones para el Nuevo Empleado",
+      "passage": "<p>No llegues tarde el primer día de trabajo. No hables mal de tus compañeros nunca. Si tienes dudas, no tengas miedo de preguntar. No le digas a nadie información confidencial sin permiso. Y sobre todo, no te olvides de sonreír.</p>",
+      "items": [
+        {
+          "id": "b1x5r1",
+          "prompt": "¿Qué no debe hacer el primer día de trabajo?",
+          "options": [
+            "Llegar tarde",
+            "Sonreír",
+            "Hacer preguntas"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «No llegues tarde el primer día de trabajo»."
+        },
+        {
+          "id": "b1x5r2",
+          "prompt": "¿Qué debe hacer si tiene dudas?",
+          "options": [
+            "Callarse",
+            "No tener miedo de preguntar",
+            "Buscar en internet"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «no tengas miedo de preguntar»."
+        },
+        {
+          "id": "b1x5r3",
+          "prompt": "¿Qué información no debe compartir sin permiso?",
+          "options": [
+            "Su opinión",
+            "Información confidencial",
+            "Su horario"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «No le digas a nadie información confidencial sin permiso»."
+        },
+        {
+          "id": "b1x5r4",
+          "prompt": "¿Qué recomendación cierra el texto?",
+          "options": [
+            "No olvidarse de sonreír",
+            "No hablar mucho",
+            "Trabajar muy rápido"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto termina: «no te olvides de sonreír»."
+        }
+      ]
+    },
+    {
+      "id": "b1x5-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x5o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "le",
+            "digas",
+            "nada",
+            "todavía"
+          ],
+          "explanation": "No + pronombre indirecto + subjuntivo (digas) + objeto."
+        },
+        {
+          "id": "b1x5o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "te",
+            "preocupes",
+            "por",
+            "eso"
+          ],
+          "explanation": "No + pronombre reflexivo + subjuntivo + complemento."
+        }
+      ]
     }
   ],
   "summary": [

@@ -146,6 +146,89 @@
           "explanation": "Alegrarse de expresa emoción y exige subjuntivo en la subordinada."
         }
       ]
+    },
+    {
+      "id": "b1x7-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Reacciones ante una Noticia",
+      "passage": "<p>Me alegro de que hayas encontrado un piso tan bonito. Dudo que sea tan barato como dices, la verdad. Es una pena que no puedas mudarte antes de fin de mes. Espero que todo salga bien con la mudanza.</p>",
+      "items": [
+        {
+          "id": "b1x7r1",
+          "prompt": "¿De qué se alegra la persona?",
+          "options": [
+            "De un viaje",
+            "De que su amigo haya encontrado piso",
+            "De una fiesta"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Me alegro de que hayas encontrado un piso tan bonito»."
+        },
+        {
+          "id": "b1x7r2",
+          "prompt": "¿Qué duda la persona sobre el piso?",
+          "options": [
+            "Que sea bonito",
+            "Que sea tan barato",
+            "Que esté disponible"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Dudo que sea tan barato como dices»."
+        },
+        {
+          "id": "b1x7r3",
+          "prompt": "¿Qué es una pena, según el texto?",
+          "options": [
+            "Que el piso sea caro",
+            "Que no pueda mudarse antes de fin de mes",
+            "Que esté lejos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Es una pena que no puedas mudarte antes de fin de mes»."
+        },
+        {
+          "id": "b1x7r4",
+          "prompt": "¿Qué espera la persona sobre la mudanza?",
+          "options": [
+            "Que sea difícil",
+            "Que todo salga bien",
+            "Que se cancele"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Espero que todo salga bien con la mudanza»."
+        }
+      ]
+    },
+    {
+      "id": "b1x7-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x7o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Dudo",
+            "que",
+            "él",
+            "tenga",
+            "razón"
+          ],
+          "explanation": "Dudar que + subjuntivo (tenga) + objeto."
+        },
+        {
+          "id": "b1x7o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Me",
+            "alegro",
+            "de",
+            "que",
+            "vengas"
+          ],
+          "explanation": "Alegrarse de que + subjuntivo (vengas)."
+        }
+      ]
     }
   ],
   "summary": [

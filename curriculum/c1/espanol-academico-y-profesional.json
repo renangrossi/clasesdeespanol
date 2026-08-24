@@ -214,6 +214,91 @@
           "explanation": "Las despedidas informales se sustituyen por fórmulas de cierre convencionales en correspondencia profesional."
         }
       ]
+    },
+    {
+      "id": "c1x10-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Correo Profesional Formal",
+      "passage": "<p>Estimados señores: Por medio de la presente, deseo formalizar mi solicitud de participación en el programa de becas. Adjunto encontrarán la documentación requerida. Quedo a su entera disposición para cualquier aclaración adicional. Sin otro particular, les saluda atentamente.</p>",
+      "items": [
+        {
+          "id": "c1x10r1",
+          "prompt": "¿Qué desea formalizar la persona?",
+          "options": [
+            "Una queja",
+            "Su solicitud de participación en el programa de becas",
+            "Una renuncia"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «deseo formalizar mi solicitud de participación en el programa de becas»."
+        },
+        {
+          "id": "c1x10r2",
+          "prompt": "¿Qué se adjunta al correo?",
+          "options": [
+            "Una carta de recomendación",
+            "La documentación requerida",
+            "Un currículum"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Adjunto encontrarán la documentación requerida»."
+        },
+        {
+          "id": "c1x10r3",
+          "prompt": "¿Para qué queda a disposición la persona?",
+          "options": [
+            "Para una entrevista",
+            "Para cualquier aclaración adicional",
+            "Para pagar una cuota"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Quedo a su entera disposición para cualquier aclaración adicional»."
+        },
+        {
+          "id": "c1x10r4",
+          "prompt": "¿Qué fórmula de cierre usa el correo?",
+          "options": [
+            "Un abrazo",
+            "Sin otro particular, les saluda atentamente",
+            "Hasta pronto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Sin otro particular, les saluda atentamente»."
+        }
+      ]
+    },
+    {
+      "id": "c1x10-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x10o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Por",
+            "medio",
+            "de",
+            "la",
+            "presente",
+            "solicito",
+            "información"
+          ],
+          "explanation": "Fórmula formal fija (por medio de la presente) + verbo + objeto."
+        },
+        {
+          "id": "c1x10o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Quedo",
+            "a",
+            "su",
+            "entera",
+            "disposición"
+          ],
+          "explanation": "Fórmula de cortesía formal fija, común al cierre de correos profesionales."
+        }
+      ]
     }
   ],
   "summary": [

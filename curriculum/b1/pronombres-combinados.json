@@ -127,6 +127,90 @@
           "explanation": "Le se convierte en se antes de las, siguiendo la misma regla que con lo/la/los."
         }
       ]
+    },
+    {
+      "id": "b1x10-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Favor entre Vecinos",
+      "passage": "<p>—Necesito el taladro que te presté la semana pasada. ¿Me lo puedes devolver hoy?<br>—Claro, te lo devuelvo esta tarde sin problema.<br>—Perfecto. Ah, y si necesitas la escalera, te la puedo prestar también.<br>—Muchas gracias, te lo agradezco mucho.</p>",
+      "items": [
+        {
+          "id": "b1x10r1",
+          "prompt": "¿Qué objeto pide de vuelta la primera persona?",
+          "options": [
+            "Una escalera",
+            "Un taladro",
+            "Un martillo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Necesito el taladro que te presté la semana pasada»."
+        },
+        {
+          "id": "b1x10r2",
+          "prompt": "¿Cuándo devolverá el taladro?",
+          "options": [
+            "Mañana",
+            "Esta tarde",
+            "La próxima semana"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «te lo devuelvo esta tarde»."
+        },
+        {
+          "id": "b1x10r3",
+          "prompt": "¿Qué otro objeto se ofrece a prestar?",
+          "options": [
+            "Un taladro",
+            "Una escalera",
+            "Una silla"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «si necesitas la escalera, te la puedo prestar también»."
+        },
+        {
+          "id": "b1x10r4",
+          "prompt": "¿Cómo termina la conversación?",
+          "options": [
+            "Con un desacuerdo",
+            "Con un agradecimiento",
+            "Con una despedida fría"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «te lo agradezco mucho»."
+        }
+      ]
+    },
+    {
+      "id": "b1x10-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x10o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Se",
+            "lo",
+            "expliqué",
+            "todo",
+            "ayer"
+          ],
+          "explanation": "Le se convierte en se ante lo, seguido del verbo en indefinido."
+        },
+        {
+          "id": "b1x10o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Me",
+            "lo",
+            "puedes",
+            "explicar",
+            "otra",
+            "vez"
+          ],
+          "explanation": "Pronombres combinados antes del verbo conjugado + infinitivo."
+        }
+      ]
     }
   ],
   "summary": [

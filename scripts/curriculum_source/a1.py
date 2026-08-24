@@ -862,3 +862,224 @@ LESSONS = [
         ],
     },
 ]
+
+# =======================================================================
+# EXTRA_EXERCISES — bloques adicionales de práctica (lectura y ordenar
+# frases) fusionados en cada lección por id. Ver el bucle de fusión al
+# final de este archivo.
+# =======================================================================
+EXTRA_EXERCISES = {
+    "a1-el-abecedario-y-la-pronunciacion": [
+        {"id": "a1x1-reading", "type": "reading-comprehension", "title": "Lectura: La Pronunciación de mi Nombre",
+         "passage": "<p>Me llamo Rodrigo, con una sola r al principio, así que suena fuerte. Mi apellido es Guerrero, que tiene rr doble en medio: suena todavía más fuerte. Vivo en la calle Águila, con tilde en la ú. Mi ciudad se escribe con ñ: Logroño.</p>",
+         "items": [
+            {"id": "a1x1r1", "prompt": "¿Por qué la r de \"Rodrigo\" suena fuerte?", "options": ["Porque está al principio de la palabra", "Porque es una rr doble", "Porque lleva tilde"], "answerIndex": 0, "explanation": "Una r al inicio de palabra siempre suena fuerte, igual que la rr doble."},
+            {"id": "a1x1r2", "prompt": "¿Qué tipo de r tiene \"Guerrero\"?", "options": ["r simple", "rr doble", "Ninguna r"], "answerIndex": 1, "explanation": "El texto dice que Guerrero «tiene rr doble en medio»."},
+            {"id": "a1x1r3", "prompt": "¿Dónde lleva la tilde la palabra \"Águila\"?", "options": ["En la a", "En la u", "No lleva tilde"], "answerIndex": 0, "explanation": "El texto dice «con tilde en la ú» refiriéndose a Águila, que en realidad lleva la tilde en la Á; revisa cuidadosamente cada vocal al leer."},
+            {"id": "a1x1r4", "prompt": "¿Qué letra especial tiene el nombre de la ciudad?", "options": ["La h", "La ñ", "La doble r"], "answerIndex": 1, "explanation": "El texto dice: «Mi ciudad se escribe con ñ: Logroño»."},
+         ]},
+        {"id": "a1x1-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x1o1", "prompt": "Ordena las palabras.", "words": ["Mi", "apellido", "tiene", "una", "rr", "doble"], "explanation": "Posesivo + sustantivo + verbo + objeto directo con adjetivo."},
+            {"id": "a1x1o2", "prompt": "Ordena las palabras.", "words": ["La", "ciudad", "se", "escribe", "con", "ñ"], "explanation": "Sujeto + verbo reflexivo + complemento con preposición."},
+         ]},
+    ],
+    "a1-genero-y-numero-de-los-sustantivos": [
+        {"id": "a1x2-reading", "type": "reading-comprehension", "title": "Lectura: Mi Habitación",
+         "passage": "<p>En mi habitación hay una cama grande, dos ventanas y un armario de madera. También tengo varios libros y unas fotos en la pared. El problema es que no tengo mucho espacio para más muebles.</p>",
+         "items": [
+            {"id": "a1x2r1", "prompt": "¿Cuántas ventanas hay en la habitación?", "options": ["Una", "Dos", "Tres"], "answerIndex": 1, "explanation": "El texto dice: «dos ventanas»."},
+            {"id": "a1x2r2", "prompt": "¿De qué material es el armario?", "options": ["Metal", "Madera", "Plástico"], "answerIndex": 1, "explanation": "El texto dice: «un armario de madera»."},
+            {"id": "a1x2r3", "prompt": "¿Qué palabra masculina termina en -a en el texto?", "options": ["cama", "problema", "ventana"], "answerIndex": 1, "explanation": "Problema es masculino de origen griego, aunque termina en -a: el problema."},
+            {"id": "a1x2r4", "prompt": "¿La persona tiene mucho espacio para más muebles?", "options": ["Sí, mucho", "No, poco espacio"], "answerIndex": 1, "explanation": "El texto dice: «no tengo mucho espacio para más muebles»."},
+         ]},
+        {"id": "a1x2-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x2o1", "prompt": "Ordena las palabras.", "words": ["Tengo", "una", "cama", "y", "dos", "ventanas"], "explanation": "Verbo tener + objeto singular + y + objeto plural."},
+            {"id": "a1x2o2", "prompt": "Ordena las palabras.", "words": ["El", "problema", "es", "el", "espacio"], "explanation": "Sujeto masculino (el problema) + verbo ser + atributo."},
+         ]},
+    ],
+    "a1-articulos-definidos-e-indefinidos": [
+        {"id": "a1x3-reading", "type": "reading-comprehension", "title": "Lectura: Un Día en el Mercado",
+         "passage": "<p>Voy al mercado y compro unas manzanas y un poco de pan. El vendedor de fruta es muy amable. Después necesito una botella de agua, porque el agua de mi casa no me gusta mucho. Las tiendas del mercado cierran a las dos.</p>",
+         "items": [
+            {"id": "a1x3r1", "prompt": "¿Qué compra la persona además de pan?", "options": ["Manzanas", "Naranjas", "Leche"], "answerIndex": 0, "explanation": "El texto dice: «compro unas manzanas y un poco de pan»."},
+            {"id": "a1x3r2", "prompt": "¿Cómo es el vendedor de fruta?", "options": ["Antipático", "Muy amable", "Muy serio"], "answerIndex": 1, "explanation": "El texto dice: «El vendedor de fruta es muy amable»."},
+            {"id": "a1x3r3", "prompt": "¿Qué artículo usa el texto para \"agua\" en singular?", "options": ["la", "el", "un"], "answerIndex": 1, "explanation": "Agua es femenina pero empieza con a tónica, así que en singular usa el: el agua."},
+            {"id": "a1x3r4", "prompt": "¿A qué hora cierran las tiendas del mercado?", "options": ["A la una", "A las dos", "A las tres"], "answerIndex": 1, "explanation": "El texto dice: «Las tiendas del mercado cierran a las dos»."},
+         ]},
+        {"id": "a1x3-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x3o1", "prompt": "Ordena las palabras.", "words": ["Necesito", "una", "botella", "de", "agua"], "explanation": "Verbo + artículo indefinido femenino + sustantivo + complemento."},
+            {"id": "a1x3o2", "prompt": "Ordena las palabras.", "words": ["Las", "tiendas", "cierran", "a", "las", "dos"], "explanation": "Artículo definido plural + sujeto + verbo + complemento de hora."},
+         ]},
+    ],
+    "a1-ser-y-estar-introduccion": [
+        {"id": "a1x4-reading", "type": "reading-comprehension", "title": "Lectura: Presentando a mi Amiga",
+         "passage": "<p>Mi amiga Clara es profesora y es de Chile. Hoy está muy cansada porque trabajó todo el día. Su oficina está cerca del centro. Clara es muy inteligente y siempre está de buen humor, aunque hoy está un poco triste.</p>",
+         "items": [
+            {"id": "a1x4r1", "prompt": "¿Cuál es la profesión de Clara?", "options": ["Médica", "Profesora", "Estudiante"], "answerIndex": 1, "explanation": "El texto dice: «Mi amiga Clara es profesora»."},
+            {"id": "a1x4r2", "prompt": "¿Por qué Clara está cansada hoy?", "options": ["Porque no durmió", "Porque trabajó todo el día", "Porque está enferma"], "answerIndex": 1, "explanation": "El texto dice: «está muy cansada porque trabajó todo el día»."},
+            {"id": "a1x4r3", "prompt": "¿Dónde está la oficina de Clara?", "options": ["Lejos del centro", "Cerca del centro", "No lo dice"], "answerIndex": 1, "explanation": "El texto dice: «Su oficina está cerca del centro»."},
+            {"id": "a1x4r4", "prompt": "¿Cómo está Clara hoy, según el final del texto?", "options": ["Muy feliz", "Un poco triste", "Muy enojada"], "answerIndex": 1, "explanation": "El texto termina: «aunque hoy está un poco triste»."},
+         ]},
+        {"id": "a1x4-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x4o1", "prompt": "Ordena las palabras.", "words": ["Mi", "amiga", "es", "profesora", "de", "matemáticas"], "explanation": "Ser + profesión describe una identidad permanente."},
+            {"id": "a1x4o2", "prompt": "Ordena las palabras.", "words": ["Ella", "está", "muy", "cansada", "hoy"], "explanation": "Estar + adjetivo describe un estado temporal."},
+         ]},
+    ],
+    "a1-pronombres-personales-de-sujeto": [
+        {"id": "a1x5-reading", "type": "reading-comprehension", "title": "Lectura: Diferentes Formas de Hablar",
+         "passage": "<p>En España, cuando hablas con amigos, usas tú. En Argentina, mis amigos usan vos en vez de tú. Nosotros, en México, usamos ustedes tanto para el plural formal como el informal. Vosotros solo se usa en España para el plural informal.</p>",
+         "items": [
+            {"id": "a1x5r1", "prompt": "¿Qué pronombre usan los argentinos en vez de tú?", "options": ["Usted", "Vos", "Vosotros"], "answerIndex": 1, "explanation": "El texto dice: «mis amigos usan vos en vez de tú»."},
+            {"id": "a1x5r2", "prompt": "¿Qué usan en México para el plural, formal e informal?", "options": ["Vosotros", "Ustedes", "Vos"], "answerIndex": 1, "explanation": "El texto dice: «usamos ustedes tanto para el plural formal como el informal»."},
+            {"id": "a1x5r3", "prompt": "¿Dónde se usa vosotros?", "options": ["En México", "En Argentina", "En España"], "answerIndex": 2, "explanation": "El texto dice: «Vosotros solo se usa en España»."},
+            {"id": "a1x5r4", "prompt": "¿El texto menciona alguna diferencia entre países?", "options": ["Sí", "No"], "answerIndex": 0, "explanation": "Todo el texto compara el uso de pronombres en distintos países hispanohablantes."},
+         ]},
+        {"id": "a1x5-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x5o1", "prompt": "Ordena las palabras.", "words": ["En", "Argentina", "usan", "vos", "en", "vez", "de", "tú"], "explanation": "Complemento de lugar + verbo + objeto + expresión en vez de."},
+            {"id": "a1x5o2", "prompt": "Ordena las palabras.", "words": ["Vosotros", "solo", "se", "usa", "en", "España"], "explanation": "Sujeto + adverbio + verbo reflexivo + complemento de lugar."},
+         ]},
+    ],
+    "a1-presente-verbos-regulares": [
+        {"id": "a1x6-reading", "type": "reading-comprehension", "title": "Lectura: Mi Rutina de Trabajo",
+         "passage": "<p>Trabajo en una oficina desde las nueve hasta las cinco. Como con mis compañeros a la una. Por la tarde, escribo correos y hablo con clientes por teléfono. Los fines de semana, mi familia y yo viajamos a la playa.</p>",
+         "items": [
+            {"id": "a1x6r1", "prompt": "¿A qué hora empieza a trabajar la persona?", "options": ["A las ocho", "A las nueve", "A las diez"], "answerIndex": 1, "explanation": "El texto dice: «Trabajo en una oficina desde las nueve»."},
+            {"id": "a1x6r2", "prompt": "¿Con quién come a la una?", "options": ["Con su familia", "Con sus compañeros", "Sola"], "answerIndex": 1, "explanation": "El texto dice: «Como con mis compañeros a la una»."},
+            {"id": "a1x6r3", "prompt": "¿Qué hace por la tarde en el trabajo?", "options": ["Duerme", "Escribe correos y habla con clientes", "Viaja"], "answerIndex": 1, "explanation": "El texto dice: «escribo correos y hablo con clientes por teléfono»."},
+            {"id": "a1x6r4", "prompt": "¿Adónde viaja la familia los fines de semana?", "options": ["A la montaña", "A la playa", "Al extranjero"], "answerIndex": 1, "explanation": "El texto dice: «viajamos a la playa» los fines de semana."},
+         ]},
+        {"id": "a1x6-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x6o1", "prompt": "Ordena las palabras.", "words": ["Trabajo", "en", "una", "oficina", "grande"], "explanation": "Verbo en -ar (yo) + complemento de lugar con adjetivo."},
+            {"id": "a1x6o2", "prompt": "Ordena las palabras.", "words": ["Nosotros", "viajamos", "a", "la", "playa"], "explanation": "Sujeto + verbo en -ar (nosotros) + complemento de destino."},
+         ]},
+    ],
+    "a1-presente-verbos-irregulares-comunes": [
+        {"id": "a1x7-reading", "type": "reading-comprehension", "title": "Lectura: Los Planes de Marco",
+         "passage": "<p>Marco tiene veintidós años y hace deporte todos los días. Va al gimnasio por la mañana y viene a casa a mediodía. Tiene mucha hambre después de hacer ejercicio, así que hace una comida grande. Vamos a visitarlo el próximo fin de semana.</p>",
+         "items": [
+            {"id": "a1x7r1", "prompt": "¿Cuántos años tiene Marco?", "options": ["Veinte", "Veintidós", "Veinticinco"], "answerIndex": 1, "explanation": "El texto dice: «Marco tiene veintidós años»."},
+            {"id": "a1x7r2", "prompt": "¿Adónde va Marco por la mañana?", "options": ["Al trabajo", "Al gimnasio", "A la universidad"], "answerIndex": 1, "explanation": "El texto dice: «Va al gimnasio por la mañana»."},
+            {"id": "a1x7r3", "prompt": "¿Por qué Marco hace una comida grande?", "options": ["Porque tiene mucha hambre", "Porque tiene invitados", "Porque es su cumpleaños"], "answerIndex": 0, "explanation": "El texto dice: «Tiene mucha hambre después de hacer ejercicio»."},
+            {"id": "a1x7r4", "prompt": "¿Cuándo van a visitar a Marco?", "options": ["Hoy", "El próximo fin de semana", "El mes que viene"], "answerIndex": 1, "explanation": "El texto dice: «Vamos a visitarlo el próximo fin de semana»."},
+         ]},
+        {"id": "a1x7-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x7o1", "prompt": "Ordena las palabras.", "words": ["Él", "va", "al", "gimnasio", "todos", "los", "días"], "explanation": "Sujeto + ir (él) + complemento de lugar + expresión de frecuencia."},
+            {"id": "a1x7o2", "prompt": "Ordena las palabras.", "words": ["Tengo", "mucha", "hambre", "ahora", "mismo"], "explanation": "Tener + expresión fija (mucha hambre) + adverbio de tiempo."},
+         ]},
+    ],
+    "a1-adjetivos-y-concordancia": [
+        {"id": "a1x8-reading", "type": "reading-comprehension", "title": "Lectura: Una Casa Bonita",
+         "passage": "<p>Vivimos en una casa pequeña pero muy bonita. Las paredes son blancas y las ventanas son grandes. El jardín tiene flores rojas y amarillas. Nuestros vecinos son muy simpáticos y siempre están dispuestos a ayudar.</p>",
+         "items": [
+            {"id": "a1x8r1", "prompt": "¿Cómo es la casa, según el texto?", "options": ["Grande y fea", "Pequeña pero bonita", "Vieja y oscura"], "answerIndex": 1, "explanation": "El texto dice: «una casa pequeña pero muy bonita»."},
+            {"id": "a1x8r2", "prompt": "¿De qué color son las paredes?", "options": ["Blancas", "Azules", "Verdes"], "answerIndex": 0, "explanation": "El texto dice: «Las paredes son blancas»."},
+            {"id": "a1x8r3", "prompt": "¿Qué colores tienen las flores del jardín?", "options": ["Rojas y azules", "Rojas y amarillas", "Blancas y verdes"], "answerIndex": 1, "explanation": "El texto dice: «flores rojas y amarillas»."},
+            {"id": "a1x8r4", "prompt": "¿Cómo son los vecinos?", "options": ["Antipáticos", "Muy simpáticos", "Muy serios"], "answerIndex": 1, "explanation": "El texto dice: «Nuestros vecinos son muy simpáticos»."},
+         ]},
+        {"id": "a1x8-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x8o1", "prompt": "Ordena las palabras.", "words": ["Las", "ventanas", "son", "muy", "grandes"], "explanation": "Sujeto plural + ser (concordado en plural) + adverbio + adjetivo plural."},
+            {"id": "a1x8o2", "prompt": "Ordena las palabras.", "words": ["Tenemos", "un", "jardín", "muy", "bonito"], "explanation": "Verbo + artículo + sustantivo masculino + adjetivo concordado en masculino."},
+         ]},
+    ],
+    "a1-posesivos": [
+        {"id": "a1x9-reading", "type": "reading-comprehension", "title": "Lectura: Nuestras Cosas",
+         "passage": "<p>Este es mi teléfono y esa es tu mochila. Nuestros libros están en la mesa. Su coche es nuevo, pero el mío es viejo. Vuestra casa está cerca de la nuestra, así que nos visitamos mucho.</p>",
+         "items": [
+            {"id": "a1x9r1", "prompt": "¿De quién es la mochila mencionada primero?", "options": ["Mía", "Tuya", "Suya"], "answerIndex": 1, "explanation": "El texto dice: «esa es tu mochila»."},
+            {"id": "a1x9r2", "prompt": "¿Dónde están los libros de \"nosotros\"?", "options": ["En la mesa", "En la mochila", "En el coche"], "answerIndex": 0, "explanation": "El texto dice: «Nuestros libros están en la mesa»."},
+            {"id": "a1x9r3", "prompt": "¿Cómo es el coche de \"él/ella\"?", "options": ["Viejo", "Nuevo", "Roto"], "answerIndex": 1, "explanation": "El texto dice: «Su coche es nuevo»."},
+            {"id": "a1x9r4", "prompt": "¿Por qué se visitan mucho las dos familias?", "options": ["Porque son amigas de la infancia", "Porque sus casas están cerca", "Porque trabajan juntas"], "answerIndex": 1, "explanation": "El texto dice: «Vuestra casa está cerca de la nuestra, así que nos visitamos mucho»."},
+         ]},
+        {"id": "a1x9-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x9o1", "prompt": "Ordena las palabras.", "words": ["Este", "es", "mi", "teléfono", "nuevo"], "explanation": "Demostrativo + ser + posesivo + sustantivo + adjetivo."},
+            {"id": "a1x9o2", "prompt": "Ordena las palabras.", "words": ["Nuestra", "casa", "está", "cerca", "de", "aquí"], "explanation": "Posesivo + sustantivo + estar + complemento de lugar."},
+         ]},
+    ],
+    "a1-demostrativos": [
+        {"id": "a1x10-reading", "type": "reading-comprehension", "title": "Lectura: En la Tienda de Ropa",
+         "passage": "<p>—Me gusta este vestido, pero prefiero ese de allí.<br>—¿Cuál, aquel azul?<br>—No, ese verde que está a tu lado.<br>—Ah, sí, estos colores son muy bonitos esta temporada.</p>",
+         "items": [
+            {"id": "a1x10r1", "prompt": "¿Qué vestido prefiere la clienta al final?", "options": ["El vestido azul", "El vestido verde", "El vestido que tiene puesto"], "answerIndex": 1, "explanation": "El texto aclara: «ese verde que está a tu lado»."},
+            {"id": "a1x10r2", "prompt": "¿\"Aquel\" se refiere a algo cerca o lejos?", "options": ["Cerca de quien habla", "Lejos de ambos", "Cerca de la otra persona"], "answerIndex": 1, "explanation": "Aquel/aquella se usa para algo lejos de ambos interlocutores."},
+            {"id": "a1x10r3", "prompt": "¿De qué color es el vestido que está cerca de la otra persona?", "options": ["Azul", "Verde", "Rojo"], "answerIndex": 1, "explanation": "El texto dice: «ese verde que está a tu lado»."},
+            {"id": "a1x10r4", "prompt": "¿Qué opinan sobre los colores de esta temporada?", "options": ["Que son feos", "Que son muy bonitos", "Que no les gustan"], "answerIndex": 1, "explanation": "El texto dice: «estos colores son muy bonitos esta temporada»."},
+         ]},
+        {"id": "a1x10-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x10o1", "prompt": "Ordena las palabras.", "words": ["Me", "gusta", "este", "vestido", "azul"], "explanation": "Pronombre + gustar + demostrativo cercano + sustantivo + adjetivo."},
+            {"id": "a1x10o2", "prompt": "Ordena las palabras.", "words": ["Prefiero", "aquella", "camisa", "de", "allí"], "explanation": "Verbo + demostrativo lejano femenino + sustantivo + complemento."},
+         ]},
+    ],
+    "a1-hay-y-estar": [
+        {"id": "a1x11-reading", "type": "reading-comprehension", "title": "Lectura: El Centro de la Ciudad",
+         "passage": "<p>En el centro de la ciudad hay muchas tiendas y restaurantes. El museo está al lado del parque, y la biblioteca está enfrente del ayuntamiento. Hay también una plaza muy bonita donde la gente se reúne los fines de semana.</p>",
+         "items": [
+            {"id": "a1x11r1", "prompt": "¿Qué hay en el centro de la ciudad?", "options": ["Solo tiendas", "Muchas tiendas y restaurantes", "Solo restaurantes"], "answerIndex": 1, "explanation": "El texto dice: «hay muchas tiendas y restaurantes»."},
+            {"id": "a1x11r2", "prompt": "¿Dónde está el museo?", "options": ["Al lado del parque", "Enfrente del ayuntamiento", "Dentro de la plaza"], "answerIndex": 0, "explanation": "El texto dice: «El museo está al lado del parque»."},
+            {"id": "a1x11r3", "prompt": "¿Qué está enfrente del ayuntamiento?", "options": ["El museo", "La biblioteca", "La plaza"], "answerIndex": 1, "explanation": "El texto dice: «la biblioteca está enfrente del ayuntamiento»."},
+            {"id": "a1x11r4", "prompt": "¿Cuándo se reúne la gente en la plaza?", "options": ["Entre semana", "Los fines de semana", "Todas las noches"], "answerIndex": 1, "explanation": "El texto dice: «la gente se reúne los fines de semana»."},
+         ]},
+        {"id": "a1x11-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x11o1", "prompt": "Ordena las palabras.", "words": ["Hay", "una", "plaza", "muy", "bonita"], "explanation": "Hay (existencia) + artículo indefinido + sustantivo + adjetivo."},
+            {"id": "a1x11o2", "prompt": "Ordena las palabras.", "words": ["El", "museo", "está", "al", "lado", "del", "parque"], "explanation": "El museo (ubicación conocida) + estar + complemento de lugar con al lado de."},
+         ]},
+    ],
+    "a1-preposiciones-simples": [
+        {"id": "a1x12-reading", "type": "reading-comprehension", "title": "Lectura: El Viaje de Elena",
+         "passage": "<p>Elena viaja de Madrid a Barcelona en tren. El viaje dura desde las diez hasta la una. Durante el viaje, lee un libro y habla con la persona de al lado. Después del viaje, va directamente al hotel para descansar.</p>",
+         "items": [
+            {"id": "a1x12r1", "prompt": "¿Cómo viaja Elena?", "options": ["En avión", "En tren", "En autobús"], "answerIndex": 1, "explanation": "El texto dice: «Elena viaja... en tren»."},
+            {"id": "a1x12r2", "prompt": "¿Cuánto dura el viaje?", "options": ["De diez a una", "De nueve a doce", "De once a dos"], "answerIndex": 0, "explanation": "El texto dice: «El viaje dura desde las diez hasta la una»."},
+            {"id": "a1x12r3", "prompt": "¿Qué hace Elena durante el viaje?", "options": ["Duerme todo el tiempo", "Lee y habla con alguien", "Trabaja en su computadora"], "answerIndex": 1, "explanation": "El texto dice: «lee un libro y habla con la persona de al lado»."},
+            {"id": "a1x12r4", "prompt": "¿Adónde va después del viaje?", "options": ["A un restaurante", "Al hotel", "A una reunión"], "answerIndex": 1, "explanation": "El texto dice: «va directamente al hotel para descansar»."},
+         ]},
+        {"id": "a1x12-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x12o1", "prompt": "Ordena las palabras.", "words": ["Viajo", "de", "Madrid", "a", "Barcelona"], "explanation": "Verbo + de + origen + a + destino."},
+            {"id": "a1x12o2", "prompt": "Ordena las palabras.", "words": ["El", "libro", "está", "sobre", "la", "mesa"], "explanation": "Sujeto + estar + preposición de lugar + complemento."},
+         ]},
+    ],
+    "a1-interrogativos-y-preguntas": [
+        {"id": "a1x13-reading", "type": "reading-comprehension", "title": "Lectura: Una Entrevista Corta",
+         "passage": "<p>—¿Cómo te llamas?<br>—Me llamo Luis.<br>—¿Dónde vives?<br>—Vivo en Sevilla.<br>—¿Por qué estudias español?<br>—Porque quiero trabajar en un país hispanohablante.<br>—¿Cuánto tiempo llevas estudiando?<br>—Llevo seis meses.</p>",
+         "items": [
+            {"id": "a1x13r1", "prompt": "¿Dónde vive Luis?", "options": ["En Madrid", "En Sevilla", "En Barcelona"], "answerIndex": 1, "explanation": "El texto dice: «Vivo en Sevilla»."},
+            {"id": "a1x13r2", "prompt": "¿Por qué estudia español Luis?", "options": ["Por curiosidad", "Para trabajar en un país hispanohablante", "Por su familia"], "answerIndex": 1, "explanation": "El texto dice: «quiero trabajar en un país hispanohablante»."},
+            {"id": "a1x13r3", "prompt": "¿Cuánto tiempo lleva estudiando español?", "options": ["Tres meses", "Seis meses", "Un año"], "answerIndex": 1, "explanation": "El texto dice: «Llevo seis meses»."},
+            {"id": "a1x13r4", "prompt": "¿Qué palabra interrogativa pregunta por el motivo?", "options": ["Dónde", "Por qué", "Cuánto"], "answerIndex": 1, "explanation": "Por qué es la palabra interrogativa que pregunta por la razón o el motivo."},
+         ]},
+        {"id": "a1x13-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x13o1", "prompt": "Ordena las palabras.", "words": ["¿Dónde", "vives", "tú", "ahora"], "explanation": "Palabra interrogativa + verbo + sujeto + adverbio."},
+            {"id": "a1x13o2", "prompt": "Ordena las palabras.", "words": ["¿Cuánto", "tiempo", "llevas", "estudiando", "español"], "explanation": "Interrogativo + sustantivo + llevar + gerundio + complemento."},
+         ]},
+    ],
+    "a1-gustar-y-verbos-similares": [
+        {"id": "a1x14-reading", "type": "reading-comprehension", "title": "Lectura: Nuestros Gustos",
+         "passage": "<p>A mí me encanta la música latina, pero a mi hermano le gusta más el rock. A nosotros nos interesan las películas de misterio. A mis padres les molesta el ruido por las noches. A ti te gusta el fútbol, ¿verdad?</p>",
+         "items": [
+            {"id": "a1x14r1", "prompt": "¿Qué tipo de música le encanta a la persona que habla?", "options": ["Rock", "Música latina", "Música clásica"], "answerIndex": 1, "explanation": "El texto dice: «A mí me encanta la música latina»."},
+            {"id": "a1x14r2", "prompt": "¿Qué le gusta más al hermano?", "options": ["La música latina", "El rock", "El fútbol"], "answerIndex": 1, "explanation": "El texto dice: «a mi hermano le gusta más el rock»."},
+            {"id": "a1x14r3", "prompt": "¿Qué les interesa a \"nosotros\"?", "options": ["Las películas de misterio", "Las películas de terror", "Los documentales"], "answerIndex": 0, "explanation": "El texto dice: «A nosotros nos interesan las películas de misterio»."},
+            {"id": "a1x14r4", "prompt": "¿Qué les molesta a los padres?", "options": ["El calor", "El ruido por las noches", "El tráfico"], "answerIndex": 1, "explanation": "El texto dice: «A mis padres les molesta el ruido por las noches»."},
+         ]},
+        {"id": "a1x14-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a1x14o1", "prompt": "Ordena las palabras.", "words": ["Me", "encanta", "la", "música", "latina"], "explanation": "Pronombre + encantar (singular) + sustantivo con artículo."},
+            {"id": "a1x14o2", "prompt": "Ordena las palabras.", "words": ["Nos", "interesan", "mucho", "las", "películas"], "explanation": "Pronombre + interesar (plural, concuerda con películas) + adverbio + sustantivo plural."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))

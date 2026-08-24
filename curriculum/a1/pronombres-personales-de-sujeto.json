@@ -139,6 +139,92 @@
           "explanation": "A diferencia de España, gran parte de América Latina no usa vosotros y emplea ustedes para todo el plural."
         }
       ]
+    },
+    {
+      "id": "a1x5-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Diferentes Formas de Hablar",
+      "passage": "<p>En España, cuando hablas con amigos, usas tú. En Argentina, mis amigos usan vos en vez de tú. Nosotros, en México, usamos ustedes tanto para el plural formal como el informal. Vosotros solo se usa en España para el plural informal.</p>",
+      "items": [
+        {
+          "id": "a1x5r1",
+          "prompt": "¿Qué pronombre usan los argentinos en vez de tú?",
+          "options": [
+            "Usted",
+            "Vos",
+            "Vosotros"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «mis amigos usan vos en vez de tú»."
+        },
+        {
+          "id": "a1x5r2",
+          "prompt": "¿Qué usan en México para el plural, formal e informal?",
+          "options": [
+            "Vosotros",
+            "Ustedes",
+            "Vos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «usamos ustedes tanto para el plural formal como el informal»."
+        },
+        {
+          "id": "a1x5r3",
+          "prompt": "¿Dónde se usa vosotros?",
+          "options": [
+            "En México",
+            "En Argentina",
+            "En España"
+          ],
+          "answerIndex": 2,
+          "explanation": "El texto dice: «Vosotros solo se usa en España»."
+        },
+        {
+          "id": "a1x5r4",
+          "prompt": "¿El texto menciona alguna diferencia entre países?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 0,
+          "explanation": "Todo el texto compara el uso de pronombres en distintos países hispanohablantes."
+        }
+      ]
+    },
+    {
+      "id": "a1x5-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x5o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "En",
+            "Argentina",
+            "usan",
+            "vos",
+            "en",
+            "vez",
+            "de",
+            "tú"
+          ],
+          "explanation": "Complemento de lugar + verbo + objeto + expresión en vez de."
+        },
+        {
+          "id": "a1x5o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Vosotros",
+            "solo",
+            "se",
+            "usa",
+            "en",
+            "España"
+          ],
+          "explanation": "Sujeto + adverbio + verbo reflexivo + complemento de lugar."
+        }
+      ]
     }
   ],
   "summary": [

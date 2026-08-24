@@ -173,6 +173,90 @@
           "explanation": "Cada estructura de relieve cumple una función discursiva distinta, aunque todas comparten el recurso de destacar un elemento."
         }
       ]
+    },
+    {
+      "id": "c1x4-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Aclarando un Malentendido",
+      "passage": "<p>Lo que realmente me molestó fue el tono con el que me hablaste. Es que no tuve tiempo de avisarte antes, lo siento mucho. Lo que pasó fue muy distinto a lo que imaginas. Fue precisamente por eso por lo que decidí llamarte enseguida.</p>",
+      "items": [
+        {
+          "id": "c1x4r1",
+          "prompt": "¿Qué molestó realmente a la persona?",
+          "options": [
+            "El contenido del mensaje",
+            "El tono con el que le hablaron",
+            "La hora de la llamada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Lo que realmente me molestó fue el tono con el que me hablaste»."
+        },
+        {
+          "id": "c1x4r2",
+          "prompt": "¿Por qué no avisó antes?",
+          "options": [
+            "Porque no quiso",
+            "Porque no tuvo tiempo",
+            "Porque se olvidó"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Es que no tuve tiempo de avisarte antes»."
+        },
+        {
+          "id": "c1x4r3",
+          "prompt": "¿Lo que pasó fue como imaginaba la otra persona?",
+          "options": [
+            "Sí, exactamente",
+            "No, fue muy distinto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Lo que pasó fue muy distinto a lo que imaginas»."
+        },
+        {
+          "id": "c1x4r4",
+          "prompt": "¿Por qué decidió llamar enseguida?",
+          "options": [
+            "Por costumbre",
+            "Precisamente por lo que pasó",
+            "Por casualidad"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Fue precisamente por eso por lo que decidí llamarte enseguida»."
+        }
+      ]
+    },
+    {
+      "id": "c1x4-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x4o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Lo",
+            "que",
+            "necesito",
+            "es",
+            "más",
+            "tiempo"
+          ],
+          "explanation": "Construcción enfática: lo que + verbo + es + lo destacado."
+        },
+        {
+          "id": "c1x4o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Es",
+            "que",
+            "no",
+            "pude",
+            "venir",
+            "antes"
+          ],
+          "explanation": "Es que + explicación, fórmula típica para justificar algo."
+        }
+      ]
     }
   ],
   "summary": [

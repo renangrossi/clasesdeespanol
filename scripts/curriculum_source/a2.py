@@ -723,3 +723,193 @@ LESSONS = [
         ],
     },
 ]
+
+# =======================================================================
+# EXTRA_EXERCISES — bloques adicionales de práctica (lectura y ordenar
+# frases) fusionados en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES = {
+    "a2-preterito-perfecto-compuesto": [
+        {"id": "a2x1-reading", "type": "reading-comprehension", "title": "Lectura: Un Correo a mi Jefe",
+         "passage": "<p>Hola, Marta. Te escribo para contarte que hoy he terminado el informe que me pediste. También he hablado con el cliente y ha confirmado la reunión para el jueves. Todavía no he revisado los últimos datos, pero lo haré esta tarde. ¿Has recibido ya el correo con los archivos adjuntos?</p>",
+         "items": [
+            {"id": "a2x1r1", "prompt": "¿Qué ha terminado la persona que escribe?", "options": ["Una reunión", "El informe", "Un correo"], "answerIndex": 1, "explanation": "El texto dice: «hoy he terminado el informe»."},
+            {"id": "a2x1r2", "prompt": "¿Qué ha confirmado el cliente?", "options": ["El precio", "La reunión del jueves", "El informe"], "answerIndex": 1, "explanation": "El texto dice: «ha confirmado la reunión para el jueves»."},
+            {"id": "a2x1r3", "prompt": "¿Ha revisado ya los últimos datos?", "options": ["Sí, ya los revisó", "No, todavía no"], "answerIndex": 1, "explanation": "El texto dice: «Todavía no he revisado los últimos datos»."},
+            {"id": "a2x1r4", "prompt": "¿Qué pregunta al final del correo?", "options": ["Si ha recibido el correo con archivos", "Si viene a la reunión", "Si terminó el informe"], "answerIndex": 0, "explanation": "La última frase pregunta: «¿Has recibido ya el correo con los archivos adjuntos?»."},
+         ]},
+        {"id": "a2x1-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x1o1", "prompt": "Ordena las palabras.", "words": ["Hoy", "he", "terminado", "el", "informe"], "explanation": "Marcador de tiempo no cerrado + haber + participio + objeto."},
+            {"id": "a2x1o2", "prompt": "Ordena las palabras.", "words": ["¿Has", "hablado", "ya", "con", "el", "cliente"], "explanation": "Haber (tú) + participio + adverbio + complemento con preposición."},
+         ]},
+    ],
+    "a2-preterito-indefinido-regulares": [
+        {"id": "a2x2-reading", "type": "reading-comprehension", "title": "Lectura: Mis Vacaciones del Año Pasado",
+         "passage": "<p>El año pasado viajé a Colombia con mi familia. Visitamos Cartagena y caminamos por las calles antiguas de la ciudad. Comimos comida típica todos los días y aprendimos mucho sobre la historia del país. Mis padres compraron muchos recuerdos para llevar a casa.</p>",
+         "items": [
+            {"id": "a2x2r1", "prompt": "¿Adónde viajó la familia el año pasado?", "options": ["A México", "A Colombia", "A Perú"], "answerIndex": 1, "explanation": "El texto dice: «El año pasado viajé a Colombia con mi familia»."},
+            {"id": "a2x2r2", "prompt": "¿Qué ciudad visitaron?", "options": ["Bogotá", "Medellín", "Cartagena"], "answerIndex": 2, "explanation": "El texto dice: «Visitamos Cartagena»."},
+            {"id": "a2x2r3", "prompt": "¿Qué comieron durante el viaje?", "options": ["Comida rápida", "Comida típica", "Solo fruta"], "answerIndex": 1, "explanation": "El texto dice: «Comimos comida típica todos los días»."},
+            {"id": "a2x2r4", "prompt": "¿Qué compraron los padres?", "options": ["Ropa", "Recuerdos", "Libros"], "answerIndex": 1, "explanation": "El texto dice: «Mis padres compraron muchos recuerdos»."},
+         ]},
+        {"id": "a2x2-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x2o1", "prompt": "Ordena las palabras.", "words": ["El", "año", "pasado", "viajamos", "a", "Colombia"], "explanation": "Marcador de tiempo cerrado + viajar (nosotros, indefinido) + destino."},
+            {"id": "a2x2o2", "prompt": "Ordena las palabras.", "words": ["Ellos", "compraron", "muchos", "recuerdos", "allí"], "explanation": "Sujeto + comprar (ellos, indefinido) + objeto + adverbio de lugar."},
+         ]},
+    ],
+    "a2-preterito-indefinido-irregulares": [
+        {"id": "a2x3-reading", "type": "reading-comprehension", "title": "Lectura: Un Día Complicado",
+         "passage": "<p>Ayer tuve un día muy complicado. Primero estuve dos horas esperando el autobús. Después hice todas las compras para la semana, pero no pude encontrar lo que buscaba. Al final, vine a casa muy cansado y no quise cocinar, así que pedí comida por teléfono.</p>",
+         "items": [
+            {"id": "a2x3r1", "prompt": "¿Qué pasó primero en el día de la persona?", "options": ["Hizo las compras", "Esperó el autobús", "Pidió comida"], "answerIndex": 1, "explanation": "El texto dice: «Primero estuve dos horas esperando el autobús»."},
+            {"id": "a2x3r2", "prompt": "¿Pudo encontrar lo que buscaba en las compras?", "options": ["Sí", "No"], "answerIndex": 1, "explanation": "El texto dice: «no pude encontrar lo que buscaba»."},
+            {"id": "a2x3r3", "prompt": "¿Por qué pidió comida por teléfono?", "options": ["Porque no tenía dinero", "Porque no quiso cocinar", "Porque no tenía comida"], "answerIndex": 1, "explanation": "El texto dice: «no quise cocinar, así que pedí comida por teléfono»."},
+            {"id": "a2x3r4", "prompt": "¿Cómo llegó a casa al final del día?", "options": ["Muy contento", "Muy cansado", "Con prisa"], "answerIndex": 1, "explanation": "El texto dice: «vine a casa muy cansado»."},
+         ]},
+        {"id": "a2x3-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x3o1", "prompt": "Ordena las palabras.", "words": ["Estuve", "dos", "horas", "esperando", "el", "autobús"], "explanation": "Estar (indefinido) + duración + gerundio + objeto."},
+            {"id": "a2x3o2", "prompt": "Ordena las palabras.", "words": ["No", "pude", "terminar", "el", "trabajo", "ayer"], "explanation": "Negación + poder (indefinido) + infinitivo + objeto + marcador de tiempo."},
+         ]},
+    ],
+    "a2-preterito-imperfecto": [
+        {"id": "a2x4-reading", "type": "reading-comprehension", "title": "Lectura: Cuando Era Niño",
+         "passage": "<p>Cuando era niño, vivía en un pueblo pequeño cerca de las montañas. Todos los veranos jugaba en el río con mis amigos. Mi abuela cocinaba pan casero todas las mañanas, y su casa siempre olía muy bien. Éramos muy felices en esa época sencilla.</p>",
+         "items": [
+            {"id": "a2x4r1", "prompt": "¿Dónde vivía la persona de niño?", "options": ["En una ciudad grande", "En un pueblo pequeño", "En la playa"], "answerIndex": 1, "explanation": "El texto dice: «vivía en un pueblo pequeño cerca de las montañas»."},
+            {"id": "a2x4r2", "prompt": "¿Dónde jugaba en verano?", "options": ["En el parque", "En el río", "En la escuela"], "answerIndex": 1, "explanation": "El texto dice: «jugaba en el río con mis amigos»."},
+            {"id": "a2x4r3", "prompt": "¿Qué cocinaba la abuela?", "options": ["Pasteles", "Pan casero", "Sopa"], "answerIndex": 1, "explanation": "El texto dice: «Mi abuela cocinaba pan casero todas las mañanas»."},
+            {"id": "a2x4r4", "prompt": "¿Cómo describe la persona esa época de su vida?", "options": ["Muy difícil", "Muy feliz", "Muy aburrida"], "answerIndex": 1, "explanation": "El texto termina: «Éramos muy felices en esa época sencilla»."},
+         ]},
+        {"id": "a2x4-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x4o1", "prompt": "Ordena las palabras.", "words": ["De", "niño", "vivía", "en", "un", "pueblo"], "explanation": "Expresión temporal + vivir (imperfecto, yo) + complemento de lugar."},
+            {"id": "a2x4o2", "prompt": "Ordena las palabras.", "words": ["Todos", "los", "veranos", "jugábamos", "en", "el", "río"], "explanation": "Expresión de hábito repetido + jugar (imperfecto, nosotros) + complemento."},
+         ]},
+    ],
+    "a2-indefinido-vs-imperfecto": [
+        {"id": "a2x5-reading", "type": "reading-comprehension", "title": "Lectura: Una Interrupción Inesperada",
+         "passage": "<p>Eran las once de la noche y llovía mucho cuando de repente se cortó la luz. Yo estaba leyendo tranquilamente en el sofá. Busqué una vela en la cocina y la encendí. Mientras esperaba a que volviera la luz, escuché un ruido extraño afuera.</p>",
+         "items": [
+            {"id": "a2x5r1", "prompt": "¿Qué pasó de repente?", "options": ["Empezó a llover", "Se cortó la luz", "Llegó alguien"], "answerIndex": 1, "explanation": "El texto dice: «de repente se cortó la luz»."},
+            {"id": "a2x5r2", "prompt": "¿Qué hacía la persona cuando se cortó la luz?", "options": ["Dormía", "Estaba leyendo", "Cocinaba"], "answerIndex": 1, "explanation": "El texto dice: «Yo estaba leyendo tranquilamente en el sofá»."},
+            {"id": "a2x5r3", "prompt": "¿Dónde encontró la vela?", "options": ["En el sofá", "En la cocina", "En su habitación"], "answerIndex": 1, "explanation": "El texto dice: «Busqué una vela en la cocina»."},
+            {"id": "a2x5r4", "prompt": "¿Qué escuchó mientras esperaba?", "options": ["Música", "Un ruido extraño", "Voces"], "answerIndex": 1, "explanation": "El texto dice: «escuché un ruido extraño afuera»."},
+         ]},
+        {"id": "a2x5-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x5o1", "prompt": "Ordena las palabras.", "words": ["Llovía", "mucho", "cuando", "salimos", "de", "casa"], "explanation": "Escena de fondo (imperfecto) + cuando + hecho puntual (indefinido)."},
+            {"id": "a2x5o2", "prompt": "Ordena las palabras.", "words": ["Eran", "las", "diez", "cuando", "llegó", "el", "tren"], "explanation": "La hora (siempre imperfecto) + cuando + hecho puntual (indefinido)."},
+         ]},
+    ],
+    "a2-futuro-simple-e-ir-a-infinitivo": [
+        {"id": "a2x6-reading", "type": "reading-comprehension", "title": "Lectura: Planes para el Futuro",
+         "passage": "<p>El próximo año terminaré mis estudios y buscaré trabajo en una empresa internacional. Voy a viajar a varios países antes de empezar a trabajar. Mis padres dicen que siempre tendré su apoyo, sea cual sea la decisión que tome.</p>",
+         "items": [
+            {"id": "a2x6r1", "prompt": "¿Qué hará la persona el próximo año?", "options": ["Empezará a trabajar", "Terminará sus estudios", "Se casará"], "answerIndex": 1, "explanation": "El texto dice: «El próximo año terminaré mis estudios»."},
+            {"id": "a2x6r2", "prompt": "¿Qué va a hacer antes de trabajar?", "options": ["Descansar en casa", "Viajar a varios países", "Estudiar más"], "answerIndex": 1, "explanation": "El texto dice: «Voy a viajar a varios países antes de empezar a trabajar»."},
+            {"id": "a2x6r3", "prompt": "¿Qué dicen los padres sobre su apoyo?", "options": ["Que lo tendrá siempre", "Que depende de la decisión", "Que no la apoyarán"], "answerIndex": 0, "explanation": "El texto dice: «siempre tendré su apoyo, sea cual sea la decisión»."},
+            {"id": "a2x6r4", "prompt": "¿Dónde buscará trabajo la persona?", "options": ["En una empresa local", "En una empresa internacional", "En su propio negocio"], "answerIndex": 1, "explanation": "El texto dice: «buscaré trabajo en una empresa internacional»."},
+         ]},
+        {"id": "a2x6-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x6o1", "prompt": "Ordena las palabras.", "words": ["El", "próximo", "año", "terminaré", "mis", "estudios"], "explanation": "Marcador de futuro + futuro simple (yo) + objeto."},
+            {"id": "a2x6o2", "prompt": "Ordena las palabras.", "words": ["Voy", "a", "viajar", "por", "Sudamérica"], "explanation": "Ir (presente) + a + infinitivo + complemento de lugar."},
+         ]},
+    ],
+    "a2-comparativos-y-superlativos": [
+        {"id": "a2x7-reading", "type": "reading-comprehension", "title": "Lectura: Comparando Dos Ciudades",
+         "passage": "<p>Bogotá es más grande que Cartagena, pero Cartagena es más turística. El clima de Cartagena es tan cálido como el de Barranquilla. Para mí, la comida de Cartagena es la mejor de todo el país, aunque Bogotá tiene los mejores museos.</p>",
+         "items": [
+            {"id": "a2x7r1", "prompt": "¿Qué ciudad es más grande según el texto?", "options": ["Cartagena", "Bogotá", "Barranquilla"], "answerIndex": 1, "explanation": "El texto dice: «Bogotá es más grande que Cartagena»."},
+            {"id": "a2x7r2", "prompt": "¿Cómo es el clima de Cartagena comparado con Barranquilla?", "options": ["Más frío", "Tan cálido como", "Menos cálido"], "answerIndex": 1, "explanation": "El texto dice: «El clima de Cartagena es tan cálido como el de Barranquilla»."},
+            {"id": "a2x7r3", "prompt": "¿Qué ciudad tiene, según la persona, la mejor comida?", "options": ["Bogotá", "Cartagena", "Barranquilla"], "answerIndex": 1, "explanation": "El texto dice: «la comida de Cartagena es la mejor de todo el país»."},
+            {"id": "a2x7r4", "prompt": "¿Qué tiene Bogotá, según el texto?", "options": ["La mejor comida", "Los mejores museos", "El mejor clima"], "answerIndex": 1, "explanation": "El texto dice: «Bogotá tiene los mejores museos»."},
+         ]},
+        {"id": "a2x7-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x7o1", "prompt": "Ordena las palabras.", "words": ["Esta", "ciudad", "es", "más", "grande", "que", "aquella"], "explanation": "Sujeto + ser + más + adjetivo + que + término de comparación."},
+            {"id": "a2x7o2", "prompt": "Ordena las palabras.", "words": ["Es", "la", "mejor", "comida", "del", "país"], "explanation": "Ser + superlativo relativo con forma irregular (la mejor) + sustantivo + de."},
+         ]},
+    ],
+    "a2-verbos-con-cambio-de-raiz": [
+        {"id": "a2x8-reading", "type": "reading-comprehension", "title": "Lectura: La Cena en Familia",
+         "passage": "<p>Todos los domingos preferimos cenar en casa de mis abuelos. Mi abuela sirve un plato diferente cada semana. Yo siempre pido el postre de chocolate. Mis primos duermen la siesta después de comer, pero yo prefiero jugar en el jardín.</p>",
+         "items": [
+            {"id": "a2x8r1", "prompt": "¿Dónde prefieren cenar los domingos?", "options": ["En un restaurante", "En casa de los abuelos", "En su propia casa"], "answerIndex": 1, "explanation": "El texto dice: «preferimos cenar en casa de mis abuelos»."},
+            {"id": "a2x8r2", "prompt": "¿Qué pide siempre la persona de postre?", "options": ["Fruta", "Postre de chocolate", "Helado"], "answerIndex": 1, "explanation": "El texto dice: «Yo siempre pido el postre de chocolate»."},
+            {"id": "a2x8r3", "prompt": "¿Qué hacen los primos después de comer?", "options": ["Juegan en el jardín", "Duermen la siesta", "Ven la televisión"], "answerIndex": 1, "explanation": "El texto dice: «Mis primos duermen la siesta después de comer»."},
+            {"id": "a2x8r4", "prompt": "¿Qué prefiere hacer la persona en vez de dormir la siesta?", "options": ["Leer", "Jugar en el jardín", "Ver televisión"], "answerIndex": 1, "explanation": "El texto dice: «yo prefiero jugar en el jardín»."},
+         ]},
+        {"id": "a2x8-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x8o1", "prompt": "Ordena las palabras.", "words": ["Ella", "sirve", "la", "cena", "a", "las", "ocho"], "explanation": "Sujeto + servir (e>i) + objeto + complemento de hora."},
+            {"id": "a2x8o2", "prompt": "Ordena las palabras.", "words": ["Nosotros", "preferimos", "quedarnos", "en", "casa"], "explanation": "Sujeto + preferir (nosotros, sin cambio) + infinitivo reflexivo + complemento."},
+         ]},
+    ],
+    "a2-pronombres-de-objeto-directo": [
+        {"id": "a2x9-reading", "type": "reading-comprehension", "title": "Lectura: ¿Dónde Están las Llaves?",
+         "passage": "<p>—¿Has visto mis llaves? No las encuentro por ninguna parte.<br>—Sí, las vi en la cocina esta mañana. ¿Las buscaste allí?<br>—No, no lo hice todavía. Voy a buscarlas ahora mismo.<br>—Vale, si las encuentras, avísame, por favor.</p>",
+         "items": [
+            {"id": "a2x9r1", "prompt": "¿Qué está buscando la persona?", "options": ["Su teléfono", "Sus llaves", "Su cartera"], "answerIndex": 1, "explanation": "El texto dice: «¿Has visto mis llaves?»."},
+            {"id": "a2x9r2", "prompt": "¿Dónde vio las llaves la otra persona?", "options": ["En la sala", "En la cocina", "En el coche"], "answerIndex": 1, "explanation": "El texto dice: «las vi en la cocina esta mañana»."},
+            {"id": "a2x9r3", "prompt": "¿Ya buscó las llaves en la cocina?", "options": ["Sí, ya buscó", "No, todavía no"], "answerIndex": 1, "explanation": "El texto dice: «No, no lo hice todavía»."},
+            {"id": "a2x9r4", "prompt": "¿Qué le pide la otra persona al final?", "options": ["Que compre unas nuevas", "Que le avise si las encuentra", "Que llame a alguien"], "answerIndex": 1, "explanation": "El texto dice: «si las encuentras, avísame, por favor»."},
+         ]},
+        {"id": "a2x9-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x9o1", "prompt": "Ordena las palabras.", "words": ["¿Las", "llaves?", "Sí,", "las", "tengo", "aquí"], "explanation": "Repetición con pronombre de objeto directo antes del verbo conjugado."},
+            {"id": "a2x9o2", "prompt": "Ordena las palabras.", "words": ["Voy", "a", "comprarlo", "mañana", "por", "la", "tarde"], "explanation": "Ir a + infinitivo con el pronombre pegado al final + complemento de tiempo."},
+         ]},
+    ],
+    "a2-pronombres-de-objeto-indirecto": [
+        {"id": "a2x10-reading", "type": "reading-comprehension", "title": "Lectura: Un Regalo de Cumpleaños",
+         "passage": "<p>Le compré un libro a mi hermana para su cumpleaños. A ella le encanta leer novelas de misterio. También les di unas flores a mis padres para agradecerles su ayuda. A mí me gustaría recibir algo parecido en mi cumpleaños.</p>",
+         "items": [
+            {"id": "a2x10r1", "prompt": "¿Qué le compró a su hermana?", "options": ["Un libro", "Unas flores", "Un regalo de dinero"], "answerIndex": 0, "explanation": "El texto dice: «Le compré un libro a mi hermana»."},
+            {"id": "a2x10r2", "prompt": "¿Qué tipo de novelas le encantan a la hermana?", "options": ["Novelas románticas", "Novelas de misterio", "Novelas históricas"], "answerIndex": 1, "explanation": "El texto dice: «A ella le encanta leer novelas de misterio»."},
+            {"id": "a2x10r3", "prompt": "¿Qué les dio a sus padres?", "options": ["Un libro", "Unas flores", "Dinero"], "answerIndex": 1, "explanation": "El texto dice: «les di unas flores a mis padres»."},
+            {"id": "a2x10r4", "prompt": "¿Por qué les dio flores a sus padres?", "options": ["Por su cumpleaños", "Para agradecerles su ayuda", "Sin ninguna razón"], "answerIndex": 1, "explanation": "El texto dice: «para agradecerles su ayuda»."},
+         ]},
+        {"id": "a2x10-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x10o1", "prompt": "Ordena las palabras.", "words": ["Le", "escribí", "una", "carta", "a", "mi", "amigo"], "explanation": "Pronombre indirecto + verbo + objeto directo + a + destinatario."},
+            {"id": "a2x10o2", "prompt": "Ordena las palabras.", "words": ["A", "nosotros", "nos", "gusta", "mucho", "viajar"], "explanation": "A + pronombre tónico (énfasis) + pronombre átono + gustar + infinitivo."},
+         ]},
+    ],
+    "a2-imperativo-afirmativo": [
+        {"id": "a2x11-reading", "type": "reading-comprehension", "title": "Lectura: Instrucciones de la Receta",
+         "passage": "<p>Primero, corta las verduras en trozos pequeños. Después, calienta el aceite en una sartén grande. Añade las verduras y cocínalas durante diez minutos. Finalmente, sirve el plato caliente con un poco de sal y pimienta.</p>",
+         "items": [
+            {"id": "a2x11r1", "prompt": "¿Qué se debe hacer primero?", "options": ["Calentar el aceite", "Cortar las verduras", "Añadir sal"], "answerIndex": 1, "explanation": "El texto dice: «Primero, corta las verduras en trozos pequeños»."},
+            {"id": "a2x11r2", "prompt": "¿Dónde se calienta el aceite?", "options": ["En una olla", "En una sartén grande", "En el horno"], "answerIndex": 1, "explanation": "El texto dice: «calienta el aceite en una sartén grande»."},
+            {"id": "a2x11r3", "prompt": "¿Cuánto tiempo se cocinan las verduras?", "options": ["Cinco minutos", "Diez minutos", "Veinte minutos"], "answerIndex": 1, "explanation": "El texto dice: «cocínalas durante diez minutos»."},
+            {"id": "a2x11r4", "prompt": "¿Cómo se sirve el plato?", "options": ["Frío", "Caliente", "Templado"], "answerIndex": 1, "explanation": "El texto dice: «sirve el plato caliente»."},
+         ]},
+        {"id": "a2x11-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x11o1", "prompt": "Ordena las palabras.", "words": ["Corta", "las", "verduras", "en", "trozos", "pequeños"], "explanation": "Imperativo afirmativo + objeto + complemento con en."},
+            {"id": "a2x11o2", "prompt": "Ordena las palabras.", "words": ["Añade", "sal", "y", "pimienta", "al", "final"], "explanation": "Imperativo afirmativo + objetos + expresión de tiempo."},
+         ]},
+    ],
+    "a2-adverbios-de-frecuencia-y-conectores": [
+        {"id": "a2x12-reading", "type": "reading-comprehension", "title": "Lectura: Mi Rutina Semanal",
+         "passage": "<p>Siempre me levanto temprano entre semana, pero los fines de semana duermo hasta tarde. A veces voy al gimnasio, pero casi nunca hago ejercicio por la noche porque estoy muy cansado. No como carne, porque prefiero una dieta vegetariana, y por eso cocino mucha verdura.</p>",
+         "items": [
+            {"id": "a2x12r1", "prompt": "¿Cuándo se levanta temprano la persona?", "options": ["Los fines de semana", "Entre semana", "Todos los días"], "answerIndex": 1, "explanation": "El texto dice: «Siempre me levanto temprano entre semana»."},
+            {"id": "a2x12r2", "prompt": "¿Con qué frecuencia hace ejercicio por la noche?", "options": ["Siempre", "Casi nunca", "A veces"], "answerIndex": 1, "explanation": "El texto dice: «casi nunca hago ejercicio por la noche»."},
+            {"id": "a2x12r3", "prompt": "¿Por qué no come carne?", "options": ["Porque le hace daño", "Porque prefiere una dieta vegetariana", "Porque no le gusta el sabor"], "answerIndex": 1, "explanation": "El texto dice: «prefiero una dieta vegetariana»."},
+            {"id": "a2x12r4", "prompt": "¿Qué cocina mucho, según el texto?", "options": ["Carne", "Verdura", "Pasta"], "answerIndex": 1, "explanation": "El texto dice: «por eso cocino mucha verdura»."},
+         ]},
+        {"id": "a2x12-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "a2x12o1", "prompt": "Ordena las palabras.", "words": ["Casi", "nunca", "llego", "tarde", "al", "trabajo"], "explanation": "Adverbio de frecuencia baja + verbo + adjetivo + complemento."},
+            {"id": "a2x12o2", "prompt": "Ordena las palabras.", "words": ["No", "tengo", "hambre", "porque", "ya", "comí"], "explanation": "Negación + verbo + objeto + porque (causa) + hecho puntual."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))

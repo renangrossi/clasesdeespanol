@@ -190,6 +190,89 @@
           "explanation": "El orden correcto es quiero seguido del primer objeto, y, y el segundo objeto — quiero va siempre al principio para pedir algo."
         }
       ]
+    },
+    {
+      "id": "pa8x-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Pedir Ayuda en la Calle",
+      "passage": "<p>—Disculpe, ¿dónde está la estación de tren?<br>—Está muy cerca, a dos calles de aquí, a la derecha.<br>—Muchas gracias. Una pregunta más: ¿hay un banco cerca también?<br>—Sí, hay uno enfrente de la estación.<br>—Perfecto, muchísimas gracias por su ayuda.</p>",
+      "items": [
+        {
+          "id": "pa8xr1",
+          "prompt": "¿Qué busca la persona que pregunta?",
+          "options": [
+            "Un banco",
+            "La estación de tren",
+            "Un restaurante"
+          ],
+          "answerIndex": 1,
+          "explanation": "La primera pregunta es: «¿dónde está la estación de tren?»."
+        },
+        {
+          "id": "pa8xr2",
+          "prompt": "¿En qué dirección está la estación?",
+          "options": [
+            "A la izquierda",
+            "A la derecha",
+            "Todo recto"
+          ],
+          "answerIndex": 1,
+          "explanation": "La respuesta dice: «a dos calles de aquí, a la derecha»."
+        },
+        {
+          "id": "pa8xr3",
+          "prompt": "¿Dónde está el banco?",
+          "options": [
+            "Enfrente de la estación",
+            "Dentro de la estación",
+            "Lejos de la estación"
+          ],
+          "answerIndex": 0,
+          "explanation": "La respuesta dice: «hay uno enfrente de la estación»."
+        },
+        {
+          "id": "pa8xr4",
+          "prompt": "¿La persona da las gracias más de una vez?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dice «Muchas gracias» y después «muchísimas gracias»."
+        }
+      ]
+    },
+    {
+      "id": "pa8x-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "pa8xo1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Disculpe",
+            "¿dónde",
+            "está",
+            "la",
+            "estación"
+          ],
+          "explanation": "Fórmula de cortesía + pregunta de ubicación."
+        },
+        {
+          "id": "pa8xo2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Está",
+            "a",
+            "dos",
+            "calles",
+            "de",
+            "aquí"
+          ],
+          "explanation": "Estar (ubicación) + distancia + referencia."
+        }
+      ]
     }
   ],
   "summary": [

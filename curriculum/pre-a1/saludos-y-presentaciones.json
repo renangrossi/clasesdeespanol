@@ -239,6 +239,86 @@
           "explanation": "Hasta luego indica que te verás pronto con la persona."
         }
       ]
+    },
+    {
+      "id": "pa2x-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: En la Fiesta",
+      "passage": "<p>—¡Buenas tardes! Me llamo Carlos. ¿Cómo te llamas?<br>—Buenas tardes, Carlos. Me llamo Elena. Mucho gusto.<br>—Mucho gusto, Elena. ¿De dónde eres?<br>—Soy de Perú. ¿Y tú?<br>—Yo soy de España. ¡Bienvenida a la fiesta!</p>",
+      "items": [
+        {
+          "id": "pa2xr1",
+          "prompt": "¿Cómo se llama la persona que llega de Perú?",
+          "options": [
+            "Carlos",
+            "Elena",
+            "Ninguno de los dos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Elena dice: «Soy de Perú»."
+        },
+        {
+          "id": "pa2xr2",
+          "prompt": "¿De dónde es Carlos?",
+          "options": [
+            "De Perú",
+            "De España",
+            "No lo dice"
+          ],
+          "answerIndex": 1,
+          "explanation": "Carlos dice: «Yo soy de España»."
+        },
+        {
+          "id": "pa2xr3",
+          "prompt": "¿A qué hora del día ocurre este saludo?",
+          "options": [
+            "Por la mañana",
+            "Por la tarde",
+            "Por la noche"
+          ],
+          "answerIndex": 1,
+          "explanation": "El diálogo empieza con «Buenas tardes»."
+        },
+        {
+          "id": "pa2xr4",
+          "prompt": "¿El diálogo termina con una bienvenida?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 0,
+          "explanation": "La última línea es «¡Bienvenida a la fiesta!»."
+        }
+      ]
+    },
+    {
+      "id": "pa2x-order",
+      "type": "ordering",
+      "title": "Ordena el Diálogo",
+      "items": [
+        {
+          "id": "pa2xo1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Cómo",
+            "te",
+            "llamas",
+            "tú"
+          ],
+          "explanation": "La pregunta empieza con la palabra interrogativa ¿Cómo?."
+        },
+        {
+          "id": "pa2xo2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Mucho",
+            "gusto",
+            "en",
+            "conocerte"
+          ],
+          "explanation": "Expresión fija de cortesía al conocer a alguien."
+        }
+      ]
     }
   ],
   "summary": [

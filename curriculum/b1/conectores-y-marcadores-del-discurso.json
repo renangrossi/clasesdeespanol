@@ -127,6 +127,93 @@
           "explanation": "Sin embargo suele ir precedido de punto y coma o punto, y seguido de coma, para marcar con claridad la pausa del contraste."
         }
       ]
+    },
+    {
+      "id": "b1x14-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Una Opinión sobre el Teletrabajo",
+      "passage": "<p>El teletrabajo tiene muchas ventajas; sin embargo, también presenta algunos problemas. Por un lado, ahorras tiempo de transporte; por otro lado, es fácil sentirse aislado. Por lo tanto, muchas empresas prefieren un modelo mixto. Además, este modelo permite más flexibilidad para todos.</p>",
+      "items": [
+        {
+          "id": "b1x14r1",
+          "prompt": "¿Qué conector introduce un contraste en el texto?",
+          "options": [
+            "Además",
+            "Sin embargo",
+            "Por lo tanto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto usa «sin embargo» para contrastar las ventajas con los problemas."
+        },
+        {
+          "id": "b1x14r2",
+          "prompt": "¿Qué ventaja del teletrabajo se menciona?",
+          "options": [
+            "Más dinero",
+            "Ahorrar tiempo de transporte",
+            "Menos trabajo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ahorras tiempo de transporte»."
+        },
+        {
+          "id": "b1x14r3",
+          "prompt": "¿Qué modelo prefieren muchas empresas, según el texto?",
+          "options": [
+            "Totalmente presencial",
+            "Totalmente remoto",
+            "Un modelo mixto"
+          ],
+          "answerIndex": 2,
+          "explanation": "El texto dice: «muchas empresas prefieren un modelo mixto»."
+        },
+        {
+          "id": "b1x14r4",
+          "prompt": "¿Qué añade el modelo mixto, según el texto?",
+          "options": [
+            "Más control",
+            "Más flexibilidad",
+            "Más reuniones"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «este modelo permite más flexibilidad para todos»."
+        }
+      ]
+    },
+    {
+      "id": "b1x14-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x14o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "plan",
+            "es",
+            "bueno",
+            "sin",
+            "embargo",
+            "es",
+            "caro"
+          ],
+          "explanation": "Idea + sin embargo (contraste) + segunda idea."
+        },
+        {
+          "id": "b1x14o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "estudió",
+            "por",
+            "lo",
+            "tanto",
+            "suspendió"
+          ],
+          "explanation": "Causa + por lo tanto (consecuencia) + resultado."
+        }
+      ]
     }
   ],
   "summary": [

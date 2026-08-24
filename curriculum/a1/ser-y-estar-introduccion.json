@@ -178,6 +178,90 @@
           "explanation": "La ubicación siempre usa estar, y además el sujeto es singular, así que el verbo debe ser está."
         }
       ]
+    },
+    {
+      "id": "a1x4-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Presentando a mi Amiga",
+      "passage": "<p>Mi amiga Clara es profesora y es de Chile. Hoy está muy cansada porque trabajó todo el día. Su oficina está cerca del centro. Clara es muy inteligente y siempre está de buen humor, aunque hoy está un poco triste.</p>",
+      "items": [
+        {
+          "id": "a1x4r1",
+          "prompt": "¿Cuál es la profesión de Clara?",
+          "options": [
+            "Médica",
+            "Profesora",
+            "Estudiante"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mi amiga Clara es profesora»."
+        },
+        {
+          "id": "a1x4r2",
+          "prompt": "¿Por qué Clara está cansada hoy?",
+          "options": [
+            "Porque no durmió",
+            "Porque trabajó todo el día",
+            "Porque está enferma"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «está muy cansada porque trabajó todo el día»."
+        },
+        {
+          "id": "a1x4r3",
+          "prompt": "¿Dónde está la oficina de Clara?",
+          "options": [
+            "Lejos del centro",
+            "Cerca del centro",
+            "No lo dice"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Su oficina está cerca del centro»."
+        },
+        {
+          "id": "a1x4r4",
+          "prompt": "¿Cómo está Clara hoy, según el final del texto?",
+          "options": [
+            "Muy feliz",
+            "Un poco triste",
+            "Muy enojada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «aunque hoy está un poco triste»."
+        }
+      ]
+    },
+    {
+      "id": "a1x4-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x4o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Mi",
+            "amiga",
+            "es",
+            "profesora",
+            "de",
+            "matemáticas"
+          ],
+          "explanation": "Ser + profesión describe una identidad permanente."
+        },
+        {
+          "id": "a1x4o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ella",
+            "está",
+            "muy",
+            "cansada",
+            "hoy"
+          ],
+          "explanation": "Estar + adjetivo describe un estado temporal."
+        }
+      ]
     }
   ],
   "summary": [

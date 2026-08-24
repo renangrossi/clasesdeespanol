@@ -179,6 +179,89 @@
           "explanation": "El trato varía según el país; ninguna variedad es más correcta que otra, todas son normas válidas del español."
         }
       ]
+    },
+    {
+      "id": "c1x8-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Variedades del Español",
+      "passage": "<p>En Colombia, muchas personas usan \"usted\" incluso con familiares cercanos, un fenómeno llamado ustedeo. En Argentina, el voseo (vos tenés, vos podés) reemplaza casi por completo al tuteo. En España, el vosotros sigue siendo la forma habitual del plural informal, algo que sorprende a muchos hispanohablantes de América.</p>",
+      "items": [
+        {
+          "id": "c1x8r1",
+          "prompt": "¿Qué es el ustedeo, según el texto?",
+          "options": [
+            "Usar tú con desconocidos",
+            "Usar usted incluso con familiares cercanos",
+            "No usar ningún pronombre"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «muchas personas usan «usted» incluso con familiares cercanos, un fenómeno llamado ustedeo»."
+        },
+        {
+          "id": "c1x8r2",
+          "prompt": "¿Qué reemplaza casi por completo el voseo en Argentina?",
+          "options": [
+            "Al ustedeo",
+            "Al tuteo",
+            "Al vosotros"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «el voseo... reemplaza casi por completo al tuteo»."
+        },
+        {
+          "id": "c1x8r3",
+          "prompt": "¿Dónde sigue siendo habitual el vosotros?",
+          "options": [
+            "En Colombia",
+            "En Argentina",
+            "En España"
+          ],
+          "answerIndex": 2,
+          "explanation": "El texto dice: «En España, el vosotros sigue siendo la forma habitual del plural informal»."
+        },
+        {
+          "id": "c1x8r4",
+          "prompt": "¿A quién sorprende el uso de vosotros?",
+          "options": [
+            "A los españoles",
+            "A muchos hispanohablantes de América",
+            "A nadie"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «algo que sorprende a muchos hispanohablantes de América»."
+        }
+      ]
+    },
+    {
+      "id": "c1x8-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x8o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Vos",
+            "tenés",
+            "toda",
+            "la",
+            "razón"
+          ],
+          "explanation": "Voseo argentino: vos + tener conjugado en voseo (tenés)."
+        },
+        {
+          "id": "c1x8o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Usted",
+            "sabe",
+            "mejor",
+            "que",
+            "nadie"
+          ],
+          "explanation": "Ustedeo: usted con verbo en tercera persona, incluso en contexto cercano."
+        }
+      ]
     }
   ],
   "summary": [

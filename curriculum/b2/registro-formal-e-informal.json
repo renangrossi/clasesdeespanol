@@ -129,6 +129,90 @@
           "explanation": "Oye es una muletilla informal que no combina con la fórmula de apertura formal; en un correo formal se mantiene el registro coherente en todo el texto."
         }
       ]
+    },
+    {
+      "id": "b2x11-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Dos Correos Distintos",
+      "passage": "<p>Correo 1: Estimado señor López, le escribo para solicitar información sobre el curso. Quedo a la espera de su respuesta. Atentamente, Laura Gómez.<br>Correo 2: ¡Hola, Marcos! ¿Qué tal todo? Cuéntame cómo te va con el nuevo trabajo. ¡Un abrazo!</p>",
+      "items": [
+        {
+          "id": "b2x11r1",
+          "prompt": "¿Cuál de los dos correos es formal?",
+          "options": [
+            "El correo 1",
+            "El correo 2",
+            "Ninguno"
+          ],
+          "answerIndex": 0,
+          "explanation": "El correo 1 usa fórmulas formales como «Estimado señor» y «Atentamente»."
+        },
+        {
+          "id": "b2x11r2",
+          "prompt": "¿Qué solicita Laura en su correo?",
+          "options": [
+            "Un trabajo",
+            "Información sobre el curso",
+            "Una reunión"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «le escribo para solicitar información sobre el curso»."
+        },
+        {
+          "id": "b2x11r3",
+          "prompt": "¿Qué fórmula de cierre usa el correo formal?",
+          "options": [
+            "Un abrazo",
+            "Atentamente",
+            "Hasta pronto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El correo 1 termina con «Atentamente, Laura Gómez»."
+        },
+        {
+          "id": "b2x11r4",
+          "prompt": "¿Qué le pregunta la persona a Marcos en el correo informal?",
+          "options": [
+            "Por su salud",
+            "Cómo le va con el nuevo trabajo",
+            "Por su familia"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Cuéntame cómo te va con el nuevo trabajo»."
+        }
+      ]
+    },
+    {
+      "id": "b2x11-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x11o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Le",
+            "escribo",
+            "para",
+            "solicitar",
+            "información"
+          ],
+          "explanation": "Registro formal: le (usted) + verbo + para + solicitar (más formal que pedir)."
+        },
+        {
+          "id": "b2x11o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Oye",
+            "¿nos",
+            "vemos",
+            "mañana",
+            "o",
+            "qué"
+          ],
+          "explanation": "Registro informal con muletilla (oye) al inicio."
+        }
+      ]
     }
   ],
   "summary": [

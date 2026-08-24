@@ -592,3 +592,135 @@ LESSONS = [
         ],
     },
 ]
+
+# =======================================================================
+# EXTRA_EXERCISES — bloques adicionales de práctica (lectura y
+# ordenar frases) fusionados en cada lección por id, para ampliar la
+# colección de ejercicios sin tocar el contenido pedagógico ya escrito
+# arriba. Ver el bucle de fusión al final de este archivo.
+# =======================================================================
+EXTRA_EXERCISES = {
+    "pre-a1-el-alfabeto-y-los-sonidos": [
+        {"id": "pa1x-reading", "type": "reading-comprehension", "title": "Lectura: Un Mensaje de Ana",
+         "passage": "<p>¡Hola! Me llamo Ana. Mi nombre tiene una ñ: A-N-A no, espera, ¡no tiene ñ! Pero mi apellido sí: Muñoz. La ñ es una letra especial del español. Mi perro se llama Ñoño y también tiene ñ. Vivo en una calle con doble r: Carretera Nueva.</p>",
+         "items": [
+            {"id": "pa1xr1", "prompt": "¿Qué letra especial tiene el apellido de Ana?", "options": ["la ñ", "la h", "la doble r"], "answerIndex": 0, "explanation": "El texto dice: «Mi apellido sí (tiene ñ): Muñoz»."},
+            {"id": "pa1xr2", "prompt": "¿Cómo se llama el perro de Ana?", "options": ["Ana", "Ñoño", "Muñoz"], "answerIndex": 1, "explanation": "El texto dice: «Mi perro se llama Ñoño»."},
+            {"id": "pa1xr3", "prompt": "¿Qué combinación de letras aparece en el nombre de la calle?", "options": ["ñ", "h muda", "doble r"], "answerIndex": 2, "explanation": "«Carretera» tiene doble r, mencionada explícitamente en el texto."},
+            {"id": "pa1xr4", "prompt": "¿El nombre \"Ana\" tiene la letra ñ?", "options": ["Sí", "No"], "answerIndex": 1, "explanation": "El texto aclara que \"Ana\" no tiene ñ, aunque parezca similar a otras palabras con ñ."},
+         ]},
+        {"id": "pa1x-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "pa1xo1", "prompt": "Ordena las palabras.", "words": ["La", "ñ", "es", "una", "letra", "especial", "del", "español"], "explanation": "Sujeto (La ñ), verbo (es), y el resto describe qué es."},
+            {"id": "pa1xo2", "prompt": "Ordena las palabras.", "words": ["El", "perro", "se", "llama", "Ñoño"], "explanation": "Estructura típica para nombrar a una mascota: sujeto + se llama + nombre."},
+         ]},
+    ],
+    "pre-a1-saludos-y-presentaciones": [
+        {"id": "pa2x-reading", "type": "reading-comprehension", "title": "Lectura: En la Fiesta",
+         "passage": "<p>—¡Buenas tardes! Me llamo Carlos. ¿Cómo te llamas?<br>—Buenas tardes, Carlos. Me llamo Elena. Mucho gusto.<br>—Mucho gusto, Elena. ¿De dónde eres?<br>—Soy de Perú. ¿Y tú?<br>—Yo soy de España. ¡Bienvenida a la fiesta!</p>",
+         "items": [
+            {"id": "pa2xr1", "prompt": "¿Cómo se llama la persona que llega de Perú?", "options": ["Carlos", "Elena", "Ninguno de los dos"], "answerIndex": 1, "explanation": "Elena dice: «Soy de Perú»."},
+            {"id": "pa2xr2", "prompt": "¿De dónde es Carlos?", "options": ["De Perú", "De España", "No lo dice"], "answerIndex": 1, "explanation": "Carlos dice: «Yo soy de España»."},
+            {"id": "pa2xr3", "prompt": "¿A qué hora del día ocurre este saludo?", "options": ["Por la mañana", "Por la tarde", "Por la noche"], "answerIndex": 1, "explanation": "El diálogo empieza con «Buenas tardes»."},
+            {"id": "pa2xr4", "prompt": "¿El diálogo termina con una bienvenida?", "options": ["Sí", "No"], "answerIndex": 0, "explanation": "La última línea es «¡Bienvenida a la fiesta!»."},
+         ]},
+        {"id": "pa2x-order", "type": "ordering", "title": "Ordena el Diálogo",
+         "items": [
+            {"id": "pa2xo1", "prompt": "Ordena las palabras.", "words": ["¿Cómo", "te", "llamas", "tú"], "explanation": "La pregunta empieza con la palabra interrogativa ¿Cómo?."},
+            {"id": "pa2xo2", "prompt": "Ordena las palabras.", "words": ["Mucho", "gusto", "en", "conocerte"], "explanation": "Expresión fija de cortesía al conocer a alguien."},
+         ]},
+    ],
+    "pre-a1-numeros-hora-y-fecha": [
+        {"id": "pa3x-reading", "type": "reading-comprehension", "title": "Lectura: El Horario de Marta",
+         "passage": "<p>Marta se levanta a las siete de la mañana. Desayuna a las siete y media. Sus clases empiezan a las nueve y terminan a la una de la tarde. Hoy es martes, tres de marzo. El cumpleaños de Marta es el veinte de mayo.</p>",
+         "items": [
+            {"id": "pa3xr1", "prompt": "¿A qué hora se levanta Marta?", "options": ["A las siete", "A las siete y media", "A las nueve"], "answerIndex": 0, "explanation": "El texto dice: «Marta se levanta a las siete de la mañana»."},
+            {"id": "pa3xr2", "prompt": "¿A qué hora terminan las clases de Marta?", "options": ["A la una de la tarde", "A las nueve", "A las siete y media"], "answerIndex": 0, "explanation": "El texto dice: «terminan a la una de la tarde»."},
+            {"id": "pa3xr3", "prompt": "¿Qué día es hoy en el texto?", "options": ["Lunes", "Martes", "Miércoles"], "answerIndex": 1, "explanation": "El texto dice: «Hoy es martes, tres de marzo»."},
+            {"id": "pa3xr4", "prompt": "¿En qué mes es el cumpleaños de Marta?", "options": ["Marzo", "Abril", "Mayo"], "answerIndex": 2, "explanation": "El texto dice: «El cumpleaños de Marta es el veinte de mayo»."},
+         ]},
+        {"id": "pa3x-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "pa3xo1", "prompt": "Ordena las palabras.", "words": ["Son", "las", "nueve", "de", "la", "mañana"], "explanation": "Para dar la hora en plural se usa son las + número."},
+            {"id": "pa3xo2", "prompt": "Ordena las palabras.", "words": ["Hoy", "es", "el", "tres", "de", "marzo"], "explanation": "Para la fecha: hoy es el + número + de + mes."},
+         ]},
+    ],
+    "pre-a1-vocabulario-de-clase-y-estudio": [
+        {"id": "pa4x-reading", "type": "reading-comprehension", "title": "Lectura: La Mochila de Pablo",
+         "passage": "<p>Pablo lleva su mochila a clase todos los días. Dentro tiene dos cuadernos, tres lápices, un libro y una goma. Su profesora escribe en la pizarra y los estudiantes escuchan con atención. Después de la clase, Pablo guarda todo en la mochila otra vez.</p>",
+         "items": [
+            {"id": "pa4xr1", "prompt": "¿Cuántos cuadernos tiene Pablo en la mochila?", "options": ["Uno", "Dos", "Tres"], "answerIndex": 1, "explanation": "El texto dice: «Dentro tiene dos cuadernos»."},
+            {"id": "pa4xr2", "prompt": "¿Dónde escribe la profesora?", "options": ["En un cuaderno", "En la pizarra", "En un libro"], "answerIndex": 1, "explanation": "El texto dice: «Su profesora escribe en la pizarra»."},
+            {"id": "pa4xr3", "prompt": "¿Qué hacen los estudiantes durante la clase?", "options": ["Duermen", "Escuchan con atención", "Comen"], "answerIndex": 1, "explanation": "El texto dice: «los estudiantes escuchan con atención»."},
+            {"id": "pa4xr4", "prompt": "¿Pablo lleva la mochila solo algunos días?", "options": ["Sí, solo los lunes", "No, todos los días", "No lo dice"], "answerIndex": 1, "explanation": "El texto dice que Pablo lleva su mochila «todos los días»."},
+         ]},
+        {"id": "pa4x-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "pa4xo1", "prompt": "Ordena las palabras.", "words": ["Necesito", "un", "lápiz", "y", "una", "goma"], "explanation": "Necesito + objeto + y + otro objeto, con los artículos correctos según el género."},
+            {"id": "pa4xo2", "prompt": "Ordena las palabras.", "words": ["La", "profesora", "escribe", "en", "la", "pizarra"], "explanation": "Sujeto + verbo + complemento de lugar."},
+         ]},
+    ],
+    "pre-a1-personas-y-objetos-cotidianos": [
+        {"id": "pa5x-reading", "type": "reading-comprehension", "title": "Lectura: La Familia de Luis",
+         "passage": "<p>Esta es la familia de Luis. Su madre se llama Rosa y es alta. Su padre se llama Tomás y es simpático. Luis tiene un hermano pequeño que se llama Iván. En la sala de su casa hay una mesa, dos sillas y un televisor nuevo.</p>",
+         "items": [
+            {"id": "pa5xr1", "prompt": "¿Cómo se llama la madre de Luis?", "options": ["Rosa", "Tomás", "Iván"], "answerIndex": 0, "explanation": "El texto dice: «Su madre se llama Rosa»."},
+            {"id": "pa5xr2", "prompt": "¿Cómo es el padre de Luis, según el texto?", "options": ["Alto", "Simpático", "Pequeño"], "answerIndex": 1, "explanation": "El texto dice: «Su padre se llama Tomás y es simpático»."},
+            {"id": "pa5xr3", "prompt": "¿Qué hay en la sala de la casa?", "options": ["Una cama y un armario", "Una mesa, dos sillas y un televisor", "Un perro y un gato"], "answerIndex": 1, "explanation": "El texto describe la sala con esos tres objetos."},
+            {"id": "pa5xr4", "prompt": "¿Iván es el hermano mayor de Luis?", "options": ["Sí", "No, es el hermano pequeño"], "answerIndex": 1, "explanation": "El texto dice: «un hermano pequeño que se llama Iván»."},
+         ]},
+        {"id": "pa5x-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "pa5xo1", "prompt": "Ordena las palabras.", "words": ["Mi", "padre", "es", "muy", "simpático"], "explanation": "Posesivo + sustantivo + verbo ser + adverbio + adjetivo."},
+            {"id": "pa5xo2", "prompt": "Ordena las palabras.", "words": ["Hay", "una", "mesa", "en", "la", "sala"], "explanation": "Hay (existencia) + objeto + complemento de lugar."},
+         ]},
+    ],
+    "pre-a1-verbos-basicos-ser-tener-querer-gustar": [
+        {"id": "pa6x-reading", "type": "reading-comprehension", "title": "Lectura: Sofía se Presenta",
+         "passage": "<p>Me llamo Sofía y soy estudiante. Tengo veinte años y tengo dos hermanas. Quiero aprender español muy bien. Me gusta la música y también me gusta el café por las mañanas. No me gusta levantarme temprano los domingos.</p>",
+         "items": [
+            {"id": "pa6xr1", "prompt": "¿Cuántos años tiene Sofía?", "options": ["Dieciocho", "Veinte", "Veinticinco"], "answerIndex": 1, "explanation": "El texto dice: «Tengo veinte años»."},
+            {"id": "pa6xr2", "prompt": "¿Qué quiere aprender Sofía?", "options": ["Música", "Inglés", "Español"], "answerIndex": 2, "explanation": "El texto dice: «Quiero aprender español muy bien»."},
+            {"id": "pa6xr3", "prompt": "¿A Sofía le gusta levantarse temprano los domingos?", "options": ["Sí, mucho", "No, no le gusta"], "answerIndex": 1, "explanation": "El texto dice: «No me gusta levantarme temprano los domingos»."},
+            {"id": "pa6xr4", "prompt": "¿Cuántas hermanas tiene Sofía?", "options": ["Una", "Dos", "Tres"], "answerIndex": 1, "explanation": "El texto dice: «tengo dos hermanas»."},
+         ]},
+        {"id": "pa6x-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "pa6xo1", "prompt": "Ordena las palabras.", "words": ["Me", "gusta", "mucho", "el", "café"], "explanation": "Pronombre + gustar (singular) + adverbio + sustantivo con artículo."},
+            {"id": "pa6xo2", "prompt": "Ordena las palabras.", "words": ["Quiero", "aprender", "español", "muy", "bien"], "explanation": "Quiero + infinitivo + complemento + intensificador."},
+         ]},
+    ],
+    "pre-a1-pronombres-de-sujeto-y-ser-estar": [
+        {"id": "pa7x-reading", "type": "reading-comprehension", "title": "Lectura: Nosotros Somos Estudiantes",
+         "passage": "<p>Nosotros somos estudiantes de español. Yo soy de Brasil y ella es de Francia. Él está cansado hoy porque trabaja mucho. Ellos están en la biblioteca ahora, estudiando para el examen de la próxima semana.</p>",
+         "items": [
+            {"id": "pa7xr1", "prompt": "¿De dónde es la persona que habla (yo)?", "options": ["De Francia", "De Brasil", "No lo dice"], "answerIndex": 1, "explanation": "El texto dice: «Yo soy de Brasil»."},
+            {"id": "pa7xr2", "prompt": "¿Por qué él está cansado?", "options": ["Porque estudia mucho", "Porque trabaja mucho", "Porque no duerme"], "answerIndex": 1, "explanation": "El texto dice: «Él está cansado hoy porque trabaja mucho»."},
+            {"id": "pa7xr3", "prompt": "¿Dónde están ellos ahora?", "options": ["En casa", "En la biblioteca", "En el trabajo"], "answerIndex": 1, "explanation": "El texto dice: «Ellos están en la biblioteca ahora»."},
+            {"id": "pa7xr4", "prompt": "¿Para qué estudian en la biblioteca?", "options": ["Para un examen", "Para una fiesta", "Para un viaje"], "answerIndex": 0, "explanation": "El texto dice que estudian «para el examen de la próxima semana»."},
+         ]},
+        {"id": "pa7x-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "pa7xo1", "prompt": "Ordena las palabras.", "words": ["Nosotros", "somos", "estudiantes", "de", "español"], "explanation": "Pronombre plural + ser (nosotros) + sustantivo + complemento."},
+            {"id": "pa7xo2", "prompt": "Ordena las palabras.", "words": ["Ellos", "están", "en", "la", "biblioteca"], "explanation": "Pronombre + estar (ellos) + complemento de lugar."},
+         ]},
+    ],
+    "pre-a1-lectura-y-escucha-de-supervivencia": [
+        {"id": "pa8x-reading", "type": "reading-comprehension", "title": "Lectura: Pedir Ayuda en la Calle",
+         "passage": "<p>—Disculpe, ¿dónde está la estación de tren?<br>—Está muy cerca, a dos calles de aquí, a la derecha.<br>—Muchas gracias. Una pregunta más: ¿hay un banco cerca también?<br>—Sí, hay uno enfrente de la estación.<br>—Perfecto, muchísimas gracias por su ayuda.</p>",
+         "items": [
+            {"id": "pa8xr1", "prompt": "¿Qué busca la persona que pregunta?", "options": ["Un banco", "La estación de tren", "Un restaurante"], "answerIndex": 1, "explanation": "La primera pregunta es: «¿dónde está la estación de tren?»."},
+            {"id": "pa8xr2", "prompt": "¿En qué dirección está la estación?", "options": ["A la izquierda", "A la derecha", "Todo recto"], "answerIndex": 1, "explanation": "La respuesta dice: «a dos calles de aquí, a la derecha»."},
+            {"id": "pa8xr3", "prompt": "¿Dónde está el banco?", "options": ["Enfrente de la estación", "Dentro de la estación", "Lejos de la estación"], "answerIndex": 0, "explanation": "La respuesta dice: «hay uno enfrente de la estación»."},
+            {"id": "pa8xr4", "prompt": "¿La persona da las gracias más de una vez?", "options": ["Sí", "No"], "answerIndex": 0, "explanation": "Dice «Muchas gracias» y después «muchísimas gracias»."},
+         ]},
+        {"id": "pa8x-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "pa8xo1", "prompt": "Ordena las palabras.", "words": ["Disculpe", "¿dónde", "está", "la", "estación"], "explanation": "Fórmula de cortesía + pregunta de ubicación."},
+            {"id": "pa8xo2", "prompt": "Ordena las palabras.", "words": ["Está", "a", "dos", "calles", "de", "aquí"], "explanation": "Estar (ubicación) + distancia + referencia."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))

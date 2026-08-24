@@ -156,6 +156,91 @@
           "explanation": "Además añade información adicional a favor de la misma idea, no introduce una causa; el conector correcto para sumar las dos ideas es y."
         }
       ]
+    },
+    {
+      "id": "a2x12-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Mi Rutina Semanal",
+      "passage": "<p>Siempre me levanto temprano entre semana, pero los fines de semana duermo hasta tarde. A veces voy al gimnasio, pero casi nunca hago ejercicio por la noche porque estoy muy cansado. No como carne, porque prefiero una dieta vegetariana, y por eso cocino mucha verdura.</p>",
+      "items": [
+        {
+          "id": "a2x12r1",
+          "prompt": "¿Cuándo se levanta temprano la persona?",
+          "options": [
+            "Los fines de semana",
+            "Entre semana",
+            "Todos los días"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Siempre me levanto temprano entre semana»."
+        },
+        {
+          "id": "a2x12r2",
+          "prompt": "¿Con qué frecuencia hace ejercicio por la noche?",
+          "options": [
+            "Siempre",
+            "Casi nunca",
+            "A veces"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «casi nunca hago ejercicio por la noche»."
+        },
+        {
+          "id": "a2x12r3",
+          "prompt": "¿Por qué no come carne?",
+          "options": [
+            "Porque le hace daño",
+            "Porque prefiere una dieta vegetariana",
+            "Porque no le gusta el sabor"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «prefiero una dieta vegetariana»."
+        },
+        {
+          "id": "a2x12r4",
+          "prompt": "¿Qué cocina mucho, según el texto?",
+          "options": [
+            "Carne",
+            "Verdura",
+            "Pasta"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «por eso cocino mucha verdura»."
+        }
+      ]
+    },
+    {
+      "id": "a2x12-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x12o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Casi",
+            "nunca",
+            "llego",
+            "tarde",
+            "al",
+            "trabajo"
+          ],
+          "explanation": "Adverbio de frecuencia baja + verbo + adjetivo + complemento."
+        },
+        {
+          "id": "a2x12o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "tengo",
+            "hambre",
+            "porque",
+            "ya",
+            "comí"
+          ],
+          "explanation": "Negación + verbo + objeto + porque (causa) + hecho puntual."
+        }
+      ]
     }
   ],
   "summary": [

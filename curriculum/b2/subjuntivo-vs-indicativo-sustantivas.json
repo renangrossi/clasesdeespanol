@@ -131,6 +131,90 @@
           "explanation": "Está claro que presenta un hecho como cierto: exige indicativo, no subjuntivo."
         }
       ]
+    },
+    {
+      "id": "b2x3-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Certezas y Dudas",
+      "passage": "<p>Es evidente que este proyecto tiene mucho potencial. Es importante que todos participemos activamente. No es cierto que el presupuesto se haya reducido, como algunos dicen. Está claro que necesitamos más tiempo para terminarlo bien.</p>",
+      "items": [
+        {
+          "id": "b2x3r1",
+          "prompt": "¿Qué es evidente sobre el proyecto?",
+          "options": [
+            "Que es muy caro",
+            "Que tiene mucho potencial",
+            "Que va a fracasar"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Es evidente que este proyecto tiene mucho potencial»."
+        },
+        {
+          "id": "b2x3r2",
+          "prompt": "¿Qué es importante que hagan todos?",
+          "options": [
+            "Que descansen",
+            "Que participen activamente",
+            "Que se vayan"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Es importante que todos participemos activamente»."
+        },
+        {
+          "id": "b2x3r3",
+          "prompt": "¿Es cierto que el presupuesto se haya reducido?",
+          "options": [
+            "Sí",
+            "No, según el texto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «No es cierto que el presupuesto se haya reducido»."
+        },
+        {
+          "id": "b2x3r4",
+          "prompt": "¿Qué necesitan, según el texto?",
+          "options": [
+            "Más dinero",
+            "Más tiempo",
+            "Más personal"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «necesitamos más tiempo para terminarlo bien»."
+        }
+      ]
+    },
+    {
+      "id": "b2x3-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x3o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Es",
+            "evidente",
+            "que",
+            "ella",
+            "tiene",
+            "razón"
+          ],
+          "explanation": "Expresión de certeza + que + indicativo (tiene)."
+        },
+        {
+          "id": "b2x3o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Es",
+            "una",
+            "lástima",
+            "que",
+            "no",
+            "vengas"
+          ],
+          "explanation": "Expresión de valoración + que + subjuntivo (vengas)."
+        }
+      ]
     }
   ],
   "summary": [

@@ -136,6 +136,91 @@
           "explanation": "La apódosis está en condicional compuesto, así que la prótasis debe ir en pluscuamperfecto de subjuntivo, no en imperfecto de subjuntivo."
         }
       ]
+    },
+    {
+      "id": "b2x2-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Decisiones y Consecuencias",
+      "passage": "<p>Si tuviera más tiempo libre, aprendería a tocar el piano. Si hubiera aceptado ese trabajo en su momento, ahora viviría en otra ciudad. Pero si sigo estudiando cada día, en un año hablaré español con fluidez. Si hubiera empezado antes, ya estaría más avanzado.</p>",
+      "items": [
+        {
+          "id": "b2x2r1",
+          "prompt": "¿Qué haría la persona si tuviera más tiempo libre?",
+          "options": [
+            "Viajaría más",
+            "Aprendería a tocar el piano",
+            "Trabajaría menos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Si tuviera más tiempo libre, aprendería a tocar el piano»."
+        },
+        {
+          "id": "b2x2r2",
+          "prompt": "¿Dónde viviría si hubiera aceptado ese trabajo?",
+          "options": [
+            "En el extranjero",
+            "En otra ciudad",
+            "En el mismo lugar"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ahora viviría en otra ciudad»."
+        },
+        {
+          "id": "b2x2r3",
+          "prompt": "¿Qué condición real menciona sobre el español?",
+          "options": [
+            "Si deja de estudiar",
+            "Si sigue estudiando cada día",
+            "Si viaja a España"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «si sigo estudiando cada día, en un año hablaré español con fluidez»."
+        },
+        {
+          "id": "b2x2r4",
+          "prompt": "¿Qué tipo de condicional es \"Si hubiera empezado antes, ya estaría más avanzado\"?",
+          "options": [
+            "Real",
+            "Potencial",
+            "Irreal de pasado con consecuencia en presente"
+          ],
+          "answerIndex": 2,
+          "explanation": "Prótasis con pluscuamperfecto de subjuntivo y consecuencia en condicional simple: condicional mixta."
+        }
+      ]
+    },
+    {
+      "id": "b2x2-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x2o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Si",
+            "fuera",
+            "rico",
+            "viajaría",
+            "por",
+            "el",
+            "mundo"
+          ],
+          "explanation": "Si + imperfecto de subjuntivo + condicional simple (condicional potencial)."
+        },
+        {
+          "id": "b2x2o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Si",
+            "hubieras",
+            "llamado",
+            "habría",
+            "contestado"
+          ],
+          "explanation": "Si + pluscuamperfecto de subjuntivo + condicional compuesto (irreal de pasado)."
+        }
+      ]
     }
   ],
   "summary": [

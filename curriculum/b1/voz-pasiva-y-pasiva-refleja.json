@@ -131,6 +131,91 @@
           "explanation": "Apartamentos es plural, así que el verbo de la pasiva refleja debe concordar en plural: se alquilan."
         }
       ]
+    },
+    {
+      "id": "b1x8-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Anuncio Inmobiliario",
+      "passage": "<p>Se venden pisos nuevos en el centro de la ciudad. El edificio fue construido el año pasado por una empresa muy conocida. Se aceptan mascotas y se incluye una plaza de garaje. Aquí se habla español e inglés para atender a todo tipo de clientes.</p>",
+      "items": [
+        {
+          "id": "b1x8r1",
+          "prompt": "¿Qué se vende, según el anuncio?",
+          "options": [
+            "Coches",
+            "Pisos nuevos",
+            "Terrenos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Se venden pisos nuevos en el centro de la ciudad»."
+        },
+        {
+          "id": "b1x8r2",
+          "prompt": "¿Cuándo fue construido el edificio?",
+          "options": [
+            "Este año",
+            "El año pasado",
+            "Hace diez años"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «El edificio fue construido el año pasado»."
+        },
+        {
+          "id": "b1x8r3",
+          "prompt": "¿Se aceptan mascotas?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Se aceptan mascotas»."
+        },
+        {
+          "id": "b1x8r4",
+          "prompt": "¿Qué idiomas se hablan en la oficina?",
+          "options": [
+            "Solo español",
+            "Español e inglés",
+            "Solo inglés"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «se habla español e inglés»."
+        }
+      ]
+    },
+    {
+      "id": "b1x8-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x8o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Se",
+            "buscan",
+            "camareros",
+            "con",
+            "experiencia"
+          ],
+          "explanation": "Se + verbo (plural, concuerda con camareros) + complemento."
+        },
+        {
+          "id": "b1x8o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "libro",
+            "fue",
+            "escrito",
+            "por",
+            "un",
+            "autor",
+            "famoso"
+          ],
+          "explanation": "Voz pasiva con ser + participio + por + agente."
+        }
+      ]
     }
   ],
   "summary": [

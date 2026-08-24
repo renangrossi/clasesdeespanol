@@ -230,6 +230,89 @@
           "explanation": "Niño es masculino: el niño."
         }
       ]
+    },
+    {
+      "id": "pa5x-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: La Familia de Luis",
+      "passage": "<p>Esta es la familia de Luis. Su madre se llama Rosa y es alta. Su padre se llama Tomás y es simpático. Luis tiene un hermano pequeño que se llama Iván. En la sala de su casa hay una mesa, dos sillas y un televisor nuevo.</p>",
+      "items": [
+        {
+          "id": "pa5xr1",
+          "prompt": "¿Cómo se llama la madre de Luis?",
+          "options": [
+            "Rosa",
+            "Tomás",
+            "Iván"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Su madre se llama Rosa»."
+        },
+        {
+          "id": "pa5xr2",
+          "prompt": "¿Cómo es el padre de Luis, según el texto?",
+          "options": [
+            "Alto",
+            "Simpático",
+            "Pequeño"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Su padre se llama Tomás y es simpático»."
+        },
+        {
+          "id": "pa5xr3",
+          "prompt": "¿Qué hay en la sala de la casa?",
+          "options": [
+            "Una cama y un armario",
+            "Una mesa, dos sillas y un televisor",
+            "Un perro y un gato"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto describe la sala con esos tres objetos."
+        },
+        {
+          "id": "pa5xr4",
+          "prompt": "¿Iván es el hermano mayor de Luis?",
+          "options": [
+            "Sí",
+            "No, es el hermano pequeño"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «un hermano pequeño que se llama Iván»."
+        }
+      ]
+    },
+    {
+      "id": "pa5x-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "pa5xo1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Mi",
+            "padre",
+            "es",
+            "muy",
+            "simpático"
+          ],
+          "explanation": "Posesivo + sustantivo + verbo ser + adverbio + adjetivo."
+        },
+        {
+          "id": "pa5xo2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Hay",
+            "una",
+            "mesa",
+            "en",
+            "la",
+            "sala"
+          ],
+          "explanation": "Hay (existencia) + objeto + complemento de lugar."
+        }
+      ]
     }
   ],
   "summary": [

@@ -114,6 +114,89 @@
           "prompt": "Escribe tres frases breves sobre el paso del tiempo usando un hipérbaton, una metáfora y una anáfora, uno por frase."
         }
       ]
+    },
+    {
+      "id": "c2x2-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Fragmento Poético",
+      "passage": "<p>Nada teme, nada duda, nada espera aquel que ha encontrado la paz interior. Sus palabras eran veneno puro, capaces de herir sin dejar marca visible. Con acendrada paciencia, esperó el desenlace de aquella historia que tantas vidas había marcado.</p>",
+      "items": [
+        {
+          "id": "c2x2r1",
+          "prompt": "¿Qué recurso estilístico es la repetición de \"nada\"?",
+          "options": [
+            "Metáfora",
+            "Anáfora",
+            "Hipérbole"
+          ],
+          "answerIndex": 1,
+          "explanation": "La repetición de una palabra al inicio de frases sucesivas es una anáfora."
+        },
+        {
+          "id": "c2x2r2",
+          "prompt": "¿Qué figura retórica es \"sus palabras eran veneno puro\"?",
+          "options": [
+            "Metáfora",
+            "Hipérbaton",
+            "Anáfora"
+          ],
+          "answerIndex": 0,
+          "explanation": "Se identifica una cosa (palabras) con otra (veneno) sin usar \"como\": es una metáfora."
+        },
+        {
+          "id": "c2x2r3",
+          "prompt": "¿Qué esperaba la persona con acendrada paciencia?",
+          "options": [
+            "El desenlace de una historia",
+            "Una respuesta",
+            "Un viaje"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «esperó el desenlace de aquella historia»."
+        },
+        {
+          "id": "c2x2r4",
+          "prompt": "¿El registro de este texto es literario o coloquial?",
+          "options": [
+            "Literario",
+            "Coloquial"
+          ],
+          "answerIndex": 0,
+          "explanation": "El vocabulario elevado (acendrada, desenlace) y los recursos retóricos marcan un registro claramente literario."
+        }
+      ]
+    },
+    {
+      "id": "c2x2-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c2x2o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Nada",
+            "teme",
+            "quien",
+            "nada",
+            "posee"
+          ],
+          "explanation": "Estructura con anáfora (nada... nada) propia del registro literario."
+        },
+        {
+          "id": "c2x2o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Con",
+            "acendrada",
+            "paciencia",
+            "esperó",
+            "el",
+            "final"
+          ],
+          "explanation": "Complemento con adjetivo elevado + verbo + objeto."
+        }
+      ]
     }
   ],
   "summary": [

@@ -242,6 +242,83 @@ def build_exercises():
          {"id": "ex-c1-diadelosmuertos", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
              {"id": "exc1f1", "prompt": "¿Qué desafío menciona el artículo?", "options": ["La falta de altares tradicionales", "La gestión del turismo masivo", "La escasez de flores de cempasúchil"], "answerIndex": 1, "explanation": "Se menciona directamente «los desafíos que plantea el turismo masivo»."},
          ]}),
+        ("Pre-A1", "Un Mensaje de Texto", "<p>Hola, soy Pedro. Estoy en la calle Mayor, cerca del banco. ¿Dónde estás tú? Yo tengo hambre, ¿comemos algo? Hay un restaurante muy bueno aquí. Te espero a las dos.</p>",
+         {"id": "ex-pa1-mensaje", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "expa1a", "statement": "Pedro está cerca del banco.", "answer": True, "explanation": "El texto dice: «Estoy en la calle Mayor, cerca del banco»."},
+            {"id": "expa1b", "statement": "Pedro no tiene hambre.", "answer": False, "explanation": "El texto dice: «Yo tengo hambre»."},
+            {"id": "expa1c", "statement": "Pedro espera a la otra persona a las dos.", "answer": True, "explanation": "El texto dice: «Te espero a las dos»."},
+         ]}),
+        ("Pre-A1", "En la Cafetería de la Universidad", "<p>—Hola, ¿qué quieres tomar?<br>—Un café, por favor. ¿Y tú?<br>—Yo quiero un té con leche.<br>—Perfecto, son tres euros en total.</p>",
+         {"id": "ex-pa1-cafeteria", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "expa1d", "prompt": "¿Qué pide la primera persona?", "options": ["Un té", "Un café", "Un jugo"], "answerIndex": 1, "explanation": "El texto dice: «Un café, por favor»."},
+            {"id": "expa1e", "prompt": "¿Cuánto cuesta todo en total?", "options": ["Dos euros", "Tres euros", "Cuatro euros"], "answerIndex": 1, "explanation": "El texto dice: «son tres euros en total»."},
+         ]}),
+        ("A1", "Presentando a la Familia", "<p>Esta es mi familia. Mi padre se llama Antonio y es ingeniero. Mi madre se llama Carmen y es profesora. Tengo dos hermanos: Pablo, que tiene quince años, y Lucía, que tiene diez años. Vivimos en un piso pequeño pero muy cómodo.</p>",
+         {"id": "ex-a1-familia", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa1fa1", "prompt": "¿Cuál es la profesión del padre?", "options": ["Profesor", "Ingeniero", "Médico"], "answerIndex": 1, "explanation": "El texto dice: «Mi padre se llama Antonio y es ingeniero»."},
+            {"id": "exa1fa2", "prompt": "¿Cuántos años tiene Lucía?", "options": ["Diez", "Quince", "Veinte"], "answerIndex": 0, "explanation": "El texto dice: «Lucía, que tiene diez años»."},
+            {"id": "exa1fa3", "prompt": "¿Cómo es el piso de la familia?", "options": ["Grande y lujoso", "Pequeño pero cómodo", "Viejo y feo"], "answerIndex": 1, "explanation": "El texto dice: «un piso pequeño pero muy cómodo»."},
+         ]}),
+        ("A1", "Un Anuncio de Piso Compartido", "<p>Se busca compañero de piso para apartamento en el centro. Habitación individual con ventana grande. Precio: 350 euros al mes, gastos incluidos. Cerca del metro y de muchas tiendas. Llamar solo por las tardes.</p>",
+         {"id": "ex-a1-piso", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa1pi1", "statement": "El apartamento está en el centro.", "answer": True, "explanation": "El texto dice: «apartamento en el centro»."},
+            {"id": "exa1pi2", "statement": "El precio no incluye los gastos.", "answer": False, "explanation": "El texto dice: «gastos incluidos»."},
+            {"id": "exa1pi3", "statement": "Se puede llamar a cualquier hora.", "answer": False, "explanation": "El texto dice: «Llamar solo por las tardes»."},
+         ]}),
+        ("A2", "Un Fin de Semana en la Montaña", "<p>El fin de semana pasado fuimos a la montaña con unos amigos. Caminamos casi seis horas el sábado y llegamos muy cansados al refugio. Por la noche cenamos comida típica de la zona y dormimos muy bien. El domingo, antes de volver, visitamos un pequeño pueblo cercano.</p>",
+         {"id": "ex-a2-montana", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa2mo1", "prompt": "¿Cuánto tiempo caminaron el sábado?", "options": ["Cuatro horas", "Seis horas", "Ocho horas"], "answerIndex": 1, "explanation": "El texto dice: «Caminamos casi seis horas el sábado»."},
+            {"id": "exa2mo2", "prompt": "¿Dónde durmieron?", "options": ["En un hotel", "En el refugio", "En una tienda de campaña"], "answerIndex": 1, "explanation": "El texto dice: «llegamos muy cansados al refugio»."},
+            {"id": "exa2mo3", "prompt": "¿Qué hicieron el domingo antes de volver?", "options": ["Descansaron todo el día", "Visitaron un pueblo cercano", "Caminaron otra vez seis horas"], "answerIndex": 1, "explanation": "El texto dice: «visitamos un pequeño pueblo cercano»."},
+         ]}),
+        ("A2", "Una Queja por un Vuelo Cancelado", "<p>Estimados señores, les escribo porque mi vuelo del pasado lunes fue cancelado sin previo aviso. Esperé cuatro horas en el aeropuerto sin recibir ninguna información. Al final, tuve que comprar otro billete con otra compañía. Solicito una compensación por los gastos adicionales.</p>",
+         {"id": "ex-a2-queja", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exa2q1", "statement": "El vuelo se canceló sin aviso previo.", "answer": True, "explanation": "El texto dice: «fue cancelado sin previo aviso»."},
+            {"id": "exa2q2", "statement": "La persona esperó dos horas en el aeropuerto.", "answer": False, "explanation": "El texto dice que esperó cuatro horas."},
+            {"id": "exa2q3", "statement": "La persona pide una compensación económica.", "answer": True, "explanation": "El texto dice: «Solicito una compensación por los gastos adicionales»."},
+         ]}),
+        ("B1", "El Debate sobre las Redes Sociales", "<p>Cada vez más estudios señalan los efectos del uso excesivo de las redes sociales en la salud mental de los jóvenes. Sin embargo, muchos defienden que estas plataformas también facilitan la conexión social y el acceso a la información. El verdadero reto, según los expertos, está en encontrar un equilibrio saludable.</p>",
+         {"id": "ex-b1-redes", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb1re1", "prompt": "¿Qué señalan los estudios mencionados?", "options": ["Los beneficios de las redes sociales", "Los efectos del uso excesivo en la salud mental", "El precio de los teléfonos"], "answerIndex": 1, "explanation": "El texto dice: «los efectos del uso excesivo de las redes sociales en la salud mental»."},
+            {"id": "exb1re2", "prompt": "¿Qué defienden algunas personas sobre las redes sociales?", "options": ["Que deberían prohibirse", "Que facilitan la conexión social", "Que no sirven para nada"], "answerIndex": 1, "explanation": "El texto dice: «facilitan la conexión social y el acceso a la información»."},
+            {"id": "exb1re3", "prompt": "¿Cuál es el verdadero reto, según los expertos?", "options": ["Prohibir las redes", "Encontrar un equilibrio saludable", "Usarlas más"], "answerIndex": 1, "explanation": "El texto termina: «el verdadero reto... está en encontrar un equilibrio saludable»."},
+         ]}),
+        ("B1", "Una Biografía Breve", "<p>Frida Kahlo nació en Coyoacán, México, en 1907. Después de sufrir un grave accidente de autobús a los dieciocho años, empezó a pintar durante su larga recuperación. Su obra, llena de color y simbolismo, refleja tanto su dolor físico como su identidad mexicana. Hoy es una de las artistas más reconocidas del mundo.</p>",
+         {"id": "ex-b1-frida", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb1fr1", "statement": "Frida Kahlo nació en 1907.", "answer": True, "explanation": "El texto dice: «nació en Coyoacán, México, en 1907»."},
+            {"id": "exb1fr2", "statement": "Empezó a pintar antes del accidente.", "answer": False, "explanation": "El texto dice que empezó a pintar «durante su larga recuperación», es decir, después del accidente."},
+            {"id": "exb1fr3", "statement": "Su obra refleja su identidad mexicana.", "answer": True, "explanation": "El texto dice: «refleja tanto su dolor físico como su identidad mexicana»."},
+         ]}),
+        ("B2", "El Auge del Turismo Sostenible", "<p>En los últimos años, cada vez más viajeros buscan opciones de turismo sostenible que minimicen el impacto ambiental de sus desplazamientos. Esta tendencia ha impulsado a numerosos hoteles y agencias a adoptar prácticas más responsables, desde la reducción de plásticos hasta el apoyo a comunidades locales. No obstante, algunos críticos advierten que ciertas iniciativas son más una estrategia de marketing que un compromiso real.</p>",
+         {"id": "ex-b2-turismo", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb2tu1", "prompt": "¿Qué buscan cada vez más viajeros?", "options": ["Vuelos más baratos", "Turismo sostenible", "Hoteles de lujo"], "answerIndex": 1, "explanation": "El texto dice: «cada vez más viajeros buscan opciones de turismo sostenible»."},
+            {"id": "exb2tu2", "prompt": "¿Qué prácticas han adoptado hoteles y agencias?", "options": ["Subir los precios", "Reducir plásticos y apoyar a comunidades locales", "Cerrar temporalmente"], "answerIndex": 1, "explanation": "El texto menciona «la reducción de plásticos hasta el apoyo a comunidades locales»."},
+            {"id": "exb2tu3", "prompt": "¿Qué advierten algunos críticos?", "options": ["Que el turismo sostenible no existe", "Que algunas iniciativas son solo marketing", "Que cuesta demasiado dinero"], "answerIndex": 1, "explanation": "El texto dice: «ciertas iniciativas son más una estrategia de marketing que un compromiso real»."},
+         ]}),
+        ("B2", "La Inteligencia Artificial en el Aula", "<p>La incorporación de herramientas de inteligencia artificial en las aulas plantea tanto oportunidades como desafíos considerables. Por un lado, permite personalizar el aprendizaje según el ritmo de cada estudiante. Por otro, genera preocupación entre los docentes sobre la dependencia excesiva de la tecnología y la posible pérdida de habilidades de pensamiento crítico.</p>",
+         {"id": "ex-b2-ia", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exb2ia1", "statement": "La IA en el aula solo genera oportunidades, sin ningún desafío.", "answer": False, "explanation": "El texto dice que plantea «tanto oportunidades como desafíos considerables»."},
+            {"id": "exb2ia2", "statement": "La IA permite personalizar el aprendizaje.", "answer": True, "explanation": "El texto dice: «permite personalizar el aprendizaje según el ritmo de cada estudiante»."},
+            {"id": "exb2ia3", "statement": "Algunos docentes están preocupados por la dependencia de la tecnología.", "answer": True, "explanation": "El texto dice: «genera preocupación entre los docentes sobre la dependencia excesiva de la tecnología»."},
+         ]}),
+        ("C1", "Reflexiones sobre el Silencio", "<p>Vivimos en una época que parece rehuir el silencio como si fuera una amenaza. Notificaciones, música de fondo, conversaciones constantes: todo conspira para llenar cada instante de estímulo sonoro. Sin embargo, numerosos estudios sugieren que los momentos de silencio deliberado favorecen la creatividad, la memoria y el bienestar emocional, algo que las tradiciones contemplativas llevan siglos afirmando sin necesidad de evidencia científica.</p>",
+         {"id": "ex-c1-silencio", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exc1si1", "prompt": "¿Cómo describe el texto la relación actual con el silencio?", "options": ["Se busca activamente", "Se rehúye, como una amenaza", "Es indiferente"], "answerIndex": 1, "explanation": "El texto dice: «Vivimos en una época que parece rehuir el silencio como si fuera una amenaza»."},
+            {"id": "exc1si2", "prompt": "¿Qué favorecen los momentos de silencio deliberado, según los estudios?", "options": ["El estrés", "La creatividad, la memoria y el bienestar emocional", "El aburrimiento"], "answerIndex": 1, "explanation": "El texto dice: «favorecen la creatividad, la memoria y el bienestar emocional»."},
+            {"id": "exc1si3", "prompt": "¿Qué relación establece el texto con las tradiciones contemplativas?", "options": ["Que las contradicen", "Que afirmaban esto sin evidencia científica", "Que no tienen relación"], "answerIndex": 1, "explanation": "El texto dice que estas tradiciones «llevan siglos afirmando» lo mismo «sin necesidad de evidencia científica»."},
+         ]}),
+        ("C1", "El Debate sobre la Traducción Literaria", "<p>Toda traducción literaria implica, inevitablemente, una serie de pérdidas y ganancias que rara vez pasan desapercibidas para el lector atento. Quienes defienden la fidelidad absoluta al original olvidan, a menudo, que cada lengua organiza la realidad de forma distinta, de modo que una traslación literal puede resultar, paradójicamente, menos fiel al espíritu del texto que una versión más libre pero más sensible al contexto cultural de llegada.</p>",
+         {"id": "ex-c1-traduccion", "type": "true-false", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exc1tr1", "statement": "El texto afirma que la traducción literaria nunca implica pérdidas.", "answer": False, "explanation": "El texto dice que implica «inevitablemente, una serie de pérdidas y ganancias»."},
+            {"id": "exc1tr2", "statement": "Según el texto, una traducción literal siempre es la más fiel.", "answer": False, "explanation": "El texto dice que puede resultar «paradójicamente, menos fiel al espíritu del texto»."},
+            {"id": "exc1tr3", "statement": "El texto valora considerar el contexto cultural de llegada.", "answer": True, "explanation": "El texto menciona positivamente «una versión más libre pero más sensible al contexto cultural de llegada»."},
+         ]}),
+        ("C2", "Sobre la Memoria Colectiva", "<p>La memoria colectiva no es, como a menudo se supone ingenuamente, un mero archivo pasivo de hechos compartidos, sino una construcción activa y en permanente disputa, moldeada tanto por quienes detentan el poder de narrar el pasado como por quienes se resisten a esa narración oficial. Cada generación, en última instancia, reescribe su historia según las urgencias del presente que la interroga.</p>",
+         {"id": "ex-c2-memoria", "type": "multiple-choice", "title": "Comprobación de Comprensión", "items": [
+            {"id": "exc2me1", "prompt": "¿Cómo describe el texto la memoria colectiva?", "options": ["Un archivo pasivo de hechos", "Una construcción activa y en disputa", "Algo que no cambia nunca"], "answerIndex": 1, "explanation": "El texto dice que es «una construcción activa y en permanente disputa»."},
+            {"id": "exc2me2", "prompt": "¿Quiénes moldean esa memoria, según el texto?", "options": ["Solo los historiadores", "Quienes narran el pasado y quienes se resisten a esa narración", "Nadie en particular"], "answerIndex": 1, "explanation": "El texto menciona a «quienes detentan el poder de narrar» y a «quienes se resisten a esa narración oficial»."},
+            {"id": "exc2me3", "prompt": "¿Qué hace cada generación, según el texto?", "options": ["Ignora el pasado por completo", "Reescribe su historia según el presente", "Repite exactamente la misma historia"], "answerIndex": 1, "explanation": "El texto termina: «Cada generación... reescribe su historia según las urgencias del presente»."},
+         ]}),
     ]
     sections = [header]
     for level, title, passage, ex in items:

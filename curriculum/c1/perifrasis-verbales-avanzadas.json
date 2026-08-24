@@ -211,6 +211,90 @@
           "explanation": "\"Echar a\" se usa con verbos de movimiento; con fenómenos meteorológicos se prefiere \"ponerse a\"."
         }
       ]
+    },
+    {
+      "id": "c1x7-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Proceso en Marcha",
+      "passage": "<p>Venimos observando esta tendencia desde hace varios meses. El equipo lleva analizados más de mil casos hasta ahora. Debe de haber una razón lógica detrás de este comportamiento. Estamos por terminar la primera fase del estudio.</p>",
+      "items": [
+        {
+          "id": "c1x7r1",
+          "prompt": "¿Desde cuándo observan esta tendencia?",
+          "options": [
+            "Desde ayer",
+            "Desde hace varios meses",
+            "Desde hace años"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Venimos observando esta tendencia desde hace varios meses»."
+        },
+        {
+          "id": "c1x7r2",
+          "prompt": "¿Cuántos casos ha analizado el equipo?",
+          "options": [
+            "Cientos",
+            "Más de mil",
+            "Menos de cien"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «lleva analizados más de mil casos»."
+        },
+        {
+          "id": "c1x7r3",
+          "prompt": "¿Qué expresa \"debe de haber una razón\"?",
+          "options": [
+            "Una obligación",
+            "Una suposición",
+            "Una orden"
+          ],
+          "answerIndex": 1,
+          "explanation": "Deber de + infinitivo expresa una suposición o probabilidad, no obligación."
+        },
+        {
+          "id": "c1x7r4",
+          "prompt": "¿En qué fase está el estudio, según el texto?",
+          "options": [
+            "A punto de terminar la primera fase",
+            "Recién empezado",
+            "Completamente terminado"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto termina: «Estamos por terminar la primera fase del estudio»."
+        }
+      ]
+    },
+    {
+      "id": "c1x7-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x7o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Venimos",
+            "trabajando",
+            "en",
+            "esto",
+            "juntos"
+          ],
+          "explanation": "Venir + gerundio expresa un proceso progresivo desde el pasado."
+        },
+        {
+          "id": "c1x7o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Debe",
+            "de",
+            "estar",
+            "muy",
+            "cansado",
+            "hoy"
+          ],
+          "explanation": "Deber de + infinitivo, suposición sobre un estado presente."
+        }
+      ]
     }
   ],
   "summary": [

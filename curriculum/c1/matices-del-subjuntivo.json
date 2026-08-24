@@ -206,6 +206,91 @@
           "explanation": "En una pregunta que expresa duda genuina, es posible usar subjuntivo."
         }
       ]
+    },
+    {
+      "id": "c1x3-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Percepciones y Certezas",
+      "passage": "<p>No veo que estés realmente listo para este cambio tan grande. No creo que sea tan difícil como parece al principio. Quizá tengas razón sobre el proyecto, aunque no estoy completamente seguro. Es raro que no haya llamado todavía, normalmente es muy puntual.</p>",
+      "items": [
+        {
+          "id": "c1x3r1",
+          "prompt": "¿Qué percibe la persona sobre el cambio?",
+          "options": [
+            "Que está listo",
+            "Que no está listo",
+            "No dice nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «No veo que estés realmente listo para este cambio»."
+        },
+        {
+          "id": "c1x3r2",
+          "prompt": "¿Qué opina sobre la dificultad del proyecto?",
+          "options": [
+            "Que es muy difícil",
+            "Que no es tan difícil",
+            "No tiene opinión"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «No creo que sea tan difícil como parece»."
+        },
+        {
+          "id": "c1x3r3",
+          "prompt": "¿Está completamente seguro de que la otra persona tiene razón?",
+          "options": [
+            "Sí, totalmente",
+            "No del todo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «aunque no estoy completamente seguro»."
+        },
+        {
+          "id": "c1x3r4",
+          "prompt": "¿Por qué le parece raro que no haya llamado?",
+          "options": [
+            "Porque nunca llama",
+            "Porque normalmente es muy puntual",
+            "Porque está de vacaciones"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «normalmente es muy puntual»."
+        }
+      ]
+    },
+    {
+      "id": "c1x3-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c1x3o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "veo",
+            "que",
+            "esto",
+            "tenga",
+            "sentido"
+          ],
+          "explanation": "Negación de percepción + subjuntivo (tenga)."
+        },
+        {
+          "id": "c1x3o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Quizá",
+            "llueva",
+            "esta",
+            "tarde",
+            "no",
+            "estoy",
+            "seguro"
+          ],
+          "explanation": "Quizá con subjuntivo expresa más duda que certeza."
+        }
+      ]
     }
   ],
   "summary": [

@@ -180,6 +180,90 @@
           "explanation": "La ubicación dentro de una ciudad usa en, no a."
         }
       ]
+    },
+    {
+      "id": "a1x12-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: El Viaje de Elena",
+      "passage": "<p>Elena viaja de Madrid a Barcelona en tren. El viaje dura desde las diez hasta la una. Durante el viaje, lee un libro y habla con la persona de al lado. Después del viaje, va directamente al hotel para descansar.</p>",
+      "items": [
+        {
+          "id": "a1x12r1",
+          "prompt": "¿Cómo viaja Elena?",
+          "options": [
+            "En avión",
+            "En tren",
+            "En autobús"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Elena viaja... en tren»."
+        },
+        {
+          "id": "a1x12r2",
+          "prompt": "¿Cuánto dura el viaje?",
+          "options": [
+            "De diez a una",
+            "De nueve a doce",
+            "De once a dos"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «El viaje dura desde las diez hasta la una»."
+        },
+        {
+          "id": "a1x12r3",
+          "prompt": "¿Qué hace Elena durante el viaje?",
+          "options": [
+            "Duerme todo el tiempo",
+            "Lee y habla con alguien",
+            "Trabaja en su computadora"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «lee un libro y habla con la persona de al lado»."
+        },
+        {
+          "id": "a1x12r4",
+          "prompt": "¿Adónde va después del viaje?",
+          "options": [
+            "A un restaurante",
+            "Al hotel",
+            "A una reunión"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «va directamente al hotel para descansar»."
+        }
+      ]
+    },
+    {
+      "id": "a1x12-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x12o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Viajo",
+            "de",
+            "Madrid",
+            "a",
+            "Barcelona"
+          ],
+          "explanation": "Verbo + de + origen + a + destino."
+        },
+        {
+          "id": "a1x12o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "libro",
+            "está",
+            "sobre",
+            "la",
+            "mesa"
+          ],
+          "explanation": "Sujeto + estar + preposición de lugar + complemento."
+        }
+      ]
     }
   ],
   "summary": [

@@ -162,6 +162,89 @@
           "explanation": "El adverbio nunca no puede separar haber del participio; debe ir antes de haber."
         }
       ]
+    },
+    {
+      "id": "a2x1-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Correo a mi Jefe",
+      "passage": "<p>Hola, Marta. Te escribo para contarte que hoy he terminado el informe que me pediste. También he hablado con el cliente y ha confirmado la reunión para el jueves. Todavía no he revisado los últimos datos, pero lo haré esta tarde. ¿Has recibido ya el correo con los archivos adjuntos?</p>",
+      "items": [
+        {
+          "id": "a2x1r1",
+          "prompt": "¿Qué ha terminado la persona que escribe?",
+          "options": [
+            "Una reunión",
+            "El informe",
+            "Un correo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «hoy he terminado el informe»."
+        },
+        {
+          "id": "a2x1r2",
+          "prompt": "¿Qué ha confirmado el cliente?",
+          "options": [
+            "El precio",
+            "La reunión del jueves",
+            "El informe"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ha confirmado la reunión para el jueves»."
+        },
+        {
+          "id": "a2x1r3",
+          "prompt": "¿Ha revisado ya los últimos datos?",
+          "options": [
+            "Sí, ya los revisó",
+            "No, todavía no"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Todavía no he revisado los últimos datos»."
+        },
+        {
+          "id": "a2x1r4",
+          "prompt": "¿Qué pregunta al final del correo?",
+          "options": [
+            "Si ha recibido el correo con archivos",
+            "Si viene a la reunión",
+            "Si terminó el informe"
+          ],
+          "answerIndex": 0,
+          "explanation": "La última frase pregunta: «¿Has recibido ya el correo con los archivos adjuntos?»."
+        }
+      ]
+    },
+    {
+      "id": "a2x1-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x1o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Hoy",
+            "he",
+            "terminado",
+            "el",
+            "informe"
+          ],
+          "explanation": "Marcador de tiempo no cerrado + haber + participio + objeto."
+        },
+        {
+          "id": "a2x1o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Has",
+            "hablado",
+            "ya",
+            "con",
+            "el",
+            "cliente"
+          ],
+          "explanation": "Haber (tú) + participio + adverbio + complemento con preposición."
+        }
+      ]
     }
   ],
   "summary": [

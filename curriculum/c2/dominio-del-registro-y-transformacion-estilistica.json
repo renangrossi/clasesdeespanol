@@ -110,6 +110,89 @@
           "explanation": "Cada registro es apropiado según el contexto; no existe una jerarquía de valor entre ellos, solo adecuación o inadecuación a la situación."
         }
       ]
+    },
+    {
+      "id": "c2x8-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: La Misma Idea, Tres Registros",
+      "passage": "<p>Coloquial: Che, al final se nos complicó todo con la mudanza, un lío total.<br>Estándar: Al final tuvimos varios problemas con la mudanza y se complicó bastante.<br>Formal: Lamentamos comunicarle que, debido a diversos inconvenientes, la mudanza se ha visto considerablemente complicada.</p>",
+      "items": [
+        {
+          "id": "c2x8r1",
+          "prompt": "¿Cuál de las tres versiones es la más coloquial?",
+          "options": [
+            "La primera",
+            "La segunda",
+            "La tercera"
+          ],
+          "answerIndex": 0,
+          "explanation": "La primera versión usa che y un lío total, marcas de registro coloquial."
+        },
+        {
+          "id": "c2x8r2",
+          "prompt": "¿Qué versión usa la fórmula \"Lamentamos comunicarle\"?",
+          "options": [
+            "La coloquial",
+            "La estándar",
+            "La formal"
+          ],
+          "answerIndex": 2,
+          "explanation": "Esa fórmula es propia del registro formal, usada en la tercera versión."
+        },
+        {
+          "id": "c2x8r3",
+          "prompt": "¿Las tres versiones comunican la misma idea de fondo?",
+          "options": [
+            "Sí",
+            "No, son ideas distintas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Las tres versiones describen el mismo hecho (problemas con la mudanza) en distinto registro."
+        },
+        {
+          "id": "c2x8r4",
+          "prompt": "¿Qué distingue principalmente a las tres versiones entre sí?",
+          "options": [
+            "El contenido",
+            "El registro (vocabulario, tono, formalidad)",
+            "El idioma"
+          ],
+          "answerIndex": 1,
+          "explanation": "Las tres versiones cambian de registro, no de contenido ni de idioma."
+        }
+      ]
+    },
+    {
+      "id": "c2x8-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c2x8o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Sería",
+            "tan",
+            "amable",
+            "de",
+            "ayudarme"
+          ],
+          "explanation": "Fórmula de cortesía muy formal con condicional (sería) + infinitivo."
+        },
+        {
+          "id": "c2x8o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Oye",
+            "¿me",
+            "puedes",
+            "echar",
+            "una",
+            "mano"
+          ],
+          "explanation": "Registro coloquial: oye + petición directa con expresión idiomática."
+        }
+      ]
     }
   ],
   "summary": [

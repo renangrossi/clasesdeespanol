@@ -138,6 +138,92 @@
           "explanation": "La expresión fija en español es costar un ojo de la cara, no un brazo."
         }
       ]
+    },
+    {
+      "id": "b2x10-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Mal Día en la Oficina",
+      "passage": "<p>Tuve que tomar una decisión difícil sobre el proyecto. Metí la pata al mencionar un tema delicado en la reunión. Mi jefe estaba en las nubes toda la mañana, así que no prestó mucha atención. Al final, decidí no tirar la toalla y seguir trabajando duro.</p>",
+      "items": [
+        {
+          "id": "b2x10r1",
+          "prompt": "¿Qué tuvo que hacer la persona sobre el proyecto?",
+          "options": [
+            "Cancelarlo",
+            "Tomar una decisión difícil",
+            "Empezarlo de nuevo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Tuve que tomar una decisión difícil sobre el proyecto»."
+        },
+        {
+          "id": "b2x10r2",
+          "prompt": "¿Qué significa \"metí la pata\"?",
+          "options": [
+            "Tuve mucho éxito",
+            "Cometí un error inoportuno",
+            "Llegué tarde"
+          ],
+          "answerIndex": 1,
+          "explanation": "Meter la pata significa cometer un error, especialmente al hablar en un momento inoportuno."
+        },
+        {
+          "id": "b2x10r3",
+          "prompt": "¿Cómo estaba el jefe esa mañana?",
+          "options": [
+            "Muy atento",
+            "En las nubes (distraído)",
+            "De mal humor"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mi jefe estaba en las nubes toda la mañana»."
+        },
+        {
+          "id": "b2x10r4",
+          "prompt": "¿Qué decidió al final la persona?",
+          "options": [
+            "Rendirse",
+            "No tirar la toalla",
+            "Cambiar de trabajo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «decidí no tirar la toalla y seguir trabajando duro»."
+        }
+      ]
+    },
+    {
+      "id": "b2x10-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x10o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Necesitamos",
+            "tomar",
+            "una",
+            "decisión",
+            "pronto"
+          ],
+          "explanation": "Colocación fija: tomar una decisión."
+        },
+        {
+          "id": "b2x10o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ese",
+            "coche",
+            "cuesta",
+            "un",
+            "ojo",
+            "de",
+            "la",
+            "cara"
+          ],
+          "explanation": "Expresión idiomática fija: costar un ojo de la cara."
+        }
+      ]
     }
   ],
   "summary": [

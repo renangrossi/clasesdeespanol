@@ -165,6 +165,89 @@
           "explanation": "El sujeto plural masculino necesita la terminación -os en el adjetivo."
         }
       ]
+    },
+    {
+      "id": "a1x8-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Una Casa Bonita",
+      "passage": "<p>Vivimos en una casa pequeña pero muy bonita. Las paredes son blancas y las ventanas son grandes. El jardín tiene flores rojas y amarillas. Nuestros vecinos son muy simpáticos y siempre están dispuestos a ayudar.</p>",
+      "items": [
+        {
+          "id": "a1x8r1",
+          "prompt": "¿Cómo es la casa, según el texto?",
+          "options": [
+            "Grande y fea",
+            "Pequeña pero bonita",
+            "Vieja y oscura"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «una casa pequeña pero muy bonita»."
+        },
+        {
+          "id": "a1x8r2",
+          "prompt": "¿De qué color son las paredes?",
+          "options": [
+            "Blancas",
+            "Azules",
+            "Verdes"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Las paredes son blancas»."
+        },
+        {
+          "id": "a1x8r3",
+          "prompt": "¿Qué colores tienen las flores del jardín?",
+          "options": [
+            "Rojas y azules",
+            "Rojas y amarillas",
+            "Blancas y verdes"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «flores rojas y amarillas»."
+        },
+        {
+          "id": "a1x8r4",
+          "prompt": "¿Cómo son los vecinos?",
+          "options": [
+            "Antipáticos",
+            "Muy simpáticos",
+            "Muy serios"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Nuestros vecinos son muy simpáticos»."
+        }
+      ]
+    },
+    {
+      "id": "a1x8-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x8o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Las",
+            "ventanas",
+            "son",
+            "muy",
+            "grandes"
+          ],
+          "explanation": "Sujeto plural + ser (concordado en plural) + adverbio + adjetivo plural."
+        },
+        {
+          "id": "a1x8o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Tenemos",
+            "un",
+            "jardín",
+            "muy",
+            "bonito"
+          ],
+          "explanation": "Verbo + artículo + sustantivo masculino + adjetivo concordado en masculino."
+        }
+      ]
     }
   ],
   "summary": [

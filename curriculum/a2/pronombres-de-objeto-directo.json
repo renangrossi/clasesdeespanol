@@ -157,6 +157,91 @@
           "explanation": "Tarea es femenina, así que el pronombre correcto es la/ella, no lo; además me se pega directamente al infinitivo."
         }
       ]
+    },
+    {
+      "id": "a2x9-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: ¿Dónde Están las Llaves?",
+      "passage": "<p>—¿Has visto mis llaves? No las encuentro por ninguna parte.<br>—Sí, las vi en la cocina esta mañana. ¿Las buscaste allí?<br>—No, no lo hice todavía. Voy a buscarlas ahora mismo.<br>—Vale, si las encuentras, avísame, por favor.</p>",
+      "items": [
+        {
+          "id": "a2x9r1",
+          "prompt": "¿Qué está buscando la persona?",
+          "options": [
+            "Su teléfono",
+            "Sus llaves",
+            "Su cartera"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «¿Has visto mis llaves?»."
+        },
+        {
+          "id": "a2x9r2",
+          "prompt": "¿Dónde vio las llaves la otra persona?",
+          "options": [
+            "En la sala",
+            "En la cocina",
+            "En el coche"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «las vi en la cocina esta mañana»."
+        },
+        {
+          "id": "a2x9r3",
+          "prompt": "¿Ya buscó las llaves en la cocina?",
+          "options": [
+            "Sí, ya buscó",
+            "No, todavía no"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «No, no lo hice todavía»."
+        },
+        {
+          "id": "a2x9r4",
+          "prompt": "¿Qué le pide la otra persona al final?",
+          "options": [
+            "Que compre unas nuevas",
+            "Que le avise si las encuentra",
+            "Que llame a alguien"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «si las encuentras, avísame, por favor»."
+        }
+      ]
+    },
+    {
+      "id": "a2x9-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x9o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Las",
+            "llaves?",
+            "Sí,",
+            "las",
+            "tengo",
+            "aquí"
+          ],
+          "explanation": "Repetición con pronombre de objeto directo antes del verbo conjugado."
+        },
+        {
+          "id": "a2x9o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Voy",
+            "a",
+            "comprarlo",
+            "mañana",
+            "por",
+            "la",
+            "tarde"
+          ],
+          "explanation": "Ir a + infinitivo con el pronombre pegado al final + complemento de tiempo."
+        }
+      ]
     }
   ],
   "summary": [

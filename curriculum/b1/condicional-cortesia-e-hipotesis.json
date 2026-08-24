@@ -125,6 +125,89 @@
           "explanation": "El condicional (importaría) suaviza aún más la pregunta que el presente (importa), aunque ambas formas son posibles."
         }
       ]
+    },
+    {
+      "id": "b1x4-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Consejo entre Amigos",
+      "passage": "<p>—¿Te importaría darme tu opinión sobre esto?<br>—Claro. Yo que tú, hablaría con tu jefe directamente.<br>—Si tuviera más confianza, lo haría mañana mismo.<br>—Pues yo en tu lugar no esperaría más. Cuanto antes, mejor.</p>",
+      "items": [
+        {
+          "id": "b1x4r1",
+          "prompt": "¿Qué le pide la primera persona a su amigo?",
+          "options": [
+            "Dinero",
+            "Su opinión",
+            "Ayuda con el trabajo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «¿Te importaría darme tu opinión sobre esto?»."
+        },
+        {
+          "id": "b1x4r2",
+          "prompt": "¿Qué consejo le da el amigo?",
+          "options": [
+            "Que espere más tiempo",
+            "Que hable con su jefe directamente",
+            "Que no diga nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Yo que tú, hablaría con tu jefe directamente»."
+        },
+        {
+          "id": "b1x4r3",
+          "prompt": "¿Qué necesitaría la primera persona para hacerlo mañana?",
+          "options": [
+            "Más tiempo",
+            "Más confianza",
+            "Más dinero"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Si tuviera más confianza, lo haría mañana mismo»."
+        },
+        {
+          "id": "b1x4r4",
+          "prompt": "¿El amigo está de acuerdo con esperar más?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «yo en tu lugar no esperaría más»."
+        }
+      ]
+    },
+    {
+      "id": "b1x4-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x4o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Te",
+            "importaría",
+            "cerrar",
+            "la",
+            "puerta"
+          ],
+          "explanation": "Petición cortés con condicional (importaría) + infinitivo + objeto."
+        },
+        {
+          "id": "b1x4o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Yo",
+            "que",
+            "tú",
+            "aceptaría",
+            "esa",
+            "oferta"
+          ],
+          "explanation": "Yo que tú + condicional simple para dar un consejo."
+        }
+      ]
     }
   ],
   "summary": [

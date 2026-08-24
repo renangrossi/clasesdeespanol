@@ -168,6 +168,90 @@
           "explanation": "El mes pasado marca un momento cerrado del pasado, y viajamos es la forma de nosotros en pretérito indefinido."
         }
       ]
+    },
+    {
+      "id": "a2x2-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Mis Vacaciones del Año Pasado",
+      "passage": "<p>El año pasado viajé a Colombia con mi familia. Visitamos Cartagena y caminamos por las calles antiguas de la ciudad. Comimos comida típica todos los días y aprendimos mucho sobre la historia del país. Mis padres compraron muchos recuerdos para llevar a casa.</p>",
+      "items": [
+        {
+          "id": "a2x2r1",
+          "prompt": "¿Adónde viajó la familia el año pasado?",
+          "options": [
+            "A México",
+            "A Colombia",
+            "A Perú"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «El año pasado viajé a Colombia con mi familia»."
+        },
+        {
+          "id": "a2x2r2",
+          "prompt": "¿Qué ciudad visitaron?",
+          "options": [
+            "Bogotá",
+            "Medellín",
+            "Cartagena"
+          ],
+          "answerIndex": 2,
+          "explanation": "El texto dice: «Visitamos Cartagena»."
+        },
+        {
+          "id": "a2x2r3",
+          "prompt": "¿Qué comieron durante el viaje?",
+          "options": [
+            "Comida rápida",
+            "Comida típica",
+            "Solo fruta"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Comimos comida típica todos los días»."
+        },
+        {
+          "id": "a2x2r4",
+          "prompt": "¿Qué compraron los padres?",
+          "options": [
+            "Ropa",
+            "Recuerdos",
+            "Libros"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mis padres compraron muchos recuerdos»."
+        }
+      ]
+    },
+    {
+      "id": "a2x2-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x2o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "año",
+            "pasado",
+            "viajamos",
+            "a",
+            "Colombia"
+          ],
+          "explanation": "Marcador de tiempo cerrado + viajar (nosotros, indefinido) + destino."
+        },
+        {
+          "id": "a2x2o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ellos",
+            "compraron",
+            "muchos",
+            "recuerdos",
+            "allí"
+          ],
+          "explanation": "Sujeto + comprar (ellos, indefinido) + objeto + adverbio de lugar."
+        }
+      ]
     }
   ],
   "summary": [

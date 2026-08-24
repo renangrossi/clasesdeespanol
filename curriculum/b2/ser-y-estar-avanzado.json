@@ -130,6 +130,90 @@
           "explanation": "Localizar un evento como una reunión siempre usa ser, no estar."
         }
       ]
+    },
+    {
+      "id": "b2x6-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Impresiones del Momento",
+      "passage": "<p>¡Qué elegante estás hoy! ¿Es una ocasión especial? La reunión es en la sala principal a las cuatro. Este postre está buenísimo, ¿lo hiciste tú misma? Mi tío es muy vivo para su edad; siempre encuentra una solución rápida a cualquier problema.</p>",
+      "items": [
+        {
+          "id": "b2x6r1",
+          "prompt": "¿Qué comentario hace sobre la ropa de la otra persona?",
+          "options": [
+            "Que es fea",
+            "Que está muy elegante hoy",
+            "Que es incómoda"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «¡Qué elegante estás hoy!»."
+        },
+        {
+          "id": "b2x6r2",
+          "prompt": "¿Dónde es la reunión?",
+          "options": [
+            "En la sala principal",
+            "En la cocina",
+            "En otro edificio"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «La reunión es en la sala principal a las cuatro»."
+        },
+        {
+          "id": "b2x6r3",
+          "prompt": "¿Qué opina sobre el postre?",
+          "options": [
+            "Que está buenísimo",
+            "Que está muy dulce",
+            "Que no le gusta"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Este postre está buenísimo»."
+        },
+        {
+          "id": "b2x6r4",
+          "prompt": "¿Qué significa que el tío \"es muy vivo\"?",
+          "options": [
+            "Que está con vida",
+            "Que es astuto",
+            "Que es joven"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ser vivo describe astucia como característica de la persona, no el hecho de estar con vida."
+        }
+      ]
+    },
+    {
+      "id": "b2x6-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x6o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Dónde",
+            "es",
+            "la",
+            "fiesta",
+            "de",
+            "hoy"
+          ],
+          "explanation": "Localizar un evento siempre usa ser."
+        },
+        {
+          "id": "b2x6o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Esta",
+            "sopa",
+            "está",
+            "riquísima",
+            "hoy"
+          ],
+          "explanation": "Estar + adjetivo para el sabor percibido en el momento."
+        }
+      ]
     }
   ],
   "summary": [

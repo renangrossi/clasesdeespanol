@@ -162,6 +162,90 @@
           "explanation": "Poder usa terminación -e sin tilde en primera persona: pude, no pudí."
         }
       ]
+    },
+    {
+      "id": "a2x3-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Día Complicado",
+      "passage": "<p>Ayer tuve un día muy complicado. Primero estuve dos horas esperando el autobús. Después hice todas las compras para la semana, pero no pude encontrar lo que buscaba. Al final, vine a casa muy cansado y no quise cocinar, así que pedí comida por teléfono.</p>",
+      "items": [
+        {
+          "id": "a2x3r1",
+          "prompt": "¿Qué pasó primero en el día de la persona?",
+          "options": [
+            "Hizo las compras",
+            "Esperó el autobús",
+            "Pidió comida"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Primero estuve dos horas esperando el autobús»."
+        },
+        {
+          "id": "a2x3r2",
+          "prompt": "¿Pudo encontrar lo que buscaba en las compras?",
+          "options": [
+            "Sí",
+            "No"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «no pude encontrar lo que buscaba»."
+        },
+        {
+          "id": "a2x3r3",
+          "prompt": "¿Por qué pidió comida por teléfono?",
+          "options": [
+            "Porque no tenía dinero",
+            "Porque no quiso cocinar",
+            "Porque no tenía comida"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «no quise cocinar, así que pedí comida por teléfono»."
+        },
+        {
+          "id": "a2x3r4",
+          "prompt": "¿Cómo llegó a casa al final del día?",
+          "options": [
+            "Muy contento",
+            "Muy cansado",
+            "Con prisa"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «vine a casa muy cansado»."
+        }
+      ]
+    },
+    {
+      "id": "a2x3-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x3o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Estuve",
+            "dos",
+            "horas",
+            "esperando",
+            "el",
+            "autobús"
+          ],
+          "explanation": "Estar (indefinido) + duración + gerundio + objeto."
+        },
+        {
+          "id": "a2x3o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "pude",
+            "terminar",
+            "el",
+            "trabajo",
+            "ayer"
+          ],
+          "explanation": "Negación + poder (indefinido) + infinitivo + objeto + marcador de tiempo."
+        }
+      ]
     }
   ],
   "summary": [

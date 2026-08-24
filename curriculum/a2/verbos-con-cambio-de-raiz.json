@@ -158,6 +158,91 @@
           "explanation": "Vosotros no cambia la raíz: queréis, no quieréis."
         }
       ]
+    },
+    {
+      "id": "a2x8-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: La Cena en Familia",
+      "passage": "<p>Todos los domingos preferimos cenar en casa de mis abuelos. Mi abuela sirve un plato diferente cada semana. Yo siempre pido el postre de chocolate. Mis primos duermen la siesta después de comer, pero yo prefiero jugar en el jardín.</p>",
+      "items": [
+        {
+          "id": "a2x8r1",
+          "prompt": "¿Dónde prefieren cenar los domingos?",
+          "options": [
+            "En un restaurante",
+            "En casa de los abuelos",
+            "En su propia casa"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «preferimos cenar en casa de mis abuelos»."
+        },
+        {
+          "id": "a2x8r2",
+          "prompt": "¿Qué pide siempre la persona de postre?",
+          "options": [
+            "Fruta",
+            "Postre de chocolate",
+            "Helado"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Yo siempre pido el postre de chocolate»."
+        },
+        {
+          "id": "a2x8r3",
+          "prompt": "¿Qué hacen los primos después de comer?",
+          "options": [
+            "Juegan en el jardín",
+            "Duermen la siesta",
+            "Ven la televisión"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mis primos duermen la siesta después de comer»."
+        },
+        {
+          "id": "a2x8r4",
+          "prompt": "¿Qué prefiere hacer la persona en vez de dormir la siesta?",
+          "options": [
+            "Leer",
+            "Jugar en el jardín",
+            "Ver televisión"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «yo prefiero jugar en el jardín»."
+        }
+      ]
+    },
+    {
+      "id": "a2x8-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x8o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ella",
+            "sirve",
+            "la",
+            "cena",
+            "a",
+            "las",
+            "ocho"
+          ],
+          "explanation": "Sujeto + servir (e>i) + objeto + complemento de hora."
+        },
+        {
+          "id": "a2x8o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Nosotros",
+            "preferimos",
+            "quedarnos",
+            "en",
+            "casa"
+          ],
+          "explanation": "Sujeto + preferir (nosotros, sin cambio) + infinitivo reflexivo + complemento."
+        }
+      ]
     }
   ],
   "summary": [

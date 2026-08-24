@@ -246,6 +246,91 @@
           "explanation": "El bolígrafo es el objeto que escribe con tinta."
         }
       ]
+    },
+    {
+      "id": "pa4x-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: La Mochila de Pablo",
+      "passage": "<p>Pablo lleva su mochila a clase todos los días. Dentro tiene dos cuadernos, tres lápices, un libro y una goma. Su profesora escribe en la pizarra y los estudiantes escuchan con atención. Después de la clase, Pablo guarda todo en la mochila otra vez.</p>",
+      "items": [
+        {
+          "id": "pa4xr1",
+          "prompt": "¿Cuántos cuadernos tiene Pablo en la mochila?",
+          "options": [
+            "Uno",
+            "Dos",
+            "Tres"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Dentro tiene dos cuadernos»."
+        },
+        {
+          "id": "pa4xr2",
+          "prompt": "¿Dónde escribe la profesora?",
+          "options": [
+            "En un cuaderno",
+            "En la pizarra",
+            "En un libro"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Su profesora escribe en la pizarra»."
+        },
+        {
+          "id": "pa4xr3",
+          "prompt": "¿Qué hacen los estudiantes durante la clase?",
+          "options": [
+            "Duermen",
+            "Escuchan con atención",
+            "Comen"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «los estudiantes escuchan con atención»."
+        },
+        {
+          "id": "pa4xr4",
+          "prompt": "¿Pablo lleva la mochila solo algunos días?",
+          "options": [
+            "Sí, solo los lunes",
+            "No, todos los días",
+            "No lo dice"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice que Pablo lleva su mochila «todos los días»."
+        }
+      ]
+    },
+    {
+      "id": "pa4x-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "pa4xo1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Necesito",
+            "un",
+            "lápiz",
+            "y",
+            "una",
+            "goma"
+          ],
+          "explanation": "Necesito + objeto + y + otro objeto, con los artículos correctos según el género."
+        },
+        {
+          "id": "pa4xo2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "La",
+            "profesora",
+            "escribe",
+            "en",
+            "la",
+            "pizarra"
+          ],
+          "explanation": "Sujeto + verbo + complemento de lugar."
+        }
+      ]
     }
   ],
   "summary": [

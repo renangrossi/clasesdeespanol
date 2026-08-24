@@ -148,6 +148,91 @@
           "explanation": "El destino de un viaje se expresa con para, no con por; por la mañana sí es correcto, ya que expresa un periodo de tiempo."
         }
       ]
+    },
+    {
+      "id": "b1x11-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Viaje de Trabajo",
+      "passage": "<p>Salgo para Buenos Aires mañana por la mañana por motivos de trabajo. Compré el billete por internet, y pagué bastante poco por él. Necesito terminar el informe para el lunes, así que trabajaré durante el vuelo. Para mí, viajar por trabajo siempre es agotador.</p>",
+      "items": [
+        {
+          "id": "b1x11r1",
+          "prompt": "¿Adónde viaja la persona?",
+          "options": [
+            "A Madrid",
+            "A Buenos Aires",
+            "A Lima"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Salgo para Buenos Aires mañana por la mañana»."
+        },
+        {
+          "id": "b1x11r2",
+          "prompt": "¿Cómo compró el billete?",
+          "options": [
+            "En una agencia",
+            "Por internet",
+            "Por teléfono"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Compré el billete por internet»."
+        },
+        {
+          "id": "b1x11r3",
+          "prompt": "¿Para cuándo necesita terminar el informe?",
+          "options": [
+            "Para el viernes",
+            "Para el lunes",
+            "Para el domingo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Necesito terminar el informe para el lunes»."
+        },
+        {
+          "id": "b1x11r4",
+          "prompt": "¿Qué opina la persona sobre viajar por trabajo?",
+          "options": [
+            "Que es divertido",
+            "Que es agotador",
+            "Que es fácil"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «viajar por trabajo siempre es agotador»."
+        }
+      ]
+    },
+    {
+      "id": "b1x11-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x11o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Este",
+            "regalo",
+            "es",
+            "para",
+            "ti"
+          ],
+          "explanation": "Ser + para (destinatario) + pronombre."
+        },
+        {
+          "id": "b1x11o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Caminamos",
+            "por",
+            "el",
+            "parque",
+            "toda",
+            "la",
+            "tarde"
+          ],
+          "explanation": "Verbo + por (a través de un lugar) + complemento + duración."
+        }
+      ]
     }
   ],
   "summary": [

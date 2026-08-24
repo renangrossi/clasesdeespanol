@@ -182,6 +182,91 @@
           "explanation": "Va es singular; el sujeto plural ellos necesita van."
         }
       ]
+    },
+    {
+      "id": "a1x7-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Los Planes de Marco",
+      "passage": "<p>Marco tiene veintidós años y hace deporte todos los días. Va al gimnasio por la mañana y viene a casa a mediodía. Tiene mucha hambre después de hacer ejercicio, así que hace una comida grande. Vamos a visitarlo el próximo fin de semana.</p>",
+      "items": [
+        {
+          "id": "a1x7r1",
+          "prompt": "¿Cuántos años tiene Marco?",
+          "options": [
+            "Veinte",
+            "Veintidós",
+            "Veinticinco"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Marco tiene veintidós años»."
+        },
+        {
+          "id": "a1x7r2",
+          "prompt": "¿Adónde va Marco por la mañana?",
+          "options": [
+            "Al trabajo",
+            "Al gimnasio",
+            "A la universidad"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Va al gimnasio por la mañana»."
+        },
+        {
+          "id": "a1x7r3",
+          "prompt": "¿Por qué Marco hace una comida grande?",
+          "options": [
+            "Porque tiene mucha hambre",
+            "Porque tiene invitados",
+            "Porque es su cumpleaños"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Tiene mucha hambre después de hacer ejercicio»."
+        },
+        {
+          "id": "a1x7r4",
+          "prompt": "¿Cuándo van a visitar a Marco?",
+          "options": [
+            "Hoy",
+            "El próximo fin de semana",
+            "El mes que viene"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Vamos a visitarlo el próximo fin de semana»."
+        }
+      ]
+    },
+    {
+      "id": "a1x7-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x7o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Él",
+            "va",
+            "al",
+            "gimnasio",
+            "todos",
+            "los",
+            "días"
+          ],
+          "explanation": "Sujeto + ir (él) + complemento de lugar + expresión de frecuencia."
+        },
+        {
+          "id": "a1x7o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Tengo",
+            "mucha",
+            "hambre",
+            "ahora",
+            "mismo"
+          ],
+          "explanation": "Tener + expresión fija (mucha hambre) + adverbio de tiempo."
+        }
+      ]
     }
   ],
   "summary": [

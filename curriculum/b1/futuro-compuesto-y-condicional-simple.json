@@ -139,6 +139,91 @@
           "explanation": "Esta frase ya es correcta: querría es el condicional simple de querer, con raíz irregular querr-."
         }
       ]
+    },
+    {
+      "id": "b1x3-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Planificando el Proyecto",
+      "passage": "<p>Para el viernes, ya habré terminado la primera parte del proyecto. Mi compañero dijo que él haría la segunda parte, pero todavía no la ha empezado. Serían las diez cuando me llamó para avisarme del retraso. Me gustaría terminar todo antes del fin de semana.</p>",
+      "items": [
+        {
+          "id": "b1x3r1",
+          "prompt": "¿Qué habrá terminado la persona para el viernes?",
+          "options": [
+            "Todo el proyecto",
+            "La primera parte",
+            "La segunda parte"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Para el viernes, ya habré terminado la primera parte del proyecto»."
+        },
+        {
+          "id": "b1x3r2",
+          "prompt": "¿Qué dijo el compañero que haría?",
+          "options": [
+            "La primera parte",
+            "La segunda parte",
+            "Nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Mi compañero dijo que él haría la segunda parte»."
+        },
+        {
+          "id": "b1x3r3",
+          "prompt": "¿A qué hora aproximadamente llamó el compañero?",
+          "options": [
+            "A las nueve",
+            "A las diez",
+            "A las once"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Serían las diez cuando me llamó»."
+        },
+        {
+          "id": "b1x3r4",
+          "prompt": "¿Qué le gustaría a la persona?",
+          "options": [
+            "Cancelar el proyecto",
+            "Terminar todo antes del fin de semana",
+            "Trabajar solo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Me gustaría terminar todo antes del fin de semana»."
+        }
+      ]
+    },
+    {
+      "id": "b1x3-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x3o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Para",
+            "mañana",
+            "ya",
+            "habré",
+            "acabado",
+            "esto"
+          ],
+          "explanation": "Para + momento futuro + futuro compuesto (habré + participio)."
+        },
+        {
+          "id": "b1x3o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "¿Podrías",
+            "ayudarme",
+            "con",
+            "esto",
+            "por",
+            "favor"
+          ],
+          "explanation": "Condicional simple para una petición cortés + infinitivo + complemento."
+        }
+      ]
     }
   ],
   "summary": [

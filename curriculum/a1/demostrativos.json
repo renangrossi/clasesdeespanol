@@ -165,6 +165,89 @@
           "explanation": "Casa es femenino, así que el demostrativo debe ser aquella."
         }
       ]
+    },
+    {
+      "id": "a1x10-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: En la Tienda de Ropa",
+      "passage": "<p>—Me gusta este vestido, pero prefiero ese de allí.<br>—¿Cuál, aquel azul?<br>—No, ese verde que está a tu lado.<br>—Ah, sí, estos colores son muy bonitos esta temporada.</p>",
+      "items": [
+        {
+          "id": "a1x10r1",
+          "prompt": "¿Qué vestido prefiere la clienta al final?",
+          "options": [
+            "El vestido azul",
+            "El vestido verde",
+            "El vestido que tiene puesto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto aclara: «ese verde que está a tu lado»."
+        },
+        {
+          "id": "a1x10r2",
+          "prompt": "¿\"Aquel\" se refiere a algo cerca o lejos?",
+          "options": [
+            "Cerca de quien habla",
+            "Lejos de ambos",
+            "Cerca de la otra persona"
+          ],
+          "answerIndex": 1,
+          "explanation": "Aquel/aquella se usa para algo lejos de ambos interlocutores."
+        },
+        {
+          "id": "a1x10r3",
+          "prompt": "¿De qué color es el vestido que está cerca de la otra persona?",
+          "options": [
+            "Azul",
+            "Verde",
+            "Rojo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ese verde que está a tu lado»."
+        },
+        {
+          "id": "a1x10r4",
+          "prompt": "¿Qué opinan sobre los colores de esta temporada?",
+          "options": [
+            "Que son feos",
+            "Que son muy bonitos",
+            "Que no les gustan"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «estos colores son muy bonitos esta temporada»."
+        }
+      ]
+    },
+    {
+      "id": "a1x10-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x10o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Me",
+            "gusta",
+            "este",
+            "vestido",
+            "azul"
+          ],
+          "explanation": "Pronombre + gustar + demostrativo cercano + sustantivo + adjetivo."
+        },
+        {
+          "id": "a1x10o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Prefiero",
+            "aquella",
+            "camisa",
+            "de",
+            "allí"
+          ],
+          "explanation": "Verbo + demostrativo lejano femenino + sustantivo + complemento."
+        }
+      ]
     }
   ],
   "summary": [

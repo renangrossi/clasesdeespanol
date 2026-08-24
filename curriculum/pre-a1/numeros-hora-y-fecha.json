@@ -254,6 +254,91 @@
           "explanation": "Treinta y cinco es 35."
         }
       ]
+    },
+    {
+      "id": "pa3x-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: El Horario de Marta",
+      "passage": "<p>Marta se levanta a las siete de la mañana. Desayuna a las siete y media. Sus clases empiezan a las nueve y terminan a la una de la tarde. Hoy es martes, tres de marzo. El cumpleaños de Marta es el veinte de mayo.</p>",
+      "items": [
+        {
+          "id": "pa3xr1",
+          "prompt": "¿A qué hora se levanta Marta?",
+          "options": [
+            "A las siete",
+            "A las siete y media",
+            "A las nueve"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Marta se levanta a las siete de la mañana»."
+        },
+        {
+          "id": "pa3xr2",
+          "prompt": "¿A qué hora terminan las clases de Marta?",
+          "options": [
+            "A la una de la tarde",
+            "A las nueve",
+            "A las siete y media"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «terminan a la una de la tarde»."
+        },
+        {
+          "id": "pa3xr3",
+          "prompt": "¿Qué día es hoy en el texto?",
+          "options": [
+            "Lunes",
+            "Martes",
+            "Miércoles"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Hoy es martes, tres de marzo»."
+        },
+        {
+          "id": "pa3xr4",
+          "prompt": "¿En qué mes es el cumpleaños de Marta?",
+          "options": [
+            "Marzo",
+            "Abril",
+            "Mayo"
+          ],
+          "answerIndex": 2,
+          "explanation": "El texto dice: «El cumpleaños de Marta es el veinte de mayo»."
+        }
+      ]
+    },
+    {
+      "id": "pa3x-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "pa3xo1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Son",
+            "las",
+            "nueve",
+            "de",
+            "la",
+            "mañana"
+          ],
+          "explanation": "Para dar la hora en plural se usa son las + número."
+        },
+        {
+          "id": "pa3xo2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Hoy",
+            "es",
+            "el",
+            "tres",
+            "de",
+            "marzo"
+          ],
+          "explanation": "Para la fecha: hoy es el + número + de + mes."
+        }
+      ]
     }
   ],
   "summary": [

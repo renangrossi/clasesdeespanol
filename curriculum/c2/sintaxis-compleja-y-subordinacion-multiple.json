@@ -114,6 +114,90 @@
           "prompt": "Reescribe esta frase, dividiéndola en dos oraciones más claras sin perder ningún matiz: \"El informe, que se había redactado con la esperanza de que convenciera al comité, que llevaba meses dudando de que el proyecto, tal como estaba planteado, pudiera tener éxito, resultó insuficiente.\""
         }
       ]
+    },
+    {
+      "id": "c2x1-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Párrafo Complejo",
+      "passage": "<p>Quienes deseen que su solicitud sea considerada deberán presentarla antes de que finalice el plazo, algo que, por difícil que parezca, muchos candidatos no logran cumplir. Dudo que quienes lo critican tan duramente hayan leído realmente su propuesta completa.</p>",
+      "items": [
+        {
+          "id": "c2x1r1",
+          "prompt": "¿Qué deben hacer quienes deseen que su solicitud sea considerada?",
+          "options": [
+            "Esperar una respuesta",
+            "Presentarla antes de que finalice el plazo",
+            "Llamar por teléfono"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «deberán presentarla antes de que finalice el plazo»."
+        },
+        {
+          "id": "c2x1r2",
+          "prompt": "¿Muchos candidatos logran cumplir ese requisito?",
+          "options": [
+            "Sí, casi todos",
+            "No, muchos no lo logran"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «muchos candidatos no logran cumplir» ese requisito."
+        },
+        {
+          "id": "c2x1r3",
+          "prompt": "¿Qué duda expresa la persona sobre los críticos?",
+          "options": [
+            "Que hayan leído la propuesta completa",
+            "Que existan realmente",
+            "Que tengan razón siempre"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Dudo que quienes lo critican... hayan leído realmente su propuesta completa»."
+        },
+        {
+          "id": "c2x1r4",
+          "prompt": "¿Por qué \"lleguen\" o \"deseen\" van en subjuntivo en este tipo de frases?",
+          "options": [
+            "Porque el antecedente es indefinido/general",
+            "Porque siempre se usa subjuntivo con quienes",
+            "Por error gramatical"
+          ],
+          "answerIndex": 0,
+          "explanation": "Quienes con un antecedente indefinido o general activa el subjuntivo en la relativa."
+        }
+      ]
+    },
+    {
+      "id": "c2x1-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "c2x1o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Quienes",
+            "lleguen",
+            "tarde",
+            "no",
+            "podrán",
+            "entrar"
+          ],
+          "explanation": "Quienes con antecedente indefinido + subjuntivo (lleguen) + consecuencia."
+        },
+        {
+          "id": "c2x1o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Dudo",
+            "que",
+            "esto",
+            "sea",
+            "una",
+            "coincidencia"
+          ],
+          "explanation": "Dudar que + subjuntivo (sea)."
+        }
+      ]
     }
   ],
   "summary": [

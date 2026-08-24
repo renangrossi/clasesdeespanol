@@ -254,6 +254,88 @@
           "explanation": "Me gusta corresponde a a mí."
         }
       ]
+    },
+    {
+      "id": "pa6x-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Sofía se Presenta",
+      "passage": "<p>Me llamo Sofía y soy estudiante. Tengo veinte años y tengo dos hermanas. Quiero aprender español muy bien. Me gusta la música y también me gusta el café por las mañanas. No me gusta levantarme temprano los domingos.</p>",
+      "items": [
+        {
+          "id": "pa6xr1",
+          "prompt": "¿Cuántos años tiene Sofía?",
+          "options": [
+            "Dieciocho",
+            "Veinte",
+            "Veinticinco"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Tengo veinte años»."
+        },
+        {
+          "id": "pa6xr2",
+          "prompt": "¿Qué quiere aprender Sofía?",
+          "options": [
+            "Música",
+            "Inglés",
+            "Español"
+          ],
+          "answerIndex": 2,
+          "explanation": "El texto dice: «Quiero aprender español muy bien»."
+        },
+        {
+          "id": "pa6xr3",
+          "prompt": "¿A Sofía le gusta levantarse temprano los domingos?",
+          "options": [
+            "Sí, mucho",
+            "No, no le gusta"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «No me gusta levantarme temprano los domingos»."
+        },
+        {
+          "id": "pa6xr4",
+          "prompt": "¿Cuántas hermanas tiene Sofía?",
+          "options": [
+            "Una",
+            "Dos",
+            "Tres"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «tengo dos hermanas»."
+        }
+      ]
+    },
+    {
+      "id": "pa6x-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "pa6xo1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Me",
+            "gusta",
+            "mucho",
+            "el",
+            "café"
+          ],
+          "explanation": "Pronombre + gustar (singular) + adverbio + sustantivo con artículo."
+        },
+        {
+          "id": "pa6xo2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Quiero",
+            "aprender",
+            "español",
+            "muy",
+            "bien"
+          ],
+          "explanation": "Quiero + infinitivo + complemento + intensificador."
+        }
+      ]
     }
   ],
   "summary": [

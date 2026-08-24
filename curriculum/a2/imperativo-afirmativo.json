@@ -158,6 +158,91 @@
           "explanation": "Poner tiene imperativo de tú irregular: pon, no pone."
         }
       ]
+    },
+    {
+      "id": "a2x11-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Instrucciones de la Receta",
+      "passage": "<p>Primero, corta las verduras en trozos pequeños. Después, calienta el aceite en una sartén grande. Añade las verduras y cocínalas durante diez minutos. Finalmente, sirve el plato caliente con un poco de sal y pimienta.</p>",
+      "items": [
+        {
+          "id": "a2x11r1",
+          "prompt": "¿Qué se debe hacer primero?",
+          "options": [
+            "Calentar el aceite",
+            "Cortar las verduras",
+            "Añadir sal"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Primero, corta las verduras en trozos pequeños»."
+        },
+        {
+          "id": "a2x11r2",
+          "prompt": "¿Dónde se calienta el aceite?",
+          "options": [
+            "En una olla",
+            "En una sartén grande",
+            "En el horno"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «calienta el aceite en una sartén grande»."
+        },
+        {
+          "id": "a2x11r3",
+          "prompt": "¿Cuánto tiempo se cocinan las verduras?",
+          "options": [
+            "Cinco minutos",
+            "Diez minutos",
+            "Veinte minutos"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «cocínalas durante diez minutos»."
+        },
+        {
+          "id": "a2x11r4",
+          "prompt": "¿Cómo se sirve el plato?",
+          "options": [
+            "Frío",
+            "Caliente",
+            "Templado"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «sirve el plato caliente»."
+        }
+      ]
+    },
+    {
+      "id": "a2x11-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a2x11o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Corta",
+            "las",
+            "verduras",
+            "en",
+            "trozos",
+            "pequeños"
+          ],
+          "explanation": "Imperativo afirmativo + objeto + complemento con en."
+        },
+        {
+          "id": "a2x11o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Añade",
+            "sal",
+            "y",
+            "pimienta",
+            "al",
+            "final"
+          ],
+          "explanation": "Imperativo afirmativo + objetos + expresión de tiempo."
+        }
+      ]
     }
   ],
   "summary": [

@@ -109,6 +109,89 @@
           "explanation": "Fueres y vieres son formas de futuro de subjuntivo, conservadas en este refrán tradicional."
         }
       ]
+    },
+    {
+      "id": "b2x12-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Fragmento de Reglamento",
+      "passage": "<p>El que incumpliere esta norma deberá pagar una indemnización según lo establecido. Quien resultare elegido asumirá el cargo de inmediato. Si no hubiere objeciones, se dará por aprobada la propuesta. Estas formas ya casi no se usan en el habla cotidiana.</p>",
+      "items": [
+        {
+          "id": "b2x12r1",
+          "prompt": "¿Qué debe pagar quien incumpla la norma?",
+          "options": [
+            "Una multa fija",
+            "Una indemnización",
+            "Nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «deberá pagar una indemnización»."
+        },
+        {
+          "id": "b2x12r2",
+          "prompt": "¿Qué pasa si no hay objeciones?",
+          "options": [
+            "Se rechaza la propuesta",
+            "Se da por aprobada la propuesta",
+            "Se pospone la decisión"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Si no hubiere objeciones, se dará por aprobada la propuesta»."
+        },
+        {
+          "id": "b2x12r3",
+          "prompt": "¿En qué tipo de texto es más probable encontrar estas formas verbales?",
+          "options": [
+            "Un mensaje de texto",
+            "Un documento legal",
+            "Una receta de cocina"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto explica que son formas de un reglamento, propias del lenguaje jurídico."
+        },
+        {
+          "id": "b2x12r4",
+          "prompt": "¿Estas formas se usan mucho en el habla cotidiana?",
+          "options": [
+            "Sí, mucho",
+            "Casi no se usan"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Estas formas ya casi no se usan en el habla cotidiana»."
+        }
+      ]
+    },
+    {
+      "id": "b2x12-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x12o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "que",
+            "faltare",
+            "será",
+            "sancionado"
+          ],
+          "explanation": "El que + futuro de subjuntivo (faltare) + consecuencia."
+        },
+        {
+          "id": "b2x12o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Adonde",
+            "fueres",
+            "haz",
+            "lo",
+            "que",
+            "vieres"
+          ],
+          "explanation": "Refrán tradicional que conserva el futuro de subjuntivo (fueres, vieres)."
+        }
+      ]
     }
   ],
   "summary": [

@@ -176,6 +176,91 @@
           "explanation": "La forma correcta e invariable de haber para expresar existencia es hay, no han."
         }
       ]
+    },
+    {
+      "id": "a1x11-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: El Centro de la Ciudad",
+      "passage": "<p>En el centro de la ciudad hay muchas tiendas y restaurantes. El museo está al lado del parque, y la biblioteca está enfrente del ayuntamiento. Hay también una plaza muy bonita donde la gente se reúne los fines de semana.</p>",
+      "items": [
+        {
+          "id": "a1x11r1",
+          "prompt": "¿Qué hay en el centro de la ciudad?",
+          "options": [
+            "Solo tiendas",
+            "Muchas tiendas y restaurantes",
+            "Solo restaurantes"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «hay muchas tiendas y restaurantes»."
+        },
+        {
+          "id": "a1x11r2",
+          "prompt": "¿Dónde está el museo?",
+          "options": [
+            "Al lado del parque",
+            "Enfrente del ayuntamiento",
+            "Dentro de la plaza"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «El museo está al lado del parque»."
+        },
+        {
+          "id": "a1x11r3",
+          "prompt": "¿Qué está enfrente del ayuntamiento?",
+          "options": [
+            "El museo",
+            "La biblioteca",
+            "La plaza"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «la biblioteca está enfrente del ayuntamiento»."
+        },
+        {
+          "id": "a1x11r4",
+          "prompt": "¿Cuándo se reúne la gente en la plaza?",
+          "options": [
+            "Entre semana",
+            "Los fines de semana",
+            "Todas las noches"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «la gente se reúne los fines de semana»."
+        }
+      ]
+    },
+    {
+      "id": "a1x11-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x11o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Hay",
+            "una",
+            "plaza",
+            "muy",
+            "bonita"
+          ],
+          "explanation": "Hay (existencia) + artículo indefinido + sustantivo + adjetivo."
+        },
+        {
+          "id": "a1x11o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "museo",
+            "está",
+            "al",
+            "lado",
+            "del",
+            "parque"
+          ],
+          "explanation": "El museo (ubicación conocida) + estar + complemento de lugar con al lado de."
+        }
+      ]
     }
   ],
   "summary": [

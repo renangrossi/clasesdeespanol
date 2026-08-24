@@ -176,6 +176,89 @@
           "explanation": "Manzanas es plural, así que el verbo debe concordar como gustan."
         }
       ]
+    },
+    {
+      "id": "a1x14-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Nuestros Gustos",
+      "passage": "<p>A mí me encanta la música latina, pero a mi hermano le gusta más el rock. A nosotros nos interesan las películas de misterio. A mis padres les molesta el ruido por las noches. A ti te gusta el fútbol, ¿verdad?</p>",
+      "items": [
+        {
+          "id": "a1x14r1",
+          "prompt": "¿Qué tipo de música le encanta a la persona que habla?",
+          "options": [
+            "Rock",
+            "Música latina",
+            "Música clásica"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «A mí me encanta la música latina»."
+        },
+        {
+          "id": "a1x14r2",
+          "prompt": "¿Qué le gusta más al hermano?",
+          "options": [
+            "La música latina",
+            "El rock",
+            "El fútbol"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «a mi hermano le gusta más el rock»."
+        },
+        {
+          "id": "a1x14r3",
+          "prompt": "¿Qué les interesa a \"nosotros\"?",
+          "options": [
+            "Las películas de misterio",
+            "Las películas de terror",
+            "Los documentales"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «A nosotros nos interesan las películas de misterio»."
+        },
+        {
+          "id": "a1x14r4",
+          "prompt": "¿Qué les molesta a los padres?",
+          "options": [
+            "El calor",
+            "El ruido por las noches",
+            "El tráfico"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «A mis padres les molesta el ruido por las noches»."
+        }
+      ]
+    },
+    {
+      "id": "a1x14-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x14o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Me",
+            "encanta",
+            "la",
+            "música",
+            "latina"
+          ],
+          "explanation": "Pronombre + encantar (singular) + sustantivo con artículo."
+        },
+        {
+          "id": "a1x14o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Nos",
+            "interesan",
+            "mucho",
+            "las",
+            "películas"
+          ],
+          "explanation": "Pronombre + interesar (plural, concuerda con películas) + adverbio + sustantivo plural."
+        }
+      ]
     }
   ],
   "summary": [

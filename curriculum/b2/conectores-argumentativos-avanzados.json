@@ -132,6 +132,93 @@
           "explanation": "Sin embargo introduce un contraste; aquí la segunda idea refuerza la primera, así que corresponde de hecho."
         }
       ]
+    },
+    {
+      "id": "b2x9-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Análisis Breve",
+      "passage": "<p>El proyecto avanza bien; ahora bien, todavía faltan detalles por resolver. De hecho, el equipo ha superado varias expectativas iniciales. A mí me gusta el enfoque actual; a mi colega, en cambio, le preocupa el presupuesto. Por el contrario, otros miembros piensan que todo va perfecto.</p>",
+      "items": [
+        {
+          "id": "b2x9r1",
+          "prompt": "¿Qué matización se hace sobre el avance del proyecto?",
+          "options": [
+            "Que ya está terminado",
+            "Que faltan detalles por resolver",
+            "Que va muy mal"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «ahora bien, todavía faltan detalles por resolver»."
+        },
+        {
+          "id": "b2x9r2",
+          "prompt": "¿Qué refuerza el conector \"de hecho\"?",
+          "options": [
+            "Una duda",
+            "Que el equipo ha superado expectativas",
+            "Un problema nuevo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «De hecho, el equipo ha superado varias expectativas»."
+        },
+        {
+          "id": "b2x9r3",
+          "prompt": "¿Qué le preocupa al colega?",
+          "options": [
+            "El enfoque",
+            "El presupuesto",
+            "El tiempo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «a mi colega, en cambio, le preocupa el presupuesto»."
+        },
+        {
+          "id": "b2x9r4",
+          "prompt": "¿Qué opinan otros miembros, según el texto?",
+          "options": [
+            "Que todo va mal",
+            "Que todo va perfecto",
+            "Que no opinan"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «otros miembros piensan que todo va perfecto»."
+        }
+      ]
+    },
+    {
+      "id": "b2x9-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b2x9o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "El",
+            "plan",
+            "es",
+            "bueno",
+            "ahora",
+            "bien",
+            "es",
+            "caro"
+          ],
+          "explanation": "Idea + ahora bien (matización) + segunda idea."
+        },
+        {
+          "id": "b2x9o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "No",
+            "ayudó",
+            "por",
+            "el",
+            "contrario",
+            "empeoró"
+          ],
+          "explanation": "Idea negativa + por el contrario (oposición fuerte) + consecuencia."
+        }
+      ]
     }
   ],
   "summary": [

@@ -656,3 +656,163 @@ LESSONS = [
         ],
     },
 ]
+
+# =======================================================================
+# EXTRA_EXERCISES — bloques adicionales de práctica (lectura y ordenar
+# frases) fusionados en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES = {
+    "c1-pluscuamperfecto-de-subjuntivo": [
+        {"id": "c1x1-reading", "type": "reading-comprehension", "title": "Lectura: Un Arrepentimiento",
+         "passage": "<p>Si hubiera sabido lo difícil que sería el examen, habría estudiado mucho más. Ojalá hubiéramos reservado los billetes antes, porque ahora están agotados. Era el mejor concierto que hubiera visto en años, aunque el sonido no fuera perfecto.</p>",
+         "items": [
+            {"id": "c1x1r1", "prompt": "¿Qué habría hecho la persona si hubiera sabido la dificultad del examen?", "options": ["No presentarse", "Estudiar mucho más", "Pedir ayuda"], "answerIndex": 1, "explanation": "El texto dice: «habría estudiado mucho más»."},
+            {"id": "c1x1r2", "prompt": "¿Por qué se lamenta sobre los billetes?", "options": ["Porque eran muy caros", "Porque ahora están agotados", "Porque los perdieron"], "answerIndex": 1, "explanation": "El texto dice: «ahora están agotados»."},
+            {"id": "c1x1r3", "prompt": "¿Cómo describe el concierto?", "options": ["El peor que había visto", "El mejor que hubiera visto en años", "Un concierto normal"], "answerIndex": 1, "explanation": "El texto dice: «Era el mejor concierto que hubiera visto en años»."},
+            {"id": "c1x1r4", "prompt": "¿El sonido del concierto era perfecto?", "options": ["Sí", "No del todo"], "answerIndex": 1, "explanation": "El texto dice: «aunque el sonido no fuera perfecto»."},
+         ]},
+        {"id": "c1x1-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x1o1", "prompt": "Ordena las palabras.", "words": ["Si", "hubiera", "estudiado", "más", "habría", "aprobado"], "explanation": "Condicional irreal de pasado: si + pluscuamperfecto de subjuntivo + condicional compuesto."},
+            {"id": "c1x1o2", "prompt": "Ordena las palabras.", "words": ["Ojalá", "hubiera", "llegado", "a", "tiempo"], "explanation": "Ojalá + pluscuamperfecto de subjuntivo expresa un arrepentimiento sobre el pasado."},
+         ]},
+    ],
+    "c1-condicionales-complejas": [
+        {"id": "c1x2-reading", "type": "reading-comprehension", "title": "Lectura: Cuatro Escenarios",
+         "passage": "<p>Si tengo tiempo esta tarde, te ayudo con la mudanza sin problema. Si fuera más paciente, discutiríamos mucho menos. Si me lo hubieras dicho antes, no habría llegado tarde. Si no hubiera aceptado ese trabajo, ahora viviría en otra ciudad.</p>",
+         "items": [
+            {"id": "c1x2r1", "prompt": "¿Qué tipo de condición es \"Si tengo tiempo esta tarde\"?", "options": ["Real", "Potencial", "Irreal de pasado"], "answerIndex": 0, "explanation": "Presente de indicativo en la prótasis indica una condición real y probable."},
+            {"id": "c1x2r2", "prompt": "¿Qué pasaría si la persona fuera más paciente?", "options": ["Discutirían más", "Discutirían menos", "No cambiaría nada"], "answerIndex": 1, "explanation": "El texto dice: «discutiríamos mucho menos»."},
+            {"id": "c1x2r3", "prompt": "¿Por qué llegó tarde la persona?", "options": ["Porque no se lo dijeron a tiempo", "Porque se durmió", "Porque el tráfico era denso"], "answerIndex": 0, "explanation": "El texto implica que si se lo hubieran dicho antes, no habría llegado tarde — es decir, no se lo dijeron a tiempo."},
+            {"id": "c1x2r4", "prompt": "¿Qué tipo de condicional es la última frase, con prótasis pasada y consecuencia presente?", "options": ["Real", "Potencial pura", "Mixta"], "answerIndex": 2, "explanation": "Prótasis con pluscuamperfecto de subjuntivo y consecuencia con condicional simple: condicional mixta."},
+         ]},
+        {"id": "c1x2-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x2o1", "prompt": "Ordena las palabras.", "words": ["Si", "estudias", "todos", "los", "días", "aprenderás", "rápido"], "explanation": "Condicional real: si + presente, futuro en la consecuencia."},
+            {"id": "c1x2o2", "prompt": "Ordena las palabras.", "words": ["Si", "no", "hubiera", "aceptado", "viviría", "aquí"], "explanation": "Condicional mixta: prótasis pasada, consecuencia en presente con condicional simple."},
+         ]},
+    ],
+    "c1-matices-del-subjuntivo": [
+        {"id": "c1x3-reading", "type": "reading-comprehension", "title": "Lectura: Percepciones y Certezas",
+         "passage": "<p>No veo que estés realmente listo para este cambio tan grande. No creo que sea tan difícil como parece al principio. Quizá tengas razón sobre el proyecto, aunque no estoy completamente seguro. Es raro que no haya llamado todavía, normalmente es muy puntual.</p>",
+         "items": [
+            {"id": "c1x3r1", "prompt": "¿Qué percibe la persona sobre el cambio?", "options": ["Que está listo", "Que no está listo", "No dice nada"], "answerIndex": 1, "explanation": "El texto dice: «No veo que estés realmente listo para este cambio»."},
+            {"id": "c1x3r2", "prompt": "¿Qué opina sobre la dificultad del proyecto?", "options": ["Que es muy difícil", "Que no es tan difícil", "No tiene opinión"], "answerIndex": 1, "explanation": "El texto dice: «No creo que sea tan difícil como parece»."},
+            {"id": "c1x3r3", "prompt": "¿Está completamente seguro de que la otra persona tiene razón?", "options": ["Sí, totalmente", "No del todo"], "answerIndex": 1, "explanation": "El texto dice: «aunque no estoy completamente seguro»."},
+            {"id": "c1x3r4", "prompt": "¿Por qué le parece raro que no haya llamado?", "options": ["Porque nunca llama", "Porque normalmente es muy puntual", "Porque está de vacaciones"], "answerIndex": 1, "explanation": "El texto dice: «normalmente es muy puntual»."},
+         ]},
+        {"id": "c1x3-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x3o1", "prompt": "Ordena las palabras.", "words": ["No", "veo", "que", "esto", "tenga", "sentido"], "explanation": "Negación de percepción + subjuntivo (tenga)."},
+            {"id": "c1x3o2", "prompt": "Ordena las palabras.", "words": ["Quizá", "llueva", "esta", "tarde", "no", "estoy", "seguro"], "explanation": "Quizá con subjuntivo expresa más duda que certeza."},
+         ]},
+    ],
+    "c1-construcciones-enfaticas": [
+        {"id": "c1x4-reading", "type": "reading-comprehension", "title": "Lectura: Aclarando un Malentendido",
+         "passage": "<p>Lo que realmente me molestó fue el tono con el que me hablaste. Es que no tuve tiempo de avisarte antes, lo siento mucho. Lo que pasó fue muy distinto a lo que imaginas. Fue precisamente por eso por lo que decidí llamarte enseguida.</p>",
+         "items": [
+            {"id": "c1x4r1", "prompt": "¿Qué molestó realmente a la persona?", "options": ["El contenido del mensaje", "El tono con el que le hablaron", "La hora de la llamada"], "answerIndex": 1, "explanation": "El texto dice: «Lo que realmente me molestó fue el tono con el que me hablaste»."},
+            {"id": "c1x4r2", "prompt": "¿Por qué no avisó antes?", "options": ["Porque no quiso", "Porque no tuvo tiempo", "Porque se olvidó"], "answerIndex": 1, "explanation": "El texto dice: «Es que no tuve tiempo de avisarte antes»."},
+            {"id": "c1x4r3", "prompt": "¿Lo que pasó fue como imaginaba la otra persona?", "options": ["Sí, exactamente", "No, fue muy distinto"], "answerIndex": 1, "explanation": "El texto dice: «Lo que pasó fue muy distinto a lo que imaginas»."},
+            {"id": "c1x4r4", "prompt": "¿Por qué decidió llamar enseguida?", "options": ["Por costumbre", "Precisamente por lo que pasó", "Por casualidad"], "answerIndex": 1, "explanation": "El texto termina: «Fue precisamente por eso por lo que decidí llamarte enseguida»."},
+         ]},
+        {"id": "c1x4-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x4o1", "prompt": "Ordena las palabras.", "words": ["Lo", "que", "necesito", "es", "más", "tiempo"], "explanation": "Construcción enfática: lo que + verbo + es + lo destacado."},
+            {"id": "c1x4o2", "prompt": "Ordena las palabras.", "words": ["Es", "que", "no", "pude", "venir", "antes"], "explanation": "Es que + explicación, fórmula típica para justificar algo."},
+         ]},
+    ],
+    "c1-nominalizacion-y-estilo-academico": [
+        {"id": "c1x5-reading", "type": "reading-comprehension", "title": "Lectura: Un Resumen Académico",
+         "passage": "<p>La implementación de esta política requiere una evaluación cuidadosa de sus consecuencias. El análisis de los datos revela una tendencia clara hacia la digitalización. La reducción del presupuesto podría afectar la calidad de la investigación. Se recomienda la revisión periódica de estos indicadores.</p>",
+         "items": [
+            {"id": "c1x5r1", "prompt": "¿Qué requiere la implementación de la política?", "options": ["Aprobación inmediata", "Una evaluación cuidadosa", "Más financiamiento"], "answerIndex": 1, "explanation": "El texto dice: «requiere una evaluación cuidadosa de sus consecuencias»."},
+            {"id": "c1x5r2", "prompt": "¿Qué tendencia revela el análisis de los datos?", "options": ["Hacia la digitalización", "Hacia la reducción de personal", "Hacia la expansión"], "answerIndex": 0, "explanation": "El texto dice: «revela una tendencia clara hacia la digitalización»."},
+            {"id": "c1x5r3", "prompt": "¿Qué podría afectar la calidad de la investigación?", "options": ["El exceso de personal", "La reducción del presupuesto", "La falta de tiempo"], "answerIndex": 1, "explanation": "El texto dice: «La reducción del presupuesto podría afectar la calidad»."},
+            {"id": "c1x5r4", "prompt": "¿Qué se recomienda al final?", "options": ["Eliminar los indicadores", "La revisión periódica de los indicadores", "Ignorar los datos"], "answerIndex": 1, "explanation": "El texto termina: «Se recomienda la revisión periódica de estos indicadores»."},
+         ]},
+        {"id": "c1x5-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x5o1", "prompt": "Ordena las palabras.", "words": ["La", "implementación", "requiere", "más", "recursos"], "explanation": "Nominalización (implementación) como sujeto + verbo + objeto."},
+            {"id": "c1x5o2", "prompt": "Ordena las palabras.", "words": ["Se", "recomienda", "la", "revisión", "del", "informe"], "explanation": "Se recomienda + nominalización (revisión) como objeto."},
+         ]},
+    ],
+    "c1-conectores-textuales-avanzados": [
+        {"id": "c1x6-reading", "type": "reading-comprehension", "title": "Lectura: Un Argumento Estructurado",
+         "passage": "<p>En primer lugar, cabe destacar el impacto positivo de esta medida en la economía local. Asimismo, no cabe duda de que ha generado empleo en la región. No obstante, algunos expertos señalan riesgos a largo plazo. En definitiva, se trata de una decisión con luces y sombras.</p>",
+         "items": [
+            {"id": "c1x6r1", "prompt": "¿Qué se destaca en primer lugar?", "options": ["El impacto negativo", "El impacto positivo en la economía", "Los riesgos"], "answerIndex": 1, "explanation": "El texto dice: «cabe destacar el impacto positivo de esta medida en la economía local»."},
+            {"id": "c1x6r2", "prompt": "¿Qué ha generado la medida, según el texto?", "options": ["Desempleo", "Empleo en la región", "Inflación"], "answerIndex": 1, "explanation": "El texto dice: «ha generado empleo en la región»."},
+            {"id": "c1x6r3", "prompt": "¿Qué señalan algunos expertos?", "options": ["Que todo es perfecto", "Riesgos a largo plazo", "Que no hay ningún riesgo"], "answerIndex": 1, "explanation": "El texto dice: «algunos expertos señalan riesgos a largo plazo»."},
+            {"id": "c1x6r4", "prompt": "¿Cómo se describe la decisión al final?", "options": ["Completamente positiva", "Con luces y sombras", "Un fracaso total"], "answerIndex": 1, "explanation": "El texto termina: «se trata de una decisión con luces y sombras»."},
+         ]},
+        {"id": "c1x6-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x6o1", "prompt": "Ordena las palabras.", "words": ["En", "primer", "lugar", "quiero", "agradecer", "a", "todos"], "explanation": "Conector de orden + verbo + objeto."},
+            {"id": "c1x6o2", "prompt": "Ordena las palabras.", "words": ["No", "cabe", "duda", "de", "que", "funciona"], "explanation": "Expresión de certeza + de que + indicativo."},
+         ]},
+    ],
+    "c1-perifrasis-verbales-avanzadas": [
+        {"id": "c1x7-reading", "type": "reading-comprehension", "title": "Lectura: Un Proceso en Marcha",
+         "passage": "<p>Venimos observando esta tendencia desde hace varios meses. El equipo lleva analizados más de mil casos hasta ahora. Debe de haber una razón lógica detrás de este comportamiento. Estamos por terminar la primera fase del estudio.</p>",
+         "items": [
+            {"id": "c1x7r1", "prompt": "¿Desde cuándo observan esta tendencia?", "options": ["Desde ayer", "Desde hace varios meses", "Desde hace años"], "answerIndex": 1, "explanation": "El texto dice: «Venimos observando esta tendencia desde hace varios meses»."},
+            {"id": "c1x7r2", "prompt": "¿Cuántos casos ha analizado el equipo?", "options": ["Cientos", "Más de mil", "Menos de cien"], "answerIndex": 1, "explanation": "El texto dice: «lleva analizados más de mil casos»."},
+            {"id": "c1x7r3", "prompt": "¿Qué expresa \"debe de haber una razón\"?", "options": ["Una obligación", "Una suposición", "Una orden"], "answerIndex": 1, "explanation": "Deber de + infinitivo expresa una suposición o probabilidad, no obligación."},
+            {"id": "c1x7r4", "prompt": "¿En qué fase está el estudio, según el texto?", "options": ["A punto de terminar la primera fase", "Recién empezado", "Completamente terminado"], "answerIndex": 0, "explanation": "El texto termina: «Estamos por terminar la primera fase del estudio»."},
+         ]},
+        {"id": "c1x7-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x7o1", "prompt": "Ordena las palabras.", "words": ["Venimos", "trabajando", "en", "esto", "juntos"], "explanation": "Venir + gerundio expresa un proceso progresivo desde el pasado."},
+            {"id": "c1x7o2", "prompt": "Ordena las palabras.", "words": ["Debe", "de", "estar", "muy", "cansado", "hoy"], "explanation": "Deber de + infinitivo, suposición sobre un estado presente."},
+         ]},
+    ],
+    "c1-voseo-ustedeo-y-variacion-dialectal": [
+        {"id": "c1x8-reading", "type": "reading-comprehension", "title": "Lectura: Variedades del Español",
+         "passage": "<p>En Colombia, muchas personas usan \"usted\" incluso con familiares cercanos, un fenómeno llamado ustedeo. En Argentina, el voseo (vos tenés, vos podés) reemplaza casi por completo al tuteo. En España, el vosotros sigue siendo la forma habitual del plural informal, algo que sorprende a muchos hispanohablantes de América.</p>",
+         "items": [
+            {"id": "c1x8r1", "prompt": "¿Qué es el ustedeo, según el texto?", "options": ["Usar tú con desconocidos", "Usar usted incluso con familiares cercanos", "No usar ningún pronombre"], "answerIndex": 1, "explanation": "El texto dice: «muchas personas usan «usted» incluso con familiares cercanos, un fenómeno llamado ustedeo»."},
+            {"id": "c1x8r2", "prompt": "¿Qué reemplaza casi por completo el voseo en Argentina?", "options": ["Al ustedeo", "Al tuteo", "Al vosotros"], "answerIndex": 1, "explanation": "El texto dice: «el voseo... reemplaza casi por completo al tuteo»."},
+            {"id": "c1x8r3", "prompt": "¿Dónde sigue siendo habitual el vosotros?", "options": ["En Colombia", "En Argentina", "En España"], "answerIndex": 2, "explanation": "El texto dice: «En España, el vosotros sigue siendo la forma habitual del plural informal»."},
+            {"id": "c1x8r4", "prompt": "¿A quién sorprende el uso de vosotros?", "options": ["A los españoles", "A muchos hispanohablantes de América", "A nadie"], "answerIndex": 1, "explanation": "El texto termina: «algo que sorprende a muchos hispanohablantes de América»."},
+         ]},
+        {"id": "c1x8-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x8o1", "prompt": "Ordena las palabras.", "words": ["Vos", "tenés", "toda", "la", "razón"], "explanation": "Voseo argentino: vos + tener conjugado en voseo (tenés)."},
+            {"id": "c1x8o2", "prompt": "Ordena las palabras.", "words": ["Usted", "sabe", "mejor", "que", "nadie"], "explanation": "Ustedeo: usted con verbo en tercera persona, incluso en contexto cercano."},
+         ]},
+    ],
+    "c1-ironia-atenuacion-y-cortesia": [
+        {"id": "c1x9-reading", "type": "reading-comprehension", "title": "Lectura: Un Comentario con Doble Sentido",
+         "passage": "<p>«¡Qué puntual llegas!», le dijo con una sonrisa, aunque había llegado con una hora de retraso. Cabría considerar otras opciones antes de decidir. Quizás no sea el momento más adecuado para esta conversación. En cierto modo, entiendo tu punto de vista, aunque no lo comparta del todo.</p>",
+         "items": [
+            {"id": "c1x9r1", "prompt": "¿Qué tono tiene el comentario \"¡Qué puntual llegas!\"?", "options": ["Sincero", "Irónico", "Neutro"], "answerIndex": 1, "explanation": "Dado que la persona llegó con retraso, el comentario es irónico, no literal."},
+            {"id": "c1x9r2", "prompt": "¿Qué recomienda la frase \"cabría considerar otras opciones\"?", "options": ["Decidir inmediatamente", "Pensar en otras posibilidades primero", "No hacer nada"], "answerIndex": 1, "explanation": "Cabría considerar es una forma atenuada de sugerir que se piense en alternativas."},
+            {"id": "c1x9r3", "prompt": "¿La persona está segura de que es el momento adecuado?", "options": ["Sí, totalmente", "No, lo duda"], "answerIndex": 1, "explanation": "El texto dice: «Quizás no sea el momento más adecuado»."},
+            {"id": "c1x9r4", "prompt": "¿Comparte del todo el punto de vista del otro?", "options": ["Sí, completamente", "No del todo"], "answerIndex": 1, "explanation": "El texto termina: «aunque no lo comparta del todo»."},
+         ]},
+        {"id": "c1x9-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x9o1", "prompt": "Ordena las palabras.", "words": ["Cabría", "reconsiderar", "esta", "parte", "del", "plan"], "explanation": "Cabría + infinitivo, forma atenuada de sugerir una revisión."},
+            {"id": "c1x9o2", "prompt": "Ordena las palabras.", "words": ["En", "cierto", "modo", "tienes", "razón"], "explanation": "En cierto modo + indicativo, atenuación de un acuerdo parcial."},
+         ]},
+    ],
+    "c1-espanol-academico-y-profesional": [
+        {"id": "c1x10-reading", "type": "reading-comprehension", "title": "Lectura: Un Correo Profesional Formal",
+         "passage": "<p>Estimados señores: Por medio de la presente, deseo formalizar mi solicitud de participación en el programa de becas. Adjunto encontrarán la documentación requerida. Quedo a su entera disposición para cualquier aclaración adicional. Sin otro particular, les saluda atentamente.</p>",
+         "items": [
+            {"id": "c1x10r1", "prompt": "¿Qué desea formalizar la persona?", "options": ["Una queja", "Su solicitud de participación en el programa de becas", "Una renuncia"], "answerIndex": 1, "explanation": "El texto dice: «deseo formalizar mi solicitud de participación en el programa de becas»."},
+            {"id": "c1x10r2", "prompt": "¿Qué se adjunta al correo?", "options": ["Una carta de recomendación", "La documentación requerida", "Un currículum"], "answerIndex": 1, "explanation": "El texto dice: «Adjunto encontrarán la documentación requerida»."},
+            {"id": "c1x10r3", "prompt": "¿Para qué queda a disposición la persona?", "options": ["Para una entrevista", "Para cualquier aclaración adicional", "Para pagar una cuota"], "answerIndex": 1, "explanation": "El texto dice: «Quedo a su entera disposición para cualquier aclaración adicional»."},
+            {"id": "c1x10r4", "prompt": "¿Qué fórmula de cierre usa el correo?", "options": ["Un abrazo", "Sin otro particular, les saluda atentamente", "Hasta pronto"], "answerIndex": 1, "explanation": "El texto termina: «Sin otro particular, les saluda atentamente»."},
+         ]},
+        {"id": "c1x10-order", "type": "ordering", "title": "Ordena la Frase",
+         "items": [
+            {"id": "c1x10o1", "prompt": "Ordena las palabras.", "words": ["Por", "medio", "de", "la", "presente", "solicito", "información"], "explanation": "Fórmula formal fija (por medio de la presente) + verbo + objeto."},
+            {"id": "c1x10o2", "prompt": "Ordena las palabras.", "words": ["Quedo", "a", "su", "entera", "disposición"], "explanation": "Fórmula de cortesía formal fija, común al cierre de correos profesionales."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES.get(_lesson["id"], []))

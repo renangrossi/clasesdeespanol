@@ -176,6 +176,90 @@
           "explanation": "Amigas es femenino plural, así que nuestro debe concordar como nuestras."
         }
       ]
+    },
+    {
+      "id": "a1x9-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Nuestras Cosas",
+      "passage": "<p>Este es mi teléfono y esa es tu mochila. Nuestros libros están en la mesa. Su coche es nuevo, pero el mío es viejo. Vuestra casa está cerca de la nuestra, así que nos visitamos mucho.</p>",
+      "items": [
+        {
+          "id": "a1x9r1",
+          "prompt": "¿De quién es la mochila mencionada primero?",
+          "options": [
+            "Mía",
+            "Tuya",
+            "Suya"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «esa es tu mochila»."
+        },
+        {
+          "id": "a1x9r2",
+          "prompt": "¿Dónde están los libros de \"nosotros\"?",
+          "options": [
+            "En la mesa",
+            "En la mochila",
+            "En el coche"
+          ],
+          "answerIndex": 0,
+          "explanation": "El texto dice: «Nuestros libros están en la mesa»."
+        },
+        {
+          "id": "a1x9r3",
+          "prompt": "¿Cómo es el coche de \"él/ella\"?",
+          "options": [
+            "Viejo",
+            "Nuevo",
+            "Roto"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Su coche es nuevo»."
+        },
+        {
+          "id": "a1x9r4",
+          "prompt": "¿Por qué se visitan mucho las dos familias?",
+          "options": [
+            "Porque son amigas de la infancia",
+            "Porque sus casas están cerca",
+            "Porque trabajan juntas"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Vuestra casa está cerca de la nuestra, así que nos visitamos mucho»."
+        }
+      ]
+    },
+    {
+      "id": "a1x9-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "a1x9o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Este",
+            "es",
+            "mi",
+            "teléfono",
+            "nuevo"
+          ],
+          "explanation": "Demostrativo + ser + posesivo + sustantivo + adjetivo."
+        },
+        {
+          "id": "a1x9o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Nuestra",
+            "casa",
+            "está",
+            "cerca",
+            "de",
+            "aquí"
+          ],
+          "explanation": "Posesivo + sustantivo + estar + complemento de lugar."
+        }
+      ]
     }
   ],
   "summary": [

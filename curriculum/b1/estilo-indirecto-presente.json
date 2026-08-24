@@ -131,6 +131,92 @@
           "explanation": "El estilo indirecto no usa comillas: la frase citada se integra sin ellas en la oración con que."
         }
       ]
+    },
+    {
+      "id": "b1x9-reading",
+      "type": "reading-comprehension",
+      "title": "Lectura: Un Mensaje de Voz",
+      "passage": "<p>Mi hermano me dice que está en camino y que llegará en veinte minutos. Me pregunta si necesito algo del supermercado. También dice que su coche tiene un problema pequeño, pero que no es grave. Me pregunta dónde nos vemos exactamente.</p>",
+      "items": [
+        {
+          "id": "b1x9r1",
+          "prompt": "¿En cuánto tiempo dice que llegará el hermano?",
+          "options": [
+            "Diez minutos",
+            "Veinte minutos",
+            "Media hora"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «llegará en veinte minutos»."
+        },
+        {
+          "id": "b1x9r2",
+          "prompt": "¿Qué pregunta sobre el supermercado?",
+          "options": [
+            "Si van a ir juntos",
+            "Si necesita algo",
+            "Si está cerrado"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «Me pregunta si necesito algo del supermercado»."
+        },
+        {
+          "id": "b1x9r3",
+          "prompt": "¿Qué problema tiene el coche?",
+          "options": [
+            "Un problema grave",
+            "Un problema pequeño",
+            "No tiene ningún problema"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto dice: «su coche tiene un problema pequeño, pero que no es grave»."
+        },
+        {
+          "id": "b1x9r4",
+          "prompt": "¿Qué pregunta al final del mensaje?",
+          "options": [
+            "A qué hora llega",
+            "Dónde se ven exactamente",
+            "Qué van a comer"
+          ],
+          "answerIndex": 1,
+          "explanation": "El texto termina: «Me pregunta dónde nos vemos exactamente»."
+        }
+      ]
+    },
+    {
+      "id": "b1x9-order",
+      "type": "ordering",
+      "title": "Ordena la Frase",
+      "items": [
+        {
+          "id": "b1x9o1",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Ella",
+            "dice",
+            "que",
+            "está",
+            "muy",
+            "ocupada"
+          ],
+          "explanation": "Sujeto + decir que + verbo en indicativo (informa de un hecho)."
+        },
+        {
+          "id": "b1x9o2",
+          "prompt": "Ordena las palabras.",
+          "words": [
+            "Me",
+            "pregunta",
+            "si",
+            "voy",
+            "a",
+            "la",
+            "fiesta"
+          ],
+          "explanation": "Preguntar + si (pregunta de sí/no) + verbo en indicativo."
+        }
+      ]
     }
   ],
   "summary": [
