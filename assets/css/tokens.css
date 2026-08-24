@@ -11,27 +11,25 @@
    parchment/ink) se mantienen como vocabulario interno estable, para que
    components.css, layout.css, dark-mode.css y search.css no necesiten
    cambios estructurales — solo cambiaron los valores hexadecimales de
-   abajo. Paleta actual: rojo y dorado de la bandera de España (el
-   celeste de Argentina queda de lado por ahora — ver el comentario de
-   la paleta más abajo — pero los tokens navy-*/forest-* se conservan,
-   sin usarse, por si se retoma más adelante). Lee cada variable por su
-   *rol* (primary/accent/secondary-accent/ornament), no por el nombre
-   histórico de su familia de color.
+   abajo, a una paleta inspirada en las banderas de España y Argentina,
+   en lugar de la paleta "terracota y oliva" del curso de italiano o la
+   "Americana" navy/burgundy/gold del curso de inglés. Lee cada variable
+   por su *rol* (primary/accent/secondary-accent/ornament), no por el
+   nombre histórico de su familia de color.
    ======================================================================= */
 
 :root {
   /* ---- Paleta de marca --------------------------------------------------
-     Rojo de España como color principal (cabecera, pie, hero, botones
-     primarios) y el dorado de la bandera como acento (botones,
-     enlaces, insignias) — las dos franjas de color de la bandera
-     española. El celeste/azul de Argentina se deja de lado por ahora
-     a petición explícita: navy-*/forest-* siguen definidos más abajo
-     (con sus valores previos) pero ningún rol de color los usa ya; son
-     un remanente reservado por si se retoma una paleta conjunta
-     España+Argentina más adelante. El papel de fondo se mantiene
-     cálido y neutro (marfil/pergamino), como en el resto de la familia
-     de sitios, para que el rojo y el dorado respiren en vez de competir
-     entre sí. */
+     Azul celeste profundo de Argentina (autoridad, cabecera/navegación),
+     rojo de España (acento principal, como el rojo de la bandera
+     española), celeste argentino más claro (acento secundario, como las
+     franjas de la bandera de Argentina) y el dorado del Sol de Mayo —
+     un color que ambas banderas comparten en espíritu (el oro de España,
+     el sol de Argentina) — usado como ornamento y anillo de foco. El
+     papel de fondo se mantiene cálido y neutro (marfil/pergamino), como
+     en el resto de la familia de sitios, para que el rojo y el celeste
+     respiren en vez de competir entre sí. Uso restringido a propósito:
+     rojo y dorado son acentos, no campos de color completos. */
   --navy-900: #123a5e;
   --navy-800: #154c78;
   --navy-700: #1c5c8f;
@@ -44,8 +42,6 @@
   --forest-700: #2f7fb8;
   --forest-600: #4a9bd1;
 
-  --gold-800: #6e4f06;
-  --gold-700: #916808;
   --gold-600: #b8860e;
   --gold-500: #d6a021;
   --gold-300: #f0cb72;
@@ -81,13 +77,13 @@
   --color-text: var(--ink-900);
   --color-text-muted: var(--ink-500);
   --color-text-on-dark: var(--parchment-100);
-  --color-text-on-dark-muted: #e3cfc9;
+  --color-text-on-dark-muted: #c9d6e0;
 
-  --color-primary: var(--burgundy-600);
-  --color-primary-strong: var(--burgundy-700);
-  --color-accent: var(--gold-700);
-  --color-accent-strong: var(--gold-800);
-  --color-secondary-accent: var(--gold-600);
+  --color-primary: var(--navy-800);
+  --color-primary-strong: var(--navy-900);
+  --color-accent: var(--burgundy-600);
+  --color-accent-strong: var(--burgundy-700);
+  --color-secondary-accent: var(--forest-700);
   --color-gold: var(--gold-600);
   --color-red: var(--cotto-red);
   --color-red-dim: var(--cotto-red-dim);
