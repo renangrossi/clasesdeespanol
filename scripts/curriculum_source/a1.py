@@ -1247,3 +1247,181 @@ EXTRA_EXERCISES_2 = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_3 — tercera ronda (relacionar y vocabulario) fusionada
+# en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_3 = {
+    "a1-el-abecedario-y-la-pronunciacion": [
+        {"id": "a1z1-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z1m1", "prompt": "Relaciona el patrón de acentuación con un ejemplo.", "pairs": [{"left": "aguda", "right": "café"}, {"left": "llana", "right": "casa"}, {"left": "esdrújula", "right": "música"}, {"left": "sin tilde necesaria", "right": "reloj"}], "explanation": "Cada tipo de palabra según su acentuación tiene reglas distintas de tilde."},
+         ]},
+        {"id": "a1z1-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z1v1", "prompt": "¿Cómo se llama una palabra con la fuerza en la última sílaba?", "options": ["Aguda", "Llana", "Esdrújula"], "answerIndex": 0, "explanation": "Las palabras agudas llevan la fuerza en la última sílaba."},
+            {"id": "a1z1v2", "prompt": "¿Cómo se llama una palabra con la fuerza en la penúltima sílaba?", "options": ["Aguda", "Llana", "Esdrújula"], "answerIndex": 1, "explanation": "Las palabras llanas llevan la fuerza en la penúltima sílaba."},
+            {"id": "a1z1v3", "prompt": "¿Qué es una sílaba tónica?", "options": ["La que lleva la fuerza", "La primera del todo", "La que tiene una consonante"], "answerIndex": 0, "explanation": "La sílaba tónica es la que se pronuncia con más fuerza."},
+         ]},
+    ],
+    "a1-genero-y-numero-de-los-sustantivos": [
+        {"id": "a1z2-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z2m1", "prompt": "Relaciona la terminación con su plural.", "pairs": [{"left": "libro", "right": "libros"}, {"left": "ciudad", "right": "ciudades"}, {"left": "lápiz", "right": "lápices"}, {"left": "flor", "right": "flores"}], "explanation": "El plural sigue reglas distintas según la terminación de la palabra."},
+         ]},
+        {"id": "a1z2-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z2v1", "prompt": "¿Cuál de estas palabras es una excepción de género?", "options": ["libro", "mano", "mesa"], "answerIndex": 1, "explanation": "Mano es femenina aunque termina en -o, una excepción muy conocida."},
+            {"id": "a1z2v2", "prompt": "¿Qué terminación suele indicar género femenino?", "options": ["-o", "-dad", "-e"], "answerIndex": 1, "explanation": "Terminaciones como -dad, -ción y -sión son casi siempre femeninas."},
+            {"id": "a1z2v3", "prompt": "¿Cuál es el plural de \"canción\"?", "options": ["cancións", "canciones", "cancion"], "answerIndex": 1, "explanation": "Terminación en consonante: se añade -es."},
+         ]},
+    ],
+    "a1-articulos-definidos-e-indefinidos": [
+        {"id": "a1z3-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z3m1", "prompt": "Relaciona el sustantivo con su artículo definido correcto.", "pairs": [{"left": "perro", "right": "el"}, {"left": "casa", "right": "la"}, {"left": "libros", "right": "los"}, {"left": "flores", "right": "las"}], "explanation": "El artículo concuerda en género y número con el sustantivo."},
+         ]},
+        {"id": "a1z3-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z3v1", "prompt": "¿Cuándo se usa un artículo indefinido?", "options": ["Para algo específico y conocido", "Para algo nuevo o no específico", "Nunca"], "answerIndex": 1, "explanation": "El artículo indefinido presenta algo nuevo o no específico."},
+            {"id": "a1z3v2", "prompt": "¿Qué artículo se usa con \"agua\" en singular?", "options": ["la", "el", "los"], "answerIndex": 1, "explanation": "Agua usa el en singular por empezar con a tónica, aunque es femenina."},
+            {"id": "a1z3v3", "prompt": "¿Cuál es el plural de \"un libro\"?", "options": ["unos libros", "unas libros", "los libros"], "answerIndex": 0, "explanation": "El plural indefinido masculino es unos."},
+         ]},
+    ],
+    "a1-ser-y-estar-introduccion": [
+        {"id": "a1z4-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z4m1", "prompt": "Relaciona el uso con el verbo correspondiente.", "pairs": [{"left": "profesión", "right": "ser"}, {"left": "ubicación", "right": "estar"}, {"left": "origen", "right": "ser"}, {"left": "estado temporal", "right": "estar"}], "explanation": "Ser describe identidad; estar describe ubicación y estados temporales."},
+         ]},
+        {"id": "a1z4-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z4v1", "prompt": "¿Qué verbo usarías para decir de dónde eres?", "options": ["Ser", "Estar", "Tener"], "answerIndex": 0, "explanation": "El origen se expresa con ser: soy de México."},
+            {"id": "a1z4v2", "prompt": "¿Qué verbo usarías para decir dónde está algo?", "options": ["Ser", "Estar", "Ir"], "answerIndex": 1, "explanation": "La ubicación siempre usa estar."},
+            {"id": "a1z4v3", "prompt": "¿Qué significa \"estoy cansado\"?", "options": ["Soy una persona cansada siempre", "Me siento cansado ahora", "No estoy nunca cansado"], "answerIndex": 1, "explanation": "Estar + adjetivo describe un estado temporal presente."},
+         ]},
+    ],
+    "a1-pronombres-personales-de-sujeto": [
+        {"id": "a1z5-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z5m1", "prompt": "Relaciona el pronombre con su región de uso preferente.", "pairs": [{"left": "vosotros", "right": "España"}, {"left": "ustedes", "right": "América Latina (plural general)"}, {"left": "vos", "right": "Argentina/Uruguay"}, {"left": "tú", "right": "uso general informal"}], "explanation": "El uso de los pronombres varía según la región."},
+         ]},
+        {"id": "a1z5-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z5v1", "prompt": "¿Qué pronombre es formal en singular?", "options": ["Tú", "Usted", "Vos"], "answerIndex": 1, "explanation": "Usted es el pronombre formal de segunda persona singular."},
+            {"id": "a1z5v2", "prompt": "¿Qué pronombre se usa en España para el plural informal?", "options": ["Ustedes", "Vosotros", "Ellos"], "answerIndex": 1, "explanation": "Vosotros es el plural informal usado en España."},
+            {"id": "a1z5v3", "prompt": "¿Por qué se puede omitir el sujeto en español?", "options": ["Porque la terminación verbal ya lo indica", "Porque no es necesario nunca", "Porque no existe el sujeto"], "answerIndex": 0, "explanation": "La terminación verbal ya identifica al sujeto en la mayoría de los casos."},
+         ]},
+    ],
+    "a1-presente-verbos-regulares": [
+        {"id": "a1z6-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z6m1", "prompt": "Relaciona el verbo con su terminación de conjugación.", "pairs": [{"left": "hablar", "right": "-ar"}, {"left": "comer", "right": "-er"}, {"left": "vivir", "right": "-ir"}, {"left": "trabajar", "right": "-ar"}], "explanation": "Cada verbo pertenece a una de las tres conjugaciones regulares."},
+         ]},
+        {"id": "a1z6-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z6v1", "prompt": "¿Cuál es la forma de \"yo\" del verbo \"hablar\"?", "options": ["hablo", "hablas", "habla"], "answerIndex": 0, "explanation": "Yo + verbo en -ar = terminación -o: hablo."},
+            {"id": "a1z6v2", "prompt": "¿Qué terminación usa \"nosotros\" con un verbo en -er?", "options": ["-amos", "-emos", "-imos"], "answerIndex": 1, "explanation": "Nosotros + verbo en -er = terminación -emos."},
+            {"id": "a1z6v3", "prompt": "¿Cuál es la forma de \"tú\" del verbo \"vivir\"?", "options": ["vivo", "vives", "vive"], "answerIndex": 1, "explanation": "Tú + verbo en -ir = terminación -es: vives."},
+         ]},
+    ],
+    "a1-presente-verbos-irregulares-comunes": [
+        {"id": "a1z7-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z7m1", "prompt": "Relaciona el verbo con su forma de yo.", "pairs": [{"left": "tener", "right": "tengo"}, {"left": "hacer", "right": "hago"}, {"left": "ir", "right": "voy"}, {"left": "venir", "right": "vengo"}], "explanation": "Cada verbo irregular tiene una forma propia de yo que hay que memorizar."},
+         ]},
+        {"id": "a1z7-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z7v1", "prompt": "¿Qué expresión usa siempre tener, nunca ser?", "options": ["tener hambre", "ser feliz", "ser alto"], "answerIndex": 0, "explanation": "Tener hambre es una expresión fija que siempre usa tener."},
+            {"id": "a1z7v2", "prompt": "¿Qué verbo describe el clima?", "options": ["Ser", "Hacer", "Tener"], "answerIndex": 1, "explanation": "El clima se describe con hacer: hace calor, hace frío."},
+            {"id": "a1z7v3", "prompt": "¿Cuál es la forma de \"yo\" de \"ir\"?", "options": ["yo iro", "yo voy", "yo va"], "answerIndex": 1, "explanation": "Ir es totalmente irregular: voy, vas, va..."},
+         ]},
+    ],
+    "a1-adjetivos-y-concordancia": [
+        {"id": "a1z8-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z8m1", "prompt": "Relaciona el adjetivo con su forma femenina.", "pairs": [{"left": "alto", "right": "alta"}, {"left": "inteligente", "right": "inteligente"}, {"left": "trabajador", "right": "trabajadora"}, {"left": "fácil", "right": "fácil"}], "explanation": "Algunos adjetivos cambian de forma según el género, otros no."},
+         ]},
+        {"id": "a1z8-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z8v1", "prompt": "¿Qué adjetivo no cambia entre masculino y femenino?", "options": ["alto", "inteligente", "trabajador"], "answerIndex": 1, "explanation": "Los adjetivos terminados en -e tienen la misma forma para ambos géneros."},
+            {"id": "a1z8v2", "prompt": "¿Dónde suele ir el adjetivo descriptivo en español?", "options": ["Antes del sustantivo, siempre", "Después del sustantivo, normalmente", "Nunca junto al sustantivo"], "answerIndex": 1, "explanation": "La mayoría de los adjetivos descriptivos van después del sustantivo."},
+            {"id": "a1z8v3", "prompt": "¿Qué forma toma \"bueno\" antes de un sustantivo masculino singular?", "options": ["buen", "buena", "buenos"], "answerIndex": 0, "explanation": "Bueno pierde la -o final antes de un sustantivo masculino singular: un buen amigo."},
+         ]},
+    ],
+    "a1-posesivos": [
+        {"id": "a1z9-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z9m1", "prompt": "Relaciona el pronombre con su posesivo correspondiente.", "pairs": [{"left": "yo", "right": "mi"}, {"left": "tú", "right": "tu"}, {"left": "nosotros", "right": "nuestro"}, {"left": "ellos", "right": "su"}], "explanation": "Cada pronombre personal tiene su propio posesivo correspondiente."},
+         ]},
+        {"id": "a1z9-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z9v1", "prompt": "¿Qué posesivo concuerda en género y número (no solo número)?", "options": ["mi", "tu", "nuestro"], "answerIndex": 2, "explanation": "Nuestro/a/os/as es el único que cambia también en género."},
+            {"id": "a1z9v2", "prompt": "¿Qué significa \"su\" cuando el poseedor es ambiguo?", "options": ["Siempre de él", "De él, ella o ellos/ellas/usted(es)", "Nunca es ambiguo"], "answerIndex": 1, "explanation": "Su puede referirse a varios poseedores distintos, por lo que a veces es ambiguo."},
+            {"id": "a1z9v3", "prompt": "¿Cuál es el plural de \"mi\"?", "options": ["mis", "mías", "mío"], "answerIndex": 0, "explanation": "El plural de mi es mis, sin cambio de género."},
+         ]},
+    ],
+    "a1-demostrativos": [
+        {"id": "a1z10-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z10m1", "prompt": "Relaciona el demostrativo con su distancia.", "pairs": [{"left": "este", "right": "cerca de mí"}, {"left": "ese", "right": "cerca de ti"}, {"left": "aquel", "right": "lejos de ambos"}, {"left": "esta", "right": "cerca de mí (femenino)"}], "explanation": "Los demostrativos indican distancia respecto al hablante y al oyente."},
+         ]},
+        {"id": "a1z10-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z10v1", "prompt": "¿Qué demostrativo usarías para algo muy lejos?", "options": ["Este", "Ese", "Aquel"], "answerIndex": 2, "explanation": "Aquel se usa para algo lejos de ambos interlocutores."},
+            {"id": "a1z10v2", "prompt": "¿Cuál es la forma femenina plural de \"ese\"?", "options": ["esas", "esos", "esta"], "answerIndex": 0, "explanation": "El plural femenino de ese es esas."},
+            {"id": "a1z10v3", "prompt": "¿Qué demostrativo usarías para algo que tienes en la mano?", "options": ["Aquel", "Este", "Ese"], "answerIndex": 1, "explanation": "Este se usa para algo cerca del hablante."},
+         ]},
+    ],
+    "a1-hay-y-estar": [
+        {"id": "a1z11-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z11m1", "prompt": "Relaciona el uso con hay o está.", "pairs": [{"left": "existencia general", "right": "hay"}, {"left": "ubicación específica", "right": "está"}, {"left": "algo no identificado", "right": "hay"}, {"left": "algo ya conocido", "right": "está"}], "explanation": "Hay indica existencia; estar indica ubicación de algo específico."},
+         ]},
+        {"id": "a1z11-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z11v1", "prompt": "¿Qué se usa para preguntar si existe un baño en el lugar?", "options": ["¿Hay un baño?", "¿Está un baño?", "¿Es un baño?"], "answerIndex": 0, "explanation": "Hay se usa para preguntar por la existencia de algo no específico."},
+            {"id": "a1z11v2", "prompt": "¿Cómo preguntas dónde está algo ya conocido?", "options": ["¿Hay el libro?", "¿Dónde está el libro?", "¿Es el libro?"], "answerIndex": 1, "explanation": "Para algo ya identificado se usa estar, no hay."},
+            {"id": "a1z11v3", "prompt": "¿Hay cambia según el número del sustantivo?", "options": ["Sí, siempre", "No, siempre es invariable"], "answerIndex": 1, "explanation": "Hay es invariable: hay un libro, hay dos libros."},
+         ]},
+    ],
+    "a1-preposiciones-simples": [
+        {"id": "a1z12-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z12m1", "prompt": "Relaciona la preposición con su significado.", "pairs": [{"left": "de", "right": "origen/posesión"}, {"left": "a", "right": "destino/dirección"}, {"left": "en", "right": "lugar/tiempo"}, {"left": "con", "right": "compañía/instrumento"}], "explanation": "Cada preposición simple tiene un significado y uso característico."},
+         ]},
+        {"id": "a1z12-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z12v1", "prompt": "¿Qué preposición indica origen?", "options": ["a", "de", "con"], "answerIndex": 1, "explanation": "De indica origen: soy de España."},
+            {"id": "a1z12v2", "prompt": "¿Qué preposición usarías para \"viajar hacia un lugar\"?", "options": ["de", "a", "en"], "answerIndex": 1, "explanation": "A indica destino o dirección: voy a Madrid."},
+            {"id": "a1z12v3", "prompt": "¿Qué preposición indica compañía?", "options": ["con", "sin", "por"], "answerIndex": 0, "explanation": "Con indica compañía: voy con mi amigo."},
+         ]},
+    ],
+    "a1-interrogativos-y-preguntas": [
+        {"id": "a1z13-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z13m1", "prompt": "Relaciona la palabra interrogativa con lo que pregunta.", "pairs": [{"left": "qué", "right": "cosa"}, {"left": "quién", "right": "persona"}, {"left": "dónde", "right": "lugar"}, {"left": "cuándo", "right": "tiempo"}], "explanation": "Cada palabra interrogativa pregunta por un tipo distinto de información."},
+         ]},
+        {"id": "a1z13-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z13v1", "prompt": "¿Qué palabra interrogativa pregunta por el motivo?", "options": ["Por qué", "Cómo", "Cuánto"], "answerIndex": 0, "explanation": "Por qué pregunta por la razón o el motivo."},
+            {"id": "a1z13v2", "prompt": "¿Qué palabra interrogativa pregunta por la manera?", "options": ["Cómo", "Cuál", "Quién"], "answerIndex": 0, "explanation": "Cómo pregunta por la manera o el modo."},
+            {"id": "a1z13v3", "prompt": "¿Las palabras interrogativas llevan tilde?", "options": ["Sí, siempre que preguntan", "No, nunca", "Solo algunas"], "answerIndex": 0, "explanation": "Las palabras interrogativas siempre llevan tilde cuando se usan para preguntar."},
+         ]},
+    ],
+    "a1-gustar-y-verbos-similares": [
+        {"id": "a1z14-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "a1z14m1", "prompt": "Relaciona el verbo tipo gustar con su significado.", "pairs": [{"left": "encantar", "right": "gustar mucho"}, {"left": "interesar", "right": "despertar interés"}, {"left": "molestar", "right": "causar fastidio"}, {"left": "doler", "right": "causar dolor"}], "explanation": "Todos estos verbos funcionan como gustar: pronombre + verbo concordado con lo que causa la sensación."},
+         ]},
+        {"id": "a1z14-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "a1z14v1", "prompt": "¿Con qué concuerda el verbo en \"me gustan los libros\"?", "options": ["Con yo", "Con los libros", "No concuerda con nada"], "answerIndex": 1, "explanation": "Gustar concuerda con lo que gusta (los libros, plural), no con la persona."},
+            {"id": "a1z14v2", "prompt": "¿Qué pronombre corresponde a \"a nosotros\"?", "options": ["me", "nos", "les"], "answerIndex": 1, "explanation": "A nosotros corresponde el pronombre nos."},
+            {"id": "a1z14v3", "prompt": "¿Qué verbo usarías para decir que algo te causa dolor físico?", "options": ["Gustar", "Doler", "Encantar"], "answerIndex": 1, "explanation": "Doler funciona como gustar: me duele la cabeza."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_3.get(_lesson["id"], []))
