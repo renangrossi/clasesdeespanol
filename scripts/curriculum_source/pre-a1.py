@@ -822,3 +822,109 @@ EXTRA_EXERCISES_2 = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_3 — tercera ronda (relacionar y vocabulario) fusionada
+# en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_3 = {
+    "pre-a1-el-alfabeto-y-los-sonidos": [
+        {"id": "pa1z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa1zm1", "prompt": "Relaciona la letra con una palabra que la contiene.", "pairs": [{"left": "ñ", "right": "año"}, {"left": "rr", "right": "perro"}, {"left": "h", "right": "hola"}, {"left": "ll", "right": "calle"}], "explanation": "Cada letra especial aparece en una palabra muy común del español."},
+         ]},
+        {"id": "pa1z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa1zv1", "prompt": "¿Cuál de estas letras no existe en el alfabeto inglés?", "options": ["ñ", "b", "m"], "answerIndex": 0, "explanation": "La ñ es exclusiva del alfabeto español."},
+            {"id": "pa1zv2", "prompt": "¿Cómo se llama el signo sobre algunas vocales?", "options": ["Tilde", "Punto", "Coma"], "answerIndex": 0, "explanation": "La tilde marca la sílaba tónica cuando no sigue la regla general."},
+            {"id": "pa1zv3", "prompt": "¿Cuántas vocales tiene el español?", "options": ["Cuatro", "Cinco", "Seis"], "answerIndex": 1, "explanation": "El español tiene cinco vocales: a, e, i, o, u."},
+         ]},
+    ],
+    "pre-a1-saludos-y-presentaciones": [
+        {"id": "pa2z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa2zm1", "prompt": "Relaciona el saludo con el momento del día.", "pairs": [{"left": "buenos días", "right": "mañana"}, {"left": "buenas tardes", "right": "tarde"}, {"left": "buenas noches", "right": "noche"}, {"left": "hola", "right": "cualquier momento"}], "explanation": "Cada saludo corresponde a un momento distinto del día, excepto hola."},
+         ]},
+        {"id": "pa2z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa2zv1", "prompt": "¿Qué significa \"mucho gusto\"?", "options": ["Adiós", "Al conocer a alguien", "Buenas noches"], "answerIndex": 1, "explanation": "Mucho gusto se dice al conocer a alguien por primera vez."},
+            {"id": "pa2zv2", "prompt": "¿Qué respondes a \"gracias\"?", "options": ["De nada", "Buenos días", "Adiós"], "answerIndex": 0, "explanation": "De nada es la respuesta habitual a un agradecimiento."},
+            {"id": "pa2zv3", "prompt": "¿Cómo se despide alguien?", "options": ["Hola", "Adiós", "Gracias"], "answerIndex": 1, "explanation": "Adiós es la forma de despedida más común."},
+         ]},
+    ],
+    "pre-a1-numeros-hora-y-fecha": [
+        {"id": "pa3z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa3zm1", "prompt": "Relaciona el número con su forma escrita.", "pairs": [{"left": "5", "right": "cinco"}, {"left": "10", "right": "diez"}, {"left": "20", "right": "veinte"}, {"left": "100", "right": "cien"}], "explanation": "Cada número corresponde a su forma escrita en español."},
+         ]},
+        {"id": "pa3z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa3zv1", "prompt": "¿Qué palabra significa \"day\" (unidad de tiempo)?", "options": ["semana", "día", "mes"], "answerIndex": 1, "explanation": "Día es la unidad de tiempo básica de 24 horas."},
+            {"id": "pa3zv2", "prompt": "¿Cuántos días tiene una semana?", "options": ["Cinco", "Siete", "Diez"], "answerIndex": 1, "explanation": "Una semana tiene siete días."},
+            {"id": "pa3zv3", "prompt": "¿Qué palabra significa \"month\"?", "options": ["Año", "Mes", "Hora"], "answerIndex": 1, "explanation": "Mes es la unidad de tiempo de aproximadamente treinta días."},
+         ]},
+    ],
+    "pre-a1-vocabulario-de-clase-y-estudio": [
+        {"id": "pa4z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa4zm1", "prompt": "Relaciona el objeto con su uso.", "pairs": [{"left": "lápiz", "right": "escribir"}, {"left": "goma", "right": "borrar"}, {"left": "libro", "right": "leer"}, {"left": "mochila", "right": "llevar cosas"}], "explanation": "Cada objeto de clase tiene una función específica."},
+         ]},
+        {"id": "pa4z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa4zv1", "prompt": "¿Qué usas para escribir en la pizarra?", "options": ["Un lápiz", "Un marcador/tiza", "Una goma"], "answerIndex": 1, "explanation": "En la pizarra se escribe con marcador o tiza, no con lápiz."},
+            {"id": "pa4zv2", "prompt": "¿Dónde llevas tus libros a clase?", "options": ["En la mochila", "En el cuaderno", "En la goma"], "answerIndex": 0, "explanation": "La mochila es donde se llevan los materiales escolares."},
+            {"id": "pa4zv3", "prompt": "¿Qué significa \"borrar\"?", "options": ["Escribir", "Eliminar lo escrito", "Leer"], "answerIndex": 1, "explanation": "Borrar significa eliminar algo escrito, normalmente con una goma."},
+         ]},
+    ],
+    "pre-a1-personas-y-objetos-cotidianos": [
+        {"id": "pa5z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa5zm1", "prompt": "Relaciona el miembro de la familia con su descripción.", "pairs": [{"left": "madre", "right": "mujer, progenitora"}, {"left": "hermano", "right": "mismo padre y madre"}, {"left": "abuelo", "right": "padre del padre o madre"}, {"left": "hijo", "right": "descendiente"}], "explanation": "Cada palabra de familia describe una relación de parentesco distinta."},
+         ]},
+        {"id": "pa5z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa5zv1", "prompt": "¿Qué palabra significa \"chair\"?", "options": ["Mesa", "Silla", "Cama"], "answerIndex": 1, "explanation": "Silla es el mueble donde te sientas."},
+            {"id": "pa5zv2", "prompt": "¿Qué palabra significa \"table\"?", "options": ["Silla", "Mesa", "Ventana"], "answerIndex": 1, "explanation": "Mesa es el mueble de trabajo o comida."},
+            {"id": "pa5zv3", "prompt": "¿Cómo se llama al padre de tu padre?", "options": ["Tío", "Abuelo", "Primo"], "answerIndex": 1, "explanation": "El padre de tu padre es tu abuelo."},
+         ]},
+    ],
+    "pre-a1-verbos-basicos-ser-tener-querer-gustar": [
+        {"id": "pa6z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa6zm1", "prompt": "Relaciona el verbo con su significado.", "pairs": [{"left": "ser", "right": "identidad permanente"}, {"left": "tener", "right": "poseer"}, {"left": "querer", "right": "desear"}, {"left": "gustar", "right": "agradar"}], "explanation": "Cada verbo básico tiene un significado distinto y esencial."},
+         ]},
+        {"id": "pa6z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa6zv1", "prompt": "¿Qué verbo usarías para decir tu edad?", "options": ["Ser", "Tener", "Querer"], "answerIndex": 1, "explanation": "La edad se expresa con tener: tengo veinte años."},
+            {"id": "pa6zv2", "prompt": "¿Qué verbo expresa un deseo?", "options": ["Ser", "Querer", "Gustar"], "answerIndex": 1, "explanation": "Querer expresa un deseo directo: quiero un café."},
+            {"id": "pa6zv3", "prompt": "¿Qué verbo se usa con \"me\" para expresar preferencias?", "options": ["Tener", "Ser", "Gustar"], "answerIndex": 2, "explanation": "Gustar se usa con me/te/le: me gusta el café."},
+         ]},
+    ],
+    "pre-a1-pronombres-de-sujeto-y-ser-estar": [
+        {"id": "pa7z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa7zm1", "prompt": "Relaciona el pronombre con su forma de ser.", "pairs": [{"left": "yo", "right": "soy"}, {"left": "tú", "right": "eres"}, {"left": "nosotros", "right": "somos"}, {"left": "ellos", "right": "son"}], "explanation": "Cada pronombre tiene su propia forma del verbo ser en presente."},
+         ]},
+        {"id": "pa7z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa7zv1", "prompt": "¿Qué pronombre usarías para hablar de ti mismo?", "options": ["Tú", "Yo", "Él"], "answerIndex": 1, "explanation": "Yo es el pronombre de primera persona singular."},
+            {"id": "pa7zv2", "prompt": "¿Qué pronombre corresponde a un grupo que incluye al hablante?", "options": ["Nosotros", "Ellos", "Ustedes"], "answerIndex": 0, "explanation": "Nosotros incluye al hablante dentro de un grupo."},
+            {"id": "pa7zv3", "prompt": "¿Qué forma de estar corresponde a \"yo\"?", "options": ["Estás", "Estoy", "Está"], "answerIndex": 1, "explanation": "Yo + estar = estoy."},
+         ]},
+    ],
+    "pre-a1-lectura-y-escucha-de-supervivencia": [
+        {"id": "pa8z-match", "type": "matching", "title": "Relaciona",
+         "items": [
+            {"id": "pa8zm1", "prompt": "Relaciona la pregunta con su respuesta lógica.", "pairs": [{"left": "¿Dónde está el baño?", "right": "Al fondo a la derecha."}, {"left": "¿Cuánto cuesta?", "right": "Son cinco euros."}, {"left": "¿Cómo te llamas?", "right": "Me llamo Ana."}, {"left": "¿Hablas inglés?", "right": "Un poco."}], "explanation": "Cada pregunta de supervivencia tiene una respuesta natural típica."},
+         ]},
+        {"id": "pa8z-vocab", "type": "vocabulary", "title": "Vocabulario",
+         "items": [
+            {"id": "pa8zv1", "prompt": "¿Qué dices para pedir ayuda con cortesía?", "options": ["Disculpe", "Adiós", "Gracias"], "answerIndex": 0, "explanation": "Disculpe es una forma cortés de llamar la atención de alguien."},
+            {"id": "pa8zv2", "prompt": "¿Qué significa \"perdido/a\"?", "options": ["Que no sabe dónde está", "Que tiene hambre", "Que está feliz"], "answerIndex": 0, "explanation": "Estar perdido significa no saber dónde estás o cómo llegar a un lugar."},
+            {"id": "pa8zv3", "prompt": "¿Qué palabra usarías para pedir el precio?", "options": ["¿Cuánto?", "¿Cuándo?", "¿Dónde?"], "answerIndex": 0, "explanation": "¿Cuánto cuesta? se usa para preguntar el precio."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_3.get(_lesson["id"], []))
