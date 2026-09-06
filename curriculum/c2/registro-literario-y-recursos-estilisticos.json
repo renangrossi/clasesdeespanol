@@ -224,6 +224,102 @@
           "explanation": "Guardado para tu propio repaso — recuerda que la metáfora identifica una cosa con otra sin usar «como»."
         }
       ]
+    },
+    {
+      "id": "c2w2-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Recursos Estilísticos",
+      "items": [
+        {
+          "id": "c2w2a",
+          "prompt": "___ altera el orden habitual de las palabras para dar énfasis o musicalidad.",
+          "answers": [
+            [
+              "El hipérbaton"
+            ]
+          ],
+          "options": [
+            "El hipérbaton",
+            "La anáfora",
+            "La metáfora"
+          ],
+          "explanation": "El hipérbaton es la alteración del orden neutro de las palabras."
+        },
+        {
+          "id": "c2w2b",
+          "prompt": "\"Te lo he dicho un millón de veces\" es un ejemplo de ___.",
+          "answers": [
+            [
+              "hipérbole"
+            ]
+          ],
+          "options": [
+            "hipérbole",
+            "anáfora",
+            "hipérbaton"
+          ],
+          "explanation": "La exageración deliberada más allá del sentido literal es una hipérbole."
+        }
+      ]
+    },
+    {
+      "id": "c2w2-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Estilo Literario",
+      "items": [
+        {
+          "id": "c2w2c",
+          "prompt": "¿Qué recurso repite una estructura al inicio de frases sucesivas?",
+          "options": [
+            "anáfora",
+            "hipérbaton",
+            "hipérbole"
+          ],
+          "answerIndex": 0,
+          "explanation": "La anáfora crea ritmo e insistencia mediante la repetición inicial."
+        },
+        {
+          "id": "c2w2d",
+          "prompt": "¿Qué caracteriza al pretérito anterior (hubo terminado)?",
+          "options": [
+            "es casi exclusivo del registro literario y arcaizante",
+            "es de uso frecuente en el habla cotidiana",
+            "ya no existe en español"
+          ],
+          "answerIndex": 0,
+          "explanation": "El pluscuamperfecto lo sustituye en casi todos los contextos actuales."
+        },
+        {
+          "id": "c2w2e",
+          "prompt": "¿Qué tipo de palabras son \"ínclito, pergeñar, acendrado\"?",
+          "options": [
+            "léxico elevado o poco frecuente",
+            "falsos amigos",
+            "arcaísmos medievales"
+          ],
+          "answerIndex": 0,
+          "explanation": "Son palabras de baja frecuencia propias del registro literario cuidado."
+        }
+      ]
+    },
+    {
+      "id": "c2w2-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2w2f",
+          "statement": "La hipérbole es una exageración deliberada con función expresiva, no un error de precisión.",
+          "answer": true,
+          "explanation": "Correcto: es un recurso retórico consciente."
+        },
+        {
+          "id": "c2w2g",
+          "statement": "El hipérbaton es apropiado para un correo de trabajo cotidiano.",
+          "answer": false,
+          "explanation": "Falso: fuera de un contexto literario suena afectado o forzado."
+        }
+      ]
     }
   ],
   "summary": [

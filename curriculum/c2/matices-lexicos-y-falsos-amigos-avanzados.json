@@ -235,6 +235,129 @@
           "explanation": "Guardado para tu propio repaso — actualmente significa «en este momento», no «en realidad»."
         }
       ]
+    },
+    {
+      "id": "c2w3-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Matices Léxicos",
+      "items": [
+        {
+          "id": "c2w3a",
+          "prompt": "\"Constipado\" en español significa ___ (no estreñido).",
+          "answers": [
+            [
+              "resfriado"
+            ]
+          ],
+          "options": [
+            "resfriado",
+            "estreñido",
+            "cansado"
+          ],
+          "explanation": "Constipado es un falso amigo frecuente: significa resfriado."
+        },
+        {
+          "id": "c2w3b",
+          "prompt": "\"Éxito\" significa ___ (no salida).",
+          "answers": [
+            [
+              "resultado positivo"
+            ],
+            [
+              "logro"
+            ]
+          ],
+          "options": [
+            "resultado positivo",
+            "salida",
+            "puerta"
+          ],
+          "explanation": "Éxito es un falso amigo frecuente: significa resultado positivo o logro."
+        },
+        {
+          "id": "c2w3c",
+          "prompt": "Miedo < temor < ___ (el más intenso de los tres).",
+          "answers": [
+            [
+              "pavor"
+            ],
+            [
+              "terror"
+            ]
+          ],
+          "options": [
+            "pavor",
+            "miedo",
+            "temor"
+          ],
+          "explanation": "La escala de intensidad culmina en pavor/terror."
+        }
+      ]
+    },
+    {
+      "id": "c2w3-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Falsos Amigos",
+      "items": [
+        {
+          "id": "c2w3d",
+          "prompt": "¿Qué matiz distingue \"gustar\" de \"encantar\" y \"fascinar\"?",
+          "options": [
+            "intensidad creciente",
+            "registro",
+            "región"
+          ],
+          "answerIndex": 0,
+          "explanation": "Los tres verbos forman una escala de intensidad creciente."
+        },
+        {
+          "id": "c2w3e",
+          "prompt": "¿Qué registro tiene \"fallecer\" frente a \"morir\"?",
+          "options": [
+            "más formal",
+            "más coloquial",
+            "el mismo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fallecer es el término formal, propio de anuncios oficiales."
+        },
+        {
+          "id": "c2w3f",
+          "prompt": "¿Qué significa \"sensible\" en español?",
+          "options": [
+            "que siente con facilidad",
+            "sensato",
+            "razonable"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sensible no tiene relación con sensato, un falso amigo clásico."
+        }
+      ]
+    },
+    {
+      "id": "c2w3-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2w3g",
+          "statement": "\"Actualmente\" y \"en realidad\" significan lo mismo en español.",
+          "answer": false,
+          "explanation": "Falso: actualmente significa «en este momento»."
+        },
+        {
+          "id": "c2w3h",
+          "statement": "\"Flaco\" y \"esquelético\" tienen exactamente la misma connotación.",
+          "answer": false,
+          "explanation": "Falso: esquelético es claramente negativo, flaco es más neutro en muchos países."
+        },
+        {
+          "id": "c2w3i",
+          "statement": "Elegir la palabra con el matiz exacto es la marca de un dominio léxico avanzado.",
+          "answer": true,
+          "explanation": "Correcto: distingue un texto correcto de uno verdaderamente preciso."
+        }
+      ]
     }
   ],
   "summary": [

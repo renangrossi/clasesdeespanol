@@ -228,6 +228,155 @@
           "explanation": "Guardado para tu propio repaso — la atenuación matiza el tono sin ocultar la opinión de fondo."
         }
       ]
+    },
+    {
+      "id": "c2w6-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Modalidad y Atenuación",
+      "items": [
+        {
+          "id": "c2w6a",
+          "prompt": "El planteamiento es, ___ cierto punto, razonable, aunque presenta lagunas.",
+          "answers": [
+            [
+              "hasta"
+            ]
+          ],
+          "options": [
+            "hasta",
+            "desde",
+            "sobre"
+          ],
+          "explanation": "Hasta cierto punto es un atenuador fijo."
+        },
+        {
+          "id": "c2w6b",
+          "prompt": "No cabe ___ que existan otros factores no considerados.",
+          "answers": [
+            [
+              "descartar"
+            ]
+          ],
+          "options": [
+            "descartar",
+            "afirmar",
+            "negar"
+          ],
+          "explanation": "No cabe descartar que expresa una posibilidad no eliminada."
+        },
+        {
+          "id": "c2w6c",
+          "prompt": "___, el retraso se debió a factores externos al equipo. (adverbio de atenuación)",
+          "answers": [
+            [
+              "Presumiblemente"
+            ]
+          ],
+          "options": [
+            "Presumiblemente",
+            "Ciertamente",
+            "Obviamente"
+          ],
+          "explanation": "Presumiblemente atenúa una afirmación sin renunciar a expresarla."
+        },
+        {
+          "id": "c2w6d",
+          "prompt": "Si bien el enfoque tiene mérito, ___ cuestionar algunas de sus premisas.",
+          "answers": [
+            [
+              "cabría"
+            ]
+          ],
+          "options": [
+            "cabría",
+            "es imposible",
+            "nunca se debe"
+          ],
+          "explanation": "Cabría + infinitivo introduce una crítica atenuada."
+        }
+      ]
+    },
+    {
+      "id": "c2w6-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Modalidad y Atenuación",
+      "items": [
+        {
+          "id": "c2w6e",
+          "prompt": "¿Qué expresa la modalidad epistémica?",
+          "options": [
+            "el grado de certeza del hablante sobre lo que dice",
+            "el tiempo verbal",
+            "el género gramatical"
+          ],
+          "answerIndex": 0,
+          "explanation": "Se expresa con verbos modales, adverbios o construcciones impersonales."
+        },
+        {
+          "id": "c2w6f",
+          "prompt": "¿Qué diferencia hay entre atenuación genuina y ambigüedad evasiva?",
+          "options": [
+            "la atenuación sigue comunicando una posición clara; la ambigüedad evasiva no",
+            "son exactamente lo mismo",
+            "la ambigüedad es más cortés"
+          ],
+          "answerIndex": 0,
+          "explanation": "La atenuación matiza el tono sin ocultar el mensaje real."
+        },
+        {
+          "id": "c2w6g",
+          "prompt": "¿Qué estrategia atenúa una crítica mediante impersonalización?",
+          "options": [
+            "Se podría objetar que falta un ejemplo más claro",
+            "Esto está mal",
+            "Tú te equivocas"
+          ],
+          "answerIndex": 0,
+          "explanation": "La impersonalización distancia la crítica del interlocutor directo."
+        },
+        {
+          "id": "c2w6h",
+          "prompt": "¿Qué recurso reconoce el argumento contrario antes de matizar?",
+          "options": [
+            "Si bien el argumento tiene mérito, cabría matizar...",
+            "Esto es incorrecto",
+            "No tienes razón"
+          ],
+          "answerIndex": 0,
+          "explanation": "El reconocimiento previo suaviza la crítica que sigue."
+        }
+      ]
+    },
+    {
+      "id": "c2w6-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2w6i",
+          "statement": "La atenuación es especialmente valorada en el registro académico y profesional.",
+          "answer": true,
+          "explanation": "Correcto: suaviza el desacuerdo manteniendo un tono constructivo."
+        },
+        {
+          "id": "c2w6j",
+          "statement": "\"Cabe la posibilidad de que\" expresa una certeza absoluta.",
+          "answer": false,
+          "explanation": "Falso: expresa un grado de certeza matizado, no absoluto."
+        },
+        {
+          "id": "c2w6k",
+          "statement": "Una ambigüedad evasiva deliberada es un recurso válido en un texto argumentativo serio.",
+          "answer": false,
+          "explanation": "Falso: impide saber qué piensa realmente el hablante."
+        },
+        {
+          "id": "c2w6l",
+          "statement": "El condicional (podría, cabría) es una herramienta común de modalidad epistémica.",
+          "answer": true,
+          "explanation": "Correcto: es uno de los recursos centrales de esta lección."
+        }
+      ]
     }
   ],
   "summary": [

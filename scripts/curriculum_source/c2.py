@@ -686,3 +686,189 @@ EXTRA_EXERCISES_2 = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_3 — tercera ronda de práctica, añadida para llevar cada
+# lección a paridad de número de ejercicios con la lección de inglés en
+# la misma posición del nivel C2. Fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_3 = {
+    "c2-sintaxis-compleja-y-subordinacion-multiple": [
+        {"id": "c2w1-fill", "type": "fill-blank", "title": "Más Práctica con Subordinación Múltiple",
+         "items": [
+            {"id": "c2w1a", "prompt": "No hay nadie que crea que esta decisión ___ (ser) la más razonable.", "answers": [["sea"]], "options": ["sea", "es", "será"], "explanation": "Nadie que + subjuntivo, antecedente indefinido negativo."},
+            {"id": "c2w1b", "prompt": "Explicó que, si bien el proyecto avanzaba, aún ___ (quedar) decisiones que tomar.", "answers": [["quedaban"]], "options": ["quedaban", "queden", "quedarán"], "explanation": "Cláusula concesiva con indicativo, dependiente de explicó."},
+            {"id": "c2w1c", "prompt": "Es poco probable que quien ___ (haber) vivido eso pueda olvidarlo.", "answers": [["haya"]], "options": ["haya", "ha", "había"], "explanation": "Es poco probable que + subjuntivo compuesto."},
+            {"id": "c2w1d", "prompt": "Aunque sabía que, de haber actuado antes, todo ___ (ser) distinto, prefirió no lamentarse.", "answers": [["habría sido"], ["hubiera sido"], ["hubiese sido"]], "options": ["habría sido", "era", "fue"], "explanation": "Apódosis de una condicional irreal de pasado dentro de una subordinada."},
+            {"id": "c2w1e", "prompt": "Dudaba que quienes lo criticaban ___ (haber) leído su obra completa.", "answers": [["hubieran"], ["hubiesen"]], "options": ["hubieran", "habían", "hayan"], "explanation": "Dudar en pasado rige pluscuamperfecto de subjuntivo en la subordinada."},
+         ]},
+        {"id": "c2w1-mc", "type": "multiple-choice", "title": "Preguntas sobre Subordinación Múltiple",
+         "items": [
+            {"id": "c2w1f", "prompt": "En \"El informe, que se había redactado con la esperanza de que convenciera al comité, resultó insuficiente\", ¿de qué depende \"convenciera\"?", "options": ["de la esperanza de que", "del informe directamente", "de resultó"], "answerIndex": 0, "explanation": "Convenciera depende de la esperanza de que, una subordinada anidada dentro de la relativa."},
+            {"id": "c2w1g", "prompt": "¿A partir de cuántos niveles de subordinación suele convenir dividir la frase?", "options": ["más de tres o cuatro", "uno", "nunca hay que dividir"], "answerIndex": 0, "explanation": "Más allá de tres o cuatro niveles, suele ganar en claridad dividir la frase."},
+            {"id": "c2w1h", "prompt": "¿Qué determina el modo verbal de cada subordinada en una cadena?", "options": ["el verbo del que depende directamente, no el principal de toda la frase", "siempre el verbo principal", "el tiempo del día"], "answerIndex": 0, "explanation": "Cada subordinada obedece a su propio verbo regente."},
+            {"id": "c2w1i", "prompt": "¿Qué riesgo real presenta la subordinación múltiple, más que la incorrección?", "options": ["la pérdida de claridad", "la pérdida de vocabulario", "la pérdida del sujeto"], "answerIndex": 0, "explanation": "El riesgo principal es que el lector pierda el hilo de a qué se refiere cada elemento."},
+            {"id": "c2w1j", "prompt": "En \"Me confesó que temía que, si no llegábamos a tiempo, se cancelaría todo\", ¿qué rige el condicional \"se cancelaría\"?", "options": ["la hipotética dentro de temía", "confesó directamente", "nada, es independiente"], "answerIndex": 0, "explanation": "El condicional corresponde a la apódosis de la hipotética anidada dentro de temía."},
+         ]},
+        {"id": "c2w1-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w1k", "statement": "Cada subordinada en una cadena obedece siempre a la misma razón que las demás.", "answer": False, "explanation": "Falso: cada subordinada puede tener una razón distinta e independiente para su modo verbal."},
+            {"id": "c2w1l", "statement": "Dividir una frase demasiado cargada en dos puede ganar en claridad sin perder precisión.", "answer": True, "explanation": "Correcto: es la estrategia recomendada frente a la subordinación excesiva."},
+            {"id": "c2w1m", "statement": "La concordancia de tiempos avanza en cadena, según el verbo del que depende cada subordinada.", "answer": True, "explanation": "Correcto: cada verbo retrocede según el que lo rige directamente."},
+            {"id": "c2w1n", "statement": "Un texto culto y elaborado avanza siempre con frases simples, una detrás de otra.", "answer": False, "explanation": "Falso: rara vez avanza solo con frases simples; combina subordinadas con precisión."},
+         ]},
+    ],
+    "c2-registro-literario-y-recursos-estilisticos": [
+        {"id": "c2w2-fill", "type": "fill-blank", "title": "Más Práctica con Recursos Estilísticos",
+         "items": [
+            {"id": "c2w2a", "prompt": "___ altera el orden habitual de las palabras para dar énfasis o musicalidad.", "answers": [["El hipérbaton"]], "options": ["El hipérbaton", "La anáfora", "La metáfora"], "explanation": "El hipérbaton es la alteración del orden neutro de las palabras."},
+            {"id": "c2w2b", "prompt": "\"Te lo he dicho un millón de veces\" es un ejemplo de ___.", "answers": [["hipérbole"]], "options": ["hipérbole", "anáfora", "hipérbaton"], "explanation": "La exageración deliberada más allá del sentido literal es una hipérbole."},
+         ]},
+        {"id": "c2w2-mc", "type": "multiple-choice", "title": "Preguntas sobre Estilo Literario",
+         "items": [
+            {"id": "c2w2c", "prompt": "¿Qué recurso repite una estructura al inicio de frases sucesivas?", "options": ["anáfora", "hipérbaton", "hipérbole"], "answerIndex": 0, "explanation": "La anáfora crea ritmo e insistencia mediante la repetición inicial."},
+            {"id": "c2w2d", "prompt": "¿Qué caracteriza al pretérito anterior (hubo terminado)?", "options": ["es casi exclusivo del registro literario y arcaizante", "es de uso frecuente en el habla cotidiana", "ya no existe en español"], "answerIndex": 0, "explanation": "El pluscuamperfecto lo sustituye en casi todos los contextos actuales."},
+            {"id": "c2w2e", "prompt": "¿Qué tipo de palabras son \"ínclito, pergeñar, acendrado\"?", "options": ["léxico elevado o poco frecuente", "falsos amigos", "arcaísmos medievales"], "answerIndex": 0, "explanation": "Son palabras de baja frecuencia propias del registro literario cuidado."},
+         ]},
+        {"id": "c2w2-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w2f", "statement": "La hipérbole es una exageración deliberada con función expresiva, no un error de precisión.", "answer": True, "explanation": "Correcto: es un recurso retórico consciente."},
+            {"id": "c2w2g", "statement": "El hipérbaton es apropiado para un correo de trabajo cotidiano.", "answer": False, "explanation": "Falso: fuera de un contexto literario suena afectado o forzado."},
+         ]},
+    ],
+    "c2-matices-lexicos-y-falsos-amigos-avanzados": [
+        {"id": "c2w3-fill", "type": "fill-blank", "title": "Más Práctica con Matices Léxicos",
+         "items": [
+            {"id": "c2w3a", "prompt": "\"Constipado\" en español significa ___ (no estreñido).", "answers": [["resfriado"]], "options": ["resfriado", "estreñido", "cansado"], "explanation": "Constipado es un falso amigo frecuente: significa resfriado."},
+            {"id": "c2w3b", "prompt": "\"Éxito\" significa ___ (no salida).", "answers": [["resultado positivo"], ["logro"]], "options": ["resultado positivo", "salida", "puerta"], "explanation": "Éxito es un falso amigo frecuente: significa resultado positivo o logro."},
+            {"id": "c2w3c", "prompt": "Miedo < temor < ___ (el más intenso de los tres).", "answers": [["pavor"], ["terror"]], "options": ["pavor", "miedo", "temor"], "explanation": "La escala de intensidad culmina en pavor/terror."},
+         ]},
+        {"id": "c2w3-mc", "type": "multiple-choice", "title": "Preguntas sobre Falsos Amigos",
+         "items": [
+            {"id": "c2w3d", "prompt": "¿Qué matiz distingue \"gustar\" de \"encantar\" y \"fascinar\"?", "options": ["intensidad creciente", "registro", "región"], "answerIndex": 0, "explanation": "Los tres verbos forman una escala de intensidad creciente."},
+            {"id": "c2w3e", "prompt": "¿Qué registro tiene \"fallecer\" frente a \"morir\"?", "options": ["más formal", "más coloquial", "el mismo"], "answerIndex": 0, "explanation": "Fallecer es el término formal, propio de anuncios oficiales."},
+            {"id": "c2w3f", "prompt": "¿Qué significa \"sensible\" en español?", "options": ["que siente con facilidad", "sensato", "razonable"], "answerIndex": 0, "explanation": "Sensible no tiene relación con sensato, un falso amigo clásico."},
+         ]},
+        {"id": "c2w3-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w3g", "statement": "\"Actualmente\" y \"en realidad\" significan lo mismo en español.", "answer": False, "explanation": "Falso: actualmente significa «en este momento»."},
+            {"id": "c2w3h", "statement": "\"Flaco\" y \"esquelético\" tienen exactamente la misma connotación.", "answer": False, "explanation": "Falso: esquelético es claramente negativo, flaco es más neutro en muchos países."},
+            {"id": "c2w3i", "statement": "Elegir la palabra con el matiz exacto es la marca de un dominio léxico avanzado.", "answer": True, "explanation": "Correcto: distingue un texto correcto de uno verdaderamente preciso."},
+         ]},
+    ],
+    "c2-variacion-regional": [
+        {"id": "c2w4-fill", "type": "fill-blank", "title": "Más Práctica con Variación Regional",
+         "items": [
+            {"id": "c2w4a", "prompt": "En el Caribe, \"los dos\" se pronuncia aspirando o perdiendo la ___ final.", "answers": [["-s"], ["s"]], "options": ["s", "n", "r"], "explanation": "La aspiración o pérdida de -s final es típica del Caribe, Andalucía y Chile."},
+            {"id": "c2w4b", "prompt": "En el Río de la Plata, \"yo\" suena aproximadamente como ___.", "answers": [["sho"]], "options": ["sho", "yo", "sio"], "explanation": "El yeísmo rehilado del Río de la Plata da a ll/y un sonido «sh»."},
+            {"id": "c2w4c", "prompt": "En España se dice \"móvil\"; en América Latina, ___.", "answers": [["celular"]], "options": ["celular", "auto", "guagua"], "explanation": "Celular es el término equivalente usado en América Latina."},
+         ]},
+        {"id": "c2w4-mc", "type": "multiple-choice", "title": "Preguntas sobre Variación Regional",
+         "items": [
+            {"id": "c2w4d", "prompt": "¿Qué rasgo caribeño aparece en \"¿Qué tú piensas?\"?", "options": ["mantener el pronombre de sujeto en preguntas", "el voseo", "el distingo"], "answerIndex": 0, "explanation": "El Caribe tiende a mantener el pronombre de sujeto incluso cuando no es necesario."},
+            {"id": "c2w4e", "prompt": "¿Qué se dice en México para \"palomitas\"?", "options": ["palomitas", "pochoclo", "cotufas"], "answerIndex": 0, "explanation": "Palomitas es el término mexicano; pochoclo (Argentina) y cotufas (Venezuela) son equivalentes regionales."},
+            {"id": "c2w4f", "prompt": "¿Qué variedad usa \"auto\" en vez de \"coche\" o \"carro\"?", "options": ["Río de la Plata/Chile", "España", "México"], "answerIndex": 0, "explanation": "Auto es el término preferido en el Río de la Plata y Chile."},
+            {"id": "c2w4g", "prompt": "¿Qué región usa \"guagua\" para autobús?", "options": ["el Caribe", "España", "Argentina"], "answerIndex": 0, "explanation": "Guagua es el término caribeño (Cuba, Puerto Rico, Canarias) para autobús."},
+         ]},
+        {"id": "c2w4-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w4h", "statement": "El seseo es una desviación incorrecta del distingo.", "answer": False, "explanation": "Falso: el seseo es la pronunciación mayoritaria del español en el mundo."},
+            {"id": "c2w4i", "statement": "El yeísmo rehilado con sonido «sh» es característico del Río de la Plata.", "answer": True, "explanation": "Correcto: es un rasgo fonético distintivo de esa región."},
+            {"id": "c2w4j", "statement": "Cada región hispanohablante tiene su propia norma culta legítima.", "answer": True, "explanation": "Correcto: el español no tiene un único centro de prestigio."},
+         ]},
+    ],
+    "c2-cohesion-textual-en-discurso-extenso": [
+        {"id": "c2w5-fill", "type": "fill-blank", "title": "Más Práctica con Cohesión Textual",
+         "items": [
+            {"id": "c2w5a", "prompt": "El estudio analiza tres factores. El primero de ___ es el más determinante.", "answers": [["ellos"]], "options": ["ellos", "esto", "aquellos"], "explanation": "Ellos retoma «tres factores» mediante un pronombre."},
+            {"id": "c2w5b", "prompt": "María presentó su proyecto y, acto seguido, ___ a las preguntas del jurado. (elipsis del sujeto)", "answers": [["respondió"]], "options": ["respondió", "respondí", "responden"], "explanation": "El sujeto María se omite por elipsis, recuperable del contexto."},
+            {"id": "c2w5c", "prompt": "El autor plantea una hipótesis audaz; ___ hipótesis se sostiene a lo largo del ensayo.", "answers": [["dicha"]], "options": ["dicha", "esta misma", "aquella"], "explanation": "Dicha es un mecanismo de referencia típico del registro formal."},
+            {"id": "c2w5d", "prompt": "Cuando Ana y Marta se encontraron, ___ última le mostró las fotos. (desambiguación)", "answers": [["esta"]], "options": ["esta", "ella", "aquella"], "explanation": "Esta última desambigua entre los dos antecedentes posibles."},
+         ]},
+        {"id": "c2w5-mc", "type": "multiple-choice", "title": "Preguntas sobre Cohesión Textual",
+         "items": [
+            {"id": "c2w5e", "prompt": "¿Qué es un hiperónimo?", "options": ["una palabra más general que sustituye a otra más específica", "un sinónimo exacto", "un antónimo"], "answerIndex": 0, "explanation": "Por ejemplo, «el animal» en vez de repetir «el perro»."},
+            {"id": "c2w5f", "prompt": "¿Qué es la elipsis en cohesión textual?", "options": ["omitir un elemento ya mencionado que el contexto permite recuperar", "repetir siempre el mismo sustantivo", "usar solo pronombres"], "answerIndex": 0, "explanation": "Evita repeticiones innecesarias cuando el contexto permite recuperar el elemento."},
+            {"id": "c2w5g", "prompt": "¿Qué es la progresión temática?", "options": ["la información nueva de una frase se convierte en tema de la siguiente", "repetir el mismo tema sin avanzar", "usar solo oraciones cortas"], "answerIndex": 0, "explanation": "Así el texto avanza sin saltos bruscos."},
+            {"id": "c2w5h", "prompt": "¿Qué es la ambigüedad referencial?", "options": ["un pronombre que podría referirse a más de un antecedente", "una palabra mal escrita", "un tiempo verbal incorrecto"], "answerIndex": 0, "explanation": "Obliga al lector a releer para entender a quién se refiere."},
+            {"id": "c2w5i", "prompt": "¿Cómo se resuelve la ambigüedad de \"él\" entre dos personas mencionadas?", "options": ["nombrando explícitamente o usando «este último»", "ignorando el problema", "usando el plural"], "answerIndex": 0, "explanation": "Precisar con este/este último o repetir el nombre resuelve la ambigüedad."},
+         ]},
+        {"id": "c2w5-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w5j", "statement": "Repetir el mismo sustantivo constantemente mejora la cohesión de un texto.", "answer": False, "explanation": "Falso: rompe la fluidez; conviene usar pronombres, sinónimos o hiperónimos."},
+            {"id": "c2w5k", "statement": "La elipsis omite un elemento ya mencionado cuando el contexto lo permite.", "answer": True, "explanation": "Correcto: es uno de los mecanismos de cohesión referencial."},
+            {"id": "c2w5l", "statement": "Sin progresión temática, un texto se percibe como una lista de ideas sueltas.", "answer": True, "explanation": "Correcto: la progresión evita esa sensación de discurso desconectado."},
+            {"id": "c2w5m", "statement": "La ambigüedad referencial nunca ocurre en escritores avanzados.", "answer": False, "explanation": "Falso: es un fallo frecuente incluso en escritores avanzados."},
+         ]},
+    ],
+    "c2-modalidad-y-atenuacion-en-discurso-formal": [
+        {"id": "c2w6-fill", "type": "fill-blank", "title": "Más Práctica con Modalidad y Atenuación",
+         "items": [
+            {"id": "c2w6a", "prompt": "El planteamiento es, ___ cierto punto, razonable, aunque presenta lagunas.", "answers": [["hasta"]], "options": ["hasta", "desde", "sobre"], "explanation": "Hasta cierto punto es un atenuador fijo."},
+            {"id": "c2w6b", "prompt": "No cabe ___ que existan otros factores no considerados.", "answers": [["descartar"]], "options": ["descartar", "afirmar", "negar"], "explanation": "No cabe descartar que expresa una posibilidad no eliminada."},
+            {"id": "c2w6c", "prompt": "___, el retraso se debió a factores externos al equipo. (adverbio de atenuación)", "answers": [["Presumiblemente"]], "options": ["Presumiblemente", "Ciertamente", "Obviamente"], "explanation": "Presumiblemente atenúa una afirmación sin renunciar a expresarla."},
+            {"id": "c2w6d", "prompt": "Si bien el enfoque tiene mérito, ___ cuestionar algunas de sus premisas.", "answers": [["cabría"]], "options": ["cabría", "es imposible", "nunca se debe"], "explanation": "Cabría + infinitivo introduce una crítica atenuada."},
+         ]},
+        {"id": "c2w6-mc", "type": "multiple-choice", "title": "Preguntas sobre Modalidad y Atenuación",
+         "items": [
+            {"id": "c2w6e", "prompt": "¿Qué expresa la modalidad epistémica?", "options": ["el grado de certeza del hablante sobre lo que dice", "el tiempo verbal", "el género gramatical"], "answerIndex": 0, "explanation": "Se expresa con verbos modales, adverbios o construcciones impersonales."},
+            {"id": "c2w6f", "prompt": "¿Qué diferencia hay entre atenuación genuina y ambigüedad evasiva?", "options": ["la atenuación sigue comunicando una posición clara; la ambigüedad evasiva no", "son exactamente lo mismo", "la ambigüedad es más cortés"], "answerIndex": 0, "explanation": "La atenuación matiza el tono sin ocultar el mensaje real."},
+            {"id": "c2w6g", "prompt": "¿Qué estrategia atenúa una crítica mediante impersonalización?", "options": ["Se podría objetar que falta un ejemplo más claro", "Esto está mal", "Tú te equivocas"], "answerIndex": 0, "explanation": "La impersonalización distancia la crítica del interlocutor directo."},
+            {"id": "c2w6h", "prompt": "¿Qué recurso reconoce el argumento contrario antes de matizar?", "options": ["Si bien el argumento tiene mérito, cabría matizar...", "Esto es incorrecto", "No tienes razón"], "answerIndex": 0, "explanation": "El reconocimiento previo suaviza la crítica que sigue."},
+         ]},
+        {"id": "c2w6-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w6i", "statement": "La atenuación es especialmente valorada en el registro académico y profesional.", "answer": True, "explanation": "Correcto: suaviza el desacuerdo manteniendo un tono constructivo."},
+            {"id": "c2w6j", "statement": "\"Cabe la posibilidad de que\" expresa una certeza absoluta.", "answer": False, "explanation": "Falso: expresa un grado de certeza matizado, no absoluto."},
+            {"id": "c2w6k", "statement": "Una ambigüedad evasiva deliberada es un recurso válido en un texto argumentativo serio.", "answer": False, "explanation": "Falso: impide saber qué piensa realmente el hablante."},
+            {"id": "c2w6l", "statement": "El condicional (podría, cabría) es una herramienta común de modalidad epistémica.", "answer": True, "explanation": "Correcto: es uno de los recursos centrales de esta lección."},
+         ]},
+    ],
+    "c2-estructuras-arcaicas-o-literarias": [
+        {"id": "c2w7-fill", "type": "fill-blank", "title": "Más Práctica con Estructuras Arcaicas",
+         "items": [
+            {"id": "c2w7a", "prompt": "___ fuese pobre, jamás perdió la dignidad. (aunque)", "answers": [["Maguer"]], "options": ["Maguer", "Ca", "Fabló"], "explanation": "Maguer es un arcaísmo que significa aunque."},
+            {"id": "c2w7b", "prompt": "El que ___ de heredar esta hacienda deberá cumplir con lo dispuesto. (futuro de subjuntivo)", "answers": [["hubiere"]], "options": ["hubiere", "hubiera", "habrá"], "explanation": "El futuro de subjuntivo persiste en textos jurídicos clásicos."},
+            {"id": "c2w7c", "prompt": "\"Fabló\" en español medieval significa ___.", "answers": [["habló"]], "options": ["habló", "hizo", "supo"], "explanation": "Fablar es la forma medieval de hablar."},
+         ]},
+        {"id": "c2w7-mc", "type": "multiple-choice", "title": "Preguntas sobre Estructuras Arcaicas",
+         "items": [
+            {"id": "c2w7d", "prompt": "¿Qué diferencia hay entre el vos reverencial clásico y el voseo moderno?", "options": ["el clásico era formal hacia una sola persona de rango; el moderno es informal y cotidiano", "son exactamente lo mismo", "el clásico ya no existe en ningún texto"], "answerIndex": 0, "explanation": "Comparten la forma del pronombre pero no la función."},
+            {"id": "c2w7e", "prompt": "¿De qué es origen histórico \"vuestra merced\"?", "options": ["usted", "tú", "vos"], "answerIndex": 0, "explanation": "Vuestra merced se abrevió con el tiempo hasta dar usted."},
+            {"id": "c2w7f", "prompt": "¿Qué significa \"facer\" en textos medievales?", "options": ["hacer", "hablar", "saber"], "answerIndex": 0, "explanation": "Facer es la forma medieval de hacer."},
+            {"id": "c2w7g", "prompt": "¿Cuál es el objetivo en C2 respecto a estas formas arcaicas?", "options": ["reconocerlas al leer, no producirlas activamente", "usarlas en conversación diaria", "evitarlas por completo en la lectura"], "answerIndex": 0, "explanation": "El objetivo es la comprensión lectora, no la producción activa."},
+         ]},
+        {"id": "c2w7-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w7h", "statement": "El futuro de subjuntivo sobrevive en textos religiosos y jurídicos antiguos.", "answer": True, "explanation": "Correcto: persiste en ese tipo de textos formales."},
+            {"id": "c2w7i", "statement": "\"Ca\" en textos medievales significa \"cuando\".", "answer": False, "explanation": "Falso: ca significa porque."},
+            {"id": "c2w7j", "statement": "Un dominio de C2 permite seguir el sentido general de un texto clásico sin traducir cada palabra mentalmente.", "answer": True, "explanation": "Correcto: se apoya en el contexto para el léxico menos frecuente."},
+            {"id": "c2w7k", "statement": "El vos reverencial clásico y el voseo rioplatense comparten la forma pero no la función histórica.", "answer": True, "explanation": "Correcto: mismo pronombre, funciones sociales completamente distintas."},
+         ]},
+    ],
+    "c2-dominio-del-registro-y-transformacion-estilistica": [
+        {"id": "c2w8-fill", "type": "fill-blank", "title": "Más Práctica con Dominio del Registro",
+         "items": [
+            {"id": "c2w8a", "prompt": "Coloquial: ¿me puedes echar una mano? Formal: ¿___ tan amable de ayudarme?", "answers": [["Sería"]], "options": ["Sería", "Es", "Fue"], "explanation": "El condicional sería es propio de la fórmula de cortesía formal."},
+            {"id": "c2w8b", "prompt": "Formal: Durante el presente ejercicio, se ha registrado un ___ notable en las cifras de ventas.", "answers": [["descenso"]], "options": ["descenso", "bajón", "caída fuerte"], "explanation": "Descenso es el término preciso y neutro en registro formal."},
+            {"id": "c2w8c", "prompt": "El registro se define en cuatro planos: léxico, sintaxis, trato y ___.", "answers": [["recursos retóricos"]], "options": ["recursos retóricos", "acentos regionales", "tiempos verbales"], "explanation": "Los cuatro planos son léxico, sintaxis, trato y recursos retóricos."},
+         ]},
+        {"id": "c2w8-mc", "type": "multiple-choice", "title": "Preguntas sobre Dominio del Registro",
+         "items": [
+            {"id": "c2w8d", "prompt": "¿Qué produce mezclar un léxico muy culto con un trato de tú informal?", "options": ["un efecto extraño o involuntariamente cómico", "siempre mejora el texto", "nada, es neutro"], "answerIndex": 0, "explanation": "Rompe la coherencia interna de registro."},
+            {"id": "c2w8e", "prompt": "¿Qué caracteriza a un hablante de C2 respecto al registro?", "options": ["elige conscientemente el registro según destinatario y propósito", "usa siempre el mismo registro", "evita el registro formal siempre"], "answerIndex": 0, "explanation": "Elige, no cae en un registro por defecto."},
+            {"id": "c2w8f", "prompt": "¿Es un registro literario siempre \"mejor\" que uno coloquial?", "options": ["no, cada registro es apropiado según el contexto", "sí, siempre es mejor", "el literario es incorrecto"], "answerIndex": 0, "explanation": "No existe jerarquía de valor entre los registros."},
+            {"id": "c2w8g", "prompt": "¿Qué plano del registro incluye tú/vos/usted?", "options": ["la morfología del trato", "el léxico", "los recursos retóricos"], "answerIndex": 0, "explanation": "El trato es uno de los cuatro planos del registro."},
+         ]},
+        {"id": "c2w8-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c2w8h", "statement": "Un texto bien escrito mantiene el mismo registro en todos sus planos a la vez.", "answer": True, "explanation": "Correcto: la coherencia interna de registro es esencial."},
+            {"id": "c2w8i", "statement": "El dominio real de C2 se demuestra en dominar un solo registro muy elaborado.", "answer": False, "explanation": "Falso: se demuestra en poder transformar el registro a voluntad."},
+            {"id": "c2w8j", "statement": "Un mensaje coloquial entre amigos escrito en registro literario sería igual de apropiado que en registro coloquial.", "answer": False, "explanation": "Falso: resultaría tan inadecuado como un informe técnico en tono demasiado coloquial."},
+            {"id": "c2w8k", "statement": "Los cuatro planos del registro son: léxico, sintaxis, trato y recursos retóricos.", "answer": True, "explanation": "Correcto, según la lección."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_3.get(_lesson["id"], []))

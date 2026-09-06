@@ -235,6 +235,137 @@
           "explanation": "Guardado para tu propio repaso — el vocabulario varía mucho por región, sin que ninguna sea más correcta."
         }
       ]
+    },
+    {
+      "id": "c2w4-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Variación Regional",
+      "items": [
+        {
+          "id": "c2w4a",
+          "prompt": "En el Caribe, \"los dos\" se pronuncia aspirando o perdiendo la ___ final.",
+          "answers": [
+            [
+              "-s"
+            ],
+            [
+              "s"
+            ]
+          ],
+          "options": [
+            "s",
+            "n",
+            "r"
+          ],
+          "explanation": "La aspiración o pérdida de -s final es típica del Caribe, Andalucía y Chile."
+        },
+        {
+          "id": "c2w4b",
+          "prompt": "En el Río de la Plata, \"yo\" suena aproximadamente como ___.",
+          "answers": [
+            [
+              "sho"
+            ]
+          ],
+          "options": [
+            "sho",
+            "yo",
+            "sio"
+          ],
+          "explanation": "El yeísmo rehilado del Río de la Plata da a ll/y un sonido «sh»."
+        },
+        {
+          "id": "c2w4c",
+          "prompt": "En España se dice \"móvil\"; en América Latina, ___.",
+          "answers": [
+            [
+              "celular"
+            ]
+          ],
+          "options": [
+            "celular",
+            "auto",
+            "guagua"
+          ],
+          "explanation": "Celular es el término equivalente usado en América Latina."
+        }
+      ]
+    },
+    {
+      "id": "c2w4-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Variación Regional",
+      "items": [
+        {
+          "id": "c2w4d",
+          "prompt": "¿Qué rasgo caribeño aparece en \"¿Qué tú piensas?\"?",
+          "options": [
+            "mantener el pronombre de sujeto en preguntas",
+            "el voseo",
+            "el distingo"
+          ],
+          "answerIndex": 0,
+          "explanation": "El Caribe tiende a mantener el pronombre de sujeto incluso cuando no es necesario."
+        },
+        {
+          "id": "c2w4e",
+          "prompt": "¿Qué se dice en México para \"palomitas\"?",
+          "options": [
+            "palomitas",
+            "pochoclo",
+            "cotufas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Palomitas es el término mexicano; pochoclo (Argentina) y cotufas (Venezuela) son equivalentes regionales."
+        },
+        {
+          "id": "c2w4f",
+          "prompt": "¿Qué variedad usa \"auto\" en vez de \"coche\" o \"carro\"?",
+          "options": [
+            "Río de la Plata/Chile",
+            "España",
+            "México"
+          ],
+          "answerIndex": 0,
+          "explanation": "Auto es el término preferido en el Río de la Plata y Chile."
+        },
+        {
+          "id": "c2w4g",
+          "prompt": "¿Qué región usa \"guagua\" para autobús?",
+          "options": [
+            "el Caribe",
+            "España",
+            "Argentina"
+          ],
+          "answerIndex": 0,
+          "explanation": "Guagua es el término caribeño (Cuba, Puerto Rico, Canarias) para autobús."
+        }
+      ]
+    },
+    {
+      "id": "c2w4-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2w4h",
+          "statement": "El seseo es una desviación incorrecta del distingo.",
+          "answer": false,
+          "explanation": "Falso: el seseo es la pronunciación mayoritaria del español en el mundo."
+        },
+        {
+          "id": "c2w4i",
+          "statement": "El yeísmo rehilado con sonido «sh» es característico del Río de la Plata.",
+          "answer": true,
+          "explanation": "Correcto: es un rasgo fonético distintivo de esa región."
+        },
+        {
+          "id": "c2w4j",
+          "statement": "Cada región hispanohablante tiene su propia norma culta legítima.",
+          "answer": true,
+          "explanation": "Correcto: el español no tiene un único centro de prestigio."
+        }
+      ]
     }
   ],
   "summary": [

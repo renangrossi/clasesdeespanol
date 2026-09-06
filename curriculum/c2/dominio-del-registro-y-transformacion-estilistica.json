@@ -220,6 +220,140 @@
           "explanation": "Guardado para tu propio repaso — un registro formal evitaría muletillas y usaría vocabulario más preciso."
         }
       ]
+    },
+    {
+      "id": "c2w8-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Dominio del Registro",
+      "items": [
+        {
+          "id": "c2w8a",
+          "prompt": "Coloquial: ¿me puedes echar una mano? Formal: ¿___ tan amable de ayudarme?",
+          "answers": [
+            [
+              "Sería"
+            ]
+          ],
+          "options": [
+            "Sería",
+            "Es",
+            "Fue"
+          ],
+          "explanation": "El condicional sería es propio de la fórmula de cortesía formal."
+        },
+        {
+          "id": "c2w8b",
+          "prompt": "Formal: Durante el presente ejercicio, se ha registrado un ___ notable en las cifras de ventas.",
+          "answers": [
+            [
+              "descenso"
+            ]
+          ],
+          "options": [
+            "descenso",
+            "bajón",
+            "caída fuerte"
+          ],
+          "explanation": "Descenso es el término preciso y neutro en registro formal."
+        },
+        {
+          "id": "c2w8c",
+          "prompt": "El registro se define en cuatro planos: léxico, sintaxis, trato y ___.",
+          "answers": [
+            [
+              "recursos retóricos"
+            ]
+          ],
+          "options": [
+            "recursos retóricos",
+            "acentos regionales",
+            "tiempos verbales"
+          ],
+          "explanation": "Los cuatro planos son léxico, sintaxis, trato y recursos retóricos."
+        }
+      ]
+    },
+    {
+      "id": "c2w8-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Dominio del Registro",
+      "items": [
+        {
+          "id": "c2w8d",
+          "prompt": "¿Qué produce mezclar un léxico muy culto con un trato de tú informal?",
+          "options": [
+            "un efecto extraño o involuntariamente cómico",
+            "siempre mejora el texto",
+            "nada, es neutro"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rompe la coherencia interna de registro."
+        },
+        {
+          "id": "c2w8e",
+          "prompt": "¿Qué caracteriza a un hablante de C2 respecto al registro?",
+          "options": [
+            "elige conscientemente el registro según destinatario y propósito",
+            "usa siempre el mismo registro",
+            "evita el registro formal siempre"
+          ],
+          "answerIndex": 0,
+          "explanation": "Elige, no cae en un registro por defecto."
+        },
+        {
+          "id": "c2w8f",
+          "prompt": "¿Es un registro literario siempre \"mejor\" que uno coloquial?",
+          "options": [
+            "no, cada registro es apropiado según el contexto",
+            "sí, siempre es mejor",
+            "el literario es incorrecto"
+          ],
+          "answerIndex": 0,
+          "explanation": "No existe jerarquía de valor entre los registros."
+        },
+        {
+          "id": "c2w8g",
+          "prompt": "¿Qué plano del registro incluye tú/vos/usted?",
+          "options": [
+            "la morfología del trato",
+            "el léxico",
+            "los recursos retóricos"
+          ],
+          "answerIndex": 0,
+          "explanation": "El trato es uno de los cuatro planos del registro."
+        }
+      ]
+    },
+    {
+      "id": "c2w8-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2w8h",
+          "statement": "Un texto bien escrito mantiene el mismo registro en todos sus planos a la vez.",
+          "answer": true,
+          "explanation": "Correcto: la coherencia interna de registro es esencial."
+        },
+        {
+          "id": "c2w8i",
+          "statement": "El dominio real de C2 se demuestra en dominar un solo registro muy elaborado.",
+          "answer": false,
+          "explanation": "Falso: se demuestra en poder transformar el registro a voluntad."
+        },
+        {
+          "id": "c2w8j",
+          "statement": "Un mensaje coloquial entre amigos escrito en registro literario sería igual de apropiado que en registro coloquial.",
+          "answer": false,
+          "explanation": "Falso: resultaría tan inadecuado como un informe técnico en tono demasiado coloquial."
+        },
+        {
+          "id": "c2w8k",
+          "statement": "Los cuatro planos del registro son: léxico, sintaxis, trato y recursos retóricos.",
+          "answer": true,
+          "explanation": "Correcto, según la lección."
+        }
+      ]
     }
   ],
   "summary": [
