@@ -297,6 +297,231 @@
           "explanation": "Terminación en consonante: se añade -es."
         }
       ]
+    },
+    {
+      "id": "a1z2-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z2m1",
+          "prompt": "Relaciona la terminación con su plural.",
+          "pairs": [
+            {
+              "left": "libro",
+              "right": "libros"
+            },
+            {
+              "left": "ciudad",
+              "right": "ciudades"
+            },
+            {
+              "left": "lápiz",
+              "right": "lápices"
+            },
+            {
+              "left": "flor",
+              "right": "flores"
+            }
+          ],
+          "explanation": "El plural sigue reglas distintas según la terminación de la palabra."
+        }
+      ]
+    },
+    {
+      "id": "a1z2-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z2v1",
+          "prompt": "¿Cuál de estas palabras es una excepción de género?",
+          "options": [
+            "libro",
+            "mano",
+            "mesa"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mano es femenina aunque termina en -o, una excepción muy conocida."
+        },
+        {
+          "id": "a1z2v2",
+          "prompt": "¿Qué terminación suele indicar género femenino?",
+          "options": [
+            "-o",
+            "-dad",
+            "-e"
+          ],
+          "answerIndex": 1,
+          "explanation": "Terminaciones como -dad, -ción y -sión son casi siempre femeninas."
+        },
+        {
+          "id": "a1z2v3",
+          "prompt": "¿Cuál es el plural de \"canción\"?",
+          "options": [
+            "cancións",
+            "canciones",
+            "cancion"
+          ],
+          "answerIndex": 1,
+          "explanation": "Terminación en consonante: se añade -es."
+        }
+      ]
+    },
+    {
+      "id": "a1w2-fill",
+      "type": "fill-blank",
+      "title": "Completa sobre Género y Número",
+      "items": [
+        {
+          "id": "a1w2a",
+          "prompt": "\"Sistema\" es un sustantivo ___ aunque termine en -a.",
+          "answers": [
+            [
+              "masculino"
+            ]
+          ],
+          "explanation": "Sistema viene del griego y es masculino, como problema e idioma.",
+          "options": [
+            "masculino",
+            "femenino"
+          ]
+        },
+        {
+          "id": "a1w2b",
+          "prompt": "\"Actitud\", terminada en -tud, es casi siempre ___.",
+          "answers": [
+            [
+              "femenina"
+            ]
+          ],
+          "explanation": "Las terminaciones -dad, -ción, -sión y -tud son casi siempre femeninas.",
+          "options": [
+            "femenina",
+            "masculino"
+          ]
+        },
+        {
+          "id": "a1w2c",
+          "prompt": "\"El capital\" se refiere a ___.",
+          "answers": [
+            [
+              "dinero"
+            ]
+          ],
+          "explanation": "El capital (masculino) significa dinero o fondos.",
+          "options": [
+            "dinero",
+            "la ciudad principal"
+          ]
+        },
+        {
+          "id": "a1w2d",
+          "prompt": "\"La capital\" se refiere a ___.",
+          "answers": [
+            [
+              "la ciudad principal"
+            ]
+          ],
+          "explanation": "La capital (femenino) significa la ciudad principal de un país.",
+          "options": [
+            "dinero",
+            "la ciudad principal"
+          ]
+        },
+        {
+          "id": "a1w2e",
+          "prompt": "vez → plural: ___.",
+          "answers": [
+            [
+              "veces"
+            ]
+          ],
+          "explanation": "Terminación en -z: la z cambia a c antes de -es."
+        }
+      ]
+    },
+    {
+      "id": "a1w2-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Género y Número",
+      "items": [
+        {
+          "id": "a1w2f",
+          "prompt": "¿Cuál de estos sustantivos es femenino aunque termine en -o?",
+          "options": [
+            "moto",
+            "libro",
+            "gato"
+          ],
+          "answerIndex": 0,
+          "explanation": "Moto es femenina, igual que mano y foto."
+        },
+        {
+          "id": "a1w2g",
+          "prompt": "¿Cuál de estos sustantivos es masculino aunque termine en -a?",
+          "options": [
+            "mapa",
+            "mesa",
+            "casa"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mapa es masculino, igual que día y planeta."
+        },
+        {
+          "id": "a1w2h",
+          "prompt": "¿Cuál es el plural de \"voz\"?",
+          "options": [
+            "voces",
+            "vozes",
+            "voz"
+          ],
+          "answerIndex": 0,
+          "explanation": "Terminación en -z: cambia a -ces en plural."
+        },
+        {
+          "id": "a1w2i",
+          "prompt": "¿Qué terminación es casi siempre femenina?",
+          "options": [
+            "-ción",
+            "-o",
+            "-e"
+          ],
+          "answerIndex": 0,
+          "explanation": "Las palabras terminadas en -ción son casi siempre femeninas."
+        }
+      ]
+    },
+    {
+      "id": "a1w2-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w2j",
+          "statement": "\"Foto\" es femenina aunque termina en -o.",
+          "answer": true,
+          "explanation": "Foto (de fotografía) es femenina, una excepción común."
+        },
+        {
+          "id": "a1w2k",
+          "statement": "\"Idioma\" es femenino porque termina en -a.",
+          "answer": false,
+          "explanation": "Idioma es masculino, de origen griego, como sistema y problema."
+        },
+        {
+          "id": "a1w2l",
+          "statement": "El plural de las palabras terminadas en vocal se forma añadiendo -es.",
+          "answer": false,
+          "explanation": "Se añade -s tras vocal; -es se añade tras consonante."
+        },
+        {
+          "id": "a1w2m",
+          "statement": "\"Planeta\" es masculino aunque termina en -a.",
+          "answer": true,
+          "explanation": "Planeta, de origen griego, es masculino."
+        }
+      ]
     }
   ],
   "summary": [

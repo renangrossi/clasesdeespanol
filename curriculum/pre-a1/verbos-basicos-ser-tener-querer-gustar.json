@@ -371,6 +371,76 @@
           "explanation": "Guardado para tu propio repaso — recuerda la estructura: me gusta + sustantivo (singular) o me gustan + sustantivo (plural)."
         }
       ]
+    },
+    {
+      "id": "pa6z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa6zm1",
+          "prompt": "Relaciona el verbo con su significado.",
+          "pairs": [
+            {
+              "left": "ser",
+              "right": "identidad permanente"
+            },
+            {
+              "left": "tener",
+              "right": "poseer"
+            },
+            {
+              "left": "querer",
+              "right": "desear"
+            },
+            {
+              "left": "gustar",
+              "right": "agradar"
+            }
+          ],
+          "explanation": "Cada verbo básico tiene un significado distinto y esencial."
+        }
+      ]
+    },
+    {
+      "id": "pa6z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa6zv1",
+          "prompt": "¿Qué verbo usarías para decir tu edad?",
+          "options": [
+            "Ser",
+            "Tener",
+            "Querer"
+          ],
+          "answerIndex": 1,
+          "explanation": "La edad se expresa con tener: tengo veinte años."
+        },
+        {
+          "id": "pa6zv2",
+          "prompt": "¿Qué verbo expresa un deseo?",
+          "options": [
+            "Ser",
+            "Querer",
+            "Gustar"
+          ],
+          "answerIndex": 1,
+          "explanation": "Querer expresa un deseo directo: quiero un café."
+        },
+        {
+          "id": "pa6zv3",
+          "prompt": "¿Qué verbo se usa con \"me\" para expresar preferencias?",
+          "options": [
+            "Tener",
+            "Ser",
+            "Gustar"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gustar se usa con me/te/le: me gusta el café."
+        }
+      ]
     }
   ],
   "summary": [

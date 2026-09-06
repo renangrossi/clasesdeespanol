@@ -296,6 +296,128 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «En mi ciudad hay muchos parques.»"
         }
       ]
+    },
+    {
+      "id": "a1z11-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z11m1",
+          "prompt": "Relaciona el uso con hay o está.",
+          "pairs": [
+            {
+              "left": "existencia general",
+              "right": "hay"
+            },
+            {
+              "left": "ubicación específica",
+              "right": "está"
+            },
+            {
+              "left": "algo no identificado",
+              "right": "hay"
+            },
+            {
+              "left": "algo ya conocido",
+              "right": "está"
+            }
+          ],
+          "explanation": "Hay indica existencia; estar indica ubicación de algo específico."
+        }
+      ]
+    },
+    {
+      "id": "a1z11-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z11v1",
+          "prompt": "¿Qué se usa para preguntar si existe un baño en el lugar?",
+          "options": [
+            "¿Hay un baño?",
+            "¿Está un baño?",
+            "¿Es un baño?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hay se usa para preguntar por la existencia de algo no específico."
+        },
+        {
+          "id": "a1z11v2",
+          "prompt": "¿Cómo preguntas dónde está algo ya conocido?",
+          "options": [
+            "¿Hay el libro?",
+            "¿Dónde está el libro?",
+            "¿Es el libro?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Para algo ya identificado se usa estar, no hay."
+        },
+        {
+          "id": "a1z11v3",
+          "prompt": "¿Hay cambia según el número del sustantivo?",
+          "options": [
+            "Sí, siempre",
+            "No, siempre es invariable"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hay es invariable: hay un libro, hay dos libros."
+        }
+      ]
+    },
+    {
+      "id": "a1w11-fill",
+      "type": "fill-blank",
+      "title": "Completa con Hay o Estar",
+      "items": [
+        {
+          "id": "a1w11a",
+          "prompt": "___ una farmacia cerca de aquí.",
+          "answers": [
+            [
+              "Hay"
+            ]
+          ],
+          "explanation": "Se anuncia la existencia de algo no específico: hay.",
+          "options": [
+            "Hay",
+            "Está",
+            "Son"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w11-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Hay y Estar",
+      "items": [
+        {
+          "id": "a1w11b",
+          "prompt": "¿Qué forma usarías para preguntar por la ubicación de \"el hospital\"?",
+          "options": [
+            "¿Dónde está el hospital?",
+            "¿Dónde hay el hospital?",
+            "¿Hay el hospital?"
+          ],
+          "answerIndex": 0,
+          "explanation": "El hospital ya está identificado con artículo definido, así que se usa estar."
+        }
+      ]
+    },
+    {
+      "id": "a1w11-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w11c",
+          "statement": "Hay cambia de forma según el número del sustantivo.",
+          "answer": false,
+          "explanation": "Hay es siempre invariable, sin importar el número."
+        }
+      ]
     }
   ],
   "summary": [

@@ -293,6 +293,161 @@
           "explanation": "Guardado para tu propio repaso — recuerda escribir por qué en dos palabras y con tilde en la pregunta."
         }
       ]
+    },
+    {
+      "id": "a1z13-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z13m1",
+          "prompt": "Relaciona la palabra interrogativa con lo que pregunta.",
+          "pairs": [
+            {
+              "left": "qué",
+              "right": "cosa"
+            },
+            {
+              "left": "quién",
+              "right": "persona"
+            },
+            {
+              "left": "dónde",
+              "right": "lugar"
+            },
+            {
+              "left": "cuándo",
+              "right": "tiempo"
+            }
+          ],
+          "explanation": "Cada palabra interrogativa pregunta por un tipo distinto de información."
+        }
+      ]
+    },
+    {
+      "id": "a1z13-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z13v1",
+          "prompt": "¿Qué palabra interrogativa pregunta por el motivo?",
+          "options": [
+            "Por qué",
+            "Cómo",
+            "Cuánto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Por qué pregunta por la razón o el motivo."
+        },
+        {
+          "id": "a1z13v2",
+          "prompt": "¿Qué palabra interrogativa pregunta por la manera?",
+          "options": [
+            "Cómo",
+            "Cuál",
+            "Quién"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cómo pregunta por la manera o el modo."
+        },
+        {
+          "id": "a1z13v3",
+          "prompt": "¿Las palabras interrogativas llevan tilde?",
+          "options": [
+            "Sí, siempre que preguntan",
+            "No, nunca",
+            "Solo algunas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Las palabras interrogativas siempre llevan tilde cuando se usan para preguntar."
+        }
+      ]
+    },
+    {
+      "id": "a1w13-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Interrogativo",
+      "items": [
+        {
+          "id": "a1w13a",
+          "prompt": "¿___ es tu color favorito?",
+          "answers": [
+            [
+              "Qué"
+            ]
+          ],
+          "explanation": "Qué pregunta por una cosa.",
+          "options": [
+            "Qué",
+            "Quién",
+            "Cuándo"
+          ]
+        },
+        {
+          "id": "a1w13b",
+          "prompt": "¿___ personas hay en la reunión?",
+          "answers": [
+            [
+              "Cuántas"
+            ]
+          ],
+          "explanation": "Personas es femenino plural, así que se usa cuántas.",
+          "options": [
+            "Cuántas",
+            "Cuántos",
+            "Cuánto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w13-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Interrogativos",
+      "items": [
+        {
+          "id": "a1w13c",
+          "prompt": "¿Qué interrogativo pregunta por la persona responsable?",
+          "options": [
+            "Quién",
+            "Qué",
+            "Cómo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Quién pregunta por la persona."
+        },
+        {
+          "id": "a1w13d",
+          "prompt": "¿Cómo se escribe correctamente \"por qué\" como pregunta de causa?",
+          "options": [
+            "en dos palabras, con tilde en qué",
+            "junto, sin tilde",
+            "en dos palabras, sin tilde"
+          ],
+          "answerIndex": 0,
+          "explanation": "Por qué se escribe en dos palabras y con tilde en qué."
+        }
+      ]
+    },
+    {
+      "id": "a1w13-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w13e",
+          "statement": "Los interrogativos siempre llevan dos signos de interrogación en la frase.",
+          "answer": true,
+          "explanation": "El español siempre usa ¿ al inicio y ? al final de la pregunta."
+        },
+        {
+          "id": "a1w13f",
+          "statement": "\"Cuánto\" nunca cambia de forma según el sustantivo.",
+          "answer": false,
+          "explanation": "Cuánto concuerda en género y número: cuánto, cuánta, cuántos, cuántas."
+        }
+      ]
     }
   ],
   "summary": [

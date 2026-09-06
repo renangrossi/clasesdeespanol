@@ -366,6 +366,76 @@
           "explanation": "Guardado para tu propio repaso — usa el vocabulario de esta lección: cuaderno, lápiz, libro, goma..."
         }
       ]
+    },
+    {
+      "id": "pa4z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa4zm1",
+          "prompt": "Relaciona el objeto con su uso.",
+          "pairs": [
+            {
+              "left": "lápiz",
+              "right": "escribir"
+            },
+            {
+              "left": "goma",
+              "right": "borrar"
+            },
+            {
+              "left": "libro",
+              "right": "leer"
+            },
+            {
+              "left": "mochila",
+              "right": "llevar cosas"
+            }
+          ],
+          "explanation": "Cada objeto de clase tiene una función específica."
+        }
+      ]
+    },
+    {
+      "id": "pa4z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa4zv1",
+          "prompt": "¿Qué usas para escribir en la pizarra?",
+          "options": [
+            "Un lápiz",
+            "Un marcador/tiza",
+            "Una goma"
+          ],
+          "answerIndex": 1,
+          "explanation": "En la pizarra se escribe con marcador o tiza, no con lápiz."
+        },
+        {
+          "id": "pa4zv2",
+          "prompt": "¿Dónde llevas tus libros a clase?",
+          "options": [
+            "En la mochila",
+            "En el cuaderno",
+            "En la goma"
+          ],
+          "answerIndex": 0,
+          "explanation": "La mochila es donde se llevan los materiales escolares."
+        },
+        {
+          "id": "pa4zv3",
+          "prompt": "¿Qué significa \"borrar\"?",
+          "options": [
+            "Escribir",
+            "Eliminar lo escrito",
+            "Leer"
+          ],
+          "answerIndex": 1,
+          "explanation": "Borrar significa eliminar algo escrito, normalmente con una goma."
+        }
+      ]
     }
   ],
   "summary": [

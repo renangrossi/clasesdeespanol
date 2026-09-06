@@ -294,6 +294,76 @@
           "explanation": "Guardado para tu propio repaso — encanta (singular) o encantan (plural), según lo que sigue."
         }
       ]
+    },
+    {
+      "id": "a1z14-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z14m1",
+          "prompt": "Relaciona el verbo tipo gustar con su significado.",
+          "pairs": [
+            {
+              "left": "encantar",
+              "right": "gustar mucho"
+            },
+            {
+              "left": "interesar",
+              "right": "despertar interés"
+            },
+            {
+              "left": "molestar",
+              "right": "causar fastidio"
+            },
+            {
+              "left": "doler",
+              "right": "causar dolor"
+            }
+          ],
+          "explanation": "Todos estos verbos funcionan como gustar: pronombre + verbo concordado con lo que causa la sensación."
+        }
+      ]
+    },
+    {
+      "id": "a1z14-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z14v1",
+          "prompt": "¿Con qué concuerda el verbo en \"me gustan los libros\"?",
+          "options": [
+            "Con yo",
+            "Con los libros",
+            "No concuerda con nada"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gustar concuerda con lo que gusta (los libros, plural), no con la persona."
+        },
+        {
+          "id": "a1z14v2",
+          "prompt": "¿Qué pronombre corresponde a \"a nosotros\"?",
+          "options": [
+            "me",
+            "nos",
+            "les"
+          ],
+          "answerIndex": 1,
+          "explanation": "A nosotros corresponde el pronombre nos."
+        },
+        {
+          "id": "a1z14v3",
+          "prompt": "¿Qué verbo usarías para decir que algo te causa dolor físico?",
+          "options": [
+            "Gustar",
+            "Doler",
+            "Encantar"
+          ],
+          "answerIndex": 1,
+          "explanation": "Doler funciona como gustar: me duele la cabeza."
+        }
+      ]
     }
   ],
   "summary": [

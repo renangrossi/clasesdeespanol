@@ -374,6 +374,76 @@
           "explanation": "Guardado para tu propio repaso — recuerda el formato: hoy es el [número] de [mes]."
         }
       ]
+    },
+    {
+      "id": "pa3z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa3zm1",
+          "prompt": "Relaciona el número con su forma escrita.",
+          "pairs": [
+            {
+              "left": "5",
+              "right": "cinco"
+            },
+            {
+              "left": "10",
+              "right": "diez"
+            },
+            {
+              "left": "20",
+              "right": "veinte"
+            },
+            {
+              "left": "100",
+              "right": "cien"
+            }
+          ],
+          "explanation": "Cada número corresponde a su forma escrita en español."
+        }
+      ]
+    },
+    {
+      "id": "pa3z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa3zv1",
+          "prompt": "¿Qué palabra significa \"day\" (unidad de tiempo)?",
+          "options": [
+            "semana",
+            "día",
+            "mes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Día es la unidad de tiempo básica de 24 horas."
+        },
+        {
+          "id": "pa3zv2",
+          "prompt": "¿Cuántos días tiene una semana?",
+          "options": [
+            "Cinco",
+            "Siete",
+            "Diez"
+          ],
+          "answerIndex": 1,
+          "explanation": "Una semana tiene siete días."
+        },
+        {
+          "id": "pa3zv3",
+          "prompt": "¿Qué palabra significa \"month\"?",
+          "options": [
+            "Año",
+            "Mes",
+            "Hora"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mes es la unidad de tiempo de aproximadamente treinta días."
+        }
+      ]
     }
   ],
   "summary": [

@@ -300,6 +300,225 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «Trabajo en una oficina.»"
         }
       ]
+    },
+    {
+      "id": "a1z6-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z6m1",
+          "prompt": "Relaciona el verbo con su terminación de conjugación.",
+          "pairs": [
+            {
+              "left": "hablar",
+              "right": "-ar"
+            },
+            {
+              "left": "comer",
+              "right": "-er"
+            },
+            {
+              "left": "vivir",
+              "right": "-ir"
+            },
+            {
+              "left": "trabajar",
+              "right": "-ar"
+            }
+          ],
+          "explanation": "Cada verbo pertenece a una de las tres conjugaciones regulares."
+        }
+      ]
+    },
+    {
+      "id": "a1z6-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z6v1",
+          "prompt": "¿Cuál es la forma de \"yo\" del verbo \"hablar\"?",
+          "options": [
+            "hablo",
+            "hablas",
+            "habla"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yo + verbo en -ar = terminación -o: hablo."
+        },
+        {
+          "id": "a1z6v2",
+          "prompt": "¿Qué terminación usa \"nosotros\" con un verbo en -er?",
+          "options": [
+            "-amos",
+            "-emos",
+            "-imos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nosotros + verbo en -er = terminación -emos."
+        },
+        {
+          "id": "a1z6v3",
+          "prompt": "¿Cuál es la forma de \"tú\" del verbo \"vivir\"?",
+          "options": [
+            "vivo",
+            "vives",
+            "vive"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tú + verbo en -ir = terminación -es: vives."
+        }
+      ]
+    },
+    {
+      "id": "a1w6-fill",
+      "type": "fill-blank",
+      "title": "Conjuga Más Verbos",
+      "items": [
+        {
+          "id": "a1w6a",
+          "prompt": "Yo ___ (leer) el periódico cada mañana.",
+          "answers": [
+            [
+              "leo"
+            ]
+          ],
+          "explanation": "Yo + verbo en -er = terminación -o.",
+          "options": [
+            "leo",
+            "lees",
+            "lee"
+          ]
+        },
+        {
+          "id": "a1w6b",
+          "prompt": "Vosotros ___ (comer) juntos los domingos.",
+          "answers": [
+            [
+              "coméis"
+            ]
+          ],
+          "explanation": "Vosotros + verbo en -er = terminación -éis.",
+          "options": [
+            "coméis",
+            "comen",
+            "comemos"
+          ]
+        },
+        {
+          "id": "a1w6c",
+          "prompt": "Ella ___ (abrir) la tienda a las nueve.",
+          "answers": [
+            [
+              "abre"
+            ]
+          ],
+          "explanation": "Él/ella + verbo en -ir = terminación -e.",
+          "options": [
+            "abre",
+            "abro",
+            "abres"
+          ]
+        },
+        {
+          "id": "a1w6d",
+          "prompt": "Nosotros ___ (estudiar) para el examen.",
+          "answers": [
+            [
+              "estudiamos"
+            ]
+          ],
+          "explanation": "Nosotros + verbo en -ar = terminación -amos.",
+          "options": [
+            "estudiamos",
+            "estudian",
+            "estudiáis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w6-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre el Presente Regular",
+      "items": [
+        {
+          "id": "a1w6e",
+          "prompt": "¿Cuál es la forma de \"ellos\" del verbo \"aprender\"?",
+          "options": [
+            "aprenden",
+            "aprende",
+            "aprendemos"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ellos + verbo en -er = terminación -en."
+        },
+        {
+          "id": "a1w6f",
+          "prompt": "¿Qué terminación comparten -er e -ir en la forma de \"tú\"?",
+          "options": [
+            "-es",
+            "-as",
+            "-e"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tú + -er/-ir = terminación -es en ambos casos."
+        },
+        {
+          "id": "a1w6g",
+          "prompt": "¿Cuál es la forma de \"yo\" del verbo \"escribir\"?",
+          "options": [
+            "escribo",
+            "escribes",
+            "escribe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yo + verbo en -ir = terminación -o."
+        },
+        {
+          "id": "a1w6h",
+          "prompt": "¿Para qué se usa el presente, además de para hábitos?",
+          "options": [
+            "planes cercanos en el futuro",
+            "solo el pasado",
+            "solo el futuro lejano"
+          ],
+          "answerIndex": 0,
+          "explanation": "El presente cubre también planes cercanos: mañana viajo a Lima."
+        }
+      ]
+    },
+    {
+      "id": "a1w6-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w6i",
+          "statement": "Las tres conjugaciones (-ar,-er,-ir) comparten la misma terminación en \"yo\": -o.",
+          "answer": true,
+          "explanation": "Yo siempre termina en -o en el presente regular."
+        },
+        {
+          "id": "a1w6j",
+          "statement": "Nosotros y vosotros son las únicas formas donde -er e -ir difieren.",
+          "answer": true,
+          "explanation": "El resto de formas de -er e -ir son idénticas."
+        },
+        {
+          "id": "a1w6k",
+          "statement": "El presente de indicativo solo se usa para hechos generales, nunca para acciones en curso.",
+          "answer": false,
+          "explanation": "El presente también cubre acciones en curso, como en otras lenguas se haría con el gerundio."
+        },
+        {
+          "id": "a1w6l",
+          "statement": "\"Trabajo\" puede significar tanto \"trabajo en general\" como \"estoy trabajando ahora\".",
+          "answer": true,
+          "explanation": "El presente español cubre ambos sentidos."
+        }
+      ]
     }
   ],
   "summary": [

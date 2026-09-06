@@ -369,6 +369,76 @@
           "explanation": "Cualquier palabra con ñ es correcta; año, niño y español son ejemplos muy comunes."
         }
       ]
+    },
+    {
+      "id": "pa1z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa1zm1",
+          "prompt": "Relaciona la letra con una palabra que la contiene.",
+          "pairs": [
+            {
+              "left": "ñ",
+              "right": "año"
+            },
+            {
+              "left": "rr",
+              "right": "perro"
+            },
+            {
+              "left": "h",
+              "right": "hola"
+            },
+            {
+              "left": "ll",
+              "right": "calle"
+            }
+          ],
+          "explanation": "Cada letra especial aparece en una palabra muy común del español."
+        }
+      ]
+    },
+    {
+      "id": "pa1z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa1zv1",
+          "prompt": "¿Cuál de estas letras no existe en el alfabeto inglés?",
+          "options": [
+            "ñ",
+            "b",
+            "m"
+          ],
+          "answerIndex": 0,
+          "explanation": "La ñ es exclusiva del alfabeto español."
+        },
+        {
+          "id": "pa1zv2",
+          "prompt": "¿Cómo se llama el signo sobre algunas vocales?",
+          "options": [
+            "Tilde",
+            "Punto",
+            "Coma"
+          ],
+          "answerIndex": 0,
+          "explanation": "La tilde marca la sílaba tónica cuando no sigue la regla general."
+        },
+        {
+          "id": "pa1zv3",
+          "prompt": "¿Cuántas vocales tiene el español?",
+          "options": [
+            "Cuatro",
+            "Cinco",
+            "Seis"
+          ],
+          "answerIndex": 1,
+          "explanation": "El español tiene cinco vocales: a, e, i, o, u."
+        }
+      ]
     }
   ],
   "summary": [
