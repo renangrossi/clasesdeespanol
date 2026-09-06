@@ -225,6 +225,190 @@
           "explanation": "Guardado para tu propio repaso — recuerda que cada subordinada obedece a su propio verbo regente."
         }
       ]
+    },
+    {
+      "id": "c2w1-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Subordinación Múltiple",
+      "items": [
+        {
+          "id": "c2w1a",
+          "prompt": "No hay nadie que crea que esta decisión ___ (ser) la más razonable.",
+          "answers": [
+            [
+              "sea"
+            ]
+          ],
+          "options": [
+            "sea",
+            "es",
+            "será"
+          ],
+          "explanation": "Nadie que + subjuntivo, antecedente indefinido negativo."
+        },
+        {
+          "id": "c2w1b",
+          "prompt": "Explicó que, si bien el proyecto avanzaba, aún ___ (quedar) decisiones que tomar.",
+          "answers": [
+            [
+              "quedaban"
+            ]
+          ],
+          "options": [
+            "quedaban",
+            "queden",
+            "quedarán"
+          ],
+          "explanation": "Cláusula concesiva con indicativo, dependiente de explicó."
+        },
+        {
+          "id": "c2w1c",
+          "prompt": "Es poco probable que quien ___ (haber) vivido eso pueda olvidarlo.",
+          "answers": [
+            [
+              "haya"
+            ]
+          ],
+          "options": [
+            "haya",
+            "ha",
+            "había"
+          ],
+          "explanation": "Es poco probable que + subjuntivo compuesto."
+        },
+        {
+          "id": "c2w1d",
+          "prompt": "Aunque sabía que, de haber actuado antes, todo ___ (ser) distinto, prefirió no lamentarse.",
+          "answers": [
+            [
+              "habría sido"
+            ],
+            [
+              "hubiera sido"
+            ],
+            [
+              "hubiese sido"
+            ]
+          ],
+          "options": [
+            "habría sido",
+            "era",
+            "fue"
+          ],
+          "explanation": "Apódosis de una condicional irreal de pasado dentro de una subordinada."
+        },
+        {
+          "id": "c2w1e",
+          "prompt": "Dudaba que quienes lo criticaban ___ (haber) leído su obra completa.",
+          "answers": [
+            [
+              "hubieran"
+            ],
+            [
+              "hubiesen"
+            ]
+          ],
+          "options": [
+            "hubieran",
+            "habían",
+            "hayan"
+          ],
+          "explanation": "Dudar en pasado rige pluscuamperfecto de subjuntivo en la subordinada."
+        }
+      ]
+    },
+    {
+      "id": "c2w1-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Subordinación Múltiple",
+      "items": [
+        {
+          "id": "c2w1f",
+          "prompt": "En \"El informe, que se había redactado con la esperanza de que convenciera al comité, resultó insuficiente\", ¿de qué depende \"convenciera\"?",
+          "options": [
+            "de la esperanza de que",
+            "del informe directamente",
+            "de resultó"
+          ],
+          "answerIndex": 0,
+          "explanation": "Convenciera depende de la esperanza de que, una subordinada anidada dentro de la relativa."
+        },
+        {
+          "id": "c2w1g",
+          "prompt": "¿A partir de cuántos niveles de subordinación suele convenir dividir la frase?",
+          "options": [
+            "más de tres o cuatro",
+            "uno",
+            "nunca hay que dividir"
+          ],
+          "answerIndex": 0,
+          "explanation": "Más allá de tres o cuatro niveles, suele ganar en claridad dividir la frase."
+        },
+        {
+          "id": "c2w1h",
+          "prompt": "¿Qué determina el modo verbal de cada subordinada en una cadena?",
+          "options": [
+            "el verbo del que depende directamente, no el principal de toda la frase",
+            "siempre el verbo principal",
+            "el tiempo del día"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cada subordinada obedece a su propio verbo regente."
+        },
+        {
+          "id": "c2w1i",
+          "prompt": "¿Qué riesgo real presenta la subordinación múltiple, más que la incorrección?",
+          "options": [
+            "la pérdida de claridad",
+            "la pérdida de vocabulario",
+            "la pérdida del sujeto"
+          ],
+          "answerIndex": 0,
+          "explanation": "El riesgo principal es que el lector pierda el hilo de a qué se refiere cada elemento."
+        },
+        {
+          "id": "c2w1j",
+          "prompt": "En \"Me confesó que temía que, si no llegábamos a tiempo, se cancelaría todo\", ¿qué rige el condicional \"se cancelaría\"?",
+          "options": [
+            "la hipotética dentro de temía",
+            "confesó directamente",
+            "nada, es independiente"
+          ],
+          "answerIndex": 0,
+          "explanation": "El condicional corresponde a la apódosis de la hipotética anidada dentro de temía."
+        }
+      ]
+    },
+    {
+      "id": "c2w1-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2w1k",
+          "statement": "Cada subordinada en una cadena obedece siempre a la misma razón que las demás.",
+          "answer": false,
+          "explanation": "Falso: cada subordinada puede tener una razón distinta e independiente para su modo verbal."
+        },
+        {
+          "id": "c2w1l",
+          "statement": "Dividir una frase demasiado cargada en dos puede ganar en claridad sin perder precisión.",
+          "answer": true,
+          "explanation": "Correcto: es la estrategia recomendada frente a la subordinación excesiva."
+        },
+        {
+          "id": "c2w1m",
+          "statement": "La concordancia de tiempos avanza en cadena, según el verbo del que depende cada subordinada.",
+          "answer": true,
+          "explanation": "Correcto: cada verbo retrocede según el que lo rige directamente."
+        },
+        {
+          "id": "c2w1n",
+          "statement": "Un texto culto y elaborado avanza siempre con frases simples, una detrás de otra.",
+          "answer": false,
+          "explanation": "Falso: rara vez avanza solo con frases simples; combina subordinadas con precisión."
+        }
+      ]
     }
   ],
   "summary": [

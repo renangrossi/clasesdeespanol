@@ -214,6 +214,166 @@
           "explanation": "Guardado para tu propio repaso — la información nueva de una frase se convierte en el tema conocido de la siguiente."
         }
       ]
+    },
+    {
+      "id": "c2w5-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Cohesión Textual",
+      "items": [
+        {
+          "id": "c2w5a",
+          "prompt": "El estudio analiza tres factores. El primero de ___ es el más determinante.",
+          "answers": [
+            [
+              "ellos"
+            ]
+          ],
+          "options": [
+            "ellos",
+            "esto",
+            "aquellos"
+          ],
+          "explanation": "Ellos retoma «tres factores» mediante un pronombre."
+        },
+        {
+          "id": "c2w5b",
+          "prompt": "María presentó su proyecto y, acto seguido, ___ a las preguntas del jurado. (elipsis del sujeto)",
+          "answers": [
+            [
+              "respondió"
+            ]
+          ],
+          "options": [
+            "respondió",
+            "respondí",
+            "responden"
+          ],
+          "explanation": "El sujeto María se omite por elipsis, recuperable del contexto."
+        },
+        {
+          "id": "c2w5c",
+          "prompt": "El autor plantea una hipótesis audaz; ___ hipótesis se sostiene a lo largo del ensayo.",
+          "answers": [
+            [
+              "dicha"
+            ]
+          ],
+          "options": [
+            "dicha",
+            "esta misma",
+            "aquella"
+          ],
+          "explanation": "Dicha es un mecanismo de referencia típico del registro formal."
+        },
+        {
+          "id": "c2w5d",
+          "prompt": "Cuando Ana y Marta se encontraron, ___ última le mostró las fotos. (desambiguación)",
+          "answers": [
+            [
+              "esta"
+            ]
+          ],
+          "options": [
+            "esta",
+            "ella",
+            "aquella"
+          ],
+          "explanation": "Esta última desambigua entre los dos antecedentes posibles."
+        }
+      ]
+    },
+    {
+      "id": "c2w5-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Cohesión Textual",
+      "items": [
+        {
+          "id": "c2w5e",
+          "prompt": "¿Qué es un hiperónimo?",
+          "options": [
+            "una palabra más general que sustituye a otra más específica",
+            "un sinónimo exacto",
+            "un antónimo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Por ejemplo, «el animal» en vez de repetir «el perro»."
+        },
+        {
+          "id": "c2w5f",
+          "prompt": "¿Qué es la elipsis en cohesión textual?",
+          "options": [
+            "omitir un elemento ya mencionado que el contexto permite recuperar",
+            "repetir siempre el mismo sustantivo",
+            "usar solo pronombres"
+          ],
+          "answerIndex": 0,
+          "explanation": "Evita repeticiones innecesarias cuando el contexto permite recuperar el elemento."
+        },
+        {
+          "id": "c2w5g",
+          "prompt": "¿Qué es la progresión temática?",
+          "options": [
+            "la información nueva de una frase se convierte en tema de la siguiente",
+            "repetir el mismo tema sin avanzar",
+            "usar solo oraciones cortas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Así el texto avanza sin saltos bruscos."
+        },
+        {
+          "id": "c2w5h",
+          "prompt": "¿Qué es la ambigüedad referencial?",
+          "options": [
+            "un pronombre que podría referirse a más de un antecedente",
+            "una palabra mal escrita",
+            "un tiempo verbal incorrecto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Obliga al lector a releer para entender a quién se refiere."
+        },
+        {
+          "id": "c2w5i",
+          "prompt": "¿Cómo se resuelve la ambigüedad de \"él\" entre dos personas mencionadas?",
+          "options": [
+            "nombrando explícitamente o usando «este último»",
+            "ignorando el problema",
+            "usando el plural"
+          ],
+          "answerIndex": 0,
+          "explanation": "Precisar con este/este último o repetir el nombre resuelve la ambigüedad."
+        }
+      ]
+    },
+    {
+      "id": "c2w5-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c2w5j",
+          "statement": "Repetir el mismo sustantivo constantemente mejora la cohesión de un texto.",
+          "answer": false,
+          "explanation": "Falso: rompe la fluidez; conviene usar pronombres, sinónimos o hiperónimos."
+        },
+        {
+          "id": "c2w5k",
+          "statement": "La elipsis omite un elemento ya mencionado cuando el contexto lo permite.",
+          "answer": true,
+          "explanation": "Correcto: es uno de los mecanismos de cohesión referencial."
+        },
+        {
+          "id": "c2w5l",
+          "statement": "Sin progresión temática, un texto se percibe como una lista de ideas sueltas.",
+          "answer": true,
+          "explanation": "Correcto: la progresión evita esa sensación de discurso desconectado."
+        },
+        {
+          "id": "c2w5m",
+          "statement": "La ambigüedad referencial nunca ocurre en escritores avanzados.",
+          "answer": false,
+          "explanation": "Falso: es un fallo frecuente incluso en escritores avanzados."
+        }
+      ]
     }
   ],
   "summary": [
