@@ -289,6 +289,117 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «Usted sabe mejor que nadie.»"
         }
       ]
+    },
+    {
+      "id": "c1w8-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Variación Dialectal",
+      "items": [
+        {
+          "id": "c1w8a",
+          "prompt": "En Argentina, \"vos\" reemplaza casi por completo al ___.",
+          "answers": [
+            [
+              "tuteo"
+            ]
+          ],
+          "options": [
+            "tuteo",
+            "ustedeo",
+            "vosotros"
+          ],
+          "explanation": "El voseo rioplatense reemplaza casi por completo al tuteo."
+        },
+        {
+          "id": "c1w8b",
+          "prompt": "En toda América Latina, ___ sustituye a \"vosotros\".",
+          "answers": [
+            [
+              "ustedes"
+            ]
+          ],
+          "options": [
+            "ustedes",
+            "vos",
+            "ellos"
+          ],
+          "explanation": "Ustedes cubre el plural formal e informal en América."
+        },
+        {
+          "id": "c1w8c",
+          "prompt": "El imperativo de \"vivir\" en voseo rioplatense es ___.",
+          "answers": [
+            [
+              "viví"
+            ]
+          ],
+          "options": [
+            "viví",
+            "vive",
+            "vivid"
+          ],
+          "explanation": "El voseo desplaza el acento a la última sílaba en el imperativo."
+        }
+      ]
+    },
+    {
+      "id": "c1w8-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Voseo y Ustedeo",
+      "items": [
+        {
+          "id": "c1w8d",
+          "prompt": "¿En qué países es el voseo la norma culta?",
+          "options": [
+            "Argentina, Uruguay y Paraguay",
+            "España e Italia",
+            "Solo en zonas rurales"
+          ],
+          "answerIndex": 0,
+          "explanation": "El voseo rioplatense es la norma en estos tres países."
+        },
+        {
+          "id": "c1w8e",
+          "prompt": "¿Qué caracteriza al ustedeo colombiano?",
+          "options": [
+            "puede expresar cercanía, no solo distancia",
+            "siempre es distante y frío",
+            "no existe en Colombia"
+          ],
+          "answerIndex": 0,
+          "explanation": "El ustedeo colombiano no siempre marca formalidad."
+        },
+        {
+          "id": "c1w8f",
+          "prompt": "¿Qué pronombres de objeto usa el voseo?",
+          "options": [
+            "los mismos que tú (te, tu, tuyo)",
+            "pronombres propios distintos",
+            "los de usted"
+          ],
+          "answerIndex": 0,
+          "explanation": "Solo cambian el pronombre sujeto y ciertas formas verbales."
+        }
+      ]
+    },
+    {
+      "id": "c1w8-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w8g",
+          "statement": "El voseo es una forma incorrecta o rural del tuteo.",
+          "answer": false,
+          "explanation": "Falso: es una norma culta y plenamente válida."
+        },
+        {
+          "id": "c1w8h",
+          "statement": "Ninguna variedad (tú, vos, usted) es más correcta que otra.",
+          "answer": true,
+          "explanation": "Correcto: son variedades igualmente válidas del español."
+        }
+      ]
     }
   ],
   "summary": [

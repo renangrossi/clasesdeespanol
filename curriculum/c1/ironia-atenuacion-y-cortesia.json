@@ -308,6 +308,91 @@
           "explanation": "Guardado para tu propio repaso — recuerda que la ironía depende del contexto, no solo de las palabras."
         }
       ]
+    },
+    {
+      "id": "c1w9-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Atenuación",
+      "items": [
+        {
+          "id": "c1w9a",
+          "prompt": "___ ser que me esté equivocando, aunque no lo creo.",
+          "answers": [
+            [
+              "Podría"
+            ]
+          ],
+          "options": [
+            "Podría",
+            "Sería",
+            "Sería que"
+          ],
+          "explanation": "Podría ser que introduce una opinión atenuada."
+        },
+        {
+          "id": "c1w9b",
+          "prompt": "¿___ posible posponer la reunión unos minutos?",
+          "answers": [
+            [
+              "Sería"
+            ]
+          ],
+          "options": [
+            "Sería",
+            "Es",
+            "Fue"
+          ],
+          "explanation": "El condicional suaviza la petición."
+        }
+      ]
+    },
+    {
+      "id": "c1w9-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Cortesía",
+      "items": [
+        {
+          "id": "c1w9c",
+          "prompt": "¿Qué recurso suaviza una petición directa?",
+          "options": [
+            "el condicional",
+            "el imperativo",
+            "el subjuntivo"
+          ],
+          "answerIndex": 0,
+          "explanation": "El condicional cumple una función cortés."
+        },
+        {
+          "id": "c1w9d",
+          "prompt": "¿Cómo se reconoce la ironía?",
+          "options": [
+            "por el tono y el contexto, no solo las palabras",
+            "por el diccionario",
+            "por la gramática"
+          ],
+          "answerIndex": 0,
+          "explanation": "La ironía depende del contexto compartido y el tono."
+        }
+      ]
+    },
+    {
+      "id": "c1w9-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w9e",
+          "statement": "Acumular demasiados atenuadores en una frase la hace más clara.",
+          "answer": false,
+          "explanation": "Falso: diluye el mensaje hasta volverlo ambiguo."
+        },
+        {
+          "id": "c1w9f",
+          "statement": "\"Más bien\" puede usarse para atenuar una opinión.",
+          "answer": true,
+          "explanation": "Correcto: es uno de los atenuadores mencionados."
+        }
+      ]
     }
   ],
   "summary": [

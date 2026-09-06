@@ -927,3 +927,196 @@ EXTRA_EXERCISES_2 = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES_2.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_3 — tercera ronda de práctica, añadida para llevar cada
+# lección a paridad de número de ejercicios con la lección de inglés en
+# la misma posición del nivel C1. Fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_3 = {
+    "c1-pluscuamperfecto-de-subjuntivo": [
+        {"id": "c1w1-fill", "type": "fill-blank", "title": "Más Práctica con el Pluscuamperfecto",
+         "items": [
+            {"id": "c1w1a", "prompt": "Si ___ (nosotros - reservar) antes, no habríamos pagado tanto.", "answers": [["hubiéramos reservado", "hubiésemos reservado"]], "options": ["hubiéramos reservado", "reservábamos", "reservaríamos"], "explanation": "Prótasis de condicional irreal de pasado: pluscuamperfecto de subjuntivo."},
+            {"id": "c1w1b", "prompt": "No creía que ellos ___ (terminar) tan rápido.", "answers": [["hubieran terminado", "hubiesen terminado"]], "options": ["hubieran terminado", "habían terminado", "terminaron"], "explanation": "Duda sobre un hecho anterior al verbo principal en pasado."},
+            {"id": "c1w1c", "prompt": "Ojalá ___ (yo - saber) la verdad antes.", "answers": [["hubiera sabido", "hubiese sabido"]], "options": ["hubiera sabido", "sabía", "sabría"], "explanation": "Ojalá + pluscuamperfecto de subjuntivo expresa arrepentimiento."},
+         ]},
+        {"id": "c1w1-mc", "type": "multiple-choice", "title": "Preguntas sobre el Pluscuamperfecto",
+         "items": [
+            {"id": "c1w1d", "prompt": "¿Cuál es el participio irregular de \"escribir\"?", "options": ["escrito", "escribido", "escribiendo"], "answerIndex": 0, "explanation": "Escribir tiene un participio irregular: escrito."},
+            {"id": "c1w1e", "prompt": "¿Qué expresa \"ojalá hubiera llegado antes\"?", "options": ["un arrepentimiento sobre el pasado", "un deseo sobre el futuro", "una orden"], "answerIndex": 0, "explanation": "Ojalá + pluscuamperfecto de subjuntivo lamenta algo del pasado ya irreversible."},
+         ]},
+        {"id": "c1w1-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w1f", "statement": "El pluscuamperfecto de subjuntivo se forma con hubiera/hubiese + participio.", "answer": True, "explanation": "Correcto: hubiera/hubiese hablado, comido, vivido."},
+            {"id": "c1w1g", "statement": "Hubiera y hubiese no son intercambiables en casi ningún contexto.", "answer": False, "explanation": "Falso: son plenamente intercambiables en casi todos los contextos."},
+         ]},
+    ],
+    "c1-condicionales-complejas": [
+        {"id": "c1w2-fill", "type": "fill-blank", "title": "Más Práctica con Condicionales",
+         "items": [
+            {"id": "c1w2a", "prompt": "Si ___ (yo - tener) más tiempo, viajaría más.", "answers": [["tuviera", "tuviese"]], "options": ["tuviera", "tengo", "tendría"], "explanation": "Tipo potencial: imperfecto de subjuntivo en la prótasis."},
+            {"id": "c1w2b", "prompt": "Si ___ (llover) mañana, no saldremos.", "answers": [["llueve"]], "options": ["llueve", "llueva", "llovería"], "explanation": "Condición real: presente de indicativo."},
+            {"id": "c1w2c", "prompt": "Si ___ (nosotros - saber) la verdad, habríamos actuado distinto.", "answers": [["hubiéramos sabido", "hubiésemos sabido"]], "options": ["hubiéramos sabido", "sabíamos", "sabríamos"], "explanation": "Condición irreal de pasado: pluscuamperfecto de subjuntivo."},
+         ]},
+        {"id": "c1w2-mc", "type": "multiple-choice", "title": "Preguntas sobre Condicionales",
+         "items": [
+            {"id": "c1w2d", "prompt": "¿Qué tiempo va en la apódosis del tipo potencial?", "options": ["condicional simple", "condicional compuesto", "futuro simple"], "answerIndex": 0, "explanation": "Si + imperfecto de subjuntivo, condicional simple."},
+            {"id": "c1w2e", "prompt": "¿Qué tipo de condicional es \"si estudias, apruebas\"?", "options": ["real", "potencial", "irreal de pasado"], "answerIndex": 0, "explanation": "Presente de indicativo en ambas partes: condición real."},
+            {"id": "c1w2f", "prompt": "En una condicional mixta, ¿qué se combina?", "options": ["tiempos de dos tipos distintos cuando los momentos no coinciden", "siempre el mismo tiempo en ambas partes", "solo presente de indicativo"], "answerIndex": 0, "explanation": "Prótasis pasada con consecuencia presente, por ejemplo."},
+         ]},
+        {"id": "c1w2-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w2g", "statement": "La prótasis de una condicional nunca lleva el verbo en condicional.", "answer": True, "explanation": "Correcto: el condicional aparece en la apódosis, no en la prótasis."},
+            {"id": "c1w2h", "statement": "El tipo real usa presente de subjuntivo en la prótasis.", "answer": False, "explanation": "Falso: usa presente de indicativo."},
+         ]},
+    ],
+    "c1-matices-del-subjuntivo": [
+        {"id": "c1w3-fill", "type": "fill-blank", "title": "Más Práctica con los Matices",
+         "items": [
+            {"id": "c1w3a", "prompt": "No pienso que eso ___ (ser) verdad.", "answers": [["sea"]], "options": ["es", "sea"], "explanation": "Negación de opinión: subjuntivo."},
+            {"id": "c1w3b", "prompt": "Supongo que ya lo ___ (saber).", "answers": [["saben"]], "options": ["saben", "sepan"], "explanation": "Suponer en afirmativa: indicativo."},
+            {"id": "c1w3c", "prompt": "No me parece que el plan ___ (funcionar) tan bien.", "answers": [["funcione"]], "options": ["funciona", "funcione"], "explanation": "Opinión negada: subjuntivo."},
+         ]},
+        {"id": "c1w3-mc", "type": "multiple-choice", "title": "Preguntas sobre los Matices",
+         "items": [
+            {"id": "c1w3d", "prompt": "¿Qué modo pide \"veo que\" en afirmativa?", "options": ["indicativo", "subjuntivo", "imperativo"], "answerIndex": 0, "explanation": "La percepción afirmativa comunica certeza asumida."},
+            {"id": "c1w3e", "prompt": "¿Qué modo pide la negación de un verbo de percepción?", "options": ["indicativo", "subjuntivo", "condicional"], "answerIndex": 1, "explanation": "La negación elimina la certeza asumida."},
+         ]},
+        {"id": "c1w3-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w3f", "statement": "Negar un verbo de opinión elimina la certeza asumida y dispara el subjuntivo.", "answer": True, "explanation": "Correcto: es el mecanismo central de esta lección."},
+            {"id": "c1w3g", "statement": "\"Quizá\" siempre requiere subjuntivo, sin excepción.", "answer": False, "explanation": "Falso: puede llevar indicativo si expresa más confianza."},
+         ]},
+    ],
+    "c1-construcciones-enfaticas": [
+        {"id": "c1w4-fill", "type": "fill-blank", "title": "Más Práctica con Construcciones Enfáticas",
+         "items": [
+            {"id": "c1w4a", "prompt": "___ mi hermana quien me lo contó.", "answers": [["Fue"]], "options": ["Fue", "Es", "Era"], "explanation": "Oración escindida con persona: fue + quien."},
+            {"id": "c1w4b", "prompt": "¿Por qué no viniste? — ___ se me olvidó por completo.", "answers": [["Es que"]], "options": ["Es que", "Lo que", "Fue que"], "explanation": "\"Es que\" introduce una justificación."},
+            {"id": "c1w4c", "prompt": "Lo que pasa ___ que nadie nos avisó a tiempo.", "answers": [["es"]], "options": ["es", "fue", "sea"], "explanation": "La construcción fija exige el verbo \"es\"."},
+            {"id": "c1w4d", "prompt": "___ en Madrid donde nos conocimos.", "answers": [["Fue"]], "options": ["Fue", "Es", "Está"], "explanation": "Oración escindida espacial: fue + donde."},
+         ]},
+        {"id": "c1w4-mc", "type": "multiple-choice", "title": "Preguntas sobre Construcciones Enfáticas",
+         "items": [
+            {"id": "c1w4e", "prompt": "¿Qué relativo se prefiere con una persona en registro cuidado?", "options": ["quien", "que", "donde"], "answerIndex": 0, "explanation": "El registro cuidado prefiere \"quien\" con personas."},
+            {"id": "c1w4f", "prompt": "¿Qué introduce \"es que\"?", "options": ["una justificación", "una orden", "una pregunta"], "answerIndex": 0, "explanation": "Introduce una justificación o excusa."},
+            {"id": "c1w4g", "prompt": "¿Qué realza \"lo que + verbo + es\"?", "options": ["toda una idea como punto central", "solo un adjetivo", "nada en particular"], "answerIndex": 0, "explanation": "Realza toda una idea, no solo un elemento."},
+         ]},
+        {"id": "c1w4-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w4h", "statement": "\"Fue entonces cuando entendí todo\" es una oración escindida temporal.", "answer": True, "explanation": "Fue + elemento temporal + cuando."},
+            {"id": "c1w4i", "statement": "\"Lo que pasa\" puede omitir el verbo \"es\" sin cambiar el sentido.", "answer": False, "explanation": "Falso: la construcción fija requiere el verbo \"es\"."},
+            {"id": "c1w4j", "statement": "Las construcciones enfáticas son solo un recurso de entonación, no sintáctico.", "answer": False, "explanation": "Falso: son estructuras sintácticas dedicadas."},
+            {"id": "c1w4k", "statement": "\"Es que\" presupone normalmente una pregunta o un reproche implícito.", "answer": True, "explanation": "Correcto: se usa típicamente en respuesta a algo."},
+         ]},
+    ],
+    "c1-nominalizacion-y-estilo-academico": [
+        {"id": "c1w5-fill", "type": "fill-blank", "title": "Más Práctica con Nominalización",
+         "items": [
+            {"id": "c1w5a", "prompt": "Tolerar → la ___.", "answers": [["tolerancia"]], "options": ["tolerancia", "toleración", "tolerimiento"], "explanation": "Tolerar → la tolerancia, con el sufijo -ancia."},
+            {"id": "c1w5b", "prompt": "Posible → la ___.", "answers": [["posibilidad"]], "options": ["posibilidad", "posibileza", "posibilismo"], "explanation": "Posible → la posibilidad, con el sufijo -idad."},
+            {"id": "c1w5c", "prompt": "Aprender → el ___ (forma irregular).", "answers": [["aprendizaje"]], "options": ["aprendizaje", "aprendimiento", "aprendición"], "explanation": "Aprender → el aprendizaje, con el sufijo irregular -aje."},
+         ]},
+        {"id": "c1w5-mc", "type": "multiple-choice", "title": "Preguntas sobre Nominalización",
+         "items": [
+            {"id": "c1w5d", "prompt": "¿Qué sufijo forma \"organización\" a partir de \"organizar\"?", "options": ["-ción", "-miento", "-eza"], "answerIndex": 0, "explanation": "Organizar → la organización."},
+            {"id": "c1w5e", "prompt": "¿Qué desplaza la nominalización?", "options": ["el foco de quién actúa hacia el proceso", "el sujeto al final", "el tiempo verbal"], "answerIndex": 0, "explanation": "Desplaza el foco hacia el proceso o resultado."},
+         ]},
+        {"id": "c1w5-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w5f", "statement": "El exceso de nominalización se conoce informalmente como \"nominalitis\".", "answer": True, "explanation": "Correcto, término informal para el estilo excesivamente denso."},
+            {"id": "c1w5g", "statement": "\"Real\" se nominaliza como \"realismo\".", "answer": True, "explanation": "Correcto, con el sufijo -ismo."},
+         ]},
+    ],
+    "c1-conectores-textuales-avanzados": [
+        {"id": "c1w6-fill", "type": "fill-blank", "title": "Más Práctica con Conectores",
+         "items": [
+            {"id": "c1w6a", "prompt": "El estudio confirma la hipótesis; ___, abre nuevas preguntas. (adición)", "answers": [["asimismo"]], "options": ["asimismo", "sin embargo", "de ahí que"], "explanation": "Asimismo introduce una idea adicional."},
+            {"id": "c1w6b", "prompt": "Los resultados son buenos; ___, el tamaño de la muestra es pequeño. (contraste)", "answers": [["sin embargo"]], "options": ["sin embargo", "asimismo", "por consiguiente"], "explanation": "Sin embargo marca un contraste."},
+            {"id": "c1w6c", "prompt": "___, los beneficios superan a los riesgos. (cierre)", "answers": [["En definitiva"]], "options": ["En definitiva", "Dado que", "No obstante"], "explanation": "En definitiva cierra o recapitula un argumento."},
+         ]},
+        {"id": "c1w6-mc", "type": "multiple-choice", "title": "Preguntas sobre Conectores",
+         "items": [
+            {"id": "c1w6d", "prompt": "¿Qué conector exige subjuntivo en la cláusula que introduce?", "options": ["de ahí que", "asimismo", "sin embargo"], "answerIndex": 0, "explanation": "De ahí que es una de las pocas expresiones consecutivas que exige subjuntivo."},
+            {"id": "c1w6e", "prompt": "¿Qué función cumple \"dicho esto\"?", "options": ["transición hacia una idea que matiza lo anterior", "adición simple", "causa"], "answerIndex": 0, "explanation": "Marca una transición hacia una idea que matiza o contrasta con lo dicho."},
+            {"id": "c1w6f", "prompt": "¿Qué conector introduce un dato que el autor considera relevante?", "options": ["cabe destacar/señalar", "no obstante", "por consiguiente"], "answerIndex": 0, "explanation": "Cabe destacar/señalar introduce un dato relevante."},
+         ]},
+        {"id": "c1w6-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w6g", "statement": "Acumular varios conectores con la misma función en una frase es redundante.", "answer": True, "explanation": "Correcto: confunde la relación lógica que se quiere marcar."},
+            {"id": "c1w6h", "statement": "\"Puesto que\" es un conector de contraste.", "answer": False, "explanation": "Falso: puesto que es un conector de causa."},
+         ]},
+    ],
+    "c1-perifrasis-verbales-avanzadas": [
+        {"id": "c1w7-fill", "type": "fill-blank", "title": "Más Práctica con Perífrasis",
+         "items": [
+            {"id": "c1w7a", "prompt": "El niño ___ (romper a) llorar al caerse.", "answers": [["rompió a"]], "options": ["rompió a", "echó a", "acabó de"], "explanation": "Romper a marca un inicio brusco, típico con llorar."},
+            {"id": "c1w7b", "prompt": "___ (llevar) dos años estudiando español.", "answers": [["Llevo"]], "options": ["Llevo", "Vengo", "Estoy"], "explanation": "Llevar + gerundio enfatiza la duración medida."},
+         ]},
+        {"id": "c1w7-mc", "type": "multiple-choice", "title": "Preguntas sobre Perífrasis",
+         "items": [
+            {"id": "c1w7c", "prompt": "¿Qué perífrasis expresa pasado reciente?", "options": ["acabar de", "llegar a", "dejar de"], "answerIndex": 0, "explanation": "Acabar de + infinitivo expresa pasado reciente."},
+            {"id": "c1w7d", "prompt": "¿Qué perífrasis se usa con verbos de movimiento para un inicio súbito?", "options": ["echar a", "dejar de", "llevar"], "answerIndex": 0, "explanation": "Echar a se combina con verbos de movimiento como correr o andar."},
+         ]},
+        {"id": "c1w7-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w7e", "statement": "\"Venir + gerundio\" enfatiza la duración medida, igual que \"llevar + gerundio\".", "answer": False, "explanation": "Falso: venir enfatiza el desarrollo progresivo y acumulativo, llevar mide duración exacta."},
+         ]},
+    ],
+    "c1-voseo-ustedeo-y-variacion-dialectal": [
+        {"id": "c1w8-fill", "type": "fill-blank", "title": "Más Práctica con Variación Dialectal",
+         "items": [
+            {"id": "c1w8a", "prompt": "En Argentina, \"vos\" reemplaza casi por completo al ___.", "answers": [["tuteo"]], "options": ["tuteo", "ustedeo", "vosotros"], "explanation": "El voseo rioplatense reemplaza casi por completo al tuteo."},
+            {"id": "c1w8b", "prompt": "En toda América Latina, ___ sustituye a \"vosotros\".", "answers": [["ustedes"]], "options": ["ustedes", "vos", "ellos"], "explanation": "Ustedes cubre el plural formal e informal en América."},
+            {"id": "c1w8c", "prompt": "El imperativo de \"vivir\" en voseo rioplatense es ___.", "answers": [["viví"]], "options": ["viví", "vive", "vivid"], "explanation": "El voseo desplaza el acento a la última sílaba en el imperativo."},
+         ]},
+        {"id": "c1w8-mc", "type": "multiple-choice", "title": "Preguntas sobre Voseo y Ustedeo",
+         "items": [
+            {"id": "c1w8d", "prompt": "¿En qué países es el voseo la norma culta?", "options": ["Argentina, Uruguay y Paraguay", "España e Italia", "Solo en zonas rurales"], "answerIndex": 0, "explanation": "El voseo rioplatense es la norma en estos tres países."},
+            {"id": "c1w8e", "prompt": "¿Qué caracteriza al ustedeo colombiano?", "options": ["puede expresar cercanía, no solo distancia", "siempre es distante y frío", "no existe en Colombia"], "answerIndex": 0, "explanation": "El ustedeo colombiano no siempre marca formalidad."},
+            {"id": "c1w8f", "prompt": "¿Qué pronombres de objeto usa el voseo?", "options": ["los mismos que tú (te, tu, tuyo)", "pronombres propios distintos", "los de usted"], "answerIndex": 0, "explanation": "Solo cambian el pronombre sujeto y ciertas formas verbales."},
+         ]},
+        {"id": "c1w8-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w8g", "statement": "El voseo es una forma incorrecta o rural del tuteo.", "answer": False, "explanation": "Falso: es una norma culta y plenamente válida."},
+            {"id": "c1w8h", "statement": "Ninguna variedad (tú, vos, usted) es más correcta que otra.", "answer": True, "explanation": "Correcto: son variedades igualmente válidas del español."},
+         ]},
+    ],
+    "c1-ironia-atenuacion-y-cortesia": [
+        {"id": "c1w9-fill", "type": "fill-blank", "title": "Más Práctica con Atenuación",
+         "items": [
+            {"id": "c1w9a", "prompt": "___ ser que me esté equivocando, aunque no lo creo.", "answers": [["Podría"]], "options": ["Podría", "Sería", "Sería que"], "explanation": "Podría ser que introduce una opinión atenuada."},
+            {"id": "c1w9b", "prompt": "¿___ posible posponer la reunión unos minutos?", "answers": [["Sería"]], "options": ["Sería", "Es", "Fue"], "explanation": "El condicional suaviza la petición."},
+         ]},
+        {"id": "c1w9-mc", "type": "multiple-choice", "title": "Preguntas sobre Cortesía",
+         "items": [
+            {"id": "c1w9c", "prompt": "¿Qué recurso suaviza una petición directa?", "options": ["el condicional", "el imperativo", "el subjuntivo"], "answerIndex": 0, "explanation": "El condicional cumple una función cortés."},
+            {"id": "c1w9d", "prompt": "¿Cómo se reconoce la ironía?", "options": ["por el tono y el contexto, no solo las palabras", "por el diccionario", "por la gramática"], "answerIndex": 0, "explanation": "La ironía depende del contexto compartido y el tono."},
+         ]},
+        {"id": "c1w9-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w9e", "statement": "Acumular demasiados atenuadores en una frase la hace más clara.", "answer": False, "explanation": "Falso: diluye el mensaje hasta volverlo ambiguo."},
+            {"id": "c1w9f", "statement": "\"Más bien\" puede usarse para atenuar una opinión.", "answer": True, "explanation": "Correcto: es uno de los atenuadores mencionados."},
+         ]},
+    ],
+    "c1-espanol-academico-y-profesional": [
+        {"id": "c1w10-fill", "type": "fill-blank", "title": "Más Práctica con Registro Formal",
+         "items": [
+            {"id": "c1w10a", "prompt": "___ a su disposición para cualquier consulta. (fórmula de cierre)", "answers": [["Quedo"]], "options": ["Quedo", "Estoy", "Soy"], "explanation": "Quedar a su disposición es una fórmula fija de cierre."},
+            {"id": "c1w10b", "prompt": "El objetivo de esta ___ es exponer los avances del proyecto.", "answers": [["presentación"]], "options": ["presentación", "charla", "reunión"], "explanation": "Fórmula típica de introducción a una presentación formal."},
+         ]},
+        {"id": "c1w10-mc", "type": "multiple-choice", "title": "Preguntas sobre Registro Formal",
+         "items": [
+            {"id": "c1w10c", "prompt": "¿Qué fórmula introduce un informe?", "options": ["El presente informe tiene como objetivo...", "Hola, quería contarte...", "Bueno, esto es lo que pasó"], "answerIndex": 0, "explanation": "Fórmula estándar de apertura de un informe."},
+            {"id": "c1w10d", "prompt": "¿Qué sustituye a \"o sea\" en registro formal?", "options": ["es decir", "o sea", "bueno"], "answerIndex": 0, "explanation": "Es decir es la forma de registro formal."},
+         ]},
+        {"id": "c1w10-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "c1w10e", "statement": "Un informe formal prefiere la primera persona (\"yo pienso\") sobre estructuras impersonales.", "answer": False, "explanation": "Falso: prefiere estructuras impersonales u objetivas."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_3.get(_lesson["id"], []))

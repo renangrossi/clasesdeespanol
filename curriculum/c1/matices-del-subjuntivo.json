@@ -318,6 +318,103 @@
           "explanation": "Guardado para tu propio repaso — negar creer elimina la certeza y exige subjuntivo."
         }
       ]
+    },
+    {
+      "id": "c1w3-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con los Matices",
+      "items": [
+        {
+          "id": "c1w3a",
+          "prompt": "No pienso que eso ___ (ser) verdad.",
+          "answers": [
+            [
+              "sea"
+            ]
+          ],
+          "options": [
+            "es",
+            "sea"
+          ],
+          "explanation": "Negación de opinión: subjuntivo."
+        },
+        {
+          "id": "c1w3b",
+          "prompt": "Supongo que ya lo ___ (saber).",
+          "answers": [
+            [
+              "saben"
+            ]
+          ],
+          "options": [
+            "saben",
+            "sepan"
+          ],
+          "explanation": "Suponer en afirmativa: indicativo."
+        },
+        {
+          "id": "c1w3c",
+          "prompt": "No me parece que el plan ___ (funcionar) tan bien.",
+          "answers": [
+            [
+              "funcione"
+            ]
+          ],
+          "options": [
+            "funciona",
+            "funcione"
+          ],
+          "explanation": "Opinión negada: subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "c1w3-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre los Matices",
+      "items": [
+        {
+          "id": "c1w3d",
+          "prompt": "¿Qué modo pide \"veo que\" en afirmativa?",
+          "options": [
+            "indicativo",
+            "subjuntivo",
+            "imperativo"
+          ],
+          "answerIndex": 0,
+          "explanation": "La percepción afirmativa comunica certeza asumida."
+        },
+        {
+          "id": "c1w3e",
+          "prompt": "¿Qué modo pide la negación de un verbo de percepción?",
+          "options": [
+            "indicativo",
+            "subjuntivo",
+            "condicional"
+          ],
+          "answerIndex": 1,
+          "explanation": "La negación elimina la certeza asumida."
+        }
+      ]
+    },
+    {
+      "id": "c1w3-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w3f",
+          "statement": "Negar un verbo de opinión elimina la certeza asumida y dispara el subjuntivo.",
+          "answer": true,
+          "explanation": "Correcto: es el mecanismo central de esta lección."
+        },
+        {
+          "id": "c1w3g",
+          "statement": "\"Quizá\" siempre requiere subjuntivo, sin excepción.",
+          "answer": false,
+          "explanation": "Falso: puede llevar indicativo si expresa más confianza."
+        }
+      ]
     }
   ],
   "summary": [

@@ -284,6 +284,144 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «Lo que realmente me molestó fue el tono.»"
         }
       ]
+    },
+    {
+      "id": "c1w4-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Construcciones Enfáticas",
+      "items": [
+        {
+          "id": "c1w4a",
+          "prompt": "___ mi hermana quien me lo contó.",
+          "answers": [
+            [
+              "Fue"
+            ]
+          ],
+          "options": [
+            "Fue",
+            "Es",
+            "Era"
+          ],
+          "explanation": "Oración escindida con persona: fue + quien."
+        },
+        {
+          "id": "c1w4b",
+          "prompt": "¿Por qué no viniste? — ___ se me olvidó por completo.",
+          "answers": [
+            [
+              "Es que"
+            ]
+          ],
+          "options": [
+            "Es que",
+            "Lo que",
+            "Fue que"
+          ],
+          "explanation": "\"Es que\" introduce una justificación."
+        },
+        {
+          "id": "c1w4c",
+          "prompt": "Lo que pasa ___ que nadie nos avisó a tiempo.",
+          "answers": [
+            [
+              "es"
+            ]
+          ],
+          "options": [
+            "es",
+            "fue",
+            "sea"
+          ],
+          "explanation": "La construcción fija exige el verbo \"es\"."
+        },
+        {
+          "id": "c1w4d",
+          "prompt": "___ en Madrid donde nos conocimos.",
+          "answers": [
+            [
+              "Fue"
+            ]
+          ],
+          "options": [
+            "Fue",
+            "Es",
+            "Está"
+          ],
+          "explanation": "Oración escindida espacial: fue + donde."
+        }
+      ]
+    },
+    {
+      "id": "c1w4-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Construcciones Enfáticas",
+      "items": [
+        {
+          "id": "c1w4e",
+          "prompt": "¿Qué relativo se prefiere con una persona en registro cuidado?",
+          "options": [
+            "quien",
+            "que",
+            "donde"
+          ],
+          "answerIndex": 0,
+          "explanation": "El registro cuidado prefiere \"quien\" con personas."
+        },
+        {
+          "id": "c1w4f",
+          "prompt": "¿Qué introduce \"es que\"?",
+          "options": [
+            "una justificación",
+            "una orden",
+            "una pregunta"
+          ],
+          "answerIndex": 0,
+          "explanation": "Introduce una justificación o excusa."
+        },
+        {
+          "id": "c1w4g",
+          "prompt": "¿Qué realza \"lo que + verbo + es\"?",
+          "options": [
+            "toda una idea como punto central",
+            "solo un adjetivo",
+            "nada en particular"
+          ],
+          "answerIndex": 0,
+          "explanation": "Realza toda una idea, no solo un elemento."
+        }
+      ]
+    },
+    {
+      "id": "c1w4-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w4h",
+          "statement": "\"Fue entonces cuando entendí todo\" es una oración escindida temporal.",
+          "answer": true,
+          "explanation": "Fue + elemento temporal + cuando."
+        },
+        {
+          "id": "c1w4i",
+          "statement": "\"Lo que pasa\" puede omitir el verbo \"es\" sin cambiar el sentido.",
+          "answer": false,
+          "explanation": "Falso: la construcción fija requiere el verbo \"es\"."
+        },
+        {
+          "id": "c1w4j",
+          "statement": "Las construcciones enfáticas son solo un recurso de entonación, no sintáctico.",
+          "answer": false,
+          "explanation": "Falso: son estructuras sintácticas dedicadas."
+        },
+        {
+          "id": "c1w4k",
+          "statement": "\"Es que\" presupone normalmente una pregunta o un reproche implícito.",
+          "answer": true,
+          "explanation": "Correcto: se usa típicamente en respuesta a algo."
+        }
+      ]
     }
   ],
   "summary": [

@@ -328,6 +328,106 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «La implementación de esta política requiere una evaluación cuidadosa.»"
         }
       ]
+    },
+    {
+      "id": "c1w5-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Nominalización",
+      "items": [
+        {
+          "id": "c1w5a",
+          "prompt": "Tolerar → la ___.",
+          "answers": [
+            [
+              "tolerancia"
+            ]
+          ],
+          "options": [
+            "tolerancia",
+            "toleración",
+            "tolerimiento"
+          ],
+          "explanation": "Tolerar → la tolerancia, con el sufijo -ancia."
+        },
+        {
+          "id": "c1w5b",
+          "prompt": "Posible → la ___.",
+          "answers": [
+            [
+              "posibilidad"
+            ]
+          ],
+          "options": [
+            "posibilidad",
+            "posibileza",
+            "posibilismo"
+          ],
+          "explanation": "Posible → la posibilidad, con el sufijo -idad."
+        },
+        {
+          "id": "c1w5c",
+          "prompt": "Aprender → el ___ (forma irregular).",
+          "answers": [
+            [
+              "aprendizaje"
+            ]
+          ],
+          "options": [
+            "aprendizaje",
+            "aprendimiento",
+            "aprendición"
+          ],
+          "explanation": "Aprender → el aprendizaje, con el sufijo irregular -aje."
+        }
+      ]
+    },
+    {
+      "id": "c1w5-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Nominalización",
+      "items": [
+        {
+          "id": "c1w5d",
+          "prompt": "¿Qué sufijo forma \"organización\" a partir de \"organizar\"?",
+          "options": [
+            "-ción",
+            "-miento",
+            "-eza"
+          ],
+          "answerIndex": 0,
+          "explanation": "Organizar → la organización."
+        },
+        {
+          "id": "c1w5e",
+          "prompt": "¿Qué desplaza la nominalización?",
+          "options": [
+            "el foco de quién actúa hacia el proceso",
+            "el sujeto al final",
+            "el tiempo verbal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Desplaza el foco hacia el proceso o resultado."
+        }
+      ]
+    },
+    {
+      "id": "c1w5-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w5f",
+          "statement": "El exceso de nominalización se conoce informalmente como \"nominalitis\".",
+          "answer": true,
+          "explanation": "Correcto, término informal para el estilo excesivamente denso."
+        },
+        {
+          "id": "c1w5g",
+          "statement": "\"Real\" se nominaliza como \"realismo\".",
+          "answer": true,
+          "explanation": "Correcto, con el sufijo -ismo."
+        }
+      ]
     }
   ],
   "summary": [
