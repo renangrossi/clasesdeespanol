@@ -347,6 +347,119 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «Si no hubiera aceptado ese trabajo, ahora viviría en otra ciudad.»"
         }
       ]
+    },
+    {
+      "id": "c1w2-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Condicionales",
+      "items": [
+        {
+          "id": "c1w2a",
+          "prompt": "Si ___ (yo - tener) más tiempo, viajaría más.",
+          "answers": [
+            [
+              "tuviera",
+              "tuviese"
+            ]
+          ],
+          "options": [
+            "tuviera",
+            "tengo",
+            "tendría"
+          ],
+          "explanation": "Tipo potencial: imperfecto de subjuntivo en la prótasis."
+        },
+        {
+          "id": "c1w2b",
+          "prompt": "Si ___ (llover) mañana, no saldremos.",
+          "answers": [
+            [
+              "llueve"
+            ]
+          ],
+          "options": [
+            "llueve",
+            "llueva",
+            "llovería"
+          ],
+          "explanation": "Condición real: presente de indicativo."
+        },
+        {
+          "id": "c1w2c",
+          "prompt": "Si ___ (nosotros - saber) la verdad, habríamos actuado distinto.",
+          "answers": [
+            [
+              "hubiéramos sabido",
+              "hubiésemos sabido"
+            ]
+          ],
+          "options": [
+            "hubiéramos sabido",
+            "sabíamos",
+            "sabríamos"
+          ],
+          "explanation": "Condición irreal de pasado: pluscuamperfecto de subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "c1w2-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Condicionales",
+      "items": [
+        {
+          "id": "c1w2d",
+          "prompt": "¿Qué tiempo va en la apódosis del tipo potencial?",
+          "options": [
+            "condicional simple",
+            "condicional compuesto",
+            "futuro simple"
+          ],
+          "answerIndex": 0,
+          "explanation": "Si + imperfecto de subjuntivo, condicional simple."
+        },
+        {
+          "id": "c1w2e",
+          "prompt": "¿Qué tipo de condicional es \"si estudias, apruebas\"?",
+          "options": [
+            "real",
+            "potencial",
+            "irreal de pasado"
+          ],
+          "answerIndex": 0,
+          "explanation": "Presente de indicativo en ambas partes: condición real."
+        },
+        {
+          "id": "c1w2f",
+          "prompt": "En una condicional mixta, ¿qué se combina?",
+          "options": [
+            "tiempos de dos tipos distintos cuando los momentos no coinciden",
+            "siempre el mismo tiempo en ambas partes",
+            "solo presente de indicativo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Prótasis pasada con consecuencia presente, por ejemplo."
+        }
+      ]
+    },
+    {
+      "id": "c1w2-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w2g",
+          "statement": "La prótasis de una condicional nunca lleva el verbo en condicional.",
+          "answer": true,
+          "explanation": "Correcto: el condicional aparece en la apódosis, no en la prótasis."
+        },
+        {
+          "id": "c1w2h",
+          "statement": "El tipo real usa presente de subjuntivo en la prótasis.",
+          "answer": false,
+          "explanation": "Falso: usa presente de indicativo."
+        }
+      ]
     }
   ],
   "summary": [

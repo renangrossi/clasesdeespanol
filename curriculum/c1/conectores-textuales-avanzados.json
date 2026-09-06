@@ -311,6 +311,117 @@
           "explanation": "Guardado para tu propio repaso — en definitiva resume o concluye un argumento."
         }
       ]
+    },
+    {
+      "id": "c1w6-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Conectores",
+      "items": [
+        {
+          "id": "c1w6a",
+          "prompt": "El estudio confirma la hipótesis; ___, abre nuevas preguntas. (adición)",
+          "answers": [
+            [
+              "asimismo"
+            ]
+          ],
+          "options": [
+            "asimismo",
+            "sin embargo",
+            "de ahí que"
+          ],
+          "explanation": "Asimismo introduce una idea adicional."
+        },
+        {
+          "id": "c1w6b",
+          "prompt": "Los resultados son buenos; ___, el tamaño de la muestra es pequeño. (contraste)",
+          "answers": [
+            [
+              "sin embargo"
+            ]
+          ],
+          "options": [
+            "sin embargo",
+            "asimismo",
+            "por consiguiente"
+          ],
+          "explanation": "Sin embargo marca un contraste."
+        },
+        {
+          "id": "c1w6c",
+          "prompt": "___, los beneficios superan a los riesgos. (cierre)",
+          "answers": [
+            [
+              "En definitiva"
+            ]
+          ],
+          "options": [
+            "En definitiva",
+            "Dado que",
+            "No obstante"
+          ],
+          "explanation": "En definitiva cierra o recapitula un argumento."
+        }
+      ]
+    },
+    {
+      "id": "c1w6-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Conectores",
+      "items": [
+        {
+          "id": "c1w6d",
+          "prompt": "¿Qué conector exige subjuntivo en la cláusula que introduce?",
+          "options": [
+            "de ahí que",
+            "asimismo",
+            "sin embargo"
+          ],
+          "answerIndex": 0,
+          "explanation": "De ahí que es una de las pocas expresiones consecutivas que exige subjuntivo."
+        },
+        {
+          "id": "c1w6e",
+          "prompt": "¿Qué función cumple \"dicho esto\"?",
+          "options": [
+            "transición hacia una idea que matiza lo anterior",
+            "adición simple",
+            "causa"
+          ],
+          "answerIndex": 0,
+          "explanation": "Marca una transición hacia una idea que matiza o contrasta con lo dicho."
+        },
+        {
+          "id": "c1w6f",
+          "prompt": "¿Qué conector introduce un dato que el autor considera relevante?",
+          "options": [
+            "cabe destacar/señalar",
+            "no obstante",
+            "por consiguiente"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cabe destacar/señalar introduce un dato relevante."
+        }
+      ]
+    },
+    {
+      "id": "c1w6-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w6g",
+          "statement": "Acumular varios conectores con la misma función en una frase es redundante.",
+          "answer": true,
+          "explanation": "Correcto: confunde la relación lógica que se quiere marcar."
+        },
+        {
+          "id": "c1w6h",
+          "statement": "\"Puesto que\" es un conector de contraste.",
+          "answer": false,
+          "explanation": "Falso: puesto que es un conector de causa."
+        }
+      ]
     }
   ],
   "summary": [

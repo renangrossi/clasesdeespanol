@@ -336,6 +336,109 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «Ojalá hubiera llegado a tiempo.»"
         }
       ]
+    },
+    {
+      "id": "c1w1-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con el Pluscuamperfecto",
+      "items": [
+        {
+          "id": "c1w1a",
+          "prompt": "Si ___ (nosotros - reservar) antes, no habríamos pagado tanto.",
+          "answers": [
+            [
+              "hubiéramos reservado",
+              "hubiésemos reservado"
+            ]
+          ],
+          "options": [
+            "hubiéramos reservado",
+            "reservábamos",
+            "reservaríamos"
+          ],
+          "explanation": "Prótasis de condicional irreal de pasado: pluscuamperfecto de subjuntivo."
+        },
+        {
+          "id": "c1w1b",
+          "prompt": "No creía que ellos ___ (terminar) tan rápido.",
+          "answers": [
+            [
+              "hubieran terminado",
+              "hubiesen terminado"
+            ]
+          ],
+          "options": [
+            "hubieran terminado",
+            "habían terminado",
+            "terminaron"
+          ],
+          "explanation": "Duda sobre un hecho anterior al verbo principal en pasado."
+        },
+        {
+          "id": "c1w1c",
+          "prompt": "Ojalá ___ (yo - saber) la verdad antes.",
+          "answers": [
+            [
+              "hubiera sabido",
+              "hubiese sabido"
+            ]
+          ],
+          "options": [
+            "hubiera sabido",
+            "sabía",
+            "sabría"
+          ],
+          "explanation": "Ojalá + pluscuamperfecto de subjuntivo expresa arrepentimiento."
+        }
+      ]
+    },
+    {
+      "id": "c1w1-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre el Pluscuamperfecto",
+      "items": [
+        {
+          "id": "c1w1d",
+          "prompt": "¿Cuál es el participio irregular de \"escribir\"?",
+          "options": [
+            "escrito",
+            "escribido",
+            "escribiendo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Escribir tiene un participio irregular: escrito."
+        },
+        {
+          "id": "c1w1e",
+          "prompt": "¿Qué expresa \"ojalá hubiera llegado antes\"?",
+          "options": [
+            "un arrepentimiento sobre el pasado",
+            "un deseo sobre el futuro",
+            "una orden"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ojalá + pluscuamperfecto de subjuntivo lamenta algo del pasado ya irreversible."
+        }
+      ]
+    },
+    {
+      "id": "c1w1-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w1f",
+          "statement": "El pluscuamperfecto de subjuntivo se forma con hubiera/hubiese + participio.",
+          "answer": true,
+          "explanation": "Correcto: hubiera/hubiese hablado, comido, vivido."
+        },
+        {
+          "id": "c1w1g",
+          "statement": "Hubiera y hubiese no son intercambiables en casi ningún contexto.",
+          "answer": false,
+          "explanation": "Falso: son plenamente intercambiables en casi todos los contextos."
+        }
+      ]
     }
   ],
   "summary": [

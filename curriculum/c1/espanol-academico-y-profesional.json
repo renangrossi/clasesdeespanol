@@ -333,6 +333,85 @@
           "explanation": "Estas fórmulas de cierre son propias del registro profesional formal."
         }
       ]
+    },
+    {
+      "id": "c1w10-fill",
+      "type": "fill-blank",
+      "title": "Más Práctica con Registro Formal",
+      "items": [
+        {
+          "id": "c1w10a",
+          "prompt": "___ a su disposición para cualquier consulta. (fórmula de cierre)",
+          "answers": [
+            [
+              "Quedo"
+            ]
+          ],
+          "options": [
+            "Quedo",
+            "Estoy",
+            "Soy"
+          ],
+          "explanation": "Quedar a su disposición es una fórmula fija de cierre."
+        },
+        {
+          "id": "c1w10b",
+          "prompt": "El objetivo de esta ___ es exponer los avances del proyecto.",
+          "answers": [
+            [
+              "presentación"
+            ]
+          ],
+          "options": [
+            "presentación",
+            "charla",
+            "reunión"
+          ],
+          "explanation": "Fórmula típica de introducción a una presentación formal."
+        }
+      ]
+    },
+    {
+      "id": "c1w10-mc",
+      "type": "multiple-choice",
+      "title": "Preguntas sobre Registro Formal",
+      "items": [
+        {
+          "id": "c1w10c",
+          "prompt": "¿Qué fórmula introduce un informe?",
+          "options": [
+            "El presente informe tiene como objetivo...",
+            "Hola, quería contarte...",
+            "Bueno, esto es lo que pasó"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fórmula estándar de apertura de un informe."
+        },
+        {
+          "id": "c1w10d",
+          "prompt": "¿Qué sustituye a \"o sea\" en registro formal?",
+          "options": [
+            "es decir",
+            "o sea",
+            "bueno"
+          ],
+          "answerIndex": 0,
+          "explanation": "Es decir es la forma de registro formal."
+        }
+      ]
+    },
+    {
+      "id": "c1w10-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "c1w10e",
+          "statement": "Un informe formal prefiere la primera persona (\"yo pienso\") sobre estructuras impersonales.",
+          "answer": false,
+          "explanation": "Falso: prefiere estructuras impersonales u objetivas."
+        }
+      ]
     }
   ],
   "summary": [
