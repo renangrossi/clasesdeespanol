@@ -307,6 +307,161 @@
           "explanation": "La estructura correcta es: Tengo + número + años."
         }
       ]
+    },
+    {
+      "id": "a1z7-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z7m1",
+          "prompt": "Relaciona el verbo con su forma de yo.",
+          "pairs": [
+            {
+              "left": "tener",
+              "right": "tengo"
+            },
+            {
+              "left": "hacer",
+              "right": "hago"
+            },
+            {
+              "left": "ir",
+              "right": "voy"
+            },
+            {
+              "left": "venir",
+              "right": "vengo"
+            }
+          ],
+          "explanation": "Cada verbo irregular tiene una forma propia de yo que hay que memorizar."
+        }
+      ]
+    },
+    {
+      "id": "a1z7-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z7v1",
+          "prompt": "¿Qué expresión usa siempre tener, nunca ser?",
+          "options": [
+            "tener hambre",
+            "ser feliz",
+            "ser alto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tener hambre es una expresión fija que siempre usa tener."
+        },
+        {
+          "id": "a1z7v2",
+          "prompt": "¿Qué verbo describe el clima?",
+          "options": [
+            "Ser",
+            "Hacer",
+            "Tener"
+          ],
+          "answerIndex": 1,
+          "explanation": "El clima se describe con hacer: hace calor, hace frío."
+        },
+        {
+          "id": "a1z7v3",
+          "prompt": "¿Cuál es la forma de \"yo\" de \"ir\"?",
+          "options": [
+            "yo iro",
+            "yo voy",
+            "yo va"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ir es totalmente irregular: voy, vas, va..."
+        }
+      ]
+    },
+    {
+      "id": "a1w7-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Verbo Irregular",
+      "items": [
+        {
+          "id": "a1w7a",
+          "prompt": "Ellas ___ (tener) mucho sueño.",
+          "answers": [
+            [
+              "tienen"
+            ]
+          ],
+          "explanation": "Ellas + tener = tienen.",
+          "options": [
+            "tienen",
+            "tiene",
+            "tenemos"
+          ]
+        },
+        {
+          "id": "a1w7b",
+          "prompt": "¿___ (venir, tú) a la fiesta?",
+          "answers": [
+            [
+              "Vienes"
+            ]
+          ],
+          "explanation": "Tú + venir = vienes.",
+          "options": [
+            "Vienes",
+            "Viene",
+            "Vengo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w7-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Verbos Irregulares",
+      "items": [
+        {
+          "id": "a1w7c",
+          "prompt": "¿Qué expresión fija usa siempre tener?",
+          "options": [
+            "tener razón",
+            "ser razón",
+            "estar razón"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tener razón es una expresión fija con tener."
+        },
+        {
+          "id": "a1w7d",
+          "prompt": "¿Cuál es la forma de \"nosotros\" del verbo \"hacer\"?",
+          "options": [
+            "hacemos",
+            "hago",
+            "hacen"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nosotros + hacer = hacemos, forma regular."
+        }
+      ]
+    },
+    {
+      "id": "a1w7-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w7e",
+          "statement": "\"Ir a\" + infinitivo expresa un plan cercano.",
+          "answer": true,
+          "explanation": "Voy a estudiar esta tarde expresa un plan cercano."
+        },
+        {
+          "id": "a1w7f",
+          "statement": "El verbo \"tener\" es completamente regular.",
+          "answer": false,
+          "explanation": "Tener cambia su forma de yo (tengo) de manera irregular."
+        }
+      ]
     }
   ],
   "summary": [

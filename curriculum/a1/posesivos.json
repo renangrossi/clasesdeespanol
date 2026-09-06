@@ -295,6 +295,129 @@
           "explanation": "Guardado para tu propio repaso — recuerda concordar nuestro/a con el sustantivo."
         }
       ]
+    },
+    {
+      "id": "a1z9-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z9m1",
+          "prompt": "Relaciona el pronombre con su posesivo correspondiente.",
+          "pairs": [
+            {
+              "left": "yo",
+              "right": "mi"
+            },
+            {
+              "left": "tú",
+              "right": "tu"
+            },
+            {
+              "left": "nosotros",
+              "right": "nuestro"
+            },
+            {
+              "left": "ellos",
+              "right": "su"
+            }
+          ],
+          "explanation": "Cada pronombre personal tiene su propio posesivo correspondiente."
+        }
+      ]
+    },
+    {
+      "id": "a1z9-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z9v1",
+          "prompt": "¿Qué posesivo concuerda en género y número (no solo número)?",
+          "options": [
+            "mi",
+            "tu",
+            "nuestro"
+          ],
+          "answerIndex": 2,
+          "explanation": "Nuestro/a/os/as es el único que cambia también en género."
+        },
+        {
+          "id": "a1z9v2",
+          "prompt": "¿Qué significa \"su\" cuando el poseedor es ambiguo?",
+          "options": [
+            "Siempre de él",
+            "De él, ella o ellos/ellas/usted(es)",
+            "Nunca es ambiguo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Su puede referirse a varios poseedores distintos, por lo que a veces es ambiguo."
+        },
+        {
+          "id": "a1z9v3",
+          "prompt": "¿Cuál es el plural de \"mi\"?",
+          "options": [
+            "mis",
+            "mías",
+            "mío"
+          ],
+          "answerIndex": 0,
+          "explanation": "El plural de mi es mis, sin cambio de género."
+        }
+      ]
+    },
+    {
+      "id": "a1w9-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Posesivo",
+      "items": [
+        {
+          "id": "a1w9a",
+          "prompt": "___ hermanas viven en Chile. (ellos)",
+          "answers": [
+            [
+              "Sus"
+            ]
+          ],
+          "explanation": "Hermanas es plural, así que su/sus concuerda en plural: sus.",
+          "options": [
+            "Sus",
+            "Su",
+            "Sus de"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w9-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Posesivos",
+      "items": [
+        {
+          "id": "a1w9b",
+          "prompt": "¿Cuál es la forma correcta de \"nuestro\" con \"amigas\"?",
+          "options": [
+            "nuestras",
+            "nuestro",
+            "nuestros"
+          ],
+          "answerIndex": 0,
+          "explanation": "Amigas es femenino plural: nuestras."
+        }
+      ]
+    },
+    {
+      "id": "a1w9-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w9c",
+          "statement": "\"Su\" puede referirse a él, ella, usted, ellos, ellas o ustedes.",
+          "answer": true,
+          "explanation": "Su/sus es ambiguo respecto al poseedor; el contexto aclara a quién se refiere."
+        }
+      ]
     }
   ],
   "summary": [

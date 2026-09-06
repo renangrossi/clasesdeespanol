@@ -299,6 +299,482 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «Trabajo desde las nueve hasta las cinco.»"
         }
       ]
+    },
+    {
+      "id": "a1z12-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z12m1",
+          "prompt": "Relaciona la preposición con su significado.",
+          "pairs": [
+            {
+              "left": "de",
+              "right": "origen/posesión"
+            },
+            {
+              "left": "a",
+              "right": "destino/dirección"
+            },
+            {
+              "left": "en",
+              "right": "lugar/tiempo"
+            },
+            {
+              "left": "con",
+              "right": "compañía/instrumento"
+            }
+          ],
+          "explanation": "Cada preposición simple tiene un significado y uso característico."
+        }
+      ]
+    },
+    {
+      "id": "a1z12-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z12v1",
+          "prompt": "¿Qué preposición indica origen?",
+          "options": [
+            "a",
+            "de",
+            "con"
+          ],
+          "answerIndex": 1,
+          "explanation": "De indica origen: soy de España."
+        },
+        {
+          "id": "a1z12v2",
+          "prompt": "¿Qué preposición usarías para \"viajar hacia un lugar\"?",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ],
+          "answerIndex": 1,
+          "explanation": "A indica destino o dirección: voy a Madrid."
+        },
+        {
+          "id": "a1z12v3",
+          "prompt": "¿Qué preposición indica compañía?",
+          "options": [
+            "con",
+            "sin",
+            "por"
+          ],
+          "answerIndex": 0,
+          "explanation": "Con indica compañía: voy con mi amigo."
+        }
+      ]
+    },
+    {
+      "id": "a1w12-fill",
+      "type": "fill-blank",
+      "title": "Completa con la Preposición Correcta",
+      "instructions": "Elige la preposición que corresponde al uso indicado.",
+      "items": [
+        {
+          "id": "a1w12a",
+          "prompt": "Estudio ___ aprender más. (propósito)",
+          "answers": [
+            [
+              "para"
+            ]
+          ],
+          "explanation": "Para expresa propósito.",
+          "options": [
+            "para",
+            "por",
+            "con"
+          ]
+        },
+        {
+          "id": "a1w12b",
+          "prompt": "Camino ___ el parque cada mañana. (lugar de paso)",
+          "answers": [
+            [
+              "por"
+            ]
+          ],
+          "explanation": "Por expresa lugar de paso.",
+          "options": [
+            "por",
+            "para",
+            "a"
+          ]
+        },
+        {
+          "id": "a1w12c",
+          "prompt": "Escribo ___ un lápiz nuevo. (instrumento)",
+          "answers": [
+            [
+              "con"
+            ]
+          ],
+          "explanation": "Con expresa instrumento.",
+          "options": [
+            "con",
+            "de",
+            "en"
+          ]
+        },
+        {
+          "id": "a1w12d",
+          "prompt": "Este regalo es ___ mi madre. (destinatario)",
+          "answers": [
+            [
+              "para"
+            ]
+          ],
+          "explanation": "Para expresa destinatario.",
+          "options": [
+            "para",
+            "por",
+            "de"
+          ]
+        },
+        {
+          "id": "a1w12e",
+          "prompt": "Gracias ___ tu ayuda. (causa)",
+          "answers": [
+            [
+              "por"
+            ]
+          ],
+          "explanation": "Por expresa causa o motivo.",
+          "options": [
+            "por",
+            "para",
+            "con"
+          ]
+        },
+        {
+          "id": "a1w12f",
+          "prompt": "Vivo ___ una ciudad grande. (ubicación)",
+          "answers": [
+            [
+              "en"
+            ]
+          ],
+          "explanation": "En expresa ubicación dentro de un lugar.",
+          "options": [
+            "en",
+            "a",
+            "de"
+          ]
+        },
+        {
+          "id": "a1w12g",
+          "prompt": "Voy ___ la playa este verano. (dirección)",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "A expresa dirección o destino.",
+          "options": [
+            "a",
+            "en",
+            "de"
+          ]
+        },
+        {
+          "id": "a1w12h",
+          "prompt": "Soy ___ Argentina. (origen)",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "explanation": "De expresa origen.",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ]
+        },
+        {
+          "id": "a1w12i",
+          "prompt": "El libro es ___ Juan. (posesión)",
+          "answers": [
+            [
+              "de"
+            ]
+          ],
+          "explanation": "De expresa posesión.",
+          "options": [
+            "de",
+            "a",
+            "con"
+          ]
+        },
+        {
+          "id": "a1w12j",
+          "prompt": "Trabajo ___ mis compañeros los sábados. (compañía)",
+          "answers": [
+            [
+              "con"
+            ]
+          ],
+          "explanation": "Con expresa compañía.",
+          "options": [
+            "con",
+            "de",
+            "para"
+          ]
+        },
+        {
+          "id": "a1w12k",
+          "prompt": "Llego ___ las diez de la noche. (hora)",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "A expresa hora exacta.",
+          "options": [
+            "a",
+            "en",
+            "de"
+          ]
+        },
+        {
+          "id": "a1w12l",
+          "prompt": "Este regalo es ___ ti, no para él. (destinatario)",
+          "answers": [
+            [
+              "para"
+            ]
+          ],
+          "explanation": "Para expresa destinatario.",
+          "options": [
+            "para",
+            "por",
+            "con"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w12-mc",
+      "type": "multiple-choice",
+      "title": "Elige la Preposición",
+      "items": [
+        {
+          "id": "a1w12m",
+          "prompt": "¿Qué preposición expresa material?",
+          "options": [
+            "de",
+            "en",
+            "con"
+          ],
+          "answerIndex": 0,
+          "explanation": "Una mesa de madera: de expresa material."
+        },
+        {
+          "id": "a1w12n",
+          "prompt": "¿Qué preposición expresa destino o dirección?",
+          "options": [
+            "a",
+            "en",
+            "de"
+          ],
+          "answerIndex": 0,
+          "explanation": "A expresa dirección: voy a la escuela."
+        },
+        {
+          "id": "a1w12o",
+          "prompt": "¿Qué preposición expresa causa o motivo?",
+          "options": [
+            "por",
+            "para",
+            "con"
+          ],
+          "answerIndex": 0,
+          "explanation": "Por expresa causa: gracias por tu ayuda."
+        },
+        {
+          "id": "a1w12p",
+          "prompt": "¿Qué preposición expresa propósito?",
+          "options": [
+            "para",
+            "por",
+            "de"
+          ],
+          "answerIndex": 0,
+          "explanation": "Para expresa propósito: estudio para aprender."
+        },
+        {
+          "id": "a1w12q",
+          "prompt": "¿Qué preposición expresa compañía?",
+          "options": [
+            "con",
+            "sin",
+            "de"
+          ],
+          "answerIndex": 0,
+          "explanation": "Con expresa compañía: voy con mis amigos."
+        },
+        {
+          "id": "a1w12r",
+          "prompt": "¿Cuál es correcta para expresar ubicación dentro de una ciudad?",
+          "options": [
+            "Vivo en París.",
+            "Vivo a París.",
+            "Vivo de París."
+          ],
+          "answerIndex": 0,
+          "explanation": "La ubicación dentro de un lugar siempre usa en."
+        },
+        {
+          "id": "a1w12s",
+          "prompt": "¿Qué preposición usarías para el objeto indirecto de una persona?",
+          "options": [
+            "a",
+            "de",
+            "por"
+          ],
+          "answerIndex": 0,
+          "explanation": "A introduce el objeto indirecto: escribo a mi madre."
+        },
+        {
+          "id": "a1w12t",
+          "prompt": "¿Qué preposición expresa lugar de paso?",
+          "options": [
+            "por",
+            "para",
+            "a"
+          ],
+          "answerIndex": 0,
+          "explanation": "Por expresa lugar de paso: camino por el parque."
+        },
+        {
+          "id": "a1w12u",
+          "prompt": "¿Cuál es correcta: \"Hablo ___ mi hermano por teléfono\"?",
+          "options": [
+            "con",
+            "de",
+            "a"
+          ],
+          "answerIndex": 0,
+          "explanation": "Con expresa con quién se habla."
+        },
+        {
+          "id": "a1w12v",
+          "prompt": "¿Qué preposición usarías para \"el coche ___ mi padre\" (posesión)?",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ],
+          "answerIndex": 0,
+          "explanation": "De expresa posesión."
+        },
+        {
+          "id": "a1w12w",
+          "prompt": "¿Qué preposición expresa hora exacta?",
+          "options": [
+            "a",
+            "en",
+            "de"
+          ],
+          "answerIndex": 0,
+          "explanation": "A expresa la hora: llego a las ocho."
+        },
+        {
+          "id": "a1w12x",
+          "prompt": "¿Cuál es la preposición correcta para \"depende ___ ti\"?",
+          "options": [
+            "de",
+            "en",
+            "a"
+          ],
+          "answerIndex": 0,
+          "explanation": "Depender siempre se construye con de."
+        }
+      ]
+    },
+    {
+      "id": "a1w12-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w12y",
+          "statement": "\"En\" se usa para ubicación dentro de un lugar.",
+          "answer": true,
+          "explanation": "En expresa ubicación: vivo en Madrid."
+        },
+        {
+          "id": "a1w12z",
+          "statement": "\"Por\" y \"para\" son intercambiables sin ningún cambio de significado.",
+          "answer": false,
+          "explanation": "Por y para tienen usos distintos: causa/medio frente a destinatario/propósito."
+        },
+        {
+          "id": "a1w12aa",
+          "statement": "\"De\" puede expresar tanto origen como posesión.",
+          "answer": true,
+          "explanation": "Soy de Perú (origen); el libro de Ana (posesión)."
+        },
+        {
+          "id": "a1w12bb",
+          "statement": "\"Con\" expresa compañía o instrumento.",
+          "answer": true,
+          "explanation": "Voy con mis amigos (compañía); escribo con un lápiz (instrumento)."
+        },
+        {
+          "id": "a1w12cc",
+          "statement": "\"A\" nunca se usa para expresar hora.",
+          "answer": false,
+          "explanation": "A sí se usa para la hora: llego a las ocho."
+        },
+        {
+          "id": "a1w12dd",
+          "statement": "\"Para ti\" expresa el destinatario de algo.",
+          "answer": true,
+          "explanation": "Para introduce al destinatario."
+        },
+        {
+          "id": "a1w12ee",
+          "statement": "\"Por el parque\" expresa lugar de paso.",
+          "answer": true,
+          "explanation": "Por indica el lugar por donde se pasa."
+        },
+        {
+          "id": "a1w12ff",
+          "statement": "El origen de una persona se expresa con \"a\", no con \"de\".",
+          "answer": false,
+          "explanation": "El origen se expresa con de, no con a."
+        },
+        {
+          "id": "a1w12gg",
+          "statement": "\"Trabajo en un hospital\" usa \"en\" para ubicación dentro de un lugar.",
+          "answer": true,
+          "explanation": "En expresa ubicación dentro de un lugar."
+        },
+        {
+          "id": "a1w12hh",
+          "statement": "\"Voy a la escuela\" expresa dirección o destino.",
+          "answer": true,
+          "explanation": "A expresa el destino del movimiento."
+        },
+        {
+          "id": "a1w12ii",
+          "statement": "\"Gracias por tu ayuda\" usa \"por\" para expresar causa.",
+          "answer": true,
+          "explanation": "Por expresa la causa del agradecimiento."
+        },
+        {
+          "id": "a1w12jj",
+          "statement": "\"Con\" y \"para\" tienen el mismo significado.",
+          "answer": false,
+          "explanation": "Con expresa compañía/instrumento; para expresa destinatario/propósito."
+        }
+      ]
     }
   ],
   "summary": [

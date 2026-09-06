@@ -354,6 +354,76 @@
           "explanation": "Guardado para tu propio repaso — compara tu frase con: «Hola, me llamo... Mucho gusto.»"
         }
       ]
+    },
+    {
+      "id": "pa2z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa2zm1",
+          "prompt": "Relaciona el saludo con el momento del día.",
+          "pairs": [
+            {
+              "left": "buenos días",
+              "right": "mañana"
+            },
+            {
+              "left": "buenas tardes",
+              "right": "tarde"
+            },
+            {
+              "left": "buenas noches",
+              "right": "noche"
+            },
+            {
+              "left": "hola",
+              "right": "cualquier momento"
+            }
+          ],
+          "explanation": "Cada saludo corresponde a un momento distinto del día, excepto hola."
+        }
+      ]
+    },
+    {
+      "id": "pa2z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa2zv1",
+          "prompt": "¿Qué significa \"mucho gusto\"?",
+          "options": [
+            "Adiós",
+            "Al conocer a alguien",
+            "Buenas noches"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mucho gusto se dice al conocer a alguien por primera vez."
+        },
+        {
+          "id": "pa2zv2",
+          "prompt": "¿Qué respondes a \"gracias\"?",
+          "options": [
+            "De nada",
+            "Buenos días",
+            "Adiós"
+          ],
+          "answerIndex": 0,
+          "explanation": "De nada es la respuesta habitual a un agradecimiento."
+        },
+        {
+          "id": "pa2zv3",
+          "prompt": "¿Cómo se despide alguien?",
+          "options": [
+            "Hola",
+            "Adiós",
+            "Gracias"
+          ],
+          "answerIndex": 1,
+          "explanation": "Adiós es la forma de despedida más común."
+        }
+      ]
     }
   ],
   "summary": [

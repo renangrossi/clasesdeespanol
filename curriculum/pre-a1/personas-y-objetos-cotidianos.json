@@ -348,6 +348,76 @@
           "explanation": "Guardado para tu propio repaso — recuerda hacer concordar el adjetivo con el género de la persona."
         }
       ]
+    },
+    {
+      "id": "pa5z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa5zm1",
+          "prompt": "Relaciona el miembro de la familia con su descripción.",
+          "pairs": [
+            {
+              "left": "madre",
+              "right": "mujer, progenitora"
+            },
+            {
+              "left": "hermano",
+              "right": "mismo padre y madre"
+            },
+            {
+              "left": "abuelo",
+              "right": "padre del padre o madre"
+            },
+            {
+              "left": "hijo",
+              "right": "descendiente"
+            }
+          ],
+          "explanation": "Cada palabra de familia describe una relación de parentesco distinta."
+        }
+      ]
+    },
+    {
+      "id": "pa5z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa5zv1",
+          "prompt": "¿Qué palabra significa \"chair\"?",
+          "options": [
+            "Mesa",
+            "Silla",
+            "Cama"
+          ],
+          "answerIndex": 1,
+          "explanation": "Silla es el mueble donde te sientas."
+        },
+        {
+          "id": "pa5zv2",
+          "prompt": "¿Qué palabra significa \"table\"?",
+          "options": [
+            "Silla",
+            "Mesa",
+            "Ventana"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mesa es el mueble de trabajo o comida."
+        },
+        {
+          "id": "pa5zv3",
+          "prompt": "¿Cómo se llama al padre de tu padre?",
+          "options": [
+            "Tío",
+            "Abuelo",
+            "Primo"
+          ],
+          "answerIndex": 1,
+          "explanation": "El padre de tu padre es tu abuelo."
+        }
+      ]
     }
   ],
   "summary": [

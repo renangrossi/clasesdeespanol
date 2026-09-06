@@ -260,6 +260,219 @@
           "explanation": "Guardado para tu propio repaso — ejemplo: «Yo estudio, tú miras la televisión.»"
         }
       ]
+    },
+    {
+      "id": "a1z5-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z5m1",
+          "prompt": "Relaciona el pronombre con su región de uso preferente.",
+          "pairs": [
+            {
+              "left": "vosotros",
+              "right": "España"
+            },
+            {
+              "left": "ustedes",
+              "right": "América Latina (plural general)"
+            },
+            {
+              "left": "vos",
+              "right": "Argentina/Uruguay"
+            },
+            {
+              "left": "tú",
+              "right": "uso general informal"
+            }
+          ],
+          "explanation": "El uso de los pronombres varía según la región."
+        }
+      ]
+    },
+    {
+      "id": "a1z5-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z5v1",
+          "prompt": "¿Qué pronombre es formal en singular?",
+          "options": [
+            "Tú",
+            "Usted",
+            "Vos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Usted es el pronombre formal de segunda persona singular."
+        },
+        {
+          "id": "a1z5v2",
+          "prompt": "¿Qué pronombre se usa en España para el plural informal?",
+          "options": [
+            "Ustedes",
+            "Vosotros",
+            "Ellos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vosotros es el plural informal usado en España."
+        },
+        {
+          "id": "a1z5v3",
+          "prompt": "¿Por qué se puede omitir el sujeto en español?",
+          "options": [
+            "Porque la terminación verbal ya lo indica",
+            "Porque no es necesario nunca",
+            "Porque no existe el sujeto"
+          ],
+          "answerIndex": 0,
+          "explanation": "La terminación verbal ya identifica al sujeto en la mayoría de los casos."
+        }
+      ]
+    },
+    {
+      "id": "a1w5-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Pronombre",
+      "items": [
+        {
+          "id": "a1w5a",
+          "prompt": "___ hablás muy bien español, según me dicen. (forma usada en Argentina)",
+          "answers": [
+            [
+              "Vos"
+            ]
+          ],
+          "explanation": "Vos es la forma equivalente a tú en Argentina y Uruguay.",
+          "options": [
+            "Vos",
+            "Tú",
+            "Usted"
+          ]
+        },
+        {
+          "id": "a1w5b",
+          "prompt": "¿___ vienen a la fiesta el sábado? (plural, general en América Latina)",
+          "answers": [
+            [
+              "Ustedes"
+            ]
+          ],
+          "explanation": "Ustedes se usa para el plural, formal e informal, en la mayoría de América Latina.",
+          "options": [
+            "Ustedes",
+            "Vosotros",
+            "Ellos"
+          ]
+        },
+        {
+          "id": "a1w5c",
+          "prompt": "___ trabajo por las tardes, tú estudias por las mañanas. (contraste)",
+          "answers": [
+            [
+              "Yo"
+            ]
+          ],
+          "explanation": "El pronombre se mantiene para marcar el contraste entre dos sujetos.",
+          "options": [
+            "Yo",
+            "Tú",
+            "Él"
+          ]
+        },
+        {
+          "id": "a1w5d",
+          "prompt": "Con un amigo cercano, usas el pronombre ___.",
+          "answers": [
+            [
+              "tú"
+            ]
+          ],
+          "explanation": "Tú es la forma informal para amigos, familia y compañeros.",
+          "options": [
+            "tú",
+            "usted",
+            "vosotros"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w5-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Pronombres",
+      "items": [
+        {
+          "id": "a1w5e",
+          "prompt": "¿Qué pronombre se usa en Argentina en vez de tú?",
+          "options": [
+            "vos",
+            "usted",
+            "vosotros"
+          ],
+          "answerIndex": 0,
+          "explanation": "El voseo es característico de Argentina y Uruguay."
+        },
+        {
+          "id": "a1w5f",
+          "prompt": "¿Qué pronombre es formal en singular?",
+          "options": [
+            "usted",
+            "tú",
+            "vos"
+          ],
+          "answerIndex": 0,
+          "explanation": "Usted es la forma formal de segunda persona singular."
+        },
+        {
+          "id": "a1w5g",
+          "prompt": "En España, ¿qué pronombre se usa para el plural formal?",
+          "options": [
+            "ustedes",
+            "vosotros",
+            "ellos"
+          ],
+          "answerIndex": 0,
+          "explanation": "En España, vosotros es informal y ustedes es formal en el plural."
+        },
+        {
+          "id": "a1w5h",
+          "prompt": "¿Por qué se omite el pronombre de sujeto en español?",
+          "options": [
+            "porque la terminación verbal ya lo indica",
+            "porque es incorrecto usarlo",
+            "porque no existen pronombres"
+          ],
+          "answerIndex": 0,
+          "explanation": "La terminación verbal ya identifica al sujeto."
+        }
+      ]
+    },
+    {
+      "id": "a1w5-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w5i",
+          "statement": "El pronombre de sujeto es obligatorio en toda frase española.",
+          "answer": false,
+          "explanation": "El español permite omitir el sujeto porque el verbo ya lo indica."
+        },
+        {
+          "id": "a1w5j",
+          "statement": "Vos tiene formas verbales propias, distintas de tú.",
+          "answer": true,
+          "explanation": "Vos hablás, no vos hablas."
+        },
+        {
+          "id": "a1w5k",
+          "statement": "Ustedes se usa en España solo para el plural formal.",
+          "answer": true,
+          "explanation": "En España, vosotros cubre el plural informal."
+        }
+      ]
     }
   ],
   "summary": [

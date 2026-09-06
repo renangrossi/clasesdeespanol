@@ -296,6 +296,161 @@
           "explanation": "Guardado para tu propio repaso — recuerda: el águila (singular, por sonido) pero las águilas (plural)."
         }
       ]
+    },
+    {
+      "id": "a1z3-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z3m1",
+          "prompt": "Relaciona el sustantivo con su artículo definido correcto.",
+          "pairs": [
+            {
+              "left": "perro",
+              "right": "el"
+            },
+            {
+              "left": "casa",
+              "right": "la"
+            },
+            {
+              "left": "libros",
+              "right": "los"
+            },
+            {
+              "left": "flores",
+              "right": "las"
+            }
+          ],
+          "explanation": "El artículo concuerda en género y número con el sustantivo."
+        }
+      ]
+    },
+    {
+      "id": "a1z3-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z3v1",
+          "prompt": "¿Cuándo se usa un artículo indefinido?",
+          "options": [
+            "Para algo específico y conocido",
+            "Para algo nuevo o no específico",
+            "Nunca"
+          ],
+          "answerIndex": 1,
+          "explanation": "El artículo indefinido presenta algo nuevo o no específico."
+        },
+        {
+          "id": "a1z3v2",
+          "prompt": "¿Qué artículo se usa con \"agua\" en singular?",
+          "options": [
+            "la",
+            "el",
+            "los"
+          ],
+          "answerIndex": 1,
+          "explanation": "Agua usa el en singular por empezar con a tónica, aunque es femenina."
+        },
+        {
+          "id": "a1z3v3",
+          "prompt": "¿Cuál es el plural de \"un libro\"?",
+          "options": [
+            "unos libros",
+            "unas libros",
+            "los libros"
+          ],
+          "answerIndex": 0,
+          "explanation": "El plural indefinido masculino es unos."
+        }
+      ]
+    },
+    {
+      "id": "a1w3-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Artículo",
+      "items": [
+        {
+          "id": "a1w3a",
+          "prompt": "___ águilas vuelan muy alto.",
+          "answers": [
+            [
+              "Las"
+            ]
+          ],
+          "explanation": "En plural, águilas usa el artículo femenino normal: las.",
+          "options": [
+            "Las",
+            "Los",
+            "Unas"
+          ]
+        },
+        {
+          "id": "a1w3b",
+          "prompt": "Necesito ___ agua fría para el viaje.",
+          "answers": [
+            [
+              "un"
+            ]
+          ],
+          "explanation": "Agua empieza con a tónica, así que el indefinido singular es un, aunque sea femenina.",
+          "options": [
+            "un",
+            "una",
+            "unos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w3-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Artículos",
+      "items": [
+        {
+          "id": "a1w3c",
+          "prompt": "¿Qué artículo indefinido corresponde a \"amigas\"?",
+          "options": [
+            "unos",
+            "unas",
+            "una"
+          ],
+          "answerIndex": 1,
+          "explanation": "Amigas es femenino plural: unas."
+        },
+        {
+          "id": "a1w3d",
+          "prompt": "¿Cuál es el artículo definido plural de \"flor\"?",
+          "options": [
+            "las",
+            "los",
+            "la"
+          ],
+          "answerIndex": 0,
+          "explanation": "Flor es femenina: el plural definido es las."
+        }
+      ]
+    },
+    {
+      "id": "a1w3-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w3e",
+          "statement": "El artículo definido se usa para algo específico o conocido.",
+          "answer": true,
+          "explanation": "El artículo definido marca algo ya identificado."
+        },
+        {
+          "id": "a1w3f",
+          "statement": "\"Unas\" es el artículo indefinido femenino singular.",
+          "answer": false,
+          "explanation": "Unas es plural; una es el indefinido femenino singular."
+        }
+      ]
     }
   ],
   "summary": [

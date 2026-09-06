@@ -283,6 +283,176 @@
           "explanation": "Guardado para tu propio repaso — recuerda hacer concordar los adjetivos en género y número."
         }
       ]
+    },
+    {
+      "id": "a1z8-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z8m1",
+          "prompt": "Relaciona el adjetivo con su forma femenina.",
+          "pairs": [
+            {
+              "left": "alto",
+              "right": "alta"
+            },
+            {
+              "left": "inteligente",
+              "right": "inteligente"
+            },
+            {
+              "left": "trabajador",
+              "right": "trabajadora"
+            },
+            {
+              "left": "fácil",
+              "right": "fácil"
+            }
+          ],
+          "explanation": "Algunos adjetivos cambian de forma según el género, otros no."
+        }
+      ]
+    },
+    {
+      "id": "a1z8-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z8v1",
+          "prompt": "¿Qué adjetivo no cambia entre masculino y femenino?",
+          "options": [
+            "alto",
+            "inteligente",
+            "trabajador"
+          ],
+          "answerIndex": 1,
+          "explanation": "Los adjetivos terminados en -e tienen la misma forma para ambos géneros."
+        },
+        {
+          "id": "a1z8v2",
+          "prompt": "¿Dónde suele ir el adjetivo descriptivo en español?",
+          "options": [
+            "Antes del sustantivo, siempre",
+            "Después del sustantivo, normalmente",
+            "Nunca junto al sustantivo"
+          ],
+          "answerIndex": 1,
+          "explanation": "La mayoría de los adjetivos descriptivos van después del sustantivo."
+        },
+        {
+          "id": "a1z8v3",
+          "prompt": "¿Qué forma toma \"bueno\" antes de un sustantivo masculino singular?",
+          "options": [
+            "buen",
+            "buena",
+            "buenos"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bueno pierde la -o final antes de un sustantivo masculino singular: un buen amigo."
+        }
+      ]
+    },
+    {
+      "id": "a1w8-fill",
+      "type": "fill-blank",
+      "title": "Completa la Concordancia",
+      "items": [
+        {
+          "id": "a1w8a",
+          "prompt": "Las flores son muy bonit___.",
+          "answers": [
+            [
+              "as"
+            ]
+          ],
+          "explanation": "Bonitas concuerda con flores, femenino plural.",
+          "options": [
+            "as",
+            "os",
+            "es"
+          ]
+        },
+        {
+          "id": "a1w8b",
+          "prompt": "Es un ___ (malo) día.",
+          "answers": [
+            [
+              "mal"
+            ]
+          ],
+          "explanation": "Malo pierde la -o final antes de un sustantivo masculino singular.",
+          "options": [
+            "mal",
+            "malo",
+            "mala"
+          ]
+        },
+        {
+          "id": "a1w8c",
+          "prompt": "El examen fue muy difícil, pero no imposibl___.",
+          "answers": [
+            [
+              "e"
+            ]
+          ],
+          "explanation": "Imposible es un adjetivo en -e: la misma forma para ambos géneros.",
+          "options": [
+            "e",
+            "a",
+            "o"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w8-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Adjetivos",
+      "items": [
+        {
+          "id": "a1w8d",
+          "prompt": "¿Qué adjetivo pierde la -o antes de un sustantivo masculino singular?",
+          "options": [
+            "bueno",
+            "grande",
+            "alto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bueno se convierte en buen antes de un sustantivo masculino singular."
+        },
+        {
+          "id": "a1w8e",
+          "prompt": "¿Cuál es el plural femenino de \"trabajador\"?",
+          "options": [
+            "trabajadoras",
+            "trabajadors",
+            "trabajador"
+          ],
+          "answerIndex": 0,
+          "explanation": "Trabajador añade -a para el femenino y -s para el plural: trabajadoras."
+        }
+      ]
+    },
+    {
+      "id": "a1w8-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w8f",
+          "statement": "\"Un gran hombre\" y \"un hombre grande\" significan exactamente lo mismo.",
+          "answer": false,
+          "explanation": "Gran (antes) sugiere importancia; grande (después) sugiere tamaño físico."
+        },
+        {
+          "id": "a1w8g",
+          "statement": "Los adjetivos en -e tienen la misma forma para masculino y femenino.",
+          "answer": true,
+          "explanation": "Solo cambian entre singular y plural, no entre géneros."
+        }
+      ]
     }
   ],
   "summary": [

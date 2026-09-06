@@ -1425,3 +1425,285 @@ EXTRA_EXERCISES_3 = {
 
 for _lesson in LESSONS:
     _lesson["exercises"].extend(EXTRA_EXERCISES_3.get(_lesson["id"], []))
+
+# =======================================================================
+# EXTRA_EXERCISES_4 — cuarta ronda de práctica, añadida para llevar cada
+# lección a paridad de número de ejercicios con la lección de inglés en
+# la misma posición del nivel A1. Fusionada en cada lección por id.
+# =======================================================================
+EXTRA_EXERCISES_4 = {
+    "a1-el-abecedario-y-la-pronunciacion": [
+        {"id": "a1w1-fill", "type": "fill-blank", "title": "Completa sobre Acentuación",
+         "items": [
+            {"id": "a1w1a", "prompt": "La sílaba con más fuerza en una palabra se llama sílaba ___.", "answers": [["tónica"]], "explanation": "La sílaba tónica es la que se pronuncia con más fuerza.", "options": ["tónica", "átona", "muda"]},
+            {"id": "a1w1b", "prompt": "\"Ratón\" tiene la r ___ porque está al inicio de la palabra.", "answers": [["fuerte"]], "explanation": "Una r al inicio de palabra siempre suena fuerte.", "options": ["suave", "fuerte", "muda"]},
+            {"id": "a1w1c", "prompt": "\"Árbol\" es una palabra ___ (fuerza en la penúltima sílaba) que termina en consonante distinta de n/s, por eso lleva tilde.", "answers": [["llana"]], "explanation": "Las palabras llanas llevan la fuerza en la penúltima sílaba.", "options": ["llana", "aguda", "esdrújula"]},
+            {"id": "a1w1d", "prompt": "\"Guerra\" lleva una u muda para mantener el sonido ___ de la g antes de e.", "answers": [["fuerte"]], "explanation": "La u muda evita que la g antes de e/i tenga el sonido gutural.", "options": ["fuerte", "suave", "gutural"]},
+         ]},
+        {"id": "a1w1-mc", "type": "multiple-choice", "title": "Más sobre Acentuación",
+         "items": [
+            {"id": "a1w1e", "prompt": "¿Qué palabra es esdrújula (fuerza en la antepenúltima sílaba)?", "options": ["rápido", "reloj", "hotel"], "answerIndex": 0, "explanation": "Rápido lleva la fuerza tres sílabas antes del final."},
+            {"id": "a1w1f", "prompt": "¿Qué palabra es aguda (fuerza en la última sílaba) y por eso lleva tilde?", "options": ["café", "casa", "árbol"], "answerIndex": 0, "explanation": "Café termina en vocal pero la fuerza cae en la última sílaba: necesita tilde."},
+            {"id": "a1w1g", "prompt": "¿Cuál de estas palabras NO necesita tilde?", "options": ["ciudad", "música", "café"], "answerIndex": 0, "explanation": "Ciudad termina en consonante y sigue la regla general, sin excepción."},
+         ]},
+        {"id": "a1w1-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w1h", "statement": "Todas las vocales del español suenan siempre igual, sin reducirse.", "answer": True, "explanation": "El español no tiene sonidos vocálicos reducidos ni silenciosos."},
+            {"id": "a1w1i", "statement": "La ñ representa el mismo sonido que la n.", "answer": False, "explanation": "La ñ representa un sonido único, distinto de la n simple."},
+            {"id": "a1w1j", "statement": "Una palabra llana que termina en consonante distinta de n/s necesita tilde.", "answer": True, "explanation": "Rompe la regla general (que espera la fuerza en la última sílaba), así que necesita tilde."},
+            {"id": "a1w1k", "statement": "\"Tú\" y \"tu\" se distinguen únicamente por la tilde.", "answer": True, "explanation": "La tilde distingue el pronombre tú del posesivo tu."},
+         ]},
+    ],
+    "a1-genero-y-numero-de-los-sustantivos": [
+        {"id": "a1w2-fill", "type": "fill-blank", "title": "Completa sobre Género y Número",
+         "items": [
+            {"id": "a1w2a", "prompt": "\"Sistema\" es un sustantivo ___ aunque termine en -a.", "answers": [["masculino"]], "explanation": "Sistema viene del griego y es masculino, como problema e idioma.", "options": ["masculino", "femenino"]},
+            {"id": "a1w2b", "prompt": "\"Actitud\", terminada en -tud, es casi siempre ___.", "answers": [["femenina"]], "explanation": "Las terminaciones -dad, -ción, -sión y -tud son casi siempre femeninas.", "options": ["femenina", "masculino"]},
+            {"id": "a1w2c", "prompt": "\"El capital\" se refiere a ___.", "answers": [["dinero"]], "explanation": "El capital (masculino) significa dinero o fondos.", "options": ["dinero", "la ciudad principal"]},
+            {"id": "a1w2d", "prompt": "\"La capital\" se refiere a ___.", "answers": [["la ciudad principal"]], "explanation": "La capital (femenino) significa la ciudad principal de un país.", "options": ["dinero", "la ciudad principal"]},
+            {"id": "a1w2e", "prompt": "vez → plural: ___.", "answers": [["veces"]], "explanation": "Terminación en -z: la z cambia a c antes de -es."},
+         ]},
+        {"id": "a1w2-mc", "type": "multiple-choice", "title": "Más sobre Género y Número",
+         "items": [
+            {"id": "a1w2f", "prompt": "¿Cuál de estos sustantivos es femenino aunque termine en -o?", "options": ["moto", "libro", "gato"], "answerIndex": 0, "explanation": "Moto es femenina, igual que mano y foto."},
+            {"id": "a1w2g", "prompt": "¿Cuál de estos sustantivos es masculino aunque termine en -a?", "options": ["mapa", "mesa", "casa"], "answerIndex": 0, "explanation": "Mapa es masculino, igual que día y planeta."},
+            {"id": "a1w2h", "prompt": "¿Cuál es el plural de \"voz\"?", "options": ["voces", "vozes", "voz"], "answerIndex": 0, "explanation": "Terminación en -z: cambia a -ces en plural."},
+            {"id": "a1w2i", "prompt": "¿Qué terminación es casi siempre femenina?", "options": ["-ción", "-o", "-e"], "answerIndex": 0, "explanation": "Las palabras terminadas en -ción son casi siempre femeninas."},
+         ]},
+        {"id": "a1w2-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w2j", "statement": "\"Foto\" es femenina aunque termina en -o.", "answer": True, "explanation": "Foto (de fotografía) es femenina, una excepción común."},
+            {"id": "a1w2k", "statement": "\"Idioma\" es femenino porque termina en -a.", "answer": False, "explanation": "Idioma es masculino, de origen griego, como sistema y problema."},
+            {"id": "a1w2l", "statement": "El plural de las palabras terminadas en vocal se forma añadiendo -es.", "answer": False, "explanation": "Se añade -s tras vocal; -es se añade tras consonante."},
+            {"id": "a1w2m", "statement": "\"Planeta\" es masculino aunque termina en -a.", "answer": True, "explanation": "Planeta, de origen griego, es masculino."},
+         ]},
+    ],
+    "a1-articulos-definidos-e-indefinidos": [
+        {"id": "a1w3-fill", "type": "fill-blank", "title": "Completa con el Artículo",
+         "items": [
+            {"id": "a1w3a", "prompt": "___ águilas vuelan muy alto.", "answers": [["Las"]], "explanation": "En plural, águilas usa el artículo femenino normal: las.", "options": ["Las", "Los", "Unas"]},
+            {"id": "a1w3b", "prompt": "Necesito ___ agua fría para el viaje.", "answers": [["un"]], "explanation": "Agua empieza con a tónica, así que el indefinido singular es un, aunque sea femenina.", "options": ["un", "una", "unos"]},
+         ]},
+        {"id": "a1w3-mc", "type": "multiple-choice", "title": "Más sobre Artículos",
+         "items": [
+            {"id": "a1w3c", "prompt": "¿Qué artículo indefinido corresponde a \"amigas\"?", "options": ["unos", "unas", "una"], "answerIndex": 1, "explanation": "Amigas es femenino plural: unas."},
+            {"id": "a1w3d", "prompt": "¿Cuál es el artículo definido plural de \"flor\"?", "options": ["las", "los", "la"], "answerIndex": 0, "explanation": "Flor es femenina: el plural definido es las."},
+         ]},
+        {"id": "a1w3-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w3e", "statement": "El artículo definido se usa para algo específico o conocido.", "answer": True, "explanation": "El artículo definido marca algo ya identificado."},
+            {"id": "a1w3f", "statement": "\"Unas\" es el artículo indefinido femenino singular.", "answer": False, "explanation": "Unas es plural; una es el indefinido femenino singular."},
+         ]},
+    ],
+    "a1-ser-y-estar-introduccion": [
+        {"id": "a1w4-fill", "type": "fill-blank", "title": "Completa con Ser o Estar",
+         "items": [
+            {"id": "a1w4a", "prompt": "Vosotros ___ (ser) muy simpáticos.", "answers": [["sois"]], "explanation": "Vosotros + ser = sois.", "options": ["sois", "estáis", "son"]},
+            {"id": "a1w4b", "prompt": "Ellos ___ (estar) en el cine ahora.", "answers": [["están"]], "explanation": "Ubicación: se usa estar.", "options": ["están", "son", "estás"]},
+            {"id": "a1w4c", "prompt": "Yo ___ (estar) nervioso antes del examen.", "answers": [["estoy"]], "explanation": "Estado temporal: se usa estar.", "options": ["estoy", "soy", "está"]},
+         ]},
+        {"id": "a1w4-mc", "type": "multiple-choice", "title": "Más sobre Ser y Estar",
+         "items": [
+            {"id": "a1w4d", "prompt": "¿Qué expresa \"la puerta está abierta\"?", "options": ["resultado de un cambio", "identidad", "origen"], "answerIndex": 0, "explanation": "Estar expresa el resultado de un cambio de estado."},
+            {"id": "a1w4e", "prompt": "¿Cómo se pregunta la fecha de hoy?", "options": ["¿Qué fecha es hoy?", "¿Qué fecha está hoy?", "¿Qué fecha tiene hoy?"], "answerIndex": 0, "explanation": "La fecha, como la hora, siempre se expresa con ser."},
+            {"id": "a1w4f", "prompt": "¿Qué verbo se usa junto al gerundio para una acción en progreso?", "options": ["estar", "ser", "tener"], "answerIndex": 0, "explanation": "Estar + gerundio expresa una acción en curso."},
+         ]},
+        {"id": "a1w4-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w4g", "statement": "Ser y estar son intercambiables sin cambio de significado.", "answer": False, "explanation": "Cada uno tiene usos propios; algunos adjetivos cambian de significado según cuál se use."},
+            {"id": "a1w4h", "statement": "\"Es profesor\" describe una identidad o profesión.", "answer": True, "explanation": "La profesión se expresa con ser."},
+            {"id": "a1w4i", "statement": "\"Está listo\" significa que la persona es inteligente.", "answer": False, "explanation": "Está listo significa que está preparado en este momento; ser listo significa ser inteligente."},
+         ]},
+    ],
+    "a1-pronombres-personales-de-sujeto": [
+        {"id": "a1w5-fill", "type": "fill-blank", "title": "Completa con el Pronombre",
+         "items": [
+            {"id": "a1w5a", "prompt": "___ hablás muy bien español, según me dicen. (forma usada en Argentina)", "answers": [["Vos"]], "explanation": "Vos es la forma equivalente a tú en Argentina y Uruguay.", "options": ["Vos", "Tú", "Usted"]},
+            {"id": "a1w5b", "prompt": "¿___ vienen a la fiesta el sábado? (plural, general en América Latina)", "answers": [["Ustedes"]], "explanation": "Ustedes se usa para el plural, formal e informal, en la mayoría de América Latina.", "options": ["Ustedes", "Vosotros", "Ellos"]},
+            {"id": "a1w5c", "prompt": "___ trabajo por las tardes, tú estudias por las mañanas. (contraste)", "answers": [["Yo"]], "explanation": "El pronombre se mantiene para marcar el contraste entre dos sujetos.", "options": ["Yo", "Tú", "Él"]},
+            {"id": "a1w5d", "prompt": "Con un amigo cercano, usas el pronombre ___.", "answers": [["tú"]], "explanation": "Tú es la forma informal para amigos, familia y compañeros.", "options": ["tú", "usted", "vosotros"]},
+         ]},
+        {"id": "a1w5-mc", "type": "multiple-choice", "title": "Más sobre Pronombres",
+         "items": [
+            {"id": "a1w5e", "prompt": "¿Qué pronombre se usa en Argentina en vez de tú?", "options": ["vos", "usted", "vosotros"], "answerIndex": 0, "explanation": "El voseo es característico de Argentina y Uruguay."},
+            {"id": "a1w5f", "prompt": "¿Qué pronombre es formal en singular?", "options": ["usted", "tú", "vos"], "answerIndex": 0, "explanation": "Usted es la forma formal de segunda persona singular."},
+            {"id": "a1w5g", "prompt": "En España, ¿qué pronombre se usa para el plural formal?", "options": ["ustedes", "vosotros", "ellos"], "answerIndex": 0, "explanation": "En España, vosotros es informal y ustedes es formal en el plural."},
+            {"id": "a1w5h", "prompt": "¿Por qué se omite el pronombre de sujeto en español?", "options": ["porque la terminación verbal ya lo indica", "porque es incorrecto usarlo", "porque no existen pronombres"], "answerIndex": 0, "explanation": "La terminación verbal ya identifica al sujeto."},
+         ]},
+        {"id": "a1w5-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w5i", "statement": "El pronombre de sujeto es obligatorio en toda frase española.", "answer": False, "explanation": "El español permite omitir el sujeto porque el verbo ya lo indica."},
+            {"id": "a1w5j", "statement": "Vos tiene formas verbales propias, distintas de tú.", "answer": True, "explanation": "Vos hablás, no vos hablas."},
+            {"id": "a1w5k", "statement": "Ustedes se usa en España solo para el plural formal.", "answer": True, "explanation": "En España, vosotros cubre el plural informal."},
+         ]},
+    ],
+    "a1-presente-verbos-regulares": [
+        {"id": "a1w6-fill", "type": "fill-blank", "title": "Conjuga Más Verbos",
+         "items": [
+            {"id": "a1w6a", "prompt": "Yo ___ (leer) el periódico cada mañana.", "answers": [["leo"]], "explanation": "Yo + verbo en -er = terminación -o.", "options": ["leo", "lees", "lee"]},
+            {"id": "a1w6b", "prompt": "Vosotros ___ (comer) juntos los domingos.", "answers": [["coméis"]], "explanation": "Vosotros + verbo en -er = terminación -éis.", "options": ["coméis", "comen", "comemos"]},
+            {"id": "a1w6c", "prompt": "Ella ___ (abrir) la tienda a las nueve.", "answers": [["abre"]], "explanation": "Él/ella + verbo en -ir = terminación -e.", "options": ["abre", "abro", "abres"]},
+            {"id": "a1w6d", "prompt": "Nosotros ___ (estudiar) para el examen.", "answers": [["estudiamos"]], "explanation": "Nosotros + verbo en -ar = terminación -amos.", "options": ["estudiamos", "estudian", "estudiáis"]},
+         ]},
+        {"id": "a1w6-mc", "type": "multiple-choice", "title": "Más sobre el Presente Regular",
+         "items": [
+            {"id": "a1w6e", "prompt": "¿Cuál es la forma de \"ellos\" del verbo \"aprender\"?", "options": ["aprenden", "aprende", "aprendemos"], "answerIndex": 0, "explanation": "Ellos + verbo en -er = terminación -en."},
+            {"id": "a1w6f", "prompt": "¿Qué terminación comparten -er e -ir en la forma de \"tú\"?", "options": ["-es", "-as", "-e"], "answerIndex": 0, "explanation": "Tú + -er/-ir = terminación -es en ambos casos."},
+            {"id": "a1w6g", "prompt": "¿Cuál es la forma de \"yo\" del verbo \"escribir\"?", "options": ["escribo", "escribes", "escribe"], "answerIndex": 0, "explanation": "Yo + verbo en -ir = terminación -o."},
+            {"id": "a1w6h", "prompt": "¿Para qué se usa el presente, además de para hábitos?", "options": ["planes cercanos en el futuro", "solo el pasado", "solo el futuro lejano"], "answerIndex": 0, "explanation": "El presente cubre también planes cercanos: mañana viajo a Lima."},
+         ]},
+        {"id": "a1w6-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w6i", "statement": "Las tres conjugaciones (-ar,-er,-ir) comparten la misma terminación en \"yo\": -o.", "answer": True, "explanation": "Yo siempre termina en -o en el presente regular."},
+            {"id": "a1w6j", "statement": "Nosotros y vosotros son las únicas formas donde -er e -ir difieren.", "answer": True, "explanation": "El resto de formas de -er e -ir son idénticas."},
+            {"id": "a1w6k", "statement": "El presente de indicativo solo se usa para hechos generales, nunca para acciones en curso.", "answer": False, "explanation": "El presente también cubre acciones en curso, como en otras lenguas se haría con el gerundio."},
+            {"id": "a1w6l", "statement": "\"Trabajo\" puede significar tanto \"trabajo en general\" como \"estoy trabajando ahora\".", "answer": True, "explanation": "El presente español cubre ambos sentidos."},
+         ]},
+    ],
+    "a1-presente-verbos-irregulares-comunes": [
+        {"id": "a1w7-fill", "type": "fill-blank", "title": "Completa con el Verbo Irregular",
+         "items": [
+            {"id": "a1w7a", "prompt": "Ellas ___ (tener) mucho sueño.", "answers": [["tienen"]], "explanation": "Ellas + tener = tienen.", "options": ["tienen", "tiene", "tenemos"]},
+            {"id": "a1w7b", "prompt": "¿___ (venir, tú) a la fiesta?", "answers": [["Vienes"]], "explanation": "Tú + venir = vienes.", "options": ["Vienes", "Viene", "Vengo"]},
+         ]},
+        {"id": "a1w7-mc", "type": "multiple-choice", "title": "Más sobre Verbos Irregulares",
+         "items": [
+            {"id": "a1w7c", "prompt": "¿Qué expresión fija usa siempre tener?", "options": ["tener razón", "ser razón", "estar razón"], "answerIndex": 0, "explanation": "Tener razón es una expresión fija con tener."},
+            {"id": "a1w7d", "prompt": "¿Cuál es la forma de \"nosotros\" del verbo \"hacer\"?", "options": ["hacemos", "hago", "hacen"], "answerIndex": 0, "explanation": "Nosotros + hacer = hacemos, forma regular."},
+         ]},
+        {"id": "a1w7-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w7e", "statement": "\"Ir a\" + infinitivo expresa un plan cercano.", "answer": True, "explanation": "Voy a estudiar esta tarde expresa un plan cercano."},
+            {"id": "a1w7f", "statement": "El verbo \"tener\" es completamente regular.", "answer": False, "explanation": "Tener cambia su forma de yo (tengo) de manera irregular."},
+         ]},
+    ],
+    "a1-adjetivos-y-concordancia": [
+        {"id": "a1w8-fill", "type": "fill-blank", "title": "Completa la Concordancia",
+         "items": [
+            {"id": "a1w8a", "prompt": "Las flores son muy bonit___.", "answers": [["as"]], "explanation": "Bonitas concuerda con flores, femenino plural.", "options": ["as", "os", "es"]},
+            {"id": "a1w8b", "prompt": "Es un ___ (malo) día.", "answers": [["mal"]], "explanation": "Malo pierde la -o final antes de un sustantivo masculino singular.", "options": ["mal", "malo", "mala"]},
+            {"id": "a1w8c", "prompt": "El examen fue muy difícil, pero no imposibl___.", "answers": [["e"]], "explanation": "Imposible es un adjetivo en -e: la misma forma para ambos géneros.", "options": ["e", "a", "o"]},
+         ]},
+        {"id": "a1w8-mc", "type": "multiple-choice", "title": "Más sobre Adjetivos",
+         "items": [
+            {"id": "a1w8d", "prompt": "¿Qué adjetivo pierde la -o antes de un sustantivo masculino singular?", "options": ["bueno", "grande", "alto"], "answerIndex": 0, "explanation": "Bueno se convierte en buen antes de un sustantivo masculino singular."},
+            {"id": "a1w8e", "prompt": "¿Cuál es el plural femenino de \"trabajador\"?", "options": ["trabajadoras", "trabajadors", "trabajador"], "answerIndex": 0, "explanation": "Trabajador añade -a para el femenino y -s para el plural: trabajadoras."},
+         ]},
+        {"id": "a1w8-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w8f", "statement": "\"Un gran hombre\" y \"un hombre grande\" significan exactamente lo mismo.", "answer": False, "explanation": "Gran (antes) sugiere importancia; grande (después) sugiere tamaño físico."},
+            {"id": "a1w8g", "statement": "Los adjetivos en -e tienen la misma forma para masculino y femenino.", "answer": True, "explanation": "Solo cambian entre singular y plural, no entre géneros."},
+         ]},
+    ],
+    "a1-posesivos": [
+        {"id": "a1w9-fill", "type": "fill-blank", "title": "Completa con el Posesivo",
+         "items": [
+            {"id": "a1w9a", "prompt": "___ hermanas viven en Chile. (ellos)", "answers": [["Sus"]], "explanation": "Hermanas es plural, así que su/sus concuerda en plural: sus.", "options": ["Sus", "Su", "Sus de"]},
+         ]},
+        {"id": "a1w9-mc", "type": "multiple-choice", "title": "Más sobre Posesivos",
+         "items": [
+            {"id": "a1w9b", "prompt": "¿Cuál es la forma correcta de \"nuestro\" con \"amigas\"?", "options": ["nuestras", "nuestro", "nuestros"], "answerIndex": 0, "explanation": "Amigas es femenino plural: nuestras."},
+         ]},
+        {"id": "a1w9-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w9c", "statement": "\"Su\" puede referirse a él, ella, usted, ellos, ellas o ustedes.", "answer": True, "explanation": "Su/sus es ambiguo respecto al poseedor; el contexto aclara a quién se refiere."},
+         ]},
+    ],
+    "a1-demostrativos": [
+        {"id": "a1w10-fill", "type": "fill-blank", "title": "Completa con el Demostrativo",
+         "items": [
+            {"id": "a1w10a", "prompt": "___ fue hace mucho tiempo. (forma neutra)", "answers": [["Aquello"]], "explanation": "Aquello es la forma neutra para algo lejano en el tiempo, sin sustantivo específico.", "options": ["Aquello", "Aquella", "Aquellos"]},
+         ]},
+        {"id": "a1w10-mc", "type": "multiple-choice", "title": "Más sobre Demostrativos",
+         "items": [
+            {"id": "a1w10b", "prompt": "¿Cuál es la forma masculina plural de \"este\"?", "options": ["estos", "estas", "esta"], "answerIndex": 0, "explanation": "Estos es el masculino plural de este."},
+            {"id": "a1w10c", "prompt": "¿Qué forma usarías para algo cerca del oyente?", "options": ["ese", "este", "aquel"], "answerIndex": 0, "explanation": "Ese se usa para algo cerca de quien escucha, o a media distancia."},
+         ]},
+        {"id": "a1w10-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w10d", "statement": "Las formas neutras (esto, eso, aquello) concuerdan con un sustantivo específico.", "answer": False, "explanation": "Las formas neutras no concuerdan con ningún sustantivo; se usan para ideas o cosas sin identificar."},
+         ]},
+    ],
+    "a1-hay-y-estar": [
+        {"id": "a1w11-fill", "type": "fill-blank", "title": "Completa con Hay o Estar",
+         "items": [
+            {"id": "a1w11a", "prompt": "___ una farmacia cerca de aquí.", "answers": [["Hay"]], "explanation": "Se anuncia la existencia de algo no específico: hay.", "options": ["Hay", "Está", "Son"]},
+         ]},
+        {"id": "a1w11-mc", "type": "multiple-choice", "title": "Más sobre Hay y Estar",
+         "items": [
+            {"id": "a1w11b", "prompt": "¿Qué forma usarías para preguntar por la ubicación de \"el hospital\"?", "options": ["¿Dónde está el hospital?", "¿Dónde hay el hospital?", "¿Hay el hospital?"], "answerIndex": 0, "explanation": "El hospital ya está identificado con artículo definido, así que se usa estar."},
+         ]},
+        {"id": "a1w11-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w11c", "statement": "Hay cambia de forma según el número del sustantivo.", "answer": False, "explanation": "Hay es siempre invariable, sin importar el número."},
+         ]},
+    ],
+    "a1-preposiciones-simples": [
+        {"id": "a1w12-fill", "type": "fill-blank", "title": "Completa con la Preposición Correcta",
+         "instructions": "Elige la preposición que corresponde al uso indicado.",
+         "items": [
+            {"id": "a1w12a", "prompt": "Estudio ___ aprender más. (propósito)", "answers": [["para"]], "explanation": "Para expresa propósito.", "options": ["para", "por", "con"]},
+            {"id": "a1w12b", "prompt": "Camino ___ el parque cada mañana. (lugar de paso)", "answers": [["por"]], "explanation": "Por expresa lugar de paso.", "options": ["por", "para", "a"]},
+            {"id": "a1w12c", "prompt": "Escribo ___ un lápiz nuevo. (instrumento)", "answers": [["con"]], "explanation": "Con expresa instrumento.", "options": ["con", "de", "en"]},
+            {"id": "a1w12d", "prompt": "Este regalo es ___ mi madre. (destinatario)", "answers": [["para"]], "explanation": "Para expresa destinatario.", "options": ["para", "por", "de"]},
+            {"id": "a1w12e", "prompt": "Gracias ___ tu ayuda. (causa)", "answers": [["por"]], "explanation": "Por expresa causa o motivo.", "options": ["por", "para", "con"]},
+            {"id": "a1w12f", "prompt": "Vivo ___ una ciudad grande. (ubicación)", "answers": [["en"]], "explanation": "En expresa ubicación dentro de un lugar.", "options": ["en", "a", "de"]},
+            {"id": "a1w12g", "prompt": "Voy ___ la playa este verano. (dirección)", "answers": [["a"]], "explanation": "A expresa dirección o destino.", "options": ["a", "en", "de"]},
+            {"id": "a1w12h", "prompt": "Soy ___ Argentina. (origen)", "answers": [["de"]], "explanation": "De expresa origen.", "options": ["de", "a", "en"]},
+            {"id": "a1w12i", "prompt": "El libro es ___ Juan. (posesión)", "answers": [["de"]], "explanation": "De expresa posesión.", "options": ["de", "a", "con"]},
+            {"id": "a1w12j", "prompt": "Trabajo ___ mis compañeros los sábados. (compañía)", "answers": [["con"]], "explanation": "Con expresa compañía.", "options": ["con", "de", "para"]},
+            {"id": "a1w12k", "prompt": "Llego ___ las diez de la noche. (hora)", "answers": [["a"]], "explanation": "A expresa hora exacta.", "options": ["a", "en", "de"]},
+            {"id": "a1w12l", "prompt": "Este regalo es ___ ti, no para él. (destinatario)", "answers": [["para"]], "explanation": "Para expresa destinatario.", "options": ["para", "por", "con"]},
+         ]},
+        {"id": "a1w12-mc", "type": "multiple-choice", "title": "Elige la Preposición",
+         "items": [
+            {"id": "a1w12m", "prompt": "¿Qué preposición expresa material?", "options": ["de", "en", "con"], "answerIndex": 0, "explanation": "Una mesa de madera: de expresa material."},
+            {"id": "a1w12n", "prompt": "¿Qué preposición expresa destino o dirección?", "options": ["a", "en", "de"], "answerIndex": 0, "explanation": "A expresa dirección: voy a la escuela."},
+            {"id": "a1w12o", "prompt": "¿Qué preposición expresa causa o motivo?", "options": ["por", "para", "con"], "answerIndex": 0, "explanation": "Por expresa causa: gracias por tu ayuda."},
+            {"id": "a1w12p", "prompt": "¿Qué preposición expresa propósito?", "options": ["para", "por", "de"], "answerIndex": 0, "explanation": "Para expresa propósito: estudio para aprender."},
+            {"id": "a1w12q", "prompt": "¿Qué preposición expresa compañía?", "options": ["con", "sin", "de"], "answerIndex": 0, "explanation": "Con expresa compañía: voy con mis amigos."},
+            {"id": "a1w12r", "prompt": "¿Cuál es correcta para expresar ubicación dentro de una ciudad?", "options": ["Vivo en París.", "Vivo a París.", "Vivo de París."], "answerIndex": 0, "explanation": "La ubicación dentro de un lugar siempre usa en."},
+            {"id": "a1w12s", "prompt": "¿Qué preposición usarías para el objeto indirecto de una persona?", "options": ["a", "de", "por"], "answerIndex": 0, "explanation": "A introduce el objeto indirecto: escribo a mi madre."},
+            {"id": "a1w12t", "prompt": "¿Qué preposición expresa lugar de paso?", "options": ["por", "para", "a"], "answerIndex": 0, "explanation": "Por expresa lugar de paso: camino por el parque."},
+            {"id": "a1w12u", "prompt": "¿Cuál es correcta: \"Hablo ___ mi hermano por teléfono\"?", "options": ["con", "de", "a"], "answerIndex": 0, "explanation": "Con expresa con quién se habla."},
+            {"id": "a1w12v", "prompt": "¿Qué preposición usarías para \"el coche ___ mi padre\" (posesión)?", "options": ["de", "a", "en"], "answerIndex": 0, "explanation": "De expresa posesión."},
+            {"id": "a1w12w", "prompt": "¿Qué preposición expresa hora exacta?", "options": ["a", "en", "de"], "answerIndex": 0, "explanation": "A expresa la hora: llego a las ocho."},
+            {"id": "a1w12x", "prompt": "¿Cuál es la preposición correcta para \"depende ___ ti\"?", "options": ["de", "en", "a"], "answerIndex": 0, "explanation": "Depender siempre se construye con de."},
+         ]},
+        {"id": "a1w12-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w12y", "statement": "\"En\" se usa para ubicación dentro de un lugar.", "answer": True, "explanation": "En expresa ubicación: vivo en Madrid."},
+            {"id": "a1w12z", "statement": "\"Por\" y \"para\" son intercambiables sin ningún cambio de significado.", "answer": False, "explanation": "Por y para tienen usos distintos: causa/medio frente a destinatario/propósito."},
+            {"id": "a1w12aa", "statement": "\"De\" puede expresar tanto origen como posesión.", "answer": True, "explanation": "Soy de Perú (origen); el libro de Ana (posesión)."},
+            {"id": "a1w12bb", "statement": "\"Con\" expresa compañía o instrumento.", "answer": True, "explanation": "Voy con mis amigos (compañía); escribo con un lápiz (instrumento)."},
+            {"id": "a1w12cc", "statement": "\"A\" nunca se usa para expresar hora.", "answer": False, "explanation": "A sí se usa para la hora: llego a las ocho."},
+            {"id": "a1w12dd", "statement": "\"Para ti\" expresa el destinatario de algo.", "answer": True, "explanation": "Para introduce al destinatario."},
+            {"id": "a1w12ee", "statement": "\"Por el parque\" expresa lugar de paso.", "answer": True, "explanation": "Por indica el lugar por donde se pasa."},
+            {"id": "a1w12ff", "statement": "El origen de una persona se expresa con \"a\", no con \"de\".", "answer": False, "explanation": "El origen se expresa con de, no con a."},
+            {"id": "a1w12gg", "statement": "\"Trabajo en un hospital\" usa \"en\" para ubicación dentro de un lugar.", "answer": True, "explanation": "En expresa ubicación dentro de un lugar."},
+            {"id": "a1w12hh", "statement": "\"Voy a la escuela\" expresa dirección o destino.", "answer": True, "explanation": "A expresa el destino del movimiento."},
+            {"id": "a1w12ii", "statement": "\"Gracias por tu ayuda\" usa \"por\" para expresar causa.", "answer": True, "explanation": "Por expresa la causa del agradecimiento."},
+            {"id": "a1w12jj", "statement": "\"Con\" y \"para\" tienen el mismo significado.", "answer": False, "explanation": "Con expresa compañía/instrumento; para expresa destinatario/propósito."},
+         ]},
+    ],
+    "a1-interrogativos-y-preguntas": [
+        {"id": "a1w13-fill", "type": "fill-blank", "title": "Completa con el Interrogativo",
+         "items": [
+            {"id": "a1w13a", "prompt": "¿___ es tu color favorito?", "answers": [["Qué"]], "explanation": "Qué pregunta por una cosa.", "options": ["Qué", "Quién", "Cuándo"]},
+            {"id": "a1w13b", "prompt": "¿___ personas hay en la reunión?", "answers": [["Cuántas"]], "explanation": "Personas es femenino plural, así que se usa cuántas.", "options": ["Cuántas", "Cuántos", "Cuánto"]},
+         ]},
+        {"id": "a1w13-mc", "type": "multiple-choice", "title": "Más sobre Interrogativos",
+         "items": [
+            {"id": "a1w13c", "prompt": "¿Qué interrogativo pregunta por la persona responsable?", "options": ["Quién", "Qué", "Cómo"], "answerIndex": 0, "explanation": "Quién pregunta por la persona."},
+            {"id": "a1w13d", "prompt": "¿Cómo se escribe correctamente \"por qué\" como pregunta de causa?", "options": ["en dos palabras, con tilde en qué", "junto, sin tilde", "en dos palabras, sin tilde"], "answerIndex": 0, "explanation": "Por qué se escribe en dos palabras y con tilde en qué."},
+         ]},
+        {"id": "a1w13-tf", "type": "true-false", "title": "Verdadero o Falso",
+         "items": [
+            {"id": "a1w13e", "statement": "Los interrogativos siempre llevan dos signos de interrogación en la frase.", "answer": True, "explanation": "El español siempre usa ¿ al inicio y ? al final de la pregunta."},
+            {"id": "a1w13f", "statement": "\"Cuánto\" nunca cambia de forma según el sustantivo.", "answer": False, "explanation": "Cuánto concuerda en género y número: cuánto, cuánta, cuántos, cuántas."},
+         ]},
+    ],
+}
+
+for _lesson in LESSONS:
+    _lesson["exercises"].extend(EXTRA_EXERCISES_4.get(_lesson["id"], []))

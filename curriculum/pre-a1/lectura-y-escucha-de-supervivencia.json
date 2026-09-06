@@ -308,6 +308,76 @@
           "explanation": "Guardado para tu propio repaso — compara con: «Disculpe, ¿dónde está el baño?»"
         }
       ]
+    },
+    {
+      "id": "pa8z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa8zm1",
+          "prompt": "Relaciona la pregunta con su respuesta lógica.",
+          "pairs": [
+            {
+              "left": "¿Dónde está el baño?",
+              "right": "Al fondo a la derecha."
+            },
+            {
+              "left": "¿Cuánto cuesta?",
+              "right": "Son cinco euros."
+            },
+            {
+              "left": "¿Cómo te llamas?",
+              "right": "Me llamo Ana."
+            },
+            {
+              "left": "¿Hablas inglés?",
+              "right": "Un poco."
+            }
+          ],
+          "explanation": "Cada pregunta de supervivencia tiene una respuesta natural típica."
+        }
+      ]
+    },
+    {
+      "id": "pa8z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa8zv1",
+          "prompt": "¿Qué dices para pedir ayuda con cortesía?",
+          "options": [
+            "Disculpe",
+            "Adiós",
+            "Gracias"
+          ],
+          "answerIndex": 0,
+          "explanation": "Disculpe es una forma cortés de llamar la atención de alguien."
+        },
+        {
+          "id": "pa8zv2",
+          "prompt": "¿Qué significa \"perdido/a\"?",
+          "options": [
+            "Que no sabe dónde está",
+            "Que tiene hambre",
+            "Que está feliz"
+          ],
+          "answerIndex": 0,
+          "explanation": "Estar perdido significa no saber dónde estás o cómo llegar a un lugar."
+        },
+        {
+          "id": "pa8zv3",
+          "prompt": "¿Qué palabra usarías para pedir el precio?",
+          "options": [
+            "¿Cuánto?",
+            "¿Cuándo?",
+            "¿Dónde?"
+          ],
+          "answerIndex": 0,
+          "explanation": "¿Cuánto cuesta? se usa para preguntar el precio."
+        }
+      ]
     }
   ],
   "summary": [

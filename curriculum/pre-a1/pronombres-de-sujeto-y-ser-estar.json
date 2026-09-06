@@ -367,6 +367,76 @@
           "explanation": "Guardado para tu propio repaso — estoy + adjetivo describe un estado temporal."
         }
       ]
+    },
+    {
+      "id": "pa7z-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "pa7zm1",
+          "prompt": "Relaciona el pronombre con su forma de ser.",
+          "pairs": [
+            {
+              "left": "yo",
+              "right": "soy"
+            },
+            {
+              "left": "tú",
+              "right": "eres"
+            },
+            {
+              "left": "nosotros",
+              "right": "somos"
+            },
+            {
+              "left": "ellos",
+              "right": "son"
+            }
+          ],
+          "explanation": "Cada pronombre tiene su propia forma del verbo ser en presente."
+        }
+      ]
+    },
+    {
+      "id": "pa7z-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "pa7zv1",
+          "prompt": "¿Qué pronombre usarías para hablar de ti mismo?",
+          "options": [
+            "Tú",
+            "Yo",
+            "Él"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yo es el pronombre de primera persona singular."
+        },
+        {
+          "id": "pa7zv2",
+          "prompt": "¿Qué pronombre corresponde a un grupo que incluye al hablante?",
+          "options": [
+            "Nosotros",
+            "Ellos",
+            "Ustedes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nosotros incluye al hablante dentro de un grupo."
+        },
+        {
+          "id": "pa7zv3",
+          "prompt": "¿Qué forma de estar corresponde a \"yo\"?",
+          "options": [
+            "Estás",
+            "Estoy",
+            "Está"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yo + estar = estoy."
+        }
+      ]
     }
   ],
   "summary": [

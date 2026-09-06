@@ -283,6 +283,140 @@
           "explanation": "Guardado para tu propio repaso — aquel/aquella se usa para algo lejos de ambos interlocutores."
         }
       ]
+    },
+    {
+      "id": "a1z10-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z10m1",
+          "prompt": "Relaciona el demostrativo con su distancia.",
+          "pairs": [
+            {
+              "left": "este",
+              "right": "cerca de mí"
+            },
+            {
+              "left": "ese",
+              "right": "cerca de ti"
+            },
+            {
+              "left": "aquel",
+              "right": "lejos de ambos"
+            },
+            {
+              "left": "esta",
+              "right": "cerca de mí (femenino)"
+            }
+          ],
+          "explanation": "Los demostrativos indican distancia respecto al hablante y al oyente."
+        }
+      ]
+    },
+    {
+      "id": "a1z10-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z10v1",
+          "prompt": "¿Qué demostrativo usarías para algo muy lejos?",
+          "options": [
+            "Este",
+            "Ese",
+            "Aquel"
+          ],
+          "answerIndex": 2,
+          "explanation": "Aquel se usa para algo lejos de ambos interlocutores."
+        },
+        {
+          "id": "a1z10v2",
+          "prompt": "¿Cuál es la forma femenina plural de \"ese\"?",
+          "options": [
+            "esas",
+            "esos",
+            "esta"
+          ],
+          "answerIndex": 0,
+          "explanation": "El plural femenino de ese es esas."
+        },
+        {
+          "id": "a1z10v3",
+          "prompt": "¿Qué demostrativo usarías para algo que tienes en la mano?",
+          "options": [
+            "Aquel",
+            "Este",
+            "Ese"
+          ],
+          "answerIndex": 1,
+          "explanation": "Este se usa para algo cerca del hablante."
+        }
+      ]
+    },
+    {
+      "id": "a1w10-fill",
+      "type": "fill-blank",
+      "title": "Completa con el Demostrativo",
+      "items": [
+        {
+          "id": "a1w10a",
+          "prompt": "___ fue hace mucho tiempo. (forma neutra)",
+          "answers": [
+            [
+              "Aquello"
+            ]
+          ],
+          "explanation": "Aquello es la forma neutra para algo lejano en el tiempo, sin sustantivo específico.",
+          "options": [
+            "Aquello",
+            "Aquella",
+            "Aquellos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w10-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Demostrativos",
+      "items": [
+        {
+          "id": "a1w10b",
+          "prompt": "¿Cuál es la forma masculina plural de \"este\"?",
+          "options": [
+            "estos",
+            "estas",
+            "esta"
+          ],
+          "answerIndex": 0,
+          "explanation": "Estos es el masculino plural de este."
+        },
+        {
+          "id": "a1w10c",
+          "prompt": "¿Qué forma usarías para algo cerca del oyente?",
+          "options": [
+            "ese",
+            "este",
+            "aquel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ese se usa para algo cerca de quien escucha, o a media distancia."
+        }
+      ]
+    },
+    {
+      "id": "a1w10-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w10d",
+          "statement": "Las formas neutras (esto, eso, aquello) concuerdan con un sustantivo específico.",
+          "answer": false,
+          "explanation": "Las formas neutras no concuerdan con ningún sustantivo; se usan para ideas o cosas sin identificar."
+        }
+      ]
     }
   ],
   "summary": [

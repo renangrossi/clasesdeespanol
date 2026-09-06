@@ -297,6 +297,193 @@
           "explanation": "Guardado para tu propio repaso — ser + profesión/origen describe una identidad."
         }
       ]
+    },
+    {
+      "id": "a1z4-match",
+      "type": "matching",
+      "title": "Relaciona",
+      "items": [
+        {
+          "id": "a1z4m1",
+          "prompt": "Relaciona el uso con el verbo correspondiente.",
+          "pairs": [
+            {
+              "left": "profesión",
+              "right": "ser"
+            },
+            {
+              "left": "ubicación",
+              "right": "estar"
+            },
+            {
+              "left": "origen",
+              "right": "ser"
+            },
+            {
+              "left": "estado temporal",
+              "right": "estar"
+            }
+          ],
+          "explanation": "Ser describe identidad; estar describe ubicación y estados temporales."
+        }
+      ]
+    },
+    {
+      "id": "a1z4-vocab",
+      "type": "vocabulary",
+      "title": "Vocabulario",
+      "items": [
+        {
+          "id": "a1z4v1",
+          "prompt": "¿Qué verbo usarías para decir de dónde eres?",
+          "options": [
+            "Ser",
+            "Estar",
+            "Tener"
+          ],
+          "answerIndex": 0,
+          "explanation": "El origen se expresa con ser: soy de México."
+        },
+        {
+          "id": "a1z4v2",
+          "prompt": "¿Qué verbo usarías para decir dónde está algo?",
+          "options": [
+            "Ser",
+            "Estar",
+            "Ir"
+          ],
+          "answerIndex": 1,
+          "explanation": "La ubicación siempre usa estar."
+        },
+        {
+          "id": "a1z4v3",
+          "prompt": "¿Qué significa \"estoy cansado\"?",
+          "options": [
+            "Soy una persona cansada siempre",
+            "Me siento cansado ahora",
+            "No estoy nunca cansado"
+          ],
+          "answerIndex": 1,
+          "explanation": "Estar + adjetivo describe un estado temporal presente."
+        }
+      ]
+    },
+    {
+      "id": "a1w4-fill",
+      "type": "fill-blank",
+      "title": "Completa con Ser o Estar",
+      "items": [
+        {
+          "id": "a1w4a",
+          "prompt": "Vosotros ___ (ser) muy simpáticos.",
+          "answers": [
+            [
+              "sois"
+            ]
+          ],
+          "explanation": "Vosotros + ser = sois.",
+          "options": [
+            "sois",
+            "estáis",
+            "son"
+          ]
+        },
+        {
+          "id": "a1w4b",
+          "prompt": "Ellos ___ (estar) en el cine ahora.",
+          "answers": [
+            [
+              "están"
+            ]
+          ],
+          "explanation": "Ubicación: se usa estar.",
+          "options": [
+            "están",
+            "son",
+            "estás"
+          ]
+        },
+        {
+          "id": "a1w4c",
+          "prompt": "Yo ___ (estar) nervioso antes del examen.",
+          "answers": [
+            [
+              "estoy"
+            ]
+          ],
+          "explanation": "Estado temporal: se usa estar.",
+          "options": [
+            "estoy",
+            "soy",
+            "está"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1w4-mc",
+      "type": "multiple-choice",
+      "title": "Más sobre Ser y Estar",
+      "items": [
+        {
+          "id": "a1w4d",
+          "prompt": "¿Qué expresa \"la puerta está abierta\"?",
+          "options": [
+            "resultado de un cambio",
+            "identidad",
+            "origen"
+          ],
+          "answerIndex": 0,
+          "explanation": "Estar expresa el resultado de un cambio de estado."
+        },
+        {
+          "id": "a1w4e",
+          "prompt": "¿Cómo se pregunta la fecha de hoy?",
+          "options": [
+            "¿Qué fecha es hoy?",
+            "¿Qué fecha está hoy?",
+            "¿Qué fecha tiene hoy?"
+          ],
+          "answerIndex": 0,
+          "explanation": "La fecha, como la hora, siempre se expresa con ser."
+        },
+        {
+          "id": "a1w4f",
+          "prompt": "¿Qué verbo se usa junto al gerundio para una acción en progreso?",
+          "options": [
+            "estar",
+            "ser",
+            "tener"
+          ],
+          "answerIndex": 0,
+          "explanation": "Estar + gerundio expresa una acción en curso."
+        }
+      ]
+    },
+    {
+      "id": "a1w4-tf",
+      "type": "true-false",
+      "title": "Verdadero o Falso",
+      "items": [
+        {
+          "id": "a1w4g",
+          "statement": "Ser y estar son intercambiables sin cambio de significado.",
+          "answer": false,
+          "explanation": "Cada uno tiene usos propios; algunos adjetivos cambian de significado según cuál se use."
+        },
+        {
+          "id": "a1w4h",
+          "statement": "\"Es profesor\" describe una identidad o profesión.",
+          "answer": true,
+          "explanation": "La profesión se expresa con ser."
+        },
+        {
+          "id": "a1w4i",
+          "statement": "\"Está listo\" significa que la persona es inteligente.",
+          "answer": false,
+          "explanation": "Está listo significa que está preparado en este momento; ser listo significa ser inteligente."
+        }
+      ]
     }
   ],
   "summary": [
