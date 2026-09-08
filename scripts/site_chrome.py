@@ -42,9 +42,13 @@ STARS_ROW_GOLD = f'<div class="stars-row stars-row--gold" aria-hidden="true">{ST
 CHECK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>'
 ARROW_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>'
 
-# Endpoint del Worker del Profesor de IA. Placeholder hasta que despliegues
-# tu propio Worker (ver worker/README.md) — actualiza esta URL y reconstruye.
-AI_TEACHER_WORKER_URL = "https://ai-teacher.clasesdeespanol.workers.dev"
+# Endpoint del Worker del Profesor de IA. worker/wrangler.toml nombra el
+# Worker "ai-teacher-es"; si lo despliegas en la misma cuenta de Cloudflare
+# que los cursos de inglés/latín/griego (subdominio "englishclasses"), la
+# URL de abajo ya es la correcta. Si usas una cuenta o subdominio distinto,
+# reemplázala por la URL real que imprime `wrangler deploy` (ver
+# worker/README.md, paso 6) y reconstruye.
+AI_TEACHER_WORKER_URL = "https://ai-teacher-es.englishclasses.workers.dev"
 
 # El botón/panel del Profesor de IA solo se genera si esto es True. El
 # Worker todavía no está desplegado (AI_TEACHER_WORKER_URL es un

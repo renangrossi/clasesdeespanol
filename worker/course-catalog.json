@@ -1,0 +1,599 @@
+{
+  "levels": [
+    {
+      "code": "Pre-A1",
+      "name": "Supervivencia",
+      "url": "levels/pre-a1.html"
+    },
+    {
+      "code": "A1",
+      "name": "Principiante",
+      "url": "levels/a1.html"
+    },
+    {
+      "code": "A2",
+      "name": "Elemental",
+      "url": "levels/a2.html"
+    },
+    {
+      "code": "B1",
+      "name": "Intermedio",
+      "url": "levels/b1.html"
+    },
+    {
+      "code": "B2",
+      "name": "Intermedio Alto",
+      "url": "levels/b2.html"
+    },
+    {
+      "code": "C1",
+      "name": "Avanzado",
+      "url": "levels/c1.html"
+    },
+    {
+      "code": "C2",
+      "name": "Maestría",
+      "url": "levels/c2.html"
+    }
+  ],
+  "resources": [
+    {
+      "level": "Pre-A1",
+      "title": "El Alfabeto y los Sonidos",
+      "url": "levels/pre-a1/el-alfabeto-y-los-sonidos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Lectura y Escucha de Supervivencia",
+      "url": "levels/pre-a1/lectura-y-escucha-de-supervivencia.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Números, Hora y Fecha",
+      "url": "levels/pre-a1/numeros-hora-y-fecha.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Personas y Objetos Cotidianos",
+      "url": "levels/pre-a1/personas-y-objetos-cotidianos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Pronombres de Sujeto y un Primer Acercamiento a Ser/Estar",
+      "url": "levels/pre-a1/pronombres-de-sujeto-y-ser-estar.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Saludos y Presentaciones",
+      "url": "levels/pre-a1/saludos-y-presentaciones.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Ponte a Prueba Pre-A1 (repaso completo)",
+      "url": "levels/pre-a1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Verbos Básicos: Ser, Tener, Querer, Gustar",
+      "url": "levels/pre-a1/verbos-basicos-ser-tener-querer-gustar.html",
+      "type": "lesson"
+    },
+    {
+      "level": "Pre-A1",
+      "title": "Vocabulario de Clase y Estudio",
+      "url": "levels/pre-a1/vocabulario-de-clase-y-estudio.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Adjetivos y Concordancia",
+      "url": "levels/a1/adjetivos-y-concordancia.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Artículos Definidos e Indefinidos",
+      "url": "levels/a1/articulos-definidos-e-indefinidos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Demostrativos",
+      "url": "levels/a1/demostrativos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "El Abecedario y la Pronunciación",
+      "url": "levels/a1/el-abecedario-y-la-pronunciacion.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Género y Número de los Sustantivos",
+      "url": "levels/a1/genero-y-numero-de-los-sustantivos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Gustar y Verbos Similares",
+      "url": "levels/a1/gustar-y-verbos-similares.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Hay / Estar (Existencia y Ubicación)",
+      "url": "levels/a1/hay-y-estar.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Interrogativos y Preguntas",
+      "url": "levels/a1/interrogativos-y-preguntas.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Posesivos",
+      "url": "levels/a1/posesivos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Preposiciones Simples",
+      "url": "levels/a1/preposiciones-simples.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Presente — Irregulares Comunes",
+      "url": "levels/a1/presente-verbos-irregulares-comunes.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Presente — Verbos Regulares",
+      "url": "levels/a1/presente-verbos-regulares.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Pronombres Personales de Sujeto",
+      "url": "levels/a1/pronombres-personales-de-sujeto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Ser y Estar (Introducción)",
+      "url": "levels/a1/ser-y-estar-introduccion.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Ponte a Prueba A1 (repaso completo)",
+      "url": "levels/a1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "A2",
+      "title": "Adverbios de Frecuencia y Conectores Básicos",
+      "url": "levels/a2/adverbios-de-frecuencia-y-conectores.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Comparativos y Superlativos",
+      "url": "levels/a2/comparativos-y-superlativos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Futuro Simple e Ir + a + Infinitivo",
+      "url": "levels/a2/futuro-simple-e-ir-a-infinitivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Imperativo Afirmativo (Tú/Usted)",
+      "url": "levels/a2/imperativo-afirmativo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Indefinido vs. Imperfecto",
+      "url": "levels/a2/indefinido-vs-imperfecto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Pretérito Imperfecto",
+      "url": "levels/a2/preterito-imperfecto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Pretérito Indefinido — Verbos Irregulares",
+      "url": "levels/a2/preterito-indefinido-irregulares.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Pretérito Indefinido — Verbos Regulares",
+      "url": "levels/a2/preterito-indefinido-regulares.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Pretérito Perfecto Compuesto",
+      "url": "levels/a2/preterito-perfecto-compuesto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Pronombres de Objeto Directo",
+      "url": "levels/a2/pronombres-de-objeto-directo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Pronombres de Objeto Indirecto",
+      "url": "levels/a2/pronombres-de-objeto-indirecto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Ponte a Prueba A2 (repaso completo)",
+      "url": "levels/a2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "A2",
+      "title": "Verbos con Cambio de Raíz",
+      "url": "levels/a2/verbos-con-cambio-de-raiz.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "El Condicional para Cortesía e Hipótesis",
+      "url": "levels/b1/condicional-cortesia-e-hipotesis.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Conectores y Marcadores del Discurso",
+      "url": "levels/b1/conectores-y-marcadores-del-discurso.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Estilo Indirecto (Presente)",
+      "url": "levels/b1/estilo-indirecto-presente.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Futuro Compuesto y Condicional Simple",
+      "url": "levels/b1/futuro-compuesto-y-condicional-simple.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Imperativo Negativo y Pronombres con el Imperativo",
+      "url": "levels/b1/imperativo-negativo-y-pronombres.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Oraciones Relativas: Que, Quien, Donde",
+      "url": "levels/b1/oraciones-relativas.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Perfecto vs. Indefinido: los Matices",
+      "url": "levels/b1/perfecto-vs-indefinido-matices.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "El Pluscuamperfecto",
+      "url": "levels/b1/pluscuamperfecto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Por y Para",
+      "url": "levels/b1/por-y-para.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Pronombres Combinados",
+      "url": "levels/b1/pronombres-combinados.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "El Presente de Subjuntivo — Deseo, Duda y Emoción",
+      "url": "levels/b1/subjuntivo-deseo-duda-emocion.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "El Presente de Subjuntivo — Formación",
+      "url": "levels/b1/subjuntivo-presente-formacion.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Ponte a Prueba B1 (repaso completo)",
+      "url": "levels/b1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "B1",
+      "title": "El Voseo Argentino y Otras Variedades del Español",
+      "url": "levels/b1/voseo-argentino-y-variedades.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Voz Pasiva con Ser y Pasiva Refleja con Se",
+      "url": "levels/b1/voz-pasiva-y-pasiva-refleja.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Colocaciones y Expresiones Idiomáticas",
+      "url": "levels/b2/colocaciones-y-expresiones-idiomaticas.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Condicionales con Si + Subjuntivo",
+      "url": "levels/b2/condicionales-con-si-subjuntivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Conectores Argumentativos Avanzados",
+      "url": "levels/b2/conectores-argumentativos-avanzados.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Estilo Indirecto en Todos los Tiempos",
+      "url": "levels/b2/estilo-indirecto-todos-los-tiempos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "El Futuro de Subjuntivo (Introducción)",
+      "url": "levels/b2/futuro-de-subjuntivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "El Imperfecto de Subjuntivo",
+      "url": "levels/b2/imperfecto-de-subjuntivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Pasiva Avanzada y Construcciones con Se",
+      "url": "levels/b2/pasiva-avanzada-y-se.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Perífrasis Verbales",
+      "url": "levels/b2/perifrasis-verbales.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Registro Formal e Informal",
+      "url": "levels/b2/registro-formal-e-informal.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Ser y Estar — Usos Avanzados",
+      "url": "levels/b2/ser-y-estar-avanzado.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "El Subjuntivo en Relativas y Adverbiales",
+      "url": "levels/b2/subjuntivo-relativas-y-adverbiales.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Subjuntivo vs. Indicativo en Oraciones Sustantivas",
+      "url": "levels/b2/subjuntivo-vs-indicativo-sustantivas.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Ponte a Prueba B2 (repaso completo)",
+      "url": "levels/b2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "C1",
+      "title": "Condicionales Complejas: los Cuatro Tipos",
+      "url": "levels/c1/condicionales-complejas.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Conectores Textuales Avanzados",
+      "url": "levels/c1/conectores-textuales-avanzados.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Construcciones Enfáticas y de Relieve",
+      "url": "levels/c1/construcciones-enfaticas.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Español para Fines Específicos: Registro Académico y Profesional",
+      "url": "levels/c1/espanol-academico-y-profesional.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Ironía, Atenuación y Cortesía Lingüística",
+      "url": "levels/c1/ironia-atenuacion-y-cortesia.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Matices del Subjuntivo: Percepción, Negación y Grados de Certeza",
+      "url": "levels/c1/matices-del-subjuntivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Nominalización y Estilo Académico",
+      "url": "levels/c1/nominalizacion-y-estilo-academico.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Perífrasis Verbales Avanzadas",
+      "url": "levels/c1/perifrasis-verbales-avanzadas.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "El Pluscuamperfecto de Subjuntivo",
+      "url": "levels/c1/pluscuamperfecto-de-subjuntivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Ponte a Prueba C1 (repaso completo)",
+      "url": "levels/c1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "C1",
+      "title": "Voseo, Ustedeo y Variación Dialectal Hispanoamericana",
+      "url": "levels/c1/voseo-ustedeo-y-variacion-dialectal.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Cohesión Textual en Discurso Extenso",
+      "url": "levels/c2/cohesion-textual-en-discurso-extenso.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Dominio del Registro y Transformación Estilística",
+      "url": "levels/c2/dominio-del-registro-y-transformacion-estilistica.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Estructuras Arcaicas o Literarias",
+      "url": "levels/c2/estructuras-arcaicas-o-literarias.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Matices Léxicos y Falsos Amigos Avanzados",
+      "url": "levels/c2/matices-lexicos-y-falsos-amigos-avanzados.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Modalidad y Atenuación en Discurso Formal",
+      "url": "levels/c2/modalidad-y-atenuacion-en-discurso-formal.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Registro Literario y Recursos Estilísticos",
+      "url": "levels/c2/registro-literario-y-recursos-estilisticos.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Sintaxis Compleja y Subordinación Múltiple",
+      "url": "levels/c2/sintaxis-compleja-y-subordinacion-multiple.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Ponte a Prueba C2 (repaso completo)",
+      "url": "levels/c2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "C2",
+      "title": "Variación Regional: España, México, Argentina, el Caribe",
+      "url": "levels/c2/variacion-regional.html",
+      "type": "lesson"
+    },
+    {
+      "level": null,
+      "title": "Ejercicios de Práctica",
+      "url": "exercises.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Diccionario y Referencia",
+      "url": "dictionary.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Prueba de Nivel",
+      "url": "placement-test.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Exámenes Simulados",
+      "url": "simulated-exams.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Extras",
+      "url": "extras.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Verbos Irregulares",
+      "url": "irregular-verbs.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Repaso de Hoy",
+      "url": "today-review.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Mi Progreso",
+      "url": "progress.html",
+      "type": "page"
+    }
+  ]
+}
