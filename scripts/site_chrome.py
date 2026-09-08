@@ -55,7 +55,7 @@ AI_TEACHER_WORKER_URL = "https://ai-teacher-es.englishclasses.workers.dev"
 # placeholder), así que mostrar el botón ahora mismo llevaría a un chat
 # que nunca responde — poner en True una vez que worker/ esté desplegado
 # con tu propia URL y reconstruir el sitio.
-AI_TEACHER_ENABLED = False
+AI_TEACHER_ENABLED = True
 
 
 def nav_levels_html(rel, active_level_code):
