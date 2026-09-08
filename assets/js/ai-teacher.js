@@ -1,6 +1,11 @@
 /*!
- * Renan the Teacher — AI English Teacher chat widget
+ * Renan el Profesor — AI Spanish Teacher chat widget
  * -----------------------------------------------------------------
+ * Ported from the sibling English-course project's assets/js/
+ * ai-teacher.js (see that file's own header comment for the full
+ * rationale — this is the same architecture, just re-branded for
+ * Clases de Español).
+ *
  * No login, no account, no data stored beyond the current browser
  * session. Sends the student's message (plus a short in-memory
  * conversation history, cleared when the tab/window closes) to a
@@ -17,7 +22,7 @@
   if (!scriptTag || !toggle) return;
 
   /* ---------------------------------------------------------------
-   * Betsy Ross flag intro — draws attention to the AI Teacher button
+   * "¡Ñ!" standard intro — draws attention to the AI Teacher button
    * once per browser tab session (sessionStorage key
    * "aiTeacherIntroShown"; sessionStorage rather than localStorage on
    * purpose, so it plays again next visit/tab but not on every page
@@ -27,53 +32,46 @@
    * delay, and no behavior change. See ".ai-teacher-intro" /
    * ".ai-teacher-toggle--pending" / "@keyframes ai-flag-wave" in
    * ai-teacher.css.
+   *
+   * The standard itself: a gold pole with a ball finial, a gold
+   * crossbar near the top, and a burgundy vexillum banner hanging
+   * from it bearing a celeste-ringed gold "¡Ñ!" — the letter most
+   * emblematic of Spanish itself. Spanish is spoken across many
+   * countries, so rather than pick one nation's flag (the way the
+   * English course's Betsy Ross flag or the Latin course's SPQR
+   * standard each represent a single country/state), this uses the
+   * language's own defining character instead. Colors are the raw
+   * palette tokens (--burgundy-600, --gold-*, --forest-600), not the
+   * semantic --color-* aliases, so the standard looks the same
+   * regardless of light/dark mode (see tokens.css / dark-mode.css).
    * --------------------------------------------------------------- */
   var INTRO_SESSION_KEY = "aiTeacherIntroShown";
   var INTRO_WAVE_MS = 2200; // must match the CSS animation-duration above
   var INTRO_BURST_DELAY_MS = 1250; // when the sparkle burst starts, partway through the wave
-  // 13-star Betsy Ross canton (evenly spaced ring, no center star) over
-  // 13 alternating stripes — a small, self-contained decorative SVG, so
-  // authentic flag colors are used directly rather than theme tokens
-  // (this flag looks the same regardless of light/dark mode).
-  var BETSY_ROSS_FLAG_SVG =
-    '<svg class="ai-teacher-intro__flag" viewBox="0 0 60 40" role="img" aria-label="Betsy Ross American flag">' +
-    '<rect x="0" y="0" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
-    '<rect x="0" y="3.08" width="60" height="3.58" fill="#fff"/>' +
-    '<rect x="0" y="6.15" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
-    '<rect x="0" y="9.23" width="60" height="3.58" fill="#fff"/>' +
-    '<rect x="0" y="12.31" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
-    '<rect x="0" y="15.38" width="60" height="3.58" fill="#fff"/>' +
-    '<rect x="0" y="18.46" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
-    '<rect x="0" y="21.54" width="60" height="3.58" fill="#fff"/>' +
-    '<rect x="0" y="24.62" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
-    '<rect x="0" y="27.69" width="60" height="3.58" fill="#fff"/>' +
-    '<rect x="0" y="30.77" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
-    '<rect x="0" y="33.85" width="60" height="3.58" fill="#fff"/>' +
-    '<rect x="0" y="36.92" width="60" height="3.58" fill="var(--old-glory-red)"/>' +
-    '<rect x="0" y="0" width="24" height="21.54" fill="var(--old-glory-blue)"/>' +
-    '<circle cx="12" cy="3.57" r="0.9" fill="#fff"/>' +
-    '<circle cx="15.35" cy="4.39" r="0.9" fill="#fff"/>' +
-    '<circle cx="17.93" cy="6.68" r="0.9" fill="#fff"/>' +
-    '<circle cx="19.15" cy="9.9" r="0.9" fill="#fff"/>' +
-    '<circle cx="18.73" cy="13.32" r="0.9" fill="#fff"/>' +
-    '<circle cx="16.77" cy="16.16" r="0.9" fill="#fff"/>' +
-    '<circle cx="13.72" cy="17.76" r="0.9" fill="#fff"/>' +
-    '<circle cx="10.28" cy="17.76" r="0.9" fill="#fff"/>' +
-    '<circle cx="7.23" cy="16.16" r="0.9" fill="#fff"/>' +
-    '<circle cx="5.27" cy="13.32" r="0.9" fill="#fff"/>' +
-    '<circle cx="4.85" cy="9.9" r="0.9" fill="#fff"/>' +
-    '<circle cx="6.07" cy="6.68" r="0.9" fill="#fff"/>' +
-    '<circle cx="8.65" cy="4.39" r="0.9" fill="#fff"/>' +
+  var ENYE_STANDARD_SVG =
+    '<svg class="ai-teacher-intro__banner" viewBox="0 0 60 64" role="img" aria-label="Estandarte con la letra Ñ">' +
+    // Pole + ball finial
+    '<rect x="7.5" y="8" width="2.4" height="52" fill="var(--gold-600)"/>' +
+    '<circle cx="8.7" cy="6.5" r="3.2" fill="var(--gold-500)"/>' +
+    // Crossbar the banner hangs from
+    '<rect x="2" y="15" width="32" height="2.2" fill="var(--gold-500)"/>' +
+    // Banner
+    '<rect x="2" y="17.2" width="32" height="32.8" fill="var(--burgundy-600)" stroke="var(--gold-600)" stroke-width="0.8"/>' +
+    // Fringe (gold zigzag along the bottom edge)
+    '<path d="M2,50 L4.67,54.5 L7.33,50 L10,54.5 L12.67,50 L15.33,54.5 L18,50 L20.67,54.5 L23.33,50 L26,54.5 L28.67,50 L31.33,54.5 L34,50 Z" fill="var(--gold-500)"/>' +
+    // Celeste ring + gold "¡Ñ!" lettering, centered on the banner
+    '<circle cx="18" cy="32.5" r="8.6" fill="none" stroke="var(--forest-600)" stroke-width="0.9"/>' +
+    '<text x="18" y="36.5" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="10" font-weight="700" fill="var(--gold-300)">Ñ</text>' +
     "</svg>";
 
   // A small golden sparkle burst, timed to land partway through the
-  // flag's wave rather than at t=0. Reuses the exact .xp-burst /
+  // banner's wave rather than at t=0. Reuses the exact .xp-burst /
   // .xp-burst__spark classes and @keyframes the gamification toasts
   // use (see components.css and progress.js's buildBurst()) for a
   // consistent look — just with a later --delay/--glow-delay so it
-  // reads as "during the wave" instead of "the moment the flag appears."
+  // reads as "during the wave" instead of "the moment the banner appears."
   // Only ever called from playFlagIntro(), which already skips the
-  // whole flag (and this burst with it) under prefers-reduced-motion.
+  // whole banner (and this burst with it) under prefers-reduced-motion.
   function buildSparkleBurst() {
     var burst = document.createElement("div");
     burst.className = "xp-burst xp-burst--badge";
@@ -90,14 +88,14 @@
   }
 
   // A handful of extra sparkle bursts at random points scattered around
-  // the flag/button corner — not just the one centered on the flag
+  // the banner/button corner — not just the one centered on the banner
   // (buildSparkleBurst() above). Each "spot" is its own tiny anchor
   // positioned at a random spot inside .ai-teacher-fireworks (which
-  // itself just hugs the same corner as the flag/button, see
+  // itself just hugs the same corner as the banner/button, see
   // ai-teacher.css), reusing .xp-burst/.xp-burst__spark so every burst
   // — centered or scattered — looks identical, just relocated and
   // independently timed. Delays are spread across (and a little past)
-  // the flag's wave so the fireworks read as happening *during* the
+  // the banner's wave so the fireworks read as happening *during* the
   // moment, not all at once. Only ever called from playFlagIntro(),
   // which already skips this entirely under prefers-reduced-motion.
   function buildScatteredFireworks() {
@@ -117,7 +115,7 @@
       var burst = document.createElement("div");
       burst.className = "xp-burst xp-burst--badge";
       burst.style.setProperty("--glow-delay", delay + "ms");
-      // Fewer sparks per scattered burst than the single on-flag one
+      // Fewer sparks per scattered burst than the single on-banner one
       // (buildSparkleBurst() uses 12) — several small pops read better
       // than several big ones at this scale.
       var sparkCount = 5 + Math.floor(Math.random() * 3);
@@ -148,12 +146,12 @@
     var intro = document.createElement("div");
     intro.className = "ai-teacher-intro";
     intro.setAttribute("aria-hidden", "true"); // purely decorative; the real button carries the accessible label
-    intro.innerHTML = BETSY_ROSS_FLAG_SVG;
+    intro.innerHTML = ENYE_STANDARD_SVG;
     intro.appendChild(buildSparkleBurst());
     // .ai-teacher-fireworks is itself position:fixed (see ai-teacher.css),
     // so nesting it inside `intro` is just for lifecycle convenience —
     // one `intro.remove()` in finish() below clears both together —
-    // it isn't laid out relative to the flag's own small inline box.
+    // it isn't laid out relative to the banner's own small inline box.
     intro.appendChild(buildScatteredFireworks());
     document.body.appendChild(intro);
 
@@ -172,7 +170,7 @@
     // case the animation never fires/completes for any reason, so the
     // button is never stuck invisible.
     var fallbackTimer = setTimeout(finish, INTRO_WAVE_MS + 200);
-    intro.querySelector(".ai-teacher-intro__flag").addEventListener("animationend", finish);
+    intro.querySelector(".ai-teacher-intro__banner").addEventListener("animationend", finish);
   }
   playFlagIntro();
 
@@ -212,12 +210,13 @@
   // the real course structure — no page markup changes needed. The
   // level comes from the URL (levels/a1/..., levels/a2.html, ...);
   // the "lesson" name is just the first segment of <title> (e.g.
-  // "Adjectives — A1 English Grammar — Renan the Teacher" -> "Adjectives").
-  // The Worker re-validates all of this against its own course
-  // catalog before ever using it — nothing here is trusted as-is.
+  // "Adjetivos y Concordancia — Gramática de Español A1 — Renan el
+  // Profesor" -> "Adjetivos y Concordancia"). The Worker re-validates
+  // all of this against its own course catalog before ever using it —
+  // nothing here is trusted as-is.
   var courseContext = (function () {
     var path = window.location.pathname;
-    var levelMatch = path.match(/\/levels\/(a1|a2|b1|b2|c1|c2)(?:[\/.]|$)/i);
+    var levelMatch = path.match(/\/levels\/(pre-a1|a1|a2|b1|b2|c1|c2)(?:[\/.]|$)/i);
     var titleParts = (document.title || "").split("—"); // split on em dash "—"
     return {
       currentLevel: levelMatch ? levelMatch[1].toUpperCase() : "",
@@ -359,7 +358,7 @@
   // Base the site's own relative paths (as sent to the model in the
   // Worker's "Course context") resolve against — used only by the bare
   // relative-path safety net below.
-  var SITE_BASE_URL = "https://renangrossi.github.io/englishclasses/";
+  var SITE_BASE_URL = "https://renangrossi.github.io/clasesdeespanol/";
 
   // Turns Markdown links [Label](url) into real, clickable <a> elements.
   // Two safety nets, for on the rare chance the model doesn't follow
@@ -516,16 +515,16 @@
       })
       .then(function (data) {
         typing.remove();
-        var reply = data && data.reply ? data.reply : "Sorry, I didn't get a response. Please try again.";
+        var reply = data && data.reply ? data.reply : "Lo siento, no recibí una respuesta. Inténtalo de nuevo, por favor.";
         addMessage("bot", reply);
         history.push({ role: "assistant", content: reply });
       })
       .catch(function (err) {
         typing.remove();
         if (err && err.message === "RATE_LIMIT") {
-          addMessage("bot", "You've reached today's question limit for the AI Teacher. Please come back tomorrow, or keep practicing with the course's own exercises in the meantime!");
+          addMessage("bot", "Has alcanzado el límite de preguntas de hoy para el Profesor IA. Vuelve mañana, ¡o sigue practicando mientras tanto con los ejercicios del curso!");
         } else {
-          addMessage("bot", "Sorry, I couldn't reach the AI Teacher right now. Please check your connection and try again in a moment.");
+          addMessage("bot", "Lo siento, no pude conectar con el Profesor IA en este momento. Revisa tu conexión e inténtalo de nuevo en un momento.");
         }
       })
       .finally(function () {
