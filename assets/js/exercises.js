@@ -255,7 +255,7 @@
     if (data.type && data.type !== "writing" && TYPE_LABELS[data.type]) {
       last += TYPE_LABELS[data.type] + " ";
     }
-    last += data.title || "Exercise";
+    last += data.title || "Ejercicio";
     parts.push(last.trim());
 
     return sanitizeFilename(parts.join(" - "));
@@ -275,7 +275,7 @@
     var parts = buildSavePathParts(container);
     var typeLabel = TYPE_LABELS_TITLE[data.type];
     if (typeLabel) parts.push(typeLabel);
-    parts.push(data.title || "Exercise");
+    parts.push(data.title || "Ejercicio");
     return parts.join(" - ");
   }
 
@@ -1284,7 +1284,7 @@
       }
       return extractor(itemEl, item);
     });
-    return { id: data.id, type: data.type, title: data.title || "Exercise", instructions: data.instructions || "", items: items };
+    return { id: data.id, type: data.type, title: data.title || "Ejercicio", instructions: data.instructions || "", items: items };
   }
 
   function collectTopicAnswers(topicSection) {
@@ -1344,7 +1344,7 @@
   function buildExerciseSummaryNode(ex) {
     var block = el("div", { class: "exercise-block saved-summary-block" });
     var typeLabel = TYPE_LABELS[ex.type] ? TYPE_LABELS[ex.type] + " — " : "";
-    block.appendChild(el("h3", { class: "exercise-block__title", text: typeLabel + (ex.title || "Exercise") }));
+    block.appendChild(el("h3", { class: "exercise-block__title", text: typeLabel + (ex.title || "Ejercicio") }));
     if (ex.instructions) block.appendChild(el("p", { class: "exercise-block__instructions", text: ex.instructions }));
     var list = el("div", { class: "saved-summary-list" });
     ex.items.forEach(function (entry) { list.appendChild(buildResultItemNode(entry)); });
